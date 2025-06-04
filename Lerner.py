@@ -3,18 +3,18 @@
 # modul2 = Datenquellen
 # modul3 = Agile Vorgehensmodelle
 
-from Lernfeld8 import modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8
+from Lernfeld8 import modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11
 
 
 def auswahl_lernfeld():
     print("\nWähle ein Lernfeld:")
-    print("1. Lernfeld 1")
-    print("2. Lernfeld 2")
-    print("3. Lernfeld 3")
-    print("4. Lernfeld 4")
-    print("5. Lernfeld 5")
-    print("6. Lernfeld 6")
-    print("7. Lernfeld 7")
+   # print("1. Lernfeld 1")
+   # print("2. Lernfeld 2")
+    #print("3. Lernfeld 3")
+   # print("4. Lernfeld 4")
+   # print("5. Lernfeld 5")
+   # print("6. Lernfeld 6")
+   # print("7. Lernfeld 7")
     print("8. Lernfeld 8")  # Nur dieses ist aktuell implementiert
     print("0. Beenden")
     return input("Deine Wahl: ")
@@ -39,7 +39,10 @@ def main():
             "Datenqualität",
             "Datenquelle",
             "Heterogene Datenquellen",
-            "Programmierparadigmen unterscheiden"
+            "Programmierparadigmen unterscheiden",
+            "objektorientierte Programmierung",
+            "unified modeling language",
+            "Anwendungsfalldiagramme beschreiben und anwenden"
         ]
     }
 
@@ -87,6 +90,12 @@ def main():
                     modul7()
                 elif modul_index == 8:
                     modul8()
+                elif modul_index == 9:
+                    modul9()
+                elif modul_index == 10:
+                    modul10()
+                elif modul_index == 11:
+                    modul11()
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 
