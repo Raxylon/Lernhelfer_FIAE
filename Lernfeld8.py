@@ -996,3 +996,660 @@ def modul8():
             break
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+# Basierend auf dem bereitgestellten Lehrtext wurde ein neues Modul für das Lernprogramm erstellt,
+# das dem Stil von modul1 folgt und zehn Fragen zur objektorientierten Programmierung enthält.
+
+def modul9():
+    lerninhalte = [
+        "Die objektorientierte Programmierung (OOP) orientiert sich an Objekten der realen Welt.\n"
+        "Sie basiert auf früheren Paradigmen wie strukturierter und prozeduraler Programmierung.\n"
+        "Ziel ist eine anwendungsnahe Modellierung mit Konzepten wie Klassen, Vererbung und Polymorphie.",
+
+        "Ein Objekt besitzt Eigenschaften (Zustand) und Methoden (Verhalten).\n"
+        "Eine Klasse ist eine Vorlage für gleichartige Objekte.\n"
+        "Beispiel: Klasse 'Wasserfahrzeug' mit Attributen wie Name, Tiefgang und Methoden wie schwimmen().",
+
+        "Kapselung bedeutet, dass interne Daten eines Objekts verborgen werden.\n"
+        "Zugriff auf Eigenschaften erfolgt nur über definierte Schnittstellen (Methoden).\n"
+        "Zugriffsmodifizierer: public, protected, private.",
+
+        "Vererbung erlaubt es, neue Klassen auf Basis vorhandener Klassen zu erstellen.\n"
+        "Abgeleitete Klassen erben Eigenschaften und Methoden der Basisklasse und können erweitert werden.\n"
+        "Mehrfachvererbung ist nicht in allen Sprachen unterstützt.",
+
+        "Polymorphie erlaubt gleichnamige Methoden mit unterschiedlichem Verhalten in verschiedenen Klassen.\n"
+        "Formen: Überladen (Methoden mit verschiedenen Parametern), Überschreiben (Methode neu implementiert).\n"
+        "Dynamische Bindung entscheidet zur Laufzeit, welche Methode ausgeführt wird."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist ein zentrales Ziel der objektorientierten Programmierung?",
+            "optionen": [
+                "a) Möglichst viele globale Variablen verwenden.",
+                "b) Den Programmcode nicht strukturieren.",
+                "c) Abbildung realer Objekte in Software durch Klassen und Objekte.",
+                "d) Direktes Schreiben in Speicheradressen ermöglichen."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was beschreibt eine Klasse?",
+            "optionen": [
+                "a) Ein konkretes Objekt.",
+                "b) Eine Programmiersprache.",
+                "c) Eine Vorlage für gleichartige Objekte.",
+                "d) Eine Fehlerbehandlung."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was gehört zu einem Objekt?",
+            "optionen": [
+                "a) Nur Methoden.",
+                "b) Nur Eigenschaften.",
+                "c) Nur Datenbanken.",
+                "d) Zustand und Verhalten (Eigenschaften und Methoden)."
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Was bedeutet Kapselung?",
+            "optionen": [
+                "a) Methoden dürfen nicht aufgerufen werden.",
+                "b) Eigenschaften werden vor direktem Zugriff geschützt.",
+                "c) Die Klasse wird mehrfach verwendet.",
+                "d) Objekte werden vererbt."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Zugriffsmodifizierer gibt es laut Lehrtext?",
+            "optionen": ["a) static, final, new",
+                         "b) public, protected, private",
+                         "c) open, strict, flexible",
+                         "d) inline, export, abstract"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist eine abgeleitete Klasse?",
+            "optionen": [
+                "a) Eine Klasse ohne Methoden.",
+                "b) Eine Klasse, die aus einer Basisklasse entsteht und diese erweitert.",
+                "c) Eine Kopie der Basisklasse.",
+                "d) Eine fehlerhafte Klasse."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was beschreibt Polymorphie am besten?",
+            "optionen": [
+                "a) Eine Methode kann nur in einer Klasse existieren.",
+                "b) Objekte müssen identisch sein.",
+                "c) Gleichnamige Methoden verhalten sich unterschiedlich in verschiedenen Klassen.",
+                "d) Eine Methode wird nur einmal im Programm aufgerufen."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist keine Form von Polymorphie?",
+            "optionen": [
+                "a) Überladen von Methoden.",
+                "b) Überschreiben von Methoden.",
+                "c) Direktes Editieren von Attributen.",
+                "d) Dynamische Bindung."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Bedingungen gelten beim Überschreiben von Methoden?",
+            "optionen": [
+                "a) Methodenname, Parameter und Rückgabewert müssen identisch sein.",
+                "b) Nur Methodenname muss identisch sein.",
+                "c) Parameter dürfen unterschiedlich sein.",
+                "d) Rückgabewert darf frei gewählt werden."
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Warum ist Mehrfachvererbung problematisch?",
+            "optionen": [
+                "a) Weil sie zu einfache Strukturen erzeugt.",
+                "b) Weil sie keine Vererbung erlaubt.",
+                "c) Weil nicht alle objektorientierten Sprachen sie vollständig unterstützen.",
+                "d) Weil Objekte dabei gelöscht werden."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist das Hauptziel der objektorientierten Programmierung (OOP)?",
+            "optionen": [
+                "a) Programme möglichst schnell ausführen",
+                "b) Programme modularisieren und an Wirklichkeitsobjekte anlehnen",
+                "c) Alle Daten sichtbar machen",
+                "d) Möglichst viele Programmiersprachen einsetzen"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage beschreibt ein Objekt korrekt?",
+            "optionen": [
+                "a) Es ist ein Algorithmus.",
+                "b) Es ist ein abstraktes Konzept ohne Zustand.",
+                "c) Es besitzt Eigenschaften mit Werten und Methoden.",
+                "d) Es ist immer privat."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist eine Klasse in der OOP?",
+            "optionen": [
+                "a) Eine spezielle Methode",
+                "b) Eine Funktion zur Laufzeitbindung",
+                "c) Ein Bauplan für gleichartige Objekte",
+                "d) Ein Codeblock ohne Funktion"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was bedeutet Kapselung in der OOP?",
+            "optionen": [
+                "a) Objekte werden gelöscht",
+                "b) Eigenschaften sind immer öffentlich",
+                "c) Implementierungsdetails werden verborgen",
+                "d) Methoden können nicht überschrieben werden"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was erlaubt Polymorphie?",
+            "optionen": [
+                "a) Methoden können mehrfach benannt werden, solange sie identisch sind",
+                "b) Methoden gleichen Namens zeigen je nach Objekt unterschiedliches Verhalten",
+                "c) Alle Eigenschaften werden mehrfach vererbt",
+                "d) Alle Objekte sind gleich"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was beschreibt dynamisches Binden?",
+            "optionen": [
+                "a) Methoden werden beim Kompilieren zugewiesen",
+                "b) Methodenbindung geschieht zur Laufzeit",
+                "c) Objekte werden zu Anfang gelöscht",
+                "d) Objekte binden Daten zur Compilezeit"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was sind Voraussetzungen für das Überschreiben einer Methode?",
+            "optionen": [
+                "a) Anderer Methodenname, gleiche Parameter",
+                "b) Gleicher Name, Parameter, Rückgabewert und keine restriktiveren Rechte",
+                "c) Gleicher Name, unterschiedliche Rückgabetypen",
+                "d) Beliebiger Name mit gleichem Zugriff"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage zur Vererbung ist richtig?",
+            "optionen": [
+                "a) Nur Eigenschaften, keine Methoden werden vererbt",
+                "b) Nur Methoden, keine Eigenschaften werden vererbt",
+                "c) Eigenschaften und Methoden der Basisklasse werden übernommen",
+                "d) Vererbung gibt es nur in JavaScript"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist ein Problem bei der Mehrfachvererbung?",
+            "optionen": [
+                "a) Sie ist nur in Python möglich",
+                "b) Sie ist sehr leicht zu implementieren",
+                "c) Sie wird nicht von allen Sprachen unterstützt",
+                "d) Sie führt automatisch zu höherer Leistung"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welches Qualitätsziel wird u.a. durch OOP gefördert?",
+            "optionen": [
+                "a) Ineffizienz",
+                "b) Änderbarkeit und Wiederverwendbarkeit",
+                "c) Einmaligkeit des Codes",
+                "d) Komplexität und Langsamkeit"
+            ],
+            "antwort": "b"
+        }
+    ]
+
+    def lernen():
+        print("\nLERNMODUS - Lernfeld 8, Modul 2: Objektorientiertes Programmierparadigma\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print("\nTESTMODUS - Lernfeld 8, Modul 2: Objektorientiertes Programmierparadigma\n")
+
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print("\nLernfeld 8 - Modul 2: Objektorientiertes Programmierparadigma")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+
+def modul10():
+    lerninhalte = [
+        "Sie sollen die Modellierungssprache UML kennenlernen, die einzelnen Diagrammtypen unterscheiden und das Anwendungsfalldiagramm,\n\
+         das Klassendiagramm und das Aktivitätsdiagramm anwenden können.\n\
+         Größere Softwareprojekte können nicht ohne Vorbereitung und Planung erfolgreich erstellt werden. Abstimmungsgespräche, sowohl zwischen\n\
+         den einzelnen Projektmitgliedern als auch mit dem Kunden, sind notwendig. In der Regel werden für die Kommunikation und \n\
+         Dokumentation Modellierungssprachen, z.B. das Struktogramm oder das ERM, verwendet. Diese vereinfachen die Kommunikation \n\
+         und stellen Sachverhalte übersichtlich dar. Heutzutage wird dafür immer häufiger UML (Unified Modeling Language) genutzt.",
+
+        "Unified Modeling Language (UML) ist eine Modellierungssprache zur Spezifikation, Visualisierung, Konstruktion und Dokumentation \n\
+        von Modellen für Softwaresysteme, aber auch zur Darstellung von Geschäftsmodellen. UML bietet eine Vielzahl an Diagrammtypen, besonders \n\
+        ausgerichtet auf den objektorientierten Ansatz. Seit 1998 gilt UML als Standard, die Object Management Group (OMG) verantwortet die Standardisierung.",
+
+        "Die Notwendigkeit zur Planung von Softwaresystemen wurde schon in den 1970er-Jahren erkannt. Viele inkompatible\n\
+         Modellierungssprachen entstanden. Anfang der 1990er Jahre vereinheitlichten Grady Booch, Ivar Jacobsen und Jim Rumbaugh\n\
+         diese in UML. Führende Unternehmen unterstützten diese Entwicklung. Die erste UML-Version erschien 1997, UML 2.0 wurde 2005\n\
+         fertiggestellt. Die aktuelle Version 2.5.1 umfasst fast 800 Seiten und wurde 2017 veröffentlicht.",
+
+        "UML 2.5.1 umfasst 14 verschiedene Diagrammtypen, eingeteilt in Struktur- und Verhaltensdiagramme. Diagramme können Elemente\n\
+         anderer Diagrammtypen enthalten, besonders zwischen den beiden großen Kategorien. Zur Erstellung werden meist Programme genutzt,\n\
+         in Meetings aber oft handgezeichnete Skizzen. Der standardisierte Austausch erfolgt via XML Metadata Interchange (XMI).",
+
+        "UML-Diagramme sind: Verhaltensdiagramme (Anwendungsfalldiagramm, Sequenzdiagramm, Aktivitätsdiagramm, Zeitverlaufsdiagramm,\n\
+         Zustandsdiagramm, Kommunikationsdiagramm, Interaktionsübersichtsdiagramm) und Strukturdiagramme (Klassendiagramm, Objektdiagramm, \n\
+         Komponentendiagramm, Verteilungsdiagramm, Paketdiagramm, Profildiagramm, Kompositionsstrukturdiagramm). Strukturdiagramme sind statisch\n\
+         und beschreiben den Systemzustand, Verhaltensdiagramme dynamisch und beschreiben Abläufe.",
+
+        "Klassendiagramm: Wichtigster UML-Diagrammtyp. Beschreibt Klassen und deren Beziehungen als Bauplan für Objekte.",
+
+        "Objektdiagramm: Spezifizierung des Klassendiagramms, zeigt reale Objekte und deren Beziehungen zur Laufzeit. Ergänzt Klassendiagramme.",
+
+        "Komponentendiagramm: Zeigt Organisation und Abhängigkeiten von Software-Komponenten, die über Klassen-Ebene hinausgehen.",
+
+        "Verteilungsdiagramm: Beschreibt verteilte Systeme, zeigt Geräte und darauf ausgeführte Programme sowie deren Kommunikation.",
+
+        "Paketdiagramm: Gruppiert Klassen zu Paketen, genutzt zur übersichtlichen Anordnung in Programmiersprachen wie Java oder C#.",
+
+        "Profildiagramm: Metamodell-Ebene zur Definition von Stereotypen und Profilen, steht über allen anderen Diagrammen, selten genutzt.",
+
+        "Kompositionsstrukturdiagramm: Beschreibt interne Struktur einer Komponente und deren Interaktionen mit anderen Komponenten.",
+
+        "Anwendungsfalldiagramm: Zeigt Beziehungen zwischen Akteuren und deren Aktionen auf einem System. Verdeutlicht grundlegende\n Anwendungsszenarien. Neben Klassendiagramm eines der wichtigsten UML-Diagramme.",
+
+        "Aktivitätsdiagramm: Beschreibt Verhalten von Klassen oder Komponenten durch Abläufe von Aktionen. Sehr flexibel in der Darstellung.",
+
+        "Zustandsdiagramm: Modelliert Zustandswechsel, Zustandsübergänge und Ereignisse eines Systems. Auch Zustandsautomat genannt.",
+
+        "Sequenzdiagramm: Fokussiert Interaktionen zwischen Objekten, insbesondere den Nachrichtenfluss und zeitlichen Ablauf. Beziehungen\n der Objekte sind nicht dargestellt.",
+
+        "Zeitverlaufsdiagramm: Zeigt Zustandswechsel von Objekten über Zeiträume, z.B. Zeitabstände zwischen Aktionen.",
+
+        "Kommunikationsdiagramm: Stellt Zusammenarbeit von Objekten und deren dynamisches Verhalten dar. Alternative zum Sequenzdiagramm\n mit Fokus auf Struktur der Nachrichten.",
+
+        "Interaktionsübersichtsdiagramm: Vereint mehrere Verhaltensdiagramme, z.B. Aktivitäts- und Sequenzdiagramme, um deren Zusammenspiel\n abzubilden.",
+
+        "Beispielhafte Ausgangssituation: Für Kundenauftrag der Automatik AG entwickelt Systemhaus JIKU Software zur Maschinenwartung und \nProduktionsdatenanalyse. Software unterstützt Wartungsmitarbeiter und Statistiker. Objektorientierter Ansatz mit UML-Modellierung wird in allen Phasen verwendet."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist das Hauptziel von UML?",
+            "optionen": [
+                "a) Visuelle Gestaltung von Benutzeroberflächen.",
+                "b) Spezifikation, Visualisierung und Dokumentation von Softwaresystemen.",
+                "c) Erstellung von Datenbanken.",
+                "d) Programmierung von Webanwendungen."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wer ist verantwortlich für die Standardisierung von UML?",
+            "optionen": [
+                "a) Microsoft.",
+                "b) Object Management Group (OMG).",
+                "c) Oracle.",
+                "d) International Organization for Standardization (ISO)."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche zwei Hauptkategorien von UML-Diagrammen gibt es?",
+            "optionen": [
+                "a) Flussdiagramme und Zustandsdiagramme.",
+                "b) Strukturdiagramme und Verhaltensdiagramme.",
+                "c) Datenflussdiagramme und Netzwerkdiagramme.",
+                "d) Anwendungsdiagramme und Klassendiagramme."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welches UML-Diagramm beschreibt den Bauplan von Klassen und deren Beziehungen?",
+            "optionen": [
+                "a) Aktivitätsdiagramm.",
+                "b) Anwendungsfalldiagramm.",
+                "c) Klassendiagramm.",
+                "d) Zustandsdiagramm."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was beschreibt ein Objektdiagramm im Vergleich zum Klassendiagramm?",
+            "optionen": [
+                "a) Es beschreibt abstrakte Klassen.",
+                "b) Es zeigt reale Objekte und deren Beziehungen zur Laufzeit.",
+                "c) Es modelliert den zeitlichen Ablauf von Aktionen.",
+                "d) Es gruppiert Klassen zu Paketen."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wozu dient ein Aktivitätsdiagramm in UML?",
+            "optionen": [
+                "a) Zur Beschreibung des Verhaltens von Klassen oder Komponenten durch Ablauf von Aktionen.",
+                "b) Zur Darstellung von Paketabhängigkeiten.",
+                "c) Zur Dokumentation von Hardwarekomponenten.",
+                "d) Zur Visualisierung von Zustandsübergängen."
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was zeigt ein Verteilungsdiagramm an?",
+            "optionen": [
+                "a) Die interne Struktur einer Klasse.",
+                "b) Verteilung von Programmen auf Geräten und deren Kommunikation.",
+                "c) Die zeitliche Abfolge von Nachrichten zwischen Objekten.",
+                "d) Beziehungen zwischen Akteuren und Aktionen."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage ist richtig?",
+            "optionen": [
+                "a) UML wurde in den 1970er Jahren vereinheitlicht.",
+                "b) UML ist ausschließlich für objektorientierte Programmierung nutzbar.",
+                "c) UML 2.5.1 umfasst 14 verschiedene Diagrammtypen.",
+                "d) UML wird nicht mehr weiterentwickelt."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was beschreibt ein Zustandsdiagramm?",
+            "optionen": [
+                "a) Eine Abfolge von Aktionen im Zeitverlauf.",
+                "b) Zustandswechsel und Ereignisse eines Systems.",
+                "c) Beziehungen zwischen Softwarekomponenten.",
+                "d) Die Organisation von Klassen in Paketen."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage zum Anwendungsfalldiagramm ist korrekt?",
+            "optionen": [
+                "a) Es zeigt interne Strukturen von Klassen.",
+                "b) Es verdeutlicht grundlegende Anwendungsszenarien durch Beziehungen zwischen Akteuren und Aktionen.",
+                "c) Es beschreibt den Nachrichtenfluss zwischen Objekten.",
+                "d) Es gruppiert Klassen zu Komponenten."
+            ],
+            "antwort": "b"
+        }
+    ]
+
+    def lernen():
+        print("\nLERNMODUS - Lernfeld 8, Modul 10: UML - Die Modellierungssprache\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print("\nTESTMODUS - Lernfeld 8, Modul 10: UML - Die Modellierungssprache\n")
+
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print("\nLernfeld 8 - Modul 2: Objektorientiertes Programmierparadigma")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+
+def modul11():
+    lerninhalte = [
+        "Ein Anwendungsfalldiagramm stellt die Funktionalität eines Systems aus Sicht der Benutzer dar.\n\
+Es beschreibt *was* ein System leisten soll – nicht *wie* es technisch umgesetzt wird.\n\
+Ein Anwendungsfalldiagramm besteht aus einer Menge von Anwendungsfällen (Use Cases) und zeigt die Beziehungen zu Akteuren.",
+
+        "Wichtige Notationselemente:\n\
+- Systemgrenze: Rechteck, das alle Anwendungsfälle umfasst.\n\
+- Akteur (Actor): Externer Benutzer oder System (Strichmännchen oder Rechteck).\n\
+- Anwendungsfall: Aktion oder Funktionsgruppe für den Benutzer.\n\
+- Assoziation: Linie zwischen Akteur und Anwendungsfall.\n\
+- «include»: Unbedingte Einbindung eines Use Cases in einen anderen.\n\
+- «extends»: Bedingte Erweiterung eines Use Cases.\n\
+- Generalisierung/Spezialisierung: Beziehung zwischen allgemeinem und spezialisiertem Element (für Akteure oder Use Cases).",
+
+        "Angaben außerhalb des Rechtecks gehören nicht zum System.\n\
+Aber Schnittstellen zu externen Systemen (z. B. zur Bank) müssen vorhanden sein.\n\
+Diese ergeben sich aus den Beziehungen zwischen Akteuren und Anwendungsfällen – z. B. Benutzeroberflächen.\n\
+Oft werden mehrere Anwendungsfalldiagramme für komplexere Systeme verwendet.",
+
+        "Beispiel: Wartungsmitarbeiter sollen Maschinen ein-/ausschalten können, Fehlerprotokolle einsehen,\n\
+Wartungsprotokolle erstellen und alles drucken können. Statistiker sollen Produktionsdaten einsehen,\n\
+analysieren und ebenfalls drucken können. Daten müssen aktualisiert werden.\n\
+Das Anwendungsfalldiagramm zeigt dies als vereinfachtes Systemverhalten.",
+
+        "Beispielaufgabe: Hotelzimmerreservierung. Akteure: Kunde, Bank (extern).\n\
+Anwendungsfälle: Zimmer reservieren, Verfügbarkeit prüfen («include»), Zahlungsmethode eingeben,\n\
+Kreditkarte prüfen («extends», wenn Kreditkarte gewählt wird)."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was beschreibt ein Anwendungsfalldiagramm hauptsächlich?",
+            "optionen": ["a) Den technischen Code eines Programms.",
+                         "b) Die Nutzeroberfläche in grafischer Form.",
+                         "c) Die Funktionalität aus Sicht des Benutzers.",
+                         "d) Den Verlauf eines Datenbankzugriffs."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage trifft NICHT zu einem Anwendungsfalldiagramm?",
+            "optionen": ["a) Es zeigt, was das System leisten soll.",
+                         "b) Es zeigt die technische Umsetzung.",
+                         "c) Es zeigt Beziehungen zu Akteuren.",
+                         "d) Es dient der Strukturierung von Use Cases."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was bedeutet das Notationselement «include»?",
+            "optionen": ["a) Bedingte Erweiterung eines Use Cases.",
+                         "b) Ein Akteur muss einbezogen werden.",
+                         "c) Unbedingte Einbindung eines anderen Use Cases.",
+                         "d) Technische Erweiterung der Benutzeroberfläche."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage zu Systemgrenzen ist korrekt?",
+            "optionen": ["a) Nur Akteure befinden sich innerhalb der Systemgrenze.",
+                         "b) Die Systemgrenze enthält alle Akteure und alle Programme.",
+                         "c) Die Systemgrenze umfasst alle Anwendungsfälle des Systems.",
+                         "d) Angaben außerhalb des Rechtecks müssen ignoriert werden."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Elemente sind *nicht* Teil eines Anwendungsfalldiagramms?",
+            "optionen": ["a) Anwendungsfälle",
+                         "b) Datenbanktabellen",
+                         "c) Akteure",
+                         "d) Assoziationen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was stellt eine Generalisierung/Spezialisierung dar?",
+            "optionen": ["a) Eine Verbindung zu einer Datenbank.",
+                         "b) Eine technische Erweiterung des Systems.",
+                         "c) Eine Beziehung zwischen allgemeinem und spezialisiertem Akteur oder Use Case.",
+                         "d) Eine Alternative zu «include» und «extends»."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was bedeutet die Notation «extends»?",
+            "optionen": ["a) Erweiterung durch ein technisches Modul.",
+                         "b) Bedingte Erweiterung eines Anwendungsfalls.",
+                         "c) Mehrere Systeme greifen gleichzeitig zu.",
+                         "d) Unbedingte Wiederholung eines Use Cases."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein Akteur in einem Anwendungsfalldiagramm?",
+            "optionen": ["a) Eine interne Komponente des Systems.",
+                         "b) Ein externer Benutzer oder System.",
+                         "c) Eine Funktion innerhalb eines Anwendungsfalls.",
+                         "d) Eine Datenbankverbindung."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussagen zum Beispiel Wartungsprogramm sind korrekt? (Mehrere möglich)",
+            "optionen": ["a) Wartungsmitarbeiter können Maschinen ein- und ausschalten.",
+                         "b) Fehlerprotokolle können angezeigt werden.",
+                         "c) Nur die Statistiker dürfen das System verwenden.",
+                         "d) Statistiken können ausgedruckt werden."],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Welche Use Cases enthält das Hotelreservierungssystem? (Mehrere möglich)",
+            "optionen": ["a) Zimmer reservieren",
+                         "b) Verfügbarkeit prüfen",
+                         "c) Zahlungsmethode eingeben",
+                         "d) Benutzerprofil erstellen"],
+            "antwort": ["a", "b", "c"]
+        }
+    ]
+
+    def lernen():
+        print("\nLERNMODUS – Lernfeld 8, Modul 11: Anwendungsfalldiagramme\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print("\nTESTMODUS – Lernfeld 8, Modul 11: Anwendungsfalldiagramme\n")
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print("\nLernfeld 8 – Modul 11: Anwendungsfalldiagramme")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
