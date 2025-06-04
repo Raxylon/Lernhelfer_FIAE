@@ -3,7 +3,7 @@
 # modul2 = Datenquellen
 # modul3 = Agile Vorgehensmodelle
 
-from Lernfeld8 import modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11
+from Lernfeld8 import modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11, modul12
 
 
 def auswahl_lernfeld():
@@ -42,7 +42,8 @@ def main():
             "Programmierparadigmen unterscheiden",
             "objektorientierte Programmierung",
             "unified modeling language",
-            "Anwendungsfalldiagramme beschreiben und anwenden"
+            "Anwendungsfalldiagramme beschreiben und anwenden",
+            "Klassendiagramme"
         ]
     }
 
@@ -96,6 +97,8 @@ def main():
                     modul10()
                 elif modul_index == 11:
                     modul11()
+                elif modul_index == 12:
+                    modul12()
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 

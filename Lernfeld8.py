@@ -1,3 +1,57 @@
+def modul_lernen_und_testen(modulname, lerninhalte, fragen):
+    def lernen():
+        print(f"\nLERNMODUS - {modulname}\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print(f"\nTESTMODUS - {modulname}\n")
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print(f"\n{modulname}")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+
+
 def modul1():
     lerninhalte = [
         "Projekte sind zeitlich begrenzt, haben ein klares Ziel und sind einmalig.\n\
@@ -52,58 +106,7 @@ def modul1():
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 1: Projektmanagement-Grundlagen\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
-
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 1: Projektmanagement-Grundlagen\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 1: Projektmanagement-Grundlagen")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
+    modul_lernen_und_testen("Lernfeld 8: modul1 Projektmanagement",lerninhalte,fragen)
 def modul2():
     lerninhalte = [
         "Datenquellen sind die verborgenen Quellen, aus denen das Wissen fließt.\n"
@@ -1653,3 +1656,155 @@ Kreditkarte prüfen («extends», wenn Kreditkarte gewählt wird)."
             break
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+def modul12():
+    lerninhalte = [
+        "Klassendiagramme bilden ein zentrales Element der UML. Eingesetzt werden sie vor allem bei der Analyse und beim\n\
+         Entwurf eines Softwaresystems.\n\
+Sie können unterschiedliche Detaillierungsgrade aufweisen und beschreiben grafisch die Beziehungen zwischen den Klassen einer Anwendung.\n\
+Klassendiagramme geben eine statische Sichtweise auf die Anwendung wieder und zählen somit zu den Strukturdiagrammen.\n\
+Moderne IDEs haben oft Editoren integriert, mit deren Hilfe sich Klassendiagramme erstellen lassen oder sie können über Extensions\n\
+ um diese Funktionalität erweitert werden.",
+
+        "(1) Notationselemente und Aufbau:\n\
+Klasse: Rechteck – Darstellung der Klasse mit Namen, Eigenschaften und Methoden.\n\
+Klassenname: Singular, Großbuchstabe – trennt Eigenschaften (Attribute) und Methoden (Funktionen) durch eine horizontale Linie.\n\
+Klassendarstellung (Alternative): Nur Klassenname – Eigenschaften und Methoden werden oft weggelassen, um Beziehungen zwischen Klassen\n\
+ zu modellieren.\n",
+"Sichtbarkeit: + public, - private, # protected – beschreibt Zugriffsmodifier der OOP.\n\
+Assoziation: Beziehung zwischen Klassen, keine Teil-Ganzes-Beziehung – gerichtete Assoziationen mit Pfeil.\n\
+Aggregation: Teil-Ganzes-Beziehung, Teile existieren unabhängig – Verbindungslinie mit nicht ausgefüllter Raute am „Ganzes“-Ende.\n\
+Komposition: Starke Teil-Ganzes-Beziehung, Teile existieren nur mit Ganzem – Verbindungslinie mit ausgefüllter Raute am „Ganzes“-Ende.\n\
+Multiplizität: Anzahl Objekte in Beziehung – Angaben zu Anzahl der Objekte in Assoziationen, Aggregationen, Kompositionen.\n\
+Vererbung: Linie mit dreieckiger, nicht ausgefüllter Pfeilspitze von Unterklasse zur Oberklasse; bei Interfaces Strichlinie\n\
+ statt durchgehender Linie.",
+
+        "Einzelne Klassen werden in der Regel mit allen Eigenschaften, Methoden und deren Sichtbarkeiten dargestellt.\n\
+Eigenschaften enthalten Datentypen, Methoden die Übergabeparameter und den Rückgabetyp.\n\
+Schlüsselwörter wie interface oder abstract können ergänzt werden.\n\
+Beziehungen zwischen Klassenobjekten werden modelliert und mit den beschriebenen Notationen visualisiert.",
+
+        "Beispiel Klassendarstellung:\n\
+- haarfarbe: string  \n\
++ Person()  \n\
++ Person(string)  \n\
++ Person(string, double)  \n\
++ Person(string, double, string)",
+"+ gehen(): void  \n\
++ essen(): void  \n\
++ schlafen(): void  \n\
+Klassenname, Eigenschaften mit Datentypen, Methoden mit Parametern und Rückgabetyp sind sichtbar.",
+
+        "(3) Beispielaufgabe Bahnunternehmen:\n\
+Ein Zug wird für eine Fahrt aus verschiedenen Objekten zusammengesetzt: Ein Zug hat einen Triebwagen und ein bis zwanzig Waggons.\n\
+Triebwagen sind Diesel-Loks oder E-Loks.\n\
+Waggons sind Güterwaggons, Personenwaggons oder Speisewagen.\n\
+Ein Personenwaggon besitzt bis zu zehn Abteile.\n\
+Zug besteht aus Triebwagen und Waggons → Aggregation (Teile existieren unabhängig).\n",
+"Diesel-Lok und E-Lok erben von Triebwagen.\n\
+Waggon wird vererbt zu Güterwaggon, Personenwaggon, Speisewagen.\n\
+Beziehung Personenwaggon – Abteil ist Komposition (Abteile existieren nur mit Personenwaggon).",
+
+        "Kompetenzcheck - richtige Aussagen:\n\
+a) Eine Klasse besteht aus Eigenschaften und Methoden.\n\
+b) Für jede Eigenschaft und Methode wird eine Sichtbarkeit angegeben.\n\
+c) Klassendiagramme zählen zu den Verhaltensdiagrammen.\n\
+d) Die Amortisation beschreibt eine Beziehung zwischen Klassen.\n\
+e) Die Komposition ist eine Teil-Ganzes-Beziehung.\n\
+f) Bei Aggregation können die Teile auch ohne das Ganze existieren.\n\
+g) Die Komposition wird durch eine ausgefüllte Raute dargestellt.",
+
+        "Aufgaben:\n\
+- Finden Sie jeweils zwei weitere Beispiele für Assoziation, Aggregation, Komposition und Vererbung und diskutieren Sie diese.\n\
+- Erweitern Sie die Beispielaufgabe „Zug“ um Klassen „Fahrt“, „Fahrplan“ und „Bahnhof“ mit Bedingungen:\n\
+  Eine Fahrt hat genau einen Zug.\n\
+  Eine Fahrt umfasst mindestens zwei und maximal zehn Bahnhöfe.\n\
+  Ein Fahrplan kann beliebig viele Fahrten enthalten (auch null).\n\
+- Diskutieren Sie das Ergebnis im Klassenverband.\n\
+- Erstellen Sie für die Klasse „Baum“ vier sinnvolle Eigenschaften und Methoden als vollständige UML-Klasse mit Datentypen\n\
+    und Parametern."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was beschreiben Klassendiagramme hauptsächlich?",
+            "optionen": ["a) Dynamische Abläufe im System",
+                         "b) Beziehungen zwischen Klassen und deren Struktur",
+                         "c) Benutzerinteraktionen",
+                         "d) Netzwerksicherheit"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie wird eine Klasse im Klassendiagramm dargestellt?",
+            "optionen": ["a) Kreis",
+                         "b) Rechteck mit Name, Eigenschaften und Methoden",
+                         "c) Raute",
+                         "d) Linie"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Sichtbarkeitsmodifikatoren sind in UML üblich?",
+            "optionen": ["a) + public, - private, # protected",
+                         "b) * global, ! internal, ? optional",
+                         "c) % visible, & hidden",
+                         "d) $ static, @ instance"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was beschreibt eine Aggregation in einem Klassendiagramm?",
+            "optionen": ["a) Eine starke Teil-Ganzes-Beziehung",
+                         "b) Eine Teil-Ganzes-Beziehung, bei der Teile unabhängig existieren",
+                         "c) Eine Vererbung von Klassen",
+                         "d) Eine gerichtete Assoziation"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Form kennzeichnet eine Komposition?",
+            "optionen": ["a) Verbindungslinie mit ausgefüllter Raute am Ganzes-Ende",
+                         "b) Linie mit Pfeilspitze",
+                         "c) Nicht ausgefüllte Raute",
+                         "d) Doppellinie"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Wie wird Vererbung in UML dargestellt?",
+            "optionen": ["a) Linie mit ausgefüllter Raute",
+                         "b) Linie mit dreieckiger, nicht ausgefüllter Pfeilspitze",
+                         "c) Doppelpfeil",
+                         "d) Linie mit Kreis"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was bedeutet Multiplizität in Klassendiagrammen?",
+            "optionen": ["a) Anzahl Objekte in Beziehung",
+                         "b) Sichtbarkeit der Klasse",
+                         "c) Anzahl Methoden einer Klasse",
+                         "d) Anzahl Attribute einer Klasse"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche Klassen gehören zur Beispielaufgabe des Bahnunternehmens?",
+            "optionen": ["a) Zug, Triebwagen, Waggon, Abteil",
+                         "b) Auto, Fahrer, Straße",
+                         "c) Computer, Monitor, Tastatur",
+                         "d) Schiff, Hafen, Kapitän"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche Beziehung besteht zwischen Personenwaggon und Abteil?",
+            "optionen": ["a) Aggregation",
+                         "b) Assoziation",
+                         "c) Komposition",
+                         "d) Vererbung"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage ist falsch?",
+            "optionen": ["a) Eine Klasse besteht aus Eigenschaften und Methoden.",
+                         "b) Klassendiagramme zählen zu den Strukturdiagrammen.",
+                         "c) Die Amortisation beschreibt eine Beziehung zwischen Klassen.",
+                         "d) Die Komposition wird durch eine ausgefüllte Raute dargestellt."],
+            "antwort": "c"
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8.3.3 - Klassendiagramme",lerninhalte,fragen)
