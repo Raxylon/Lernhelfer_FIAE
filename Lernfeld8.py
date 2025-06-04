@@ -452,3 +452,547 @@ def modul4():
             break
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+def modul5():
+    lerninhalte = [
+        "Datenqualität beschreibt, wie gut Daten den Anforderungen der Nutzer entsprechen.\n\
+        Gute Datenqualität ist notwendig für korrekte, zuverlässige und verständliche Informationen.\n\
+        Qualitätskriterien sind unter anderem: Korrektheit, Vollständigkeit, Aktualität, Genauigkeit, Konsistenz, Redundanzfreiheit und Verständlichkeit.",
+        "Schlechte Datenqualität zeigt sich durch widersprüchliche, fehlerhafte, unvollständige oder veraltete Werte.\n\
+        Datenbereinigung beseitigt gefundene Fehler, z. B. durch Korrektur, Löschung oder Ergänzung.\n\
+        Monitoring von Daten ist ein kontinuierlicher Prozess zur Qualitätssicherung.\n\
+        Daten können sich durch Alterung verschlechtern – regelmäßige Pflege ist notwendig.",
+        "Verständlichkeit hängt von der Zielgruppe ab.\n\
+        Beispiel: Für Endkunden sollte z. B. ein Lieferdatum klar formuliert sein („Lieferung am 12.06.2025“).\n\
+        Für IT-Fachkräfte können technische Formate wie ISO-Daten oder XML sinnvoll sein.",
+        "Berechnungen zur Datenqualität sind möglich, z. B. zur Ermittlung der Aktualität:\n\
+        Aktualität = (aktuelle + korrigierte Daten) / Gesamtdaten."
+    ]
+
+    fragen = [
+        {
+            "frage": "Welche Aussage trifft zu?",
+            "optionen": [
+                "a) Gute Informationen stammen meist aus qualitativ hochwertigen Daten.",
+                "b) Im Handwerk spielt Datenqualität keine Rolle.",
+                "c) Schlechte Datenqualität erkennt man an fehlerhaften und widersprüchlichen Werten.",
+                "d) Korrektheit, Genauigkeit und Eindeutigkeit sind keine Qualitätskriterien."
+            ],
+            "antwort": ["a", "c"]
+        },
+        {
+            "frage": "Was bedeutet Konsistenz bei Daten?",
+            "optionen": [
+                "a) Widersprüche, die nicht weiter auffallen.",
+                "b) Daten stimmen logisch und inhaltlich überein.",
+                "c) Daten sind vollständig.",
+                "d) Daten sind verständlich für Endnutzer."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wann ist ein Datensatz vollständig?",
+            "optionen": [
+                "a) Wenn alle Attribute einen gültigen Wert haben.",
+                "b) Wenn alle Felder leer sind.",
+                "c) Wenn die wichtigsten Werte vorliegen.",
+                "d) Wenn keine Redundanzen vorhanden sind."
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was beschreibt Redundanzfreiheit?",
+            "optionen": [
+                "a) Wenn gleiche Informationen mehrfach vorkommen.",
+                "b) Wenn Daten sparsam und ohne Wiederholungen gespeichert sind.",
+                "c) Wenn Daten besonders vollständig sind.",
+                "d) Wenn Daten aktualisiert wurden."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was passiert bei der Datenbereinigung?",
+            "optionen": [
+                "a) Die Daten werden archiviert.",
+                "b) Fehlerhafte Daten werden erkannt und entfernt oder korrigiert.",
+                "c) Daten werden nur gelöscht.",
+                "d) Neue Daten werden erzeugt."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage ist richtig zur Datenaktualität?",
+            "optionen": [
+                "a) Veraltete Daten bleiben unverändert im System.",
+                "b) Die Korrektur veralteter Daten hat keinen Einfluss.",
+                "c) Die Aktualität kann prozentual berechnet werden.",
+                "d) Aktualität spielt nur bei Kundendaten eine Rolle."
+            ],
+            "antwort": "c"
+        }
+    ]
+
+    def lernen():
+        print("\nLERNMODUS - Lernfeld 8, Modul 5: Datenqualität\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print("\nTESTMODUS - Lernfeld 8, Modul 5: Datenqualität\n")
+
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+        print("\nZUSATZFRAGE – Berechnungsaufgabe:")
+        print("Es wurden 250.000 Kontaktdaten überprüft. 31.759 waren veraltet, davon 12.333 korrigiert.")
+        print("Wie hoch ist die Aktualität nach der Korrektur?")
+
+        eingabe = input("Deine Antwort in Prozent (nur Zahl, z.B. 92.23): ").replace(",", ".")
+        try:
+            wert = float(eingabe)
+            if abs(wert - 92.23) < 0.1:
+                print("Richtig! Aktualität ≈ 92,23%")
+            else:
+                print("Falsch! Die korrekte Antwort lautet ≈ 92,23%")
+        except:
+            print("Ungültige Eingabe – bitte nur eine Zahl eingeben.")
+
+    while True:
+        print("\nLernfeld 8 - Modul 5: Datenqualität")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+def modul6():
+    lerninhalte = [
+        "Eine Datenquelle ist der Ursprung von Daten – also der Ort, an dem Daten entstehen oder gespeichert sind.\n\
+        Primäre Datenquellen liefern Daten direkt vom Ursprung (z. B. Sensoren).\n\
+        Sekundäre Datenquellen speichern Daten weiter (z. B. Datenbanken, Dateien).",
+
+        "Typische Datenquellen sind:\n\
+        – Datenbanken (z. B. MySQL)\n\
+        – Dateien (z. B. CSV)\n\
+        – Sensoren, Benutzer, Webseiten oder Apps.",
+
+        "Open Data ist für alle frei zugänglich, maschinenlesbar und kostenlos nutzbar.\n\
+        Closed Data ist eingeschränkt, oft kostenpflichtig und nur mit Berechtigung verfügbar.",
+
+        "Ein Datenformat beschreibt die Struktur von Informationen in einer Datei.\n\
+        Programme können Daten nur lesen, wenn sie das Format verstehen.",
+
+        "Wichtige Datenformate:\n\
+        – CSV: Trennzeichen-getrennt, einfach und weit verbreitet\n\
+        – XML: Hierarchisch, selbst definierte Tags\n\
+        – JSON: Schlüssel-Wert-Paare, kompakt und ideal für Webanwendungen",
+
+        "Beispiele:\n\
+        – CSV: Vorname;Nachname;PLZ;Ort\n\
+        – XML: <Kunde><PLZ>12345</PLZ></Kunde>\n\
+        – JSON: {\"Name\": \"Max\", \"PLZ\": \"12345\"}",
+
+        "Datenübertragung erfolgt oft über Netzwerke.\n\
+        Programme holen Daten automatisch oder Nutzer geben sie ein.",
+
+        "Wichtige Übertragungsprotokolle:\n\
+        – FTP: Dateien übertragen\n\
+        – HTTP: Webdaten abrufen\n\
+        – SFTP/FTPS: sichere Dateiübertragung\n\
+        – SMB/NFS: Netzwerk-Dateizugriff zwischen Rechnern"
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist eine primäre Datenquelle?",
+            "optionen": ["a) Eine Excel-Tabelle", "b) Eine Datenbank", "c) Ein Sensor", "d) Eine Webseite"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage beschreibt Open Data korrekt?",
+            "optionen": ["a) Nur mit Anmeldung nutzbar", "b) Kostenlos, maschinenlesbar, offen",
+                         "c) Nur als PDF vorhanden", "d) Kostenpflichtig"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welches Format nutzt geschweifte Klammern und Schlüssel-Wert-Paare?",
+            "optionen": ["a) CSV", "b) XML", "c) JSON", "d) TXT"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage stimmt zu Datenformaten?",
+            "optionen": ["a) Jedes Programm versteht jedes Format", "b) Formate sind nur bei Bildern wichtig",
+                         "c) Formate bestimmen die Lesbarkeit durch Programme", "d) Dateiformate sind veraltet"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Protokolle übertragen Daten verschlüsselt? (Mehrere möglich)",
+            "optionen": ["a) FTP", "b) HTTP", "c) SFTP", "d) FTPS"],
+            "antwort": ["c", "d"]
+        }
+    ]
+
+    def lernen():
+        print("\nLERNMODUS - Lernfeld 8, Modul 5: Datenquellen, Formate & Übertragung\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print("\nTESTMODUS - Lernfeld 8, Modul 5: Datenquellen, Formate & Übertragung\n")
+
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print("\nLernfeld 8 - Modul 5: Datenquellen, Formate & Übertragung")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+def modul7():
+    lerninhalte = [
+        "🔹 Heterogene Datenquellen:\n\
+        Unternehmen nutzen viele Datenquellen: intern (z. B. Datenbanken) und extern (z. B. Webservices).\n\
+        Diese Quellen sind oft uneinheitlich – also *heterogen*. Beispiel: „Ort“ vs. „Location“. Beide meinen dasselbe, sind aber verschieden gespeichert.",
+
+        "🔹 Formen der Heterogenität:\n\
+        – Technisch: verschiedene Zugriffsmethoden (z. B. SQL, REST)\n\
+        – Syntaktisch: unterschiedliche Darstellung (z. B. Datum als 20.03.2021 oder 2021-03-20)\n\
+        – Modellbezogen: unterschiedliche Datenmodelle (z. B. relational vs. dokumentenbasiert)\n\
+        – Strukturell: gleiche Daten, verschieden organisiert (z. B. Adressen direkt vs. als Tabelle)\n\
+        – Semantisch: gleiche Bedeutung, andere Bezeichnung („Ort“ vs. „Location“)",
+
+        "🔹 Ziel der Informationsintegration:\n\
+        Daten aus verschiedenen Quellen in einer *einheitlichen Struktur* zusammenführen.\n\
+        Herausforderung: Daten sind oft redundant – Redundanzen müssen erkannt und sinnvoll genutzt werden.",
+
+        "🔹 Zwei Wege der Integration:\n\
+        1. *Physische (materialisierte) Integration*: Daten werden zentral gespeichert (z. B. im Data Warehouse oder Data Lake)\n\
+        ✔ Vorteile: gute Qualität, schnelle Auswertung\n\
+        ✘ Nachteile: nicht immer aktuell, hoher Pflegeaufwand",
+
+        "2. *Virtuelle (logische) Integration*: Daten bleiben am Ursprungsort, werden nur bei Abfrage zusammengeführt (z. B. durch Mediator-Systeme)\n\
+        ✔ Vorteile: immer aktuell, flexibel\n\
+        ✘ Nachteile: langsamere Abfragen, niedrigere Qualität",
+
+        "🔹 Unterschied Data Warehouse vs. Data Lake:\n\
+        – Data Warehouse: strukturierte, vorbereitete Daten für Analysen und Reporting\n\
+        – Data Lake: große Mengen roher Daten, auch unstrukturiert – gut für Big Data & KI-Verfahren",
+
+        "🟨 Merke zur Auswahl:\n\
+        – Virtuelle Integration: wenn aktuelle Daten wichtig sind\n\
+        – Physische Integration: wenn Qualität und Analysegeschwindigkeit im Fokus stehen"
+    ]
+
+    fragen = [
+        {
+            "frage": "Welche Aussage über heterogene Datenquellen ist korrekt?",
+            "optionen": [
+                "a) Heterogene Quellen enthalten immer gleich formatierte Daten.",
+                "b) Heterogenität bedeutet Gleichartigkeit.",
+                "c) Unternehmen nutzen oft sowohl interne als auch externe Datenquellen.",
+                "d) Datenquellen sind nur dann heterogen, wenn sie aus dem Internet stammen."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist ein Beispiel für semantische Heterogenität?",
+            "optionen": [
+                "a) 'Ort' in System A, 'Location' in System B",
+                "b) '20.03.2021' vs. 'March 20, 2021'",
+                "c) Datenbank vs. Textdatei",
+                "d) REST vs. SQL"
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche Aussagen treffen zu? (Mehrfachauswahl)",
+            "optionen": [
+                "a) Die Datenqualität ist bei physischer Integration meist höher.",
+                "b) Virtuelle Integration ermöglicht aktuelle Datenzugriffe.",
+                "c) Virtuelle Integration ist immer schneller.",
+                "d) Physische Integration vermeidet jegliche Redundanz."
+            ],
+            "antwort": ["a", "b"]
+        },
+        {
+            "frage": "Welche Unterschiede bestehen zwischen Data Warehouse und Data Lake? (Mehrfachauswahl)",
+            "optionen": [
+                "a) Data Warehouse speichert strukturierte Daten.",
+                "b) Data Lakes speichern Daten stets aufbereitet.",
+                "c) Data Lakes enthalten auch unstrukturierte Rohdaten.",
+                "d) Nur Data Warehouses sind für KI geeignet."
+            ],
+            "antwort": ["a", "c"]
+        },
+        {
+            "frage": "Was versteht man unter Informationsintegration?",
+            "optionen": [
+                "a) Das Kombinieren von Daten aus mehreren Quellen in einer gemeinsamen Struktur.",
+                "b) Die Speicherung von Daten nur in einer Cloud.",
+                "c) Die Erstellung einer Datenbank ohne Redundanzen.",
+                "d) Die Sicherung einzelner Systeme gegen Datenverlust."
+            ],
+            "antwort": "a"
+        }
+    ]
+
+    def lernen():
+        print("\nLERNMODUS - Lernfeld 8, Modul 5: Heterogene Datenquellen und Integration\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print("\nTESTMODUS - Lernfeld 8, Modul 5: Heterogene Datenquellen und Integration\n")
+
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print("\nLernfeld 8 - Modul 5: Heterogene Datenquellen und Integration")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
+
+def modul8():
+    lerninhalte = [
+        "UML ist geeignet zur Planung objektorientierter Softwarelösungen.\n"
+        "Anwendungsfall-, Klassendiagramme und Aktivitätsdiagramme helfen bei der Strukturierung und Visualisierung.\n"
+        "Informationssicherheit muss bereits in der Planungsphase berücksichtigt werden.",
+
+        "Ein Programmierparadigma ist ein grundlegender Ansatz, Programme zu strukturieren.\n"
+        "Imperative Paradigmen beschreiben **wie** ein Problem gelöst wird – mit Anweisungen, Kontrollstrukturen.",
+
+        "Strukturiertes Paradigma: nutzt keine Sprunganweisungen wie goto, modularisiert Programme.",
+        "Prozedurales Paradigma: verwendet Funktionen/Prozeduren zur Wiederverwendung und Struktur.",
+
+        "Deklarative Paradigmen beschreiben **was** ein Programm leisten soll – ohne konkrete Ablaufschritte.",
+        "Funktionale Programmierung: basiert auf Funktionen, ohne Zustandsänderung – etwa Haskell.",
+        "Logische Programmierung: basiert auf Fakten und Regeln, etwa in Prolog.",
+        "Viele moderne Sprachen kombinieren mehrere Paradigmen – das erhöht Flexibilität, aber auch Komplexität."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was beschreibt ein Programmierparadigma?",
+            "optionen": [
+                "a) Eine spezielle Programmiersprache",
+                "b) Den Stil und Aufbau von Programmen",
+                "c) Nur den Programmablaufplan",
+                "d) Nur Sicherheitsregeln"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist typisch für das strukturierte Programmierparadigma?",
+            "optionen": [
+                "a) Viele Sprünge mit goto",
+                "b) Nutzung von Prozeduren und Modulen",
+                "c) Nutzung von Regeln und Fakten",
+                "d) Nur grafische Programmierung"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage trifft auf deklarative Programmierung zu?",
+            "optionen": [
+                "a) Es wird exakt beschrieben, wie etwas gemacht wird",
+                "b) Der Ablauf erfolgt über Zuweisungen und Kontrollstrukturen",
+                "c) Sie beschreibt das Was, nicht das Wie",
+                "d) Sie basiert auf grafischen Elementen"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist ein Beispiel für funktionale Programmierung?",
+            "optionen": [
+                "a) Pascal",
+                "b) Prolog",
+                "c) C",
+                "d) Haskell"
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Was ist ein Merkmal logischer Programmierung?",
+            "optionen": [
+                "a) Prozeduren",
+                "b) Schleifen",
+                "c) Regeln und Fakten",
+                "d) Klassen und Objekte"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussagen sind **richtig**? (Mehrfachauswahl – Kompetenzcheck)",
+            "optionen": [
+                "a) Prozedurale Programmierung ist ein imperatives Paradigma.",
+                "b) Imperative Programmierung beschreibt den Lösungsweg mit Befehlen.",
+                "c) Ein Programmierparadigma beschreibt Struktur und Stil von Programmen.",
+                "d) C unterstützt strukturierte und prozedurale Programmierung.",
+                "e) Verschiedene Paradigmen eignen sich unterschiedlich gut für bestimmte Probleme.",
+                "f) Deklarative Programme beschreiben das Was, nicht das Wie.",
+                "g) Deklarative Programme sind oft stark abstrahiert.",
+                "h) Prolog ist eine funktionale Sprache.",
+                "i) Funktionale Programme bestehen aus Funktionsaufrufen.",
+                "j) C ist eine logische Sprache.",
+                "k) Logische Programme bestehen aus Regeln und Fakten."
+            ],
+            "antwort": ["a", "b", "c", "d", "e", "f", "g", "i", "k"]
+        }
+    ]
+
+    def lernen():
+        print("\nLERNMODUS - Lernfeld 8, Modul 8: Objektorientierung & Paradigmen\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print("\nTESTMODUS - Lernfeld 8, Modul 8: Objektorientierung & Paradigmen\n")
+
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print("\nLernfeld 8 - Modul 8: Objektorientierung & Paradigmen")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")
