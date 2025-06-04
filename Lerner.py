@@ -3,7 +3,7 @@
 # modul2 = Datenquellen
 # modul3 = Agile Vorgehensmodelle
 
-from Lernfeld8 import modul1, modul2, modul3, modul4
+from Lernfeld8 import modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8
 
 
 def auswahl_lernfeld():
@@ -35,7 +35,11 @@ def main():
             "Projektmanagement",
             "Datenquellen",
             "Agile Vorgehensmodelle",
-            "Scrum, Kanban, Burndown chard"
+            "Scrum, Kanban, Burndown chard",
+            "Datenqualität",
+            "Datenquelle",
+            "Heterogene Datenquellen",
+            "Programmierparadigmen unterscheiden"
         ]
     }
 
@@ -75,6 +79,14 @@ def main():
                     modul3()
                 elif modul_index == 4:
                     modul4()
+                elif modul_index == 5:
+                    modul5()
+                elif modul_index == 6:
+                    modul6()
+                elif modul_index == 7:
+                    modul7()
+                elif modul_index == 8:
+                    modul8()
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 
