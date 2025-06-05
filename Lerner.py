@@ -3,8 +3,8 @@
 # modul2 = Datenquellen
 # modul3 = Agile Vorgehensmodelle
 
-from Lernfeld8 import modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11, modul12
-
+from Lernfeld8 import (modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11, modul12, modul13, modul14)
+from Lernfeld8 import (modul15, modul16, modul17, modul18, modul19)
 
 def auswahl_lernfeld():
     print("\nWähle ein Lernfeld:")
@@ -43,7 +43,14 @@ def main():
             "objektorientierte Programmierung",
             "unified modeling language",
             "Anwendungsfalldiagramme beschreiben und anwenden",
-            "Klassendiagramme"
+            "Klassendiagramme",
+            "Aktivitätsdiagramm beschreiben und anwenden",
+            "Sicherheitsrelevante Aspekte bei der Softwareplanung",
+            "Benutzerschnittstellen unter softwareergonomischen Gesichtspunkten planen",
+            "Eine Oberfläche für eine Benutzerschnittstelle entwerfen",
+            "Java beschreiben und eine Entwicklungsumgebung auswählen",
+            "Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren",
+            "Das objektorientierte Programmierparadigma in Java umsetzen"
         ]
     }
 
@@ -99,6 +106,21 @@ def main():
                     modul11()
                 elif modul_index == 12:
                     modul12()
+                elif modul_index == 13:
+                    modul13()
+                elif modul_index == 14:
+                    modul14()
+                elif modul_index == 15:
+                    modul15()
+                elif modul_index == 16:
+                    modul16()
+                elif modul_index == 17:
+                    modul17()
+                elif modul_index == 18:
+                    modul18()
+                elif modul_index == 19:
+                    modul19()
+
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 

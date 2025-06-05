@@ -50,8 +50,6 @@ def modul_lernen_und_testen(modulname, lerninhalte, fragen):
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
 
-
-
 def modul1():
     lerninhalte = [
         "Projekte sind zeitlich begrenzt, haben ein klares Ziel und sind einmalig.\n\
@@ -107,6 +105,7 @@ def modul1():
     ]
 
     modul_lernen_und_testen("Lernfeld 8: modul1 Projektmanagement",lerninhalte,fragen)
+
 def modul2():
     lerninhalte = [
         "Datenquellen sind die verborgenen Quellen, aus denen das Wissen fließt.\n"
@@ -1000,9 +999,6 @@ def modul8():
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
 
-# Basierend auf dem bereitgestellten Lehrtext wurde ein neues Modul für das Lernprogramm erstellt,
-# das dem Stil von modul1 folgt und zehn Fragen zur objektorientierten Programmierung enthält.
-
 def modul9():
     lerninhalte = [
         "Die objektorientierte Programmierung (OOP) orientiert sich an Objekten der realen Welt.\n"
@@ -1279,7 +1275,6 @@ def modul9():
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
 
-
 def modul10():
     lerninhalte = [
         "Sie sollen die Modellierungssprache UML kennenlernen, die einzelnen Diagrammtypen unterscheiden und das Anwendungsfalldiagramm,\n\
@@ -1492,7 +1487,6 @@ def modul10():
             break
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
-
 
 def modul11():
     lerninhalte = [
@@ -1808,3 +1802,852 @@ g) Die Komposition wird durch eine ausgefüllte Raute dargestellt.",
         }
     ]
     modul_lernen_und_testen("Lernfeld 8.3.3 - Klassendiagramme",lerninhalte,fragen)
+
+def modul13():
+    lerninhalte = [
+        "Sie sollen sich grundlegende Kenntnisse über die Notationselemente und den Aufbau von Aktivitätsdiagrammen erarbeiten und auf\n\
+konkrete Aufgaben anwenden können.\n\
+Während Diagramme wie das Klassendiagramm eine statische Sicht auf das System abbilden, kann mithilfe vom Aktivitätsdiagramm eine\n\
+dynamische Sicht bzw. das Verhalten des Systems modelliert werden.\n\
+Das Aktivitätsdiagramm beschreibt den Ablauf von Aktionen und verwendet wenige Symbole für sehr umfangreiche Darstellungsmöglichkeiten.\n\
+Es kann hinsichtlich seiner Darstellungsweise und seiner Aussagen mit einem Programmablaufplan verglichen werden. Aktivitätsdiagramme\n\
+werden in vielen Phasen der Softwareentwicklung verwendet: in der Analysephase zur Beschreibung von Geschäftsprozessen und Tätigkeiten,\n\
+ in der Entwurfsphase zur Darstellung des Algorithmus, in der Testphase zur Entwicklung von Testszenarien sowie zur Dokumentation.",
+        "(1) Notationselemente und Aufbau\n\
+- Startknoten: markiert den Beginn eines Ablaufes.\n\
+- Endknoten: markiert das Ende eines Ablaufes.\n\
+- Ablaufende: markiert das Ende eines Zweiges.\n\
+- Aktion: beschreibt das Verhalten, welches eine Veränderung herbeiführt.\n\
+- Kante: dient zur Angabe des Kontrollflusses.\n\
+- Verzweigung: je nach Bedingung wird ein anderer Zweig ausgeführt.\n",
+"- Zusammenführung: verschiedene Zweige führen zu gemeinsamer Aktion.\n\
+- Aufspaltung: mehrere Aktionen werden parallel begonnen.\n\
+- Synchronisation: mehrere Aktionen führen zurück in einen Ablauf.\n\
+- Aktivität: kann Ein- und Ausgabeparameter besitzen und in Partitionen unterteilt werden.",
+        "(2) Umsetzung eines Aktivitätsdiagramms: Algorithmus zur Durchschnittsproduktion\n\
+- Initialisierung von Variablen\n\
+- Schleife summiert Werte aus Liste produktionsdaten\n\
+- Prüfung auf Division durch Null\n\
+- Berechnung des Durchschnitts.",
+        "(3) Beispiel Restaurantbesuch\n\
+- Beteiligte: Gast, Bedienung, Koch\n\
+- Aktionen werden Partitionen zugeordnet\n\
+- Bezahlung ist ein interaktiver Prozess (parallel)\n\
+- Gastaktionen: betreten, setzen, auswählen, essen, bezahlen, verlassen\n\
+- Bedienung: Bestellung aufnehmen, servieren, Bezahlung entgegennehmen\n\
+- Koch: Essen zubereiten"
+    ]
+
+    fragen = [
+        {
+            "frage": "Welche Sicht auf ein System liefert ein Aktivitätsdiagramm?",
+            "optionen": ["a) Eine rein statische", "b) Eine dynamische", "c) Eine physikalische", "d) Keine"],
+            "antwort": "b"
+        },
+        {
+            "frage": "In welcher Phase wird ein Aktivitätsdiagramm zur Beschreibung von Geschäftsprozessen eingesetzt?",
+            "optionen": ["a) Analysephase", "b) Testphase", "c) Betriebsphase", "d) Wartungsphase"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was beschreibt ein 'Startknoten' im Aktivitätsdiagramm?",
+            "optionen": ["a) Das Ende eines Ablaufs", "b) Den Startpunkt eines Algorithmus", "c) Eine Verzweigung", "d) Eine Aktion mit Parameter"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist die Aufgabe der 'Kante' im Aktivitätsdiagramm?",
+            "optionen": ["a) Darstellung von Partitionen", "b) Symbol für Startknoten", "c) Angabe des Kontrollflusses", "d) Darstellung von Rückmeldungen"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage zur Aufspaltung ist korrekt?",
+            "optionen": ["a) Aktionen werden nacheinander ausgeführt", "b) Aktionen beginnen parallel", "c) Es handelt sich um eine Bedingung", "d) Nur für Endknoten verwendbar"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Notation wird verwendet, wenn nach mehreren parallelen Aktionen eine gemeinsame Aktion folgt?",
+            "optionen": ["a) Aufspaltung", "b) Endknoten", "c) Synchronisation", "d) Partition"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Rolle spielt die Partitionierung im Aktivitätsdiagramm?",
+            "optionen": ["a) Steuerung des Kontrollflusses", "b) Darstellung paralleler Abläufe", "c) Zuweisung von Aktionen an Beteiligte", "d) Darstellung von Bedingungsausgängen"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Sicherheitsüberlegung wird im Beispiel der Durchschnittsberechnung behandelt?",
+            "optionen": ["a) Zugriffskontrolle", "b) Schleifenabbruch", "c) Division durch null", "d) Passwortschutz"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aktionen gehören im Beispiel Restaurantbesuch zur Bedienung?",
+            "optionen": ["a) Bestellung aufnehmen, Essen zubereiten", "b) Bestellung aufnehmen, Essen servieren, Bezahlung entgegennehmen", "c) Essen servieren, Restaurant verlassen", "d) Restaurant betreten, Bestellung aufnehmen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was beschreibt die Zusammenführung im Aktivitätsdiagramm?",
+            "optionen": ["a) Gleichzeitiger Beginn mehrerer Aktionen", "b) Übergang zu Endknoten", "c) Zusammenführen mehrerer Alternativen", "d) Start eines Prozesses"],
+            "antwort": "c"
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8 - 3.3.6 - Aktivitätsdiagramm beschreiben und anwenden", lerninhalte, fragen)
+
+def modul14():
+    lerninhalte = [
+        "Die Gefährdung von Daten und Software nimmt im Rahmen der Digitalisierung immer mehr zu,\n\
+besonders wenn diese über das Internet zugänglich sind. Besonders kritisch wird es, wenn sensible Daten\n\
+oder geschäftsrelevante Software gezielt angegriffen werden. Security by Design bedeutet, dass Software\n\
+von Grund auf sicher konzipiert wird. Privacy by Design verlangt Datenschutz während des gesamten\n\
+Engineering-Prozesses gemäß DSGVO.",
+
+        "Sechs Sicherheitsprinzipien: Minimalprinzip, Separierung von Berechtigungen, vollständige\n\
+Zugriffsüberwachung, mehrere Sicherheitsebenen, sicherer Ausfall, benutzerfreundliche Sicherheit.\n\
+Sicherheitsmaßnahmen müssen Zugriffskontrolle, Authentifizierung, Datenvalidierung,\n\
+Fehlerbehandlung, Protokollierung und Kryptographie umfassen.",
+
+        "Design- und Umsetzungshinweise: MVC-Pattern zur Trennung von Datenverarbeitung und -darstellung,\n\
+Validierung der Daten vor Verarbeitung, sichere Übertragung (HTTPS), sichere Benutzerverwaltung,\n\
+geschützte SOAP/REST-Schnittstellen (Whitelist), Unit-Tests, Verhinderung von SQL-Injections,\n\
+Protokollierung sicherheitsrelevanter Ereignisse.",
+
+        "Beispielhafte Umsetzung im Scrum-Prozess: Sicherheitsaspekte ermitteln (z.B. User Story, Risikobewertung)\n\
+und Maßnahmen planen (z.B. datenschutzfreundliche Voreinstellungen)."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was beschreibt 'Security by Design'?",
+            "optionen": ["a) Sicherheit wird nachträglich eingebaut",
+                         "b) Software wird von Anfang an sicher konzipiert",
+                         "c) Datenschutz wird vollständig ignoriert",
+                         "d) Nur die Benutzeroberfläche wird abgesichert"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein Ziel von 'Privacy by Design'?",
+            "optionen": ["a) Datenschutz nur am Ende der Entwicklung",
+                         "b) Datensicherung durch externe Dienstleister",
+                         "c) Datenschutz während des gesamten Engineering-Prozesses",
+                         "d) Benutzerfreundlichkeit durch einfache Passwörter"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Sicherheitsprinzipien gehören zu den sechs Kernprinzipien? (Mehrere Antworten möglich)",
+            "optionen": ["a) Sicherer Ausfall",
+                         "b) Vollständige Zugriffsüberwachung",
+                         "c) Offenlegung des Quellcodes",
+                         "d) Benutzerfreundliche Sicherheit"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Was beschreibt das Minimalprinzip?",
+            "optionen": ["a) Jeder darf alles ändern",
+                         "b) Nur notwendige Berechtigungen werden vergeben",
+                         "c) Zugriff auf alle Daten zur Sicherheit",
+                         "d) Sicherheit wird minimiert"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Maßnahmen gehören zur Softwarearchitektur? (Mehrere Antworten möglich)",
+            "optionen": ["a) Zugriffskontrolle",
+                         "b) Datenvalidierung",
+                         "c) Wetterdatenintegration",
+                         "d) Fehlerbehandlung"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Was ist ein Vorteil des mehrschichtigen Sicherheitsmodells?",
+            "optionen": ["a) Weniger Sicherheitsprüfungen notwendig",
+                         "b) Schutz durch äußere Schichten bei Lücken in inneren",
+                         "c) Schnellere Ausführung der Software",
+                         "d) Keine Fehlerprotokolle mehr nötig"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Umsetzungsmöglichkeiten verhindern SQL-Injections?",
+            "optionen": ["a) Nutzung von Framework-Schutzmechanismen",
+                         "b) Selbst geschriebene SQL-Parser",
+                         "c) Keine Überprüfung der Eingaben",
+                         "d) SQL-Kommandos in JavaScript verlagern"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was gehört zu einer sicheren Benutzerverwaltung?",
+            "optionen": ["a) Hartecodierte Passwörter",
+                         "b) Standardverfahren der Frameworks nutzen",
+                         "c) Vollzugriff für alle User",
+                         "d) Nur manuelle Logins erlauben"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Maßnahmen erhöhen die Sicherheit bei REST/SOAP-Schnittstellen? (Mehrere Antworten möglich)",
+            "optionen": ["a) Filtern der Eingabedaten",
+                         "b) Whitelisting zulässiger Werte",
+                         "c) Verschlüsselung auf Bit-Ebene selbst schreiben",
+                         "d) Nutzung von Framework-Filtern"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Welche Ereignisse sollten protokolliert werden? (Mehrere Antworten möglich)",
+            "optionen": ["a) Fehlerhafte Anmeldeversuche",
+                         "b) Änderungen an Berechtigungen",
+                         "c) Wetterverlauf des Tages",
+                         "d) Administratoraktivitäten"],
+            "antwort": ["a", "b", "d"]
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8 - 3.3.7 Sicherheitsrelevante Aspekte bei der Softwareplanung", lerninhalte, fragen)
+
+def modul15():
+    lerninhalte = [
+        "Softwareergonomie befasst sich mit der Anpassung von Software an Benutzerbedürfnisse.\n\
+        Die Benutzerschnittstelle ist das Bindeglied zwischen Mensch und Computer.\n\
+        Interaktionsformen reichen von alphanumerischen Oberflächen bis zu virtueller Realität.\n\
+        Erkenntnisse aus Psychologie, Arbeitswissenschaft und Design fließen in die Gestaltung ein.",
+        "Begriffe wie Benutzerfreundlichkeit, Bedienbarkeit, Usability beschreiben die Qualität der Interaktion.\n\
+        Eine hohe Usability steigert Produktivität, reduziert Stress und Ermüdung.\n\
+        Ergonomische Anforderungen sind in ISO 9241-110:2020 definiert – u.a. Steuerbarkeit, Erwartungskonformität, Robustheit gegen Fehler.",
+        "User Experience (UX) beschreibt Wahrnehmung und Reaktion während der Nutzung.\n\
+        UX Design analysiert, gestaltet und optimiert Benutzererlebnisse.\n\
+        Bestandteile: visuelles Design, Informationsarchitektur, Interaktionsdesign, Usability, Zugänglichkeit.",
+        "Corporate Design (Teil der Corporate Identity) schafft ein konsistentes Erscheinungsbild.\n\
+        Ziel: Wiedererkennung, Kundenbindung, positives Unternehmensbild.",
+        "Barrierefreiheit ermöglicht Nutzung durch Menschen mit Einschränkungen.\n\
+        Umsetzung z.B. durch Tab-Navigation, Skalierbarkeit, Alternativtexte.\n\
+        Betriebssysteme bieten unterstützende Funktionen wie Vorlesesoftware oder Braille-Display-Unterstützung."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist das Ziel der Softwareergonomie?",
+            "optionen": ["a) Die Entwicklung neuer Hardwarekomponenten.",
+                         "b) Die Anpassung der Software an technische Systeme.",
+                         "c) Die Anpassung der Software an Benutzerbedürfnisse.",
+                         "d) Die Erhöhung der Programmiergeschwindigkeit."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was beschreibt der Begriff 'Usability'?",
+            "optionen": ["a) Die Ästhetik einer Benutzeroberfläche.",
+                         "b) Die Gebrauchstauglichkeit in einem bestimmten Nutzungskontext.",
+                         "c) Die Geschwindigkeit der Datenverarbeitung.",
+                         "d) Die Anzahl der Nutzerinteraktionen pro Minute."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Disziplinen beeinflussen die Gestaltung benutzerfreundlicher Software? (Mehrere Antworten möglich)",
+            "optionen": ["a) Psychologie", "b) Arbeitswissenschaft", "c) Medizin", "d) Design"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Was gehört zur ISO 9241-110:2020? (Mehrere Antworten möglich)",
+            "optionen": ["a) Steuerbarkeit", "b) Energieeffizienz", "c) Erwartungskonformität", "d) Erlernbarkeit"],
+            "antwort": ["a", "c", "d"]
+        },
+        {
+            "frage": "Was beschreibt der Begriff 'User Experience (UX)'?",
+            "optionen": ["a) Nur die visuelle Gestaltung eines Produkts.",
+                         "b) Die Ladegeschwindigkeit von Software.",
+                         "c) Die subjektive Wahrnehmung und Reaktion eines Nutzers.",
+                         "d) Die Fehlerfreiheit eines Programms."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage trifft zu UX Design zu?",
+            "optionen": ["a) Es bezieht sich ausschließlich auf Farbgestaltung.",
+                         "b) Es analysiert und optimiert das Nutzungserlebnis.",
+                         "c) Es ersetzt das Corporate Design.",
+                         "d) Es konzentriert sich auf Hardwarebedienung."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist Bestandteil des UX Designs? (Mehrere Antworten möglich)",
+            "optionen": ["a) Visuelles Design", "b) Informationsarchitektur", "c) Interaktionsdesign", "d) Datenbankdesign"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Welche Merkmale sind Teil des Corporate Designs?",
+            "optionen": ["a) Wiedererkennungswert und Kundenbindung",
+                         "b) Höhere Downloadrate im Appstore",
+                         "c) Optimierte Compilerleistung",
+                         "d) Integration neuer Hardware"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was zählt zu barrierefreien Softwaremerkmalen? (Mehrere Antworten möglich)",
+            "optionen": ["a) Alternativtexte für Bilder", "b) Bildschirmtastatur", "c) Tab-Navigation", "d) Einfache Codebasis"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Warum ist Barrierefreiheit wichtig?",
+            "optionen": ["a) Sie senkt die Serverlast.",
+                         "b) Sie ermöglicht auch Menschen mit Einschränkungen die Nutzung.",
+                         "c) Sie erhöht den Stromverbrauch der Software.",
+                         "d) Sie ersetzt alle Designprinzipien."],
+            "antwort": "b"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8 - 3.4 - Benutzerschnittstellen unter softwareergonomischen Gesichtspunkten planen", lerninhalte, fragen)
+
+def modul16():
+    lerninhalte = [
+        "Bevor mit der Umsetzung eines User Interfaces begonnen wird, sollten grafische Entwürfe erstellt werden:\n\
+        Sketches, Wireframes, Mockups, Prototypen.\n\
+        Diese dienen zur Planung der Benutzerführung, Kommunikation im Team und Präsentation beim Kunden.",
+        "Sketch: Erste, grobe Skizze – Fokus auf Ideenfindung, nicht Ästhetik.\n\
+        Wireframe: Konzeptioneller Entwurf – statisch oder dynamisch, ohne Farben, Bilder oder Texte.\n\
+        Mockup: Detaillierte Visualisierung mit Farben, Typografie, Bildern – noch ohne finale Funktionalität.\n\
+        Prototyp: Funktionierendes Modell, Interaktionen testbar, aber noch kein fertiges Produkt.\n\
+        Tools: Balsamiq, Axure, Adobe XD, UXPin, Omnigraffle."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist der Zweck von Sketches, Wireframes und Mockups?",
+            "optionen": ["a) Die finale Software direkt zu implementieren",
+                         "b) Ideen visuell vorzubereiten und Benutzerführung zu planen",
+                         "c) Nur Entwickler zu schulen",
+                         "d) Hardwarekomponenten zu planen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein Sketch?",
+            "optionen": ["a) Ein detailliertes, farbiges Modell",
+                         "b) Eine funktionierende Anwendung",
+                         "c) Eine grobe Skizze zur Ideenfindung",
+                         "d) Ein HTML-Prototyp"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage trifft auf ein Wireframe zu?",
+            "optionen": ["a) Es enthält alle Funktionen der späteren App",
+                         "b) Es ist rein dekorativ",
+                         "c) Es stellt Struktur und Anordnung der Oberfläche dar",
+                         "d) Es ist immer interaktiv"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was unterscheidet ein statisches von einem dynamischen Wireframe?",
+            "optionen": ["a) Statische sind farbig, dynamische nicht",
+                         "b) Dynamische verknüpfen mehrere Oberflächen",
+                         "c) Statische enthalten Code, dynamische nicht",
+                         "d) Es gibt keinen Unterschied"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Elemente fehlen in einem klassischen Wireframe? (Mehrere Antworten möglich)",
+            "optionen": ["a) Farben",
+                         "b) Texte",
+                         "c) Bilder",
+                         "d) Platzhalter"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Welche Tools können zur Erstellung von Wireframes genutzt werden?",
+            "optionen": ["a) Adobe XD, Balsamiq, Axure",
+                         "b) Microsoft Word",
+                         "c) Excel und PowerPoint",
+                         "d) JavaScript und Node.js"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was ist ein Mockup?",
+            "optionen": ["a) Eine finale Version der Benutzeroberfläche",
+                         "b) Eine textbasierte Struktur",
+                         "c) Ein visuell detailliertes, aber noch nicht funktionales Modell",
+                         "d) Ein Server-Layout"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was zeigt ein Mockup zusätzlich zum Wireframe? (Mehrere Antworten möglich)",
+            "optionen": ["a) Farben",
+                         "b) Schriftarten",
+                         "c) Interaktive Funktionen",
+                         "d) Bilder"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Welche Aussage trifft auf einen Prototyp zu?",
+            "optionen": ["a) Ein endgültiges Produkt",
+                         "b) Ein grafischer Entwurf ohne Funktion",
+                         "c) Ein testbares, funktionierendes Modell",
+                         "d) Eine Papierskizze"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Reihenfolge ist bei der GUI-Entwicklung typisch?",
+            "optionen": ["a) Prototyp → Mockup → Wireframe → Sketch",
+                         "b) Sketch → Wireframe → Mockup → Prototyp",
+                         "c) Wireframe → Prototyp → Sketch → Mockup",
+                         "d) Mockup → Prototyp → Sketch → Wireframe"],
+            "antwort": "b"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.3.4.2 Eine Oberfläche für eine Benutzerschnittstelle entwerfen", lerninhalte, fragen)
+
+def modul17():
+    lerninhalte = [
+        "Java ist eine moderne, populäre und einfach zu erlernende objektorientierte Programmiersprache.",
+        "Java wird seit 1995 (entwickelt von SUN, ab 2010 weitergeführt von Oracle) genutzt und ist in der Praxis weit verbreitet.",
+        "Java steht für Qualität, Modularität und Plattformunabhängigkeit. Es ist zentral in der Open-Source-Community verankert.",
+        "Java-Programme bestehen aus kleinen, zuverlässigen Moduleinheiten.",
+        "Java nutzt das JDK (Java Development Kit) für Entwicklung und das JRE (Java Runtime Environment) zur Ausführung.",
+        "Die JRE umfasst die JVM (Java Virtual Machine) zur Interpretation von Bytecode sowie die Java-API als Bibliothek.",
+        "Java-Programme werden zuerst in .java-Dateien geschrieben, dann vom Compiler in Bytecode (.class) übersetzt.",
+        "Die JVM interpretiert diesen Bytecode zur Laufzeit, weshalb Java auf vielen Plattformen läuft.",
+        "Beliebte Java-IDEs sind: Eclipse, IntelliJ, NetBeans, BlueJ und VSCode – jede mit spezifischen Stärken.",
+        "Eclipse ist quelloffen, erweiterbar (z.B. durch GUI-Builder), läuft auf Windows, Linux und MacOS und wird im Lehrbuch verwendet.",
+    ]
+
+    fragen = [
+        {
+            "frage": "Wofür steht Java im Kontext der IT?",
+            "optionen": [
+                "a) Für eine Hardwareplattform",
+                "b) Für eine objektorientierte Programmiersprache und IT-Philosophie",
+                "c) Für ein Betriebssystem",
+                "d) Für einen JavaScript-Dialekt"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was gehört zu den Kernkomponenten der Java-Technologie?",
+            "optionen": [
+                "a) JDK und JRE",
+                "b) JavaScript und Python",
+                "c) Windows und Linux",
+                "d) HTML und CSS"
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche Aussagen über Java sind korrekt? (Mehrere Antworten möglich)",
+            "optionen": [
+                "a) Java wurde von SUN entwickelt.",
+                "b) Java wird seit 2010 von Microsoft gepflegt.",
+                "c) Java ist Bestandteil der Open-Source-Community.",
+                "d) Java wurde nie kommerziell genutzt."
+            ],
+            "antwort": ["a", "c"]
+        },
+        {
+            "frage": "Wie lautet die Dateiendung von Java-Quelltextdateien?",
+            "optionen": [
+                "a) .exe",
+                "b) .js",
+                "c) .java",
+                "d) .class"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was passiert nach der Kompilierung eines Java-Programms?",
+            "optionen": [
+                "a) Es wird direkt in Maschinencode übersetzt.",
+                "b) Es entsteht Bytecode (.class), der von der JVM interpretiert wird.",
+                "c) Der Quelltext wird gelöscht.",
+                "d) Die IDE wandelt es in HTML um."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Rolle spielt die JVM?",
+            "optionen": [
+                "a) Sie ist ein Compiler für JavaScript.",
+                "b) Sie interpretiert den Java-Bytecode zur Laufzeit.",
+                "c) Sie ist eine Hardware-Komponente.",
+                "d) Sie wird nur bei GUI-Anwendungen benötigt."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage über Eclipse ist korrekt?",
+            "optionen": [
+                "a) Eclipse ist nur für Windows verfügbar.",
+                "b) Eclipse ist kommerziell und nicht erweiterbar.",
+                "c) Eclipse basiert auf Java und unterstützt viele Programmiersprachen durch Plug-ins.",
+                "d) Eclipse wird ausschließlich für Python verwendet."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche IDE ist speziell für den Ausbildungsbereich konzipiert?",
+            "optionen": [
+                "a) Eclipse",
+                "b) IntelliJ Ultimate",
+                "c) NetBeans",
+                "d) BlueJ"
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Welche Funktion erfüllt die Java-API?",
+            "optionen": [
+                "a) Sie übersetzt Quellcode in Bytecode.",
+                "b) Sie ist eine Sammlung vorgefertigter Softwarebausteine.",
+                "c) Sie ist ein Betriebssystem.",
+                "d) Sie ist ein JavaScript-Editor."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage über IntelliJ ist korrekt?",
+            "optionen": [
+                "a) Es gibt nur eine kostenpflichtige Version.",
+                "b) Es wird ausschließlich für JavaScript verwendet.",
+                "c) Die Community Edition reicht für Java SE aus.",
+                "d) Es läuft nur unter Windows."
+            ],
+            "antwort": "c"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.3.5.1 Java beschreiben und eine Entwicklungsumgebung auswählen ", lerninhalte, fragen)
+
+def modul18():
+    lerninhalte = [
+        "Sie lernen grundlegende Sprachelemente von Java kennen und entwickeln einfache Konsolenanwendungen.",
+        "Es wird eine kurze Einführung in die grundlegenden Sprachelemente von Java gegeben – darunter Operatoren, Kontrollstrukturen,\n\
+         Felder und Zufallszahlen.",
+        "Die Umsetzung erfolgt in der Entwicklungsumgebung Eclipse, die auf einfache Weise Java-Projekte erstellen und ausführen lässt.",
+        "Java ist case-sensitive, d.h., es wird zwischen Groß- und Kleinschreibung unterschieden (z.B. 'auto' ≠ 'Auto').",
+        "Syntaxfehler entstehen häufig durch fehlende oder falsch gesetzte Semikolons oder geschweifte Klammern.",
+        "Anweisungsblöcke in Java werden durch geschweifte Klammern gekennzeichnet und können beliebig verschachtelt sein.",
+        "Bezeichner sind eindeutige Namen für Variablen, Klassen und Methoden und dürfen nur alphanumerische Zeichen und Unterstriche enthalten.",
+        "Ein Bezeichner muss mit einem Buchstaben oder einem Unterstrich beginnen. Einzelne Unterstriche sind nicht erlaubt.",
+        "Schlüsselwörter in Java sind reservierte Begriffe mit besonderer Bedeutung und dürfen nicht als Bezeichner verwendet werden\n\
+        (z.B. public, class, void usw.).",
+        "Kommentare in Java ermöglichen Notizen im Quelltext – entweder einzeilig mit // oder mehrzeilig mit /* */.",
+        "Der Datentyp einer Variablen oder Konstanten bestimmt deren Wertebereich, Speichergröße sowie zulässige Operationen.",
+        "Zur Ausgabe in Java werden System.out.print und System.out.println verwendet.\n"
+        "Zeichenketten werden in Anführungszeichen geschrieben, Variablen werden durch '+' verbunden.\n"
+        "Beispiel: System.out.print(\"Text\"); oder System.out.println(\"Text\" + variable);",
+
+        "Zur Konsoleneingabe nutzt man die Scanner-Klasse aus dem Paket java.util.\n"
+        "1. Import java.util.*;\n"
+        "2. Erzeugen eines Scanner-Objekts: Scanner input = new Scanner(System.in);\n"
+        "3. Einlesen mit input.nextLine(), input.nextInt() oder input.nextDouble();\n"
+        "4. Am Ende: input.close();",
+
+        "Kontrollstrukturen in Java ermöglichen Verzweigungen und Wiederholungen.\n"
+        "Verzweigungen: if, if-else, switch.\n"
+        "Schleifenarten: while (kopfgesteuert), do-while (fußgesteuert), for (zählschleife).",
+
+        "Funktionen (Methoden) bestehen aus Rückgabetyp, Funktionsnamen, Parametern, Anweisungen und Rückgabe.\n"
+        "Beispiel: static double berechneSumme(double x, double y) { return x + y; }\n"
+        "Aufruf erfolgt z.B. in main: double s = berechneSumme(1.2, 3.4);",
+
+        "Felder (Arrays) speichern mehrere Werte gleichen Typs.\n"
+        "Index beginnt bei 0. Zugriff erfolgt über feld[0], feld[1], ...\n"
+        "Beispiel: int[] feld = new int[5]; feld[0] = 20; feld[4] = 10;"
+    ]
+
+    fragen = [
+        {
+            "frage": "Welche Entwicklungsumgebung wird zur Erstellung einfacher Java-Konsolenanwendungen verwendet?",
+            "optionen": ["a) Visual Studio", "b) Eclipse", "c) IntelliJ", "d) NetBeans"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was bedeutet 'case-sensitive' in Java?",
+            "optionen": ["a) Groß- und Kleinschreibung sind gleichwertig", "b) Java ignoriert Großbuchstaben", "c) Es wird zwischen Groß- und Kleinschreibung unterschieden", "d) Nur Großbuchstaben sind erlaubt"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wodurch entstehen in Java häufig Syntaxfehler? (Mehrere Antworten möglich)",
+            "optionen": ["a) Vergessene Semikolons", "b) Falsche Klammern", "c) Zu viele Leerzeichen", "d) Großbuchstaben"],
+            "antwort": ["a", "b"]
+        },
+        {
+            "frage": "Wie beginnt man in Eclipse die Erstellung eines Java-Projekts?",
+            "optionen": ["a) File > New > Project", "b) File > New > Java Project", "c) Edit > New > Java Class", "d) Start > Java > New Project"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist die Hauptfunktion der Methode 'public static void main(String[] args)' in Java?",
+            "optionen": ["a) Sie erstellt ein neues Objekt", "b) Sie initialisiert Variablen", "c) Sie dient als Einstiegspunkt für das Programm", "d) Sie importiert Bibliotheken"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussagen zu Bezeichnern in Java sind korrekt? (Mehrere Antworten möglich)",
+            "optionen": ["a) Dürfen Leerzeichen enthalten", "b) Müssen mit Buchstaben oder Unterstrich beginnen", "c) Dürfen keine Sonderzeichen wie $ enthalten", "d) Ein einzelner Unterstrich ist erlaubt"],
+            "antwort": ["b", "c"]
+        },
+        {
+            "frage": "Welche dieser Wörter sind in Java reservierte Schlüsselwörter? (Mehrere Antworten möglich)",
+            "optionen": ["a) void", "b) auto", "c) class", "d) print"],
+            "antwort": ["a", "c"]
+        },
+        {
+            "frage": "Wie kennzeichnet man einen einzeiligen Kommentar in Java?",
+            "optionen": ["a) /* */", "b) <!-- -->", "c) //", "d) ##"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wozu dienen geschweifte Klammern in Java?",
+            "optionen": ["a) Um Text farbig darzustellen", "b) Um Kommentare zu kennzeichnen", "c) Um Anweisungsblöcke zu definieren", "d) Zur Importierung von Bibliotheken"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage trifft auf den Datentyp einer Variablen zu?",
+            "optionen": ["a) Er hat keinen Einfluss auf die Operationen", "b) Er legt den Speicherort fest", "c) Er bestimmt Wertebereich und zulässige Operationen", "d) Er ist beliebig wählbar und hat keine Wirkung"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Methode erzeugt einen Zeilenumbruch bei der Ausgabe?",
+            "optionen": ["a) System.out.print", "b) System.out.write", "c) System.out.println",
+                         "d) System.write.print"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie verbindet man in Java eine Zeichenkette mit einer Variable in der Ausgabe?",
+            "optionen": ["a) Durch ein Komma", "b) Mit '+'", "c) Mit '&'", "d) Mit '#'"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist notwendig, um in Java über die Konsole Eingaben zu tätigen?",
+            "optionen": ["a) Scanner-Klasse und System.in", "b) System.out.write", "c) input.getText()",
+                         "d) Console.read()"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche Methode wird verwendet, um eine Kommazahl einzulesen?",
+            "optionen": ["a) input.next()", "b) input.readDouble()", "c) input.nextDouble()", "d) input.getFloat()"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist eine zweiseitige Verzweigung in Java?",
+            "optionen": ["a) if", "b) if-else", "c) switch", "d) while"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Schleife ist fußgesteuert?",
+            "optionen": ["a) for", "b) while", "c) do-while", "d) if"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie lautet der Rückgabetyp einer Methode, die nichts zurückgibt?",
+            "optionen": ["a) void", "b) null", "c) empty", "d) returnless"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche der folgenden Anweisungen deklariert eine Funktion mit zwei Parametern vom Typ double?",
+            "optionen": ["a) double f(x, y) { ... }", "b) static double berechneSumme(double x, double y) { ... }",
+                         "c) void berechne(double) { ... }", "d) public void berechneSumme() { ... }"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welchen Index hat das erste Element eines Arrays in Java?",
+            "optionen": ["a) 1", "b) -1", "c) 0", "d) beliebig"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie kann man in einem Array mit fünf Elementen den Wert 10 dem letzten Element zuweisen?",
+            "optionen": ["a) feld[5] = 10;", "b) feld[4] = 10;", "c) feld[0] = 10;", "d) feld[10] = 10;"],
+            "antwort": "b"
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8.3.5.2 Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren", lerninhalte, fragen)
+
+def modul19():
+   lerninhalte = [
+       "Die objektorientierte Programmierung in Java basiert auf den vier Grundkonzepten: Abstraktion, Kapselung, Vererbung und Polymorphie.\n"
+       "Java unterstützt diese Konzepte vollständig, jedoch ist Mehrfachvererbung nur über Interfaces möglich.\n"
+       "Für die Umsetzung einer Software für ein Luftfahrtunternehmen wurde ein UML-Modell entworfen und in Java umgesetzt."
+       ,
+       "Eine Klasse beginnt mit dem Schlüsselwort 'class'. Eigenschaften und Methoden werden innerhalb von geschweiften Klammern definiert.\n"
+       "Zugriffsmodifier legen die Sichtbarkeit von Klassenbestandteilen fest: public, protected, private.\n"
+       "Getter und Setter ermöglichen den kontrollierten Zugriff auf private Eigenschaften (Kapselung).\n"
+       "Ein Konstruktor wird beim Erzeugen eines Objekts aufgerufen und dient der Initialisierung.\n"
+       "Ein Destruktor wird beim Zerstören eines Objekts aufgerufen, ist in Java jedoch nicht notwendig wegen des Garbage Collectors.\n"
+       "Objekte werden mit dem Schlüsselwort 'new' erzeugt.",
+       "Vererbung ist ein grundlegendes Prinzip der objektorientierten Programmierung (OOP).",
+       "Es gibt Einfach- und Mehrfachvererbung. Java unterstützt direkt nur Einfachvererbung mit dem Schlüsselwort 'extends'.",
+       "Mehrfachvererbung kann in Java nur indirekt durch Interfaces realisiert werden.",
+       "Vererbte Methoden können genutzt werden, wenn sie public sind. Auf private Attribute kann nicht direkt zugegriffen werden.",
+       "Mit 'protected' wird der Zugriff auf Attribute für Unterklassen ermöglicht.",
+       "Methoden wie 'getDaten()' können in abgeleiteten Klassen überschrieben werden.",
+       "Eine abstrakte Klasse kann abstrakte Methoden enthalten und nicht instanziiert werden.",
+       "Abstrakte Methoden besitzen nur eine Methodensignatur, aber keinen Methodenrumpf.",
+       "Interfaces enthalten ausschließlich abstrakte Methoden und Konstanten.",
+       "Eine Klasse kann mehrere Interfaces implementieren, aber nur von einer abstrakten Klasse erben."
+   ]
+
+   fragen = [
+       {
+           "frage": "Welche vier Grundkonzepte liegen der objektorientierten Programmierung zugrunde?",
+           "optionen": ["a) Schleifen, Bedingungen, Klassen, Arrays",
+                        "b) Abstraktion, Kapselung, Vererbung, Polymorphie",
+                        "c) Public, Private, Methoden, Objekte",
+                        "d) Konstruktor, Destruktor, Getter, Setter"],
+           "antwort": "b"
+       },
+       {
+           "frage": "Wie wird Mehrfachvererbung in Java umgesetzt?",
+           "optionen": ["a) Durch Vererbung von mehreren Klassen",
+                        "b) Sie ist in Java nicht möglich",
+                        "c) Durch Interfaces",
+                        "d) Durch Getter und Setter"],
+           "antwort": "c"
+       },
+       {
+           "frage": "Welches Schlüsselwort wird in Java verwendet, um eine Klasse zu definieren?",
+           "optionen": ["a) object",
+                        "b) class",
+                        "c) new",
+                        "d) define"],
+           "antwort": "b"
+       },
+       {
+           "frage": "Was beschreibt die Kapselung in der OOP?",
+           "optionen": ["a) Das Erben von Eigenschaften",
+                        "b) Das Verdecken von Methoden",
+                        "c) Den kontrollierten Zugriff auf Eigenschaften",
+                        "d) Das Ausblenden von Objekten"],
+           "antwort": "c"
+       },
+       {
+           "frage": "Wozu dienen Getter und Setter?",
+           "optionen": ["a) Zur Initialisierung von Objekten",
+                        "b) Zum Zugriff auf öffentliche Eigenschaften",
+                        "c) Zur Kontrolle des Zugriffs auf private Eigenschaften",
+                        "d) Zur Löschung von Objekten"],
+           "antwort": "c"
+       },
+       {
+           "frage": "Welche Zugriffsmodifizierer gibt es in Java? (Mehrere Antworten möglich)",
+           "optionen": ["a) public",
+                        "b) default",
+                        "c) private",
+                        "d) protected"],
+           "antwort": ["a", "c", "d"]
+       },
+       {
+           "frage": "Was passiert, wenn kein Zugriffsmodifizierer angegeben wird?",
+           "optionen": ["a) Die Eigenschaft ist public",
+                        "b) Die Eigenschaft ist private",
+                        "c) Die Eigenschaft ist nur im selben Paket sichtbar (package-private)",
+                        "d) Die Eigenschaft ist automatisch final"],
+           "antwort": "c"
+       },
+       {
+           "frage": "Was ist ein Konstruktor?",
+           "optionen": ["a) Eine Methode zur Zerstörung eines Objekts",
+                        "b) Eine Methode zur Initialisierung eines Objekts",
+                        "c) Ein Interface",
+                        "d) Ein Zugriffsmodifizierer"],
+           "antwort": "b"
+       },
+       {
+           "frage": "Warum sind Destruktoren in Java meist nicht nötig?",
+           "optionen": ["a) Weil Java keine Destruktoren kennt",
+                        "b) Weil der Garbage Collector automatisch Speicher freigibt",
+                        "c) Weil Destruktoren illegal sind",
+                        "d) Weil Java persistent ist"],
+           "antwort": "b"
+       },
+       {
+           "frage": "Wie erzeugt man ein Objekt in Java?",
+           "optionen": ["a) new Klasse();",
+                        "b) create Klasse();",
+                        "c) Objekt Klasse = new Objekt();",
+                        "d) instance Klasse();"],
+           "antwort": "a"
+       },
+       {
+           "frage": "Was ist ein wesentliches Merkmal der Vererbung in der OOP?",
+           "optionen": [
+               "a) Vererbung erlaubt beliebig viele Instanzen.",
+               "b) Neue Klassen können auf Basis bestehender Klassen erstellt werden.",
+               "c) Vererbung ersetzt die Kapselung.",
+               "d) Vererbung ist in Java nicht erlaubt."],
+           "antwort": "b"
+       },
+       {
+           "frage": "Welche Vererbungsform unterstützt Java direkt?",
+           "optionen": [
+               "a) Mehrfachvererbung",
+               "b) Dreifachvererbung",
+               "c) Einfachvererbung",
+               "d) Keine"],
+           "antwort": "c"
+       },
+       {
+           "frage": "Wie wird Vererbung in Java realisiert?",
+           "optionen": [
+               "a) implements",
+               "b) inherits",
+               "c) uses",
+               "d) extends"],
+           "antwort": "d"
+       },
+       {
+           "frage": "Welche Zugriffsmodifizierer erlauben Vererbung auf Attribute in Unterklassen?",
+           "optionen": [
+               "a) private",
+               "b) static",
+               "c) protected",
+               "d) final"],
+           "antwort": "c"
+       },
+       {
+           "frage": "Warum kann auf private Attribute einer Oberklasse nicht direkt zugegriffen werden?",
+           "optionen": [
+               "a) Weil private Methoden vorrang haben.",
+               "b) Weil sie nur über Getter/Setter verfügbar sind.",
+               "c) Weil Java keine Vererbung unterstützt.",
+               "d) Weil nur static aufrufbar ist."],
+           "antwort": "b"
+       },
+       {
+           "frage": "Was beschreibt eine abstrakte Methode?",
+           "optionen": [
+               "a) Eine Methode mit vollständiger Implementierung.",
+               "b) Eine Methode, die in jeder Klasse gleich ist.",
+               "c) Eine Methode ohne Methodenrumpf.",
+               "d) Eine Methode mit doppelter Sichtbarkeit."],
+           "antwort": "c"
+       },
+       {
+           "frage": "Was ist ein zentrales Merkmal einer abstrakten Klasse?",
+           "optionen": [
+               "a) Sie darf Instanzen erzeugen.",
+               "b) Sie muss final sein.",
+               "c) Sie kann abstrakte und konkrete Methoden enthalten.",
+               "d) Sie besteht nur aus Interfaces."],
+           "antwort": "c"
+       },
+       {
+           "frage": "Was passiert, wenn eine Klasse nicht alle Methoden eines Interfaces implementiert?",
+           "optionen": [
+               "a) Die Klasse bleibt unverändert.",
+               "b) Die Klasse muss als abstrakt deklariert werden.",
+               "c) Das Interface wird automatisch angepasst.",
+               "d) Die Klasse wird gelöscht."],
+           "antwort": "b"
+       },
+       {
+           "frage": "Was unterscheidet ein Interface von einer abstrakten Klasse? (Mehrfachantwort) ",
+           "optionen": [
+               "a) In Interfaces sind alle Methoden abstrakt.",
+               "b) Interfaces dürfen keine Konstanten enthalten.",
+               "c) Interfaces haben immer public Sichtbarkeit.",
+               "d) Abstrakte Klassen dürfen mehrere Interfaces erben."],
+           "antwort": ["a", "c"]
+       },
+       {
+           "frage": "Was gilt für Java hinsichtlich Mehrfachvererbung?",
+           "optionen": [
+               "a) Java unterstützt sie direkt.",
+               "b) Java unterstützt sie über Interfaces.",
+               "c) Java erlaubt sie über Mehrfachkonstruktoren.",
+               "d) Java nutzt private Klassen dafür."],
+           "antwort": "b"
+       }
+   ]
+   modul_lernen_und_testen("Lernfeld 8.3.5.3 Das objektorientierte Programmierparadigma in Java umsetzen", lerninhalte, fragen)
+
+#
