@@ -1,3 +1,64 @@
+import json
+
+"""def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
+    def lernen():
+        def lerninhalte():
+            with open("lernmodule.json", "r", encoding="utf-8") as f:
+                 lerninhalt = json.load(f)
+
+            for eintrag in lerninhalt["modul20"]["lerninhalt"]:
+                print(eintrag)
+                input("Drücke Enter für den nächsten Eintrag...\n")
+        
+        print(f"\nLERNMODUS - {modulname}\n")
+        for abschnitt in lerninhalte:
+            print("- " + abschnitt)
+            input("\nDrücke Enter, um weiterzulernen...")
+
+    def test():
+        print(f"\nTESTMODUS - {modulname}\n")
+        punkte = 0
+        gesamt = len(fragen)
+
+        for f in fragen:
+            print(f["frage"])
+            for opt in f["optionen"]:
+                print(opt)
+            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
+
+            if isinstance(f["antwort"], list):
+                richtige_antworten = set(f["antwort"])
+                eingabe_antworten = set(antwort.split(","))
+                if eingabe_antworten == richtige_antworten:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
+            else:
+                if antwort == f["antwort"]:
+                    print("Richtig!")
+                    punkte += 1
+                else:
+                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
+            print()
+
+        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
+
+    while True:
+        print(f"\n{modulname}")
+        print("1. Lernen")
+        print("2. Test")
+        print("0. Zurück zum Hauptmenü")
+        wahl = input("Deine Wahl: ")
+
+        if wahl == "1":
+            lernen()
+        elif wahl == "2":
+            test()
+        elif wahl == "0":
+            break
+        else:
+            print("Ungültige Eingabe. Bitte versuche es erneut.")"""#es ist gerade zu spät zum denken
 def modul_lernen_und_testen(modulname, lerninhalte, fragen):
     def lernen():
         print(f"\nLERNMODUS - {modulname}\n")
@@ -49,7 +110,6 @@ def modul_lernen_und_testen(modulname, lerninhalte, fragen):
             break
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
-
 def modul1():
     lerninhalte = [
         "Projekte sind zeitlich begrenzt, haben ein klares Ziel und sind einmalig.\n\
@@ -2650,4 +2710,229 @@ def modul19():
    ]
    modul_lernen_und_testen("Lernfeld 8.3.5.3 Das objektorientierte Programmierparadigma in Java umsetzen", lerninhalte, fragen)
 
+def modul20():
+    with open("lernmodule.json", "r", encoding="utf-8") as f:
+        lerninhalte = json.load(f)
+        for i in lerninhalte["modul20"]["lerninhalt"]:
+            print(i)
+            input("Enter...\n")
+        """"Grafische Benutzeroberflächen (GUIs) in Java ermöglichen eine komplexere Interaktion als Konsolenanwendungen.",
+        "GUI-Programmierung erfordert Planung und ist aufwändiger hinsichtlich Benutzerfreundlichkeit und Oberflächendesign.",
+        "Java bietet zur GUI-Erstellung spezielle Bibliotheken: AWT, Swing (JFC), JavaFX.",
+        "Swing ist plattformunabhängig, vollständig in Java implementiert und enthält zahlreiche GUI-Komponenten.",
+        "Jede grafische Bibliothek benötigt: Widgets (Fenster, Buttons etc.), ein Ereignismodell und grafische\n\
+         Grundoperationen (Farben, Linien, Fonts).",
+        "Swing erlaubt 'Pluggable Look and Feel' – das UI kann zur Laufzeit geändert werden.",
+        "Swing unterstützt Accessibility für barrierefreien Zugang (z.B. Screenreader, Lupe, Spracherkennung).",
+        "Die Java2D API erlaubt das Zeichnen und Darstellen von Objekten auf dem Bildschirm.",
+        "JFrame ist eine Swing-Klasse zur Erstellung von Fenstern. Beispielcode zeigt: Fenstergröße, Position, Sichtbarkeit.",
+        "GUI-Elemente (z.B. Buttons) können Ereignisse auslösen, z.B. Programm beenden mit ActionListener.",
+        "GUI-Builder wie WindowBuilder erleichtern die Oberflächengestaltung per Drag and Drop und automatischer Code-Generierung.",
+        "WindowBuilder kann über den Eclipse Marketplace installiert und verwendet werden."""""
+
+
+    fragen = [
+        {
+            "frage": "Was unterscheidet eine GUI grundlegend von einer Konsolenanwendung?",
+            "optionen": [
+                "a) Nur die Ausgabemethode",
+                "b) Nur die Programmiersprache",
+                "c) Die Interaktion durch Oberflächenelemente",
+                "d) Es gibt keinen Unterschied"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche drei grundlegenden Elemente muss eine Java-GUI-Bibliothek bieten?",
+            "optionen": [
+                "a) Tabellen, SQL-Anbindung, Datenexport",
+                "b) Widgets, Ereignismodell, grafische Grundoperationen",
+                "c) Konsolenkommandos, Fenster, HTML",
+                "d) Netzwerktools, Compiler, Datenbanken"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Java-Bibliothek war die erste GUI-API?",
+            "optionen": [
+                "a) JavaFX",
+                "b) Java2D",
+                "c) Swing",
+                "d) AWT"
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Wofür steht die Abkürzung JFC?",
+            "optionen": [
+                "a) Java Fast Compilation",
+                "b) Java Foundation Classes",
+                "c) Java Function Core",
+                "d) Java File Controller"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was bedeutet 'Pluggable Look and Feel'?",
+            "optionen": [
+                "a) Das Layout ist fest und unveränderbar",
+                "b) Komponenten können dynamisch zur Laufzeit verändert werden",
+                "c) Nur Buttons sind veränderbar",
+                "d) Es betrifft nur den Hintergrund"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Klasse wird verwendet, um ein Fenster in Java zu erstellen?",
+            "optionen": [
+                "a) JFrame",
+                "b) JWindow",
+                "c) FrameMaker",
+                "d) JavaPanel"
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was bewirkt der Aufruf von System.exit(0) in einer GUI?",
+            "optionen": [
+                "a) Es öffnet ein neues Fenster",
+                "b) Das Programm wird beendet",
+                "c) Es startet den Debugger",
+                "d) Es wechselt zur Konsole"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Vorteile bieten GUI-Builder?",
+            "optionen": [
+                "a) Nur grafisch schönere Oberflächen",
+                "b) Automatische Codegenerierung und einfache Anordnung der Elemente",
+                "c) Schnellere Kompilierung",
+                "d) Unterstützung von Datenbanken"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie heißt der GUI-Builder für Eclipse?",
+            "optionen": [
+                "a) JavaMaker",
+                "b) GUIForge",
+                "c) WindowBuilder",
+                "d) EclipseFX"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Technologien unterstützt die Accessibility-API in Java? (Mehrere Antworten möglich)",
+            "optionen": [
+                "a) Spracherkennung",
+                "b) Lesegeräte für Blinde",
+                "c) Druckfunktion",
+                "d) Bildschirmlupe"
+            ],
+            "antwort": ["a", "b", "d"]
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.3.5.4 Grafische Benutzerschnittstellen in Java entwickeln", lerninhalte, fragen)
+
+def modul21():
+    lerninhalte = [
+        "Ziel: Erweiterung der Kenntnisse über objektorientierte Programmierung (OOP) und grafische Benutzeroberflächen in Python.\n\
+        Voraussetzung: Grundkenntnisse in Python und Entwicklungsumgebung (z.B. PyCharm).",
+        "OOP-Konzepte: Abstraktion, Kapselung, Vererbung, Polymorphie.\n\
+        Python unterstützt OOP nur teilweise (z.B. kein vollständiges Methoden-Overloading).",
+        "Zugriffsmodifier in Python:\n\
+        - public: ohne Präfix, uneingeschränkter Zugriff (Standard in Python)\n\
+        - protected: mit einem Unterstrich (_) – nur konventionell geschützt\n\
+        - private: mit doppeltem Unterstrich (__) – Zugriff nur innerhalb der Klasse.",
+        "Kapselung wird über Getter und Setter erreicht, um Eigenschaften geschützt zu lesen/setzen.\n\
+        Änderungen an Schnittstellen wirken sich nicht auf den restlichen Code aus.",
+        "Konstruktor: Methode __init__, wird beim Erzeugen des Objekts automatisch aufgerufen.\n\
+        Initialisiert Attribute und speichert Anfangswerte.\n\
+        Destruktor: Methode __del__, wird beim Löschen eines Objekts aufgerufen (z.B. zum Speichern von Daten).",
+        "Python-Klassen bestehen aus Attributen, Methoden und ggf. Konstruktor/Destruktor.\n\
+        Beispielklasse: Musikinstrument mit Attributen modell, hersteller, preis sowie Getter/Setter und Methode get_daten().",
+        "Objekterzeugung: bezeichner = Klassenname(parameterliste).\n\
+        Nach Erzeugung kann auf Attribute über Getter/Setter zugegriffen werden.\n\
+        Beispiel aus Hauptprogramm zeigt konkrete Initialisierung und Nutzung."
+    ]
+
+    fragen = [
+        {
+            "frage": "Welche Programmiersprache wird im Kapitel verwendet?",
+            "optionen": ["a) Java", "b) C++", "c) Python", "d) JavaScript"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Konzepte gehören zur objektorientierten Programmierung?",
+            "optionen": ["a) Wiederholung, Reihenfolge, Selektion, Vererbung",
+                         "b) Abstraktion, Kapselung, Vererbung, Polymorphie",
+                         "c) Funktionen, Bedingungen, Schleifen, Klassen",
+                         "d) Modularität, Effizienz, Kompilierung, Parallelität"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Sichtbarkeitsstufen unterstützt Python offiziell?",
+            "optionen": ["a) Nur public", "b) Nur private", "c) public, protected, private", "d) Keine"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Woran erkennt man ein protected-Attribut in Python?",
+            "optionen": ["a) Kein Unterstrich", "b) Ein Unterstrich (_) vor dem Namen",
+                         "c) Zwei Unterstriche (__)", "d) Stern (*) vor dem Namen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist die Aufgabe eines Getters?",
+            "optionen": ["a) Zum Initialisieren des Objekts",
+                         "b) Zum Zuweisen eines Werts",
+                         "c) Zum Löschen eines Objekts",
+                         "d) Zum Auslesen eines Attributwerts"],
+            "antwort": "d"
+        },
+        {
+            "frage": "Was ist korrekt über Konstruktoren in Python?",
+            "optionen": ["a) Es kann mehrere pro Klasse geben",
+                         "b) Sie heißen immer __init__",
+                         "c) Sie heißen init() ohne Unterstriche",
+                         "d) Konstruktoren sind optional und selten genutzt"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wann wird ein Destruktor aufgerufen?",
+            "optionen": ["a) Beim Start des Programms",
+                         "b) Beim Anlegen einer Klasse",
+                         "c) Beim Löschen eines Objekts",
+                         "d) Beim Beenden eines Methodenblocks"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage zur Kapselung ist korrekt?",
+            "optionen": ["a) Attribute werden immer direkt angesprochen",
+                         "b) Getter und Setter ermöglichen kontrollierten Zugriff",
+                         "c) Nur Methoden sind gekapselt",
+                         "d) Es gibt keine Kapselung in Python"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie sieht die Syntax zum Erzeugen eines Objekts aus?",
+            "optionen": ["a) Klasse = Objekt(Parameter)",
+                         "b) bezeichner: Klasse(Parameter)",
+                         "c) bezeichner = Klassenname(Parameter)",
+                         "d) class Parameter = Objekt"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was enthält die Methode get_daten() der Klasse Musikinstrument?",
+            "optionen": ["a) Ein Konstruktor",
+                         "b) Die Rückgabe von Modell, Hersteller und Preis",
+                         "c) Eine Datenbankverbindung",
+                         "d) Nur einen Preisvergleich"],
+            "antwort": "b"
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8.3.6 Anwendungen in Python implementieren", lerninhalte, fragen)
 #
+
+

@@ -1,0 +1,130 @@
+
+
+
+
+{
+  "modul20": {
+
+    "lerninhalt": [
+      "Grafische Benutzeroberflächen (GUIs) in Java ermöglichen eine komplexere Interaktion als Konsolenanwendungen.",
+      "GUI-Programmierung erfordert Planung und ist aufwändiger hinsichtlich Benutzerfreundlichkeit und Oberflächendesign.",
+      "Java bietet zur GUI-Erstellung spezielle Bibliotheken: AWT, Swing (JFC), JavaFX.",
+      "Swing ist plattformunabhängig, vollständig in Java implementiert und enthält zahlreiche GUI-Komponenten.",
+      "Jede grafische Bibliothek benötigt: Widgets (Fenster, Buttons etc.), ein Ereignismodell und grafische\nGrundoperationen (Farben, Linien, Fonts).",
+      "Swing erlaubt 'Pluggable Look and Feel' – das UI kann zur Laufzeit geändert werden.",
+      "Swing unterstützt Accessibility für barrierefreien Zugang (z.B. Screenreader, Lupe, Spracherkennung).",
+      "Die Java2D API erlaubt das Zeichnen und Darstellen von Objekten auf dem Bildschirm.",
+      "JFrame ist eine Swing-Klasse zur Erstellung von Fenstern. Beispielcode zeigt: Fenstergröße, Position, Sichtbarkeit.",
+      "GUI-Elemente (z.B. Buttons) können Ereignisse auslösen, z.B. Programm beenden mit ActionListener.",
+      "GUI-Builder wie WindowBuilder erleichtern die Oberflächengestaltung per Drag and Drop und automatischer Code-Generierung.",
+      "WindowBuilder kann über den Eclipse Marketplace installiert und verwendet werden."
+    ],
+
+    "fragen":[
+      {
+        "frage": "Was unterscheidet eine GUI grundlegend von einer Konsolenanwendung?",
+        "optionen": [
+          "a) Nur die Ausgabemethode",
+          "b) Nur die Programmiersprache",
+          "c) Die Interaktion durch Oberflächenelemente",
+          "d) Es gibt keinen Unterschied"
+        ],
+        "antwort": "c"
+      },
+      {
+        "frage": "Welche drei grundlegenden Elemente muss eine Java-GUI-Bibliothek bieten?",
+        "optionen": [
+          "a) Tabellen, SQL-Anbindung, Datenexport",
+          "b) Widgets, Ereignismodell, grafische Grundoperationen",
+          "c) Konsolenkommandos, Fenster, HTML",
+          "d) Netzwerktools, Compiler, Datenbanken"
+        ],
+        "antwort": "b"
+      },
+      {
+        "frage": "Welche Java-Bibliothek war die erste GUI-API?",
+        "optionen": [
+          "a) JavaFX",
+          "b) Java2D",
+          "c) Swing",
+          "d) AWT"
+        ],
+        "antwort": "d"
+      },
+      {
+        "frage": "Wofür steht die Abkürzung JFC?",
+        "optionen": [
+          "a) Java Fast Compilation",
+          "b) Java Foundation Classes",
+          "c) Java Function Core",
+          "d) Java File Controller"
+        ],
+        "antwort": "b"
+      },
+      {
+        "frage": "Was bedeutet 'Pluggable Look and Feel'?",
+        "optionen": [
+          "a) Das Layout ist fest und unveränderbar",
+          "b) Komponenten können dynamisch zur Laufzeit verändert werden",
+          "c) Nur Buttons sind veränderbar",
+          "d) Es betrifft nur den Hintergrund"
+        ],
+        "antwort": "b"
+      },
+      {
+        "frage": "Welche Klasse wird verwendet, um ein Fenster in Java zu erstellen?",
+        "optionen": [
+          "a) JFrame",
+          "b) JWindow",
+          "c) FrameMaker",
+          "d) JavaPanel"
+        ],
+        "antwort": "a"
+      },
+      {
+        "frage": "Was bewirkt der Aufruf von System.exit(0) in einer GUI?",
+        "optionen": [
+          "a) Es öffnet ein neues Fenster",
+          "b) Das Programm wird beendet",
+          "c) Es startet den Debugger",
+          "d) Es wechselt zur Konsole"
+        ],
+        "antwort": "b"
+      },
+      {
+        "frage": "Welche Vorteile bieten GUI-Builder?",
+        "optionen": [
+          "a) Nur grafisch schönere Oberflächen",
+          "b) Automatische Codegenerierung und einfache Anordnung der Elemente",
+          "c) Schnellere Kompilierung",
+          "d) Unterstützung von Datenbanken"
+        ],
+        "antwort": "b"
+      },
+      {
+        "frage": "Wie heißt der GUI-Builder für Eclipse?",
+        "optionen": [
+          "a) JavaMaker",
+          "b) GUIForge",
+          "c) WindowBuilder",
+          "d) EclipseFX"
+        ],
+        "antwort": "c"
+      },
+      {
+        "frage": "Welche Technologien unterstützt die Accessibility-API in Java? (Mehrere Antworten möglich)",
+        "optionen": [
+          "a) Spracherkennung",
+          "b) Lesegeräte für Blinde",
+          "c) Druckfunktion",
+          "d) Bildschirmlupe"
+        ],
+        "antwort": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+]
+}
+}
