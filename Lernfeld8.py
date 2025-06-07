@@ -1,19 +1,52 @@
 import json
 
-"""def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
-    def lernen():
-        def lerninhalte():
-            with open("lernmodule.json", "r", encoding="utf-8") as f:
-                 lerninhalt = json.load(f)
+def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
 
-            for eintrag in lerninhalt["modul20"]["lerninhalt"]:
-                print(eintrag)
-                input("Drücke Enter für den nächsten Eintrag...\n")
-        
-        print(f"\nLERNMODUS - {modulname}\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
+    """def lerninhalt():
+        with open("lernmodule.json", "r", encoding="utf-8") as f:
+             lerninhalt1 = json.load(f)
+
+        for eintrag in lerninhalt1["modul20"]["lerninhalt"]:
+            print(eintrag["lerninhalt"])
+            input("Drücke Enter für den nächsten Eintrag...\n")
+
+    print(f"\nLERNMODUS - {modulname}\n")
+    for abschnitt in lerninhalte:
+        print("- " + abschnitt)
+        input("\nDrücke Enter, um weiterzulernen...")
+    return lerninhalt()
+
+    lernen = lerninhalt()"""
+
+
+    def lernen():
+        try:
+            with open("lernmodule.json", "r", encoding="utf-8") as f:
+                daten = json.load(f)
+
+            modul_key = f"modul{modulnummer}"
+
+            if modul_key in daten and "lerninhalt" in daten[modul_key]:
+                for eintrag in daten[modul_key]["lerninhalt"]:
+                    print(eintrag["lerninhalt"])  # ACHTUNG: Key muss exakt so im JSON sein!
+                    input("Drücke Enter für den nächsten Eintrag...\n")
+            else:
+                print(f"Modul {modulnummer} oder 'lerninhalt' nicht in JSON gefunden.")
+        except FileNotFoundError:
+            print("Datei 'lernmodule.json' wurde nicht gefunden.")
+        except json.JSONDecodeError:
+            print("Fehler beim Einlesen der JSON-Datei.")
+        except KeyError as e:
+            print(f"Fehlender Schlüssel in JSON: {e}")
+
+    # Lernmodus: Inhalte anzeigen
+    print(f"\nLERNMODUS - {modulname}\n")
+    for abschnitt in lerninhalte:
+        print("- " + abschnitt)
+        input("\nDrücke Enter, um weiterzulernen...")
+
+    # Lerneinträge aus Datei anzeigen
+    lernen()
 
     def test():
         print(f"\nTESTMODUS - {modulname}\n")
@@ -58,7 +91,7 @@ import json
         elif wahl == "0":
             break
         else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")"""#es ist gerade zu spät zum denken
+            print("Ungültige Eingabe. Bitte versuche es erneut.") #es ist gerade zu spät zum denken
 def modul_lernen_und_testen(modulname, lerninhalte, fragen):
     def lernen():
         print(f"\nLERNMODUS - {modulname}\n")
@@ -663,12 +696,12 @@ def modul5():
 def modul6():
     lerninhalte = [
         "Eine Datenquelle ist der Ursprung von Daten – also der Ort, an dem Daten entstehen oder gespeichert sind.\n\
-        Primäre Datenquellen liefern Daten direkt vom Ursprung (z. B. Sensoren).\n\
-        Sekundäre Datenquellen speichern Daten weiter (z. B. Datenbanken, Dateien).",
+        Primäre Datenquellen liefern Daten direkt vom Ursprung (z.B. Sensoren).\n\
+        Sekundäre Datenquellen speichern Daten weiter (z.B. Datenbanken, Dateien).",
 
         "Typische Datenquellen sind:\n\
-        – Datenbanken (z. B. MySQL)\n\
-        – Dateien (z. B. CSV)\n\
+        – Datenbanken (z.B. MySQL)\n\
+        – Dateien (z.B. CSV)\n\
         – Sensoren, Benutzer, Webseiten oder Apps.",
 
         "Open Data ist für alle frei zugänglich, maschinenlesbar und kostenlos nutzbar.\n\
@@ -782,14 +815,14 @@ def modul6():
 def modul7():
     lerninhalte = [
         "🔹 Heterogene Datenquellen:\n\
-        Unternehmen nutzen viele Datenquellen: intern (z. B. Datenbanken) und extern (z. B. Webservices).\n\
+        Unternehmen nutzen viele Datenquellen: intern (z.B. Datenbanken) und extern (z.B. Webservices).\n\
         Diese Quellen sind oft uneinheitlich – also *heterogen*. Beispiel: „Ort“ vs. „Location“. Beide meinen dasselbe, sind aber verschieden gespeichert.",
 
         "🔹 Formen der Heterogenität:\n\
-        – Technisch: verschiedene Zugriffsmethoden (z. B. SQL, REST)\n\
-        – Syntaktisch: unterschiedliche Darstellung (z. B. Datum als 20.03.2021 oder 2021-03-20)\n\
-        – Modellbezogen: unterschiedliche Datenmodelle (z. B. relational vs. dokumentenbasiert)\n\
-        – Strukturell: gleiche Daten, verschieden organisiert (z. B. Adressen direkt vs. als Tabelle)\n\
+        – Technisch: verschiedene Zugriffsmethoden (z.B. SQL, REST)\n\
+        – Syntaktisch: unterschiedliche Darstellung (z.B. Datum als 20.03.2021 oder 2021-03-20)\n\
+        – Modellbezogen: unterschiedliche Datenmodelle (z.B. relational vs. dokumentenbasiert)\n\
+        – Strukturell: gleiche Daten, verschieden organisiert (z.B. Adressen direkt vs. als Tabelle)\n\
         – Semantisch: gleiche Bedeutung, andere Bezeichnung („Ort“ vs. „Location“)",
 
         "🔹 Ziel der Informationsintegration:\n\
@@ -797,11 +830,11 @@ def modul7():
         Herausforderung: Daten sind oft redundant – Redundanzen müssen erkannt und sinnvoll genutzt werden.",
 
         "🔹 Zwei Wege der Integration:\n\
-        1. *Physische (materialisierte) Integration*: Daten werden zentral gespeichert (z. B. im Data Warehouse oder Data Lake)\n\
+        1. *Physische (materialisierte) Integration*: Daten werden zentral gespeichert (z.B. im Data Warehouse oder Data Lake)\n\
         ✔ Vorteile: gute Qualität, schnelle Auswertung\n\
         ✘ Nachteile: nicht immer aktuell, hoher Pflegeaufwand",
 
-        "2. *Virtuelle (logische) Integration*: Daten bleiben am Ursprungsort, werden nur bei Abfrage zusammengeführt (z. B. durch Mediator-Systeme)\n\
+        "2. *Virtuelle (logische) Integration*: Daten bleiben am Ursprungsort, werden nur bei Abfrage zusammengeführt (z.B. durch Mediator-Systeme)\n\
         ✔ Vorteile: immer aktuell, flexibel\n\
         ✘ Nachteile: langsamere Abfragen, niedrigere Qualität",
 
@@ -2713,10 +2746,10 @@ def modul19():
 def modul20():
     with open("lernmodule.json", "r", encoding="utf-8") as f:
         lerninhalte = json.load(f)
-        for i in lerninhalte["modul20"]["lerninhalt"]:
+        for i in lerninhalte["lm20"]["lerninhalt"]:
             print(i)
             input("Enter...\n")
-        """"Grafische Benutzeroberflächen (GUIs) in Java ermöglichen eine komplexere Interaktion als Konsolenanwendungen.",
+        """("Grafische Benutzeroberflächen (GUIs) in Java ermöglichen eine komplexere Interaktion als Konsolenanwendungen.",
         "GUI-Programmierung erfordert Planung und ist aufwändiger hinsichtlich Benutzerfreundlichkeit und Oberflächendesign.",
         "Java bietet zur GUI-Erstellung spezielle Bibliotheken: AWT, Swing (JFC), JavaFX.",
         "Swing ist plattformunabhängig, vollständig in Java implementiert und enthält zahlreiche GUI-Komponenten.",
@@ -2728,7 +2761,7 @@ def modul20():
         "JFrame ist eine Swing-Klasse zur Erstellung von Fenstern. Beispielcode zeigt: Fenstergröße, Position, Sichtbarkeit.",
         "GUI-Elemente (z.B. Buttons) können Ereignisse auslösen, z.B. Programm beenden mit ActionListener.",
         "GUI-Builder wie WindowBuilder erleichtern die Oberflächengestaltung per Drag and Drop und automatischer Code-Generierung.",
-        "WindowBuilder kann über den Eclipse Marketplace installiert und verwendet werden."""""
+        "WindowBuilder kann über den Eclipse Marketplace installiert und verwendet werden.")"""
 
 
     fragen = [
@@ -2834,7 +2867,7 @@ def modul20():
         }
     ]
 
-    modul_lernen_und_testen("Lernfeld 8.3.5.4 Grafische Benutzerschnittstellen in Java entwickeln", lerninhalte, fragen)
+    modul_lernen_und_testen2("Lernfeld 8.3.5.4 Grafische Benutzerschnittstellen in Java entwickeln", lerninhalte, fragen)
 
 def modul21():
     lerninhalte = [
