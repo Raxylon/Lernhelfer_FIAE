@@ -20,7 +20,8 @@ def main():
         if not wahl.isdigit() or not (1 <= int(wahl) <= len(lernfelder)):
             print("Ungültige Eingabe. Bitte eine gültige Zahl eingeben.")
             continue
-        modul_name = lernfelder[int(wahl)-1]
+        modul_name = 8
+
         try:
             modul = importlib.import_module(modul_name)
             # Erwartet, dass in jeder lfXX.py ein menu() definiert ist

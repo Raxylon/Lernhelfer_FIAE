@@ -1,188 +1,245 @@
 {
   "lernmoduleLF8": {
     "lm01": {
-      "8.1 - Kundenaufträge im Rahmen von Softwareprojekten":[],
-      "lerninhalt": [
-        "In der Zeit von Big Data und exponentiellem Datenwachstum ist es wichtig, die anfallenden Daten entsprechend zu verarbeiten,\nzu speichern und anschließend für das Unternehmen sinnvoll zu nutzen. Dazu müssen die verfügbaren Daten und die dazugehörigen\nQuellen zunächst analysiert und hinsichtlich ihrer Qualität und Verfügbarkeit bewertet werden. Im Anschluss daran werden\nSoftwarelösungen entwickelt, welche diese Daten aus den verschiedenen Quellen zusammenführen und für eine weitere Analyse\nsystemübergreifend bereitstellen.",
-        "Viele Unternehmen nutzen noch klassische Konzepte zur Datenverarbeitung, insbesondere bei moderat wachsenden, strukturierten\nDatenmengen. Diese Konzepte stoßen bei großen, unstrukturierten Datenmengen schnell an ihre Grenzen. Daher setzen immer mehr\nUnternehmen auf moderne, agile Ansätze wie cloudbasierte NoSQL-Datenbanklösungen oder agile Vorgehensmodelle (z.B. Scrum).",
-        "Zur Sicherstellung der Softwarequalität wird verstärkt auf objektorientierte Programmiersprachen wie Java oder Python gesetzt.\nAuch die Modellierungssprache UML spielt bei der Planung von Softwarelösungen eine große Rolle. Ebenso gewinnt die ergonomische\nGestaltung von Benutzerschnittstellen an Bedeutung.",
-        "Alle diese Themen sind Bestandteil des Lernfelds und orientieren sich an der Ausbildungsverordnung und am Rahmenlehrplan der\nneuen IT-Berufe. Beispielhafte Softwareprojekte: Entwicklung einer Lernsoftware („SMART“), Musik-Store-Erweiterung,\nJachthafen-App, Tool „Statistika“, Luftfahrt-Software, Cloud-Migration von ASTRA, Webauftritt, Projektverwaltungssoftware,\nMaschinenwartung mit Datenauswertung.",
-        "Softwareprojekte können Neu- oder Anpassungsentwicklungen sein und sowohl intern als auch extern beauftragt werden.\nDie Projektdefinition hängt nicht vom Thema oder der Komplexität ab.",
-        "Projektmanagement ist die Planung, Überwachung, Steuerung und der Abschluss eines Projekts. Projekte durchlaufen Phasen:\nInitiierung, Definition, Planung, Ausführung, Abschluss. Die Projektkontrolle erfolgt über alle Phasen.",
-        "Jedes Projekt ist ein Balanceakt zwischen Umfang, Zeit und Kosten. Eine Änderung eines Faktors beeinflusst die anderen.\nProjektmanagement stammt ursprünglich aus dem Ingenieurwesen und wurde fachübergreifend weiterentwickelt.",
-        "Bearbeitung von Kundenaufträgen im Rahmen von Softwareprojekten gewinnt an Bedeutung. Anteil am BIP: 2007 = 2%, 2020 = 15%,\nTendenz steigend.",
-        "Ziel: Entwicklung einer Software zur Aufbereitung, Auswertung und Bereitstellung von Daten aus verschiedenen Quellen nach Kundenwunsch.",
-        "Arbeit in Projekten unterscheidet sich wesentlich von Routineaufgaben. Projekte sind einmalige Vorhaben mit klar definiertem Ziel und begrenzter Dauer."
-  ],
-      "fragen": [
-    {
-      "frage": "Was ist bei der Verarbeitung großer Datenmengen besonders wichtig?",
-      "optionen": ["a) Speicherung auf CDs", "b) Analyse und Bewertung der Datenqualität", "c) Manuelle Dateneingabe", "d) Nutzung lokaler Textdateien"],
-      "antwort": "b"
-    },
-    {
-      "frage": "Wofür stoßen klassische Datenkonzepte an ihre Grenzen?",
-      "optionen": ["a) Bei strukturierten Daten", "b) Bei kleinen Datenmengen", "c) Bei großen, unstrukturierten Datenmengen", "d) Bei der Programmierung mit Python"],
-      "antwort": "c"
-    },
-    {
-      "frage": "Welche Technologien gewinnen in modernen Softwareprojekten an Bedeutung?",
-      "optionen": ["a) Disketten und Faxgeräte", "b) NoSQL und agile Modelle", "c) Monolithische Architekturen", "d) Tabellenkalkulationen"],
-      "antwort": "b"
-    },
-    {
-      "frage": "Was ist ein Vorteil objektorientierter Programmiersprachen in Softwareprojekten?",
-      "optionen": ["a) Sie arbeiten ohne Daten", "b) Sie reduzieren Softwarequalität", "c) Sie unterstützen eine strukturierte Entwicklung", "d) Sie ersetzen Projektmanagement"],
-      "antwort": "c"
-    },
-    {
-      "frage": "Was ist UML?",
-      "optionen": ["a) Eine Programmiersprache", "b) Ein Datenbanksystem", "c) Eine Modellierungssprache zur Softwareplanung", "d) Ein Betriebssystem"],
-      "antwort": "c"
-    },
-    {
-      "frage": "Was zeigen die Projektbeispiele im Lernfeld?",
-      "optionen": ["a) Nur Schulprojekte", "b) Eine Bandbreite realer Softwareentwicklungen", "c) Nur Cloudlösungen", "d) Ausschließlich Apps"],
-      "antwort": "b"
-    },
-    {
-      "frage": "Was trifft auf Softwareprojekte zu?",
-      "optionen": ["a) Nur interne Entwicklung", "b) Immer identischer Ablauf", "c) Neu- oder Anpassungsentwicklung, intern oder extern", "d) Keine Projektplanung notwendig"],
-      "antwort": "c"
-    },
-    {
-      "frage": "Wie entwickelt sich der Beitrag der Projektarbeit zum BIP?",
-      "optionen": ["a) Sinkt stark", "b) Bleibt bei 2 %", "c) Stieg von 2 % (2007) auf 15 % (2020)", "d) Ist irrelevant"],
-      "antwort": "c"
-    },
-    {
-      "frage": "Was ist unter Projektmanagement zu verstehen?",
-      "optionen": ["a) Nur Softwareentwicklung", "b) Planung, Überwachung, Steuerung und Abschluss eines Projekts", "c) Nur Projektabschluss", "d) Nur Dokumentation"],
-      "antwort": "b"
-    },
-    {
-      "frage": "Was beschreibt ein Projekt im Vergleich zur Routinearbeit?",
-      "optionen": ["a) Wiederholende Aufgaben ohne Ziel", "b) Einmaligkeit und klares Zielbild", "c) Offener Zeitrahmen", "d) Permanente Wartung"],
-      "antwort": "b"
-    }
-  ]
+      "8.1 - Kundenaufträge im Rahmen von Softwareprojekten": {
+        "lerninhalt": [
+          "In der Zeit von Big Data und exponentiellem Datenwachstum ist es wichtig, die anfallenden Daten entsprechend zu verarbeiten,\nzu speichern und anschließend für das Unternehmen sinnvoll zu nutzen. Dazu müssen die verfügbaren Daten und die dazugehörigen\nQuellen zunächst analysiert und hinsichtlich ihrer Qualität und Verfügbarkeit bewertet werden. Im Anschluss daran werden\nSoftwarelösungen entwickelt, welche diese Daten aus den verschiedenen Quellen zusammenführen und für eine weitere Analyse\nsystemübergreifend bereitstellen.",
+          "Viele Unternehmen nutzen noch klassische Konzepte zur Datenverarbeitung, insbesondere bei moderat wachsenden, strukturierten\nDatenmengen. Diese Konzepte stoßen bei großen, unstrukturierten Datenmengen schnell an ihre Grenzen. Daher setzen immer mehr\nUnternehmen auf moderne, agile Ansätze wie cloudbasierte NoSQL-Datenbanklösungen oder agile Vorgehensmodelle (z.B. Scrum).",
+          "Zur Sicherstellung der Softwarequalität wird verstärkt auf objektorientierte Programmiersprachen wie Java oder Python gesetzt.\nAuch die Modellierungssprache UML spielt bei der Planung von Softwarelösungen eine große Rolle. Ebenso gewinnt die ergonomische\nGestaltung von Benutzerschnittstellen an Bedeutung.",
+          "Alle diese Themen sind Bestandteil des Lernfelds und orientieren sich an der Ausbildungsverordnung und am Rahmenlehrplan der\nneuen IT-Berufe. Beispielhafte Softwareprojekte: Entwicklung einer Lernsoftware („SMART“), Musik-Store-Erweiterung,\nJachthafen-App, Tool „Statistika“, Luftfahrt-Software, Cloud-Migration von ASTRA, Webauftritt, Projektverwaltungssoftware,\nMaschinenwartung mit Datenauswertung.",
+          "Softwareprojekte können Neu- oder Anpassungsentwicklungen sein und sowohl intern als auch extern beauftragt werden.\nDie Projektdefinition hängt nicht vom Thema oder der Komplexität ab.",
+          "Projektmanagement ist die Planung, Überwachung, Steuerung und der Abschluss eines Projekts. Projekte durchlaufen Phasen:\nInitiierung, Definition, Planung, Ausführung, Abschluss. Die Projektkontrolle erfolgt über alle Phasen.",
+          "Jedes Projekt ist ein Balanceakt zwischen Umfang, Zeit und Kosten. Eine Änderung eines Faktors beeinflusst die anderen.\nProjektmanagement stammt ursprünglich aus dem Ingenieurwesen und wurde fachübergreifend weiterentwickelt.",
+          "Bearbeitung von Kundenaufträgen im Rahmen von Softwareprojekten gewinnt an Bedeutung. Anteil am BIP: 2007 = 2%, 2020 = 15%,\nTendenz steigend.",
+          "Ziel: Entwicklung einer Software zur Aufbereitung, Auswertung und Bereitstellung von Daten aus verschiedenen Quellen nach Kundenwunsch.",
+          "Arbeit in Projekten unterscheidet sich wesentlich von Routineaufgaben. Projekte sind einmalige Vorhaben mit klar definiertem Ziel und begrenzter Dauer."
+        ],
+        "fragen": [
+          {
+            "frage": "Was ist bei der Verarbeitung großer Datenmengen besonders wichtig?",
+            "optionen": [
+              "a) Speicherung auf CDs",
+              "b) Analyse und Bewertung der Datenqualität",
+              "c) Manuelle Dateneingabe",
+              "d) Nutzung lokaler Textdateien"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Wofür stoßen klassische Datenkonzepte an ihre Grenzen?",
+            "optionen": [
+              "a) Bei strukturierten Daten",
+              "b) Bei kleinen Datenmengen",
+              "c) Bei großen, unstrukturierten Datenmengen",
+              "d) Bei der Programmierung mit Python"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Welche Technologien gewinnen in modernen Softwareprojekten an Bedeutung?",
+            "optionen": [
+              "a) Disketten und Faxgeräte",
+              "b) NoSQL und agile Modelle",
+              "c) Monolithische Architekturen",
+              "d) Tabellenkalkulationen"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Was ist ein Vorteil objektorientierter Programmiersprachen in Softwareprojekten?",
+            "optionen": [
+              "a) Sie arbeiten ohne Daten",
+              "b) Sie reduzieren Softwarequalität",
+              "c) Sie unterstützen eine strukturierte Entwicklung",
+              "d) Sie ersetzen Projektmanagement"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Was ist UML?",
+            "optionen": [
+              "a) Eine Programmiersprache",
+              "b) Ein Datenbanksystem",
+              "c) Eine Modellierungssprache zur Softwareplanung",
+              "d) Ein Betriebssystem"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Was zeigen die Projektbeispiele im Lernfeld?",
+            "optionen": [
+              "a) Nur Schulprojekte",
+              "b) Eine Bandbreite realer Softwareentwicklungen",
+              "c) Nur Cloudlösungen",
+              "d) Ausschließlich Apps"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Was trifft auf Softwareprojekte zu?",
+            "optionen": [
+              "a) Nur interne Entwicklung",
+              "b) Immer identischer Ablauf",
+              "c) Neu- oder Anpassungsentwicklung, intern oder extern",
+              "d) Keine Projektplanung notwendig"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Wie entwickelt sich der Beitrag der Projektarbeit zum BIP?",
+            "optionen": [
+              "a) Sinkt stark",
+              "b) Bleibt bei 2 %",
+              "c) Stieg von 2 % (2007) auf 15 % (2020)",
+              "d) Ist irrelevant"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Was ist unter Projektmanagement zu verstehen?",
+            "optionen": [
+              "a) Nur Softwareentwicklung",
+              "b) Planung, Überwachung, Steuerung und Abschluss eines Projekts",
+              "c) Nur Projektabschluss",
+              "d) Nur Dokumentation"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Was beschreibt ein Projekt im Vergleich zur Routinearbeit?",
+            "optionen": [
+              "a) Wiederholende Aufgaben ohne Ziel",
+              "b) Einmaligkeit und klares Zielbild",
+              "c) Offener Zeitrahmen",
+              "d) Permanente Wartung"
+            ],
+            "antwort": "b"
+          }
+        ]
+      }
+
     },
     "lm02": {
-      "8.1.2 - Softwareprojekte mithilfe von agilen Vorgehensmodellen umsetzen": [],
-      "lerninhalt": [
-    "Ein erfolgreiches Softwareprojekt wird im geplanten Zeitrahmen, innerhalb der definierten Kosten und in gewünschter Qualität abgeschlossen.",
-    "Klassische Vorgehensmodelle (z.B. Wasserfallmodell, V-Modell) bestehen aus streng sequenziellen Phasen mit klaren Meilensteinen.",
-    "Bei klassischen Modellen sind Änderungen unerwünscht, da sie aufwendig sind – dies kann zu unpassenden Ergebnissen führen.",
-    "Agile Modelle wie Scrum und DevOps setzen auf Flexibilität, frühe nutzbare Software und enge Kundeneinbindung.",
-    "Das Agile Manifest (2001) formuliert vier Leitsätze: Interaktion > Prozesse, Software > Dokumentation, Zusammenarbeit > Verträge, Reaktion > Plan.",
-    "Agile Projekte liefern kontinuierlich Zwischenergebnisse und fördern hohe Kundenzufriedenheit.",
-    "Nachteile agiler Modelle: hoher Zeitaufwand durch Meetings, intensive Tests, schwer kalkulierbare Kosten, ständiger Kundenkontakt.",
-    "Vergleich: Klassisch = starre Anforderungen, große Teams, Hierarchie, viel Dokumentation – Agil = flexible Anforderungen, kleine Teams, Selbstorganisation.",
-    "Aufwandsschätzungen: klassisch durch Projektleiter, agil gemeinsam im Team.",
-    "Scrum ist das meistgenutzte agile Vorgehensmodell in deutschen Unternehmen."
-  ],
-      "fragen": [
-    {
-      "frage": "Wodurch zeichnet sich ein erfolgreiches Softwareprojekt aus?",
-      "optionen": [
-        "a) Durch möglichst viele Funktionen",
-        "b) Durch Einsatz modernster Technologien",
-        "c) Durch Einhaltung von Zeit, Kosten und Qualität",
-        "d) Durch eine große Anzahl an Teammitgliedern"
-      ],
-      "antwort": "c"
-    },
-    {
-      "frage": "Welche Aussage beschreibt klassische Vorgehensmodelle am besten?",
-      "optionen": [
-        "a) Sie sind besonders flexibel.",
-        "b) Änderungen sind während des Projekts einfach und günstig.",
-        "c) Sie basieren auf klar getrennten Projektphasen mit Meilensteinen.",
-        "d) Sie setzen auf kleine, selbstorganisierte Teams."
-      ],
-      "antwort": "c"
-    },
-    {
-      "frage": "Warum gelten klassische Modelle als schwerfällig?",
-      "optionen": [
-        "a) Weil sie agilen Methoden ähneln.",
-        "b) Weil sie viele Entwickler benötigen.",
-        "c) Weil sie zu viel Kundenfeedback einfordern.",
-        "d) Weil sie Änderungen im Projektablauf kaum zulassen."
-      ],
-      "antwort": "d"
-    },
-    {
-      "frage": "Welches Ziel verfolgen agile Vorgehensmodelle?",
-      "optionen": [
-        "a) Möglichst detaillierte Dokumentation",
-        "b) Frühe Auslieferung nutzbarer Software",
-        "c) Einhaltung starrer Phasen",
-        "d) Minimierung der Kundeneinbindung"
-      ],
-      "antwort": "b"
-    },
-    {
-      "frage": "Welcher der folgenden Werte gehört NICHT zu den Leitsätzen des Agilen Manifests?",
-      "optionen": [
-        "a) Funktionierende Software ist wichtiger als umfassende Dokumentation.",
-        "b) Individuen und Interaktionen sind wichtiger als Prozesse und Werkzeuge.",
-        "c) Vertragsverhandlungen sind wichtiger als Zusammenarbeit mit dem Kunden.",
-        "d) Reaktion auf Veränderung ist wichtiger als das Befolgen eines Plans."
-      ],
-      "antwort": "c"
-    },
-    {
-      "frage": "Welche Nachteile können bei agilen Vorgehensmodellen auftreten? (Mehrfachantwort möglich)",
-      "optionen": [
-        "a) Viele Meetings senken die Programmierzeit.",
-        "b) Kosten sind schwer kalkulierbar.",
-        "c) Späte Änderungen sind extrem teuer.",
-        "d) Ständiger Kundenkontakt kann problematisch sein."
-      ],
-      "antwort": ["a", "b", "d"]
-    },
-    {
-      "frage": "Was ist ein zentraler Unterschied zwischen klassischen und agilen Modellen?",
-      "optionen": [
-        "a) Klassische Modelle liefern häufige Zwischenergebnisse.",
-        "b) Agile Modelle vermeiden direkte Kommunikation.",
-        "c) Klassische Modelle sind iterativ.",
-        "d) Agile Modelle arbeiten oft mit kleinen, selbstorganisierten Teams."
-      ],
-      "antwort": "d"
-    },
-    {
-      "frage": "Wie erfolgt die Aufwandsschätzung in agilen Teams typischerweise?",
-      "optionen": [
-        "a) Durch externe Berater",
-        "b) Durch das gesamte Team",
-        "c) Durch den Kunden",
-        "d) Durch den Projektleiter alleine"
-      ],
-      "antwort": "b"
-    },
-    {
-      "frage": "Welche Aussage über Kundenbeteiligung in agilen Projekten trifft zu?",
-      "optionen": [
-        "a) Der Kunde wird erst am Projektende einbezogen.",
-        "b) Der Kunde erhält regelmäßig Zwischenergebnisse.",
-        "c) Der Kunde hat nur bei Vertragsabschluss Einfluss.",
-        "d) Agile Projekte meiden Kundenfeedback bewusst."
-      ],
-      "antwort": "b"
-    },
-    {
-      "frage": "Welches Vorgehensmodell wird in deutschen Unternehmen am häufigsten verwendet?",
-      "optionen": [
-        "a) Wasserfallmodell",
-        "b) V-Modell",
-        "c) Scrum",
-        "d) Kanban"
-      ],
-      "antwort": "c"
-    }
-  ]
+      "8.1.2 - Softwareprojekte mithilfe von agilen Vorgehensmodellen umsetzen": {
+        "lerninhalt": [
+          "Ein erfolgreiches Softwareprojekt wird im geplanten Zeitrahmen, innerhalb der definierten Kosten und in gewünschter Qualität abgeschlossen.",
+          "Klassische Vorgehensmodelle (z.B. Wasserfallmodell, V-Modell) bestehen aus streng sequenziellen Phasen mit klaren Meilensteinen.",
+          "Bei klassischen Modellen sind Änderungen unerwünscht, da sie aufwendig sind – dies kann zu unpassenden Ergebnissen führen.",
+          "Agile Modelle wie Scrum und DevOps setzen auf Flexibilität, frühe nutzbare Software und enge Kundeneinbindung.",
+          "Das Agile Manifest (2001) formuliert vier Leitsätze: Interaktion > Prozesse, Software > Dokumentation, Zusammenarbeit > Verträge, Reaktion > Plan.",
+          "Agile Projekte liefern kontinuierlich Zwischenergebnisse und fördern hohe Kundenzufriedenheit.",
+          "Nachteile agiler Modelle: hoher Zeitaufwand durch Meetings, intensive Tests, schwer kalkulierbare Kosten, ständiger Kundenkontakt.",
+          "Vergleich: Klassisch = starre Anforderungen, große Teams, Hierarchie, viel Dokumentation – Agil = flexible Anforderungen, kleine Teams, Selbstorganisation.",
+          "Aufwandsschätzungen: klassisch durch Projektleiter, agil gemeinsam im Team.",
+          "Scrum ist das meistgenutzte agile Vorgehensmodell in deutschen Unternehmen."
+        ],
+        "fragen": [
+          {
+            "frage": "Wodurch zeichnet sich ein erfolgreiches Softwareprojekt aus?",
+            "optionen": [
+              "a) Durch möglichst viele Funktionen",
+              "b) Durch Einsatz modernster Technologien",
+              "c) Durch Einhaltung von Zeit, Kosten und Qualität",
+              "d) Durch eine große Anzahl an Teammitgliedern"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Welche Aussage beschreibt klassische Vorgehensmodelle am besten?",
+            "optionen": [
+              "a) Sie sind besonders flexibel.",
+              "b) Änderungen sind während des Projekts einfach und günstig.",
+              "c) Sie basieren auf klar getrennten Projektphasen mit Meilensteinen.",
+              "d) Sie setzen auf kleine, selbstorganisierte Teams."
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Warum gelten klassische Modelle als schwerfällig?",
+            "optionen": [
+              "a) Weil sie agilen Methoden ähneln.",
+              "b) Weil sie viele Entwickler benötigen.",
+              "c) Weil sie zu viel Kundenfeedback einfordern.",
+              "d) Weil sie Änderungen im Projektablauf kaum zulassen."
+            ],
+            "antwort": "d"
+          },
+          {
+            "frage": "Welches Ziel verfolgen agile Vorgehensmodelle?",
+            "optionen": [
+              "a) Möglichst detaillierte Dokumentation",
+              "b) Frühe Auslieferung nutzbarer Software",
+              "c) Einhaltung starrer Phasen",
+              "d) Minimierung der Kundeneinbindung"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Welcher der folgenden Werte gehört NICHT zu den Leitsätzen des Agilen Manifests?",
+            "optionen": [
+              "a) Funktionierende Software ist wichtiger als umfassende Dokumentation.",
+              "b) Individuen und Interaktionen sind wichtiger als Prozesse und Werkzeuge.",
+              "c) Vertragsverhandlungen sind wichtiger als Zusammenarbeit mit dem Kunden.",
+              "d) Reaktion auf Veränderung ist wichtiger als das Befolgen eines Plans."
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Welche Nachteile können bei agilen Vorgehensmodellen auftreten? (Mehrfachantwort möglich)",
+            "optionen": [
+              "a) Viele Meetings senken die Programmierzeit.",
+              "b) Kosten sind schwer kalkulierbar.",
+              "c) Späte Änderungen sind extrem teuer.",
+              "d) Ständiger Kundenkontakt kann problematisch sein."
+            ],
+            "antwort": [
+              "a",
+              "b",
+              "d"
+            ]
+          },
+          {
+            "frage": "Was ist ein zentraler Unterschied zwischen klassischen und agilen Modellen?",
+            "optionen": [
+              "a) Klassische Modelle liefern häufige Zwischenergebnisse.",
+              "b) Agile Modelle vermeiden direkte Kommunikation.",
+              "c) Klassische Modelle sind iterativ.",
+              "d) Agile Modelle arbeiten oft mit kleinen, selbstorganisierten Teams."
+            ],
+            "antwort": "d"
+          },
+          {
+            "frage": "Wie erfolgt die Aufwandsschätzung in agilen Teams typischerweise?",
+            "optionen": [
+              "a) Durch externe Berater",
+              "b) Durch das gesamte Team",
+              "c) Durch den Kunden",
+              "d) Durch den Projektleiter alleine"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Welche Aussage über Kundenbeteiligung in agilen Projekten trifft zu?",
+            "optionen": [
+              "a) Der Kunde wird erst am Projektende einbezogen.",
+              "b) Der Kunde erhält regelmäßig Zwischenergebnisse.",
+              "c) Der Kunde hat nur bei Vertragsabschluss Einfluss.",
+              "d) Agile Projekte meiden Kundenfeedback bewusst."
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Welches Vorgehensmodell wird in deutschen Unternehmen am häufigsten verwendet?",
+            "optionen": [
+              "a) Wasserfallmodell",
+              "b) V-Modell",
+              "c) Scrum",
+              "d) Kanban"
+            ],
+            "antwort": "c"
+          }
+        ]
+      }
     },
     "lm03": {
       "8.1.2.1-3 - Scrum, Kanban, Burndown chard": [],
@@ -2638,6 +2695,7 @@
         }
       ]
     }
+
   }
 }
 
