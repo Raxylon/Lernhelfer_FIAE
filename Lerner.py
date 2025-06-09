@@ -4,7 +4,7 @@
 # modul3 = Agile Vorgehensmodelle
 
 from Lernfeld8 import (modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11, modul12, modul13, modul14)
-from Lernfeld8 import (modul15, modul16, modul17, modul18, modul19, modul20, modul21)
+from Lernfeld8 import (modul15, modul16, modul17, modul18, modul19, modul20)
 
 def auswahl_lernfeld():
     print("\nWähle ein Lernfeld:")
@@ -32,27 +32,26 @@ def main():
     # Nur Lernfeld 8 hat Module, alle anderen sind Platzhalter
     module_dict = {
         "8": [
-            "Projektmanagement",
-            "Datenquellen",
-            "Agile Vorgehensmodelle",
-            "Scrum, Kanban, Burndown chard",
-            "Datenqualität",
-            "Datenquelle",
-            "Heterogene Datenquellen",
-            "Programmierparadigmen unterscheiden",
-            "objektorientierte Programmierung",
-            "unified modeling language",
-            "Anwendungsfalldiagramme beschreiben und anwenden",
-            "Klassendiagramme",
-            "Aktivitätsdiagramm beschreiben und anwenden",
-            "Sicherheitsrelevante Aspekte bei der Softwareplanung",
-            "Benutzerschnittstellen unter softwareergonomischen Gesichtspunkten planen",
-            "Eine Oberfläche für eine Benutzerschnittstelle entwerfen",
-            "Java beschreiben und eine Entwicklungsumgebung auswählen",
-            "Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren",
-            "Das objektorientierte Programmierparadigma in Java umsetzen",
-            "Grafische Benutzerschnittstellen in Java entwickeln",
-            "Anwendungen in Python implementieren"
+            "8.1 - Kundenaufträge im Rahmen von Softwareprojekten",
+            "8.1.2 - Softwareprojekte mithilfe von agilen Vorgehensmodellen umsetzen",
+            "8.1.2.1-3 - Scrum, Kanban, Burndown chard",
+            "8.2.1 - Die Qualität von Daten beschreiben",
+            "8.2.2 - Daten aus Datenquellen abrufen ",
+            "8.2.3 - Heterogene Datenquellen",
+            "8.3.1 - Programmierparadigmen unterscheiden",
+            "8.3.2 - Das objektorientiertes Programmierparadigma beschreiben",
+            "8.3.3 - Die Modellierungssprache UML verwenden",
+            "8.3.4 - Anwendungsfalldiagramme beschreiben und anwenden",
+            "8.3.5 - Klassendiagramme beschreiben und anwenden",
+            "8.3.6 - Aktivitätsdiagramm beschreiben und anwenden",
+            "8.3.7 - Sicherheitsrelevante Aspekte bei der Softwareplanung",
+            "8.4.1 - Benutzerschnittstellen unter softwareergonomischen Gesichtspunkten planen",
+            "8.4.2 - Eine Oberfläche für eine Benutzerschnittstelle entwerfen",
+            "8.5.1 - Java beschreiben und eine Entwicklungsumgebung auswählen",
+            "8.5.2 - Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren",
+            "8.5.3 - Das objektorientierte Programmierparadigma in Java umsetzen",
+            "8.5.4 - Grafische Benutzerschnittstellen in Java entwickeln",
+            "8.6.  - Anwendungen in Python implementieren"
         ]
     }
 
@@ -124,8 +123,8 @@ def main():
                     modul19()
                 elif modul_index == 20:
                     modul20()
-                elif modul_index == 21:
-                    modul21()
+               # elif modul_index == 21:
+               #     modul21()
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 

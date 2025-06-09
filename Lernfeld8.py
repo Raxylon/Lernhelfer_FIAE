@@ -91,7 +91,7 @@ def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
         elif wahl == "0":
             break
         else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.") #es ist gerade zu spät zum denken
+            print("Ungültige Eingabe. Bitte versuche es erneut.") #es ist gerade zu spät zum Denken
 def modul_lernen_und_testen(modulname, lerninhalte, fragen):
     def lernen():
         print(f"\nLERNMODUS - {modulname}\n")
@@ -145,55 +145,117 @@ def modul_lernen_und_testen(modulname, lerninhalte, fragen):
             print("Ungültige Eingabe. Bitte versuche es erneut.")
 def modul1():
     lerninhalte = [
-        "Projekte sind zeitlich begrenzt, haben ein klares Ziel und sind einmalig.\n\
-        Projektmanagement umfasst Planung, Überwachung, Steuerung und Abschluss von Projekten.\n\
-        Ein Projekt ist ein Balanceakt zwischen Umfang, Zeit und Kosten.\n\
-        Projektphasen: Initiierung, Definition, Planung, Ausführung, Abschluss.",
-        "Projektkontrolle läuft parallel zu anderen Phasen.\n\
-        Im Projektabschluss werden Abschlussbericht erstellt und Ablauf evaluiert.\n\
-        Risikoabschätzung und Finanzplanung sind Aufgaben des Projektmanagements."
+        "In der Zeit von Big Data und exponentiellem Datenwachstum ist es wichtig,\n\
+        die anfallenden Daten entsprechend zu verarbeiten, zu speichern und\n\
+        anschließend für das Unternehmen sinnvoll zu nutzen. Dazu müssen die\n\
+        verfügbaren Daten und die dazugehörigen Quellen zunächst analysiert und\n\
+        hinsichtlich ihrer Qualität und Verfügbarkeit bewertet werden. Im Anschluss\n\
+        daran werden Softwarelösungen entwickelt, welche diese Daten aus den\n\
+        verschiedenen Quellen zusammenführen und für eine weitere Analyse\n\
+        systemübergreifend bereitstellen.",
+
+        "Viele Unternehmen nutzen noch klassische Konzepte zur Datenverarbeitung,\n\
+        insbesondere bei moderat wachsenden, strukturierten Datenmengen. Diese\n\
+        Konzepte stoßen bei großen, unstrukturierten Datenmengen schnell an ihre\n\
+        Grenzen. Daher setzen immer mehr Unternehmen auf moderne, agile Ansätze wie\n\
+        cloudbasierte NoSQL-Datenbanklösungen oder agile Vorgehensmodelle (z. B. Scrum).",
+
+        "Zur Sicherstellung der Softwarequalität wird verstärkt auf objektorientierte\n\
+        Programmiersprachen wie Java oder Python gesetzt. Auch die Modellierungssprache\n\
+        UML spielt bei der Planung von Softwarelösungen eine große Rolle. Ebenso gewinnt\n\
+        die ergonomische Gestaltung von Benutzerschnittstellen an Bedeutung.",
+
+        "Alle diese Themen sind Bestandteil des Lernfelds und orientieren sich an der\n\
+        Ausbildungsverordnung und am Rahmenlehrplan der neuen IT-Berufe.\n\
+        Beispielhafte Softwareprojekte: Entwicklung einer Lernsoftware („SMART“),\n\
+        Musik-Store-Erweiterung, Jachthafen-App, Tool „Statistika“, Luftfahrt-Software,\n\
+        Cloud-Migration von ASTRA, Webauftritt, Projektverwaltungssoftware,\n\
+        Maschinenwartung mit Datenauswertung.",
+
+        "Softwareprojekte können Neu- oder Anpassungsentwicklungen sein und sowohl intern\n\
+        als auch extern beauftragt werden. Die Projektdefinition hängt nicht vom Thema\n\
+        oder der Komplexität ab.",
+
+        "Projektmanagement ist die Planung, Überwachung, Steuerung und der Abschluss\n\
+        eines Projekts. Projekte durchlaufen Phasen: Initiierung, Definition,\n\
+        Planung, Ausführung, Abschluss. Die Projektkontrolle erfolgt über alle Phasen.",
+
+        "Jedes Projekt ist ein Balanceakt zwischen Umfang, Zeit und Kosten. Eine Änderung\n\
+        eines Faktors beeinflusst die anderen. Projektmanagement stammt ursprünglich aus\n\
+        dem Ingenieurwesen und wurde fachübergreifend weiterentwickelt.",
+
+        "Bearbeitung von Kundenaufträgen im Rahmen von Softwareprojekten gewinnt an\n\
+        Bedeutung. Anteil am BIP: 2007 = 2 %, 2020 = 15 %, Tendenz steigend.",
+
+        "Ziel: Entwicklung einer Software zur Aufbereitung, Auswertung und Bereitstellung\n\
+        von Daten aus verschiedenen Quellen nach Kundenwunsch.",
+
+        "Arbeit in Projekten unterscheidet sich wesentlich von Routineaufgaben.\n\
+        Projekte sind einmalige Vorhaben mit klar definiertem Ziel und begrenzter Dauer."
     ]
 
     fragen = [
         {
-            "frage": "Welche Aussage trifft zu? Ein Projekt...",
-            "optionen": ["a) hat keine zeitliche Begrenzung.",
-                        "b) ist einmalig und hat ein klares Ziel.",
-                        "c) ist immer gleich lang.",
-                        "d) ist ein Routinevorgang."],
+            "frage": "Was ist bei der Verarbeitung großer Datenmengen besonders wichtig?",
+            "optionen": ["a) Speicherung auf CDs", "b) Analyse und Bewertung der Datenqualität",
+                         "c) Manuelle Dateneingabe", "d) Nutzung lokaler Textdateien"],
             "antwort": "b"
         },
         {
-            "frage": "Was ist Teil des Projektmanagements?",
-            "optionen": ["a) Planung, Überwachung und Steuerung",
-                        "b) Nur Planung",
-                        "c) Nur Ausführung",
-                        "d) Keine der genannten"],
-            "antwort": "a"
+            "frage": "Wofür stoßen klassische Datenkonzepte an ihre Grenzen?",
+            "optionen": ["a) Bei strukturierten Daten", "b) Bei kleinen Datenmengen",
+                         "c) Bei großen, unstrukturierten Datenmengen", "d) Bei der Programmierung mit Python"],
+            "antwort": "c"
         },
         {
-            "frage": "Welche Phasen gehören zu einem Projekt? (Mehrere Antworten möglich)",
-            "optionen": ["a) Initiierung",
-                        "b) Planung",
-                        "c) Ausführung",
-                        "d) Nutzung"],
-            "antwort": ["a", "b", "c"]
+            "frage": "Welche Technologien gewinnen in modernen Softwareprojekten an Bedeutung?",
+            "optionen": ["a) Disketten und Faxgeräte", "b) NoSQL und agile Modelle",
+                         "c) Monolithische Architekturen", "d) Tabellenkalkulationen"],
+            "antwort": "b"
         },
         {
-            "frage": "Was gehört zur Projektabschlussphase?",
-            "optionen": ["a) Risikoabschätzung",
-                        "b) Erstellung eines Abschlussberichts",
-                        "c) Teambildung",
-                        "d) Evaluierung des Projektablaufs"],
-            "antwort": ["b", "d"]
+            "frage": "Was ist ein Vorteil objektorientierter Programmiersprachen in Softwareprojekten?",
+            "optionen": ["a) Sie arbeiten ohne Daten", "b) Sie reduzieren Softwarequalität",
+                         "c) Sie unterstützen eine strukturierte Entwicklung", "d) Sie ersetzen Projektmanagement"],
+            "antwort": "c"
         },
         {
-            "frage": "Welche Faktoren beeinflussen sich in einem Projekt gegenseitig?",
-            "optionen": ["a) Zeit, Umfang, Kosten",
-                        "b) Personal, Räume, Kosten",
-                        "c) Technik, Ziel, Qualität",
-                        "d) Nur Zeit und Personal"],
-            "antwort": "a"
+            "frage": "Was ist UML?",
+            "optionen": ["a) Eine Programmiersprache", "b) Ein Datenbanksystem",
+                         "c) Eine Modellierungssprache zur Softwareplanung", "d) Ein Betriebssystem"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was zeigen die Projektbeispiele im Lernfeld?",
+            "optionen": ["a) Nur Schulprojekte", "b) Eine Bandbreite realer Softwareentwicklungen",
+                         "c) Nur Cloudlösungen", "d) Ausschließlich Apps"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was trifft auf Softwareprojekte zu?",
+            "optionen": ["a) Nur interne Entwicklung", "b) Immer identischer Ablauf",
+                         "c) Neu- oder Anpassungsentwicklung, intern oder extern",
+                         "d) Keine Projektplanung notwendig"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie entwickelt sich der Beitrag der Projektarbeit zum BIP?",
+            "optionen": ["a) Sinkt stark", "b) Bleibt bei 2 %",
+                         "c) Stieg von 2 % (2007) auf 15 % (2020)", "d) Ist irrelevant"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist unter Projektmanagement zu verstehen?",
+            "optionen": ["a) Nur Softwareentwicklung",
+                         "b) Planung, Überwachung, Steuerung und Abschluss eines Projekts",
+                         "c) Nur Projektabschluss", "d) Nur Dokumentation"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was beschreibt ein Projekt im Vergleich zur Routinearbeit?",
+            "optionen": ["a) Wiederholende Aufgaben ohne Ziel", "b) Einmaligkeit und klares Zielbild",
+                         "c) Offener Zeitrahmen", "d) Permanente Wartung"],
+            "antwort": "b"
         }
     ]
 
@@ -201,898 +263,761 @@ def modul1():
 
 def modul2():
     lerninhalte = [
-        "Datenquellen sind die verborgenen Quellen, aus denen das Wissen fließt.\n"
-        "Sie treten hervor als interne Speicher wie Datenbanken, ERP-Systeme oder Logdateien,\n"
-        "doch ebenso als externe Quellen wie APIs, öffentliche Datenportale und soziale Netzwerke.\n"
-        "Daten existieren strukturiert (relationale Datenbanken), semi-strukturiert (XML, JSON)\n"
-        "und unstrukturiert (Texte, Bilder), jede Form birgt ihre eigene Geheimnisse.\n"
-        "Die Qualität der Datenquelle – ihre Aktualität, Genauigkeit, Zuverlässigkeit – bestimmt\n"
-        "den Wert des Wissens, das aus ihr geboren wird.",
-        "Man unterscheidet:\n"
-        "- Primärdaten: direkt und frisch wie das erste Blut, gewonnen durch Umfragen oder Sensoren.\n"
-        "- Sekundärdaten: bereits gesammelte Schätze aus Berichten, Marktforschung, Archiven.\n"
-        "- Offene Daten (Open Data): frei zugänglich, lizenziert für die breite Welt.\n"
-        "- Geschlossene Daten: bewacht und verborgen in den Tiefen des Unternehmens.",
-        "Datenquellen sind oft heterogen, verschiedenartig wie Schatten und Licht,\n"
-        "und müssen transformiert, vereinigt und gezähmt werden, um in Projekten zu dienen."
+        "Ein erfolgreiches Softwareprojekt wird im geplanten Zeitrahmen, innerhalb der definierten Kosten und in gewünschter Qualität abgeschlossen.",
+        "Klassische Vorgehensmodelle (z.B. Wasserfallmodell, V-Modell) bestehen aus streng sequenziellen Phasen mit klaren Meilensteinen.",
+        "Bei klassischen Modellen sind Änderungen unerwünscht, da sie aufwendig sind – dies kann zu unpassenden Ergebnissen führen.",
+        "Agile Modelle wie Scrum und DevOps setzen auf Flexibilität, frühe nutzbare Software und enge Kundeneinbindung.",
+        "Das Agile Manifest (2001) formuliert vier Leitsätze: Interaktion > Prozesse, Software > Dokumentation, Zusammenarbeit > Verträge, Reaktion > Plan.",
+        "Agile Projekte liefern kontinuierlich Zwischenergebnisse und fördern hohe Kundenzufriedenheit.",
+        "Nachteile agiler Modelle: hoher Zeitaufwand durch Meetings, intensive Tests, schwer kalkulierbare Kosten, ständiger Kundenkontakt.",
+        "Vergleich: Klassisch = starre Anforderungen, große Teams, Hierarchie, viel Dokumentation – Agil = flexible Anforderungen, kleine Teams, Selbstorganisation.",
+        "Aufwandsschätzungen: klassisch durch Projektleiter, agil gemeinsam im Team.",
+        "Scrum ist das meistgenutzte agile Vorgehensmodell in deutschen Unternehmen."
     ]
 
     fragen = [
         {
-            "frage": "Nenne drei Arten von Datenquellen.",
-            "optionen": ["a) Primärdaten", "b) Sekundärdaten", "c) Offene Daten", "d) Magische Daten"],
-            "antwort": ["a", "b", "c"]
-        },
-        {
-            "frage": "Was sind strukturierte Datenquellen?",
+            "frage": "Wodurch zeichnet sich ein erfolgreiches Softwareprojekt aus?",
             "optionen": [
-                "a) Datenquellen mit festem Schema, wie relationale Datenbanken",
-                "b) Texte und Bilder",
-                "c) Soziale Medien",
-                "d) Unbekannte Daten"
+                "a) Durch möglichst viele Funktionen",
+                "b) Durch Einsatz modernster Technologien",
+                "c) Durch Einhaltung von Zeit, Kosten und Qualität",
+                "d) Durch eine große Anzahl an Teammitgliedern"
             ],
-            "antwort": "a"
-        },
-        {
-            "frage": "Nenne ein Beispiel für offene Datenquellen.",
-            "optionen": [
-                "a) Öffentliche APIs",
-                "b) Unternehmensinterne Daten",
-                "c) Private Briefe",
-                "d) Geheimdokumente"
-            ],
-            "antwort": "a"
-        }
-    ]
-
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 2: Datenquellen\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
-
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 2: Datenquellen\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 2: Datenquellen")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul3():
-    lerninhalte = [
-        "Agile Vorgehensmodelle ermöglichen flexible und kundennahe Softwareentwicklung.\n\
-        Ziel ist es, schneller lauffähige Software zu liefern und Kunden frühzeitig einzubinden.\n\
-        Das Agile Manifest (2001) formuliert vier zentrale Werte:",
-
-        "1. Individuen und Interaktionen sind wichtiger als Prozesse und Werkzeuge.\n\
-        2. Funktionierende Software ist wichtiger als umfassende Dokumentation.\n\
-        3. Zusammenarbeit mit dem Kunden ist wichtiger als Vertragsverhandlungen.\n\
-        4. Reagieren auf Veränderung ist wichtiger als das Befolgen eines Plans.",
-
-        "Vorteile agiler Modelle:\n\
-        - Höhere Kundenzufriedenheit durch frühes Feedback.\n\
-        - Flexibilität bei Änderungen.\n\
-        - Regelmäßige Zwischenversionen der Software.\n\
-        - Selbstorganisierte Teams fördern Eigenverantwortung.",
-
-        "Nachteile agiler Modelle:\n\
-        - Hoher Kommunikationsaufwand durch viele Meetings.\n\
-        - Kosten schwer kalkulierbar.\n\
-        - Ständiger Kundenkontakt kann herausfordernd sein.\n\
-        - Viele Tests können zeit- und kostenintensiv sein.",
-
-        "Vergleich klassisch vs. agil:\n\
-        Klassisch: feste Anforderungen, wenig Änderung, große Teams, hierarchisch.\n\
-        Agil: Anforderungen entwickeln sich, kleine Teams, flache Hierarchie, iterative Entwicklung."
-    ]
-
-    fragen = [
-        {
-            "frage": "Was ist ein Ziel agiler Vorgehensmodelle?",
-            "optionen": ["a) Möglichst wenig Kommunikation mit Kunden",
-                         "b) Späte Auslieferung der Software",
-                         "c) Frühe lauffähige Software und Kundenfeedback",
-                         "d) Feste Abläufe und keine Änderungen"],
             "antwort": "c"
         },
         {
-            "frage": "Was steht im Agilen Manifest im Vordergrund?",
-            "optionen": ["a) Dokumentation vor funktionierender Software",
-                         "b) Planung vor Änderungen",
-                         "c) Werkzeuge vor Menschen",
-                         "d) Individuen und Interaktionen vor Prozessen und Werkzeugen"],
+            "frage": "Welche Aussage beschreibt klassische Vorgehensmodelle am besten?",
+            "optionen": [
+                "a) Sie sind besonders flexibel.",
+                "b) Änderungen sind während des Projekts einfach und günstig.",
+                "c) Sie basieren auf klar getrennten Projektphasen mit Meilensteinen.",
+                "d) Sie setzen auf kleine, selbstorganisierte Teams."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Warum gelten klassische Modelle als schwerfällig?",
+            "optionen": [
+                "a) Weil sie agilen Methoden ähneln.",
+                "b) Weil sie viele Entwickler benötigen.",
+                "c) Weil sie zu viel Kundenfeedback einfordern.",
+                "d) Weil sie Änderungen im Projektablauf kaum zulassen."
+            ],
             "antwort": "d"
         },
         {
-            "frage": "Welche Aussage trifft NICHT auf agile Modelle zu?",
-            "optionen": ["a) Viel Kommunikation über Stand-up-Meetings",
-                         "b) Selbstorganisierte Teams",
-                         "c) Hohe Kosten bei späteren Änderungen",
-                         "d) Iterative Entwicklung"],
+            "frage": "Welches Ziel verfolgen agile Vorgehensmodelle?",
+            "optionen": [
+                "a) Möglichst detaillierte Dokumentation",
+                "b) Frühe Auslieferung nutzbarer Software",
+                "c) Einhaltung starrer Phasen",
+                "d) Minimierung der Kundeneinbindung"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welcher der folgenden Werte gehört NICHT zu den Leitsätzen des Agilen Manifests?",
+            "optionen": [
+                "a) Funktionierende Software ist wichtiger als umfassende Dokumentation.",
+                "b) Individuen und Interaktionen sind wichtiger als Prozesse und Werkzeuge.",
+                "c) Vertragsverhandlungen sind wichtiger als Zusammenarbeit mit dem Kunden.",
+                "d) Reaktion auf Veränderung ist wichtiger als das Befolgen eines Plans."
+            ],
             "antwort": "c"
         },
         {
-            "frage": "Was ist ein Nachteil agiler Modelle?",
-            "optionen": ["a) Kundenkontakt fehlt völlig",
-                         "b) Änderungen sind kaum möglich",
-                         "c) Hoher Kommunikations- und Testaufwand",
-                         "d) Keine frühzeitigen Ergebnisse"],
-            "antwort": "c"
-        },
-        {
-            "frage": "Was unterscheidet agile von klassischen Modellen? (Mehrere Antworten möglich)",
-            "optionen": ["a) Klassisch: sequenziell, Agil: iterativ",
-                         "b) Klassisch: große Teams, Agil: kleine Teams",
-                         "c) Klassisch: frühe Ergebnisse, Agil: späte Ergebnisse",
-                         "d) Klassisch: Anforderungen fest, Agil: Änderungen eingeplant"],
+            "frage": "Welche Nachteile können bei agilen Vorgehensmodellen auftreten? (Mehrfachantwort möglich)",
+            "optionen": [
+                "a) Viele Meetings senken die Programmierzeit.",
+                "b) Kosten sind schwer kalkulierbar.",
+                "c) Späte Änderungen sind extrem teuer.",
+                "d) Ständiger Kundenkontakt kann problematisch sein."
+            ],
             "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Was ist ein zentraler Unterschied zwischen klassischen und agilen Modellen?",
+            "optionen": [
+                "a) Klassische Modelle liefern häufige Zwischenergebnisse.",
+                "b) Agile Modelle vermeiden direkte Kommunikation.",
+                "c) Klassische Modelle sind iterativ.",
+                "d) Agile Modelle arbeiten oft mit kleinen, selbstorganisierten Teams."
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Wie erfolgt die Aufwandsschätzung in agilen Teams typischerweise?",
+            "optionen": [
+                "a) Durch externe Berater",
+                "b) Durch das gesamte Team",
+                "c) Durch den Kunden",
+                "d) Durch den Projektleiter alleine"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage über Kundenbeteiligung in agilen Projekten trifft zu?",
+            "optionen": [
+                "a) Der Kunde wird erst am Projektende einbezogen.",
+                "b) Der Kunde erhält regelmäßig Zwischenergebnisse.",
+                "c) Der Kunde hat nur bei Vertragsabschluss Einfluss.",
+                "d) Agile Projekte meiden Kundenfeedback bewusst."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welches Vorgehensmodell wird in deutschen Unternehmen am häufigsten verwendet?",
+            "optionen": [
+                "a) Wasserfallmodell",
+                "b) V-Modell",
+                "c) Scrum",
+                "d) Kanban"
+            ],
+            "antwort": "c"
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 3: Agile Vorgehensmodelle\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
+    modul_lernen_und_testen("Datenquellen?", lerninhalte, fragen)
 
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 3: Agile Vorgehensmodelle\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 3: Agile Vorgehensmodelle")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul4():
+def modul3():
     lerninhalte = [
-        "Scrum ist ein agiles Rahmenwerk, ursprünglich für Softwareentwicklung,\n\
-        heute breit genutzt in der Produktentwicklung. Es lebt vom Sprint,\n\
-        einem festen Rhythmus von 2-4 Wochen, in denen ein fertiges Produktinkrement entsteht.",
-        "Rollen in Scrum:\n\
-        - Product Owner: Hüter der Anforderungen und des Product Backlogs, Stimme des Kunden.\n\
-        - Scrum Master: Wächter des Prozesses, beseitigt Hindernisse und sorgt für Teamfluss.\n\
-        - Entwicklungsteam: Selbstorganisierte Fachkräfte, gemeinsam verantwortlich für die Lieferung.",
-        "Grundprinzipien von Scrum:\n\
-        - Transparency (Transparenz): Alles ist offen und sichtbar.\n\
-        - Inspection (Überprüfung): Regelmäßiges Prüfen von Fortschritt und Zusammenarbeit.\n\
-        - Adaptation (Anpassung): Lernen aus Feedback, stete Verbesserung.",
-        "Scrum-Zeremonien und Prozess:\n\
-        - Sprint Planning: Ziele und Aufgaben werden festgelegt.\n\
-        - Daily Scrum: Kurzes tägliches Meeting zur Abstimmung.\n\
-        - Sprint Review: Vorstellung des Ergebnisses und Feedback.\n\
-        - Sprint Retrospektive: Reflexion und Prozessoptimierung.",
-        "Wichtige Artefakte:\n\
-        - Product Backlog: Priorisierte Liste aller Anforderungen.\n\
-        - Sprint Backlog: Aufgaben des aktuellen Sprints.\n\
-        - Product Increment: Fertiges Ergebnis mit Mehrwert.\n\
-        - Definition of Done: Kriterien für Abschluss.\n\
-        - Impediment List: Liste von Hindernissen.",
-        "Ergänzende Methoden:\n\
-        - Kanban: Visualisierung des Workflows, flexible und kontinuierliche Lieferung.\n\
-        - Extreme Programming (XP): Fokus auf technische Exzellenz, z.B. Pair Programming und TDD.",
-        "Die agilen Werte sind das Herzstück:\n\
-        - Individuen und Interaktionen über Prozesse und Werkzeuge\n\
-        - Funktionierende Software über umfassende Dokumentation\n\
-        - Zusammenarbeit mit dem Kunden über Vertragsverhandlungen\n\
-        - Reagieren auf Veränderung über das Befolgen eines Plans"
+        "Scrum ist ein agiles Vorgehensmodell im Projektmanagement, ursprünglich für die Softwareentwicklung konzipiert.\n\
+        Es ist heute das am weitesten verbreitete Modell in der Produktentwicklung, trotz einfacher Theorie schwer in der Praxis.\n\
+        Drei zentrale Rollen in Scrum: Product Owner, Scrum Master, Entwicklungsteam.",
+        "Product Owner: Formuliert Anforderungen, pflegt das Product Backlog, priorisiert Aufgaben, vertritt Kundeninteressen.\n\
+        Scrum Master: Sichert Einhaltung von Scrum-Praktiken, moderiert, organisiert Ressourcen, beseitigt Hindernisse.\n\
+        Entwicklungsteam: 3–9 Mitglieder, organisiert sich selbst, trägt gemeinsam Verantwortung, möglichst flexibel in Aufgaben.",
+        "Scrum beruht auf drei Grundsätzen: Transparency, Inspection, Adaption.\n\
+        Transparency: Alle Informationen müssen offen zugänglich und dokumentiert sein.\n\
+        Inspection: Regelmäßige Überprüfung von Artefakten und Zusammenarbeit.\n\
+        Adaption: Erkenntnisse führen zu Anpassung von Plänen und Prozessen.",
+        "Scrum-Prozess läuft in Zyklen (Sprints), beginnend mit einer Idee und endend mit einem funktionierenden Produkt.\n\
+        Sprints sind feste Intervalle mit Ziel eines Zwischenergebnisses.\n\
+        Projektbeginn mit Kick-off-Meeting, Erstellung von Story-Cards.",
+        "Product Backlog: Vom Product Owner gepflegte Liste aller Anforderungen, basiert auf Story-Cards.\n\
+        Sprint Planning: Planung in zwei Teilen – Auswahl der Anforderungen und Aufteilung in Tasks.\n\
+        Sprint Backlog: Enthält alle geplanten Tasks, inkl. Definition of Done, wird visuell dargestellt.",
+        "Tägliches Daily Scrum: 15-Minuten-Meeting zur Tagesplanung und Problemerkennung.\n\
+        Scrum Master stellt Zeitrahmen (Timebox) sicher, nimmt aber nicht aktiv teil.\n\
+        Fortschritt wird im Sprint-Burn-Down-Chart festgehalten.",
+        "Impediment List: Dokumentiert aktuelle Hindernisse im Projekt (z. B. Kommunikation, Logistik).\n\
+        Scrum Master ergreift Maßnahmen zur Beseitigung dieser Hindernisse.",
+        "Sprint Review: Am Ende eines Sprints Vorstellung der Arbeitsergebnisse vor Stakeholdern.\n\
+        Feedback wird eingeholt, Product Backlog bei Bedarf angepasst.",
+        "Sprint Retrospektive: Analyse des Sprints zur Verbesserung der Zusammenarbeit.\n\
+        Ziel: Verbesserung der Prozessqualität zur Erhöhung der Produktqualität.\n\
+        Anpassung der Definition of Done.",
+        "Scrum ist ein iterativer Prozess: Nach jedem Sprint startet der nächste Zyklus.",
+        "Kanban ist eine agile Projektmanagementmethode, bei der eine Gesamtaufgabe in einzelne Schritte zerlegt und diese einzeln abgearbeitet werden.\n\
+                Ziel ist eine Reduktion von Risiken, kürzere Bearbeitungszeiten und bessere Qualität.\n\
+                Ursprünglich in den 1950er-Jahren von Taiichi Ōno bei Toyota für die Produktionssteuerung entwickelt.\n\
+                2007 übertrug David Anderson die Prinzipien auf die Softwareentwicklung.",
+
+        "Ein Kanban-Board visualisiert den Bearbeitungsstand von Aufgaben – typischerweise in drei Spalten: To Do, In Progress/Doing, Done.\n\
+        Aufgaben wandern je nach Status zwischen den Spalten.\n\
+        Kanban-Boards können physisch (z.B. Whiteboard mit Haftnotizen) oder digital geführt werden.\n\
+        Der Workflow sieht vor, dass Teammitglieder Aufgaben selbstständig auswählen und bearbeiten.",
+
+        "Vorteile von Kanban: Übersicht über Fortschritt und Probleme, schnelle Bearbeitung, geringer Managementaufwand, vielseitig einsetzbar, gute Kombinierbarkeit mit anderen Methoden.\n\
+        Nachteile: Hohe Anforderungen an Teamkompetenz, nur bedingt geeignet für große Projekte oder starres Zeitmanagement.",
+
+        "Im Vergleich zu Serum: Kanban ist flexibler, hat wenige feste Regeln, keine festen Rollen und Iterationen sind optional.\n\
+        Serum hingegen hat ein komplexes Regelwerk, feste Rollen (Product Owner, Serum Master, Team), sowie vorgeschriebene Iterationen und Priorisierung.\n\
+        Kanban eignet sich auch für Routineaufgaben, während Serum nur für Projekte ab drei Personen geeignet ist.",
+
+        "Obwohl beide Methoden Gemeinsamkeiten wie agile Arbeitsweise, transparente Prozesse und Aufgabenverteilung aus einem Backlog aufweisen, bleibt Serum das umfassendere Modell.\n\
+        Kanban lässt sich leicht auf die visuelle Darstellung von Aufgabenmanagement reduzieren und flexibel mit anderen Methoden kombinieren."
     ]
 
     fragen = [
         {
-            "frage": "Welche Rolle ist verantwortlich für das Product Backlog?",
-            "optionen": ["a) Scrum Master", "b) Entwicklungsteam", "c) Product Owner", "d) Projektleiter"],
+            "frage": "Welche der folgenden Aussagen über Scrum trifft zu?",
+            "optionen": ["a) Scrum ist ein klassisches Wasserfallmodell.",
+                         "b) Scrum eignet sich nur für Softwareentwicklung.",
+                         "c) Scrum basiert auf festen Sprints und iterativen Zyklen.",
+                         "d) Scrum ersetzt alle Projektrollen durch eine zentrale Figur."],
             "antwort": "c"
         },
         {
-            "frage": "Was beschreibt am besten einen Sprint in Scrum?",
-            "optionen": ["a) Ein tägliches Meeting", "b) Ein 2-4 Wochen langer Arbeitsabschnitt",
-                         "c) Die gesamte Projektzeit", "d) Ein Prozess zur Fehlerbehebung"],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche Scrum-Zeremonie dient der Reflexion und Verbesserung des Teams?",
-            "optionen": ["a) Sprint Review", "b) Sprint Retrospektive", "c) Daily Scrum", "d) Sprint Planning"],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche Aussage trifft zu? Das Entwicklungsteam...",
-            "optionen": ["a) Hat feste Rollen verteilt",
-                         "b) Ist selbstorganisiert und gemeinsam verantwortlich",
-                         "c) Wird vom Scrum Master geleitet",
-                         "d) Priorisiert die Anforderungen"],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche der folgenden Artefakte gehören zu Scrum? (Mehrere Antworten möglich)",
-            "optionen": ["a) Product Backlog", "b) Sprint Backlog", "c) Gantt-Diagramm", "d) Product Increment"],
-            "antwort": ["a", "b", "d"]
-        },
-        {
-            "frage": "Was sind die agilen Werte? (Mehrere Antworten möglich)",
-            "optionen": [
-                "a) Individuen und Interaktionen über Prozesse und Werkzeuge",
-                "b) Dokumentation über funktionierende Software",
-                "c) Zusammenarbeit mit dem Kunden über Vertragsverhandlungen",
-                "d) Reagieren auf Veränderung über das Befolgen eines Plans"
-            ],
-            "antwort": ["a", "c", "d"]
-        }
-    ]
-
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 4: Scrum und agile Vorgehensmodelle\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
-
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 4: Scrum und agile Vorgehensmodelle\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 4: Scrum und agile Vorgehensmodelle")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul5():
-    lerninhalte = [
-        "Datenqualität beschreibt, wie gut Daten den Anforderungen der Nutzer entsprechen.\n\
-        Gute Datenqualität ist notwendig für korrekte, zuverlässige und verständliche Informationen.\n\
-        Qualitätskriterien sind unter anderem: Korrektheit, Vollständigkeit, Aktualität, Genauigkeit, Konsistenz, Redundanzfreiheit und Verständlichkeit.",
-        "Schlechte Datenqualität zeigt sich durch widersprüchliche, fehlerhafte, unvollständige oder veraltete Werte.\n\
-        Datenbereinigung beseitigt gefundene Fehler, z. B. durch Korrektur, Löschung oder Ergänzung.\n\
-        Monitoring von Daten ist ein kontinuierlicher Prozess zur Qualitätssicherung.\n\
-        Daten können sich durch Alterung verschlechtern – regelmäßige Pflege ist notwendig.",
-        "Verständlichkeit hängt von der Zielgruppe ab.\n\
-        Beispiel: Für Endkunden sollte z. B. ein Lieferdatum klar formuliert sein („Lieferung am 12.06.2025“).\n\
-        Für IT-Fachkräfte können technische Formate wie ISO-Daten oder XML sinnvoll sein.",
-        "Berechnungen zur Datenqualität sind möglich, z. B. zur Ermittlung der Aktualität:\n\
-        Aktualität = (aktuelle + korrigierte Daten) / Gesamtdaten."
-    ]
-
-    fragen = [
-        {
-            "frage": "Welche Aussage trifft zu?",
-            "optionen": [
-                "a) Gute Informationen stammen meist aus qualitativ hochwertigen Daten.",
-                "b) Im Handwerk spielt Datenqualität keine Rolle.",
-                "c) Schlechte Datenqualität erkennt man an fehlerhaften und widersprüchlichen Werten.",
-                "d) Korrektheit, Genauigkeit und Eindeutigkeit sind keine Qualitätskriterien."
-            ],
+            "frage": "Welche Aufgaben hat der Product Owner? (Mehrere Antworten möglich)",
+            "optionen": ["a) Pflegt das Product Backlog.",
+                         "b) Moderiert Daily Scrum.",
+                         "c) Priorisiert Anforderungen.",
+                         "d) Ist Teil des Entwicklungsteams."],
             "antwort": ["a", "c"]
         },
         {
-            "frage": "Was bedeutet Konsistenz bei Daten?",
-            "optionen": [
-                "a) Widersprüche, die nicht weiter auffallen.",
-                "b) Daten stimmen logisch und inhaltlich überein.",
-                "c) Daten sind vollständig.",
-                "d) Daten sind verständlich für Endnutzer."
-            ],
-            "antwort": "b"
-        },
-        {
-            "frage": "Wann ist ein Datensatz vollständig?",
-            "optionen": [
-                "a) Wenn alle Attribute einen gültigen Wert haben.",
-                "b) Wenn alle Felder leer sind.",
-                "c) Wenn die wichtigsten Werte vorliegen.",
-                "d) Wenn keine Redundanzen vorhanden sind."
-            ],
-            "antwort": "a"
-        },
-        {
-            "frage": "Was beschreibt Redundanzfreiheit?",
-            "optionen": [
-                "a) Wenn gleiche Informationen mehrfach vorkommen.",
-                "b) Wenn Daten sparsam und ohne Wiederholungen gespeichert sind.",
-                "c) Wenn Daten besonders vollständig sind.",
-                "d) Wenn Daten aktualisiert wurden."
-            ],
-            "antwort": "b"
-        },
-        {
-            "frage": "Was passiert bei der Datenbereinigung?",
-            "optionen": [
-                "a) Die Daten werden archiviert.",
-                "b) Fehlerhafte Daten werden erkannt und entfernt oder korrigiert.",
-                "c) Daten werden nur gelöscht.",
-                "d) Neue Daten werden erzeugt."
-            ],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche Aussage ist richtig zur Datenaktualität?",
-            "optionen": [
-                "a) Veraltete Daten bleiben unverändert im System.",
-                "b) Die Korrektur veralteter Daten hat keinen Einfluss.",
-                "c) Die Aktualität kann prozentual berechnet werden.",
-                "d) Aktualität spielt nur bei Kundendaten eine Rolle."
-            ],
+            "frage": "Was ist KEINE Aufgabe des Scrum Masters?",
+            "optionen": ["a) Sicherstellung der Einhaltung von Scrum-Regeln.",
+                         "b) Beseitigung von Hindernissen.",
+                         "c) Pflege des Product Backlogs.",
+                         "d) Moderation der Retrospektive."],
             "antwort": "c"
+        },
+        {
+            "frage": "Wie groß ist ein typisches Scrum-Entwicklungsteam?",
+            "optionen": ["a) 1–3 Mitglieder", "b) 3–9 Mitglieder", "c) 10–15 Mitglieder", "d) Über 20 Mitglieder"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche drei Grundsätze bilden das Fundament von Scrum?",
+            "optionen": ["a) Kontrolle, Struktur, Planung",
+                         "b) Transparenz, Überprüfung, Anpassung",
+                         "c) Dokumentation, Planung, Erfolg",
+                         "d) Offenheit, Sicherheit, Innovation"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein Sprint Backlog?",
+            "optionen": ["a) Eine Liste aller Projektbeteiligten.",
+                         "b) Das visuelle Board für Anforderungen des ganzen Projekts.",
+                         "c) Der Arbeitsplan eines Sprints mit einzelnen Tasks.",
+                         "d) Eine Liste über zukünftige Kundenwünsche."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wann gilt ein Task in Scrum als erledigt?",
+            "optionen": ["a) Wenn der Entwickler ihn abgibt.",
+                         "b) Sobald das Daily Scrum endet.",
+                         "c) Nach Abnahme durch den Product Owner gemäß Definition of Done.",
+                         "d) Sobald alle Teammitglieder zustimmen."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage zum Daily Scrum trifft zu?",
+            "optionen": ["a) Es dauert 30 Minuten.",
+                         "b) Es findet wöchentlich statt.",
+                         "c) Es wird vom Product Owner moderiert.",
+                         "d) Es dient der täglichen Abstimmung im Team."],
+            "antwort": "d"
+        },
+        {
+            "frage": "Wozu dient die Sprint Retrospektive?",
+            "optionen": ["a) Um das Produkt an den Kunden zu übergeben.",
+                         "b) Um Aufgaben für den nächsten Sprint zu definieren.",
+                         "c) Um das Team und den Prozess zu reflektieren.",
+                         "d) Um das Burn-Down-Chart auszuwerten."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was beschreibt das Product Backlog am besten?",
+            "optionen": ["a) Liste aller erledigten Aufgaben.",
+                         "b) Zentrale Sammlung aller Anforderungen, gepflegt vom Product Owner.",
+                         "c) Dokumentation des Projektabschlusses.",
+                         "d) Interne Notizen des Scrum Masters."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein zentrales Ziel der Kanban-Methode?",
+            "optionen": ["a) Feste Rollen im Projektteam",
+                         "b) Umfangreiche Dokumentation",
+                         "c) Reduktion von Risiken und bessere Qualität",
+                         "d) Lange Planungsphasen"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie ist ein klassisches Kanban-Board typischerweise aufgebaut?",
+            "optionen": ["a) Zwei Spalten: Offen – Erledigt",
+                         "b) Drei Spalten: To Do – In Progress – Done",
+                         "c) Vier Spalten: Plan – Test – Release – Review",
+                         "d) Eine Liste aller Aufgaben ohne Status"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage zu Kanban trifft zu?",
+            "optionen": ["a) Kanban kennt feste Rollen wie Product Owner",
+                         "b) Aufgaben werden zentral vom Projektleiter zugewiesen",
+                         "c) Kanban ist nur für Softwareentwicklung geeignet",
+                         "d) Kanban erlaubt eine flexible Anpassung der Spaltenanzahl"],
+            "antwort": "d"
+        },
+        {
+            "frage": "Welche Gemeinsamkeit haben Kanban und Serum?",
+            "optionen": ["a) Beide erfordern ein großes Team",
+                         "b) Beide setzen auf transparente Prozesse und Backlogs",
+                         "c) Beide haben strenge Regeln und Rollen",
+                         "d) Beide nutzen ausschließlich digitale Boards"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Nachteile hat Kanban laut Text? (Mehrere Antworten möglich)",
+            "optionen": ["a) Hoher Managementaufwand",
+                         "b) Schwierige Umsetzbarkeit bei großen Projekten",
+                         "c) Schlechte Kombinierbarkeit mit anderen Methoden",
+                         "d) Höhere Anforderungen an fachliche Fähigkeiten bei Ausfall von Teammitgliedern"],
+            "antwort": ["b", "d"]
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 5: Datenqualität\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
+    modul_lernen_und_testen("Agile Vorgehensmodelle", lerninhalte, fragen)
 
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 5: Datenqualität\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-        print("\nZUSATZFRAGE – Berechnungsaufgabe:")
-        print("Es wurden 250.000 Kontaktdaten überprüft. 31.759 waren veraltet, davon 12.333 korrigiert.")
-        print("Wie hoch ist die Aktualität nach der Korrektur?")
-
-        eingabe = input("Deine Antwort in Prozent (nur Zahl, z.B. 92.23): ").replace(",", ".")
-        try:
-            wert = float(eingabe)
-            if abs(wert - 92.23) < 0.1:
-                print("Richtig! Aktualität ≈ 92,23%")
-            else:
-                print("Falsch! Die korrekte Antwort lautet ≈ 92,23%")
-        except:
-            print("Ungültige Eingabe – bitte nur eine Zahl eingeben.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 5: Datenqualität")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul6():
+def modul4():
     lerninhalte = [
-        "Eine Datenquelle ist der Ursprung von Daten – also der Ort, an dem Daten entstehen oder gespeichert sind.\n\
-        Primäre Datenquellen liefern Daten direkt vom Ursprung (z.B. Sensoren).\n\
-        Sekundäre Datenquellen speichern Daten weiter (z.B. Datenbanken, Dateien).",
+        "In Unternehmen entstehen große Datenmengen aus verschiedenen heterogenen Quellen, z.B. Kundenkommunikation, Maschinensensoren oder finanziellen Transaktionen.\n"
+        "Die Integration dieser vielfältigen Datenquellen ohne zentralen Zugriffspunkt ist eine große Herausforderung.\n"
+        "Datenqualität ist die Eignung von Daten für eine datenverarbeitende Anwendung und beeinflusst die Qualität der daraus gewonnenen Informationen.\n"
+        "Schlechte Datenqualität zeigt sich durch Fehler, Dubletten, fehlende Werte, falsche Formate oder Widersprüche.\n"
+        "Datenqualität ist entscheidend für den geschäftlichen Erfolg; schlechte Qualität verursacht erhebliche Kosten.\n"
+        "Qualitätskriterien für Daten sind Vollständigkeit, Eindeutigkeit, Korrektheit, Aktualität, Genauigkeit, Konsistenz, Redundanzfreiheit, Relevanz, Einheitlichkeit, Zuverlässigkeit, Verständlichkeit und Zugänglichkeit.\n"
+        "Diese Kriterien werden in Prozent angegeben und sind je nach Nutzer und Anwendungsfall unterschiedlich wichtig.\n"
+        "Beispiele verdeutlichen die Bedeutung und Messbarkeit der Qualitätskriterien, z.B. Dubletten, falsche Formate, veraltete Daten oder widersprüchliche Werte.\n"
+        "Es ist wichtig, die Qualitätskriterien auf die Kundenanforderungen abzustimmen und diese bei der Softwareentwicklung zu berücksichtigen.\n"
+        "Eine fundierte Analyse der Datenqualität sollte anhand festgelegter Kriterien erfolgen, um Fehlentscheidungen zu vermeiden."
+    ]
 
-        "Typische Datenquellen sind:\n\
-        – Datenbanken (z.B. MySQL)\n\
-        – Dateien (z.B. CSV)\n\
-        – Sensoren, Benutzer, Webseiten oder Apps.",
+    fragen = [
+        {
+            "frage": "Woher stammen die Daten, die in Unternehmen ausgewertet werden?",
+            "optionen": ["a) Nur aus Kundenkommunikation",
+                         "b) Aus verschiedenen heterogenen Quellen wie Kundenkommunikation, Sensordaten und finanziellen Transaktionen",
+                         "c) Nur aus Maschinensensoren",
+                         "d) Aus einem zentralen Zugriffspunkt"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was beschreibt die Datenqualität?",
+            "optionen": ["a) Die Menge der Daten",
+                         "b) Die Eignung der Daten für die jeweilige datenverarbeitende Anwendung",
+                         "c) Nur die Aktualität der Daten",
+                         "d) Die Anzahl der Datenquellen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Probleme weisen Daten mit schlechter Qualität auf?",
+            "optionen": ["a) Datenfehler und Dubletten",
+                         "b) Fehlende Werte und falsche Formatierungen",
+                         "c) Widersprüche in den Daten",
+                         "d) Alle genannten Probleme"],
+            "antwort": "d"
+        },
+        {
+            "frage": "Warum ist Datenqualität für Unternehmen wichtig?",
+            "optionen": ["a) Sie verursacht keine Kosten",
+                         "b) Sie beeinflusst den geschäftlichen Erfolg und schlechte Datenqualität verursacht erhebliche Kosten",
+                         "c) Sie ist nur in der Industrie relevant",
+                         "d) Sie wird nur von Nachrichtendiensten benötigt"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche der folgenden Kriterien gehören zu den Qualitätskriterien für Daten?",
+            "optionen": ["a) Vollständigkeit, Eindeutigkeit, Korrektheit",
+                         "b) Geschwindigkeit, Volumen, Visualisierung",
+                         "c) Design, Benutzerfreundlichkeit, Performance",
+                         "d) Hardware, Software, Netzwerk"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Wie werden die Qualitätskriterien meist angegeben?",
+            "optionen": ["a) Als absolute Zahlen",
+                         "b) Als Prozentwerte",
+                         "c) Als freie Texte",
+                         "d) Als binäre Werte (wahr/falsch)"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was bedeutet das Qualitätskriterium 'Vollständigkeit'?",
+            "optionen": ["a) Alle Datenwerte sind vorhanden und gültig",
+                         "b) Die Daten sind aktuell",
+                         "c) Die Daten sind eindeutig",
+                         "d) Die Daten sind korrekt formatiert"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Warum sollte die Auswahl der Qualitätskriterien an Kundenanforderungen ausgerichtet sein?",
+            "optionen": ["a) Weil nicht alle Kriterien für jede Anwendung gleich wichtig sind",
+                         "b) Weil alle Kriterien immer gleichzeitig erfüllt sein müssen",
+                         "c) Weil Kunden keine Ahnung von Datenqualität haben",
+                         "d) Weil nur ein Kriterium ausgewählt werden darf"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche Auswirkungen hat eine schlechte Datenqualität laut dem Text?",
+            "optionen": ["a) Erhöhte Kosten und Zeitaufwand",
+                         "b) Schnellere Verarbeitung",
+                         "c) Verbesserte Kundenbindung",
+                         "d) Keine Auswirkungen"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was ist der wichtigste Grund, eine genaue Analyse der Datenqualität vorzunehmen?",
+            "optionen": ["a) Um Kosten zu sparen",
+                         "b) Um Fehlentscheidungen durch schlechte Daten zu vermeiden",
+                         "c) Um mehr Daten zu generieren",
+                         "d) Um das Netzwerk zu optimieren"],
+            "antwort": "b"
+        }
+    ]
 
-        "Open Data ist für alle frei zugänglich, maschinenlesbar und kostenlos nutzbar.\n\
-        Closed Data ist eingeschränkt, oft kostenpflichtig und nur mit Berechtigung verfügbar.",
+    modul_lernen_und_testen("SCRUM", lerninhalte, fragen)
 
-        "Ein Datenformat beschreibt die Struktur von Informationen in einer Datei.\n\
-        Programme können Daten nur lesen, wenn sie das Format verstehen.",
+def modul5():
+    lerninhalte = [
+        "Programme beziehen ihre Daten häufig aus externen Datenquellen. Diese können Datenbanken, Benutzer-Eingaben oder Echtzeitübertragungen von Maschinen sein. \n\
+        Eine Datenquelle ist der Ursprung oder Speicherort von Daten: primär (Ursprung) oder sekundär (Speicherort).\n\
+        Beispiele: Datenbanken, Dateien, Maschinen, Videokonferenzen.\n\
+        Durch IoT und Big Data nimmt Vielfalt und Menge der Datenquellen stetig zu.\n\
+        Datenquellen können offen (Open Data) oder geschlossen (Closed Data) sein.",
 
-        "Wichtige Datenformate:\n\
-        – CSV: Trennzeichen-getrennt, einfach und weit verbreitet\n\
-        – XML: Hierarchisch, selbst definierte Tags\n\
-        – JSON: Schlüssel-Wert-Paare, kompakt und ideal für Webanwendungen",
+        "Open Data sind frei nutzbare Daten, evtl. mit Einschränkungen wie Urhebernennung oder Share-alike.\n\
+        Sie ermöglichen neue Anwendungen und Innovationen.\n\
+        Quellen: Berlin Open Data, Open.NRW, Statistisches Bundesamt, NASA, Wikipedia, usw.\n\
+        Closed Data unterliegen Zugangsbeschränkungen, Rechten oder hohen Kosten.\n\
+        Der Übergang ist fließend.\n\
+        Pro und Kontra Open Data: + öffentlich finanziert = öffentlich zugänglich, + Innovationspotenzial, - Datenschutzbedenken, - Qualitätszweifel, - Missbrauchsgefahr.",
 
-        "Beispiele:\n\
-        – CSV: Vorname;Nachname;PLZ;Ort\n\
-        – XML: <Kunde><PLZ>12345</PLZ></Kunde>\n\
-        – JSON: {\"Name\": \"Max\", \"PLZ\": \"12345\"}",
-
-        "Datenübertragung erfolgt oft über Netzwerke.\n\
-        Programme holen Daten automatisch oder Nutzer geben sie ein.",
-
-        "Wichtige Übertragungsprotokolle:\n\
-        – FTP: Dateien übertragen\n\
-        – HTTP: Webdaten abrufen\n\
-        – SFTP/FTPS: sichere Dateiübertragung\n\
-        – SMB/NFS: Netzwerk-Dateizugriff zwischen Rechnern"
+        "Datenformate definieren Struktur und Inhalt gespeicherter Daten.\n\
+        Für Datenaustausch sind einfache, universelle Formate nötig, um Kompatibilität zu gewährleisten.\n\
+        CSV: Textbasiertes Format mit Trennzeichen (Komma, Semikolon, etc.), sehr weit verbreitet, einfach lesbar.\n\
+        JSON und XML sind Alternativen für komplexere Strukturen.\n\
+        XML: Hierarchisch, mit selbstdefinierbaren Tags, Parameter in Attributen.\n\
+        CSV enthält Spaltennamen und Listendaten, keine Hierarchie.\n\
+        XML nutzt verschachtelte Tags zur Darstellung von Struktur."
     ]
 
     fragen = [
         {
             "frage": "Was ist eine primäre Datenquelle?",
-            "optionen": ["a) Eine Excel-Tabelle", "b) Eine Datenbank", "c) Ein Sensor", "d) Eine Webseite"],
-            "antwort": "c"
-        },
-        {
-            "frage": "Welche Aussage beschreibt Open Data korrekt?",
-            "optionen": ["a) Nur mit Anmeldung nutzbar", "b) Kostenlos, maschinenlesbar, offen",
-                         "c) Nur als PDF vorhanden", "d) Kostenpflichtig"],
+            "optionen": ["a) Eine bearbeitete Kopie von Daten.",
+                         "b) Der ursprüngliche Entstehungsort von Daten.",
+                         "c) Eine Backup-Datei.",
+                         "d) Eine Videokonferenzaufnahme."],
             "antwort": "b"
         },
         {
-            "frage": "Welches Format nutzt geschweifte Klammern und Schlüssel-Wert-Paare?",
-            "optionen": ["a) CSV", "b) XML", "c) JSON", "d) TXT"],
+            "frage": "Welche Aussage zu Open Data ist korrekt?",
+            "optionen": ["a) Sie dürfen nie verändert werden.",
+                         "b) Sie sind kostenpflichtig.",
+                         "c) Sie dürfen frei genutzt werden, evtl. mit Einschränkungen.",
+                         "d) Sie stammen nur aus der EU."],
             "antwort": "c"
         },
         {
-            "frage": "Welche Aussage stimmt zu Datenformaten?",
-            "optionen": ["a) Jedes Programm versteht jedes Format", "b) Formate sind nur bei Bildern wichtig",
-                         "c) Formate bestimmen die Lesbarkeit durch Programme", "d) Dateiformate sind veraltet"],
+            "frage": "Welche Beispiele gehören zu Open Data Quellen? (Mehrere Antworten möglich)",
+            "optionen": ["a) NASA",
+                         "b) DBpedia",
+                         "c) Google Public Data Explorer",
+                         "d) Private Firmendatenbanken"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Was ist ein wesentliches Merkmal von Closed Data?",
+            "optionen": ["a) Immer in analoger Form vorhanden.",
+                         "b) Vollständig öffentlich zugänglich.",
+                         "c) Zugangsbeschränkungen und Nutzungsrechte.",
+                         "d) Werden kostenlos bereitgestellt."],
             "antwort": "c"
         },
         {
-            "frage": "Welche Protokolle übertragen Daten verschlüsselt? (Mehrere möglich)",
-            "optionen": ["a) FTP", "b) HTTP", "c) SFTP", "d) FTPS"],
-            "antwort": ["c", "d"]
+            "frage": "Welcher Kritikpunkt wird häufig GEGEN Open Data genannt?",
+            "optionen": ["a) Innovationsförderung",
+                         "b) Verbesserung des Wettbewerbs",
+                         "c) Datenschutzbedenken",
+                         "d) Öffentliche Kontrolle"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage zu Datenformaten ist korrekt?",
+            "optionen": ["a) Alle Formate sind untereinander kompatibel.",
+                         "b) Ein Datenformat beschreibt Struktur und Interpretation der Daten.",
+                         "c) Datenformate enthalten nur Metadaten.",
+                         "d) CSV-Dateien nutzen ausschließlich Tabs als Trennzeichen."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein typisches Merkmal von CSV-Dateien?",
+            "optionen": ["a) Hierarchische Datenstruktur mit Tags.",
+                         "b) Binäres Datenformat.",
+                         "c) Nutzung von Trennzeichen für Listendaten.",
+                         "d) Nutzung von JSON-Tags."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was unterscheidet XML von CSV?",
+            "optionen": ["a) XML verwendet Trennzeichen statt Tags.",
+                         "b) CSV ist nur in HTML nutzbar.",
+                         "c) XML erlaubt verschachtelte Daten durch Tags.",
+                         "d) Beide sind gleich strukturiert."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist ein Vorteil von universellen Datenformaten wie CSV?",
+            "optionen": ["a) Bessere Verschlüsselung",
+                         "b) Ermöglichen Datenaustausch zwischen inkompatiblen Programmen.",
+                         "c) Speicherung großer Binärdaten",
+                         "d) Nutzung von HTML"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Datenquelle liefert typischerweise Echtzeitdaten?",
+            "optionen": ["a) Archiv-CD-ROM",
+                         "b) Maschinen im IoT",
+                         "c) Wikipedia",
+                         "d) CSV-Dateien auf USB-Stick"],
+            "antwort": "b"
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 5: Datenquellen, Formate & Übertragung\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
+    modul_lernen_und_testen("Datenquellen", lerninhalte, fragen)
 
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 5: Datenquellen, Formate & Übertragung\n")
+def modul6():
+    lerninhalte = [
+        "Unternehmen beziehen ihre Daten aus einer Vielzahl interner und externer Datenquellen. Diese Quellen sind oft\n\
+        heterogen – d.h. uneinheitlich in Struktur, Format, Bedeutung oder Technologie.",
+        "Heterogenität kann sich in folgenden Formen äußern:\n\
+        - Technisch: Unterschiedliche Zugriffsschnittstellen (z.B. SQL, XPath)\n\
+        - Syntaktisch: Verschiedene Speicherformate (z.B. 20.03.2021 vs. 2021-03-20)\n\
+        - Datenmodell: Unterschiedliche Modellarten (z.B. relational vs. dokumentenbasiert)\n\
+        - Strukturell: Unterschiedliche Speicherstrukturen trotz gleichem Modell\n\
+        - Semantisch: Unterschiedliche Bedeutungen für gleiche Inhalte (z.B. Ort vs. Location)",
+        "Ziel ist die Informationsintegration – also das Zusammenführen von Daten aus unterschiedlichen Quellen zu einer einheitlichen Struktur.\n\
+        Dabei müssen Redundanzen erkannt, ggf. entfernt oder zur Verifikation genutzt werden.",
+        "Integrationsarten:\n\
+        - Materialisierte/physische Integration: Daten werden zentral gespeichert (z.B. im Data Warehouse oder Data Lake)\n\
+        - Virtuelle/logische Integration: Daten bleiben dezentral, werden erst zur Laufzeit verbunden (z.B. in föderierten Datenbanksystemen)",
+        "Materialisierte Integration – Vorteile:\n\
+        - Schnellere Verfügbarkeit\n\
+        - Höhere Datenqualität\n\
+        Nachteile:\n\
+        - Daten evtl. veraltet\n\
+        - hoher Pflegeaufwand (Hardware, Quellenänderungen)",
+        "Virtuelle Integration – Vorteile:\n\
+        - Immer aktuelle Daten\n\
+        - Flexibles Hinzufügen/Entfernen von Quellen\n\
+        Nachteile:\n\
+        - Langsame Abfrage\n\
+        - Geringere Datenqualität",
+        "Data Warehouse: zentrale, strukturierte Datenbank zur Analyse großer Datenmengen. Daten werden vorher aufbereitet\n\
+        und transformiert (Data Warehousing).",
+        "Data Lake: flexible Analyseplattform für große Mengen unstrukturierter Daten (Big Data). Sehr hohe Speicherkapazität,\n\
+        nutzt moderne Analyseverfahren.",
+        "Data Lakes sind besonders geeignet für vielfältige, große und unstrukturierte Daten. Data Warehouses hingegen für\n\
+        strukturierte Datenanalysen.",
+        "Beide Lösungen sind aufwendig, mitunter nicht aktuell. Datenvirtualisierung kann hier helfen – da die Daten am Ursprungsort\n\
+        verbleiben, bleiben sie synchron."
+    ]
 
-        punkte = 0
-        gesamt = len(fragen)
+    fragen = [
+        {
+            "frage": "Was bedeutet der Begriff 'heterogen' im Kontext von Datenquellen?",
+            "optionen": ["a) Gleichförmig", "b) Uneinheitlich", "c) Zentralisiert", "d) Verschlüsselt"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Formen der Heterogenität gibt es? (Mehrere Antworten möglich)",
+            "optionen": ["a) Technisch", "b) Physikalisch", "c) Semantisch", "d) Strukturell"],
+            "antwort": ["a", "c", "d"]
+        },
+        {
+            "frage": "Was ist Informationsintegration?",
+            "optionen": ["a) Die Auswertung von einheitlichen Datenmodellen",
+                         "b) Die Speicherung von Daten in lokalen Quellen",
+                         "c) Die Vereinheitlichung heterogener Datenstrukturen",
+                         "d) Das Mining von Big-Data-Systemen"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Vorteile bietet die physische Integration? (Mehrere Antworten möglich)",
+            "optionen": ["a) Immer aktuelle Daten", "b) Schnellere Verfügbarkeit", "c) Höhere Datenqualität",
+                         "d) Flexibles Quellmanagement"],
+            "antwort": ["b", "c"]
+        },
+        {
+            "frage": "Ein Nachteil der virtuellen Integration ist...",
+            "optionen": ["a) langsame Abfragen", "b) veraltete Daten", "c) hoher Hardwarebedarf",
+                         "d) geringer Speicherbedarf"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Wo verbleiben die Daten bei virtueller Integration?",
+            "optionen": ["a) In einer Cloud", "b) In einer zentralen Datenbank", "c) In den ursprünglichen Quellen",
+                         "d) In einem Data Lake"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was kennzeichnet ein Data Warehouse? (Mehrere Antworten möglich)",
+            "optionen": ["a) Nutzung unstrukturierter Daten", "b) Zentrale Datenhaltung", "c) Striktes Datenmodell",
+                         "d) Fokus auf Analyse großer Datenmengen"],
+            "antwort": ["b", "c", "d"]
+        },
+        {
+            "frage": "Ein Data Lake ist besonders geeignet für...",
+            "optionen": ["a) Kleine strukturierte Datenmengen",
+                         "b) Realtime-Transaktionen",
+                         "c) Unstrukturierte Big-Data-Datenmengen",
+                         "d) Datenbank-Backups"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Warum kann Datenvirtualisierung hilfreich sein?",
+            "optionen": ["a) Weil sie Daten redundant speichert",
+                         "b) Weil sie physische Hardware ersetzt",
+                         "c) Weil Daten synchron mit Originaldaten bleiben",
+                         "d) Weil sie Daten verschlüsselt"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage trifft auf Redundanz bei Informationsintegration zu?",
+            "optionen": ["a) Redundanz muss immer vollständig vermieden werden",
+                         "b) Redundante Daten können zur Verifikation genutzt werden",
+                         "c) Redundanz ist bei homogener Struktur unvermeidbar",
+                         "d) Redundanz erhöht die Zugriffsgeschwindigkeit"],
+            "antwort": "b"
+        }
+    ]
 
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 5: Datenquellen, Formate & Übertragung")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
+    modul_lernen_und_testen("Heterogene Datenquellen", lerninhalte, fragen)
 
 def modul7():
     lerninhalte = [
-        "🔹 Heterogene Datenquellen:\n\
-        Unternehmen nutzen viele Datenquellen: intern (z.B. Datenbanken) und extern (z.B. Webservices).\n\
-        Diese Quellen sind oft uneinheitlich – also *heterogen*. Beispiel: „Ort“ vs. „Location“. Beide meinen dasselbe, sind aber verschieden gespeichert.",
+        "8.3 Objektorientierte Softwarelösungen unter Beachtung der Informationssicherheit planen.\n\
+        Mithilfe von UML-Diagrammen werden objektorientierte Anwendungen geplant und sicherheitsrelevante Aspekte berücksichtigt.\n\
+        UML-Anwendungsfall- und Klassendiagramme sind besonders geeignet für Planung und Dokumentation.\n\
+        UML-Aktivitätsdiagramme ersetzen oft den veralteten Programmablaufplan (PAP) zur Abbildung von Algorithmen und Prozessen.\n\
+        Sicherheitsaspekte in der Softwareplanung werden häufig vernachlässigt, obwohl Kundenerwartungen hoch sind.",
 
-        "🔹 Formen der Heterogenität:\n\
-        – Technisch: verschiedene Zugriffsmethoden (z.B. SQL, REST)\n\
-        – Syntaktisch: unterschiedliche Darstellung (z.B. Datum als 20.03.2021 oder 2021-03-20)\n\
-        – Modellbezogen: unterschiedliche Datenmodelle (z.B. relational vs. dokumentenbasiert)\n\
-        – Strukturell: gleiche Daten, verschieden organisiert (z.B. Adressen direkt vs. als Tabelle)\n\
-        – Semantisch: gleiche Bedeutung, andere Bezeichnung („Ort“ vs. „Location“)",
+        "3.3.1 Programmierparadigmen unterscheiden.\n\
+        Programme bestehen aus Befehlen und Speicheradressen.\n\
+        Programmierparadigmen sind Konzepte, die den Aufbau und die Ausführung von Programmen definieren und den Programmierstil beeinflussen.\n\
+        Es gibt kein ‚richtig‘ oder ‚falsch‘, nur passendere oder weniger passende Paradigmen für bestimmte Probleme.\n\
+        Moderne Programmiersprachen unterstützen oft mehrere Paradigmen.",
 
-        "🔹 Ziel der Informationsintegration:\n\
-        Daten aus verschiedenen Quellen in einer *einheitlichen Struktur* zusammenführen.\n\
-        Herausforderung: Daten sind oft redundant – Redundanzen müssen erkannt und sinnvoll genutzt werden.",
+        "Imperative Programmierparadigmen beschreiben präzise die Reihenfolge der Abarbeitung von Befehlen mit Kontrollstrukturen wie Verzweigungen und Schleifen.\n\
+        Dazu gehören strukturiertes, prozedurales und objektorientiertes Programmierparadigma.\n\
+        Strukturiertes Programmieren verzichtet auf Sprunganweisungen (Goto) zugunsten von Kontrollstrukturen und verlangt Zerlegung in Teilprogramme.\n\
+        Beispiele: C, Pascal.",
 
-        "🔹 Zwei Wege der Integration:\n\
-        1. *Physische (materialisierte) Integration*: Daten werden zentral gespeichert (z.B. im Data Warehouse oder Data Lake)\n\
-        ✔ Vorteile: gute Qualität, schnelle Auswertung\n\
-        ✘ Nachteile: nicht immer aktuell, hoher Pflegeaufwand",
+        "Prozedurales Programmierparadigma baut auf strukturiertem Programmieren auf, um Quelltexte wiederverwendbar und übersichtlich zu machen.\n\
+        Programme werden in Prozeduren oder Funktionen aufgeteilt, um Redundanzen zu vermeiden.\n\
+        Beispiele: C, FORTRAN, COBOL, Pascal.",
 
-        "2. *Virtuelle (logische) Integration*: Daten bleiben am Ursprungsort, werden nur bei Abfrage zusammengeführt (z.B. durch Mediator-Systeme)\n\
-        ✔ Vorteile: immer aktuell, flexibel\n\
-        ✘ Nachteile: langsamere Abfragen, niedrigere Qualität",
+        "Objektorientiertes Programmierparadigma ist eine Weiterentwicklung anderer Paradigmen und heute Standard in vielen Bereichen der Softwareentwicklung.\n\
+        Es wird in Abschnitt 8.3.2 vertiefend erläutert.",
 
-        "🔹 Unterschied Data Warehouse vs. Data Lake:\n\
-        – Data Warehouse: strukturierte, vorbereitete Daten für Analysen und Reporting\n\
-        – Data Lake: große Mengen roher Daten, auch unstrukturiert – gut für Big Data & KI-Verfahren",
+        "Deklarative Programmierparadigmen beschreiben nur das gewünschte Ergebnis, nicht die Umsetzung.\n\
+        Dadurch ist Quelltext kurz, präzise, aber oft schwerer verständlich.\n\
+        Trennung von Ausführungslogik und Programmentwicklung erleichtert Wartung und Optimierung.\n\
+        Wichtige Arten sind funktionales und logisches Programmierparadigma.",
 
-        "🟨 Merke zur Auswahl:\n\
-        – Virtuelle Integration: wenn aktuelle Daten wichtig sind\n\
-        – Physische Integration: wenn Qualität und Analysegeschwindigkeit im Fokus stehen"
+        "Funktionales Programmierparadigma besteht aus einer Reihe von Funktionsaufrufen ohne Wertzuweisungen.\n\
+        Eingesetzt u.a. in KI und Compilerbau.\n\
+        Beispiele: Lisp, Haskell, F#.",
+
+        "Logisches Programmierparadigma beruht auf mathematischer Logik mit Fakten und Regeln.\n\
+        Beispiel: Prolog.\n\
+        Programm antwortet auf Anfragen durch Anwendung von Regeln auf Fakten.",
+
+        "Deklarative Programmierung ist ungewohnt für Menschen, da sie Lösungszustände beschreibt, nicht den Weg.\n\
+        In der Praxis werden meist Mischformen aus deklarativen und imperativen Paradigmen genutzt.\n\
+        Dies erhöht aber die Fehleranfälligkeit und kann die Lesbarkeit des Codes beeinträchtigen."
     ]
 
     fragen = [
         {
-            "frage": "Welche Aussage über heterogene Datenquellen ist korrekt?",
+            "frage": "Was ist ein Vorteil von UML-Aktivitätsdiagrammen gegenüber Programmablaufplänen (PAP)?",
             "optionen": [
-                "a) Heterogene Quellen enthalten immer gleich formatierte Daten.",
-                "b) Heterogenität bedeutet Gleichartigkeit.",
-                "c) Unternehmen nutzen oft sowohl interne als auch externe Datenquellen.",
-                "d) Datenquellen sind nur dann heterogen, wenn sie aus dem Internet stammen."
+                "a) Sie sind veraltet und werden kaum genutzt.",
+                "b) Sie können Algorithmen und Prozesse moderner und anschaulicher abbilden.",
+                "c) Sie sind nur für Sicherheitsaspekte relevant.",
+                "d) Sie sind ausschließlich für Hardwareplanung geeignet."
             ],
-            "antwort": "c"
+            "antwort": "b"
         },
         {
-            "frage": "Was ist ein Beispiel für semantische Heterogenität?",
+            "frage": "Was beschreibt ein Programmierparadigma grundsätzlich?",
             "optionen": [
-                "a) 'Ort' in System A, 'Location' in System B",
-                "b) '20.03.2021' vs. 'March 20, 2021'",
-                "c) Datenbank vs. Textdatei",
-                "d) REST vs. SQL"
+                "a) Die Art der Programmiersprache.",
+                "b) Das grundlegende Konzept für Aufbau und Ausführung von Programmen.",
+                "c) Die Hardware, auf der das Programm läuft.",
+                "d) Die grafische Oberfläche einer Anwendung."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Paradigmen gehören zu den imperativen Programmierparadigmen?",
+            "optionen": [
+                "a) Funktionale und logische Programmierung",
+                "b) Strukturiertes, prozedurales und objektorientiertes Programmieren",
+                "c) Deklarative und imperative Programmierung",
+                "d) Keine der genannten"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein Merkmal des strukturierten Programmierparadigmas?",
+            "optionen": [
+                "a) Verzicht auf Sprunganweisungen (Goto) zugunsten von Kontrollstrukturen.",
+                "b) Verwendung von unstrukturiertem Code.",
+                "c) Keine Verwendung von Funktionen oder Prozeduren.",
+                "d) Fokus auf deklarative Logik."
             ],
             "antwort": "a"
         },
         {
-            "frage": "Welche Aussagen treffen zu? (Mehrfachauswahl)",
+            "frage": "Welchen Zweck verfolgt das prozedurale Programmierparadigma?",
             "optionen": [
-                "a) Die Datenqualität ist bei physischer Integration meist höher.",
-                "b) Virtuelle Integration ermöglicht aktuelle Datenzugriffe.",
-                "c) Virtuelle Integration ist immer schneller.",
-                "d) Physische Integration vermeidet jegliche Redundanz."
+                "a) Programme sollen möglichst lang und komplex sein.",
+                "b) Quelltexte wiederverwendbar und übersichtlich machen durch Aufteilung in Prozeduren oder Funktionen.",
+                "c) Programmierung ohne Kontrollstrukturen.",
+                "d) Nur für künstliche Intelligenz geeignet."
             ],
-            "antwort": ["a", "b"]
+            "antwort": "b"
         },
         {
-            "frage": "Welche Unterschiede bestehen zwischen Data Warehouse und Data Lake? (Mehrfachauswahl)",
+            "frage": "Was ist charakteristisch für das objektorientierte Programmierparadigma?",
             "optionen": [
-                "a) Data Warehouse speichert strukturierte Daten.",
-                "b) Data Lakes speichern Daten stets aufbereitet.",
-                "c) Data Lakes enthalten auch unstrukturierte Rohdaten.",
-                "d) Nur Data Warehouses sind für KI geeignet."
+                "a) Es ist eine veraltete Methode.",
+                "b) Es ist eine Weiterentwicklung anderer Paradigmen und heute Standard in vielen Bereichen.",
+                "c) Es wird nur für kleine Programme genutzt.",
+                "d) Es beschreibt nur deklarative Programmierung."
             ],
-            "antwort": ["a", "c"]
+            "antwort": "b"
         },
         {
-            "frage": "Was versteht man unter Informationsintegration?",
+            "frage": "Was beschreibt das deklarative Programmierparadigma?",
             "optionen": [
-                "a) Das Kombinieren von Daten aus mehreren Quellen in einer gemeinsamen Struktur.",
-                "b) Die Speicherung von Daten nur in einer Cloud.",
-                "c) Die Erstellung einer Datenbank ohne Redundanzen.",
-                "d) Die Sicherung einzelner Systeme gegen Datenverlust."
+                "a) Die genaue Reihenfolge der Abarbeitung von Befehlen.",
+                "b) Nur das gewünschte Ergebnis, nicht wie es erreicht wird.",
+                "c) Nur imperative Befehle.",
+                "d) Die Hardware des Computers."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche zwei Paradigmen sind die wichtigsten Arten der deklarativen Programmierung?",
+            "optionen": [
+                "a) Strukturiert und prozedural",
+                "b) Funktional und logisch",
+                "c) Objektorientiert und strukturiert",
+                "d) Imperativ und prozedural"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wofür wird das funktionale Programmierparadigma oft eingesetzt?",
+            "optionen": [
+                "a) Für Webdesign.",
+                "b) Für künstliche Intelligenz und Compilerbau.",
+                "c) Nur für einfache Skripte.",
+                "d) Für Datenbankverwaltung."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist eine Herausforderung bei der Verwendung von Mischformen aus deklarativen und imperativen Paradigmen?",
+            "optionen": [
+                "a) Erhöhte Fehleranfälligkeit und beeinträchtigte Lesbarkeit des Codes.",
+                "b) Weniger Funktionen im Programm.",
+                "c) Kein Einsatz von Kontrollstrukturen möglich.",
+                "d) Keine Vorteile gegenüber reinem imperativen Programmieren."
             ],
             "antwort": "a"
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 5: Heterogene Datenquellen und Integration\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
-
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 5: Heterogene Datenquellen und Integration\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 5: Heterogene Datenquellen und Integration")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
+    modul_lernen_und_testen("8.3.1 - Programmierparadigmen unterscheiden", lerninhalte, fragen)
 
 def modul8():
-    lerninhalte = [
-        "UML ist geeignet zur Planung objektorientierter Softwarelösungen.\n"
-        "Anwendungsfall-, Klassendiagramme und Aktivitätsdiagramme helfen bei der Strukturierung und Visualisierung.\n"
-        "Informationssicherheit muss bereits in der Planungsphase berücksichtigt werden.",
-
-        "Ein Programmierparadigma ist ein grundlegender Ansatz, Programme zu strukturieren.\n"
-        "Imperative Paradigmen beschreiben **wie** ein Problem gelöst wird – mit Anweisungen, Kontrollstrukturen.",
-
-        "Strukturiertes Paradigma: nutzt keine Sprunganweisungen wie goto, modularisiert Programme.",
-        "Prozedurales Paradigma: verwendet Funktionen/Prozeduren zur Wiederverwendung und Struktur.",
-
-        "Deklarative Paradigmen beschreiben **was** ein Programm leisten soll – ohne konkrete Ablaufschritte.",
-        "Funktionale Programmierung: basiert auf Funktionen, ohne Zustandsänderung – etwa Haskell.",
-        "Logische Programmierung: basiert auf Fakten und Regeln, etwa in Prolog.",
-        "Viele moderne Sprachen kombinieren mehrere Paradigmen – das erhöht Flexibilität, aber auch Komplexität."
-    ]
-
-    fragen = [
-        {
-            "frage": "Was beschreibt ein Programmierparadigma?",
-            "optionen": [
-                "a) Eine spezielle Programmiersprache",
-                "b) Den Stil und Aufbau von Programmen",
-                "c) Nur den Programmablaufplan",
-                "d) Nur Sicherheitsregeln"
-            ],
-            "antwort": "b"
-        },
-        {
-            "frage": "Was ist typisch für das strukturierte Programmierparadigma?",
-            "optionen": [
-                "a) Viele Sprünge mit goto",
-                "b) Nutzung von Prozeduren und Modulen",
-                "c) Nutzung von Regeln und Fakten",
-                "d) Nur grafische Programmierung"
-            ],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche Aussage trifft auf deklarative Programmierung zu?",
-            "optionen": [
-                "a) Es wird exakt beschrieben, wie etwas gemacht wird",
-                "b) Der Ablauf erfolgt über Zuweisungen und Kontrollstrukturen",
-                "c) Sie beschreibt das Was, nicht das Wie",
-                "d) Sie basiert auf grafischen Elementen"
-            ],
-            "antwort": "c"
-        },
-        {
-            "frage": "Was ist ein Beispiel für funktionale Programmierung?",
-            "optionen": [
-                "a) Pascal",
-                "b) Prolog",
-                "c) C",
-                "d) Haskell"
-            ],
-            "antwort": "d"
-        },
-        {
-            "frage": "Was ist ein Merkmal logischer Programmierung?",
-            "optionen": [
-                "a) Prozeduren",
-                "b) Schleifen",
-                "c) Regeln und Fakten",
-                "d) Klassen und Objekte"
-            ],
-            "antwort": "c"
-        },
-        {
-            "frage": "Welche Aussagen sind **richtig**? (Mehrfachauswahl – Kompetenzcheck)",
-            "optionen": [
-                "a) Prozedurale Programmierung ist ein imperatives Paradigma.",
-                "b) Imperative Programmierung beschreibt den Lösungsweg mit Befehlen.",
-                "c) Ein Programmierparadigma beschreibt Struktur und Stil von Programmen.",
-                "d) C unterstützt strukturierte und prozedurale Programmierung.",
-                "e) Verschiedene Paradigmen eignen sich unterschiedlich gut für bestimmte Probleme.",
-                "f) Deklarative Programme beschreiben das Was, nicht das Wie.",
-                "g) Deklarative Programme sind oft stark abstrahiert.",
-                "h) Prolog ist eine funktionale Sprache.",
-                "i) Funktionale Programme bestehen aus Funktionsaufrufen.",
-                "j) C ist eine logische Sprache.",
-                "k) Logische Programme bestehen aus Regeln und Fakten."
-            ],
-            "antwort": ["a", "b", "c", "d", "e", "f", "g", "i", "k"]
-        }
-    ]
-
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 8: Objektorientierung & Paradigmen\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
-
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 8: Objektorientierung & Paradigmen\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 8: Objektorientierung & Paradigmen")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul9():
     lerninhalte = [
         "Die objektorientierte Programmierung (OOP) orientiert sich an Objekten der realen Welt.\n"
         "Sie basiert auf früheren Paradigmen wie strukturierter und prozeduraler Programmierung.\n"
@@ -1316,59 +1241,9 @@ def modul9():
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 2: Objektorientiertes Programmierparadigma\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
+    modul_lernen_und_testen("Objektorientierte Programmierung", lerninhalte, fragen)
 
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 2: Objektorientiertes Programmierparadigma\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 2: Objektorientiertes Programmierparadigma")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul10():
+def modul9():
     lerninhalte = [
         "Sie sollen die Modellierungssprache UML kennenlernen, die einzelnen Diagrammtypen unterscheiden und das Anwendungsfalldiagramm,\n\
          das Klassendiagramm und das Aktivitätsdiagramm anwenden können.\n\
@@ -1529,59 +1404,9 @@ def modul10():
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS - Lernfeld 8, Modul 10: UML - Die Modellierungssprache\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
+    modul_lernen_und_testen("Unified Modeling Language", lerninhalte, fragen)
 
-    def test():
-        print("\nTESTMODUS - Lernfeld 8, Modul 10: UML - Die Modellierungssprache\n")
-
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 - Modul 2: Objektorientiertes Programmierparadigma")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul11():
+def modul10():
     lerninhalte = [
         "Ein Anwendungsfalldiagramm stellt die Funktionalität eines Systems aus Sicht der Benutzer dar.\n\
 Es beschreibt *was* ein System leisten soll – nicht *wie* es technisch umgesetzt wird.\n\
@@ -1694,57 +1519,9 @@ Kreditkarte prüfen («extends», wenn Kreditkarte gewählt wird)."
         }
     ]
 
-    def lernen():
-        print("\nLERNMODUS – Lernfeld 8, Modul 11: Anwendungsfalldiagramme\n")
-        for abschnitt in lerninhalte:
-            print("- " + abschnitt)
-            input("\nDrücke Enter, um weiterzulernen...")
+    modul_lernen_und_testen("Das Anwendungsfalldiagramm", lerninhalte, fragen)
 
-    def test():
-        print("\nTESTMODUS – Lernfeld 8, Modul 11: Anwendungsfalldiagramme\n")
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print("\nLernfeld 8 – Modul 11: Anwendungsfalldiagramme")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.")
-
-def modul12():
+def modul11():
     lerninhalte = [
         "Klassendiagramme bilden ein zentrales Element der UML. Eingesetzt werden sie vor allem bei der Analyse und beim\n\
          Entwurf eines Softwaresystems.\n\
@@ -1896,7 +1673,7 @@ g) Die Komposition wird durch eine ausgefüllte Raute dargestellt.",
     ]
     modul_lernen_und_testen("Lernfeld 8.3.3 - Klassendiagramme",lerninhalte,fragen)
 
-def modul13():
+def modul12():
     lerninhalte = [
         "Sie sollen sich grundlegende Kenntnisse über die Notationselemente und den Aufbau von Aktivitätsdiagrammen erarbeiten und auf\n\
 konkrete Aufgaben anwenden können.\n\
@@ -1983,9 +1760,10 @@ werden in vielen Phasen der Softwareentwicklung verwendet: in der Analysephase z
             "antwort": "c"
         }
     ]
+
     modul_lernen_und_testen("Lernfeld 8 - 3.3.6 - Aktivitätsdiagramm beschreiben und anwenden", lerninhalte, fragen)
 
-def modul14():
+def modul13():
     lerninhalte = [
         "Die Gefährdung von Daten und Software nimmt im Rahmen der Digitalisierung immer mehr zu,\n\
 besonders wenn diese über das Internet zugänglich sind. Besonders kritisch wird es, wenn sensible Daten\n\
@@ -2092,7 +1870,7 @@ und Maßnahmen planen (z.B. datenschutzfreundliche Voreinstellungen)."
 
     modul_lernen_und_testen("Lernfeld 8 - 3.3.7 Sicherheitsrelevante Aspekte bei der Softwareplanung", lerninhalte, fragen)
 
-def modul15():
+def modul14():
     lerninhalte = [
         "Softwareergonomie befasst sich mit der Anpassung von Software an Benutzerbedürfnisse.\n\
         Die Benutzerschnittstelle ist das Bindeglied zwischen Mensch und Computer.\n\
@@ -2184,7 +1962,7 @@ def modul15():
 
     modul_lernen_und_testen("Lernfeld 8 - 3.4 - Benutzerschnittstellen unter softwareergonomischen Gesichtspunkten planen", lerninhalte, fragen)
 
-def modul16():
+def modul15():
     lerninhalte = [
         "Bevor mit der Umsetzung eines User Interfaces begonnen wird, sollten grafische Entwürfe erstellt werden:\n\
         Sketches, Wireframes, Mockups, Prototypen.\n\
@@ -2281,7 +2059,7 @@ def modul16():
 
     modul_lernen_und_testen("Lernfeld 8.3.4.2 Eine Oberfläche für eine Benutzerschnittstelle entwerfen", lerninhalte, fragen)
 
-def modul17():
+def modul16():
     lerninhalte = [
         "Java ist eine moderne, populäre und einfach zu erlernende objektorientierte Programmiersprache.",
         "Java wird seit 1995 (entwickelt von SUN, ab 2010 weitergeführt von Oracle) genutzt und ist in der Praxis weit verbreitet.",
@@ -2400,7 +2178,7 @@ def modul17():
 
     modul_lernen_und_testen("Lernfeld 8.3.5.1 Java beschreiben und eine Entwicklungsumgebung auswählen ", lerninhalte, fragen)
 
-def modul18():
+def modul17():
     lerninhalte = [
         "Sie lernen grundlegende Sprachelemente von Java kennen und entwickeln einfache Konsolenanwendungen.",
         "Es wird eine kurze Einführung in die grundlegenden Sprachelemente von Java gegeben – darunter Operatoren, Kontrollstrukturen,\n\
@@ -2545,7 +2323,7 @@ def modul18():
     ]
     modul_lernen_und_testen("Lernfeld 8.3.5.2 Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren", lerninhalte, fragen)
 
-def modul19():
+def modul18():
    lerninhalte = [
        "Die objektorientierte Programmierung in Java basiert auf den vier Grundkonzepten: Abstraktion, Kapselung, Vererbung und Polymorphie.\n"
        "Java unterstützt diese Konzepte vollständig, jedoch ist Mehrfachvererbung nur über Interfaces möglich.\n"
@@ -2743,13 +2521,9 @@ def modul19():
    ]
    modul_lernen_und_testen("Lernfeld 8.3.5.3 Das objektorientierte Programmierparadigma in Java umsetzen", lerninhalte, fragen)
 
-def modul20():
-    with open("lernmodule.json", "r", encoding="utf-8") as f:
-        lerninhalte = json.load(f)
-        for i in lerninhalte["lm20"]["lerninhalt"]:
-            print(i)
-            input("Enter...\n")
-        """("Grafische Benutzeroberflächen (GUIs) in Java ermöglichen eine komplexere Interaktion als Konsolenanwendungen.",
+def modul19():
+    lerninhalte =[
+        "Grafische Benutzeroberflächen (GUIs) in Java ermöglichen eine komplexere Interaktion als Konsolenanwendungen.",
         "GUI-Programmierung erfordert Planung und ist aufwändiger hinsichtlich Benutzerfreundlichkeit und Oberflächendesign.",
         "Java bietet zur GUI-Erstellung spezielle Bibliotheken: AWT, Swing (JFC), JavaFX.",
         "Swing ist plattformunabhängig, vollständig in Java implementiert und enthält zahlreiche GUI-Komponenten.",
@@ -2761,7 +2535,7 @@ def modul20():
         "JFrame ist eine Swing-Klasse zur Erstellung von Fenstern. Beispielcode zeigt: Fenstergröße, Position, Sichtbarkeit.",
         "GUI-Elemente (z.B. Buttons) können Ereignisse auslösen, z.B. Programm beenden mit ActionListener.",
         "GUI-Builder wie WindowBuilder erleichtern die Oberflächengestaltung per Drag and Drop und automatischer Code-Generierung.",
-        "WindowBuilder kann über den Eclipse Marketplace installiert und verwendet werden.")"""
+        "WindowBuilder kann über den Eclipse Marketplace installiert und verwendet werden."]
 
 
     fragen = [
@@ -2867,9 +2641,9 @@ def modul20():
         }
     ]
 
-    modul_lernen_und_testen2("Lernfeld 8.3.5.4 Grafische Benutzerschnittstellen in Java entwickeln", lerninhalte, fragen)
+    modul_lernen_und_testen("Lernfeld 8.3.5.4 Grafische Benutzerschnittstellen in Java entwickeln", lerninhalte, fragen)
 
-def modul21():
+def modul20():
     lerninhalte = [
         "Ziel: Erweiterung der Kenntnisse über objektorientierte Programmierung (OOP) und grafische Benutzeroberflächen in Python.\n\
         Voraussetzung: Grundkenntnisse in Python und Entwicklungsumgebung (z.B. PyCharm).",
