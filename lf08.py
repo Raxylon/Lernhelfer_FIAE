@@ -37,7 +37,7 @@ def durchlauf_fragen(fragen):
 def lade_module():
     try:
         with open("lernmodule.json", "r", encoding="utf-8") as f:  # Datei öffnen
-            return json.load(f).get("lernmoduleLF8", {})  # 'lernmoduleLF8'-Bereich extrahieren
+            return json.load(f).get("Lernfelder", {})  # 'Lernfelder'-Bereich extrahieren
     except Exception as e:  # Fehler beim Laden
         print("❗ Fehler beim Laden der Datei:", e)
         return {}
@@ -48,7 +48,7 @@ def menu():
         module = lade_module()
         keys = list(module.keys())
 
-        print("\n=== 📘 Lernfeld 8 – Hauptmenü ===")
+        print("\n=== 📘 Lernfeld X – Hauptmenü ===")
         for i, k in enumerate(keys, 1):
             themen_key = next(iter(module[k]))
             print(f"{i} – Modul {themen_key}")

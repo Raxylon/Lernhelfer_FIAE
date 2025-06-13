@@ -1,37 +1,28 @@
-import importlib
+from lf08 import menu
 
 lernfelder = [
-    "lf01","lf02","lf03","lf04","lf05","lf06","lf07","lf8","lf09","lf10","lf11","lf12"]
+    "lf01","lf02","lf03","lf04","lf05","lf06","lf07","lf08","lf09","lf10","lf11","lf12"]
 
-def auswahl_lernfeld():
-    print("\nWähle ein Lernfeld:")
-    for i, feld in enumerate(lernfelder, 1):
-        print(f"{i}. {feld.upper()}")
-    print("0. Beenden")
-    wahl = input("Deine Wahl: ").strip()
-    return wahl
 
-def main():
+def auswahl_lernfeld(): #rate doch mal
+
+    #for index, value in enumerate(lernfelder,1): # einmal liste durchnummeriere (enumerate), und mit name zeigen (value)
+     #   print(f"{index}-{value.upper()}")
+
+    #return x
     while True:
-        wahl = auswahl_lernfeld()
-        if wahl == "0":
-            print("Auf Wiedersehen, Meister des Wissens.")
+        for index, value in enumerate(lernfelder,1):  # einmal liste durchnummeriere (enumerate), und mit name zeigen (value)
+            print(f"{index}-{value.upper()}")
+        x = int(input("0 - zum verlassen \nWelches Lernfeld? Bitte eine Zahl von 1 - 12.\n-->"))
+        if x == 0:
+            print("Auf wiedersehen mein Fürst.")
             break
-        if not wahl.isdigit() or not (1 <= int(wahl) <= len(lernfelder)):
-            print("Ungültige Eingabe. Bitte eine gültige Zahl eingeben.")
-            continue
-        modul_name = 8
 
-        try:
-            modul = importlib.import_module(modul_name)
-            # Erwartet, dass in jeder lfXX.py ein menu() definiert ist
-            modul.menu()
-        except ModuleNotFoundError:
-            print(f"Modul '{modul_name}' nicht gefunden.")
-        except AttributeError:
-            print(f"Modul '{modul_name}' hat keine Funktion 'menu()'.")
-        except Exception as e:
-            print(f"Fehler beim Ausführen von '{modul_name}': {e}")
+        elif x <= 7 or x >= 9:
+            print("leider ist dieses Lernfeld noch nicht implementiert!")
 
-if __name__ == "__main__":
-    main()
+        else:
+            print("gut gmaht")
+            menu()
+
+auswahl_lernfeld()
