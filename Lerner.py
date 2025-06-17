@@ -3,10 +3,10 @@
 # modul2 = Datenquellen
 # modul3 = Agile Vorgehensmodelle
 
-from Lernfeld8 import (modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11, modul12, modul13, modul14)
-from Lernfeld8 import (modul15, modul16, modul17, modul18, modul19, modul20, modul21, modul22, modul23, modul24, modul25, modul26, modul27)
-from Lernfeld8 import (modul28, modul29)
+import Lernfeld8
 
+modulnamen = [f"modul{i}" for i in range(1,29)]
+module = {name: getattr(Lernfeld8, name)for name in modulnamen}
 
 def auswahl_lernfeld():
     print("\nWähle ein Lernfeld:")
@@ -95,63 +95,63 @@ def main():
             # Modul-Funktion aufrufen
             if lernfeld_wahl == "8":
                 if modul_index == 1:
-                    modul1()
+                    module["modul1"]()
                 elif modul_index == 2:
-                    modul2()
+                    module["modul2"]()
                 elif modul_index == 3:
-                    modul3()
+                    module["modul3"]()
                 elif modul_index == 4:
-                    modul4()
+                    module["modul4"]()
                 elif modul_index == 5:
-                    modul5()
+                    module["modul5"]()
                 elif modul_index == 6:
-                    modul6()
+                    module["modul6"]()
                 elif modul_index == 7:
-                    modul7()
+                    module["modul7"]()
                 elif modul_index == 8:
-                    modul8()
+                    module["modul8"]()
                 elif modul_index == 9:
-                    modul9()
+                    module["modul9"]()
                 elif modul_index == 10:
-                    modul10()
+                    module["modul10"]()
                 elif modul_index == 11:
-                    modul11()
+                    module["modul11"]()
                 elif modul_index == 12:
-                    modul12()
+                    module["modul12"]()
                 elif modul_index == 13:
-                    modul13()
+                    module["modul13"]()
                 elif modul_index == 14:
-                    modul14()
+                    module["modul14"]()
                 elif modul_index == 15:
-                    modul15()
+                    module["modul15"]()
                 elif modul_index == 16:
-                    modul16()
+                    module["modul16"]()
                 elif modul_index == 17:
-                    modul17()
+                    module["modul17"]()
                 elif modul_index == 18:
-                    modul18()
+                    module["modul18"]()
                 elif modul_index == 19:
-                    modul19()
+                    module["modul19"]()
                 elif modul_index == 20:
-                    modul20()
+                    module["modul20"]()
                 elif modul_index == 21:
-                    modul21()
+                    module["modul21"]()
                 elif modul_index == 22:
-                    modul22()
+                    module["modul22"]()
                 elif modul_index == 23:
-                    modul23()
+                    module["modul23"]()
                 elif modul_index == 24:
-                    modul24()
+                    module["modul24"]()
                 elif modul_index == 25:
-                    modul25()
+                    module["modul25"]()
                 elif modul_index == 26:
-                    modul24()
+                    module["modul26"]()
                 elif modul_index == 27:
-                    modul27()
+                    module["modul27"]()
                 elif modul_index == 28:
-                    modul28()
+                    module["modul28"]()
                 elif modul_index == 29:
-                    modul29()
+                    module["modul29"]()
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 
