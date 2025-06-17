@@ -4,7 +4,9 @@
 # modul3 = Agile Vorgehensmodelle
 
 from Lernfeld8 import (modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11, modul12, modul13, modul14)
-from Lernfeld8 import (modul15, modul16, modul17, modul18, modul19, modul20)
+from Lernfeld8 import (modul15, modul16, modul17, modul18, modul19, modul20, modul21, modul22, modul23, modul24, modul25, modul26, modul27)
+from Lernfeld8 import (modul28, modul29)
+
 
 def auswahl_lernfeld():
     print("\nWähle ein Lernfeld:")
@@ -51,7 +53,16 @@ def main():
             "8.5.2 - Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren",
             "8.5.3 - Das objektorientierte Programmierparadigma in Java umsetzen",
             "8.5.4 - Grafische Benutzerschnittstellen in Java entwickeln",
-            "8.6.  - Anwendungen in Python implementieren"
+            "8.6.  - Anwendungen in Python implementieren",
+            "8.6.2 - Grafische Benutzerschnittstellen in Python entwickeln",
+            "8.7.1 - Datenbanklösungen bedarfsgerecht entwickeln",
+            "8.7.2 - Den Prozess des Designs relationaler Datenbanken beschreiben",
+            "8.7.3 - Relationale Datenmodelle normalisieren",
+            "8.7.4 - Das Basiswissen über SQL erweitern und anwenden",
+            "8.7.5 - Eine MySQL-Datenbank mit Java ansprechen",
+            "8.7.6 - NoSQL-Datenbanken und deren Datenmodelle unterscheiden",
+            "8.7.7 - Die NoSQL-Datenbank 'MongoDB' mit Python ansprechen ",
+            "8.7.8 - Cloud-basierte Datenbanklösungen unterscheiden"
         ]
     }
 
@@ -123,8 +134,24 @@ def main():
                     modul19()
                 elif modul_index == 20:
                     modul20()
-               # elif modul_index == 21:
-               #     modul21()
+                elif modul_index == 21:
+                    modul21()
+                elif modul_index == 22:
+                    modul22()
+                elif modul_index == 23:
+                    modul23()
+                elif modul_index == 24:
+                    modul24()
+                elif modul_index == 25:
+                    modul25()
+                elif modul_index == 26:
+                    modul24()
+                elif modul_index == 27:
+                    modul27()
+                elif modul_index == 28:
+                    modul28()
+                elif modul_index == 29:
+                    modul29()
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 
