@@ -1,8 +1,8 @@
 import json
 
-def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
+"""def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
 
-    """def lerninhalt():
+    def lerninhalt():
         with open("lernmodule.json", "r", encoding="utf-8") as f:
              lerninhalt1 = json.load(f)
 
@@ -16,7 +16,7 @@ def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
         input("\nDrücke Enter, um weiterzulernen...")
     return lerninhalt()
 
-    lernen = lerninhalt()"""
+    lernen = lerninhalt()
 
 
     def lernen():
@@ -91,7 +91,7 @@ def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
         elif wahl == "0":
             break
         else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.") #es ist gerade zu spät zum Denken
+            print("Ungültige Eingabe. Bitte versuche es erneut.") #es ist gerade zu spät zum Denken"""
 def modul_lernen_und_testen(modulname, lerninhalte, fragen):
     def lernen():
         print(f"\nLERNMODUS - {modulname}\n")
@@ -2740,6 +2740,1099 @@ def modul20():
         }
     ]
     modul_lernen_und_testen("Lernfeld 8.3.6 Anwendungen in Python implementieren", lerninhalte, fragen)
+
+def modul21():
+    lerninhalte = [
+            "Grafische Benutzeroberflächen (GUIs) unterscheiden sich von Konsolenanwendungen durch ihre Interaktionsmöglichkeiten.\n\
+            GUIs bieten viele Oberflächenelemente (Widgets) und ermöglichen benutzerfreundliche Eingaben und Ausgaben.\n\
+            Das Entwerfen benutzerfreundlicher Oberflächen ist aufwendig und erfordert Planung.",
+
+            "Zur Erstellung von GUIs in Python benötigt man Toolkits wie Tkinter, PyQt oder PyObject.\n\
+            Tkinter ist in der Standardbibliothek enthalten und muss nicht extra installiert werden.\n\
+            PyQt ist ein Binding für das Qt-Toolkit, PyObject für Gtk – beide müssen zusätzlich installiert werden.",
+
+            "Grundstruktur eines GUI-Programms in Tkinter:\n\
+            - Import des tkinter-Moduls\n\
+            - Erstellen eines Fensters mit tkinter.Tk()\n\
+            - Setzen von Eigenschaften wie Titel und Größe\n\
+            - Hinzufügen von Widgets wie Button, Label, Entry\n\
+            - mainloop() hält das Fenster offen und verarbeitet Ereignisse.",
+
+            "Ein Button wird mit ttk.Button erstellt und über .place() positioniert.\n\
+            Ein Beispiel ist ein Fenster mit einem Button „Beenden“, der mit einer Methode verknüpft ist.\n\
+            Die Methode zerstört das Fenster mit frmMain.destroy().",
+
+            "Beispielaufgabe: Ein GUI-Programm berechnet Tankkosten basierend auf Menge und Preis.\n\
+            - Eingabe: Litermenge und Preis pro Liter\n\
+            - Algorithmus: kosten = menge * preis\n\
+            - Ausgabe: Ergebnis in einem Eingabefeld anzeigen\n\
+            Fehler werden mit messagebox.showwarning behandelt."
+        ]
+
+    fragen = [
+            {
+                "frage": "Was ist ein Hauptunterschied zwischen GUI und Konsolenanwendung?",
+                "optionen": ["a) GUIs können keine Eingaben verarbeiten.",
+                             "b) GUIs benötigen keinen Code.",
+                             "c) GUIs bieten vielfältigere Interaktionsmöglichkeiten.",
+                             "d) Konsolenanwendungen sind grafisch komplexer."],
+                "antwort": "c"
+            },
+            {
+                "frage": "Welches Toolkit ist in Python bereits enthalten und muss nicht installiert werden?",
+                "optionen": ["a) PyQt", "b) PyObject", "c) Gtk", "d) Tkinter"],
+                "antwort": "d"
+            },
+            {
+                "frage": "Welche Aussage über PyQt ist korrekt?",
+                "optionen": ["a) Es basiert auf Gtk.",
+                             "b) Es ist ein Binding für Qt und muss installiert werden.",
+                             "c) Es ist Bestandteil von Python.",
+                             "d) Es ersetzt tkinter."],
+                "antwort": "b"
+            },
+            {
+                "frage": "Was ist die Funktion von frmMain.mainloop() im Tkinter-Programm?",
+                "optionen": ["a) Es beendet das Fenster.",
+                             "b) Es definiert die Fenstergröße.",
+                             "c) Es hält das Fenster offen und verarbeitet Ereignisse.",
+                             "d) Es erstellt alle Widgets."],
+                "antwort": "c"
+            },
+            {
+                "frage": "Was passiert, wenn der Button mit dem Befehl frmMain.destroy() verknüpft ist?",
+                "optionen": ["a) Das Programm wird gespeichert.",
+                             "b) Das Hauptfenster wird geschlossen.",
+                             "c) Ein neues Fenster öffnet sich.",
+                             "d) Ein Fehler wird ausgegeben."],
+                "antwort": "b"
+            },
+            {
+                "frage": "Was muss für ein Binding wie PyQt oder PyObject zusätzlich geschehen?",
+                "optionen": ["a) Es wird automatisch geladen.",
+                             "b) Es muss programmiert werden.",
+                             "c) Es muss extra installiert werden.",
+                             "d) Es ist in tkinter enthalten."],
+                "antwort": "c"
+            },
+            {
+                "frage": "Welche Widgets werden im Tankkosten-Beispiel verwendet? (Mehrere Antworten möglich)",
+                "optionen": ["a) Label", "b) Entry", "c) Combobox", "d) Button"],
+                "antwort": ["a", "b", "d"]
+            },
+            {
+                "frage": "Was berechnet die Methode btnCalc_click() im Beispielprogramm?",
+                "optionen": ["a) Das Durchschnittsgewicht",
+                             "b) Die Summe zweier Zahlen",
+                             "c) Die Tankkosten anhand Menge und Preis",
+                             "d) Die Fenstergröße"],
+                "antwort": "c"
+            },
+            {
+                "frage": "Wie wird ein Button in Tkinter erzeugt?",
+                "optionen": ["a) button = Button.create()",
+                             "b) btn = ttk.Button(frm, text='...', command=...)",
+                             "c) Button = new Window()",
+                             "d) window.create_button(...)"],
+                "antwort": "b"
+            },
+            {
+                "frage": "Was geschieht, wenn bei der Berechnung ein Fehler auftritt?",
+                "optionen": ["a) Das Programm stürzt ab.",
+                             "b) Es passiert nichts.",
+                             "c) Eine Warnung wird über messagebox angezeigt.",
+                             "d) Der Button verschwindet."],
+                "antwort": "c"
+            }
+        ]
+
+    modul_lernen_und_testen("Lernfeld 8.6.2 Grafische Benutzerschnittstellen in Python entwickeln", lerninhalte, fragen)
+
+def modul22():
+    lerninhalte = [
+        "Zur Entwicklung bedarfsgerechter Datenbanklösungen muss das Wissen über Datenbanken und SQL erweitert werden.\n\
+        Es stehen verschiedene Datenmodelle und Datenbankmanagementsysteme zur Verfügung, die sorgfältig ausgewählt werden müssen.",
+
+        "Datenarten: strukturierte, semistrukturierte und unstrukturierte Daten.\n\
+        Früher lag der Fokus auf strukturierten Daten, heute wächst der Anteil unstrukturierter Daten stark an –\n\
+        z.B. durch IoT, KI, 5G, Edge Computing, neue Geschäftsmodelle.",
+
+        "Big Data beschreibt große, komplexe, sich schnell ändernde Datenmengen.\n\
+        Die 5 Vs von Big Data: Volume (Menge), Variety (Vielfalt), Velocity (Verarbeitungsgeschwindigkeit),\n\
+        Veracity (Vertrauenswürdigkeit), Value (Mehrwert).",
+
+        "Relationale Datenbanken speichern strukturierte Daten in Tabellen, erfordern feste Schemata, skalieren vertikal,\n\
+        unterstützen ACID-Regeln und verwenden SQL.\n\
+        Bekannte Systeme: MySQL, PostgreSQL, Oracle, MS-SQL. Einsatz bei stabiler Struktur und ACID-Pflicht.",
+
+        "NoSQL-Datenbanken unterstützen strukturierte, semi- und unstrukturierte Daten, skalieren horizontal,\n\
+        nutzen BASE statt ACID und haben keine einheitliche Abfragesprache.\n\
+        Modelle: Dokumenten-, Graph- oder Key-Value-Datenbanken. Beispiele: MongoDB, Apache HBase, Amazon DB.",
+
+        "Relationale Datenbanken setzen auf vertikale Skalierung (ein Server), NoSQL auf horizontale (mehrere Server).\n\
+        NoSQL eignet sich besonders bei stark wachsender Datenmenge oder flexibler Struktur."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist Ziel der Entwicklung bedarfsgerechter Datenbanklösungen?",
+            "optionen": ["a) Reduktion von Datenmengen", "b) Vereinfachung von Hardware",
+                         "c) Systemübergreifende Datenbereitstellung", "d) Vermeidung von Internetzugriffen"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche der folgenden Aussagen trifft auf unstrukturierte Daten zu? (Mehrere Antworten möglich)",
+            "optionen": ["a) Können Fotos oder Audiodateien sein", "b) Werden in Spalten gespeichert",
+                         "c) Müssen vor Speicherung konvertiert werden", "d) Kommen häufig bei Big Data vor"],
+            "antwort": ["a", "d"]
+        },
+        {
+            "frage": "Was beschreibt der Begriff Big Data?",
+            "optionen": ["a) Kleine Datenmengen mit hohem Mehrwert",
+                         "b) Große, komplexe und dynamische Datenmengen",
+                         "c) Daten aus relationalen Systemen",
+                         "d) Eine SQL-Datenbank"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Eigenschaften zählen zu den 5 Vs von Big Data? (Mehrere Antworten möglich)",
+            "optionen": ["a) Value", "b) Velocity", "c) Validation", "d) Veracity"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Welche Technologien fördern das Datenwachstum? (Mehrere Antworten möglich)",
+            "optionen": ["a) Internet of Things", "b) SQL-Abfragen", "c) Künstliche Intelligenz", "d) Edge Computing"],
+            "antwort": ["a", "c", "d"]
+        },
+        {
+            "frage": "Was trifft auf relationale Datenbanken zu?",
+            "optionen": ["a) Unterstützen BASE-Modell", "b) Skalieren horizontal",
+                         "c) Speichern Daten in Tabellen", "d) Nutzen Graphmodelle"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Abfragesprache wird typischerweise in relationalen Datenbanken verwendet?",
+            "optionen": ["a) MongoQL", "b) SQL", "c) NoScript", "d) XML"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Vorteile bieten NoSQL-Datenbanken? (Mehrere Antworten möglich)",
+            "optionen": ["a) Flexibilität für verschiedene Datenarten",
+                         "b) Unterstützung aller ACID-Regeln",
+                         "c) Horizontale Skalierbarkeit",
+                         "d) Einheitliche Abfragesprache"],
+            "antwort": ["a", "c"]
+        },
+        {
+            "frage": "Was beschreibt das BASE-Modell in NoSQL-Datenbanken?",
+            "optionen": ["a) Binary Access, Shared Environment",
+                         "b) Basically Available, Soft State, Eventually Consistent",
+                         "c) Basic System Architecture Evaluation",
+                         "d) Balanced Availability State Execution"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wann sind relationale Datenbanken vorzuziehen?",
+            "optionen": ["a) Wenn die Datenstruktur häufig wechselt",
+                         "b) Wenn große Datenmengen flexibel verarbeitet werden sollen",
+                         "c) Wenn ACID-Unterstützung notwendig ist",
+                         "d) Wenn keine feste Struktur vorhanden ist"],
+            "antwort": "c"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.7.1 Datenbanklösungen bedarfsgerecht entwickeln", lerninhalte, fragen)
+
+def modul23():
+    lerninhalte = [
+        "Relationale Datenbanken sind zentrale Werkzeuge für Unternehmen und Behörden zur Speicherung, Verwaltung und Auswertung\n\
+        großer Datenmengen. Ihre Qualität ist entscheidend, weshalb sie sorgfältig entworfen und umgesetzt werden müssen.\n\
+        Der Designprozess relationaler Datenbanken umfasst typischerweise vier Phasen: Analyse, konzeptionelle Phase, logische\n\
+        Phase und Implementationsphase. Man unterscheidet zwischen DBMS-unabhängigen und DBMS-abhängigen Phasen.",
+        "1. Analysephase: In dieser Phase werden die Anforderungen des Kunden durch eine Anforderungsanalyse ermittelt und\n\
+        strukturiert. Das Ergebnis ist eine informelle Beschreibung des zu lösenden Problems.",
+        "2. Konzeptionelle Phase: Ziel ist eine formalisierte Beschreibung des Sachverhalts. Am bekanntesten ist das\n\
+        Entity-Relationship-Modell (ER-Modell), das Entitätstypen, Attribute, Beziehungen und Kardinalitäten (z.B. 1:1, 1:n, m:n)\n\
+        beschreibt.",
+        "3. Logische Phase: Das konzeptionelle Modell wird in ein relationales Datenmodell überführt. Zuerst wird das ER-Modell\n\
+        in ein relationales Modell umgesetzt, dann wird dieses Modell durch Normalisierung optimiert.",
+        "4. Implementationsphase: Das logische Modell wird mithilfe von SQL in ein konkretes Datenbankschema überführt. Es werden\n\
+        Tabellen mit Primär- (PK) und Fremdschlüsseln (FK), Datentypen und Wertebereichen definiert.\n\
+        Beispiel: CREATE TABLE Hersteller (HNr INTEGER, Name VARCHAR(50), PRIMARY KEY(HNr)).",
+        "Bei einfachen Datenstrukturen kann man konzeptionelle und logische Phase zusammenfassen, sollte dies jedoch sorgfältig\n\
+        abwägen, da spätere Änderungen in relationalen Datenbanken aufwendig sind. Ein schlechtes logisches Design führt langfristig\n\
+        zu Problemen – auch wenn es kurzzeitig durch leistungsfähige Hardware kompensiert werden kann.",
+        "Beispiel – Buchverleih einer Bibliothek:\nAnalysephase: Die Datenbank soll Kundendaten (Kundennummer, Name, Adresse,\n\
+        Telefonnummer), Buchdaten (Titel, ISBN, Auflage, Verlag, Nummer, Anschaffungsdatum) und Verleihvorgänge (Buch, Kunde,\n\
+        Ausleih- und Rückgabedatum) verwalten.\nKonzeptionelle Phase: Erstellung eines ER-Modells mit den genannten Entitäten\n\
+        und Beziehungen.\nLogische Phase: Ableitung eines relationalen Modells (noch nicht normalisiert), mit Tabellen für Kunde,\n\
+        Buch und Verleihvorgang sowie Primär- und Fremdschlüsseln.",
+        "Die Normalisierung des relationalen Modells folgt im nächsten Abschnitt und wird hier noch nicht behandelt."
+    ]
+
+    fragen = [
+        {
+            "frage": "Warum sind relationale Datenbanken für Unternehmen und Behörden wichtig?",
+            "optionen": ["a) Sie ersetzen Mitarbeiter vollständig.",
+                         "b) Sie ermöglichen die Verwaltung großer Datenmengen.",
+                         "c) Sie können nicht verändert werden.",
+                         "d) Sie sind immer kostenlos."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche vier Phasen umfasst der Designprozess relationaler Datenbanken?",
+            "optionen": ["a) Planung, Ausführung, Abschluss, Bewertung",
+                         "b) Analyse, Entwicklung, Kontrolle, Test",
+                         "c) Analyse, konzeptionelle Phase, logische Phase, Implementationsphase",
+                         "d) Definition, Design, Ausführung, Analyse"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist das Ziel der Analysephase?",
+            "optionen": ["a) Erstellung eines SQL-Skripts",
+                         "b) Auswertung von Nutzerdaten",
+                         "c) Erstellung eines informellen Problemberichts durch Anforderungsanalyse",
+                         "d) Berechnung von Speicherbedarf"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was wird typischerweise in der konzeptionellen Phase verwendet?",
+            "optionen": ["a) JSON-Modell",
+                         "b) ER-Modell",
+                         "c) Python-Modul",
+                         "d) Tabellenkalkulation"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Elemente enthält ein ER-Modell?",
+            "optionen": ["a) Nur Tabellen",
+                         "b) Beziehungen, Entitätstypen, Attribute, Kardinalitäten",
+                         "c) Nur Attribute",
+                         "d) Nur Beziehungen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist das Ziel der logischen Phase?",
+            "optionen": ["a) Die Hardwarekonfiguration zu bestimmen",
+                         "b) Das ER-Modell direkt in Code zu übersetzen",
+                         "c) Das ER-Modell in ein relationales Modell zu überführen und zu normalisieren",
+                         "d) Die SQL-Befehle zu testen"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was passiert in der Implementationsphase?",
+            "optionen": ["a) Es wird ein Betriebssystem installiert",
+                         "b) Das relationale Modell wird mit SQL als Datenbankschema umgesetzt",
+                         "c) Kundenkontakte werden gespeichert",
+                         "d) Benutzeroberflächen werden erstellt"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was sollte beachtet werden, wenn man konzeptionelle und logische Phase zusammenfasst?",
+            "optionen": ["a) Es spart auf jeden Fall Zeit und ist immer zu empfehlen.",
+                         "b) Änderungen sind später einfach vorzunehmen.",
+                         "c) Änderungen an relationalen Datenbanken sind später sehr aufwendig.",
+                         "d) Die Implementationsphase wird überflüssig."],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was kann ein schlechtes logisches Design kurzfristig kompensieren?",
+            "optionen": ["a) Gute Beziehungen",
+                         "b) Leistungsfähige Hardware",
+                         "c) Kleine Datenmengen",
+                         "d) Gute Nutzerführung"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Informationen sollen in der Bibliotheksdatenbank gespeichert werden?",
+            "optionen": ["a) Nur Ausleihdaten",
+                         "b) Kundenname, Ausleihdatum, Rückgabeort",
+                         "c) Kundendaten, Buchdaten, Verleihvorgänge",
+                         "d) Rechnungsdaten und Mahnungen"],
+            "antwort": "c"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.7.2 Den Prozess des Designs relationaler Datenbanken beschreiben", lerninhalte, fragen)
+
+def modul24():
+    lerninhalte = [
+        "Normalisierung ist ein Verfahren zur Reduzierung von Datenredundanz und zur Erhöhung der Datenkonsistenz in relationalen\n\
+        Datenbankmodellen.",
+        "Ziel ist es, Tabellenstrukturen zu optimieren, sodass sie bestimmten Normalformen (NF) entsprechen. Üblich sind 1. bis\n\
+        3. NF, höhere NF werden selten angewendet.",
+        "Erste Normalform (1. NF): Alle Attribute enthalten nur atomare (einfache) Werte. Mehrwertige oder strukturierte Felder\n\
+        müssen aufgeteilt werden.",
+        "Zweite Normalform (2. NF): Die Tabelle befindet sich in der 1. NF und alle Nichtschlüsselattribute sind vom gesamten\n\
+        Primärschlüssel funktional abhängig. Teilschlüsselabhängigkeiten werden eliminiert.",
+        "Dritte Normalform (3. NF): Zusätzlich zur 2. NF dürfen keine transitiven Abhängigkeiten zwischen Nichtschlüsselattributen\n\
+        bestehen.",
+        "Beispiel zur 1. NF: Die Tabelle 'Bestellung' wird aufgeteilt, sodass aus 'Bestellpositionen' eigene Spalten für Pos, Anzahl,\n\
+        Bezeichnung, ANr entstehen. Primärschlüssel wird aus BestellNr und Pos gebildet.",
+        "Beispiel zur 2. NF: Datum, KNr, Name werden aus der Tabelle 'Bestellungen' ausgelagert, da sie nur von BestellNr abhängen,\n\
+        nicht vom gesamten zusammengesetzten Schlüssel (BestellNr, Pos).",
+        "Beispiel zur 3. NF: KNr und Name sowie ANr und Bezeichnung werden jeweils in eigene Tabellen ausgelagert (Kunde, Artikel),\n\
+        um transitive Abhängigkeiten zu vermeiden.",
+        "Durch die 3. NF entstehen vier verknüpfte Tabellen: Bestellung, BestellPosition, Kunde und Artikel. Redundanzen werden so\n\
+        effektiv reduziert.",
+        "Weitere Normalformen (4. NF, 5. NF) existieren, sind jedoch in der Praxis selten. Nachteile der Normalisierung sind u.a.\n\
+        erhöhter Aufwand bei Abfragen durch mehr Tabellen und Joins."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist das Hauptziel der Normalisierung in relationalen Datenbanken?",
+            "optionen": ["a) Erhöhung der Datenmenge",
+                         "b) Reduzierung der Komplexität durch mehr Tabellen",
+                         "c) Reduzierung von Redundanz und Erhöhung der Konsistenz",
+                         "d) Verbesserung der Benutzeroberfläche"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage trifft auf die erste Normalform (1. NF) zu?",
+            "optionen": ["a) Alle Spalten müssen Fremdschlüssel sein",
+                         "b) Es dürfen keine Zahlen in den Attributen vorkommen",
+                         "c) Alle Werte müssen atomar sein",
+                         "d) Alle Attribute müssen Texte enthalten"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was passiert bei der Überführung einer Tabelle in die 1. NF?",
+            "optionen": ["a) Mehrere Tabellen werden zusammengeführt",
+                         "b) Alle Attribute werden zu einem einzigen kombiniert",
+                         "c) Aufzählungen und mehrwertige Felder werden aufgeteilt",
+                         "d) Alle Spalten werden gelöscht"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wann befindet sich eine Tabelle in der zweiten Normalform (2. NF)?",
+            "optionen": ["a) Wenn sie die 3. NF erfüllt",
+                         "b) Wenn alle Nichtschlüsselattribute vom gesamten Primärschlüssel abhängen",
+                         "c) Wenn sie keine Spalten enthält",
+                         "d) Wenn sie keine Fremdschlüssel enthält"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Spalten wurden im Beispiel bei der 2. NF ausgelagert?",
+            "optionen": ["a) BestellNr und Pos",
+                         "b) Datum, KNr, Name",
+                         "c) Anzahl und Bezeichnung",
+                         "d) Kunde und Artikel"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Bedingung gilt für die dritte Normalform (3. NF)?",
+            "optionen": ["a) Alle Attribute müssen Fremdschlüssel sein",
+                         "b) Keine Spalte darf leer sein",
+                         "c) Keine transitive Abhängigkeit darf bestehen",
+                         "d) Alle Tabellen müssen zusammengeführt werden"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Abhängigkeit besteht in der Tabelle 'Bestellung', die eine Verletzung der 3. NF darstellt?",
+            "optionen": ["a) BestellNr → Datum",
+                         "b) KNr → Name",
+                         "c) ANr → Anzahl",
+                         "d) Pos → BestellNr"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aussage trifft auf die dritte Normalform zu?",
+            "optionen": ["a) Sie beseitigt teilschlüsselabhängige Attribute",
+                         "b) Sie wird vor der ersten Normalform angewendet",
+                         "c) Sie beseitigt redundante Fremdschlüssel",
+                         "d) Sie beseitigt transitive Abhängigkeiten"],
+            "antwort": "d"
+        },
+        {
+            "frage": "Wie werden die Tabellen nach der Überführung in die 3. NF miteinander verbunden?",
+            "optionen": ["a) Durch numerische Reihenfolge",
+                         "b) Durch 1:n-Beziehungen über Schlüssel",
+                         "c) Durch die Anzahl der Felder",
+                         "d) Durch Spaltennamen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Nachteile können bei zu starker Normalisierung entstehen?",
+            "optionen": ["a) Datenverlust",
+                         "b) Schlechtere Performance durch komplexere Abfragen",
+                         "c) Mehr Redundanzen",
+                         "d) Fehlende Primärschlüssel"],
+            "antwort": "b"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.7.3 Relationale Datenmodelle normalisieren ", lerninhalte, fragen)
+
+def modul25():
+    lerninhalte = [
+        "Erweiterung des SQL-Basiswissens um neue Anweisungen.\n\
+        Zentrale Anweisungen: CREATE/DROP DATABASE, CREATE/ALTER/DROP TABLE,\n\
+        INSERT, UPDATE, DELETE sowie SELECT mit Aggregatfunktionen und Operatoren.\n\
+        Abfragen über mehrere Tabellen können klassisch (FROM/WHERE) oder modern (JOIN) umgesetzt werden.",
+
+        "Klassische Mehrtabellenabfrage: Tabellen in FROM-Klausel, Verknüpfung über WHERE.\n\
+        Moderne Methode: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN in FROM-Klausel mit ON-Bedingung.\n\
+        Unterschiedliche JOIN-Arten liefern unterschiedliche Ergebnismengen.\n\
+        LEFT JOIN zeigt z.B. alle Einträge der linken Tabelle – auch ohne passende Gegenstücke in rechter Tabelle.",
+
+        "Mit UNION (bzw. UNION ALL) lassen sich Ergebnismengen kombinieren.\n\
+        Voraussetzung: gleiche Anzahl an Spalten mit gleichem Datentyp.\n\
+        UNION entfernt doppelte Werte, UNION ALL nicht.\n\
+        Beispiel: SELECT O.Name FROM Ort UNION SELECT L.Name FROM Land;",
+
+        "Unterabfragen (Subqueries) liefern Werte, die in übergeordneter SQL-Anweisung verwendet werden.\n\
+        Können einen oder mehrere Werte zurückgeben.\n\
+        Bei Einzelwertvergleichen: Vergleichsoperatoren (=, <, >, etc.), oft in Verbindung mit Aggregatfunktionen (AVG, MAX, etc.).\n\
+        Mehrwertige Unterabfragen benötigen Mengenoperatoren: IN, EXISTS, ALL, ANY.",
+
+        "Beispiel Einzelwert-Unterabfrage:\n\
+        SELECT O.Name, O.Einwohner FROM Ort O WHERE O.Einwohner > (SELECT AVG(O.Einwohner) FROM Ort O)\n\
+        Beispiel mehrwertige Unterabfrage mit IN:\n\
+        DELETE FROM Ort O WHERE O.LandID = (SELECT L.LandID FROM Land L WHERE L.Name = 'Malta')"
+    ]
+
+    fragen = [
+        {
+            "frage": "Welche Anweisung wird zum Erstellen einer Datenbank verwendet?",
+            "optionen": ["a) CREATE DATABASE", "b) NEW DATABASE", "c) INIT DATABASE", "d) MAKE DATABASE"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche SQL-Befehle dienen dem Bearbeiten von Tabellen?",
+            "optionen": ["a) CREATE, ALTER, DROP", "b) SELECT, INSERT, UPDATE", "c) JOIN, UNION, GROUP",
+                         "d) OPEN, MODIFY, DELETE"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche JOIN-Art liefert alle Werte der linken Tabelle, auch wenn keine Übereinstimmung in der rechten besteht?",
+            "optionen": ["a) INNER JOIN", "b) LEFT JOIN", "c) RIGHT JOIN", "d) FULL JOIN"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Bedingung muss für eine UNION erfüllt sein?",
+            "optionen": ["a) Tabellen müssen gleich heißen", "b) Spaltennamen müssen identisch sein",
+                         "c) Gleiche Anzahl und Typ der Spalten", "d) Nur Primärschlüssel dürfen verwendet werden"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Funktion wird verwendet, um den Durchschnitt einer Spalte zu berechnen?",
+            "optionen": ["a) AVG()", "b) SUM()", "c) COUNT()", "d) MEAN()"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was bewirkt der Befehl „UNION ALL“ im Vergleich zu „UNION“?",
+            "optionen": ["a) Nur eindeutige Werte anzeigen", "b) Auch doppelte Werte anzeigen",
+                         "c) Alle Zeilen aus der ersten Tabelle anzeigen", "d) Nur NULL-Werte ausschließen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie lautet die klassische Variante, um Länder aus Europa auszugeben?",
+            "optionen": ["a) SELECT L.Name FROM Land WHERE Kontinent = 'Europa';",
+                         "b) SELECT Name FROM Land JOIN Kontinent WHERE K = 'Europa';",
+                         "c) SELECT L.Name, K.Bezeichnung FROM Land L, Kontinent K WHERE L.KontinentID = K.KontinentID AND K.Bezeichnung = 'Europa';",
+                         "d) SELECT Europa FROM Land, Kontinent;"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie beginnt eine Unterabfrage, die in einer WHERE-Klausel eingebettet ist?",
+            "optionen": ["a) WITH SELECT ...", "b) START SELECT ...", "c) WHERE SELECT ...", "d) (SELECT ...)"],
+            "antwort": "d"
+        },
+        {
+            "frage": "Welche Operatoren benötigt man bei Unterabfragen mit mehreren Werten?",
+            "optionen": ["a) +, -, *", "b) IS, LIKE", "c) IN, EXISTS, ANY, ALL", "d) HAVING, JOIN"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was trifft auf JOINs zu?",
+            "optionen": ["a) JOINs funktionieren nur mit einer Tabelle",
+                         "b) JOINs erlauben das Kombinieren mehrerer Tabellen über Schlüsselbeziehungen",
+                         "c) JOINs werden nur bei INSERT verwendet",
+                         "d) JOINs ignorieren NULL-Werte vollständig"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was gibt folgender SQL-Befehl zurück? SELECT O.Name, K.Bezeichnung FROM Ort O INNER JOIN Land L ON O.LandID = L.LandID INNER JOIN Kontinent K ON L.KontinentID = K.KontinentID WHERE K.Bezeichnung = 'Europa' AND O.Name LIKE 'B%';",
+            "optionen": ["a) Orte weltweit mit beliebigem Anfangsbuchstaben",
+                         "b) Länder in Europa",
+                         "c) Orte in Europa, deren Name mit B beginnt",
+                         "d) Kontinente mit Ort-IDs"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist ein Beispiel für eine Unterabfrage mit Aggregatfunktion?",
+            "optionen": ["a) SELECT MAX(Ort) FROM Einwohner;",
+                         "b) DELETE * FROM Ort WHERE Einwohner > ALL;",
+                         "c) SELECT O.Name FROM Ort O WHERE O.Einwohner > (SELECT AVG(O.Einwohner) FROM Ort O);",
+                         "d) AVG(SELECT Einwohner FROM Ort);"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wofür steht das Schlüsselwort EXISTS?",
+            "optionen": ["a) Überprüft, ob eine Tabelle existiert",
+                         "b) Führt nur INSERT aus",
+                         "c) Prüft, ob ein oder mehrere Ergebnisse in der Unterabfrage existieren",
+                         "d) Wird mit GROUP BY kombiniert"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was macht dieser SQL-Befehl? DELETE FROM Ort O WHERE O.LandID = (SELECT L.LandID FROM Land L WHERE L.Name = 'Malta')",
+            "optionen": ["a) Löscht alle Länder außer Malta",
+                         "b) Löscht alle Orte, die in Malta liegen",
+                         "c) Fügt Orte in Malta hinzu",
+                         "d) Ändert den Namen von Malta"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was macht die Funktion COUNT()?",
+            "optionen": ["a) Summiert alle Werte", "b) Zählt NULL-Werte", "c) Zählt Einträge in einer Spalte",
+                         "d) Berechnet Durchschnitt"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage ist korrekt bezüglich FULL JOIN?",
+            "optionen": ["a) Zeigt nur die Werte der rechten Tabelle",
+                         "b) Zeigt alle Werte beider Tabellen – auch ohne Verknüpfung",
+                         "c) Ist identisch mit INNER JOIN",
+                         "d) Muss mit DELETE kombiniert werden"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie unterscheidet sich LEFT JOIN von INNER JOIN?",
+            "optionen": ["a) LEFT JOIN benötigt kein ON",
+                         "b) LEFT JOIN zeigt auch Einträge der linken Tabelle ohne Partner in der rechten",
+                         "c) Es gibt keinen Unterschied",
+                         "d) LEFT JOIN kann nur mit GROUP BY verwendet werden"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Einschränkung besteht bei UNION?",
+            "optionen": ["a) Tabellen müssen gleich benannt sein",
+                         "b) Es dürfen keine JOINs verwendet werden",
+                         "c) Spalten müssen in Anzahl und Datentyp übereinstimmen",
+                         "d) Nur auf Primärschlüssel anwendbar"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was gibt SELECT MIN(Einwohner) FROM Ort; zurück?",
+            "optionen": ["a) Den Namen des kleinsten Orts", "b) Die ID des größten Orts",
+                         "c) Die Einwohnerzahl des kleinsten Orts", "d) NULL"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wozu dient der LIKE-Operator in SQL?",
+            "optionen": ["a) Zum Verknüpfen von Tabellen", "b) Für Mustervergleiche in Zeichenketten",
+                         "c) Für mathematische Berechnungen", "d) Für Aggregatfunktionen"],
+            "antwort": "b"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.7.4 Das Basiswissen über SQL erweitern und anwenden", lerninhalte, fragen)
+
+def modul26():
+    lerninhalte = [
+        "MySQL ist ein relationales Datenbankmanagementsystem (RDBMS), das SQL verwendet und besonders für seine Performance\n\
+        und Plattformvielfalt bekannt ist. Es wurde 1994 von MySQLAB entwickelt und gehört seit 2010 zu Oracle.",
+        "MySQL arbeitet nach dem Client-Server-Prinzip mit einem MySQL-Server und einem oder mehreren Clients. Es besitzt keine\n\
+        eigene GUI, weshalb externe Lösungen notwendig sind.",
+        "Die aktuelle MySQL-Version kann unter https://dev.mysql.com/downloads/ heruntergeladen werden.",
+        "Java kann über JDBC mit einer MySQL-Datenbank kommunizieren. Dazu muss die Treiberklasse geladen und eine Verbindung\n\
+        mit 'DriverManager.getConnection(...)' hergestellt werden.",
+        "Ein Java-Programm kann SQL-Anweisungen wie CREATE, INSERT, UPDATE, DELETE, SELECT, DROP über ein Statement-Objekt an MySQL senden.",
+        "Das Beispielprojekt zeigt eine Verbindung zu 'Ortverwaltung', mit SQL-Anweisungen zur Tabellenerstellung und Datenabfrage\n\
+        per ResultSet.",
+        "Fehlerbehandlung erfolgt durch try-catch-Blöcke mit Auswertung der SQLException (Message, SQLState, VendorError).",
+        "Die Auswertung eines ResultSets erfolgt in einer while-Schleife über 'rs.next()'. Zugriff auf Spalten erfolgt über\n\
+        'getString()', 'getInt()' etc."
+    ]
+
+    fragen = [
+        {"frage": "Was ist MySQL?",
+         "optionen": ["a) Eine Programmiersprache",
+                      "b) Ein Betriebssystem",
+                      "c) Ein relationales Datenbankmanagementsystem",
+                      "d) Ein Grafikprogramm"],
+         "antwort": "c"},
+
+        {"frage": "Wer entwickelte MySQL ursprünglich?",
+         "optionen": ["a) Microsoft",
+                      "b) Oracle",
+                      "c) MySQLAB",
+                      "d) IBM"],
+         "antwort": "c"},
+
+        {"frage": "Seit wann gehört MySQL zu Oracle?",
+         "optionen": ["a) 2005",
+                      "b) 2010",
+                      "c) 2015",
+                      "d) 2000"],
+         "antwort": "b"},
+
+        {"frage": "Was benötigt man, um eine MySQL-Datenbank mit Java anzusprechen?",
+         "optionen": ["a) Nur die Klasse Main",
+                      "b) Eine GUI",
+                      "c) JDBC-Treiber und eine Verbindung",
+                      "d) HTML und CSS"],
+         "antwort": "c"},
+
+        {"frage": "Welche SQL-Anweisung erzeugt eine Tabelle?",
+         "optionen": ["a) SELECT",
+                      "b) INSERT",
+                      "c) CREATE TABLE",
+                      "d) DELETE"],
+         "antwort": "c"},
+
+        {"frage": "Wie lautet der Standard-Port von MySQL?",
+         "optionen": ["a) 80",
+                      "b) 443",
+                      "c) 3306",
+                      "d) 21"],
+         "antwort": "c"},
+
+        {"frage": "Wie wird ein SQL-Befehl in Java ausgeführt?",
+         "optionen": ["a) con.insert()",
+                      "b) sqlStatement.executeUpdate(sql)",
+                      "c) rs.execute(sql)",
+                      "d) Driver.run(sql)"],
+         "antwort": "b"},
+
+        {"frage": "Was liefert ein SELECT-Befehl in Java zurück?",
+         "optionen": ["a) String",
+                      "b) ResultSet",
+                      "c) Boolean",
+                      "d) Connection"],
+         "antwort": "b"},
+
+        {"frage": "Welche Methode liest eine Zeichenkette aus einem ResultSet?",
+         "optionen": ["a) rs.readString()",
+                      "b) rs.getText()",
+                      "c) rs.getString()",
+                      "d) rs.fetch()"],
+         "antwort": "c"},
+
+        {"frage": "Was macht die Methode rs.next()?",
+         "optionen": ["a) Gibt das letzte Element zurück",
+                      "b) Startet die Verbindung",
+                      "c) Iteriert über die Zeilen eines ResultSets",
+                      "d) Führt SQL aus"],
+         "antwort": "c"},
+
+        {"frage": "Was passiert bei einem SQLException-Fehler?",
+         "optionen": ["a) Das Programm fährt fort ohne Meldung",
+                      "b) Es wird eine neue Datenbank erstellt",
+                      "c) Die Exception muss abgefangen und behandelt werden",
+                      "d) Die Verbindung wird sofort gelöscht"],
+         "antwort": "c"},
+
+        {"frage": "Wie lautet der Befehl zum Laden der Treiberklasse?",
+         "optionen": ["a) LoadDriver()",
+                      "b) DriverManager.load()",
+                      "c) Class.forName(...)",
+                      "d) ImportDriver()"],
+         "antwort": "c"},
+
+        {"frage": "Was enthält das Statement: 'DriverManager.getConnection(...)'?",
+         "optionen": ["a) Die SQL-Abfrage",
+                      "b) Die JDBC-Verbindungsdaten",
+                      "c) Das GUI-Fenster",
+                      "d) Das ResultSet"],
+         "antwort": "b"},
+
+        {"frage": "Welche Methoden zum Schließen einer Verbindung werden verwendet?",
+         "optionen": ["a) con.end() und statement.stop()",
+                      "b) con.close() und sqlStatement.close()",
+                      "c) statement.delete() und con.destroy()",
+                      "d) rs.quit()"],
+         "antwort": "b"},
+
+        {"frage": "Wie erkennt man, dass eine Verbindung erfolgreich war?",
+         "optionen": ["a) Es erscheint ein GUI-Fenster",
+                      "b) Die Konsole gibt eine Bestätigung aus",
+                      "c) Es wird ein Fehler geworfen",
+                      "d) Die Tabelle wird automatisch erstellt"],
+         "antwort": "b"},
+
+        {"frage": "Was passiert in der Methode 'updateDB(String sql)'?",
+         "optionen": ["a) Ein SQL-Statement wird ausgewertet",
+                      "b) Eine Tabelle wird automatisch angezeigt",
+                      "c) SQL-Anweisungen wie INSERT, DELETE werden ausgeführt",
+                      "d) Daten werden exportiert"],
+         "antwort": "c"},
+
+        {"frage": "Wie erfolgt der Zugriff auf Daten im ResultSet?",
+         "optionen": ["a) Über getField()",
+                      "b) Über getColumn()",
+                      "c) Über getString() und getInt() je nach Datentyp",
+                      "d) Direkt aus dem Statement"],
+         "antwort": "c"},
+
+        {"frage": "Welche Datenbankname wird im Beispiel verwendet?",
+         "optionen": ["a) KontinentDB",
+                      "b) Ortverwaltung",
+                      "c) myDB",
+                      "d) GeoDaten"],
+         "antwort": "b"},
+
+        {"frage": "Welche Klasse enthält die Datenbankverbindung im Beispiel?",
+         "optionen": ["a) Program",
+                      "b) JDBCConnection",
+                      "c) MySQLConnection",
+                      "d) SQLHandler"],
+         "antwort": "c"},
+
+        {"frage": "Welche Tabelle wird im Hauptprogramm erstellt?",
+         "optionen": ["a) Land",
+                      "b) Ort",
+                      "c) Kontinent",
+                      "d) Verwaltung"],
+         "antwort": "c"}
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.7.5 Eine MySQL-Datenbank mit Java ansprechen ", lerninhalte, fragen)
+
+def modul27():
+    lerninhalte = [
+        "NoSQL-Datenbanken (Not only SQL) ergänzen relationale Datenbanken, besonders bei unstrukturierten oder unbekannten Daten\n\
+        – z.B. in Big-Data-Anwendungen.\n\
+        Sie verwenden keine Tabellen mit festen Spalten und Zeilen, sondern organisieren Daten mit flexiblen Modellen.\n\
+        Die vier Haupttypen von NoSQL-Datenbanken sind: dokumentenorientiert, graphbasiert, spaltenbasiert und Key-Value-orientiert.",
+
+        "Dokumentenorientierte Datenbanken speichern Daten in Dokumenten, oft im JSON-Format.\n\
+        Jedes Dokument kann unterschiedlich aufgebaut sein und besitzt einen eindeutigen Identifikator.\n\
+        Besonders geeignet für Content-Management-Systeme, Blogs oder dynamische Webanwendungen.\n\
+        Beispiele: CouchDB, Firestore, DocumentDB.\n\
+        Vorteil: einfache Erweiterbarkeit, keine feste Struktur notwendig.\n\
+        Nachteil: schwer bei stark verknüpften Daten.",
+
+        "Graphdatenbanken bestehen aus Knoten (Datenpunkte), Kanten (Beziehungen) und deren Eigenschaften.\n\
+        Verwendet für stark vernetzte Informationen, z. B. soziale Netzwerke oder Betrugserkennung.\n\
+        Beziehungen besitzen Richtung und Typ und können eigene Attribute haben.\n\
+        Beispiele: Neo4j, OrientDB, Neptune.\n\
+        Vorteil: performanter bei komplexen Beziehungen.\n\
+        Nachteil: komplexere Datenmodellierung nötig.",
+
+        "Key-Value-Datenbanken speichern Daten als Schlüssel-Wert-Paare.\n\
+        Der Key ist eindeutig und wird extern gespeichert – nicht im Datensatz selbst.\n\
+        Ähnlich dokumentenbasiert, aber ohne strukturierte Felder.\n\
+        Sehr performant bei Zugriffen über Schlüssel, hohe horizontale Skalierbarkeit.\n\
+        Nachteile: eingeschränkte Abfragefunktionalität, keine komplexen Beziehungen möglich."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was bedeutet NoSQL?",
+            "optionen": ["a) Nur SQL", "b) Keine SQL-Abfragen erlaubt", "c) Not only SQL",
+                         "d) Neuer organisierter SQL"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage beschreibt dokumentenorientierte Datenbanken korrekt?",
+            "optionen": [
+                "a) Sie nutzen Tabellen mit festen Schemata",
+                "b) Alle Dokumente müssen gleich aufgebaut sein",
+                "c) Sie nutzen flexible Dokumente im JSON-Format",
+                "d) Sie speichern Daten nur in XML-Dateien"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist ein Vorteil von Key-Value-Datenbanken?",
+            "optionen": [
+                "a) Relationale Abfragen sind effizienter",
+                "b) Daten lassen sich in mehreren Tabellen verknüpfen",
+                "c) Sehr schnelle Zugriffe über eindeutige Schlüssel",
+                "d) Sie speichern Daten in Baumstrukturen"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage zu Graphdatenbanken ist falsch?",
+            "optionen": [
+                "a) Sie speichern Daten als Knoten und Kanten",
+                "b) Sie sind optimal für komplexe Beziehungen",
+                "c) Jede Kante kann eigene Attribute besitzen",
+                "d) Sie nutzen SQL zur Modellierung von Beziehungen"
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Wofür eignen sich dokumentenorientierte Datenbanken besonders?",
+            "optionen": [
+                "a) Für komplexe mathematische Berechnungen",
+                "b) Für Webinhalte und Blogs",
+                "c) Für einfache Schlüssel-Wert-Relationen",
+                "d) Für massive tabellarische Massendaten"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was trifft auf Key-Value-Datenbanken zu?",
+            "optionen": [
+                "a) Schlüssel sind optional",
+                "b) Werte enthalten nur Ganzzahlen",
+                "c) Hohe Skalierbarkeit durch horizontale Verteilung",
+                "d) Komplexe JOINs werden bevorzugt"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche NoSQL-Kategorie nutzt Knoten und Kanten zur Modellierung?",
+            "optionen": ["a) Dokumentenorientiert", "b) Key-Value", "c) Spaltenorientiert", "d) Graphbasiert"],
+            "antwort": "d"
+        },
+        {
+            "frage": "Was ist ein Nachteil von Key-Value-Datenbanken?",
+            "optionen": [
+                "a) Kein schneller Zugriff auf Schlüssel",
+                "b) Komplizierter Aufbau der Knoten",
+                "c) Eingeschränkte Suchfunktionen",
+                "d) Kein horizontaler Betrieb möglich"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was unterscheidet eine dokumentenorientierte DB von einer relationalen?",
+            "optionen": [
+                "a) Strukturlose Dokumente mit variablen Attributen",
+                "b) Tabellen mit festem Schema",
+                "c) Abfragen über mehrere Fremdschlüssel",
+                "d) Daten nur als Text gespeichert"
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welches Datenformat wird häufig in dokumentenbasierten Datenbanken genutzt?",
+            "optionen": ["a) CSV", "b) XML", "c) JSON", "d) YAML"],
+            "antwort": "c"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfeld 8.7.6 NoSQL-Datenbanken und deren Datenmodelle unterscheiden", lerninhalte, fragen)
+
+def modul28():
+    lerninhalte = [
+        "MongoDB ist ein dokumentbasiertes NoSQL-Datenbankmanagementsystem, das oft in der modernen Anwendungsentwicklung und in der Cloud eingesetzt wird.\n\
+Es ist Open-Source und auf Windows, MacOS und Linux verfügbar. Die verwalteten Dokumente sind im JSON-ähnlichen Format.\n\
+Eine Datenbank in MongoDB enthält Collections – Gruppen von Dokumenten, vergleichbar mit Tabellen in relationalen Datenbanken.\n\
+Einzelne Dokumente können mit `insert_one(...)`, mehrere mit `insert_many(...)` eingefügt werden.\n\
+Die `find_one(...)`-Funktion gibt genau ein Dokument zurück, während `find(...)` mehrere Dokumente liefert, die typischerweise mit einer Schleife ausgegeben werden.\n\
+Zur Verwendung in Python muss das Paket `pymongo` installiert werden, z. B. mit `python -m pip install pymongo`.\n\
+Der Zugriff erfolgt über das `MongoClient`-Objekt, das eine Verbindung zur Datenbank herstellt.\n\
+Beispiel für Datenbankzugriff:\n\
+`from pymongo import MongoClient`\n\
+`db = MongoClient('mongodb://localhost:27017/')['artikelverwaltung_db']`\n\
+`collection = db['artikel']`\n\
+Einfügen einzelner Dokumente:\n\
+`collection.insert_one({...})`\n\
+Mehrere Dokumente:\n\
+`collection.insert_many([{...}, {...}])`\n\
+Daten abfragen:\n\
+`collection.find_one({''artikel_nr'': ''1234''})`\n\
+    `for d in collection.find({''hersteller'': ''Möbel GmbH''}): print(d)`"
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist MongoDB?",
+            "optionen": [
+                "a) Eine relationale Datenbank",
+                "b) Eine dokumentbasierte NoSQL-Datenbank",
+                "c) Ein Dateisystem",
+                "d) Eine Tabellenkalkulation"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was muss installiert sein, um MongoDB mit Python zu nutzen?",
+            "optionen": [
+                "a) sqlite3",
+                "b) mongoengine",
+                "c) pymongo",
+                "d) mysql-connector"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage zur Funktion `insert_one(...)` trifft zu?",
+            "optionen": [
+                "a) Fügt mehrere Dokumente ein",
+                "b) Löscht ein Dokument",
+                "c) Fügt ein einzelnes Dokument in eine Collection ein",
+                "d) Ruft ein Dokument ab"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Funktion wird verwendet, um mehrere Dokumente gleichzeitig zu speichern?",
+            "optionen": [
+                "a) insert_many(...)",
+                "b) insert_all(...)",
+                "c) write_many(...)",
+                "d) store_many(...)"
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welche dieser Aussagen ist korrekt?",
+            "optionen": [
+                "a) `find(...)` gibt nur ein Dokument zurück",
+                "b) `find_one(...)` liefert eine Liste",
+                "c) `find(...)` kann mehrere Dokumente liefern",
+                "d) `insert_one(...)` wird für mehrere Datensätze verwendet"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie stellt man eine Verbindung zu MongoDB her?",
+            "optionen": [
+                "a) MongoDB.connect(...)",
+                "b) MongoClient('mongodb://localhost:27017/')",
+                "c) mongo.open('localhost')",
+                "d) connect_mongo('localhost')"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist eine Collection in MongoDB?",
+            "optionen": [
+                "a) Eine SQL-Tabelle",
+                "b) Ein Dateiverzeichnis",
+                "c) Eine Gruppe von Dokumenten",
+                "d) Ein Modul zur Verschlüsselung"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Ausgabe erzeugt der folgende Code?\n`print(collection.find_one({\"artikel_nr\": \"1234\"}))`",
+            "optionen": [
+                "a) Fügt einen Artikel mit Nummer 1234 ein",
+                "b) Löscht Artikel 1234",
+                "c) Gibt das Dokument mit Artikelnummer 1234 aus",
+                "d) Listet alle Artikel mit dieser Nummer"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welcher Befehl installiert pymongo korrekt?",
+            "optionen": [
+                "a) install pymongo",
+                "b) pip install pymongo",
+                "c) python install pymongo",
+                "d) python -m pip install pymongo"
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Was wird mit `for d in collection.find(...)` erreicht?",
+            "optionen": [
+                "a) Alle Dokumente werden bearbeitet",
+                "b) Nur das erste Dokument wird gelöscht",
+                "c) Ein einzelnes Dokument wird angezeigt",
+                "d) Die Datenbank wird initialisiert"
+            ],
+            "antwort": "a"
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8.7.7 Die NoSQL-Datenbank 'MongoDB' mit Python ansprechen ", lerninhalte, fragen)
+
+def modul29():
+    lerninhalte = [
+        "Cloud-Datenbanken sind ein wachsender Bereich im Cloud-Markt und werden als Database as a Service (DBaaS) angeboten.\n\
+        Es gibt universelle und spezialisierte Angebote, inklusive relationaler und NoSQL-Datenbanken.\n\
+        Das DBaaS-Modell umfasst Betrieb, Wartung, Administration sowie Sicherung, Skalierung und Sicherheit der Datenbank.\n\
+        Vorteile sind Flexibilität, schnelle Markteinführung, geringe Risiken durch Hochverfügbarkeit und SLAs sowie niedrigere\n\
+        Kosten durch Pay-per-Use und dynamische Skalierung.",
+
+        "Es gibt vier Modelle des Cloud-Datenbankmanagements:\n\
+        - Selbstverwaltete: maximale Kontrolle, hohe Verantwortung für DBAs\n\
+        - Automatisierte: APIs, voller Zugriff, eingeschränkte SLAs\n\
+        - Verwaltete: kein Serverzugriff, eingeschränkte Konfigurierbarkeit\n\
+        - Autonome: KI-basierte Automatisierung aller Verwaltungsaufgaben, inklusive Sicherheit, Backups, Optimierung.\n\
+        Autonome Datenbanken erkennen Hardwarefehler und skalieren Leistung/Kapazität automatisch.",
+
+        "Anbieter-Vergleich:\n\
+        - Amazon: Relationale DBs (SQL Server, Oracle, MySQL, PostgreSQL, Aurora), NoSQL (DynamoDB, DocumentDB), Graph (Neptune),\n\
+          Data Warehouse (Redshift).\n\
+          Unterstützt Migration durch AWS DMS und Schema Conversion Tool (für Views, Stored Procedures, Embedded SQL).\n\
+        - Microsoft: Relationale DBs (Azure SQL, MySQL, PostgreSQL, MariaDB), NoSQL (Cosmos DB, Azure Table Storage, Redis),\n\
+          SQL Data Warehouse.\n\
+          Migration über Azure Database Migration Service."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist DBaaS?",
+            "optionen": ["a) Ein lokales Datenbankmodell", "b) Eine Serverhardware",
+                         "c) Eine Datenbanknutzung als Cloud-Service", "d) Eine Datenbanksoftware zum Kauf"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Datenbanktypen sind typischerweise im Cloud-Bereich vertreten?",
+            "optionen": ["a) Nur relationale", "b) Nur NoSQL", "c) Relationale und NoSQL", "d) Nur Graphdatenbanken"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was gehört *nicht* zu den Vorteilen von Cloud-Datenbanken?",
+            "optionen": ["a) Schnelle Bereitstellung", "b) Hohe Einmalkosten", "c) Pay-per-Use", "d) Skalierbarkeit"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Aufgaben übernimmt ein Anbieter beim DBaaS-Modell? (Mehrere Antworten möglich)",
+            "optionen": ["a) Wartung", "b) Datensicherung", "c) Serverinstallation durch Kunden",
+                         "d) Hochverfügbarkeit"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Welche Aussage zur selbstverwalteten Cloud-Datenbank stimmt?",
+            "optionen": ["a) Keine manuelle Verwaltung nötig", "b) Nur eingeschränkte Kontrolle",
+                         "c) Höchste Flexibilität und Verantwortung beim Kunden",
+                         "d) Vollautomatisiert durch Anbieter"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist ein Merkmal autonomer Cloud-Datenbanken?",
+            "optionen": ["a) Keine Nutzung von Machine Learning", "b) Volle manuelle Kontrolle erforderlich",
+                         "c) Automatisierte Verwaltung durch KI", "d) Keine Skalierung möglich"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Datenbankprodukte bietet Amazon an? (Mehrere Antworten möglich)",
+            "optionen": ["a) DynamoDB", "b) Redshift", "c) Oracle", "d) Cosmos DB"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Wofür dient das AWS Schema Conversion Tool?",
+            "optionen": ["a) Um Datenbanken zu sichern", "b) Um Server zu skalieren",
+                         "c) Um Datenbankschema zu konvertieren", "d) Um SQL-Anfragen zu löschen"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Services zählen zu Microsofts DBaaS-Angeboten? (Mehrere Antworten möglich)",
+            "optionen": ["a) Cosmos DB", "b) MariaDB", "c) Azure Table Storage", "d) Neptune"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Welche Rolle spielt Machine Learning in autonomen Datenbanken?",
+            "optionen": ["a) Keine", "b) Unterstützt die Migration",
+                         "c) Ermöglicht Automatisierung von Verwaltungstätigkeiten", "d) Nur zur Datensicherung"],
+            "antwort": "c"
+        }
+    ]
+
+    modul_lernen_und_testen("Lernfelder 8.7.8 Cloud-basierte Datenbanklösungen unterscheiden", lerninhalte, fragen)
+
+
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
 #
+
 
 
