@@ -5,7 +5,7 @@
 
 import Lernfeld8
 
-modulnamen = [f"modul{i}" for i in range(1,29)]
+modulnamen = [f"modul{i}" for i in range(1,30)]
 module = {name: getattr(Lernfeld8, name)for name in modulnamen}
 
 def auswahl_lernfeld():
@@ -21,14 +21,12 @@ def auswahl_lernfeld():
     print("0. Beenden")
     return input("Deine Wahl: ")
 
-
 def auswahl_modul(modul_liste):
     print("\nWähle ein Modul:")
     for i, modul in enumerate(modul_liste, 1):
         print(f"{i}. {modul}")
     print("0. Zurück")
     return input("Deine Wahl: ")
-
 
 def main():
     # Nur Lernfeld 8 hat Module, alle anderen sind Platzhalter
@@ -62,7 +60,10 @@ def main():
             "8.7.5 - Eine MySQL-Datenbank mit Java ansprechen",
             "8.7.6 - NoSQL-Datenbanken und deren Datenmodelle unterscheiden",
             "8.7.7 - Die NoSQL-Datenbank 'MongoDB' mit Python ansprechen ",
-            "8.7.8 - Cloud-basierte Datenbanklösungen unterscheiden"
+            "8.7.8 - Cloud-basierte Datenbanklösungen unterscheiden",
+            "8.8   - Software testen und dokumentieren",
+            "8.8.2 - Testdatengeneratoren verwenden",
+            "8.8.3 - Projektabnahmen"
         ]
     }
 
@@ -152,6 +153,12 @@ def main():
                     module["modul28"]()
                 elif modul_index == 29:
                     module["modul29"]()
+                elif modul_index == 30:
+                    module["modul30"]()
+                elif modul_index == 31:
+                    module["modul31"]()
+                elif modul_index == 32:
+                    module["modul32"]()
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 
