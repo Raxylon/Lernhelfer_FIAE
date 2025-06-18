@@ -1,97 +1,6 @@
-import json
-
-"""def modul_lernen_und_testen2(modulname,modulnummer, lerninhalte, fragen):
-
-    def lerninhalt():
-        with open("lernmodule.json", "r", encoding="utf-8") as f:
-             lerninhalt1 = json.load(f)
-
-        for eintrag in lerninhalt1["modul20"]["lerninhalt"]:
-            print(eintrag["lerninhalt"])
-            input("Drücke Enter für den nächsten Eintrag...\n")
-
-    print(f"\nLERNMODUS - {modulname}\n")
-    for abschnitt in lerninhalte:
-        print("- " + abschnitt)
-        input("\nDrücke Enter, um weiterzulernen...")
-    return lerninhalt()
-
-    lernen = lerninhalt()
 
 
-    def lernen():
-        try:
-            with open("lernmodule.json", "r", encoding="utf-8") as f:
-                daten = json.load(f)
 
-            modul_key = f"modul{modulnummer}"
-
-            if modul_key in daten and "lerninhalt" in daten[modul_key]:
-                for eintrag in daten[modul_key]["lerninhalt"]:
-                    print(eintrag["lerninhalt"])  # ACHTUNG: Key muss exakt so im JSON sein!
-                    input("Drücke Enter für den nächsten Eintrag...\n")
-            else:
-                print(f"Modul {modulnummer} oder 'lerninhalt' nicht in JSON gefunden.")
-        except FileNotFoundError:
-            print("Datei 'lernmodule.json' wurde nicht gefunden.")
-        except json.JSONDecodeError:
-            print("Fehler beim Einlesen der JSON-Datei.")
-        except KeyError as e:
-            print(f"Fehlender Schlüssel in JSON: {e}")
-
-    # Lernmodus: Inhalte anzeigen
-    print(f"\nLERNMODUS - {modulname}\n")
-    for abschnitt in lerninhalte:
-        print("- " + abschnitt)
-        input("\nDrücke Enter, um weiterzulernen...")
-
-    # Lerneinträge aus Datei anzeigen
-    lernen()
-
-    def test():
-        print(f"\nTESTMODUS - {modulname}\n")
-        punkte = 0
-        gesamt = len(fragen)
-
-        for f in fragen:
-            print(f["frage"])
-            for opt in f["optionen"]:
-                print(opt)
-            antwort = input("Deine Antwort (Buchstabe, bei mehreren bitte Komma getrennt): ").lower().replace(" ", "")
-
-            if isinstance(f["antwort"], list):
-                richtige_antworten = set(f["antwort"])
-                eingabe_antworten = set(antwort.split(","))
-                if eingabe_antworten == richtige_antworten:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antworten: {', '.join(richtige_antworten)}")
-            else:
-                if antwort == f["antwort"]:
-                    print("Richtig!")
-                    punkte += 1
-                else:
-                    print(f"Falsch! Richtige Antwort: {f['antwort']}")
-            print()
-
-        print(f"Test abgeschlossen. Du hast {punkte} von {gesamt} Fragen richtig beantwortet.")
-
-    while True:
-        print(f"\n{modulname}")
-        print("1. Lernen")
-        print("2. Test")
-        print("0. Zurück zum Hauptmenü")
-        wahl = input("Deine Wahl: ")
-
-        if wahl == "1":
-            lernen()
-        elif wahl == "2":
-            test()
-        elif wahl == "0":
-            break
-        else:
-            print("Ungültige Eingabe. Bitte versuche es erneut.") #es ist gerade zu spät zum Denken"""
 def modul_lernen_und_testen(modulname, lerninhalte, fragen):
     def lernen():
         print(f"\nLERNMODUS - {modulname}\n")
@@ -143,6 +52,7 @@ def modul_lernen_und_testen(modulname, lerninhalte, fragen):
             break
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
+
 def modul1():
     lerninhalte = [
         "In der Zeit von Big Data und exponentiellem Datenwachstum ist es wichtig,\n\
@@ -212,6 +122,16 @@ def modul1():
             "optionen": ["a) Disketten und Faxgeräte", "b) NoSQL und agile Modelle",
                          "c) Monolithische Architekturen", "d) Tabellenkalkulationen"],
             "antwort": "b"
+        },
+        {
+            "frage": "Warum wurde der Entwickler beim Bäcker rausgeworfen?",
+            "optionen": [
+                "a) Weil er den Quellcode des Rezeptes wollte",
+                "b) Weil er das Brot mit `sudo` schneiden wollte",
+                "c) Weil er meinte: 'Dieses Brötchen kompiliert nicht!'",
+                "d) Weil er nach dem `Master-Brot` fragte"
+            ],
+            "antwort": "c"
         },
         {
             "frage": "Was ist ein Vorteil objektorientierter Programmiersprachen in Softwareprojekten?",
@@ -293,6 +213,16 @@ def modul2():
                 "b) Änderungen sind während des Projekts einfach und günstig.",
                 "c) Sie basieren auf klar getrennten Projektphasen mit Meilensteinen.",
                 "d) Sie setzen auf kleine, selbstorganisierte Teams."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wie viele DAUs braucht man, um eine Glühbirne zu wechseln?",
+            "optionen": [
+                "a) Einen – aber nur, wenn der Helpdesk vorher die Lampe neu startet.",
+                "b) Keinen – das ist ein Hardwareproblem, kein Benutzerfehler.",
+                "c) Drei – einer ruft an, einer hält die Birne, und einer dreht den Stuhl.",
+                "d) Zehn – neun halten ein Meeting, einer beschwert sich über die IT."
             ],
             "antwort": "c"
         },
@@ -469,6 +399,16 @@ def modul3():
             "antwort": "b"
         },
         {
+            "frage": "Was ist der Unterschied zwischen einem Entwickler und einem DAU?",
+            "optionen": [
+                "a) Der Entwickler liest die Fehlermeldung, der DAU klickt sie weg.",
+                "b) Der DAU programmiert nur in Word.",
+                "c) Entwickler rebooten den Rechner – DAUs rebooten den Router.",
+                "d) Es gibt keinen – beide googeln die Lösung."
+            ],
+            "antwort": "a"
+        },
+        {
             "frage": "Was ist ein Sprint Backlog?",
             "optionen": ["a) Eine Liste aller Projektbeteiligten.",
                          "b) Das visuelle Board für Anforderungen des ganzen Projekts.",
@@ -608,6 +548,16 @@ def modul4():
             "antwort": "a"
         },
         {
+            "frage": "Was ist der Unterschied zwischen Debugging und Detektivarbeit?",
+            "optionen": [
+                "a) Beim Debugging ist der Täter immer man selbst.",
+                "b) Detektive haben keine Syntaxfehler.",
+                "c) Beim Debugging kann man Coffee statt Fingerabdrücke verwenden.",
+                "d) Es gibt keinen – beide verfolgen Spuren."
+            ],
+            "antwort": "a"
+        },
+        {
             "frage": "Wie werden die Qualitätskriterien meist angegeben?",
             "optionen": ["a) Als absolute Zahlen",
                          "b) Als Prozentwerte",
@@ -723,6 +673,16 @@ def modul5():
                          "c) Datenformate enthalten nur Metadaten.",
                          "d) CSV-Dateien nutzen ausschließlich Tabs als Trennzeichen."],
             "antwort": "b"
+        },
+        {
+            "frage": "Was sagt ein Sysadmin morgens als Erstes?",
+            "optionen": [
+                "a) 'Wo ist mein Passwortzettel?'",
+                "b) 'Ich reboot mal mein Leben.'",
+                "c) 'sudo kaffee now –force'",
+                "d) 'Ping Kaffee –t'"
+            ],
+            "antwort": "c"
         },
         {
             "frage": "Was ist ein typisches Merkmal von CSV-Dateien?",
@@ -857,6 +817,16 @@ def modul6():
             "antwort": "c"
         },
         {
+            "frage": "Was ist das Backup-Mantra jedes Admins?",
+            "optionen": [
+                "a) 'Ich vertraue meinem RAID 0.'",
+                "b) 'Ein Backup ist kein Backup.'",
+                "c) 'Festplatten leben ewig.'",
+                "d) 'Speichern heißt vergessen.'"
+            ],
+            "antwort": "b"
+        },
+        {
             "frage": "Welche Aussage trifft auf Redundanz bei Informationsintegration zu?",
             "optionen": ["a) Redundanz muss immer vollständig vermieden werden",
                          "b) Redundante Daten können zur Verifikation genutzt werden",
@@ -940,6 +910,16 @@ def modul7():
                 "b) Strukturiertes, prozedurales und objektorientiertes Programmieren",
                 "c) Deklarative und imperative Programmierung",
                 "d) Keine der genannten"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Woran erkennt man einen Entwickler auf der Party?",
+            "optionen": [
+                "a) Am Hoodie und den Augenringen.",
+                "b) Er fragt nach dem WLAN-Passwort vor dem Namen.",
+                "c) Er bringt GitHub statt Bier mit.",
+                "d) Er fragt: 'Wo ist das Production Environment?'"
             ],
             "antwort": "b"
         },
@@ -1037,7 +1017,20 @@ def modul8():
 
         "Polymorphie erlaubt gleichnamige Methoden mit unterschiedlichem Verhalten in verschiedenen Klassen.\n"
         "Formen: Überladen (Methoden mit verschiedenen Parametern), Überschreiben (Methode neu implementiert).\n"
-        "Dynamische Bindung entscheidet zur Laufzeit, welche Methode ausgeführt wird."
+        "Dynamische Bindung entscheidet zur Laufzeit, welche Methode ausgeführt wird.",
+
+        "Datenquellen können über verschiedene Netzwerkprotokolle angesprochen werden: FTP, HTTP, NFS, SMB.",
+        "Für verschlüsselte Übertragungen kommen SFTP oder FTPS zum Einsatz (siehe auch Lernfeld 3 und 9).",
+        "APIs ermöglichen Zugriff auf Datenquellen mit mehr Anpassungsmöglichkeiten und Zugriffsmethoden.",
+        "Zugriff auf Datenquellen im Internet kann über WebDAV, SOAP oder REST erfolgen.",
+        "SOAP ist ein standardisiertes, protokollbasiertes Netzwerkprotokoll auf XML-Basis mit hoher Komplexität.",
+        "SOAP bietet integrierte Standards wie ACID, Sicherheit, Konsistenz und ist geeignet für Unternehmenslösungen.",
+        "SOAP-Nachrichten basieren auf XML, können über HTTP, SMTP, TCP übertragen werden.",
+        "WSDL ist eine Beschreibungssprache für Webservices auf XML-Basis und vereinfacht die SOAP-Nutzung.",
+        "REST ist eine moderne, leichtgewichtige Alternative zu SOAP, nutzt HTTP-Methoden: GET, POST, PUT, DELETE.",
+        "REST eignet sich für IoT, mobile Anwendungen, Cloud-Anbieter (z. B. AWS, Azure) und ist zukunftsorientiert.",
+        "REST folgt sechs Prinzipien: Client-Server-Modell, Zustandslosigkeit, Caching, einheitliche Schnittstelle, Layered System, Code-on-Demand.",
+        "REST erfordert kein XML, ist einfacher zu implementieren, aber bietet weniger standardisierte Sicherheit als SOAP."
     ]
 
     fragen = [
@@ -1080,6 +1073,16 @@ def modul8():
                 "d) Objekte werden vererbt."
             ],
             "antwort": "b"
+        },
+        {
+            "frage": "Was ist der Unterschied zwischen einem Entwickler und einem Magier?",
+            "optionen": [
+                "a) Der Entwickler kann Bugs beschwören.",
+                "b) Der Magier kennt seine Zaubersprüche.",
+                "c) Der Entwickler muss alles dreimal erklären.",
+                "d) Beim Entwickler funktioniert's nur auf seinem Gerät."
+            ],
+            "antwort": "d"
         },
         {
             "frage": "Welche Zugriffsmodifizierer gibt es laut Lehrtext?",
@@ -1238,6 +1241,73 @@ def modul8():
                 "d) Komplexität und Langsamkeit"
             ],
             "antwort": "b"
+        },
+        {
+            "frage": "Welche der folgenden Protokolle ermöglichen den Zugriff auf externe Datenquellen?",
+            "optionen": ["a) FTP, HTTP, SMB", "b) WSDL, REST, SMTP", "c) JSON, XML, SOAP", "d) ACID, NFS, XML"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was ist ein Vorteil von REST gegenüber SOAP?",
+            "optionen": ["a) Höhere Sicherheit", "b) Komplexere Transaktionskontrolle",
+                         "c) Weniger Ressourcenverbrauch und einfachere Anwendung", "d) Pflicht zur XML-Nutzung"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Prinzipien sollte ein REST-Service aufweisen? (Mehrfachantwort möglich)",
+            "optionen": ["a) Caching", "b) Zustandslosigkeit", "c) Code-on-Demand", "d) Stateful Session Management"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Welche Aussage zu SOAP ist korrekt?",
+            "optionen": ["a) SOAP nutzt JSON als Standardformat", "b) SOAP ist ein leichtgewichtiges Protokoll",
+                         "c) SOAP basiert auf XML-Nachrichten", "d) SOAP wird ausschließlich über HTTP verwendet"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Wofür steht die Abkürzung WSDL?",
+            "optionen": ["a) Web Server Description Language", "b) Web Services Description Language",
+                         "c) Wide Service Data Layer", "d) Web Storage Definition Layout"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche HTTP-Methoden werden typischerweise in REST verwendet? (Mehrfachantwort möglich)",
+            "optionen": ["a) GET", "b) POST", "c) DELETE", "d) FETCH"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Warum wird SOAP trotz seiner Komplexität noch eingesetzt?",
+            "optionen": ["a) Es ist einfacher zu erlernen", "b) Es ist älter und unterstützt veraltete Systeme",
+                         "c) Es benötigt kein XML", "d) Es ersetzt REST vollständig"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Vorteile bietet WSDL bei der Nutzung von SOAP?",
+            "optionen": ["a) Es ersetzt XML vollständig", "b) Es ermöglicht die Verwendung von JSON",
+                         "c) Es beschreibt Webservices ohne direktes XML-Coding", "d) Es ist ein Ersatz für REST"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was beschreibt das ACID-Prinzip in Bezug auf SOAP? (Mehrfachantwort möglich)",
+            "optionen": ["a) Atomizität", "b) Konsistenz", "c) Isolation", "d) Dauerhaftigkeit"],
+            "antwort": ["a", "b", "c", "d"]
+        },
+        {
+            "frage": "Welcher REST-API-Aufruf erstellt eine neue Ressource?",
+            "optionen": ["a) GET", "b) POST", "c) PUT", "d) DELETE"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was bewirkt die HTTP-Methode DELETE in einer REST-API?",
+            "optionen": ["a) Ruft eine Ressource ab", "b) Aktualisiert eine Ressource", "c) Löscht eine Ressource",
+                         "d) Erstellt eine Ressource"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Rolle spielt XML bei SOAP?",
+            "optionen": ["a) Keine", "b) XML ist optional", "c) SOAP basiert vollständig auf XML",
+                         "d) XML wird nur bei REST verwendet"],
+            "antwort": "c"
         }
     ]
 
@@ -1470,6 +1540,16 @@ Kreditkarte prüfen («extends», wenn Kreditkarte gewählt wird)."
             "antwort": "c"
         },
         {
+            "frage": "Warum gehen Entwickler selten raus?",
+            "optionen": [
+                "a) Draußen gibt’s kein Stack Overflow.",
+                "b) Weil draußen kein Dark Mode ist.",
+                "c) Weil draußen keine Semikolons gebraucht werden.",
+                "d) Weil draußen die Variable 'Wetter' unbestimmt ist."
+            ],
+            "antwort": "b"
+        },
+        {
             "frage": "Welche Elemente sind *nicht* Teil eines Anwendungsfalldiagramms?",
             "optionen": ["a) Anwendungsfälle",
                          "b) Datenbanktabellen",
@@ -1597,6 +1677,16 @@ g) Die Komposition wird durch eine ausgefüllte Raute dargestellt.",
                          "c) Benutzerinteraktionen",
                          "d) Netzwerksicherheit"],
             "antwort": "b"
+        },
+        {
+            "frage": "Was bedeutet 'Works on my machine' wirklich?",
+            "optionen": [
+                "a) Ich hab's kaputtgeliebt.",
+                "b) Ich habe keine Ahnung, warum es funktioniert.",
+                "c) Es liegt an dir, nicht an mir.",
+                "d) Ich hab keine Lust mehr."
+            ],
+            "antwort": "c"
         },
         {
             "frage": "Wie wird eine Klasse im Klassendiagramm dargestellt?",
@@ -1811,6 +1901,16 @@ und Maßnahmen planen (z.B. datenschutzfreundliche Voreinstellungen)."
             "antwort": ["a", "b", "d"]
         },
         {
+            "frage": "Was sagt der Server, wenn er gestresst ist?",
+            "optionen": [
+                "a) 503 Service Unavailable.",
+                "b) Ich brauch mehr Kaffee.",
+                "c) Kernel Panic!",
+                "d) Ich bin raus – Ctrl + Alt + Goodbye."
+            ],
+            "antwort": "a"
+        },
+        {
             "frage": "Was beschreibt das Minimalprinzip?",
             "optionen": ["a) Jeder darf alles ändern",
                          "b) Nur notwendige Berechtigungen werden vergeben",
@@ -1912,6 +2012,16 @@ def modul14():
             "antwort": ["a", "b", "d"]
         },
         {
+            "frage": "Wie nennt man einen DAU mit Adminrechten?",
+            "optionen": [
+                "a) Apokalypso.",
+                "b) Root des Bösen.",
+                "c) Sicherheitslücke mit Tastatur.",
+                "d) Ein Bug mit Bonusrechten."
+            ],
+            "antwort": "c"
+        },
+        {
             "frage": "Was gehört zur ISO 9241-110:2020? (Mehrere Antworten möglich)",
             "optionen": ["a) Steuerbarkeit", "b) Energieeffizienz", "c) Erwartungskonformität", "d) Erlernbarkeit"],
             "antwort": ["a", "c", "d"]
@@ -2008,6 +2118,16 @@ def modul15():
             "antwort": "b"
         },
         {
+            "frage": "Was passiert, wenn man einen ITler um 3 Uhr nachts anruft?",
+            "optionen": [
+                "a) Er rebootet aus Reflex.",
+                "b) Er sagt 'Hast du es neu gestartet?'",
+                "c) Er flüstert '127.0.0.1...'",
+                "d) Bluescreen der Seele."
+            ],
+            "antwort": "b"
+        },
+        {
             "frage": "Welche Elemente fehlen in einem klassischen Wireframe? (Mehrere Antworten möglich)",
             "optionen": ["a) Farben",
                          "b) Texte",
@@ -2091,6 +2211,16 @@ def modul16():
                 "b) JavaScript und Python",
                 "c) Windows und Linux",
                 "d) HTML und CSS"
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Warum haben Programmierer keine Angst vor Geistern?",
+            "optionen": [
+                "a) Sie kennen alle Hintergrundprozesse.",
+                "b) Sie debuggen sogar Spuk.",
+                "c) Sie sehen schlimmere Dinge im Code.",
+                "d) Geister brauchen keine Ports."
             ],
             "antwort": "a"
         },
@@ -2242,6 +2372,7 @@ def modul17():
             "optionen": ["a) Sie erstellt ein neues Objekt", "b) Sie initialisiert Variablen", "c) Sie dient als Einstiegspunkt für das Programm", "d) Sie importiert Bibliotheken"],
             "antwort": "c"
         },
+
         {
             "frage": "Welche Aussagen zu Bezeichnern in Java sind korrekt? (Mehrere Antworten möglich)",
             "optionen": ["a) Dürfen Leerzeichen enthalten", "b) Müssen mit Buchstaben oder Unterstrich beginnen", "c) Dürfen keine Sonderzeichen wie $ enthalten", "d) Ein einzelner Unterstrich ist erlaubt"],
@@ -2251,6 +2382,16 @@ def modul17():
             "frage": "Welche dieser Wörter sind in Java reservierte Schlüsselwörter? (Mehrere Antworten möglich)",
             "optionen": ["a) void", "b) auto", "c) class", "d) print"],
             "antwort": ["a", "c"]
+        },
+        {
+            "frage": "Was ist der Lieblingssport eines Informatikers?",
+            "optionen": [
+                "a) Java-Run",
+                "b) Ping-Pong",
+                "c) Datenjogging",
+                "d) SQL-Slalom"
+            ],
+            "antwort": "b"
         },
         {
             "frage": "Wie kennzeichnet man einen einzeiligen Kommentar in Java?",
@@ -2386,6 +2527,16 @@ def modul18():
                         "b) Zum Zugriff auf öffentliche Eigenschaften",
                         "c) Zur Kontrolle des Zugriffs auf private Eigenschaften",
                         "d) Zur Löschung von Objekten"],
+           "antwort": "c"
+       },
+       {
+           "frage": "Wieso ist ein IT-Sicherheitsexperte schlecht beim Flirten?",
+           "optionen": [
+               "a) Er blockt alles.",
+               "b) Er vertraut niemandem.",
+               "c) Er fragt zuerst nach Zwei-Faktor-Authentifizierung.",
+               "d) Er hat Angst vor Datenverlust."
+           ],
            "antwort": "c"
        },
        {
@@ -2580,6 +2731,16 @@ def modul19():
             "antwort": "b"
         },
         {
+            "frage": "Was trinkt ein Programmierer im Sommer?",
+            "optionen": [
+                "a) Iced Java",
+                "b) PHP-Schorle",
+                "c) HTML-Tonic",
+                "d) Coldbrew-Loop"
+            ],
+            "antwort": "a"
+        },
+        {
             "frage": "Was bedeutet 'Pluggable Look and Feel'?",
             "optionen": [
                 "a) Das Layout ist fest und unveränderbar",
@@ -2689,6 +2850,16 @@ def modul20():
             "optionen": ["a) Kein Unterstrich", "b) Ein Unterstrich (_) vor dem Namen",
                          "c) Zwei Unterstriche (__)", "d) Stern (*) vor dem Namen"],
             "antwort": "b"
+        },
+        {
+            "frage": "Was macht ein DAU, wenn die Maus nicht funktioniert?",
+            "optionen": [
+                "a) Er streichelt sie.",
+                "b) Er ruft die IT an.",
+                "c) Er tauscht die Batterien im Bildschirm.",
+                "d) Er klickt lauter."
+            ],
+            "antwort": "d"
         },
         {
             "frage": "Was ist die Aufgabe eines Getters?",
@@ -2816,6 +2987,16 @@ def modul21():
                 "antwort": "c"
             },
             {
+                "frage": "Warum hassen Entwickler Meetings?",
+                "optionen": [
+                    "a) Kein Debug-Modus.",
+                    "b) Keine Escape-Taste.",
+                    "c) Kein Return möglich.",
+                    "d) Alles ohne Syntax."
+                ],
+                "antwort": "b"
+            },
+            {
                 "frage": "Welche Widgets werden im Tankkosten-Beispiel verwendet? (Mehrere Antworten möglich)",
                 "optionen": ["a) Label", "b) Entry", "c) Combobox", "d) Button"],
                 "antwort": ["a", "b", "d"]
@@ -2893,6 +3074,16 @@ def modul22():
                          "c) Daten aus relationalen Systemen",
                          "d) Eine SQL-Datenbank"],
             "antwort": "b"
+        },
+        {
+            "frage": "Was ist schlimmer als ein Bug?",
+            "optionen": [
+                "a) Ein Feature.",
+                "b) Ein Nutzer mit Feedback.",
+                "c) Ein Bug, der intermittent ist.",
+                "d) Zwei Bugs, die sich gegenseitig triggern."
+            ],
+            "antwort": "c"
         },
         {
             "frage": "Welche Eigenschaften zählen zu den 5 Vs von Big Data? (Mehrere Antworten möglich)",
@@ -3001,6 +3192,16 @@ def modul23():
                          "b) ER-Modell",
                          "c) Python-Modul",
                          "d) Tabellenkalkulation"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie nennt man ein WLAN ohne Passwort?",
+            "optionen": [
+                "a) Freie Liebe.",
+                "b) Honeypot.",
+                "c) Router-Roulette.",
+                "d) Ein offenes Geständnis."
+            ],
             "antwort": "b"
         },
         {
@@ -3159,6 +3360,16 @@ def modul24():
                          "c) Mehr Redundanzen",
                          "d) Fehlende Primärschlüssel"],
             "antwort": "b"
+        },
+        {
+            "frage": "Warum benutzen Hacker Linux?",
+            "optionen": [
+                "a) Weil sie es können.",
+                "b) Weil sudo wie 'abrakadabra' ist.",
+                "c) Weil Windows fragt: 'Sind Sie sicher?'",
+                "d) Weil die Kommandozeile sexy ist."
+            ],
+            "antwort": "c"
         }
     ]
 
@@ -3325,6 +3536,16 @@ def modul25():
             "optionen": ["a) Zum Verknüpfen von Tabellen", "b) Für Mustervergleiche in Zeichenketten",
                          "c) Für mathematische Berechnungen", "d) Für Aggregatfunktionen"],
             "antwort": "b"
+        },
+        {
+            "frage": "Wie testet man, ob ein ITler Single ist?",
+            "optionen": [
+                "a) Man fragt ihn nach seinem IDE.",
+                "b) Man schaut auf seine Bildschirmzeit.",
+                "c) Man fragt: 'Was ist Wochenende?'",
+                "d) Man entfernt das Internet."
+            ],
+            "antwort": "c"
         }
     ]
 
@@ -3382,6 +3603,16 @@ def modul26():
                       "c) CREATE TABLE",
                       "d) DELETE"],
          "antwort": "c"},
+        {
+            "frage": "Was ist das Gegenteil von Plug & Play?",
+            "optionen": [
+                "a) Plug & Pray.",
+                "b) Boot & Schrei.",
+                "c) Code & Wut.",
+                "d) Stack & Overflow."
+            ],
+            "antwort": "a"
+        },
 
         {"frage": "Wie lautet der Standard-Port von MySQL?",
          "optionen": ["a) 80",
@@ -3527,6 +3758,16 @@ def modul27():
             "antwort": "c"
         },
         {
+            "frage": "Was macht ein Entwickler beim Psychologen?",
+            "optionen": [
+                "a) Einen Core-Dump.",
+                "b) Einen Bugreport.",
+                "c) Ein Git-Reset.",
+                "d) Ein Ticket aufmachen."
+            ],
+            "antwort": "a"
+        },
+        {
             "frage": "Welche Aussage beschreibt dokumentenorientierte Datenbanken korrekt?",
             "optionen": [
                 "a) Sie nutzen Tabellen mit festen Schemata",
@@ -3654,6 +3895,16 @@ Daten abfragen:\n\
             "antwort": "c"
         },
         {
+            "frage": "Warum war der Server traurig?",
+            "optionen": [
+                "a) Weil er niemanden pingen konnte.",
+                "b) Weil alle Ports geschlossen waren.",
+                "c) Weil der Loadbalancer unfair war.",
+                "d) Weil er sich entkabelt fühlte."
+            ],
+            "antwort": "a"
+        },
+        {
             "frage": "Welche Aussage zur Funktion `insert_one(...)` trifft zu?",
             "optionen": [
                 "a) Fügt mehrere Dokumente ein",
@@ -3773,6 +4024,26 @@ def modul29():
             "antwort": "c"
         },
         {
+            "frage": "Wie erkennt man einen Praktikanten im Rechenzentrum?",
+            "optionen": [
+                "a) Er fragt, wo der WLAN-Stick steckt.",
+                "b) Er föhnt die Lüfter trocken.",
+                "c) Er tippt direkt auf dem Servergehäuse.",
+                "d) Er löscht das BIOS zur 'Entrümpelung'."
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was tut ein Programmierer, wenn er sich verliebt?",
+            "optionen": [
+                "a) Er pushed zu viel.",
+                "b) Er forked Beziehungen.",
+                "c) Er bekommt Merge-Konflikte.",
+                "d) Er verliert seine Branch-Kontrolle."
+            ],
+            "antwort": "c"
+        },
+        {
             "frage": "Was gehört *nicht* zu den Vorteilen von Cloud-Datenbanken?",
             "optionen": ["a) Schnelle Bereitstellung", "b) Hohe Einmalkosten", "c) Pay-per-Use", "d) Skalierbarkeit"],
             "antwort": "b"
@@ -3822,8 +4093,471 @@ def modul29():
 
     modul_lernen_und_testen("Lernfelder 8.7.8 Cloud-basierte Datenbanklösungen unterscheiden", lerninhalte, fragen)
 
+def modul30():
+    lerninhalte = [
+        "Beim Testen von Software kommen verschiedene Testverfahren zum Einsatz.\n"
+        "Diese lassen sich in zwei Hauptarten einteilen: Black-Box-Tests und White-Box-Tests.\n"
+        "White-Box-Tests sind strukturorientiert, da der Quellcode bekannt ist. Ziel ist eine möglichst hohe Testabdeckung.\n"
+        "Sie müssen häufig angepasst werden, wenn sich der Quellcode ändert.\n"
+        "Black-Box-Tests sind spezifikationsorientiert. Es wird geprüft, ob die Software die Anforderungen erfüllt – unabhängig vom Quellcode.\n"
+        "Testdaten werden auf Basis der Anforderungsspezifikation abgeleitet, nicht aus dem Quellcode.\n"
+        "Typische Teststufen: Unittest, Integrationstest, Systemtest.",
 
-#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+        "Zentrale Methoden zur Auswahl von Testdaten:\n"
+        "– Äquivalenzklassenbildung: Eingabe- und Ausgabewerte werden in gültige und ungültige Klassen unterteilt.\n"
+        "   Ziel: hohe Testabdeckung mit wenigen, repräsentativen Testfällen.\n"
+        "– Grenzwertanalyse: Ergänzt die Äquivalenzklassenmethode. Fehler treten oft an Klassengrenzen auf (z.B. <= vs. <).\n"
+        "   Es werden Testdaten an den Rändern der Klassen gewählt.",
+
+        "Beispiel (beide Verfahren):\n"
+        "Eine Methode `bool isTemperatureOk(double temp)` gibt True zurück, wenn die Temperatur ≤ 30 °C ist, sonst False.\n"
+        "Äquivalenzklassen: 1. ≤ 30, 2. > 30. Mögliche Werte: [-1, 28, 3.89], [32, 101.33, 40].\n"
+        "Grenzwerte: 30.00 → True, 30.01 → False.\n"
+        "Funktion soll nur Werte mit zwei Nachkommastellen akzeptieren. Absolute Nullpunktgrenzen werden ignoriert.",
+
+        "Entscheidungstabellen helfen bei der Ableitung von Testfällen – insbesondere bei einfacher Logik.\n"
+        "Jede Spalte der Tabelle bildet einen Testfall ab. Komplexe Logik kann schnell unübersichtlich werden.\n"
+        "Beispiel (Entscheidungstabelle):\n"
+        "Sensor 1 sendet Signal = JA, Sensor 2 = NEIN ⇒ Alarm auslösen.",
+
+        "Zur Dokumentation von Tests gehören unter anderem: Testprotokolle, Testfallbeschreibungen, Fehlerberichte und das Abnahmeprotokoll.\n"
+        "Das Abnahmeprotokoll dokumentiert die formale Abnahme der Software durch den Auftraggeber."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was zeichnet Black-Box-Tests aus?",
+            "optionen": [
+                "a) Der Quellcode wird analysiert.",
+                "b) Die Testdaten basieren auf der Programmlogik.",
+                "c) Es werden nur interne Abläufe getestet.",
+                "d) Sie basieren auf der Anforderungsspezifikation."
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Welche Aussage trifft auf White-Box-Tests zu?",
+            "optionen": [
+                "a) Sie sind unabhängig vom Quellcode.",
+                "b) Sie müssen bei Codeänderungen nicht angepasst werden.",
+                "c) Sie sind strukturorientiert und analysieren die Programmlogik.",
+                "d) Sie testen ausschließlich die Benutzeroberfläche."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Testdaten liefert die Äquivalenzklassenbildung?",
+            "optionen": [
+                "a) Nur ungültige Werte.",
+                "b) Werte aus der Programmlogik.",
+                "c) Repräsentative Werte aus gültigen und ungültigen Klassen.",
+                "d) Nur Extremwerte."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was ist der Nachteil von White-Box-Tests?",
+            "optionen": [
+                "a) Keine Testabdeckung erreichbar.",
+                "b) Muss bei jeder Änderung im Quellcode überprüft und angepasst werden.",
+                "c) Sind unzuverlässig bei Systemtests.",
+                "d) Benötigen keine Testdaten."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie funktioniert die Grenzwertanalyse?",
+            "optionen": [
+                "a) Durch Auswahl zufälliger Werte.",
+                "b) Durch Testdaten an den Rändern von Äquivalenzklassen.",
+                "c) Durch Vergleich von Codeblöcken.",
+                "d) Durch Simulation von Systemabstürzen."
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Temperatur würde bei isTemperatureOk(temp) den Rückgabewert False erzeugen?",
+            "optionen": [
+                "a) 29.99",
+                "b) 30.00",
+                "c) 30.01",
+                "d) -1"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was trifft auf Entscheidungstabellen zu?",
+            "optionen": [
+                "a) Jede Zeile bildet einen Testfall.",
+                "b) Sie sind ausschließlich für grafische Benutzeroberflächen geeignet.",
+                "c) Sie sind ideal für komplexe Logik.",
+                "d) Jede Spalte bildet einen Testfall ab."
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Was passiert, wenn man 'rm -rf /' als Root ausführt?",
+            "optionen": [
+                "a) Ein Moment der Stille.",
+                "b) Ein tiefer Blick in die Leere.",
+                "c) Erleuchtung.",
+                "d) Man wird Buddha mit Adminrechten."
+            ],
+            "antwort": "a"
+        },
+        {
+            "frage": "Welches Verfahren eignet sich besonders zur Generierung von Testdaten an Schnittstellen?",
+            "optionen": [
+                "a) White-Box-Test",
+                "b) Black-Box-Test",
+                "c) Debugging",
+                "d) Code-Review"
+            ],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist das Ziel eines Abnahmeprotokolls?",
+            "optionen": [
+                "a) Die Testumgebung zu beschreiben.",
+                "b) Fehlerberichte zu speichern.",
+                "c) Die formale Abnahme durch den Kunden zu dokumentieren.",
+                "d) Logfiles zu archivieren."
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was gilt für die Methode isTemperatureOk(temp)? (Mehrfachantwort)",
+            "optionen": [
+                "a) Gibt True zurück, wenn temp ≤ 30.",
+                "b) Temp = 30.00 ergibt True.",
+                "c) Testwert 30.01 ergibt True.",
+                "d) Es wird nur ein Rückgabewert True/False geliefert."
+            ],
+            "antwort": ["a", "b", "d"]
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8.8 Software testen und dokumentieren", lerninhalte, fragen)
+
+def modul31():
+    lerninhalte = [
+        "Testdatengeneratoren erzeugen synthetische Daten für Softwaretests, z.B. für Last-, Leistungs- und Stresstests.",
+        "Sie werden verwendet, wenn reale Testdaten fehlen oder nicht ausreichen. Auch sensible Daten können durch Dummydaten ersetzt werden.",
+        "Ein Testdatengenerator erzeugt Daten automatisch – durch Generierung, Modifikation, Auswahl oder aus Wissensdatenbanken.",
+        "Sie sind besonders relevant für Big-Data-Anwendungen aufgrund ihres Volumens und ihrer Geschwindigkeit.",
+        "Es gibt vier Hauptkategorien: datenbankbasierte, codebasierte, schnittstellenbasierte und spezifikationsbasierte Generatoren.",
+        "Mockaroo ist ein beliebter, kostenloser Online-Testdatengenerator mit über 100 Datentypen, unterstützt CSV, JSON, SQL, Excel.",
+        "Beispieldatensätze bei Mockaroo umfassen Felder wie ID, Land, Ländercode, Währung, Währungscode und Zeitzone."
+    ]
+
+    fragen = [
+        {
+            "frage": "Wozu dienen Testdatengeneratoren?",
+            "optionen": ["a) Zur Analyse von Programmcode", "b) Zum Erzeugen synthetischer Testdaten",
+                         "c) Zum Verschlüsseln von Daten", "d) Zur Kompilierung von Quellcode"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wann kommen Testdatengeneratoren besonders häufig zum Einsatz?",
+            "optionen": ["a) Bei Produktivsystemen", "b) Wenn reale Testdaten fehlen oder zu wenige vorhanden sind",
+                         "c) In der Designphase", "d) Nur bei manuellen Tests"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Arten von Tests ermöglichen Testdatengeneratoren?",
+            "optionen": ["a) Last-, Leistungs-, Stresstests", "b) Design- und Architekturanalyse", "c) UI-Tests",
+                         "d) Debugging von Produktionssystemen"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Was kann ein Testdatengenerator leisten? (Mehrere Antworten möglich)",
+            "optionen": ["a) Daten generieren", "b) Daten verändern", "c) Wissen extrahieren", "d) Daten selektieren"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Was ist der natürliche Feind eines Entwicklers?",
+            "optionen": [
+                "a) Ein nicht reproduzierbarer Fehler.",
+                "b) Ein Kunde mit 'nur einer kleinen Änderung'.",
+                "c) Montagmorgen ohne Kaffee.",
+                "d) Internet Explorer."
+            ],
+            "antwort": "d"
+        },
+        {
+            "frage": "Welche Kategorie gehört nicht zu den vier Hauptarten von Testdatengeneratoren?",
+            "optionen": ["a) Schnittstellenbasiert", "b) Datenbankbasiert", "c) Speicherbasiert", "d) Codebasiert"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was kennzeichnet schnittstellenbasierte Testdatengeneratoren?",
+            "optionen": ["a) Sie basieren auf Codeanalysen",
+                         "b) Sie analysieren Schnittstellenparameter und nutzen Äquivalenzklassenanalyse",
+                         "c) Sie werten GUI-Elemente aus", "d) Sie erzeugen ausschließlich JSON-Daten"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Datenformate unterstützt Mockaroo? (Mehrere Antworten möglich)",
+            "optionen": ["a) CSV", "b) XML", "c) JSON", "d) Excel"],
+            "antwort": ["a", "c", "d"]
+        },
+        {
+            "frage": "Welche Eigenschaften bietet Mockaroo?",
+            "optionen": ["a) Über 100 Datentypen, realistische Werte", "b) Nur Textdaten", "c) Nur Zufallszahlen",
+                         "d) Nur für PostgreSQL"],
+            "antwort": "a"
+        },
+        {
+            "frage": "Wie sieht ein typischer Testdatensatz bei Mockaroo aus? (Mehrere Antworten möglich)",
+            "optionen": ["a) ID", "b) Ländercode", "c) Farbcode", "d) Zeitzone"],
+            "antwort": ["a", "b", "d"]
+        },
+        {
+            "frage": "Welche Faktoren spielen bei der Toolwahl für Testdatengeneratoren eine Rolle?",
+            "optionen": ["a) Datenbankunterstützung", "b) Preis", "c) Formatvielfalt", "d) Farbschema"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Welche Rolle spielen Dummy-Daten in Testdatengeneratoren?",
+            "optionen": ["a) Sie verschlüsseln sensible Daten",
+                         "b) Sie ersetzen vertrauliche Daten zur Wahrung der Datensicherheit",
+                         "c) Sie erhöhen die Datenmenge künstlich", "d) Sie formatieren Metadaten"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Warum sind Testdatengeneratoren für Big-Data-Anwendungen wichtig?",
+            "optionen": ["a) Weil sie mit wenig RAM auskommen", "b) Wegen schneller, massenhafter Datenerzeugung",
+                         "c) Sie benötigen keine Datenbank", "d) Sie ersetzen Datenbanken"],
+            "antwort": "b"
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8.8.2 Testdatengeneratoren verwenden", lerninhalte, fragen)
+
+def modul32():
+    lerninhalte = [
+        "Die Abnahme ist der Vorgang, bei dem der Auftraggeber die erstellte Software prüft und erklärt, dass sie den vertraglich vereinbarten Anforderungen entspricht.\n\
+        Sie ist gesetzlich vorgeschrieben, wenn ein Werkvertrag besteht. Grundlage sind Vertrag oder Pflichtenheft.\n\
+        Abnahme nach DIN 69901-5:2009-1 ist die Bestätigung, dass der Auftragnehmer die Anforderungen erfüllt hat.\n\
+        Sie hat wichtige rechtliche Folgen: Zahlungsanspruch, Beginn der Mängelverjährung, Übergang der Beweislast.",
+
+        "Arten der Abnahme:\n\
+        - Vertragliche Akzeptanz: Vollständigkeit und Qualität der Leistungen, gesetzliche Anforderungen.\n\
+        - Benutzerakzeptanz: Funktionale und nichtfunktionale Anforderungen (z. B. Tests, Dokumentation).\n\
+        - Betreiberakzeptanz: IT-Sicherheit, Revisionssicherheit, Admin-Handbücher.",
+
+        "Das Abnahmeprotokoll dokumentiert Ort, Datum, Teilnehmer, geprüfte Eigenschaften, offene Punkte usw.\n\
+        Es muss von Auftraggeber und Auftragnehmer (oder deren Vertretern) unterschrieben werden.\n\
+        Standards wie PMBOK oder PRINCE2 geben keine strengen Vorgaben für Abnahmeprotokolle.\n\
+        Eine Checkliste mit den Abnahmekriterien ist Mindestinhalt, empfohlen sind weitere Details.",
+
+        "Beispielhafte Inhalte im Abnahmeprotokoll:\n\
+        - Software & Version, Vertragsnummer\n\
+        - Getestete Anforderungen mit Ergebnissen (funktional, nichtfunktional, technisch)\n\
+        - Offene Punkte mit Terminen oder Verzicht\n\
+        - Schlussbeurteilung und Freigabe durch beide Parteien.",
+
+        "Beispiel (Auszug):\n\
+        Software: Statistika Version 1.0\n\
+        Funktionale Anforderung: Vier grafische Darstellungsmöglichkeiten – erfüllt\n\
+        Nichtfunktionale Anforderung: Bedienungsanleitung – vorhanden\n\
+        Technische Anforderung: Lauffähig unter Windows 10 und Linux – erfüllt\n\
+        Offene Punkte: keine\n\
+        Genehmigung durch beide Parteien – erforderlich"
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist eine Projektabnahme im rechtlichen Sinne?",
+            "optionen": ["a) Eine optionale Projektbesprechung",
+                         "b) Eine gesetzlich vorgeschriebene Leistung bei Werkverträgen",
+                         "c) Ein freiwilliger Testlauf durch den Kunden",
+                         "d) Eine zusätzliche Qualitätssicherung"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche der folgenden Aussagen beschreibt die Abnahme nach DIN 69901-5:2009-1 korrekt?",
+            "optionen": ["a) Die Abnahme ist ein Vertragsanhang",
+                         "b) Die Abnahme ist eine schriftliche Stellungnahme des Projektteams",
+                         "c) Die Abnahme bestätigt die Erfüllung der Anforderungen durch den Auftragnehmer",
+                         "d) Die Abnahme ersetzt die Vertragsprüfung"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche rechtlichen Folgen hat die Abnahme eines Softwareprodukts? (Mehrfachantwort möglich)",
+            "optionen": ["a) Beginn der Verjährung von Mängelansprüchen",
+                         "b) Anspruch auf Bonuszahlungen",
+                         "c) Fälligkeit der Vergütung",
+                         "d) Beweislast geht auf den Auftraggeber über"],
+            "antwort": ["a", "c", "d"]
+        },
+        {
+            "frage": "Was gehört zur Benutzerakzeptanz? (Mehrfachantwort möglich)",
+            "optionen": ["a) Performance-Tests",
+                         "b) Gesetzeskonformität der Leistung",
+                         "c) Qualität der Admin-Handbücher",
+                         "d) Verständlichkeit der Dokumentation"],
+            "antwort": ["a", "d"]
+        },
+        {
+            "frage": "Welche Inhalte sollte ein Abnahmeprotokoll mindestens enthalten?",
+            "optionen": ["a) Firmenlogo des Auftraggebers",
+                         "b) Checkliste mit Abnahmekriterien",
+                         "c) Projektkostenaufstellung",
+                         "d) Vertraulichkeitsvereinbarung"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Wie nennt man einen Entwickler mit 4 Stunden Schlaf?",
+            "optionen": [
+                "a) Funktionierend.",
+                "b) Legacy-Code mit Augenringen.",
+                "c) Beta-Version seiner selbst.",
+                "d) Schlaflos in /home"
+            ],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche Aussage ist FALSCH?",
+            "optionen": ["a) Ein Abnahmeprotokoll muss von Auftraggeber und Auftragnehmer unterschrieben werden.",
+                         "b) PRINCE2 definiert das Abnahmeprotokoll im Detail.",
+                         "c) Der PMBOK-Standard kennt kein Abnahmedokument.",
+                         "d) Unternehmen entscheiden meist selbst über die Form des Protokolls."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was dokumentiert ein Abnahmeprotokoll NICHT zwingend?",
+            "optionen": ["a) Genaue Softwareversion",
+                         "b) Ergebnisse der Prüfung",
+                         "c) Testmethoden und Benchmarks",
+                         "d) Ort, Datum, Uhrzeit der Abnahme"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche technische Anforderung wurde im Beispielprotokoll überprüft?",
+            "optionen": ["a) Unterstützung von MacOS",
+                         "b) Kompatibilität mit Linux und Windows 10",
+                         "c) Internetzugang erforderlich",
+                         "d) Schnittstellen zu Datenbanken"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Punkte können im Abnahmeprotokoll als 'offen' aufgeführt werden? (Mehrfachantwort möglich)",
+            "optionen": ["a) Aufgaben, auf deren Erfüllung verzichtet wird",
+                         "b) Nicht geprüfte Kriterien",
+                         "c) Offene Mängel mit Fristsetzung",
+                         "d) Kosten für Nachbesserung"],
+            "antwort": ["a", "b", "c"]
+        },
+        {
+            "frage": "Was folgt aus einer unterzeichneten Abnahmeerklärung?",
+            "optionen": ["a) Der Auftragnehmer wird aus allen Verpflichtungen entlassen.",
+                         "b) Die Software darf nicht mehr verändert werden.",
+                         "c) Die Software gilt als vertragsgemäß erbracht.",
+                         "d) Der Kunde verliert alle Rechte auf Nachbesserung."],
+            "antwort": "c"
+        }
+    ]
+
+    modul_lernen_und_testen("8.8.3 Projektabnahmen", lerninhalte, fragen)
+
+#====================================================================================================================
+#-----------------------Extra Module zum Coding----------------------------------------------------------------------
+#====================================================================================================================
+def modul_code_API():
+    lerninhalte = [
+        "REST (Representational State Transfer) ist ein Architekturstil für verteilte Systeme, der meist in Webanwendungen verwendet wird.\n\
+        REST basiert auf dem HTTP-Protokoll und verwendet standardisierte Methoden: GET, POST, PUT, DELETE.\n\
+        RESTful APIs ermöglichen eine einfache Kommunikation zwischen Client und Server über URLs und HTTP-Operationen.\n\
+        REST ist zustandslos, nutzt meist JSON für den Datenaustausch und ist leichtgewichtig im Vergleich zu SOAP.\n\
+        Ein REST-Endpunkt (API) ist meist eine URL, die Daten bereitstellt oder entgegennimmt – z.B. /users/ oder /api/items.\n\
+        Python verwendet häufig die `requests`-Bibliothek für REST-Aufrufe.",
+
+        "Beispiel für eine GET-Anfrage in Python mit `requests`:\n\
+        ```python\n\
+        import requests\n\
+        response = requests.get('https://jsonplaceholder.typicode.com/posts/1')\n\
+        if response.status_code == 200:\n\
+            data = response.json()\n\
+            print(data['title'])\n\
+        ```\n\
+        Dieses Beispiel ruft ein Post-Objekt ab und gibt dessen Titel aus.\n\
+        Weitere Methoden sind POST (zum Erstellen), PUT (zum Aktualisieren) und DELETE (zum Löschen).",
+
+        "REST-Prinzipien:\n\
+        • Client-Server-Modell: Klare Trennung von Frontend und Backend.\n\
+        • Zustandslosigkeit: Jeder Request ist unabhängig, der Server speichert keinen Zustand.\n\
+        • Caching: Serverantworten können zwischengespeichert werden.\n\
+        • Einheitliche Schnittstelle: Ressourcen werden über definierte URLs angesprochen.\n\
+        • Layered System: Aufrufe können durch mehrere Schichten gehen (z.B. Load Balancer).\n\
+        • Code-On-Demand (optional): Server kann ausführbaren Code an Client schicken."
+    ]
+
+    fragen = [
+        {
+            "frage": "Was ist ein wesentliches Merkmal von REST?",
+            "optionen": ["a) SOAP-Nachrichten", "b) Zustandslosigkeit", "c) XML-basierte Antwort",
+                         "d) Nur PUT-Anfragen"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Methode wird in REST genutzt, um eine Ressource zu löschen?",
+            "optionen": ["a) GET", "b) POST", "c) DELETE", "d) PATCH"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was bedeutet 'zustandslos' im Kontext von REST?",
+            "optionen": ["a) Der Server speichert Sessions.",
+                         "b) Jeder Request enthält alle notwendigen Informationen.",
+                         "c) Der Client speichert Serverstatus.", "d) Nur GET-Anfragen sind erlaubt."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche Bibliothek verwendet man typischerweise in Python für REST-Zugriffe?",
+            "optionen": ["a) flask", "b) socket", "c) json", "d) requests"],
+            "antwort": "d"
+        },
+        {
+            "frage": "Was ist die Hauptaufgabe der `requests.get()`-Funktion in Python?",
+            "optionen": ["a) Daten verschlüsseln", "b) Eine Datei hochladen", "c) Eine GET-Anfrage senden",
+                         "d) Eine REST-API starten"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Was gibt `response.json()` in Python zurück?",
+            "optionen": ["a) Einen XML-String", "b) Eine HTML-Seite", "c) Ein Dictionary mit JSON-Daten",
+                         "d) Einen REST-Client"],
+            "antwort": "c"
+        },
+        {
+            "frage": "Welche REST-Methode wird verwendet, um eine neue Ressource zu erstellen?",
+            "optionen": ["a) GET", "b) POST", "c) PUT", "d) DELETE"],
+            "antwort": "b"
+        },
+        {
+            "frage": "Welche der folgenden Aussagen trifft auf REST zu?",
+            "optionen": ["a) REST nutzt typischerweise SOAP für die Kommunikation.",
+                         "b) REST benötigt zwingend XML.",
+                         "c) REST ist schwergewichtig.",
+                         "d) REST nutzt meist JSON und HTTP."],
+            "antwort": "d"
+        },
+        {
+            "frage": "Welche Aussage trifft auf das Prinzip der einheitlichen Schnittstelle zu?",
+            "optionen": ["a) Alle Ressourcen haben identische Inhalte.",
+                         "b) Ressourcen werden über definierte URLs angesprochen.",
+                         "c) Alle Antworten enthalten HTML.",
+                         "d) Jede Anfrage benötigt SSL."],
+            "antwort": "b"
+        },
+        {
+            "frage": "Was ist ein Beispiel für eine typische REST-URL?",
+            "optionen": ["a) smtp://mailserver.com", "b) telnet://localhost", "c) /api/users/1",
+                         "d) ftp://datenbank.local"],
+            "antwort": "c"
+        }
+    ]
+    modul_lernen_und_testen("Lernfeld 8.3.2 Zusatz: API - SOAP und REST", lerninhalte, fragen)
+
+#modul_code_API()
 #    modul_lernen_und_testen(modulname, lerninhalte, fragen)
 #    modul_lernen_und_testen(modulname, lerninhalte, fragen)
 #    modul_lernen_und_testen(modulname, lerninhalte, fragen)
