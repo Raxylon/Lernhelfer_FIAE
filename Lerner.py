@@ -2,35 +2,18 @@
 # modul1 = Projektmanagement
 # modul2 = Datenquellen
 # modul3 = Agile Vorgehensmodelle
+import coding_module, Lernfeld5, Lernfeld8
+#from coding_module import (modulc1)
 
-import Lernfeld8
 
-modulnamen = [f"modul{i}" for i in range(1,30)]
-module = {name: getattr(Lernfeld8, name)for name in modulnamen}
+modulnamen = [f"modul{i}" for i in range(81,832)]
+modulnamenc = [f"modulc{i}" for i in range(1,32)]
 
-def auswahl_lernfeld():
-    print("\nWähle ein Lernfeld:")
-   # print("1. Lernfeld 1")
-   # print("2. Lernfeld 2")
-    #print("3. Lernfeld 3")
-   # print("4. Lernfeld 4")
-   # print("5. Lernfeld 5")
-   # print("6. Lernfeld 6")
-   # print("7. Lernfeld 7")
-    print("8. Lernfeld 8")  # Nur dieses ist aktuell implementiert
-    print("0. Beenden")
-    return input("Deine Wahl: ")
+#m_namen_code =
+module = {name: getattr(Lernfeld8, name)for name in modulnamen if hasattr(Lernfeld8, name)}
+module_coding = {name: getattr(coding_module, name) for name in modulnamenc if hasattr(coding_module, name)}
 
-def auswahl_modul(modul_liste):
-    print("\nWähle ein Modul:")
-    for i, modul in enumerate(modul_liste, 1):
-        print(f"{i}. {modul}")
-    print("0. Zurück")
-    return input("Deine Wahl: ")
-
-def main():
-    # Nur Lernfeld 8 hat Module, alle anderen sind Platzhalter
-    module_dict = {
+module_dict = {
         "8": [
             "8.1 - Kundenaufträge im Rahmen von Softwareprojekten",
             "8.1.2 - Softwareprojekte mithilfe von agilen Vorgehensmodellen umsetzen",
@@ -64,8 +47,56 @@ def main():
             "8.8   - Software testen und dokumentieren",
             "8.8.2 - Testdatengeneratoren verwenden",
             "8.8.3 - Projektabnahmen"
+        ],
+        "c": [
+            "Tkinter"
         ]
     }
+l_auswahl=None
+
+def auswahl_lernfeld():
+    global l_auswahl
+    print("\nWähle ein Lernfeld:")
+   # print("1. Lernfeld 1")
+   # print("2. Lernfeld 2")
+    #print("3. Lernfeld 3")
+   # print("4. Lernfeld 4")
+   # print("5. Lernfeld 5")
+   # print("6. Lernfeld 6")
+   # print("7. Lernfeld 7")
+    print("8. Lernfeld 8")  # Nur dieses ist aktuell implementiert
+    print("C. Coding")
+    print("0. Beenden")
+    l_auswahl = input("Deine Wahl: ").strip().lower()
+    return l_auswahl
+
+def auswahl_modul(modul_liste):
+    print("\nWähle ein Modul:")
+    for i, modul in enumerate(modul_liste, 1):
+        print(f"{i}. {modul}")
+    print("0. Zurück")
+    return input("Deine Wahl: ").strip()
+
+def aufruf_modul(modul_index, l_auswahl):
+    #if lernfeld == "8":
+    #    i="8"
+    modul_key = f"modul{l_auswahl}{modul_index}"
+    funktion = module_coding.get(modul_key) if l_auswahl == "c" else module.get(modul_key)
+    print(modul_key)
+    """elif lernfeld == "c":
+        modul_key = f"modulc{modul_index}"
+        funktion = module_coding.get(modul_key)
+    else:
+        funktion = None"""
+
+    if callable(funktion):
+        funktion()
+    else:
+        print(f"Modul {modul_key} ist nicht implementiert oder nicht aufrufbar.")
+
+def main():
+    # Nur Lernfeld 8 hat Module, alle anderen sind Platzhalter
+
 
     while True:
         lernfeld_wahl = auswahl_lernfeld()
@@ -94,7 +125,14 @@ def main():
                 continue
 
             # Modul-Funktion aufrufen
-            if lernfeld_wahl == "8":
+            aufruf_modul(modul_index, lernfeld_wahl)
+
+
+
+if __name__ == "__main__":
+    main()
+
+""" if lernfeld_wahl == "8":
                 if modul_index == 1:
                     module["modul1"]()
                 elif modul_index == 2:
@@ -162,5 +200,10 @@ def main():
                 else:
                     print("Modul existiert, aber ist noch nicht implementiert.")
 
-if __name__ == "__main__":
-    main()
+            elif lernfeld_wahl.lower() == "c":
+                #if modul_wahl == "1":
+                #    modulc1()
+                elif modul_index == 1:
+                    module["modulc1"]()
+                else:
+                    print("Modul existiert, aber ist noch nicht implementiert.")"""
