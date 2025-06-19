@@ -53,7 +53,7 @@ def modul_lernen_und_testen(modulname, lerninhalte, fragen):
         else:
             print("Ungültige Eingabe. Bitte versuche es erneut.")
 
-def modul1():
+def modul81():
     lerninhalte = [
         "In der Zeit von Big Data und exponentiellem Datenwachstum ist es wichtig,\n\
         die anfallenden Daten entsprechend zu verarbeiten, zu speichern und\n\
@@ -181,7 +181,7 @@ def modul1():
 
     modul_lernen_und_testen("Lernfeld 8: modul1 Projektmanagement",lerninhalte,fragen)
 
-def modul2():
+def modul82():
     lerninhalte = [
         "Ein erfolgreiches Softwareprojekt wird im geplanten Zeitrahmen, innerhalb der definierten Kosten und in gewünschter Qualität abgeschlossen.",
         "Klassische Vorgehensmodelle (z.B. Wasserfallmodell, V-Modell) bestehen aus streng sequenziellen Phasen mit klaren Meilensteinen.",
@@ -310,7 +310,7 @@ def modul2():
 
     modul_lernen_und_testen("Datenquellen?", lerninhalte, fragen)
 
-def modul3():
+def modul83():
     lerninhalte = [
         "Scrum ist ein agiles Vorgehensmodell im Projektmanagement, ursprünglich für die Softwareentwicklung konzipiert.\n\
         Es ist heute das am weitesten verbreitete Modell in der Produktentwicklung, trotz einfacher Theorie schwer in der Praxis.\n\
@@ -492,7 +492,7 @@ def modul3():
 
     modul_lernen_und_testen("Agile Vorgehensmodelle", lerninhalte, fragen)
 
-def modul4():
+def modul84():
     lerninhalte = [
         "In Unternehmen entstehen große Datenmengen aus verschiedenen heterogenen Quellen, z.B. Kundenkommunikation, Maschinensensoren oder finanziellen Transaktionen.\n"
         "Die Integration dieser vielfältigen Datenquellen ohne zentralen Zugriffspunkt ist eine große Herausforderung.\n"
@@ -601,7 +601,7 @@ def modul4():
 
     modul_lernen_und_testen("SCRUM", lerninhalte, fragen)
 
-def modul5():
+def modul85():
     lerninhalte = [
         "Programme beziehen ihre Daten häufig aus externen Datenquellen. Diese können Datenbanken, Benutzer-Eingaben oder Echtzeitübertragungen von Maschinen sein. \n\
         Eine Datenquelle ist der Ursprung oder Speicherort von Daten: primär (Ursprung) oder sekundär (Speicherort).\n\
@@ -720,7 +720,7 @@ def modul5():
 
     modul_lernen_und_testen("Datenquellen", lerninhalte, fragen)
 
-def modul6():
+def modul86():
     lerninhalte = [
         "Unternehmen beziehen ihre Daten aus einer Vielzahl interner und externer Datenquellen. Diese Quellen sind oft\n\
         heterogen – d.h. uneinheitlich in Struktur, Format, Bedeutung oder Technologie.",
@@ -838,7 +838,7 @@ def modul6():
 
     modul_lernen_und_testen("Heterogene Datenquellen", lerninhalte, fragen)
 
-def modul7():
+def modul87():
     lerninhalte = [
         "8.3 Objektorientierte Softwarelösungen unter Beachtung der Informationssicherheit planen.\n\
         Mithilfe von UML-Diagrammen werden objektorientierte Anwendungen geplant und sicherheitsrelevante Aspekte berücksichtigt.\n\
@@ -997,7 +997,7 @@ def modul7():
 
     modul_lernen_und_testen("8.3.1 - Programmierparadigmen unterscheiden", lerninhalte, fragen)
 
-def modul8():
+def modul88():
     lerninhalte = [
         "Die objektorientierte Programmierung (OOP) orientiert sich an Objekten der realen Welt.\n"
         "Sie basiert auf früheren Paradigmen wie strukturierter und prozeduraler Programmierung.\n"
@@ -1313,7 +1313,7 @@ def modul8():
 
     modul_lernen_und_testen("Objektorientierte Programmierung", lerninhalte, fragen)
 
-def modul9():
+def modul89():
     lerninhalte = [
         "Sie sollen die Modellierungssprache UML kennenlernen, die einzelnen Diagrammtypen unterscheiden und das Anwendungsfalldiagramm,\n\
          das Klassendiagramm und das Aktivitätsdiagramm anwenden können.\n\
@@ -1476,7 +1476,7 @@ def modul9():
 
     modul_lernen_und_testen("Unified Modeling Language", lerninhalte, fragen)
 
-def modul10():
+def modul810():
     lerninhalte = [
         "Ein Anwendungsfalldiagramm stellt die Funktionalität eines Systems aus Sicht der Benutzer dar.\n\
 Es beschreibt *was* ein System leisten soll – nicht *wie* es technisch umgesetzt wird.\n\
@@ -1601,7 +1601,7 @@ Kreditkarte prüfen («extends», wenn Kreditkarte gewählt wird)."
 
     modul_lernen_und_testen("Das Anwendungsfalldiagramm", lerninhalte, fragen)
 
-def modul11():
+def modul811():
     lerninhalte = [
         "Klassendiagramme bilden ein zentrales Element der UML. Eingesetzt werden sie vor allem bei der Analyse und beim\n\
          Entwurf eines Softwaresystems.\n\
@@ -1763,7 +1763,7 @@ g) Die Komposition wird durch eine ausgefüllte Raute dargestellt.",
     ]
     modul_lernen_und_testen("Lernfeld 8.3.3 - Klassendiagramme",lerninhalte,fragen)
 
-def modul12():
+def modul812():
     lerninhalte = [
         "Sie sollen sich grundlegende Kenntnisse über die Notationselemente und den Aufbau von Aktivitätsdiagrammen erarbeiten und auf\n\
 konkrete Aufgaben anwenden können.\n\
@@ -1853,7 +1853,7 @@ werden in vielen Phasen der Softwareentwicklung verwendet: in der Analysephase z
 
     modul_lernen_und_testen("Lernfeld 8 - 3.3.6 - Aktivitätsdiagramm beschreiben und anwenden", lerninhalte, fragen)
 
-def modul13():
+def modul813():
     lerninhalte = [
         "Die Gefährdung von Daten und Software nimmt im Rahmen der Digitalisierung immer mehr zu,\n\
 besonders wenn diese über das Internet zugänglich sind. Besonders kritisch wird es, wenn sensible Daten\n\
@@ -1970,7 +1970,7 @@ und Maßnahmen planen (z.B. datenschutzfreundliche Voreinstellungen)."
 
     modul_lernen_und_testen("Lernfeld 8 - 3.3.7 Sicherheitsrelevante Aspekte bei der Softwareplanung", lerninhalte, fragen)
 
-def modul14():
+def modul814():
     lerninhalte = [
         "Softwareergonomie befasst sich mit der Anpassung von Software an Benutzerbedürfnisse.\n\
         Die Benutzerschnittstelle ist das Bindeglied zwischen Mensch und Computer.\n\
@@ -2072,7 +2072,7 @@ def modul14():
 
     modul_lernen_und_testen("Lernfeld 8 - 3.4 - Benutzerschnittstellen unter softwareergonomischen Gesichtspunkten planen", lerninhalte, fragen)
 
-def modul15():
+def modul815():
     lerninhalte = [
         "Bevor mit der Umsetzung eines User Interfaces begonnen wird, sollten grafische Entwürfe erstellt werden:\n\
         Sketches, Wireframes, Mockups, Prototypen.\n\
@@ -2179,7 +2179,7 @@ def modul15():
 
     modul_lernen_und_testen("Lernfeld 8.3.4.2 Eine Oberfläche für eine Benutzerschnittstelle entwerfen", lerninhalte, fragen)
 
-def modul16():
+def modul816():
     lerninhalte = [
         "Java ist eine moderne, populäre und einfach zu erlernende objektorientierte Programmiersprache.",
         "Java wird seit 1995 (entwickelt von SUN, ab 2010 weitergeführt von Oracle) genutzt und ist in der Praxis weit verbreitet.",
@@ -2308,7 +2308,7 @@ def modul16():
 
     modul_lernen_und_testen("Lernfeld 8.3.5.1 Java beschreiben und eine Entwicklungsumgebung auswählen ", lerninhalte, fragen)
 
-def modul17():
+def modul817():
     lerninhalte = [
         "Sie lernen grundlegende Sprachelemente von Java kennen und entwickeln einfache Konsolenanwendungen.",
         "Es wird eine kurze Einführung in die grundlegenden Sprachelemente von Java gegeben – darunter Operatoren, Kontrollstrukturen,\n\
@@ -2464,7 +2464,7 @@ def modul17():
     ]
     modul_lernen_und_testen("Lernfeld 8.3.5.2 Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren", lerninhalte, fragen)
 
-def modul18():
+def modul818():
    lerninhalte = [
        "Die objektorientierte Programmierung in Java basiert auf den vier Grundkonzepten: Abstraktion, Kapselung, Vererbung und Polymorphie.\n"
        "Java unterstützt diese Konzepte vollständig, jedoch ist Mehrfachvererbung nur über Interfaces möglich.\n"
@@ -2672,7 +2672,7 @@ def modul18():
    ]
    modul_lernen_und_testen("Lernfeld 8.3.5.3 Das objektorientierte Programmierparadigma in Java umsetzen", lerninhalte, fragen)
 
-def modul19():
+def modul819():
     lerninhalte =[
         "Grafische Benutzeroberflächen (GUIs) in Java ermöglichen eine komplexere Interaktion als Konsolenanwendungen.",
         "GUI-Programmierung erfordert Planung und ist aufwändiger hinsichtlich Benutzerfreundlichkeit und Oberflächendesign.",
@@ -2804,7 +2804,7 @@ def modul19():
 
     modul_lernen_und_testen("Lernfeld 8.3.5.4 Grafische Benutzerschnittstellen in Java entwickeln", lerninhalte, fragen)
 
-def modul20():
+def modul820():
     lerninhalte = [
         "Ziel: Erweiterung der Kenntnisse über objektorientierte Programmierung (OOP) und grafische Benutzeroberflächen in Python.\n\
         Voraussetzung: Grundkenntnisse in Python und Entwicklungsumgebung (z.B. PyCharm).",
@@ -2912,7 +2912,7 @@ def modul20():
     ]
     modul_lernen_und_testen("Lernfeld 8.3.6 Anwendungen in Python implementieren", lerninhalte, fragen)
 
-def modul21():
+def modul821():
     lerninhalte = [
             "Grafische Benutzeroberflächen (GUIs) unterscheiden sich von Konsolenanwendungen durch ihre Interaktionsmöglichkeiten.\n\
             GUIs bieten viele Oberflächenelemente (Widgets) und ermöglichen benutzerfreundliche Eingaben und Ausgaben.\n\
@@ -3029,7 +3029,7 @@ def modul21():
 
     modul_lernen_und_testen("Lernfeld 8.6.2 Grafische Benutzerschnittstellen in Python entwickeln", lerninhalte, fragen)
 
-def modul22():
+def modul822():
     lerninhalte = [
         "Zur Entwicklung bedarfsgerechter Datenbanklösungen muss das Wissen über Datenbanken und SQL erweitert werden.\n\
         Es stehen verschiedene Datenmodelle und Datenbankmanagementsysteme zur Verfügung, die sorgfältig ausgewählt werden müssen.",
@@ -3134,7 +3134,7 @@ def modul22():
 
     modul_lernen_und_testen("Lernfeld 8.7.1 Datenbanklösungen bedarfsgerecht entwickeln", lerninhalte, fragen)
 
-def modul23():
+def modul823():
     lerninhalte = [
         "Relationale Datenbanken sind zentrale Werkzeuge für Unternehmen und Behörden zur Speicherung, Verwaltung und Auswertung\n\
         großer Datenmengen. Ihre Qualität ist entscheidend, weshalb sie sorgfältig entworfen und umgesetzt werden müssen.\n\
@@ -3256,7 +3256,7 @@ def modul23():
 
     modul_lernen_und_testen("Lernfeld 8.7.2 Den Prozess des Designs relationaler Datenbanken beschreiben", lerninhalte, fragen)
 
-def modul24():
+def modul824():
     lerninhalte = [
         "Normalisierung ist ein Verfahren zur Reduzierung von Datenredundanz und zur Erhöhung der Datenkonsistenz in relationalen\n\
         Datenbankmodellen.",
@@ -3375,7 +3375,7 @@ def modul24():
 
     modul_lernen_und_testen("Lernfeld 8.7.3 Relationale Datenmodelle normalisieren ", lerninhalte, fragen)
 
-def modul25():
+def modul825():
     lerninhalte = [
         "Erweiterung des SQL-Basiswissens um neue Anweisungen.\n\
         Zentrale Anweisungen: CREATE/DROP DATABASE, CREATE/ALTER/DROP TABLE,\n\
@@ -3551,7 +3551,7 @@ def modul25():
 
     modul_lernen_und_testen("Lernfeld 8.7.4 Das Basiswissen über SQL erweitern und anwenden", lerninhalte, fragen)
 
-def modul26():
+def modul826():
     lerninhalte = [
         "MySQL ist ein relationales Datenbankmanagementsystem (RDBMS), das SQL verwendet und besonders für seine Performance\n\
         und Plattformvielfalt bekannt ist. Es wurde 1994 von MySQLAB entwickelt und gehört seit 2010 zu Oracle.",
@@ -3722,7 +3722,7 @@ def modul26():
 
     modul_lernen_und_testen("Lernfeld 8.7.5 Eine MySQL-Datenbank mit Java ansprechen ", lerninhalte, fragen)
 
-def modul27():
+def modul827():
     lerninhalte = [
         "NoSQL-Datenbanken (Not only SQL) ergänzen relationale Datenbanken, besonders bei unstrukturierten oder unbekannten Daten\n\
         – z.B. in Big-Data-Anwendungen.\n\
@@ -3851,7 +3851,7 @@ def modul27():
 
     modul_lernen_und_testen("Lernfeld 8.7.6 NoSQL-Datenbanken und deren Datenmodelle unterscheiden", lerninhalte, fragen)
 
-def modul28():
+def modul828():
     lerninhalte = [
         "MongoDB ist ein dokumentbasiertes NoSQL-Datenbankmanagementsystem, das oft in der modernen Anwendungsentwicklung und in der Cloud eingesetzt wird.\n\
 Es ist Open-Source und auf Windows, MacOS und Linux verfügbar. Die verwalteten Dokumente sind im JSON-ähnlichen Format.\n\
@@ -3987,7 +3987,7 @@ Daten abfragen:\n\
     ]
     modul_lernen_und_testen("Lernfeld 8.7.7 Die NoSQL-Datenbank 'MongoDB' mit Python ansprechen ", lerninhalte, fragen)
 
-def modul29():
+def modul829():
     lerninhalte = [
         "Cloud-Datenbanken sind ein wachsender Bereich im Cloud-Markt und werden als Database as a Service (DBaaS) angeboten.\n\
         Es gibt universelle und spezialisierte Angebote, inklusive relationaler und NoSQL-Datenbanken.\n\
@@ -4093,7 +4093,7 @@ def modul29():
 
     modul_lernen_und_testen("Lernfelder 8.7.8 Cloud-basierte Datenbanklösungen unterscheiden", lerninhalte, fragen)
 
-def modul30():
+def modul830():
     lerninhalte = [
         "Beim Testen von Software kommen verschiedene Testverfahren zum Einsatz.\n"
         "Diese lassen sich in zwei Hauptarten einteilen: Black-Box-Tests und White-Box-Tests.\n"
@@ -4238,7 +4238,7 @@ def modul30():
     ]
     modul_lernen_und_testen("Lernfeld 8.8 Software testen und dokumentieren", lerninhalte, fragen)
 
-def modul31():
+def modul831():
     lerninhalte = [
         "Testdatengeneratoren erzeugen synthetische Daten für Softwaretests, z.B. für Last-, Leistungs- und Stresstests.",
         "Sie werden verwendet, wenn reale Testdaten fehlen oder nicht ausreichen. Auch sensible Daten können durch Dummydaten ersetzt werden.",
@@ -4332,7 +4332,7 @@ def modul31():
     ]
     modul_lernen_und_testen("Lernfeld 8.8.2 Testdatengeneratoren verwenden", lerninhalte, fragen)
 
-def modul32():
+def modul832():
     lerninhalte = [
         "Die Abnahme ist der Vorgang, bei dem der Auftraggeber die erstellte Software prüft und erklärt, dass sie den vertraglich vereinbarten Anforderungen entspricht.\n\
         Sie ist gesetzlich vorgeschrieben, wenn ein Werkvertrag besteht. Grundlage sind Vertrag oder Pflichtenheft.\n\
@@ -4462,100 +4462,7 @@ def modul32():
 #====================================================================================================================
 #-----------------------Extra Module zum Coding----------------------------------------------------------------------
 #====================================================================================================================
-def modul_code_API():
-    lerninhalte = [
-        "REST (Representational State Transfer) ist ein Architekturstil für verteilte Systeme, der meist in Webanwendungen verwendet wird.\n\
-        REST basiert auf dem HTTP-Protokoll und verwendet standardisierte Methoden: GET, POST, PUT, DELETE.\n\
-        RESTful APIs ermöglichen eine einfache Kommunikation zwischen Client und Server über URLs und HTTP-Operationen.\n\
-        REST ist zustandslos, nutzt meist JSON für den Datenaustausch und ist leichtgewichtig im Vergleich zu SOAP.\n\
-        Ein REST-Endpunkt (API) ist meist eine URL, die Daten bereitstellt oder entgegennimmt – z.B. /users/ oder /api/items.\n\
-        Python verwendet häufig die `requests`-Bibliothek für REST-Aufrufe.",
 
-        "Beispiel für eine GET-Anfrage in Python mit `requests`:\n\
-        ```python\n\
-        import requests\n\
-        response = requests.get('https://jsonplaceholder.typicode.com/posts/1')\n\
-        if response.status_code == 200:\n\
-            data = response.json()\n\
-            print(data['title'])\n\
-        ```\n\
-        Dieses Beispiel ruft ein Post-Objekt ab und gibt dessen Titel aus.\n\
-        Weitere Methoden sind POST (zum Erstellen), PUT (zum Aktualisieren) und DELETE (zum Löschen).",
-
-        "REST-Prinzipien:\n\
-        • Client-Server-Modell: Klare Trennung von Frontend und Backend.\n\
-        • Zustandslosigkeit: Jeder Request ist unabhängig, der Server speichert keinen Zustand.\n\
-        • Caching: Serverantworten können zwischengespeichert werden.\n\
-        • Einheitliche Schnittstelle: Ressourcen werden über definierte URLs angesprochen.\n\
-        • Layered System: Aufrufe können durch mehrere Schichten gehen (z.B. Load Balancer).\n\
-        • Code-On-Demand (optional): Server kann ausführbaren Code an Client schicken."
-    ]
-
-    fragen = [
-        {
-            "frage": "Was ist ein wesentliches Merkmal von REST?",
-            "optionen": ["a) SOAP-Nachrichten", "b) Zustandslosigkeit", "c) XML-basierte Antwort",
-                         "d) Nur PUT-Anfragen"],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche Methode wird in REST genutzt, um eine Ressource zu löschen?",
-            "optionen": ["a) GET", "b) POST", "c) DELETE", "d) PATCH"],
-            "antwort": "c"
-        },
-        {
-            "frage": "Was bedeutet 'zustandslos' im Kontext von REST?",
-            "optionen": ["a) Der Server speichert Sessions.",
-                         "b) Jeder Request enthält alle notwendigen Informationen.",
-                         "c) Der Client speichert Serverstatus.", "d) Nur GET-Anfragen sind erlaubt."],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche Bibliothek verwendet man typischerweise in Python für REST-Zugriffe?",
-            "optionen": ["a) flask", "b) socket", "c) json", "d) requests"],
-            "antwort": "d"
-        },
-        {
-            "frage": "Was ist die Hauptaufgabe der `requests.get()`-Funktion in Python?",
-            "optionen": ["a) Daten verschlüsseln", "b) Eine Datei hochladen", "c) Eine GET-Anfrage senden",
-                         "d) Eine REST-API starten"],
-            "antwort": "c"
-        },
-        {
-            "frage": "Was gibt `response.json()` in Python zurück?",
-            "optionen": ["a) Einen XML-String", "b) Eine HTML-Seite", "c) Ein Dictionary mit JSON-Daten",
-                         "d) Einen REST-Client"],
-            "antwort": "c"
-        },
-        {
-            "frage": "Welche REST-Methode wird verwendet, um eine neue Ressource zu erstellen?",
-            "optionen": ["a) GET", "b) POST", "c) PUT", "d) DELETE"],
-            "antwort": "b"
-        },
-        {
-            "frage": "Welche der folgenden Aussagen trifft auf REST zu?",
-            "optionen": ["a) REST nutzt typischerweise SOAP für die Kommunikation.",
-                         "b) REST benötigt zwingend XML.",
-                         "c) REST ist schwergewichtig.",
-                         "d) REST nutzt meist JSON und HTTP."],
-            "antwort": "d"
-        },
-        {
-            "frage": "Welche Aussage trifft auf das Prinzip der einheitlichen Schnittstelle zu?",
-            "optionen": ["a) Alle Ressourcen haben identische Inhalte.",
-                         "b) Ressourcen werden über definierte URLs angesprochen.",
-                         "c) Alle Antworten enthalten HTML.",
-                         "d) Jede Anfrage benötigt SSL."],
-            "antwort": "b"
-        },
-        {
-            "frage": "Was ist ein Beispiel für eine typische REST-URL?",
-            "optionen": ["a) smtp://mailserver.com", "b) telnet://localhost", "c) /api/users/1",
-                         "d) ftp://datenbank.local"],
-            "antwort": "c"
-        }
-    ]
-    modul_lernen_und_testen("Lernfeld 8.3.2 Zusatz: API - SOAP und REST", lerninhalte, fragen)
 
 #modul_code_API()
 #    modul_lernen_und_testen(modulname, lerninhalte, fragen)
