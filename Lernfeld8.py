@@ -4462,6 +4462,7 @@ def modul832():
 #====================================================================================================================
 #-----------------------Extra Module zum Coding----------------------------------------------------------------------
 #====================================================================================================================
+<<<<<<< HEAD
 
 
 #modul_code_API()
@@ -4474,3 +4475,20 @@ def modul832():
 #    modul_lernen_und_testen(modulname, lerninhalte, fragen)
 #    modul_lernen_und_testen(modulname, lerninhalte, fragen)
 #
+=======
+
+
+#modul_code_API()
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#    modul_lernen_und_testen(modulname, lerninhalte, fragen)
+#
+
+
+
+>>>>>>> 19c252ac994c40c46728615f1f1c79a1b5573f15

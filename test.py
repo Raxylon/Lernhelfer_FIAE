@@ -6,8 +6,13 @@ lernfelder = [
 
 def auswahl_lernfeld(): #rate doch mal
 
+<<<<<<< HEAD
     #for index, value in enumerate(lernfelder,1): # einmal liste durchnummeriere (enumerate), und mit name zeigen (value)
      #   print(f"{index}-{value.upper()}")
+=======
+    for index, value in enumerate(lernfelder,1): # einmal liste durchnummeriere (enumerate), und mit name zeigen (value)
+        print(f"{index}-{value.upper()}")
+>>>>>>> 19c252ac994c40c46728615f1f1c79a1b5573f15
 
     #return x
     while True:
@@ -25,4 +30,8 @@ def auswahl_lernfeld(): #rate doch mal
             print("gut gmaht")
             menu()
 
+<<<<<<< HEAD
 auswahl_lernfeld()
+=======
+auswahl_lernfeld()
+>>>>>>> 19c252ac994c40c46728615f1f1c79a1b5573f15
