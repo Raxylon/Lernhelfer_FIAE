@@ -2,35 +2,18 @@
 # modul1 = Projektmanagement
 # modul2 = Datenquellen
 # modul3 = Agile Vorgehensmodelle
-
-from Lernfeld8 import (modul1, modul2, modul3, modul4, modul5, modul6, modul7, modul8, modul9, modul10, modul11, modul12, modul13, modul14)
-from Lernfeld8 import (modul15, modul16, modul17, modul18, modul19, modul20)
-
-def auswahl_lernfeld():
-    print("\nWähle ein Lernfeld:")
-   # print("1. Lernfeld 1")
-   # print("2. Lernfeld 2")
-    #print("3. Lernfeld 3")
-   # print("4. Lernfeld 4")
-   # print("5. Lernfeld 5")
-   # print("6. Lernfeld 6")
-   # print("7. Lernfeld 7")
-    print("8. Lernfeld 8")  # Nur dieses ist aktuell implementiert
-    print("0. Beenden")
-    return input("Deine Wahl: ")
+import coding_module, Lernfeld5, Lernfeld8
+#from coding_module import (modulc1)
 
 
-def auswahl_modul(modul_liste):
-    print("\nWähle ein Modul:")
-    for i, modul in enumerate(modul_liste, 1):
-        print(f"{i}. {modul}")
-    print("0. Zurück")
-    return input("Deine Wahl: ")
+modulnamen = [f"modul{i}" for i in range(81,832)]
+modulnamenc = [f"modulc{i}" for i in range(1,32)]
 
+#m_namen_code =
+module = {name: getattr(Lernfeld8, name)for name in modulnamen if hasattr(Lernfeld8, name)}
+module_coding = {name: getattr(coding_module, name) for name in modulnamenc if hasattr(coding_module, name)}
 
-def main():
-    # Nur Lernfeld 8 hat Module, alle anderen sind Platzhalter
-    module_dict = {
+module_dict = {
         "8": [
             "8.1 - Kundenaufträge im Rahmen von Softwareprojekten",
             "8.1.2 - Softwareprojekte mithilfe von agilen Vorgehensmodellen umsetzen",
@@ -51,9 +34,69 @@ def main():
             "8.5.2 - Grundlegende Sprachelemente beschreiben und Konsolenanwendungen implementieren",
             "8.5.3 - Das objektorientierte Programmierparadigma in Java umsetzen",
             "8.5.4 - Grafische Benutzerschnittstellen in Java entwickeln",
-            "8.6.  - Anwendungen in Python implementieren"
+            "8.6.  - Anwendungen in Python implementieren",
+            "8.6.2 - Grafische Benutzerschnittstellen in Python entwickeln",
+            "8.7.1 - Datenbanklösungen bedarfsgerecht entwickeln",
+            "8.7.2 - Den Prozess des Designs relationaler Datenbanken beschreiben",
+            "8.7.3 - Relationale Datenmodelle normalisieren",
+            "8.7.4 - Das Basiswissen über SQL erweitern und anwenden",
+            "8.7.5 - Eine MySQL-Datenbank mit Java ansprechen",
+            "8.7.6 - NoSQL-Datenbanken und deren Datenmodelle unterscheiden",
+            "8.7.7 - Die NoSQL-Datenbank 'MongoDB' mit Python ansprechen ",
+            "8.7.8 - Cloud-basierte Datenbanklösungen unterscheiden",
+            "8.8   - Software testen und dokumentieren",
+            "8.8.2 - Testdatengeneratoren verwenden",
+            "8.8.3 - Projektabnahmen"
+        ],
+        "c": [
+            "Tkinter"
         ]
     }
+l_auswahl=None
+
+def auswahl_lernfeld():
+    global l_auswahl
+    print("\nWähle ein Lernfeld:")
+   # print("1. Lernfeld 1")
+   # print("2. Lernfeld 2")
+    #print("3. Lernfeld 3")
+   # print("4. Lernfeld 4")
+   # print("5. Lernfeld 5")
+   # print("6. Lernfeld 6")
+   # print("7. Lernfeld 7")
+    print("8. Lernfeld 8")  # Nur dieses ist aktuell implementiert
+    print("C. Coding")
+    print("0. Beenden")
+    l_auswahl = input("Deine Wahl: ").strip().lower()
+    return l_auswahl
+
+def auswahl_modul(modul_liste):
+    print("\nWähle ein Modul:")
+    for i, modul in enumerate(modul_liste, 1):
+        print(f"{i}. {modul}")
+    print("0. Zurück")
+    return input("Deine Wahl: ").strip()
+
+def aufruf_modul(modul_index, l_auswahl):
+    #if lernfeld == "8":
+    #    i="8"
+    modul_key = f"modul{l_auswahl}{modul_index}"
+    funktion = module_coding.get(modul_key) if l_auswahl == "c" else module.get(modul_key)
+    print(modul_key)
+    """elif lernfeld == "c":
+        modul_key = f"modulc{modul_index}"
+        funktion = module_coding.get(modul_key)
+    else:
+        funktion = None"""
+
+    if callable(funktion):
+        funktion()
+    else:
+        print(f"Modul {modul_key} ist nicht implementiert oder nicht aufrufbar.")
+
+def main():
+    # Nur Lernfeld 8 hat Module, alle anderen sind Platzhalter
+
 
     while True:
         lernfeld_wahl = auswahl_lernfeld()
@@ -82,51 +125,85 @@ def main():
                 continue
 
             # Modul-Funktion aufrufen
-            if lernfeld_wahl == "8":
-                if modul_index == 1:
-                    modul1()
-                elif modul_index == 2:
-                    modul2()
-                elif modul_index == 3:
-                    modul3()
-                elif modul_index == 4:
-                    modul4()
-                elif modul_index == 5:
-                    modul5()
-                elif modul_index == 6:
-                    modul6()
-                elif modul_index == 7:
-                    modul7()
-                elif modul_index == 8:
-                    modul8()
-                elif modul_index == 9:
-                    modul9()
-                elif modul_index == 10:
-                    modul10()
-                elif modul_index == 11:
-                    modul11()
-                elif modul_index == 12:
-                    modul12()
-                elif modul_index == 13:
-                    modul13()
-                elif modul_index == 14:
-                    modul14()
-                elif modul_index == 15:
-                    modul15()
-                elif modul_index == 16:
-                    modul16()
-                elif modul_index == 17:
-                    modul17()
-                elif modul_index == 18:
-                    modul18()
-                elif modul_index == 19:
-                    modul19()
-                elif modul_index == 20:
-                    modul20()
-               # elif modul_index == 21:
-               #     modul21()
-                else:
-                    print("Modul existiert, aber ist noch nicht implementiert.")
+            aufruf_modul(modul_index, lernfeld_wahl)
+
+
 
 if __name__ == "__main__":
     main()
+
+""" if lernfeld_wahl == "8":
+                if modul_index == 1:
+                    module["modul1"]()
+                elif modul_index == 2:
+                    module["modul2"]()
+                elif modul_index == 3:
+                    module["modul3"]()
+                elif modul_index == 4:
+                    module["modul4"]()
+                elif modul_index == 5:
+                    module["modul5"]()
+                elif modul_index == 6:
+                    module["modul6"]()
+                elif modul_index == 7:
+                    module["modul7"]()
+                elif modul_index == 8:
+                    module["modul8"]()
+                elif modul_index == 9:
+                    module["modul9"]()
+                elif modul_index == 10:
+                    module["modul10"]()
+                elif modul_index == 11:
+                    module["modul11"]()
+                elif modul_index == 12:
+                    module["modul12"]()
+                elif modul_index == 13:
+                    module["modul13"]()
+                elif modul_index == 14:
+                    module["modul14"]()
+                elif modul_index == 15:
+                    module["modul15"]()
+                elif modul_index == 16:
+                    module["modul16"]()
+                elif modul_index == 17:
+                    module["modul17"]()
+                elif modul_index == 18:
+                    module["modul18"]()
+                elif modul_index == 19:
+                    module["modul19"]()
+                elif modul_index == 20:
+                    module["modul20"]()
+                elif modul_index == 21:
+                    module["modul21"]()
+                elif modul_index == 22:
+                    module["modul22"]()
+                elif modul_index == 23:
+                    module["modul23"]()
+                elif modul_index == 24:
+                    module["modul24"]()
+                elif modul_index == 25:
+                    module["modul25"]()
+                elif modul_index == 26:
+                    module["modul26"]()
+                elif modul_index == 27:
+                    module["modul27"]()
+                elif modul_index == 28:
+                    module["modul28"]()
+                elif modul_index == 29:
+                    module["modul29"]()
+                elif modul_index == 30:
+                    module["modul30"]()
+                elif modul_index == 31:
+                    module["modul31"]()
+                elif modul_index == 32:
+                    module["modul32"]()
+                else:
+                    print("Modul existiert, aber ist noch nicht implementiert.")
+
+            elif lernfeld_wahl.lower() == "c":
+                #if modul_wahl == "1":
+                #    modulc1()
+                elif modul_index == 1:
+                    module["modulc1"]()
+                else:
+                    print("Modul existiert, aber ist noch nicht implementiert.")"""
