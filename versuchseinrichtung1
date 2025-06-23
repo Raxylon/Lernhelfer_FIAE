@@ -4,10 +4,11 @@ try:
     while True:
         with open("lernmodule.json", "r", encoding="utf-8") as f:
             daten = json.load(f)
-
-            lernfeld_wahl = int(input("Wähle ein Lernfeld!\n8 - \nWelche Zahl darf es sein?\n-> "))
-            lernfeld = daten[f"lernmoduleLF{lernfeld_wahl}"]
-
+            lf_names = daten["Lernfelder"]
+            print("Lernfelder: ", lf_names.keys)
+            lernfeld_wahl = input("Wähle ein Lernfeld!\n08 - \n09 - \nWelche Zahl darf es sein?\n-> ")
+            lernfeld = lf_names[f"lernmoduleLF{lernfeld_wahl}"]
+            print("Lernmodule: ", lernfeld)
             # Thema-Liste über alle Module zusammensetzen
             thema_list = []
             thema_modul_map = {}  # Thema -> Modul
