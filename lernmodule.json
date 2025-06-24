@@ -8216,7 +8216,2076 @@
             }
           ]
         }
+      },
+      "lm29": {
+        "9.3.3 Server-Software unterscheiden": {
+          "lerninhalt": [
+            "Sie sollen Server‑Software und die Möglichkeiten zur Virtualisierung von Servern kennen.",
+            "Verschiedene Möglichkeiten der Virtualisierung sind heute verfügbar.",
+            "Da unter dem Marketingnamen „Cloud“ die Virtualisierung ganzer Rechenzentren voranschreitet, geht dieses Kapitel 4.3.3 auf die Virtualisierungstechniken ein und das Kapitel 9.3.4 auf die Server‑Hardware und Produkte."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist das Ziel der Virtualisierung von Servern?",
+              "optionen": [
+                "a) Reduzierung physischer Hardware",
+                "b) Steigerung der Papierdokumentation",
+                "c) Erhöhung des Stromverbrauchs",
+                "d) Verringerung der Netzwerkbandbreite"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welcher Begriff wird häufig als Marketingname für Virtualisierung ganzer Rechenzentren verwendet?",
+              "optionen": [
+                "a) Grid Computing",
+                "b) Cloud",
+                "c) Blockchain",
+                "d) Edge"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Kapitel behandelt Virtualisierungstechniken laut Text?",
+              "optionen": [
+                "a) 4.3.3",
+                "b) 9.3.4",
+                "c) 3.2.1",
+                "d) 5.5.5"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welches Kapitel befasst sich mit Server‑Hardware und Produkten?",
+              "optionen": [
+                "a) 4.3.3",
+                "b) 9.3.4",
+                "c) 7.1.1",
+                "d) 8.2.2"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aussage trifft zu? \"Cloud\" bezeichnet ...",
+              "optionen": [
+                "a) lokale Backup-Systeme",
+                "b) Virtualisierung von Rechenzentren",
+                "c) klassische Client‑Server‑Architekturen",
+                "d) nur Desktop‑Virtualisierung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Werden in Kapitel 4.3.3 Techniken oder Hardware behandelt?",
+              "optionen": [
+                "a) Techniken zur Virtualisierung",
+                "b) Hardware und Produkte",
+                "c) Netzwerktechniken",
+                "d) Sicherheitskonzepte"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Server‑Software‑Konzepte sollen Sie kennen?",
+              "optionen": [
+                "a) BIOS‑Updates",
+                "b) Datenbank‑Indexierung",
+                "c) Virtualisierungsmöglichkeiten",
+                "d) Druckertreiberinstallation"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum ist Virtualisierung heute besonders wichtig?",
+              "optionen": [
+                "a) Wegen Cloud‑Marketing",
+                "b) Nur zur Serverraumheizung",
+                "c) Für lokal installierte Anwendungen",
+                "d) Zum Verpacken von Software"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche der folgenden sind Virtualisierungstechniken?",
+              "optionen": [
+                "a) Hypervisor, Container, VM",
+                "b) NAS, SAN, DAS",
+                "c) DNS, DHCP, FTP",
+                "d) SMTP, POP3, IMAP"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was unterscheidet Kapitel 4.3.3 und 9.3.4?",
+              "optionen": [
+                "a) 4.3.3 beschreibt Hardware, 9.3.4 beschreibt Techniken",
+                "b) 4.3.3 behandelt Virtualisierungstechniken, 9.3.4 behandelt Server‑Hardware",
+                "c) Beide behandeln nur Client‑Seite",
+                "d) Beide sind gleichwohl identisch"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Virtualisierungsfanatiker?",
+              "optionen": [
+                "a) Cloud‑Star",
+                "b) VM‑Verrückter",
+                "c) Hypervisor‑Hero",
+                "d) Container‑Clown"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm30": {
+        "9.3.3(1) Server-Virtualisierung mittels virtueller Maschinen und Containern": {
+          "lerninhalt": [
+            "Mit der Virtualisierung von Servern entfällt die Abhängigkeit von der darunter liegenden Hardware. Sie wird austauschbar.",
+            "Virtualisierung bietet den Vorteil, dass die erforderlichen Ressourcen wie CPU-Kerne und Speicher beliebig skaliert werden können.",
+            "Mehrere virtualisierte Server (auch VM, virtuelle Maschinen) können auf einer Hardware betrieben werden.",
+            "Bei der Überprovisionierung werden mehr virtuelle CPU-Kerne an virtuelle Maschinen verteilt, als physikalisch vorhanden sind. Dies kann zu CPU-Zeit-Knappheit führen.",
+            "Container sind leichtgewichtige virtuelle Umgebungen, die das Betriebssystem des Wirts nutzen, im Gegensatz zu VMs, die ein eigenes Betriebssystem benötigen.",
+            "Container enthalten die Anwendung und alle zugehörigen Bibliotheken, aber kein Betriebssystem.",
+            "Beispiele für Container-Technologien sind Docker, CRI-O oder Kata Containers.",
+            "Container werden über Plattformen wie Kubernetes orchestriert und ermöglichen skalierbare Server-Software.",
+            "Ein Hypervisor ist Software, die virtuelle Maschinen ermöglicht. Typ-1-Hypervisor (Bare Metal) laufen direkt auf der Hardware, Typ-2-Hypervisor (Hosted) laufen auf einem Betriebssystem.",
+            "Beispiele für Typ-1: VMware ESXi, XCP-NG. Beispiele für Typ-2: Proxmox VE, VMware Player.",
+            "Verwaltungssoftware wie oVirt, Sovereign Cloud Stack oder VMware vSphere ermöglicht die Administration virtueller Maschinen und Container.",
+            "Über Web-Interfaces können Snapshots, Neustarts, Start/Stop, Rollbacks von VMs durchgeführt werden.",
+            "Snapshots speichern den Systemzustand. Rollback stellt diesen wieder her.",
+            "Virtualisierung erlaubt schnelle Bereitstellung, höhere Verfügbarkeit, weniger Hardwareeinsatz und einfache Skalierung.",
+            "Nachteile: Know-how erforderlich, Single Point of Failure bei nicht verteilten Umgebungen.",
+            "Beispiele für Virtualisierungsplattformen: KVM, OpenVZ, Hyper-V, Parallels Desktop, QEMU, VirtualBox, VMware Fusion, Xen Server.",
+            "Failover-Konzepte mit RAID-Verbund und mehreren Bare-Metals sichern Ausfallszenarien ab.",
+            "Cloud-Software kann über mehrere Rechenzentren verteilt werden – erhöht Redundanz und Ausfallsicherheit."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist der Hauptvorteil der Virtualisierung von Servern?",
+              "optionen": [
+                "a) Bessere Bildschirmauflösung",
+                "b) Hardwareunabhängigkeit und Skalierbarkeit",
+                "c) Schnellere Druckaufträge",
+                "d) Einfachere Bürokommunikation"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was passiert bei einer Überprovisionierung von CPU-Kernen?",
+              "optionen": [
+                "a) Die VM wird gelöscht",
+                "b) Die CPU-Kerne werden langsamer getaktet",
+                "c) Eine VM bekommt weniger CPU-Zeit, wenn eine andere ausgelastet ist",
+                "d) Die VMs tauschen Betriebssysteme"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Worin liegt der Unterschied zwischen einer virtuellen Maschine und einem Container?",
+              "optionen": [
+                "a) VMs laufen ohne Betriebssystem",
+                "b) Container benötigen keine CPU",
+                "c) VMs emulieren eigene Hardware, Container nutzen das Host-OS",
+                "d) Container enthalten keine Anwendungen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist ein Hypervisor Typ 1 (Bare Metal)?",
+              "optionen": [
+                "a) Läuft innerhalb einer VM",
+                "b) Wird für Druckaufträge verwendet",
+                "c) Läuft direkt auf der physischen Hardware",
+                "d) Nur in Containern einsetzbar"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Software gehört zur Verwaltung virtueller Maschinen?",
+              "optionen": [
+                "a) LibreOffice",
+                "b) oVirt",
+                "c) Mozilla Thunderbird",
+                "d) GIMP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist der Zweck eines Snapshots bei virtuellen Maschinen?",
+              "optionen": [
+                "a) Hardware-Backup",
+                "b) Stromsparfunktion",
+                "c) Speicherung des Systemzustands zur späteren Wiederherstellung",
+                "d) Erhöhung der CPU-Leistung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Aussagen sind korrekt? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Container enthalten vollständige Betriebssysteme.",
+                "b) VMs laufen unabhängig vom Wirt-Betriebssystem.",
+                "c) Container nutzen das Wirtssystem mit eigener Isolierung.",
+                "d) VMs benötigen einen Hypervisor."
+              ],
+              "antwort": ["b", "c", "d"]
+            },
+            {
+              "frage": "Was ist ein Risiko bei der Nutzung nur eines Bare-Metal-Servers?",
+              "optionen": [
+                "a) Schnellere Internetverbindung",
+                "b) Single Point of Failure – alle VMs fallen bei Hardwarefehler aus",
+                "c) Speicherüberschuss",
+                "d) Redundanz wird automatisch erhöht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Virtualisierungsplattformen existieren? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Docker",
+                "b) KVM",
+                "c) VMware Fusion",
+                "d) WhatsApp"
+              ],
+              "antwort": ["b", "c"]
+            },
+            {
+              "frage": "Wie nennt man eine virtuelle Umgebung, die keine eigene OS-Kopie enthält, aber alle nötigen Bibliotheken?",
+              "optionen": [
+                "a) Hypervisor",
+                "b) Snapshot",
+                "c) Container",
+                "d) VM"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum surft der Container nicht mehr im Internet?",
+              "optionen": [
+                "a) Er hat sein Netzwerkinterface verloren.",
+                "b) Er hat sich isoliert.",
+                "c) Er hat keine Containerfreunde mehr.",
+                "d) Sein Docker-Führerschein wurde eingezogen."
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm31": {
+        "9.3.3(2) Software as a Service (SaaS)": {
+          "lerninhalt": [
+            "Software as a Service (SaaS) beschreibt eine Mietlösung, bei der der Anbieter die Anwendungssoftware auf einem Server bereitstellt.",
+            "Der Kunde nutzt die Anwendung meist über einen Browser, ohne eigene Server-IT bereitstellen oder verwalten zu müssen.",
+            "Beispiele für SaaS-Anwendungen sind Trello, Salesforce und Microsoft Office 365.",
+            "Vorteile von SaaS: Mitarbeiter des Kunden erhalten weltweiten Zugriff über Browser; keine Notwendigkeit, sich mit Hardware, Betriebssystem, Datenbanken oder Firewalls auseinanderzusetzen; der Anbieter kümmert sich um Wartung und Updates; die Lösung skaliert mit dem Bedarf des Kunden; der Anbieter hat einfachen Zugriff auf die Software und kann diese zentral verwalten.",
+            "Nachteile von SaaS: Der Kunde ist abhängig vom Dienstleister; der Kunde erhält einen vom Anbieter definierten Standard ohne individuelle Anpassungen; Schnittstellen zu Drittsystemen sind ggf. nicht vorhanden; der Anbieter erhält Zugriff auf Kundendaten, was ein hohes Maß an Vertrauen und klare vertragliche Regelungen erfordert.",
+            "Der Kunde muss sich auf die Sicherheit und Verfügbarkeit der vom Anbieter bereitgestellten Dienste verlassen.",
+            "SaaS ermöglicht Unternehmen eine schnelle und flexible Nutzung von Softwarelösungen ohne hohen initialen IT-Aufwand.",
+            "Die Kosten werden oft als laufende Mietgebühren abgerechnet, was die Investitionskosten reduziert, aber langfristig zu höheren Gesamtkosten führen kann.",
+            "Vertragliche Vereinbarungen (SLAs) regeln häufig Verfügbarkeit, Support und Datenschutz bei SaaS-Anbietern.",
+            "SaaS ist ein wesentlicher Bestandteil moderner Cloud-Computing-Modelle und wird von Unternehmen aller Größen genutzt."
+          ],
+          "fragen": [
+            {
+              "frage": "Was beschreibt das Modell Software as a Service (SaaS)?",
+              "optionen": [
+                "a) Eigene Installation von Software auf lokalen Rechnern",
+                "b) Mieten von Anwendungssoftware, die vom Anbieter auf einem Server bereitgestellt wird",
+                "c) Kauf von Softwarelizenzen zur dauerhaften Nutzung",
+                "d) Nutzung von Open-Source-Software ohne Support"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie greifen Mitarbeiter bei SaaS-Lösungen typischerweise auf die Software zu?",
+              "optionen": [
+                "a) Über eine dedizierte Hardware",
+                "b) Über einen Browser mit Internetzugang",
+                "c) Nur über eine lokale Netzwerkverbindung",
+                "d) Durch Installation auf USB-Sticks"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Nenne zwei bekannte Beispiele für SaaS-Anwendungen.",
+              "optionen": [
+                "a) Microsoft Office 365 und Trello",
+                "b) Linux und Windows 10",
+                "c) Oracle Datenbank und VMware ESXi",
+                "d) Photoshop und Illustrator"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welcher der folgenden Vorteile trifft auf SaaS zu?",
+              "optionen": [
+                "a) Der Kunde muss keine eigene Server-IT bereitstellen",
+                "b) Der Kunde hat uneingeschränkten Zugriff auf den Quellcode",
+                "c) Die Software wird lokal installiert",
+                "d) Keine Internetverbindung ist nötig"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welcher Nachteil ist typisch für SaaS-Lösungen?",
+              "optionen": [
+                "a) Hohe Anschaffungskosten für Hardware",
+                "b) Abhängigkeit vom Dienstleister und Anbieterstandards",
+                "c) Keine Möglichkeit, mehrere Nutzer anzulegen",
+                "d) Keine Updates durch den Anbieter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum sind bei SaaS klare vertragliche Regelungen wichtig?",
+              "optionen": [
+                "a) Wegen der komplexen Softwareinstallation",
+                "b) Weil der Anbieter Zugriff auf Kundendaten erhält und Sicherheit gewährleistet sein muss",
+                "c) Um die Farben der Benutzeroberfläche festzulegen",
+                "d) Um die Nutzung der Software auf bestimmte Tage zu beschränken"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche der folgenden Aussagen zur Skalierbarkeit von SaaS ist richtig?",
+              "optionen": [
+                "a) Die Lösung lässt sich nur schwer an veränderte Nutzerzahlen anpassen",
+                "b) Die Lösung skaliert flexibel mit dem Bedarf des Kunden",
+                "c) Die Lösung erfordert manuelle Installation neuer Lizenzen",
+                "d) Die Skalierung ist nur durch neue Hardware möglich"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was versteht man unter 'Standard', den ein SaaS-Kunde erhält?",
+              "optionen": [
+                "a) Eine individuell programmierte Softwarelösung",
+                "b) Eine vom Anbieter festgelegte Basisfunktionalität ohne individuelle Anpassungen",
+                "c) Eine veraltete Version der Software",
+                "d) Eine kostenlose Testversion"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aspekte sind für die Nutzung von SaaS-Lösungen besonders wichtig? (Mehrfachantworten möglich)",
+              "optionen": [
+                "a) Verfügbarkeit und Wartung durch den Anbieter",
+                "b) Internetzugang und Browserfähigkeit",
+                "c) Physische Nähe zum Rechenzentrum",
+                "d) Klare vertragliche Regelungen zum Datenschutz"
+              ],
+              "antwort": ["a", "b", "d"]
+            },
+            {
+              "frage": "Wie werden die Kosten für SaaS typischerweise abgerechnet?",
+              "optionen": [
+                "a) Einmaliger Kaufpreis",
+                "b) Laufende Miet- oder Abonnementgebühren",
+                "c) Durch Einmalzahlung und Hardwareanschaffung",
+                "d) Über kostenlose Lizenzierung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was sagt man zu einem SaaS-Nutzer, der plötzlich keinen Internetzugang mehr hat?",
+              "optionen": [
+                "a) Offline-Coder",
+                "b) SaaS-Kettenhund",
+                "c) Der Cloud-Verweigerer",
+                "d) Der Browser-Exorzist"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm32": {
+        "9.3.3(3) Webhosting": {
+          "lerninhalt": [
+            "Webhosting ist eine besondere Form des Software as a Service (SaaS). Dabei erhält der Kunde eine browserbasierte Administrationsoberfläche zur One-Click-Installation von Server-Anwendungen.",
+            "Webhosting-Software ermöglicht die Installation und Konfiguration von Webanwendungen über einen Browser. Mit dem Webhosting Control Panel lassen sich Domains, Subdomains und E-Mail-Adressen konfigurieren.",
+            "Zudem erlauben Webhosting Control Panels das Sichern, Wiederherstellen und Staging (Arbeiten mit einer Kopie) von Webanwendungen.",
+            "Beispiele für Webhosting Control Panels sind ‚cPanel‘ (https://cpanel.net), ‚Plesk‘ (www.plesk.com) und ‚CentOS Webpanel‘ (http://centos-webpanel.com).",
+            "Ein Webhosting Control Panel ist eine SaaS-Lösung, die eine Verwaltungsoberfläche für Webanwendungen bereitstellt. Solche Produkte werden auch als Shared Hosting oder Webspace bezeichnet.",
+            "Viele Webanwendungen benötigen eine Datenbank, z.B. MySQL, und einen Webserver, z.B. Apache2.",
+            "Beim Webhosting stellt der Provider dem Kunden eine Hosting-Anwendung wie ‚Plesk‘, ‚cPanel‘, ‚interworX‘ oder ‚DirectAdmin‘ zur Verfügung. Der Kunde kann über diese Anwendungen Server-Anwendungen installieren, administrieren und aktualisieren.",
+            "Technisch teilen sich alle Kunden eine MySQL-Datenbank und ein Dateisystem. Jeder Kunde wird als ‚virtueller Host‘ im Apache2-Webserver abgebildet.",
+            "Der Kunde kann E-Mail-Adressen und Weiterleitungen einrichten, Domains und Subdomains konfigurieren, Zugriffsstatistiken einsehen und den Server mittels IP-Blacklists, SSL-Zertifikaten und 2-Faktor-Authentifizierung absichern.",
+            "Mit der kommerziellen Erweiterung ‚Softaculous‘ lassen sich mit wenigen Klicks weitere Webanwendungen wie ‚WordPress‘, ‚Joomla‘, ‚Mautic‘, ‚Nextcloud‘, ‚Shopware‘ oder ‚SugarCRM‘ installieren und konfigurieren.",
+            "Technische Anforderungen an Webhosting Control Panels unterscheiden sich je nach Hosting-Typ: Bei Shared Hosting teilen sich Kunden die Ressourcen auf einem Host; bei eigenen VPS/VDS bleibt die Datenhoheit beim Kunden.",
+            "Speicherplatz variiert: Kleinere Pakete bieten 50 GB SSD-Speicher, größere bis zu 1 TB SSD. Neuere Server verwenden NVMe-Speicher, ältere noch HDD.",
+            "Die maximale Anzahl der Datenbanken entspricht der Anzahl der installierbaren Webanwendungen. Webzugriff auf Datenbanken ist per Browser möglich.",
+            "Auto-Installer wie ‚Softaculous‘ erlauben die Installation von Webanwendungen aus Bereichen wie Blog, Forum, E-Commerce, ERP, Shop oder Wiki in Subdomains.",
+            "In kleineren Hosting-Paketen sind typischerweise 100 Subdomains enthalten, größere Pakete bieten bis zu 1.000 Subdomains.",
+            "SSL-Zertifikate, oft kostenpflichtige wie ‚Symantec Basis SSL‘, sind im Angebot enthalten. Kostenlose Let’s Encrypt Zertifikate werden separat erwähnt.",
+            "Die Anzahl der E-Mail-Adressen sollte der Anzahl der Mitarbeiter im Kundenunternehmen entsprechen. Zugriff erfolgt über Webmail, IMAP, SMTP oder POP.",
+            "Einige Webanwendungen benötigen FTPS- und/oder SSH-Zugang zur Durchführung von Konfigurationen oder Updates. Ein SSH-Zugang ist generell sinnvoll, z.B. zur Ausführung von Reparaturskripten.",
+            "DNSSEC ist eine abhörsichere DNS-Variante, die bei immer mehr Providern verfügbar ist, abhängig von der Top-Level-Domain.",
+            "Der Kunde konfiguriert Domains und Subdomains selbst, dabei stehen DNS-Records wie A, AAAA, MX, CNAME, TXT, SRV und NS zur Verfügung.",
+            "Alle Webanwendungen sind vor DDoS-Angriffen (Distributed Denial of Service) geschützt.",
+            "Unbegrenzter Traffic bedeutet, dass keine zusätzlichen Kosten für die Datenübertragung anfallen.",
+            "Der Kunde erhält eine IPv6-Adresse.",
+            "Jede Webanwendung benötigt einen Cron-Job. Die Anzahl der Cron-Jobs sollte mindestens der Anzahl der Datenbanken entsprechen.",
+            "Webanwendungen benötigen häufig PHP, Python, NodeJS oder Ruby on Rails. Die Anforderungen sollten vor der Wahl des Providers geprüft werden.",
+            "Einige Provider erlauben die Konfiguration wichtiger PHP-Parameter wie Memory Limit, Upload Filesize, Execution Time, PHP-Version, FastCGI oder OpcodeCache.",
+            "Backups der Webanwendungen können mit dem Control Panel erstellt werden. Es ist auch möglich, externe Backup-Speicher zu konfigurieren.",
+            "Webhosting Control Panels können auf einem eigenen VPS, VDS oder dedizierten Server installiert und lizenziert werden, sodass der Kunde ein eigenes System erhält, das nicht mit anderen geteilt wird.",
+            "Übliche Laufzeiten für Webhosting-Verträge sind sechs oder zwölf Monate.",
+            "Die Kosten setzen sich meist aus monatlichen Gebühren und einer einmaligen Einrichtungspauschale zusammen."
+          ],
+          "fragen": [
+            {
+              "frage": "Was versteht man unter Webhosting in Bezug auf SaaS?",
+              "optionen": [
+                "a) Eine lokale Installation von Software auf dem PC",
+                "b) Eine browserbasierte Administrationsoberfläche zur Installation von Server-Anwendungen",
+                "c) Der Kauf von physischer Server-Hardware",
+                "d) Ein reines E-Mail-Hosting"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aufgaben kann man mit einem Webhosting Control Panel durchführen?",
+              "optionen": [
+                "a) Nur E-Mails versenden",
+                "b) Domains und Subdomains konfigurieren sowie Webanwendungen sichern und wiederherstellen",
+                "c) Nur den Webserver neustarten",
+                "d) Hardware austauschen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet Shared Hosting bei Webhosting?",
+              "optionen": [
+                "a) Jeder Kunde bekommt einen eigenen physischen Server",
+                "b) Kunden teilen sich eine Datenbank und ein Dateisystem auf einem Host",
+                "c) Der Kunde besitzt ein eigenes Rechenzentrum",
+                "d) Webhosting nur für E-Commerce"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Webanwendungen können mit der Erweiterung ‚Softaculous‘ installiert werden?",
+              "optionen": [
+                "a) Nur WordPress",
+                "b) Blogs, Foren, E-Commerce, ERP, Shops und Wikis",
+                "c) Nur Online-Spiele",
+                "d) Nur E-Mail-Clients"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist ein SSH-Zugang bei Webhosting sinnvoll?",
+              "optionen": [
+                "a) Zur Ausführung von Reparaturskripten und Updates",
+                "b) Zum Empfangen von E-Mails",
+                "c) Zur Überwachung der Website-Besucher",
+                "d) Zum Ansehen von Statistiken"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche DNS-Records kann man bei der Domainkonfiguration nutzen?",
+              "optionen": [
+                "a) Nur A und MX",
+                "b) A, AAAA, MX, CNAME, TXT, SRV und NS",
+                "c) FTP und HTTP",
+                "d) SMTP und POP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet ‚unbegrenzter Traffic‘ bei Webhosting?",
+              "optionen": [
+                "a) Es gibt keine Beschränkung der Datenmenge, für die zusätzliche Kosten anfallen",
+                "b) Man kann unbegrenzt viele Domains hosten",
+                "c) Es gibt unbegrenzten Speicherplatz",
+                "d) Unbegrenzte Anzahl an Cron-Jobs"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Programmiersprachen oder Laufzeitumgebungen werden von Webanwendungen häufig benötigt?",
+              "optionen": [
+                "a) COBOL und Fortran",
+                "b) PHP, Python, NodeJS und Ruby on Rails",
+                "c) BASIC und Pascal",
+                "d) Assembly und C"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie lange sind übliche Vertragslaufzeiten für Webhosting?",
+              "optionen": [
+                "a) Ein Monat",
+                "b) Sechs oder zwölf Monate",
+                "c) Fünf Jahre",
+                "d) Unbegrenzt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Komponenten gehören zu den typischen Kosten eines Webhosting-Angebots?",
+              "optionen": [
+                "a) Nur einmalige Einrichtungspauschale",
+                "b) Monatliche Kosten plus einmalige Einrichtungspauschale",
+                "c) Nur monatliche Kosten",
+                "d) Keine Kosten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Webhoster, der ständig seine Domains verliert?",
+              "optionen": [
+                "a) Domain-Hopper",
+                "b) DNS-Vagabund",
+                "c) Subdomain-Ausreißer",
+                "d) IP-Vagant"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm33": {
+        "9.3.3(4) lnfrastructure as a Service (laaS)": {
+          "lerninhalt": [
+            "Für den Betrieb von hyperkonvergenten Rechenzentren werden kommerzielle Produkte wie „VMware“ oder „XEN“ eingesetzt.",
+            "Bei einer hyperkonvergenten Infrastruktur wird das gesamte (verteilte) Rechenzentrum inklusive aller Prozessoren, Speicher (SAN, NAS), Netzwerke und Virtualisierung über eine einzige Administrationsoberfläche gesteuert.",
+            "Aufgrund sehr hoher Lizenzkosten kommen vermehrt Open-Source-Lösungen wie „Proxmox“ (https://pve.proxmox.com), „OpenNebula“ (https://opennebula.io) und „XCP-NG“ (https://xcp-ng.org/) zum Einsatz.",
+            "Die EU-geförderte Plattform „OpenNebula“ unterstützt die Ausführung von Containern und virtuellen Maschinen sowie Technologien wie VMware, KVM, LXC und Firecracker Micro-VMs.",
+            "„XCP-ng“ ist eine Open-Source-Cloud-Plattform mit vielen Enterprise-Funktionen und kann beispielsweise für Schulnetze eingesetzt werden.",
+            "„linuxmuster“ (https://www.linuxmuster.net) ist eine umfassende Komplettlösung für schulische Netzwerke, die sich auf einem „XCP-ng“-Host betreiben lässt. Sie wird von Lehrkräften und Dienstleistern speziell für Schulen entwickelt und von einem gemeinnützigen Verein gepflegt.",
+            "„linuxmuster.net“ kann ebenso auf „Proxmox“ oder „OpenNebula“ betrieben werden.",
+            "Technische Anforderungen an Server-/Rechenzentrumssoftware für hyperkonvergente Rechenzentren sind, dass jede Komponente ausfallen darf, ohne den Betrieb zu unterbrechen.",
+            "Mittels räumlich verteilter Storage-Lösungen, z.B. CEPH (massiv skalierbares verteiltes Speicher- und Dateisystem, „SAN als Software“), erhalten die virtuellen Maschinen (VMs) weiterhin Zugriff auf Speicherressourcen.",
+            "Virtuelle Maschinen lassen sich über eine Webanwendung administrieren (Webkonsole).",
+            "Bei der Paravirtualisierung werden in den VMs Treiber installiert, die einen direkten Zugriff auf physikalische Hardware, wie z.B. die GPU der Grafikkarte, ermöglichen und die Performance verbessern.",
+            "Virtuelle Maschinen können im laufenden Betrieb auf andere Knoten oder Hardware verschoben werden (Live-Migration).",
+            "Orchestrierung bedeutet das Management von Multi-Cluster-Container-Umgebungen und die Unterstützung von virtuellen Maschinen, Containern und Kubernetes.",
+            "VM-Hochverfügbarkeit sorgt dafür, dass VMs bei Ausfall automatisch neu gestartet werden.",
+            "Back-ups sind periodische Sicherungen von VM-Daten auf entfernten Speichern (remote Storages).",
+            "ACLs (Access-Control-Listen) steuern den Zugriff auf Ressourcen.",
+            "Aufgabenplanung erlaubt das zeitgesteuerte Ausführen von Aufträgen durch ein Planungsmodul.",
+            "Logins können durch Zwei-Faktor-Authentifizierung (2FA) zusätzlich geschützt werden."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Produkte werden für den Betrieb von hyperkonvergenten Rechenzentren häufig eingesetzt?",
+              "optionen": [
+                "a) Microsoft Office und Adobe Photoshop",
+                "b) VMware und XEN",
+                "c) Apache und Nginx",
+                "d) MySQL und PostgreSQL"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist charakteristisch für eine hyperkonvergente Infrastruktur?",
+              "optionen": [
+                "a) Sie verwendet nur lokale Server ohne Netzwerke",
+                "b) Sie steuert alle Komponenten wie Prozessoren, Speicher und Netzwerke über eine einzige Administrationsoberfläche",
+                "c) Sie basiert ausschließlich auf Cloud-Services von Drittanbietern",
+                "d) Sie verzichtet auf Virtualisierung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum werden Open-Source-Lösungen wie Proxmox, OpenNebula oder XCP-NG vermehrt eingesetzt?",
+              "optionen": [
+                "a) Wegen ihrer bunten Benutzeroberfläche",
+                "b) Wegen der hohen Lizenzkosten kommerzieller Produkte",
+                "c) Weil sie keine Virtualisierung unterstützen",
+                "d) Weil sie nur für kleine Netzwerke geeignet sind"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Technologien unterstützt die Plattform OpenNebula?",
+              "optionen": [
+                "a) VMware, KVM, LXC, Firecracker Micro-VMs",
+                "b) Nur VMware",
+                "c) Nur Container-Technologien",
+                "d) Nur Firecracker Micro-VMs"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Für welchen Einsatzzweck eignet sich die Open-Source-Plattform XCP-ng besonders?",
+              "optionen": [
+                "a) Mobile Apps",
+                "b) Schulnetze",
+                "c) E-Commerce-Websites",
+                "d) Videospielentwicklung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist das Besondere an linuxmuster.net?",
+              "optionen": [
+                "a) Es ist eine Komplettlösung für schulische Netzwerke und kann auf verschiedenen Plattformen wie XCP-ng, Proxmox und OpenNebula betrieben werden",
+                "b) Es ist ein Spiele-Server",
+                "c) Es ist nur auf Windows-Systemen lauffähig",
+                "d) Es ist eine kostenpflichtige Software"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was bedeutet 'Hyperkonvergente Rechenzentren' im Kontext der Ausfallsicherheit?",
+              "optionen": [
+                "a) Jede Komponente darf ausfallen, ohne den Betrieb zu unterbrechen",
+                "b) Alle Komponenten müssen gleichzeitig ausfallen",
+                "c) Es gibt keine Ausfallsicherheit",
+                "d) Nur die Netzwerkkarten sind redundant"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie wird sichergestellt, dass VMs bei Ausfall einer Komponente weiter Zugriff auf Speicher haben?",
+              "optionen": [
+                "a) Durch zentralisierte lokale Festplatten",
+                "b) Durch räumlich verteilte Storage-Lösungen wie CEPH",
+                "c) Durch manuelle Datenübertragung",
+                "d) Durch Verzicht auf Virtualisierung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was verbessert die Performance von virtuellen Maschinen bei der Paravirtualisierung?",
+              "optionen": [
+                "a) Installation von IQ-Treibern, die direkten Zugriff auf physikalische Hardware ermöglichen",
+                "b) Verzicht auf jegliche Treiber",
+                "c) Nutzung von Cloud-Backups",
+                "d) Verkleinerung der VM-Festplatte"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ermöglicht die Live-Migration bei virtuellen Maschinen?",
+              "optionen": [
+                "a) Ausschalten der VM für Wartungsarbeiten",
+                "b) Verschiebung der VM im laufenden Betrieb auf andere Hardware oder Knoten",
+                "c) Backup der VM-Daten auf externe Laufwerke",
+                "d) Installation neuer Software innerhalb der VM"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion hat das Orchestrierungs-Management in einer Multi-Cluster-Umgebung?",
+              "optionen": [
+                "a) Verwaltung von Hardware-Komponenten",
+                "b) Management von Containern, VMs und Kubernetes-Clustern",
+                "c) Steuerung von Druckern im Netzwerk",
+                "d) Sicherung der E-Mail-Kommunikation"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie sorgt VM-Hochverfügbarkeit für Stabilität in einem Rechenzentrum?",
+              "optionen": [
+                "a) VMs werden manuell neu gestartet",
+                "b) VMs werden bei Ausfall automatisch neu gestartet",
+                "c) VMs werden dauerhaft deaktiviert",
+                "d) VMs werden regelmäßig gelöscht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was wird durch ACLs (Access-Control-Listen) gesteuert?",
+              "optionen": [
+                "a) Netzwerkkabel-Verbindungen",
+                "b) Zugriff auf Ressourcen und Dienste",
+                "c) Speicherplatz auf Festplatten",
+                "d) Backup-Zeitpläne"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aufgabe hat das Aufgabenplanungsmodul in einem Rechenzentrum?",
+              "optionen": [
+                "a) Es ermöglicht zeitgesteuertes Ausführen von Aufträgen",
+                "b) Es verwaltet Hardware-Defekte",
+                "c) Es kontrolliert die Netzwerkbandbreite",
+                "d) Es erzeugt virtuelle Maschinen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie kann die Sicherheit bei Logins in einer solchen Infrastruktur erhöht werden?",
+              "optionen": [
+                "a) Durch Nutzung einfacher Passwörter",
+                "b) Durch Zwei-Faktor-Authentifizierung (2FA)",
+                "c) Durch öffentliche WLAN-Verbindungen",
+                "d) Durch Deaktivierung der Benutzerkonten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Open-Source-Lösung ist KEIN typisches Produkt für hyperkonvergente Infrastruktur?",
+              "optionen": [
+                "a) Proxmox",
+                "b) OpenNebula",
+                "c) XCP-NG",
+                "d) Microsoft Excel"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Was bedeutet CEPH in diesem Kontext?",
+              "optionen": [
+                "a) Ein Betriebssystem",
+                "b) Ein massiv skalierbares verteiltes Speicher- und Dateisystem (SAN als Software)",
+                "c) Ein Virtualisierungs-Tool",
+                "d) Ein Netzwerkprotokoll"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein Vorteil von Webkonsole bei der Administration von VMs?",
+              "optionen": [
+                "a) VMs können nur lokal verwaltet werden",
+                "b) VMs lassen sich bequem über eine Webanwendung administrieren",
+                "c) Webkonsole ersetzt alle Hardware-Komponenten",
+                "d) Webkonsole sichert automatisch Backups"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Technologie unterstützt die Plattform OpenNebula NICHT?",
+              "optionen": [
+                "a) VMware",
+                "b) KVM",
+                "c) LXC",
+                "d) Windows XP"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Wie heißt die Open-Source-Plattform, die speziell für schulische Netzwerke entwickelt wurde?",
+              "optionen": [
+                "a) linuxmuster.net",
+                "b) OpenNebula",
+                "c) Proxmox",
+                "d) VMware"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Administrator, der alle VMs gleichzeitig live migriert und dabei Kaffee trinkt?",
+              "optionen": [
+                "a) Multitasking-Meister",
+                "b) Kaffee-Virtuose",
+                "c) Hyperkonvergenter Zauberer",
+                "d) VM-Whisperer"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm34": {
+        "9.3.3(5) Managed Hosting": {
+          "lerninhalt": [
+            "Managed Hosting beschreibt eine Dienstleistung, bei der der Hosting-Provider die Einrichtung, Verwaltung und Wartung des Kundenservers übernimmt.",
+            "Der Kunde wählt ein Hosting-Paket, das verschiedene Servertypen wie VPS (Virtual Private Server), VDS (Virtual Dedicated Server), Dedicated Server oder Webhosting umfasst.",
+            "Der Kunde bestimmt, welche Serversoftware installiert und betrieben wird, während der Provider für die technische Administration, Updates, Sicherheitsmaßnahmen und den Betrieb sorgt.",
+            "Managed Hosting erleichtert Unternehmen den Betrieb von Servern, da der technische Aufwand und die Komplexität auf den Provider ausgelagert werden.",
+            "Es eignet sich besonders für Kunden, die nicht über die nötigen Ressourcen oder das Know-how zur Serveradministration verfügen.",
+            "VPS (Virtual Private Server) bietet eine virtuelle, abgeschottete Serverumgebung auf einer gemeinsamen physischen Hardware.",
+            "VDS (Virtual Dedicated Server) ähnelt VPS, bietet aber meist garantierte Ressourcen und mehr Leistung durch stärkere Isolierung.",
+            "Dedicated Server sind physische Server, die exklusiv vom Kunden genutzt werden, ideal für hohe Leistungsanforderungen und volle Kontrolle.",
+            "Webhosting-Pakete bieten meist Speicherplatz und Dienste zur Bereitstellung von Websites, oft ohne vollständigen Serverzugriff.",
+            "Managed Hosting beinhaltet oft Service-Level-Agreements (SLAs), die Verfügbarkeit, Reaktionszeiten und Supportqualität regeln."
+          ],
+          "fragen": [
+            {
+              "frage": "Was versteht man unter Managed Hosting?",
+              "optionen": [
+                "a) Der Kunde richtet und wartet seinen Server selbst",
+                "b) Der Provider übernimmt die Einrichtung und Wartung des Kundenservers",
+                "c) Ein kostenloser Webhosting-Service",
+                "d) Nur die Bereitstellung von Speicherplatz"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Servertypen kann man typischerweise bei Managed Hosting wählen?",
+              "optionen": [
+                "a) VPS, VDS, Dedicated Server, Webhosting",
+                "b) Nur Dedicated Server",
+                "c) Nur VPS",
+                "d) Nur Cloud-Server"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist der Unterschied zwischen VPS und VDS?",
+              "optionen": [
+                "a) VPS ist ein physischer Server, VDS eine virtuelle Maschine",
+                "b) VPS bietet abgeschottete virtuelle Server, VDS garantiert mehr Ressourcen und bessere Isolation",
+                "c) VPS ist teurer als VDS",
+                "d) Es gibt keinen Unterschied"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wer entscheidet beim Managed Hosting, welche Serversoftware installiert wird?",
+              "optionen": [
+                "a) Der Provider allein",
+                "b) Der Kunde",
+                "c) Ein externer Berater",
+                "d) Das Hosting-Paket bestimmt das automatisch"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Für wen ist Managed Hosting besonders geeignet?",
+              "optionen": [
+                "a) Für Unternehmen ohne eigenes Server-Admin-Know-how",
+                "b) Für Privatnutzer ohne Internet",
+                "c) Für alle, die ihre Server selbst warten wollen",
+                "d) Nur für Entwickler von Webanwendungen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was bedeutet Dedicated Server im Kontext von Managed Hosting?",
+              "optionen": [
+                "a) Ein gemeinsamer Server, den viele Kunden nutzen",
+                "b) Ein physischer Server, der exklusiv für einen Kunden bereitsteht",
+                "c) Ein virtueller Server mit geteilten Ressourcen",
+                "d) Ein Cloud-Speicherplatz"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Vorteile bietet Managed Hosting für Unternehmen?",
+              "optionen": [
+                "a) Weniger technischer Aufwand und Entlastung durch Auslagerung der Serververwaltung",
+                "b) Kostenlose Hardware",
+                "c) Keine Notwendigkeit für Internetzugang",
+                "d) Automatisches Programmieren von Webanwendungen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was regeln Service-Level-Agreements (SLAs) im Managed Hosting?",
+              "optionen": [
+                "a) Nur die Vertragslaufzeit",
+                "b) Verfügbarkeit, Reaktionszeiten und Supportqualität",
+                "c) Die Softwareversionen auf dem Server",
+                "d) Die Anzahl der Nutzer"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist Webhosting in Bezug auf Managed Hosting?",
+              "optionen": [
+                "a) Ein Servertyp mit voller Kontrolle",
+                "b) Speicherplatz und Dienste zur Bereitstellung von Websites, oft ohne vollständigen Serverzugriff",
+                "c) Nur die Entwicklung von Websites",
+                "d) Ein kostenloser Hosting-Dienst"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beinhaltet die Wartung im Managed Hosting typischerweise?",
+              "optionen": [
+                "a) Nur Hardwareaustausch",
+                "b) Updates, Sicherheitsmaßnahmen und Betrieb des Servers",
+                "c) Nur Backup der Daten",
+                "d) Nur Überwachung der Internetverbindung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was sagt ein Kunde, wenn er sein Managed Hosting-Paket bekommt und der Server funktioniert nicht? (Scherzfrage)",
+              "optionen": [
+                "a) 'Der Server ist down, ich brauche Kaffee!'",
+                "b) 'Mein Server spielt Verstecken mit dem Internet!'",
+                "c) 'Warum hostet mein Hosting mich nicht?'",
+                "d) 'Kann man den Server auch neu starten, wenn man keine Lust hat?'"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm35": {
+        "9.3.3(6) Betriebssysteme": {
+          "lerninhalt": [
+            "Betriebssysteme spielen im Serverbereich eine immer geringere Rolle. Sie sollen den Anwendungen nur noch die Ressourcen zur Verfügung stellen, die sie tatsächlich benötigen. Die Devise lautet: Betriebssysteme müssen so schlank wie möglich und nur so groß wie nötig sein, denn je kleiner das Betriebssystem ist, umso weniger Speicher benötigt es, umso performanter läuft es und umso kleiner ist die Angriffsfläche für Schadsoftware.",
+            "Alle nicht benötigten Dienste eines Servers werden daher abgeschaltet und deinstalliert. Am einfachsten lassen sich diese Paradigmen mit Open-Source-Betriebssystemen umsetzen, z.B. „Debian“, „CentOS“, „Ubuntu“, „Fedora“ (siehe auch https://distrowatch.com).",
+            "Das Konzept der Container treibt das o.a. Paradigma auf die Spitze: Container erhalten nur die Ressourcen, die sie tatsächlich benötigen. Container werden daher auch als leichtgewichtige virtuelle Maschinen bezeichnet.",
+            "GAIA-X ist ein Projekt Europas zum Aufbau einer europäischen Dateninfrastruktur. Oberstes Ziel dabei ist die Gewährleistung des Datenschutzes auf allen Ebenen.",
+            "GAIA-X Architektur Richtlinien umfassen: Security by Design – Sicherheitsaspekte haben höchste Priorität bei Design und Implementierung; Privacy by Design – Datenschutzaspekte haben höchste Priorität bei Design und Implementierung; Enabling Federation – Verteilung, Dezentralisierung und Föderation, also das Zusammenspiel der verteilten Architektur, gehören ebenfalls zu den höchsten Prioritäten.",
+            "Aus Architektursicht soll dies erreicht werden über sogenannte föderierte Dienste. Diese stellen die Laufzeitumgebungen für Gaia-X Anwendungen dar. Dazu zählen beispielsweise souveräne Datendienste, welche die Identitäten von Sender und Empfänger sicherstellen und ebenso die Nutzungsrechte auf Daten.",
+            "Zu den wichtigsten Komponenten von GAIA-X gehören Identity & Trust mit Federated Identity Management, Trust Management, Federated Access, Self-Description, Service Governance sowie Monitoring & Metering.",
+            "Der Federated Catalogue umfasst Teilnehmer wie Provider, Consumer oder beide Rollen.",
+            "Sovereign Data Exchange regelt Policies & Usage Control, Security Concepts, die Beziehung zwischen Service Providern und -Consumenten, Rechte und Pflichten der Teilnehmer sowie Onboarding & Certification.",
+            "Das Projekt wird finanziell vom Bundesministerium für Wirtschaft und Energie bis Herbst 2022 unterstützt. Weitere Infos zu GAIA-X finden sich unter www.data-infrastructure.eu."
+          ],
+          "fragen": [
+            {
+              "frage": "Warum sollen Betriebssysteme im Serverbereich möglichst schlank sein?",
+              "optionen": [
+                "a) Um mehr Speicher zu benötigen",
+                "b) Um die Performance zu verbessern und die Angriffsfläche zu verkleinern",
+                "c) Damit mehr Dienste gleichzeitig laufen können",
+                "d) Um den Preis zu erhöhen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Open-Source-Betriebssysteme eignen sich besonders zur Umsetzung eines schlanken Server-OS?",
+              "optionen": [
+                "a) Windows Server",
+                "b) Debian, CentOS, Ubuntu, Fedora",
+                "c) MacOS",
+                "d) Android"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt das Container-Konzept im Kontext von Serverbetriebssystemen?",
+              "optionen": [
+                "a) Container sind große virtuelle Maschinen mit vollem OS",
+                "b) Container erhalten nur die Ressourcen, die sie tatsächlich benötigen und gelten als leichtgewichtige virtuelle Maschinen",
+                "c) Container sind ausschließlich für die Speicherung von Daten",
+                "d) Container sind Backup-Systeme"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist das Hauptziel von GAIA-X?",
+              "optionen": [
+                "a) Aufbau einer europäischen Dateninfrastruktur mit Fokus auf Datenschutz",
+                "b) Entwicklung eines neuen Betriebssystems",
+                "c) Förderung von Cloud-Anbietern aus den USA",
+                "d) Herstellung von Hardware"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Priorität haben Sicherheits- und Datenschutzaspekte bei GAIA-X?",
+              "optionen": [
+                "a) Geringe Priorität",
+                "b) Mittlere Priorität",
+                "c) Höchste Priorität bei Design und Implementierung",
+                "d) Keine Priorität"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was sind föderierte Dienste in der GAIA-X Architektur?",
+              "optionen": [
+                "a) Laufzeitumgebungen für GAIA-X Anwendungen, die Identitäten und Nutzungsrechte sicherstellen",
+                "b) Einfache Speicherplätze",
+                "c) Hardwarekomponenten",
+                "d) Marketingtools"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Komponenten gehören zum Bereich Identity & Trust in GAIA-X?",
+              "optionen": [
+                "a) Firewall und Antivirus",
+                "b) Federated Identity Management, Trust Management, Federated Access, Self-Description, Service Governance, Monitoring & Metering",
+                "c) Cloud Speicher und Backup",
+                "d) Softwareentwicklungstools"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was regelt der Sovereign Data Exchange bei GAIA-X?",
+              "optionen": [
+                "a) Richtlinien für die Nutzung und Sicherheit von Daten, Beziehungen zwischen Anbietern und Nutzern sowie Rechte und Pflichten der Teilnehmer",
+                "b) Hardwareanschaffung",
+                "c) Design der Benutzeroberfläche",
+                "d) Preisgestaltung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wer fördert das GAIA-X Projekt finanziell bis Herbst 2022?",
+              "optionen": [
+                "a) Die Europäische Zentralbank",
+                "b) Das Bundesministerium für Wirtschaft und Energie",
+                "c) Private Unternehmen",
+                "d) Die Vereinten Nationen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum werden nicht benötigte Dienste auf Servern abgeschaltet und deinstalliert?",
+              "optionen": [
+                "a) Um die Serververwaltung zu vereinfachen",
+                "b) Um den Speicherverbrauch und die Angriffsfläche zu reduzieren",
+                "c) Um mehr Software zu installieren",
+                "d) Um Kosten für Strom zu sparen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Server, der zu viele unnötige Dienste laufen lässt?",
+              "optionen": [
+                "a) Dienstleistungsmonster",
+                "b) Sicherheitsloch deluxe",
+                "c) Ressourcen-Verschwender",
+                "d) Server mit Wlan-Hotspot"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm36": {
+        "9.3.4(1) Server-Hardware unterscheiden - Dedicated Server/Bare Metal": {
+          "lerninhalt": [
+            "Bei einem Dedicated Server kauft oder mietet der Kunde bei einem Provider/Hoster einen physikalischen Server, einen sogenannten Bare Metal, welcher bei Miete oder Co-Location im 19-Zoll-Rack des Hosters verbleibt.",
+            "Dedicated Server eignen sich für Anwendungen, bei denen der Kunde sicherstellen möchte, dass diese Hardware ausschließlich durch ihn genutzt wird.",
+            "Folgende Kriterien sind bei der Auswahl zu berücksichtigen:",
+            "Technische Anforderungen an Dedicated Server:",
+            "CPU und Anzahl Kerne: CPUs sind üblicherweise Intel XEON, AMD EPYC oder AMD Ryzen mit bis zu 32 Rechenkernen (Cores).",
+            "Speicher RAM: erhältlich von 256 GB ECC (Error Correction Code) bis zu 2 TB. ECC-Speicher ist in der Lage, Bit-Fehler zur Laufzeit zu reparieren.",
+            "Anzahl IPv4-/IPv6-Adressen: Je eine IPv4- und IPv6-Adresse sind oftmals inklusive. Weitere Failover IP öffentliche IP-Adressen können dazugebucht werden.",
+            "Failover IP: Mittels einer Failover-IP ist der Server auch dann erreichbar, wenn die andere IP-Adresse oder Netzwerkkarte ausfallen sollte.",
+            "Reverse-DNS: Der Kunde erhält die Möglichkeit, Einträge in einem Reverse Proxy vorzunehmen.",
+            "DDoS-Schutz und Firewall: DDoS-Schutz und Hardware-Firewall können gewählt werden.",
+            "vSwitch: Alle Dedicated Server lassen sich mit dem vSwitch in einem vLAN verbinden.",
+            "Datenübertragungsrate: Eine Anbindung des Servers von 1 GBit/s pro Port ist üblich. Einige Provider bieten auch 10 GBit/s Ports an.",
+            "RAID-Level: Der Kunde hat die Wahl zwischen RAID 1 (mindestens zwei Festplatten), RAID 5 (mindestens drei Festplatten), RAID 6 (mindestens vier Festplatten) und RAID 10 (mindestens vier Festplatten).",
+            "Festplattenarten: Er hat die Wahl zwischen SSDs, HDDs und NVMe SSDs in unterschiedlichen Größen.",
+            "RAID-Typ: Wahl zwischen Hardware-RAID und Software-RAID.",
+            "Dedizierte GPU: Als GPU kann z.B. eine Nvidia Tesla oder eine GeForce GT konfiguriert werden.",
+            "Images/Software: Beliebte Images, die durch Provider installiert werden können, sind Debian, Fedora, Ubuntu, CentOS, LAMP (Linux - Apache - MySQL - PHP), Proxmox, Webmin, Windows Server, cPanel/WHM, Plesk Obsidian, Rescue-System.",
+            "Import eigener Images: Über den Import eigener Images können eigene ISO- oder IMG-Dateien gestartet werden.",
+            "Uneingeschränkter Traffic: Der Netzwerk-Traffic wird vonseiten des Providers gerne begrenzt. Ziel sollte ein uneingeschränkter Datenverkehr sein.",
+            "Back-up: Back-up-Speicher ist nicht inklusive.",
+            "KVM: Über ein KVM (Keyboard Video Mouse) lässt sich auch das BIOS der Hardware aus der Ferne konfigurieren."
+          ],
+          "fragen": [
+            {
+              "frage": "Was versteht man unter einem Dedicated Server?",
+              "optionen": [
+                "a) Einen virtuellen Server, der mit mehreren Kunden geteilt wird",
+                "b) Einen physikalischen Server, der ausschließlich vom Kunden genutzt wird",
+                "c) Einen Server, der nur für Backup genutzt wird",
+                "d) Einen Cloud-Speicherplatz"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche CPU-Typen sind bei Dedicated Servern üblich?",
+              "optionen": [
+                "a) Intel XEON, AMD EPYC, AMD Ryzen",
+                "b) ARM Cortex, Snapdragon",
+                "c) Intel i3, AMD Athlon",
+                "d) Qualcomm Snapdragon, MediaTek"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche RAM-Größen und Besonderheiten gibt es bei Dedicated Servern?",
+              "optionen": [
+                "a) 8 bis 64 GB ohne Fehlerkorrektur",
+                "b) 256 GB bis 2 TB ECC-Speicher mit Fehlerkorrektur",
+                "c) 128 GB bis 512 GB mit einfachen Modulen",
+                "d) 1 TB bis 4 TB ohne ECC"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine Failover-IP bei Dedicated Servern?",
+              "optionen": [
+                "a) Eine zusätzliche IP-Adresse für Backup-Zwecke",
+                "b) Eine IP-Adresse, die bei Ausfall der Haupt-IP aktiviert wird",
+                "c) Eine virtuelle IP für interne Kommunikation",
+                "d) Eine IP-Adresse für das Management-Interface"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche RAID-Level stehen zur Auswahl?",
+              "optionen": [
+                "a) RAID 0, RAID 2, RAID 4",
+                "b) RAID 1, RAID 5, RAID 6, RAID 10",
+                "c) RAID 3, RAID 7, RAID 9",
+                "d) RAID 1, RAID 2, RAID 3"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Arten von Festplatten können bei Dedicated Servern gewählt werden?",
+              "optionen": [
+                "a) Nur HDDs",
+                "b) SSDs, HDDs und NVMe SSDs",
+                "c) Nur NVMe SSDs",
+                "d) Nur SSDs"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ermöglicht ein KVM bei einem Dedicated Server?",
+              "optionen": [
+                "a) Fernzugriff auf das BIOS und die Hardware-Steuerung",
+                "b) Automatische Backups",
+                "c) Schneller Datenverkehr",
+                "d) Software-Updates"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Software-Images können von Providern für Dedicated Server installiert werden?",
+              "optionen": [
+                "a) Debian, Fedora, Ubuntu, CentOS, LAMP, Proxmox, Webmin, Windows Server, cPanel/WHM, Plesk Obsidian, Rescue-System",
+                "b) Nur Windows Server und Ubuntu",
+                "c) Nur Debian und CentOS",
+                "d) Nur Proxmox und cPanel"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was bedeutet uneingeschränkter Traffic bei Dedicated Servern?",
+              "optionen": [
+                "a) Der Traffic ist unbegrenzt und wird nicht vom Provider limitiert",
+                "b) Der Traffic wird täglich begrenzt",
+                "c) Der Traffic ist nur nachts verfügbar",
+                "d) Der Traffic wird pro GB berechnet"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist bei der Auswahl eines Dedicated Servers wichtig zu beachten?",
+              "optionen": [
+                "a) Nur die CPU-Leistung",
+                "b) CPU, RAM, Netzwerkanschluss, RAID-Level, DDoS-Schutz, und weitere technische Kriterien",
+                "c) Nur der Speicherplatz",
+                "d) Nur die Anzahl der IP-Adressen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Dedicated Server, der nie erreichbar ist?",
+              "optionen": [
+                "a) Ghost Server",
+                "b) Offline-Bare Metal",
+                "c) Phantom IP",
+                "d) Ghost in the Machine"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm37": {
+        "9.3.4(2) Virtual Dedicated Server (VDS)": {
+          "lerninhalt": [
+            "Bei einem Virtual Dedicated Server (VDS) mietet der Kunde bei einem Provider/Hoster dedizierte Ressourcen eines Bare Metal Servers. Er mietet nicht die komplette Hardware, sondern nur einen Teil davon und teilt sich den Bare Metal mit anderen Kunden.",
+            "Die gebuchten Ressourcen werden exklusiv dem Kunden zugewiesen, es gibt keine Überprovisionierung im Gegensatz zu VPS (Virtual Private Server).",
+            "Folgende Kriterien sind bei der Auswahl eines VDS zu berücksichtigen:",
+            "Technische Anforderungen an Virtual Dedicated Server:",
+            "- Anzahl Kerne: Der Kunde wählt die Anzahl dedizierter CPU-Kerne. Anbieter unterscheiden zwischen physikalischen CPU-Kernen und vCPUs. Verfügt die CPU über Hyper-Threading, so erhält der Kunde bei einem Kern tatsächlich zwei vCPUs. Mietet er eine vCPU, bleibt es bei einem Rechenkern.",
+            "- Speicher: Üblich sind bis zu maximal 64 GB Hauptspeicher, da der gesamte Hauptspeicher mit anderen Kunden geteilt wird.",
+            "- NVMe-SSD/SSD: Die derzeit schnellsten Festplatten sind sogenannte NVMe-SSDs. HDDs stellen eine Bremse dar und sollten bei Servern vermieden werden. Zusätzlicher Speicherplatz kann als SSD dazu gebucht werden.",
+            "- Datenübertragungsrate: Bei kleineren VDS wird die nutzbare Bandbreite oft eingeschränkt, beispielsweise auf 100 MBit/s.",
+            "- Uneingeschränkter Traffic: Der Netzwerk-Traffic wird von Seiten des Providers gerne begrenzt. Ziel sollte ein uneingeschränkter Datenverkehr sein.",
+            "- Images/Software: Beliebte Images, die durch den Provider installiert werden können, sind „Debian“, „Fedora“, „Ubuntu“, „CentOS“, „LAMP“ (Linux - Apache - MySQL - PHP), „Proxmox“, „Webmin“, „Windows Server“, „cPanel/WHM“, „Plesk Obsidian“, „Rescue-System“.",
+            "- Import eigener Images: Über den Import eigener Images können eigene ISO- oder IMG-Dateien gestartet und installiert werden.",
+            "- Back-up: Back-up-Speicher ist nicht inklusive.",
+            "Wichtig: Eine hohe Sicherheit erreicht der Kunde durch Verschlüsselung der Laufwerke und Zwei-Faktor-Authentifizierung."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist ein Virtual Dedicated Server (VDS)?",
+              "optionen": [
+                "a) Ein komplett gemieteter physikalischer Server",
+                "b) Eine dedizierte Ressource eines Bare Metal Servers, geteilt mit anderen Kunden",
+                "c) Ein virtueller Server ohne dedizierte Ressourcen",
+                "d) Ein Server, der ausschließlich für Backup genutzt wird"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie unterscheidet sich ein VDS von einem VPS bezüglich Überprovisionierung?",
+              "optionen": [
+                "a) VDS hat Überprovisionierung, VPS nicht",
+                "b) VPS hat keine Überprovisionierung, VDS schon",
+                "c) VDS hat keine Überprovisionierung, VPS oft schon",
+                "d) Beide haben Überprovisionierung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bedeutet es, wenn ein Kunde bei einem VDS eine vCPU mietet und die CPU Hyper-Threading unterstützt?",
+              "optionen": [
+                "a) Der Kunde bekommt zwei physikalische Kerne",
+                "b) Der Kunde bekommt einen Rechenkern mit zwei virtuellen CPUs (vCPUs)",
+                "c) Der Kunde bekommt keinen Zugriff auf Hyper-Threading",
+                "d) Die Leistung halbiert sich"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher maximale Hauptspeicher ist bei VDS üblich?",
+              "optionen": [
+                "a) 16 GB",
+                "b) 32 GB",
+                "c) 64 GB",
+                "d) 128 GB"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum sollten HDDs bei Virtual Dedicated Servern vermieden werden?",
+              "optionen": [
+                "a) Sie sind zu teuer",
+                "b) Sie sind langsamer und bremsen die Performance",
+                "c) Sie sind schwer zu konfigurieren",
+                "d) Sie verursachen zu viel Lärm"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Datenübertragungsrate ist bei kleineren VDS häufig eingeschränkt?",
+              "optionen": [
+                "a) 10 MBit/s",
+                "b) 100 MBit/s",
+                "c) 1 GBit/s",
+                "d) 10 GBit/s"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Software-Images können oft durch den Provider auf einem VDS installiert werden?",
+              "optionen": [
+                "a) Nur Windows Server",
+                "b) Debian, Fedora, Ubuntu, CentOS, LAMP, Proxmox, Webmin, Windows Server, cPanel/WHM, Plesk Obsidian, Rescue-System",
+                "c) Nur Linux-Distributionen",
+                "d) Nur Windows und macOS"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie kann der Kunde eigene Software auf dem VDS installieren?",
+              "optionen": [
+                "a) Nur durch den Provider",
+                "b) Durch den Import eigener ISO- oder IMG-Dateien",
+                "c) Gar nicht möglich",
+                "d) Nur über USB-Sticks"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist bei der Datensicherung auf einem VDS wichtig zu wissen?",
+              "optionen": [
+                "a) Back-up-Speicher ist immer inklusive",
+                "b) Back-up-Speicher ist nicht inklusive",
+                "c) Back-ups sind verboten",
+                "d) Back-ups müssen manuell auf USB gespeichert werden"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Maßnahmen erhöhen die Sicherheit eines Virtual Dedicated Servers?",
+              "optionen": [
+                "a) Nutzung von Open WLAN",
+                "b) Verschlüsselung der Laufwerke und Zwei-Faktor-Authentifizierung",
+                "c) Keine Updates installieren",
+                "d) Verzicht auf Passwörter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen VDS-Kunden, der seine Ressourcen mit allen teilt?",
+              "optionen": [
+                "a) Den großzügigen Servergast",
+                "b) Den virtuellen Chaoten",
+                "c) Den Bare-Metal-Teiler",
+                "d) Den Ressourcen-Teiler"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm38": {
+        "9.3.4(3) Virtual Private Server (VPS)": {
+          "lerninhalt": [
+            "Bei einem Virtual Private Server (VPS) mietet der Kunde beim Hoster eine virtuelle Maschine, die er mittels eines webbasierten Control Panels starten, stoppen, installieren, sichern und wiederherstellen kann.",
+            "Bei VPS teilen sich mehrere Kunden die vorhandenen physikalischen CPU-Kerne. Die Anzahl der virtualisierten CPU-Kerne (vCPU) ist daher nicht exklusiv, sondern shared.",
+            "Die Anzahl der CPUs sollte aufgrund des Shared Hostings um mindestens 25 % höher gewählt werden, weil die Hardware vom Provider überprovisioniert wird.",
+            "Technische Anforderungen an Virtual Private Server umfassen Anzahl vCPU, Speichergröße in GB, SSD-Größe in GB sowie bevorzugt NVMe-SSDs wegen höherer Datenraten.",
+            "Die Datenübertragungsrate kann bei kleineren VPS gedrosselt sein, zum Beispiel auf 200 MBit/s. Providers setzen oft Limits beim Netzwerk-Traffic. Ziel ist jedoch uneingeschränkter Datenverkehr.",
+            "Beliebte Images, die durch den Provider installiert werden können, sind: Debian, Fedora, Ubuntu, CentOS, LAMP (Linux - Apache - MySQL - PHP), Proxmox, Webmin, Windows Server, cPanel/WHM, Plesk Obsidian, Rescue-System.",
+            "Eigene Images können über den Import eigener Image-Dateien (ISO oder IMG) gestartet und installiert werden.",
+            "Back-up Speicher wird oft als FTP-Speicher angeboten und dient der täglichen Sicherung von Konfigurationsdateien, Datenbankexporten und weiteren Serverdaten."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist ein Virtual Private Server (VPS)?",
+              "optionen": [
+                "a) Ein physischer Server, der exklusiv einem Kunden gehört",
+                "b) Eine virtuelle Maschine, die der Kunde beim Hoster mietet und über ein Control Panel verwaltet",
+                "c) Ein Speicherplatz auf einer Festplatte",
+                "d) Ein Cloud-Speicher für Backups"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie werden CPU-Kerne bei VPS bereitgestellt?",
+              "optionen": [
+                "a) Exklusiv einem Kunden zugeordnet",
+                "b) Gemeinsam von mehreren Kunden genutzt (Shared Hosting)",
+                "c) Nur virtuell simuliert ohne echte Hardware",
+                "d) Immer als physische Kerne ohne Virtualisierung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum sollte man bei VPS die Anzahl der CPUs um mindestens 25 % höher wählen?",
+              "optionen": [
+                "a) Weil das Betriebssystem mehr Kerne benötigt",
+                "b) Wegen Überprovisionierung durch den Provider",
+                "c) Weil vCPUs mehr Leistung haben als physische CPUs",
+                "d) Damit mehr Speicher zur Verfügung steht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Speichermedien sind bei VPS bevorzugt und warum?",
+              "optionen": [
+                "a) HDD, weil sie günstiger sind",
+                "b) NVMe-SSDs, wegen höherer Datenübertragungsraten",
+                "c) USB-Sticks, weil sie flexibel sind",
+                "d) Blu-ray Discs, wegen großer Kapazität"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Bandbreitenbegrenzungen können bei kleineren VPS auftreten?",
+              "optionen": [
+                "a) Unbegrenzt ohne Limit",
+                "b) Oft gedrosselt auf etwa 200 MBit/s",
+                "c) Nur im Upload beschränkt",
+                "d) Nur nachts aktiv"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Nenne drei beliebte Betriebssystem-Images, die auf einem VPS installiert werden können.",
+              "optionen": [
+                "a) Windows 10, macOS, Android",
+                "b) Debian, Ubuntu, CentOS",
+                "c) MS-DOS, Windows XP, Solaris",
+                "d) ChromeOS, FreeBSD, iOS"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie können eigene Betriebssystem-Images auf einem VPS verwendet werden?",
+              "optionen": [
+                "a) Durch das Hochladen von ISO- oder IMG-Dateien und Import über das Control Panel",
+                "b) Nur über den Provider vorinstallierte Images möglich",
+                "c) Nur über physische USB-Sticks",
+                "d) Gar nicht möglich"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist die Hauptfunktion des Backup-Speichers bei einem VPS?",
+              "optionen": [
+                "a) Zur Speicherung von Benutzerdateien",
+                "b) Zur täglichen Sicherung von Konfigurationsdateien und Datenbankexporten",
+                "c) Zur Erhöhung der CPU-Leistung",
+                "d) Zum Installieren von Software"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie wird der Backup-Speicher meist bereitgestellt?",
+              "optionen": [
+                "a) Als USB-Stick",
+                "b) Als FTP-Speicher",
+                "c) Als Cloud-Speicher ohne FTP",
+                "d) Als physischer externer Datenträger"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet der Begriff 'vCPU' bei einem VPS?",
+              "optionen": [
+                "a) Die Anzahl der physischen CPU-Kerne ohne Virtualisierung",
+                "b) Virtuell zugewiesene CPU-Kerne, die auf physischer Hardware geteilt werden",
+                "c) Ein spezieller CPU-Typ für virtuelle Server",
+                "d) Ein Prozessor, der nur für Backups zuständig ist"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der ständig seinen VPS neu starten muss?",
+              "optionen": [
+                "a) Server-Flüsterer",
+                "b) VPS-Reboot-Champion",
+                "c) Neustart-Ninja",
+                "d) Ctrl-Alt-Del-Profi"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm39": {
+        "9.3.4(4) Network Attached Storage (NAS)": {
+          "lerninhalt": [
+            "Bei einem Network Attached Storage (NAS) handelt es sich um einen Dateiserver, welcher im eigenen Netzwerk betrieben wird. Neben den NAS-Systemen für Rechenzentren, die auf höchste Schreib-, Lese- und Übertragungsraten optimiert sind, gibt es NAS-Systeme für kleinere und mittlere Netzwerke. Diese sind nicht im 19-Zoll-Format, sondern in einem (Mini-)Towergehäuse untergebracht und bieten zudem einen integrierten Webserver. Über diesen lassen sich Serveranwendungen und virtuelle Maschinen auf dem NAS betreiben.",
+            "Folgende Kriterien sind bei der Auswahl von NAS-Systemen zu berücksichtigen: Die Bauform, also 19-Zoll-Gehäuse für Rack-Montage oder Mini-Tower-Gehäuse. Die Kapazität umfasst die maximale Anzahl von SSD-Datenträgern und die maximale Gesamtkapazität des Systems.",
+            "Zur Sicherheit gehört die Unterstützung von Verschlüsselungsmodulen, die hardwareseitig Verschlüsselung ermöglichen. Die Schreib- und Lesegeschwindigkeit wird in Megabytes pro Sekunde angegeben und ist für die Performance entscheidend.",
+            "RAID-Level spielen eine wichtige Rolle bei NAS-Systemen, da Festplatten auch während des Betriebs ausfallen können. Hardware-RAID ermöglicht es, einzelne Laufwerke zur Laufzeit zu wechseln, ohne den Betrieb zu unterbrechen.",
+            "Das Dateisystem ist entscheidend für die Funktionen des NAS. OpenZFS ist ein Beispiel für ein Storage-System, das neben dem Dateisystem auch Volume Manager, Snapshots, Copy-on-Write Klone, Remote Replication und RAID-Funktionalitäten umfasst.",
+            "Die Netzwerk-Anbindung erfolgt beispielsweise über Gigabit-Ethernet. Zur Steigerung des Datendurchsatzes kann Link-Aggregation verwendet werden, bei der mehrere Netzwerk-Ports parallel genutzt werden.",
+            "Ein redundantes Netzteil sorgt dafür, dass auch bei Ausfall eines Netzteils das NAS weiterbetrieben werden kann.",
+            "Einige NAS bieten eine Weboberfläche, über die virtuelle Maschinen (VMs) auf dem NAS eingerichtet werden können. So kann man auf einem NAS beispielsweise zusätzlich eine VoIP-Telefonanlage betreiben.",
+            "Als Alternative zu proprietärer NAS-Software existiert die Open Source Software FreeNAS™ bzw. TrueNAS™ core, welche OpenZFS als Dateisystem nutzt. Bei entsprechender Hardware und Konfiguration ist diese Lösung auch für den Einsatz in Rechenzentren geeignet.",
+            "TrueNAS CORE bietet eine Vielzahl von Management-Funktionen, Storage-Apps und Virtualisierungsmöglichkeiten, darunter Plex Media Server, Backup-Lösungen, VPNs, Cloudsync, Nextcloud und viele Plugins. Es unterstützt Sicherheit durch Verschlüsselung, Snapshots, Replikation und Virtualisierungstechnologien wie Jails."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist ein Network Attached Storage (NAS)?",
+              "optionen": [
+                "a) Ein mobiler Datenträger",
+                "b) Ein Dateiserver, der im eigenen Netzwerk betrieben wird",
+                "c) Ein Cloud-Speicherdienst",
+                "d) Ein Virenschutzprogramm"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Bauformen gibt es bei NAS-Systemen für kleinere und mittlere Netzwerke?",
+              "optionen": [
+                "a) 19-Zoll-Rackgehäuse und Mini-Towergehäuse",
+                "b) Nur 19-Zoll-Rackgehäuse",
+                "c) Nur externe USB-Gehäuse",
+                "d) Nur Mini-Server-Gehäuse"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum wird bei NAS-Systemen RAID verwendet?",
+              "optionen": [
+                "a) Um die Datenübertragung zu verlangsamen",
+                "b) Um einzelne Laufwerke zur Laufzeit wechseln zu können und die Ausfallsicherheit zu erhöhen",
+                "c) Um das Betriebssystem zu installieren",
+                "d) Um die Anzahl der Nutzer zu begrenzen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ermöglicht Link-Aggregation bei der Netzwerk-Anbindung eines NAS?",
+              "optionen": [
+                "a) Parallele Nutzung mehrerer Netzwerk-Ports zur Erhöhung des Datendurchsatzes",
+                "b) Automatische WLAN-Verbindung",
+                "c) Fernzugriff auf das NAS von unterwegs",
+                "d) Redundanz für das Netzteil"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welches Dateisystem wird bei FreeNAS/TrueNAS core verwendet?",
+              "optionen": [
+                "a) NTFS",
+                "b) FAT32",
+                "c) OpenZFS",
+                "d) ext4"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Vorteile bietet ein redundantes Netzteil bei einem NAS?",
+              "optionen": [
+                "a) Erhöhte Sicherheit, da das NAS auch bei Ausfall eines Netzteils weiterläuft",
+                "b) Geringerer Stromverbrauch",
+                "c) Schnellere Datenübertragung",
+                "d) Günstigerer Preis"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche der folgenden Anwendungen können auf einem NAS mit Weboberfläche betrieben werden?",
+              "optionen": [
+                "a) Virtuelle Maschinen und VoIP-Telefonanlagen",
+                "b) Nur Backup-Programme",
+                "c) Nur Webbrowser",
+                "d) Nur Antivirusprogramme"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche der folgenden Eigenschaften sind typisch für NAS-Systeme in Rechenzentren?",
+              "optionen": [
+                "a) Optimiert für höchste Schreib-, Lese- und Übertragungsraten",
+                "b) Klein und mobil",
+                "c) Nur mit USB-Anschluss",
+                "d) Mit integrierter Kamera"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum ist die Wahl der Speicherkapazität bei einem NAS wichtig?",
+              "optionen": [
+                "a) Sie bestimmt die maximale Anzahl der Nutzer",
+                "b) Sie gibt die maximale Anzahl der SSD-Datenträger und die Gesamtkapazität an",
+                "c) Sie beeinflusst nur die Geschwindigkeit",
+                "d) Sie definiert die Netzwerkgeschwindigkeit"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist TrueNAS CORE?",
+              "optionen": [
+                "a) Ein proprietäres NAS-System",
+                "b) Eine Open Source NAS-Software basierend auf OpenZFS",
+                "c) Ein Cloud-Dienstanbieter",
+                "d) Ein Backup-Programm"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen NAS, der gerne Partys feiert?",
+              "optionen": [
+                "a) Data-DJ",
+                "b) Speicher-King",
+                "c) File-Hoster",
+                "d) Disk-O"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm40": {
+        "9.3.5  Technische Anforderungen der Rechenzentren kennen": {
+          "lerninhalt": [
+            "Für den Aufbau, die Erweiterung und den Betrieb von Rechenzentren werden Komponenten benötigt, die zuverlässig sind und eine sehr hohe Performance liefern.",
+            "Die Anforderungen unterscheiden sich grundlegend gemäß den Leistungsansprüchen des Einsatzbereiches: High-Performance-Computing, High-Performance-Cloud, Hochsicherheitslösungen, private Rechenzentren, Collocations für Banken und Industrie, Rechenzentren für Internet-Service-Provider oder Telekommunikation.",
+            "Bereits in der Planung für die Verkabelung ist festzulegen, welche Übertragungsraten erreicht werden müssen, welche Distanzen verlegt werden müssen und welche Dämpfungen einzuhalten sind.",
+            "Technische Anforderungen an Rechenzentren:",
+            "- LWL-Verkabelung: Verkabelungssysteme mit Lichtwellenleiter benötigen entsprechende Kabel (Singlemode/Multimode), Mehrfaser-Steckverbinder MTP/MPO, Transceiver und aktive Netzwerkkomponenten gemäß den zu unterstützenden Standards, z.B. 400 GBASE-SR8/IEEE 802.3bs 400 G (Terabit Ethernet, TbE).",
+            "- Kupferverkabelung: Zum Einsatz kommen 10-GBASE-T-SSTP-Kupferkabel, also CAT7- oder CAT6a-Kabel mit entsprechenden Steckern und Netzwerkkomponenten.",
+            "- KVM-Konsole: Eine 19-Zoll-KVM-(Keyboard Video Mouse)Konsole reicht, um mehrere Server zu bedienen.",
+            "- Server-Hardware: Wird von Lieferanten gemäß Geschäftsmodell bezogen. Beidseitig gesicherte Stromkabel verhindern, dass sich Stromkabel lösen.",
+            "- Server-Software: Ermöglicht die technische Einrichtung und Bereitstellung von VDS, VPS, Webhosting und Dedicated Servern sowie deren kaufmännische Abrechnung.",
+            "- USV (Unterbrechungsfreie Stromversorgung): Wichtig sind Ausgangsleistung und Zeitdauer der Stromversorgung. Die Gesamtleistung aller Server darf die USV-Ausgangsleistung nicht überschreiten.",
+            "Die USV sollte bei geringem Akkustand signalisieren können, dass Server herunterzufahren sind, z.B. über RS232, USB oder UTP.",
+            "- Wärmerückgewinnung: Rechenzentren erzeugen viel Wärme. Flüssigkühlung führt zu hohen Abflusstemperaturen, die weiter genutzt werden können.",
+            "Bei Luftkühlung mit Wärmetauscher und Wärmepumpe sind die Abflusstemperaturen geringer und die Abwärme lässt sich kaum im Nahwärmenetz nutzen."
+          ],
+          "fragen": [
+            {
+              "frage": "Warum unterscheiden sich die Anforderungen an Rechenzentren?",
+              "optionen": [
+                "a) Wegen der unterschiedlichen Leistungsansprüche der Einsatzbereiche",
+                "b) Weil jeder Hersteller andere Komponenten nutzt",
+                "c) Aufgrund unterschiedlicher Länderstandards",
+                "d) Wegen der Serveranzahl allein"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Verkabelungssysteme werden in Rechenzentren mit Lichtwellenleitern verwendet?",
+              "optionen": [
+                "a) Singlemode und Multimode Kabel mit MTP/MPO Steckern",
+                "b) Nur Multimode Kabel mit RJ45 Steckern",
+                "c) Kupferkabel der Kategorie 5",
+                "d) Koaxialkabel"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist typisch für die Kupferverkabelung in Rechenzentren?",
+              "optionen": [
+                "a) Verwendung von CAT7 oder CAT6a Kabeln mit passenden Steckern",
+                "b) Nur CAT5 Kabel werden genutzt",
+                "c) Verwendung von Glasfaserkabeln",
+                "d) Kabel ohne Schirmung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Funktion erfüllt eine 19-Zoll-KVM-Konsole in einem Rechenzentrum?",
+              "optionen": [
+                "a) Sie dient zur Bedienung mehrerer Server",
+                "b) Sie kühlt die Server",
+                "c) Sie misst die Temperatur der Server",
+                "d) Sie speichert Daten"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist bei Server-Hardware in Rechenzentren besonders wichtig?",
+              "optionen": [
+                "a) Beidseitig gesicherte Stromkabel, um ein Lösen zu verhindern",
+                "b) Farbige Gehäuse",
+                "c) Große Festplattenkapazität",
+                "d) Kabellose Stromversorgung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Aufgabe hat die Server-Software in Rechenzentren?",
+              "optionen": [
+                "a) Technische Einrichtung von VDS, VPS, Webhosting und Dedicated Servern sowie kaufmännische Abrechnung",
+                "b) Nur Datensicherung",
+                "c) Nur Hardwareüberwachung",
+                "d) Keine Aufgabe"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Kriterien sind wichtig für die USV in Rechenzentren?",
+              "optionen": [
+                "a) Ausgangsleistung und Zeitdauer der Stromversorgung",
+                "b) Die Farbe der USV",
+                "c) Die Lautstärke der USV",
+                "d) Die Größe der USV"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie kann eine USV den Servern signalisieren, dass sie herunterfahren sollen?",
+              "optionen": [
+                "a) Über RS232, USB oder UTP",
+                "b) Durch Lichtblitze",
+                "c) Durch Lautsprecher",
+                "d) Durch Rauchzeichen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Vorteile hat Flüssigkühlung bei der Wärmerückgewinnung in Rechenzentren?",
+              "optionen": [
+                "a) Sie erzeugt hohe Abflusstemperaturen, die weiter genutzt werden können",
+                "b) Sie ist günstiger als Luftkühlung",
+                "c) Sie benötigt keine Stromversorgung",
+                "d) Sie erzeugt keine Wärme"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum ist Luftkühlung mit Wärmetauscher und Wärmepumpe weniger effizient für Nahwärmenetz-Nutzung?",
+              "optionen": [
+                "a) Weil die Abflusstemperaturen deutlich geringer sind",
+                "b) Weil sie zu laut ist",
+                "c) Weil sie zu teuer ist",
+                "d) Weil sie keine Wärme produziert"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Server, der zu viel schwitzt?",
+              "optionen": [
+                "a) Einen warmen Rechner",
+                "b) Einen Glutofen",
+                "c) Einen Heißläufer",
+                "d) Einen Rechenzentrierter"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm41": {
+        "9.3.5(1) NAS - SAN - DAS": {
+          "lerninhalt": [
+            "Bei NAS, SAN und DAS handelt es sich um Storagesysteme, die für sehr hohe Datenübertragungsraten und große Datenmengen in Rechenzentren ausgelegt sind. Diese Speicherlösungen werden bevorzugt in Serverumgebungen eingesetzt, die eine hohe Performance benötigen.",
+            "Storage Area Networks (SAN) sind dedizierte Netzwerke, die typischerweise mit mindestens 10 GBit/s Datenübertragungsrate arbeiten. Sie sind separat vom normalen LAN aufgebaut, um die hohe Performance und geringe Latenz zu gewährleisten (vgl. Lernfeld 2, Kap. 2.4.7).",
+            "Network Attached Storage (NAS) stellt Speicher über Ethernet im gleichen Netzwerk wie die Clients bereit. Die Clients greifen über das LAN auf den NAS-Speicher zu, wodurch die Belastung des LANs steigt, da der Datenverkehr für Speicher und normale Netzwerkkommunikation zusammenläuft.",
+            "Direct Attached Storage (DAS) ist direkt an einen Server angeschlossen, z.B. über Serial Attached SCSI (SAS). Die Speicherressource steht nur diesem einzelnen Host exklusiv zur Verfügung und ist kostengünstiger als NAS oder SAN, bietet aber keine Netzwerkfreigabe.",
+            "NAS, SAN und DAS unterscheiden sich hinsichtlich ihrer Anbindung, Kosten und Performance: NAS ist einfach anzubinden, belastet aber das LAN; SAN ist teuer, erlaubt aber hohe Transferraten für alle Server; DAS ist kostengünstig, aber nur einem Host exklusiv zugänglich.",
+            "In Rechenzentren sind die technischen Anforderungen für die Bereitstellung von Netzwerken mit Blick auf Speicherlösungen entscheidend, insbesondere hinsichtlich Übertragungsraten, Zuverlässigkeit und Skalierbarkeit."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist der Hauptzweck von NAS, SAN und DAS in Rechenzentren?",
+              "optionen": [
+                "a) Speicherung großer Datenmengen mit hohen Datenraten",
+                "b) Verwaltung von Benutzerkonten",
+                "c) Schutz vor Viren",
+                "d) Kühlung der Server"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Netzwerke sind speziell für die Verbindung von Speicherkomponenten mit hoher Performance in Rechenzentren üblich?",
+              "optionen": [
+                "a) LANs",
+                "b) WLANs",
+                "c) Storage Area Networks (SAN)",
+                "d) VPNs"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wie werden NAS-Speicher typischerweise angebunden?",
+              "optionen": [
+                "a) Direkt über SAS-Kabel an einen Server",
+                "b) Über Ethernet im gleichen Netzwerk wie die Clients",
+                "c) Über Fibre Channel nur für einzelne Server",
+                "d) Über USB"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein Nachteil von NAS im Vergleich zu SAN?",
+              "optionen": [
+                "a) NAS ist teurer",
+                "b) NAS belastet das LAN durch den gemeinsamen Datenverkehr",
+                "c) NAS hat keine Netzwerkanschlüsse",
+                "d) NAS ist ausschließlich exklusiv einem Host zugeordnet"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt Direct Attached Storage (DAS)?",
+              "optionen": [
+                "a) Speicher, der über Ethernet an mehrere Clients freigegeben wird",
+                "b) Speicher, der direkt an einen Server angeschlossen ist und nur diesem Host zur Verfügung steht",
+                "c) Ein spezielles Storage-Netzwerk mit hoher Datenrate",
+                "d) Ein virtuelles Speichergerät in der Cloud"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Technologie wird oft für die Verbindung von DAS an Server verwendet?",
+              "optionen": [
+                "a) USB",
+                "b) Fibre Channel",
+                "c) Serial Attached SCSI (SAS)",
+                "d) WLAN"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welches Speicher-Setup ist am kostengünstigsten?",
+              "optionen": [
+                "a) NAS",
+                "b) SAN",
+                "c) DAS",
+                "d) Cloud Storage"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum werden in Rechenzentren für Speicher separate Netzwerke wie SAN eingerichtet?",
+              "optionen": [
+                "a) Um die Sicherheit des LANs zu erhöhen",
+                "b) Um hohe Datenübertragungsraten und geringe Latenzen zu garantieren",
+                "c) Um Kosten zu sparen",
+                "d) Um WLAN zu ersetzen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Datenübertragungsrate wird mindestens für Storage Area Networks in Rechenzentren angestrebt?",
+              "optionen": [
+                "a) 1 GBit/s",
+                "b) 5 GBit/s",
+                "c) 10 GBit/s",
+                "d) 100 MBit/s"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist ein JBOD in Bezug auf DAS?",
+              "optionen": [
+                "a) Ein Netzwerkprotokoll für NAS",
+                "b) Ein Verbund aus mehreren Festplatten ohne RAID",
+                "c) Eine Art von SAN-Switch",
+                "d) Ein Sicherungsgerät"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Speicher, der immer seine Daten verliert?",
+              "optionen": [
+                "a) NAS-talgia",
+                "b) SAN-tastrophe",
+                "c) DAS-katastrophe",
+                "d) Datenverlust-Express"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm42": {
+       "9.3.5(2) Unterbrechungsfreie Stromversorgung (USV)": {
+          "lerninhalt": [
+            "Eine unterbrechungsfreie Stromversorgung (Uninterruptable Power Supply, UPS) versorgt elektrische Geräte mit Strom, wenn die Hauptstromversorgung ausfällt.",
+            "USV-Klassifizierung nach DIN EN 62040-3/IEC 62040-3 unterscheidet drei Stufen:",
+            "VFI USV der Klasse VFI arbeiten spannungs- und frequenzunabhängig (Voltage and Frequency independent, VFI). Sie schützen gegen alle Arten von Spannungsschwankungen, -stößen, Unter- und Überspannung, Blitzeinwirkungen, Schaltspitzen, Stromausfällen und Frequenzänderungen. Sie eignen sich daher für alle Einsatzszenarien wie Rechenzentren, Server und Netzwerke.",
+            "VI USV der Klasse VI arbeiten spannungsunabhängig vom Netz (Voltage Independent). Sie schützen vor Spannungsproblemen und Stromausfällen. Sie sind günstiger als VFI und sind für kleinere Netzwerke geeignet.",
+            "VFD USV der Klasse VFD arbeiten spannungs- und frequenzabhängig vom Netz (Voltage and Frequency dependent, VFD). Sie sind günstiger als VI Systeme und sind geeignet für den Schutz einzelner Arbeitsplätze.",
+            "USV bestehen aus Akkus, die sich entladen, sobald die Hauptstromversorgung ausfällt. Sie haben daher eine begrenzte Kapazität.",
+            "Bei der Auswahl von USV muss die Gesamtlast berücksichtigt werden, die alle zu schützenden Geräte aufnehmen, und ebenso die Betriebszeit. Diese gibt die Dauer in Minuten an, in der die USV Strom liefern soll. Bei einem einzelnen Server sind dies beispielsweise 20 Minuten.",
+            "Über eine Schnittstelle, z.B. RS232, USB oder RJ45, teilt die USV den zu schützenden Komponenten mit, wann diese herunterfahren müssen."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion einer unterbrechungsfreien Stromversorgung (UPS)?",
+              "optionen": [
+                "a) Datenübertragung sichern",
+                "b) Elektrische Geräte bei Stromausfall weiter versorgen",
+                "c) Die Temperatur im Rechenzentrum regulieren",
+                "d) Hardware automatisch updaten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche USV-Klasse arbeitet spannungs- und frequenzunabhängig?",
+              "optionen": [
+                "a) VFI",
+                "b) VI",
+                "c) VFD",
+                "d) Keine der genannten"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche USV-Klasse ist am günstigsten und für den Schutz einzelner Arbeitsplätze geeignet?",
+              "optionen": [
+                "a) VFI",
+                "b) VI",
+                "c) VFD",
+                "d) Alle Klassen sind gleich teuer"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wofür steht die Abkürzung VFI bei USV-Systemen?",
+              "optionen": [
+                "a) Voltage and Frequency independent",
+                "b) Variable Frequency Integration",
+                "c) Voltage Frequency Interface",
+                "d) Variable Function Implementation"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was muss bei der Auswahl einer USV bezüglich der Gesamtlast berücksichtigt werden?",
+              "optionen": [
+                "a) Nur die Anzahl der Geräte",
+                "b) Die Gesamtlast aller zu schützenden Geräte und die gewünschte Betriebszeit",
+                "c) Die Farbe und Größe der USV",
+                "d) Nur die Laufzeit des Akkus"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Schnittstellen können USV verwenden, um Geräte über Stromausfälle zu informieren?",
+              "optionen": [
+                "a) HDMI, VGA, DVI",
+                "b) RS232, USB, RJ45",
+                "c) Bluetooth, NFC, ZigBee",
+                "d) SATA, PCIe, Thunderbolt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche USV-Klasse schützt vor Spannungsproblemen und Stromausfällen, ist aber günstiger als VFI?",
+              "optionen": [
+                "a) VFI",
+                "b) VI",
+                "c) VFD",
+                "d) Keine der genannten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet es, dass eine USV spannungs- und frequenzunabhängig arbeitet?",
+              "optionen": [
+                "a) Die USV kann Spannungs- und Frequenzänderungen ignorieren und trotzdem stabile Energie liefern",
+                "b) Die USV arbeitet nur mit konstanter Spannung und Frequenz",
+                "c) Die USV ist nur für kleine Geräte geeignet",
+                "d) Die USV arbeitet nur, wenn Strom im Netz vorhanden ist"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum haben USV nur eine begrenzte Kapazität?",
+              "optionen": [
+                "a) Wegen der Akkus, die sich bei Stromausfall entladen",
+                "b) Weil sie nur für kurze Stromstöße ausgelegt sind",
+                "c) Weil sie nicht dauerhaft eingeschaltet sein können",
+                "d) Wegen der Anschlussarten"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Für wie lange kann eine typische USV einen einzelnen Server mit Strom versorgen?",
+              "optionen": [
+                "a) 5 Minuten",
+                "b) 20 Minuten",
+                "c) 1 Stunde",
+                "d) 24 Stunden"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum sind USV-Systeme besonders wichtig in Rechenzentren?",
+              "optionen": [
+                "a) Um die Kühlung zu optimieren",
+                "b) Um einen unterbrechungsfreien Betrieb sicherzustellen und Schäden durch Stromausfälle zu vermeiden",
+                "c) Um Software zu aktualisieren",
+                "d) Um den Stromverbrauch zu erhöhen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Was macht ein ITler, wenn die USV ausfällt und der Strom weg ist?",
+              "optionen": [
+                "a) Er tanzt im Dunkeln",
+                "b) Er sucht die Taschenlampe und schreibt eine Notfall-Mail",
+                "c) Er lädt das Betriebssystem neu",
+                "d) Er trinkt erst mal einen Kaffee"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm43": {
+        "9.3.6 WAN-lnfrastrukturen unterscheiden": {
+          "lerninhalt": [
+            "WAN-Infrastrukturen (Wide Area Network) werden von Telekommunikations-, Kabelnetz- und Mobilfunknetzbetreibern bereitgestellt und betrieben. Die Anbindung von Netzwerken erfolgt meist unter Berücksichtigung von Datenübertragungsraten, die je nach Technologie stark variieren können.",
+            "Glasfaser ermöglicht Datenübertragungsraten bis zu 10 GBit/s (Stand 2021). Das Glasfasernetz wird in Deutschland zunehmend ausgebaut, speziell mit Fiber to the home (FTTH). Dabei wird das Glasfaserkabel durch Leerrohre vom Verteilerkasten bis zum Hausübergabepunkt geführt, wo es mit Glasfasersteckern verbunden wird. Ein spezielles innenliegendes Glasfaserkabel verbindet den Hausübergabepunkt mit dem Optical Network Termination (ONT), der das Lichtsignal in elektrische Signale umwandelt. Ab dort übernimmt der Kunde die Netzwerkanbindung.",
+            "Das Kabelfernsehnetz besteht aus dem Cable Modem Termination System (CMTS), dem Kabelnetz (Koaxialkabeln) und den Endgeräten (Cable Modems). Die Daten werden über Kabelmodems auf Trägersignale moduliert, ähnlich wie bei DSL. Die DOCSIS-Spezifikation (Data Over Cable Service Interface Specification) ermöglicht den bidirektionalen IP-Pakettransport und erreicht deutlich höhere Übertragungsraten als DSL.",
+            "DOCSIS 3.1 erlaubt Downloadraten bis zu 1 GBit/s und Uploadraten bis zu 240 MBit/s. Mit der neueren DOCSIS 4.0 Spezifikation werden die Raten weiter erhöht. EuroDOCSIS ist die auf das PAL-Fernsehsystem angepasste DOCSIS-Variante für Europa.",
+            "Mobilfunknetze werden von Anbietern wie D1, D2, O2 und E-Plus bereitgestellt. Die Entwicklung der Mobilfunknetze führte von GSM (2G) mit Datenraten bis 9,6 Kbit/s über GPRS (2G) mit bis zu 55 Kbit/s, UMTS (3G) mit bis zu 384 Kbit/s, HSPA (Erweiterung von 3G) mit bis zu 7,2 MBit/s, bis hin zu LTE (4G) mit bis zu 100 MBit/s und LTE Advanced mit bis zu 1 GBit/s. Das 5G-Netz ermöglicht Datenübertragungsraten bis zu 10 GBit/s.",
+            "Die UMTS-Netze wurden in Deutschland im Jahr 2021 abgeschaltet.",
+            "DSL-Netze (Digital Subscriber Line) nutzen Kupferkabel und ermöglichen die Anbindung über DSL-Modems und DSL-Access-Multiplexer (DSLAM). Das Protokoll 'PPP over Ethernet' wird verwendet. DSLAM sind über Gigabit-Ethernet mit dem Glasfaser-Backbone verbunden.",
+            "Die Datenrate bei VDSL2 kann bei sehr kurzen Kabelstrecken theoretisch bis zu 350 MBit/s (Summe Up- und Downstream) erreichen. Bis 500 Meter sind bis zu 100 MBit/s möglich, darüber sinkt die Geschwindigkeit auf ca. 50 MBit/s aufgrund der Dämpfung, die mit der Kabellänge steigt.",
+            "Kupferkabel nach CAT5, CAT6, CAT6a und CAT7 Spezifikationen werden für strukturierte Netzwerke eingesetzt. CAT6-Kabel unterstützen bis zu 10 GBit/s bei maximal 100 Metern Länge mit RJ45-Steckern. CAT7-Kabel sind für 10 GBASE-T geeignet, nutzen aber keine RJ45-Stecker, sondern geschirmte Adernpaare (S/FTP-Kabel) mit zusätzlichem Gesamtschirm.",
+            "Die verschiedenen Kabel- und Netzwerktechnologien sind entscheidend für die Planung und Bereitstellung von WAN-Netzen. Die Auswahl hängt von den Anforderungen an Geschwindigkeit, Entfernung, Infrastruktur und Kosten ab."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Datenübertragungsrate ermöglicht Glasfaser laut Stand 2021?",
+              "optionen": [
+                "a) Bis zu 1 GBit/s",
+                "b) Bis zu 10 GBit/s",
+                "c) Bis zu 100 MBit/s",
+                "d) Bis zu 350 MBit/s"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt das Fiber to the home (FTTH) Konzept?",
+              "optionen": [
+                "a) Glasfaserkabel wird bis zum Verteilerkasten verlegt",
+                "b) Glasfaserkabel wird bis zum Hausübergabepunkt geführt",
+                "c) Kupferkabel wird bis ins Haus verlegt",
+                "d) Kabelmodems werden im Haus eingesetzt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Technologie verwendet das Kabelfernsehnetz zur Datenübertragung?",
+              "optionen": [
+                "a) DSL-Modems",
+                "b) Kabelmodems mit DOCSIS-Spezifikation",
+                "c) Glasfaserkabel ohne Modulation",
+                "d) Mobilfunknetze"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Download- und Uploadraten sind mit DOCSIS 3.1 möglich?",
+              "optionen": [
+                "a) Download bis 1 GBit/s, Upload bis 240 MBit/s",
+                "b) Download bis 100 MBit/s, Upload bis 50 MBit/s",
+                "c) Download bis 10 GBit/s, Upload bis 10 GBit/s",
+                "d) Download bis 384 KBit/s, Upload bis 7,2 MBit/s"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Mobilfunkgeneration wurde in Deutschland 2021 abgeschaltet?",
+              "optionen": [
+                "a) GSM",
+                "b) GPRS",
+                "c) UMTS (3G)",
+                "d) LTE"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche maximale Datenrate kann LTE Advanced erreichen?",
+              "optionen": [
+                "a) 100 MBit/s",
+                "b) 1 GBit/s",
+                "c) 10 GBit/s",
+                "d) 384 KBit/s"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt VDSL2 bei sehr kurzen Kabelstrecken?",
+              "optionen": [
+                "a) Maximal 50 MBit/s Gesamtübertragungsrate",
+                "b) Maximal 100 MBit/s Gesamtübertragungsrate",
+                "c) Maximal 350 MBit/s Gesamtübertragungsrate",
+                "d) Maximal 10 GBit/s Gesamtübertragungsrate"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Kabelspezifikation unterstützt bis zu 10 GBit/s bei maximal 100 Metern Länge mit RJ45-Steckern?",
+              "optionen": [
+                "a) CAT5",
+                "b) CAT6",
+                "c) CAT7",
+                "d) Koaxialkabel"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum sinkt die Datenrate bei DSL mit steigender Kabellänge?",
+              "optionen": [
+                "a) Wegen erhöhter Signalstörungen und Dämpfung",
+                "b) Wegen verbesserter Hardware",
+                "c) Wegen fehlender Modulation",
+                "d) Wegen stärkerer Verstärker"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Aussage trifft auf CAT7-Kabel zu?",
+              "optionen": [
+                "a) Sie verwenden RJ45-Stecker",
+                "b) Sie sind ungeeignet für 10 GBASE-T",
+                "c) Sie sind geschirmte Adernpaare mit zusätzlichem Gesamtschirm",
+                "d) Sie sind nicht abgeschirmt"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der ständig sein WLAN verliert?",
+              "optionen": [
+                "a) Offline-Coder",
+                "b) WiFi-Flüsterer",
+                "c) Paket-Verlierer",
+                "d) LAN-Suchender"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
       }
+
     }
   }
 }
