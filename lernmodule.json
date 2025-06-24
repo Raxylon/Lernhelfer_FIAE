@@ -4699,7 +4699,11 @@
                 "c) Projektplanung",
                 "d) Fußballtraining"
               ],
-              "antwort": ["a", "b", "c"]
+              "antwort": [
+                "a",
+                "b",
+                "c"
+              ]
             },
             {
               "frage": "Wie kann man Anforderungen strukturiert dokumentieren?",
@@ -4745,57 +4749,116 @@
           "fragen": [
             {
               "frage": "Welche der folgenden Kontaktwege zählen zu externen Kundenanfragen?",
-              "optionen": ["a) Besprechung und Anweisung", "b) Telefon, E-Mail und Internetportal", "c) IT-Strategie und Leitung", "d) Interner Newsletter"],
+              "optionen": [
+                "a) Besprechung und Anweisung",
+                "b) Telefon, E-Mail und Internetportal",
+                "c) IT-Strategie und Leitung",
+                "d) Interner Newsletter"
+              ],
               "antwort": "b"
             },
             {
               "frage": "Was ist kein Bestandteil des Anforderungsanalyseprozesses?",
-              "optionen": ["a) Bedarfsanalyse", "b) Angebotserstellung", "c) Marketingstrategie", "d) Lasten- und Pflichtenheft"],
+              "optionen": [
+                "a) Bedarfsanalyse",
+                "b) Angebotserstellung",
+                "c) Marketingstrategie",
+                "d) Lasten- und Pflichtenheft"
+              ],
               "antwort": "c"
             },
             {
               "frage": "Welche Aufgaben gehören zur Netzwerkbereitstellung? (Mehrfachantwort)",
-              "optionen": ["a) Vertragsbedingungen klären", "b) Kauf oder Miete planen", "c) Aktive/passive Komponenten bereitstellen", "d) Marktanalyse durchführen"],
-              "antwort": ["a", "b", "c"]
+              "optionen": [
+                "a) Vertragsbedingungen klären",
+                "b) Kauf oder Miete planen",
+                "c) Aktive/passive Komponenten bereitstellen",
+                "d) Marktanalyse durchführen"
+              ],
+              "antwort": [
+                "a",
+                "b",
+                "c"
+              ]
             },
             {
               "frage": "Warum ist die Netzbereitstellung in Unternehmen besonders komplex?",
-              "optionen": ["a) Weil Netzwerke langweilig sind", "b) Aufgrund unterschiedlicher Anforderungen, Größen und Technologien", "c) Wegen einheitlicher Hardware", "d) Wegen gesetzlicher Vorgaben zur Zeiterfassung"],
+              "optionen": [
+                "a) Weil Netzwerke langweilig sind",
+                "b) Aufgrund unterschiedlicher Anforderungen, Größen und Technologien",
+                "c) Wegen einheitlicher Hardware",
+                "d) Wegen gesetzlicher Vorgaben zur Zeiterfassung"
+              ],
               "antwort": "b"
             },
             {
               "frage": "Was beschreibt das Lastenheft im Anforderungsprozess?",
-              "optionen": ["a) Interne Probleme", "b) Detaillierte technische Umsetzung", "c) Anforderungen aus Kundensicht", "d) Nur Preisstruktur"],
+              "optionen": [
+                "a) Interne Probleme",
+                "b) Detaillierte technische Umsetzung",
+                "c) Anforderungen aus Kundensicht",
+                "d) Nur Preisstruktur"
+              ],
               "antwort": "c"
             },
             {
               "frage": "Welche Technologien beeinflussen die moderne Netzplanung maßgeblich?",
-              "optionen": ["a) Cloud Computing und hybride Netztechnologien", "b) ISDN", "c) Schwarzweißdrucker", "d) Floppy Disks"],
+              "optionen": [
+                "a) Cloud Computing und hybride Netztechnologien",
+                "b) ISDN",
+                "c) Schwarzweißdrucker",
+                "d) Floppy Disks"
+              ],
               "antwort": "a"
             },
             {
               "frage": "Welcher Bereich ist nicht typisch für externe Berater in der Netzbereitstellung?",
-              "optionen": ["a) Erfahrungswissen beisteuern", "b) Marketingstrategien planen", "c) Technische Alternativen bewerten", "d) Risiken analysieren"],
+              "optionen": [
+                "a) Erfahrungswissen beisteuern",
+                "b) Marketingstrategien planen",
+                "c) Technische Alternativen bewerten",
+                "d) Risiken analysieren"
+              ],
               "antwort": "b"
             },
             {
               "frage": "Wozu dienen VLANs und VPNs im Kontext virtueller Netze?",
-              "optionen": ["a) Um physikalische Netzwerke zu ignorieren", "b) Um Netzwerke zu virtualisieren und logisch zu trennen", "c) Um Daten zu löschen", "d) Um Netzwerke zu verlangsamen"],
+              "optionen": [
+                "a) Um physikalische Netzwerke zu ignorieren",
+                "b) Um Netzwerke zu virtualisieren und logisch zu trennen",
+                "c) Um Daten zu löschen",
+                "d) Um Netzwerke zu verlangsamen"
+              ],
               "antwort": "b"
             },
             {
               "frage": "Welche Aufgaben erfüllt ein IDS (Intrusion Detection System)?",
-              "optionen": ["a) Spamversand", "b) Stromverbrauch messen", "c) Angriffe erkennen", "d) Downloads blockieren"],
+              "optionen": [
+                "a) Spamversand",
+                "b) Stromverbrauch messen",
+                "c) Angriffe erkennen",
+                "d) Downloads blockieren"
+              ],
               "antwort": "c"
             },
             {
               "frage": "Welche Aussage trifft auf Rechenzentren als Einsatzgebiet zu?",
-              "optionen": ["a) Nur Softwareinstallation", "b) Erweiterung, Betrieb, Monitoring", "c) Dokumentenmanagement", "d) Personalabrechnung"],
+              "optionen": [
+                "a) Nur Softwareinstallation",
+                "b) Erweiterung, Betrieb, Monitoring",
+                "c) Dokumentenmanagement",
+                "d) Personalabrechnung"
+              ],
               "antwort": "b"
             },
             {
               "frage": "Was passiert, wenn man ein Netzwerkkabel mit Spaghetti ersetzt?",
-              "optionen": ["a) Das Netzwerk wird lecker", "b) Die Verbindung wird al dente", "c) Es entstehen Lasagne-Pakete", "d) Das Netzwerk bricht zusammen – aber stilvoll"],
+              "optionen": [
+                "a) Das Netzwerk wird lecker",
+                "b) Die Verbindung wird al dente",
+                "c) Es entstehen Lasagne-Pakete",
+                "d) Das Netzwerk bricht zusammen – aber stilvoll"
+              ],
               "antwort": "d"
             }
           ]
@@ -4883,7 +4946,6 @@
             "- Sicherheitsanforderungen: Eingesetzte Schutzsysteme, frühere Störungen, Marktneuheiten, Schutzbedarfsanalysen.",
             "Zusätzliche Kundenanforderungen wie Kostenoptimierung, Zukunftsorientierung, Änderungen der Administration, Compliance- und Sicherheitsanforderungen müssen berücksichtigt werden.",
             "Diese strukturierte Erhebung ist die Grundlage für die spätere Planung und Umsetzung der Netzwerkbereitstellung."
-
           ],
           "fragen": [
             {
@@ -5035,7 +5097,6 @@
             "Der Lieferumfang umfasst Infrastruktur, Software, Schulung, Dokumentation und Abnahmeprozesse.",
             "Die Ausbildungs-Vorlage von JIKU IT-Solutions liefert ein konkretes Raster zur strukturierten Erhebung im Kundengespräch.",
             "Wichtige Kriterien in der Kundenanalyse: Nutzergruppen, Zugriffsorte, Verfügbarkeit, Schnittstellen, eingesetzte Hardware/Software, Netzwerkarchitektur, WAN-Zugang, Administration, Ausfallsicherheit, Datenschutz, Supportstrukturen."
-
           ],
           "fragen": [
             {
@@ -5160,7 +5221,7 @@
             }
           ]
         }
-        },
+      },
       "lm07": {
         "9.1.1(5) Pflichtenhefterstellung": {
           "lerninhalt": [
@@ -5303,11 +5364,2860 @@
             }
           ]
         }
+      },
+      "lm08": {
+        "9.1.2 Mit DevOps Netzwerkbereitstellung unterstützen": {
+          "lerninhalt": [
+            "Bereitstellungen von Netzwerken gelten in diesem Lernfeld als einmalige, terminlich festgelegte Maßnahmen. Wiederkehrende Prozesse wie laufende Bereitstellungen, Provisierungen, Orchestrierungen und administrative Aufgaben werden im Jahrgangsband 3 behandelt.",
+            "Im Kontext von Projektmanagement, Teamarbeit und interdisziplinärer Entwicklung wird häufig der Begriff 'DevOps' verwendet. DevOps ist ein Kofferwort aus 'Development' (Entwicklung) und 'Operations' (Betrieb) und beschreibt eine agile Arbeitskultur zur Prozessverbesserung.",
+            "DevOps wird besonders im Bereich der Anwendungsentwicklung und zunehmend auch in der Systemadministration (z. B. Cloud-Technologien, virtuelle Systeme) eingesetzt. Ziel ist eine enge Zusammenarbeit zwischen Entwicklung und Betrieb, mit Fokus auf Automatisierung und Effizienz.",
+            "Kubernetes, Docker-Services und DevOps-Methoden ermöglichen es, Cloud-Infrastrukturen flexibel bereitzustellen und kontinuierlich zu aktualisieren. Continuous Integration (CI) und Continuous Delivery (CD) sind zentrale Praktiken.",
+            "Der 'Shift-Left'-Ansatz bringt Sicherheitstests früh in den Entwicklungsprozess ein. Dies führt zu einer schnelleren Fehlererkennung, erhöhten Sicherheit und verkürzter Entwicklungszeit.",
+            "DevOps-Engineers vermitteln zwischen Entwicklung, Qualitätssicherung und Betrieb. Sie sorgen für hohe Qualität und kontinuierliche Verbesserung von IT-Systemen durch Monitoring, Orchestrierung und Automatisierung.",
+            "IT-Systemadministratoren mit DevOps-Erfahrung sind gefragt, da sie sowohl die Entwicklungs- als auch die Einsatzseite verstehen und bearbeiten können. Dazu zählen Kenntnisse in Administration, Orchestrierung und Monitoring.",
+            "Das CALMS-Modell beschreibt die DevOps-Kultur anhand von fünf Prinzipien: Culture (Kultur), Automation (Automatisierung), Lean (Schlankheit), Measurement (Messung) und Sharing (Austausch).",
+            "DevOps-Praktiken: Continuous Integration (CI) automatisiert das Übersetzen und Testen von Quellcode, Continuous Delivery (CD) stellt sicher, dass Software nach Packaging, Releasing, Configuring und Monitoring bereitgestellt wird.",
+            "DevOps-Rollen umfassen u.a. Cloud-Architekten, QM-Manager, Systemadministratoren. Ziele: kunden- und zielorientiertes Handeln, End-to-End-Verantwortung, funktionsübergreifende Teams, kontinuierliche Verbesserung.",
+            "Nach Vertragsabschluss zur Netzwerkbereitstellung folgt die Umsetzung: Infrastruktur aufbauen oder aktualisieren, Komponenten beschaffen, ggf. Testinstallationen, Bereitstellung und Migration planen, Mitarbeitereinsatz koordinieren.",
+            "Nach Installation und Konfiguration folgt die Automatisierung der Administration mithilfe von Provisionierung und Orchestrierung. Hier kommen Architekturmodelle wie SOi (Service Oriented Infrastructure) und SOA (Service Oriented Architecture) zum Einsatz.",
+            "SOi strukturiert virtualisierte Ressourcen (Rechner, Speicher, Netzwerke), während SOA auf Software und Datenprozesse zielt. Beide Modelle unterstützen effiziente und flexible Netzwerkbereitstellungen.",
+            "Varianten der Netzwerkbereitstellung\nArchitektur-Modelle im Cloud Computing (Webservices):\nEnterprise Architecture (EA), Service Oriented Architecture (SOA), Service Oriented Enterprise Architecture (SOEA), Service Oriented Infrastructure (SOi), Service Oriented Enterprise (SOE), Service Oriented Management (SOM)\n\nKonfiguration:\nDamit ein Netzwerk funktioniert, müssen grundsätzlich drei Voraussetzungen erfüllt sein:\n• Das richtige Protokoll (TCP/IP) muss auf den Geräten im Netz installiert sein.\n• Jedes Gerät benötigt eine eigene IP-Adresse.\n• Alle Geräte, die Daten austauschen, müssen derselben Arbeitsgruppe bzw. demselben IP-Adressbereich angehören.\n\nProvisionierung (Anschaltung, virtuelle Bereitstellung):\nDie zur Verwaltung des Zugriffs auf Daten und Ressourcen erforderlichen Schritte sowie deren Bereitstellung für Nutzer (Benutzerkonten) und Systeme werden in der Regel als Provisionierung bezeichnet.\nBeispiele:\n• Serverprovisionierung: Einrichtung der Hardware, Installation und Konfiguration von Software und Anbindung an Netzwerk, Middleware und Storage\n• Netzwerkprovisionierung: Aufbau von Netzwerken, inklusive WLAN, für Zugriff durch Nutzer, Server, Container und IoT-Geräte\n• Nutzerprovisionierung: Identitätsmanagement, Kontrolle von Zugriffs- und Autorisierungsrechten\n• Serviceprovisionierung: Bereitstellung eines Dienstes und Verwaltung der zugehörigen Daten\n\nHersteller bieten Bereitstellungspakete (z. B. Microsoft Azure) über Konfigurationsdienstanbieter an. Tools wie Asana oder SCIM (System for Cross-domain Identity Management) unterstützen die automatisierte Verwaltung.\n\nOrchestrierung:\nDie automatisierte Koordination, Verwaltung und Komposition von Systemen, Prozessen und Services in IT-Umgebungen. Über Cloud-Orchestrierung werden Dienste verschiedener Anbieter und Umgebungen zusammengeführt. Tools: Docker, Kubernetes, ServiceNow, MS Configuration Manager, Red Hat Ansible.\n\nAutomatisierung:\nZiel ist die Reduktion manueller Tätigkeiten, etwa bei Routern, Switches, Firewalls oder bei der Konfiguration. Sie erfolgt z. B. über Skripte oder Softwarelösungen. Anwendungsfelder: Infrastruktur-, Cloud-, Netzwerk-, IT-Sicherheits- und Patch-Management-Automatisierung.\n\nKompetenzcheck:\nBegriffe im Kontext zuordnen:\na) Installation – Netzwerkkomponenten werden aufgebaut und angeschlossen.\nb) Konfiguration – Treiber und Programme werden eingerichtet.\nc) Skalierung – Ressourcen werden erweitert.\nd) Orchestrierung – Systeme und Dienste werden koordiniert.\ne) Provisionierung – Virtuelle Dienste werden aktiviert.\nf) Automatisierung – Skripte vereinfachen Bereitstellungsprozesse.\ng) Migration – Altes System wird ersetzt."
+          ],
+          "fragen": [
+            {
+              "frage": "Was bedeutet der Begriff DevOps?",
+              "optionen": [
+                "a) Eine Softwarelizenz",
+                "b) Eine Sicherheitszertifizierung",
+                "c) Eine agile Kultur zwischen Entwicklung und Betrieb",
+                "d) Ein Hardwarestandard"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bewirkt ein 'Shift-Left'-Ansatz in DevOps?",
+              "optionen": [
+                "a) Tests werden nur am Ende durchgeführt",
+                "b) Sicherheitsprüfungen werden frühzeitig integriert",
+                "c) Die Entwickler wechseln den Arbeitsplatz",
+                "d) Der Code wird nach links gerückt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche DevOps-Praktiken werden im Text genannt?",
+              "optionen": [
+                "a) Scrum und Kanban",
+                "b) CI und CD",
+                "c) VPN und SSL",
+                "d) LAN und WLAN"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Architekturmodelle unterstützen Netzwerkbereitstellungen?",
+              "optionen": [
+                "a) BIOS und UEFI",
+                "b) SOi und SOA",
+                "c) RAID und NAS",
+                "d) HTTP und FTP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wofür steht das CALMS-Modell im DevOps-Kontext?",
+              "optionen": [
+                "a) Continuous, Agile, Logging, Management, Storage",
+                "b) Culture, Automation, Lean, Measurement, Sharing",
+                "c) Coding, Architecture, Learning, Monitoring, Security",
+                "d) Configuration, Alerting, Logging, Migration, Strategy"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche drei Voraussetzungen sind notwendig, damit ein Netzwerk funktioniert?",
+              "optionen": [
+                "a) Gleicher Monitor, WLAN-Passwort, gleiche Bildschirmauflösung",
+                "b) TCP/IP, IP-Adresse, gemeinsamer IP-Adressbereich",
+                "c) SSD, HDD und USB-Stick",
+                "d) Gleiche Browser, gleiche Spracheinstellung, gleiche Region"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was versteht man unter Provisionierung im Kontext der Netzwerkbereitstellung?",
+              "optionen": [
+                "a) Die Erstellung eines Stromanschlusses für Server",
+                "b) Die Bereitstellung und Verwaltung von Zugriffen und Ressourcen",
+                "c) Die Sicherung der Systeme vor Viren",
+                "d) Die Planung der Kantinenverpflegung im Projektteam"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aussage zur Orchestrierung ist korrekt?",
+              "optionen": [
+                "a) Orchestrierung ist nur für Musikserver zuständig",
+                "b) Sie ermöglicht die automatisierte Koordination von Systemen und Prozessen",
+                "c) Sie ist ein manuelles Verfahren zur Rechtevergabe",
+                "d) Sie ersetzt die IP-Vergabe in Netzwerken"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wozu dient die Automatisierung in der Netzwerkbereitstellung?",
+              "optionen": [
+                "a) Zum regelmäßigen Neustart aller Systeme",
+                "b) Zur Durchführung manueller Backups",
+                "c) Zur Reduzierung manueller Konfigurationsaufgaben",
+                "d) Zur Zuweisung von E-Mail-Adressen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist SCIM?",
+              "optionen": [
+                "a) Ein Servermodell zur Optimierung von WLAN",
+                "b) Ein Open-Source-Browser",
+                "c) Ein Standard zur automatisierten Benutzerkontenbereitstellung",
+                "d) Ein Cloud-Anbieter für Firewallmanagement"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wie nennt man es, wenn ein Router bei der Arbeit plötzlich alles vergisst?",
+              "optionen": [
+                "a) Alzheimer-Netzwerk",
+                "b) Switch-Aussetzer",
+                "c) DHCP-Sieb",
+                "d) Paket-Amnesie"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Was macht ein DevOps-Engineer, wenn das Netzwerk ausfällt?",
+              "optionen": [
+                "a) Er startet Kubernetes neu und betet zu Docker",
+                "b) Er wirft den Server aus dem Fenster",
+                "c) Er geht Kaffee trinken und wartet auf ein Wunder",
+                "d) Er wechselt zu 'OfflineOps'"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm09": {
+        "9.2 Ist-Analyse durchführen und Lastenhefte erstellen": {
+          "lerninhalt": [
+            "Sie führen Ist‑Analysen für Betriebe unterschiedlicher Größen durch. Netzwerkbereitstellungen sollen aus Sicht einer IT‑Abteilung (interner Kunde) oder eines Systemhauses bei externen Kundenaufträgen beschrieben werden. Liegen Kundenaufträge vor, ist der Kunde nach einem Lastenheft oder einer Anforderungsliste zu befragen und üblicherweise eine Ist‑Analyse durchzuführen.",
+            "Es werden drei Kundengruppen unterschieden: Kleinstunternehmen (üblich: ein Büro), kleine mittelständische Unternehmen (KMU, ein oder mehrere Gebäude an einem Standort) und Großunternehmen (viele Standorte, viele Gebäude). Diese Einteilung dient als Hilfe, verläuft aber in der Praxis oft fließend (z. B. Kleinstunternehmen mit mehreren Büros oder KMU an mehreren Standorten).",
+            "Unter Kleinstunternehmen versteht man typischerweise Freiberufler oder Solo-Selbstständige (Einzelunternehmen). Sie setzen häufig SoHo‑Router wie Speedport (Telekom) oder Fritz!Box ein. Typische Geräte: PC, Laptop, Tablet, Smartphone, Drucker – verbunden über LAN oder WLAN. Für Datensicherung wird oft ein NAS genutzt. Zusätzlich kommen SaaS‑Lösungen zum Einsatz (z. B. zur Fakturierung, Architekturprogramme, Groupware).",
+            "Viele SoHo‑Router verwenden dynamische IP‑Adressen, z. B. täglich wechselnd.",
+            "Beispiel‑Lastenheft für ein Kleinstunternehmen („Firma Müller aus Hagen“, aufgenommen von JIKU IT‑Solutions am 10.09.2020):\n\n– Ausgangssituation: DSL, WLAN, Netzwerkverkabelung (Switch) vorhanden; Webseite, Shop, E‑Mail, Videokonferenzen aktiv; DSL ist qualitativ mangelhaft; Telefonie läuft über Mobilfunk.\n– Ziel: LTE‑WAN‑Router mit Einrichtung.\n– Funktionale Anforderungen: mindestens 10 MBit/s Download, 5 MBit/s Upload; DHCP‑ und DNS‑Server erforderlich.\n– Nicht‑funktionale Anforderungen: Vor‑Ort‑Einrichtung und Dokumentation in Hinblick auf Qualität, Administration und Compliance.\n– Sicherheit & Datenschutz: LTE‑Router mit Firewall, ausgehende Verbindungen erlaubt, eingehende gesperrt.\n– Lebenszyklus: alter Router wird ersetzt; Provider‑Vertrag wurde gekündigt; Support (gerne per Videocall) gewünscht.\n– Lieferumfang: Einrichtungspreis, monatliche LTE‑Kosten, Umfang, Zeit, Dokumentation, Support‑Pakete.\n– Abnahmekriterien: technische, qualitative und dokumentarische Anforderungen erfüllt."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche drei Kundengruppen werden im Text unterschieden?",
+              "optionen": [
+                "a) Freiberufler, Großunternehmen, Behörden",
+                "b) Kleinstunternehmen, KMU, Großunternehmen",
+                "c) Startups, NGOs, Konzerne",
+                "d) Schulen, Kliniken, Industriebetriebe"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was kennzeichnet ein Kleinstunternehmen laut Modul?",
+              "optionen": [
+                "a) Viele Standorte",
+                "b) Einzelbüro oder Einzelunternehmen",
+                "c) Konzerngröße",
+                "d) Nur Home‑Office"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Netzwerkinfrastruktur nutzen Kleinstunternehmen meist?",
+              "optionen": [
+                "a) Glasfaser direkt ins Büro",
+                "b) SoHo‑Router wie Speedport oder Fritz!Box",
+                "c) Rechenzentrum‑Cluster",
+                "d) 5G‑Router mit statischer IP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche dynamische IP‑Adressvergabe wird genannt?",
+              "optionen": [
+                "a) Statisch dauerhaft",
+                "b) Wechsel alle 24 Stunden",
+                "c) Wechsel jede Woche",
+                "d) Nie ändern"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion erfüllt das Dokumentieren vor Ort?",
+              "optionen": [
+                "a) Reines Protokollieren ohne Sinn",
+                "b) Qualität, Administration, Compliance sicherstellen",
+                "c) Nur für den Bericht an die Behörden",
+                "d) Um Rechnungen zu rechtfertigen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche technischen Anforderungen wurden explizit genannt?",
+              "optionen": [
+                "a) 100 MBit/s Download",
+                "b) 10 MBit/s Download und 5 MBit/s Upload",
+                "c) Nur WLAN 6",
+                "d) Nur IPv6‑Support"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was passiert mit dem alten Router laut Modul?",
+              "optionen": [
+                "a) Er wird als Reserve behalten",
+                "b) Er wird ersetzt und Provider‑Vertrag gekündigt",
+                "c) Er bleibt als Backup bestehen",
+                "d) Er wird recycelt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Art von Support wurde gewünscht?",
+              "optionen": [
+                "a) Nur telefonischen Support",
+                "b) Support per Videocall möglich",
+                "c) Kein Support nötig",
+                "d) Support nur per Chatbot"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wofür steht das LTE WAN Ziel im Lastenheft?",
+              "optionen": [
+                "a) Glasfaser‑Anbindung",
+                "b) Mobilfunklösung statt schlechter DSL‑Leitung",
+                "c) VPN‑Tunnel für Videos",
+                "d) 5G‑Testnetz"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist kein Bestandteil des Lieferumfangs?",
+              "optionen": [
+                "a) Einrichtungspreis",
+                "b) Monatliche LTE‑Kosten",
+                "c) Dokumentation und Supportpakete",
+                "d) Neue Druckerpatronen"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Scherzfrage: Warum war der Router traurig?",
+              "optionen": [
+                "a) Weil er immer getrennt wurde",
+                "b) Weil er jeden Tag eine neue IP bekam",
+                "c) Weil das DSL zu langsam war",
+                "d) Weil er nicht WiFi-Flüsterer war"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm10": {
+        "9.2.2 Mittlere Netzwerke für KMU und mittelgroße Organisationen planen": {
+          "lerninhalt": [
+            "Die Kundengruppe der kleinen und mittleren Unternehmen (KMU) umfasst Betriebe mit bis zu etwa 100 Mitarbeitenden. Typische Rechtsformen sind z. B. die GmbH.",
+            "Solche Unternehmen haben oft nur einen Standort mit einem oder mehreren Gebäuden. Lokale Server sind üblich. Die IT wird häufig durch die Geschäftsführung gemanagt.",
+            "Ab einer Unternehmensgröße von etwa 60 Mitarbeitenden sind eigene IT-Administratoren und ein dedizierter Serverraum gängig.",
+            "Beispiel: Der Kunde betreibt ein Gastnetz für externe Besucher. Dieses wird über einen LTE-/WLAN-Router bereitgestellt. Es ist vom internen Netzwerk getrennt, um Sicherheit und Datenschutz zu gewährleisten.",
+            "Netzkomponenten in einem typischen KMU-Netz: Mailserver, Firewall, File-/Backupserver, Telefonserver/PBX, Arbeitsplätze in Büros, IP-Telefone, RAID-Server für Backup.",
+            "Lastenhefte dienen der strukturierten Dokumentation von Anforderungen aus Sicht des Kunden. Die Erstellung erfolgt häufig nach einer Vor-Ort-Analyse.",
+            "Beispiel-Lastenheft: Die Maier GmbH aus Bayreuth benötigt ein CRM-System mit Telefonintegration. Ziel: Anrufername soll bei eingehenden Anrufen auf Mitarbeiterbildschirmen angezeigt werden.",
+            "Anforderungen: 10 interne Mitarbeitende (in 2 Schichten), 5 Arbeitsplätze mit Bildschirmen, 50 mobile Mitarbeitende. Die Inhalte von Gesprächen sollen im CRM dokumentiert werden können.",
+            "Nicht-funktionale Anforderungen: Einrichtung der 5 Mitarbeiterplätze inkl. IP-Telefone und Telefonanlage an einem Wochenende (ab Freitagnachmittag). Backup über bestehenden RAID-Server. CRM-VM soll lokal gehostet werden.",
+            "Datenschutz: Aufgrund sensibler Kundendaten ist ein lokaler Server für die CRM-VM erforderlich. Remote-Support wird bei Bedarf gewünscht.",
+            "Lieferumfang: Bereitstellung eines CRM-Servers inkl. Installation, Konfiguration, Dokumentation und Wartung durch JIKU IT-Solutions. Erstellung durch Auszubildende, datiert auf den 20.09.20XX."
+          ],
+          "fragen": [
+            {
+              "frage": "Was bezeichnet man als KMU?",
+              "optionen": [
+                "a) Konzerne mit mehr als 1000 Mitarbeitenden",
+                "b) Kleine und mittlere Unternehmen mit bis zu 100 Mitarbeitenden",
+                "c) Öffentliche Behörden",
+                "d) Universitäten und Schulen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wer übernimmt häufig die IT-Betreuung in KMU mit weniger als 60 Mitarbeitenden?",
+              "optionen": [
+                "a) Der Hausmeister",
+                "b) Ein externer Cloudanbieter",
+                "c) Die Geschäftsführung",
+                "d) Ein ausgelagerter Helpdesk"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche IT-Rolle wird in KMU ab ca. 60 Mitarbeitenden üblich?",
+              "optionen": [
+                "a) Netzwerk-Influencer",
+                "b) Eigene IT-Administratorinnen oder -Administratoren",
+                "c) Personalberater",
+                "d) Auditoren für ISO-Zertifikate"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie wird in KMU typischerweise ein Gastnetz bereitgestellt?",
+              "optionen": [
+                "a) Per Faxleitung",
+                "b) Über einen LTE-/WLAN-Router",
+                "c) Durch Bluetooth-Hotspots",
+                "d) Mit NFC-Tags"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion erfüllt ein Lastenheft?",
+              "optionen": [
+                "a) Es beschreibt die technische Umsetzung durch den Anbieter.",
+                "b) Es enthält die Wünsche und Anforderungen des Kunden.",
+                "c) Es dient der Notizverwaltung von Beratern.",
+                "d) Es ist ein juristisches Dokument zur Lizenzvergabe."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche technische Anforderung hatte die Maier GmbH im Beispiel?",
+              "optionen": [
+                "a) Ein Webshop mit KI-Empfehlungen",
+                "b) Eine Telefonintegration in ein CRM-System",
+                "c) Einen VPN-Zugang für alle Kunden",
+                "d) Eine TikTok-API-Anbindung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie viele stationäre Arbeitsplätze wurden im Beispiel-Lastenheft gefordert?",
+              "optionen": [
+                "a) 1",
+                "b) 5",
+                "c) 10",
+                "d) 50"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum soll die CRM-VM lokal betrieben werden?",
+              "optionen": [
+                "a) Wegen besserer Farben auf dem Monitor",
+                "b) Aus Datenschutzgründen",
+                "c) Weil Cloud zu teuer ist",
+                "d) Weil Mobilfunknetz nicht vorhanden ist"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wann soll laut Lastenheft die Einrichtung der Mitarbeiterplätze erfolgen?",
+              "optionen": [
+                "a) Während der Betriebszeit",
+                "b) Am Montagmorgen",
+                "c) An einem Wochenende ab Freitagnachmittag",
+                "d) In den Weihnachtsferien"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was gehört zum Lieferumfang des beschriebenen Projekts?",
+              "optionen": [
+                "a) Nur Hardwareverkauf",
+                "b) Nur Schulungen für Mitarbeitende",
+                "c) CRM-Server inkl. Einrichtung, Wartung und Dokumentation",
+                "d) Nur telefonischer Support"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wie nennt man ein CRM-System, das nie angerufen wird?",
+              "optionen": [
+                "a) Call-me-not CRM",
+                "b) Nicht-Anruf-Verzeichnis",
+                "c) CRM-Dauerleise",
+                "d) Customer-Relationship-Monk"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm11": {
+        "9.2.3 Große Netzwerke für Mittel- und Großunternehmen planen": {
+          "lerninhalt": [
+            "Große Unternehmen besitzen meist mehrere Niederlassungen und sind häufig als Aktiengesellschaften organisiert.",
+            "Verschiedene Standorte sind über Router verbunden. Die Sicherheit wird durch mehrere Firewalls gewährleistet.",
+            "Unternehmenskritische Anwendungen, die auch von Vertriebspartnern, Kunden und Lieferanten genutzt werden, befinden sich in einer sogenannten DMZ (Demilitarized Zone).",
+            "Kritische Anwendungen im Intranet werden durch eine weitere Firewall gesichert.",
+            "Die eingesetzten Firewalls stammen oft von unterschiedlichen Herstellern. Mehrere Administratoren sorgen für den reibungslosen Betrieb.",
+            "Server in Großunternehmen nutzen statische IP-Adressen und sind damit zuverlässig aufrufbar.",
+            "Beispiel-Lastenheft für die Global AG aus Berlin:\n– Ausgangssituation: Rechenzentrum bereits verteilt, Erweiterung geplant.\n– Ziel: Ein weiterer Hoster mit deutschem Standort, der einen virtuellen Dedicated Server bereitstellt.",
+            "Technische Anforderungen:\n– Proxmox als Cloud-Software.\n– Zwei VM: eine für Nextcloud, eine für eine Open-Source-Videokonferenzlösung wie Jitsi oder Work Adventure.\n– Beide Anwendungen sollen per HTTPS aus dem Internet erreichbar sein.\n– In Nextcloud soll die App 'Deck' für Kanban-Boards installiert werden.",
+            "Nicht-funktionale Anforderungen:\n– Admin-Rolle für den Kunden innerhalb von Nextcloud.\n– Technische Administration von Proxmox und den VM bleibt bei JIKU IT-Solutions.\n– Compliance, Qualität und Dokumentation müssen gewährleistet sein.",
+            "Sicherheitsanforderungen:\n– VM müssen mit Firewalls geschützt werden.\n– Videokonferenzlösung sollte idealerweise eine Benutzerverwaltung bieten.",
+            "Lebenszyklusanforderungen:\n– JIKU IT-Solutions aktualisiert Proxmox und die VM regelmäßig (Wartung und SLA).",
+            "Lieferumfang:\n– Der Kunde erhält URLs für Nextcloud und Jitsi sowie Zugangsdaten zu Nextcloud.\n– Dokumentation, Zeitrahmen und Abnahmekriterien werden erfüllt.\n– Erstellt von Auszubildenden der JIKU IT-Solutions am 05.10.20XX."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Organisationsform wird typischerweise bei Großunternehmen genannt?",
+              "optionen": [
+                "a) Einzelunternehmen",
+                "b) GmbH",
+                "c) Aktiengesellschaft",
+                "d) GbR"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wo befinden sich Anwendungen, die auch externe Nutzer verwenden?",
+              "optionen": [
+                "a) Im Intranet",
+                "b) In der DMZ",
+                "c) Im Extranet",
+                "d) Auf mobilen Geräten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum werden mehrere Firewalls eingesetzt?",
+              "optionen": [
+                "a) Für unterschiedliche Hersteller",
+                "b) Zur Sicherheit und Standorttrennung",
+                "c) Weil eine Firewall billiger ist",
+                "d) Aus Designgründen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche IP-Art wird bei Großunternehmen genutzt?",
+              "optionen": [
+                "a) Dynamische IPs",
+                "b) APIPA",
+                "c) Statische IPs",
+                "d) Private IPs"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welches Cloud-System wird laut Lastenheft verwendet?",
+              "optionen": [
+                "a) VMware",
+                "b) Hyper-V",
+                "c) Proxmox",
+                "d) OpenStack"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Für welche beiden Anwendungen wurden VM eingerichtet?",
+              "optionen": [
+                "a) WordPress & Exchange",
+                "b) Nextcloud & Jitsi/Work Adventure",
+                "c) SAP & Zoom",
+                "d) GitLab & Teams"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Sicherheitsanforderung besteht für die VM?",
+              "optionen": [
+                "a) Kein Zugriff von außen",
+                "b) Einsatz von Firewalls",
+                "c) Vollständige WLAN-Abdeckung",
+                "d) Cloud-Backup"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wer erhält die Admin-Rolle in Nextcloud laut Lastenheft?",
+              "optionen": [
+                "a) JIKU IT-Solutions",
+                "b) Der Kunde",
+                "c) Ein externer Dienstleister",
+                "d) Die Systemadministration"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wer führt die technischen Updates durch?",
+              "optionen": [
+                "a) Der Kunde selbst",
+                "b) Ein externer Cloudanbieter",
+                "c) JIKU IT-Solutions",
+                "d) Open-Source-Community"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was erhält der Kunde als Teil des Lieferumfangs?",
+              "optionen": [
+                "a) Nur Hardware",
+                "b) URLs und Zugangsdaten",
+                "c) Nur Softwarelizenzen",
+                "d) Nur Supportvertrag"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Warum mochte der Server keine Überraschungspartys?",
+              "optionen": [
+                "a) Weil er Angst vor unerwartetem Traffic hatte",
+                "b) Weil er keine Cookies mag",
+                "c) Wegen Datenschutz",
+                "d) Weil er immer neu gestartet wurde"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm12": {
+        "9.3 Technische Anforderungen für das Bereitstellen von Netzwerken\nberücksichtigen": {
+          "lerninhalt": [
+            "Sie sollen die technischen Anforderungen an Netzwerke kennen und erklären können. Um Pflichtenhefte zu erstellen, Ist‑Analysen durchzuführen und Feinkonzepte zu entwerfen, sind aktuelle und detaillierte technische Informationen und Kompetenzen notwendig.",
+            "Aufbauend auf den Kenntnissen aus Jahrgangsband 1, Lernfeld 3 sollen weitere Kompetenzen zu Protokollen, Server‑Hardware und ‑Software, Rechenzentren sowie WAN‑Infrastrukturen erarbeitet werden.",
+            "Internet‑Protokolle (z. B. TCP/IP, UDP, HTTP/S) bilden die Grundlage für den Datenverkehr in Netzwerken.",
+            "Server‑Hardware und ‑Software sind entscheidend: Auswahl erfolgt nach Performance, Skalierbarkeit, Virtualisierungsfähigkeit, Betriebssystem‑Support und Sicherheitsanforderungen.",
+            "Rechenzentren bieten Infrastruktur wie Stromversorgung, Klimatisierung, Netzwerk‑Backbones, Redundanz und physische Sicherheit.",
+            "WAN‑Infrastrukturen verbinden Standorte über Technologien wie DSL, Glasfaser, MPLS, VPN‑Tunnels und LTE/5G‑Anbindung, je nach Anforderungen an Bandbreite, Latenz und Ausfallsicherheit."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Komponente ist keine technische Anforderung für ein Pflichtenheft?",
+              "optionen": [
+                "a) Server‑Hardware",
+                "b) WAN‑Infrastruktur",
+                "c) Firmenlogo",
+                "d) Internet‑Protokolle"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wozu dient eine WAN‑Infrastruktur?",
+              "optionen": [
+                "a) Verbindung zwischen Gebäuden/Standorten",
+                "b) Lokale Druckerverbindung",
+                "c) Stromversorgung",
+                "d) Mitarbeiterschulung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Mit welchem Kriterium wird Server‑Hardware typischerweise bewertet?",
+              "optionen": [
+                "a) Farbe des Gehäuses",
+                "b) Skalierbarkeit und Virtualisierungsfähigkeit",
+                "c) Anzahl der USB‑Ports",
+                "d) Design der Frontblende"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Warum wusste der Router, dass er perfekt geeignet ist?",
+              "optionen": [
+                "a) Weil er das Bandbreiten-Wunder war",
+                "b) Weil er alle Protokolle kannte",
+                "c) Weil er jeden WAN‑Link lachend verband",
+                "d) Weil er keine Firewall brauchte"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm13": {
+        "9.3.1 Internet-Protokolle unterscheiden": {
+          "lerninhalt": [
+            "Der weltweite Standard für das „Internet“ sind die Kommunikationsprotokolle IPv4 und IPv6. Beide Protokolle existieren parallel, da IPv6 IPv4 nicht sofort ersetzen kann.",
+            "IPv4 verwendet 32‑Bit‑Adressen (ca. 4,3 Milliarden), IPv6 dagegen 128 Bit‑Adressen (340 Sextillionen). IPv4‑Adressen werden dezimal dargestellt, z. B. 192.168.178.69; IPv6‑Adressen hexadezimal in 8 Blöcken à 16 Bit, z. B. fe80::e022:d9bc:318b:1d7a (wobei :: für die Füllung mit Nullen steht).",
+            "Bei IPv4 sind Checksummen erforderlich, IPsec ist optional, und NAT (Network Address Translation) ist notwendig. IPv6 kommt ohne NAT und ohne Checksummen aus, IPsec ist ebenfalls optional.",
+            "Paketgrößen: IPv4 erlaubt bis zu 576 Bytes, IPv6 bis zu 1280 Bytes. IPv4 unterstützt Fragmentierung durch Router, IPv6 entlastet Router, indem Fragmentierung vermieden wird.",
+            "Das Internet‑Protokoll bildet Schicht 3 (Vermittlung) des OSI‑Modells ab, vereint aber Layer 1+2 (Bitübertragung, Sicherung) in der Netzzugangsschicht und Layer 5–7 in der Anwendungsschicht. Beispiele für Protokolle: TCP, UDP, TLS, IP, ICMP, ARP, Ethernet, WLAN usw."
+          ],
+          "fragen": [
+            {
+              "frage": "Worin besteht der größte Unterschied im Adressraum zwischen IPv4 und IPv6?",
+              "optionen": [
+                "a) IPv4 verwendet 128 Bit, IPv6 32 Bit",
+                "b) IPv6 bietet 340 Sextillionen Adressen statt ca. 4,3 Milliarden bei IPv4",
+                "c) IPv6 nutzt dezimale Darstellung",
+                "d) IPv4 nutzt hexadezimale Darstellung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher Mechanismus entlastet Router bei IPv6?",
+              "optionen": [
+                "a) Checksummen",
+                "b) NAT",
+                "c) Fragmentierungs‑Verzicht",
+                "d) Hexadezimale Darstellung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "IPv4 benötigt NAT – warum entfällt das bei IPv6?",
+              "optionen": [
+                "a) IPv6 hat keine IP‑Adressen",
+                "b) IPv6 hat genügend Adressen und benötigt keine Adress-Übersetzung",
+                "c) NAT wäre zu langsam",
+                "d) NAT ist gesetzlich verboten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum existieren IPv4 und IPv6 parallel im Internet?",
+              "optionen": [
+                "a) IPv6 ist inkompatibel mit OSI",
+                "b) IPv4 ist sicherer",
+                "c) IPv6 kann IPv4 nicht sofort ersetzen, daher Dual‑Stack Betrieb",
+                "d) IPv4 wird noch weiterentwickelt"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welcher Pakettyp ist bei IPv4 kleiner als bei IPv6?",
+              "optionen": [
+                "a) 576 Bytes (IPv4 statt 1280 Bytes bei IPv6)",
+                "b) 1280 Bytes (IPv4 statt 576 Bytes bei IPv6)",
+                "c) 1500 Bytes (IPv4 statt 900 Bytes bei IPv6)",
+                "d) 256 Bytes (IPv4 statt 512 Bytes bei IPv6)"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist bei IPv4 obligatorisch, bei IPv6 jedoch nicht?",
+              "optionen": [
+                "a) IPsec",
+                "b) Fragmentierung",
+                "c) Checksummen",
+                "d) Hexadezimale Notation"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Darstellung nutzt IPv6 für Adressen?",
+              "optionen": [
+                "a) Dezimal mit Punkten",
+                "b) Hexadezimal in acht 16‑Bit‑Blöcken",
+                "c) Oktalkopiert",
+                "d) Binär direkt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "IPv4 verwendet NAT – wofür dient NAT?",
+              "optionen": [
+                "a) Um IP‑Pakete zu verschlüsseln",
+                "b) Um private Adressen ins Internet zu übersetzen",
+                "c) Um Adressen zu komprimieren",
+                "d) Um Checksummen zu vermeiden"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Layer fasst IPv4 im OSI‑Modell ab?",
+              "optionen": [
+                "a) Layer 1",
+                "b) Layer 2",
+                "c) Layer 3",
+                "d) Layer 5"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche maximale Paketgröße unterstützt IPv6?",
+              "optionen": [
+                "a) 576 Bytes",
+                "b) 900 Bytes",
+                "c) 1280 Bytes",
+                "d) 1500 Bytes"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Scherzfrage: Warum war der IPv6‑Router so gelassen?",
+              "optionen": [
+                "a) Weil er nie NAT machen muss",
+                "b) Weil er zu viele Adressen hat, um sich zu sorgen",
+                "c) Weil er fließend Hexadezimal spricht",
+                "d) Weil er IPsec schon immer mochte"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm14": {
+        "9.3.1(1) Bitübertragung (051 Layer 1)": {
+          "lerninhalt": [
+            "Als Übertragungsmedien in Unternehmensnetzen kommen am häufigsten Ethernet-Kabel, WLAN und Glasfaserkabel zum Einsatz.",
+            "Ethernet-Kabel sind die am häufigsten verwendeten Verkabelungen. Sie bestehen aus symmetrischen Leitungen, wobei jeweils zwei Drähte zu einem Paar verdrillt sind. Ein Netzwerkkabel hat insgesamt vier verdrillte Aderpaare.",
+            "Die Abschirmung von Ethernet-Kabeln verhindert elektromagnetisches Übersprechen und Störungen. Man unterscheidet folgende Kabeltypen nach der Art der Abschirmung: UTP (Unshielded Twisted Pair), STP (Shielded Twisted Pair), S/STP (Screened Shielded Twisted Pair) und S/FTP (Screened / Foiled Shielded Twisted Pair).",
+            "UTP-Kabel sind ungeschirmt und werden als Fast- und Gigabit-Ethernet eingesetzt. Diese Kabel werden auch als CAT5e bezeichnet, wobei die genaue Abschirmungsart nicht spezifiziert wird.",
+            "STP-Kabel besitzen eine Abschirmung, die sowohl adernpaarweise als auch gemeinsam ausgeführt sein kann. CAT6a und CAT7-Kabel verwenden die S/FTP Abschirmung, welche sowohl eine Folie als Gesamtschirm als auch Schirmungen für einzelne Adernpaare enthält. Diese Kabel unterstützen 10GBASE-T-Verkabelungen.",
+            "Als Stecker und Buchsen kommen standardmäßig RJ45-Stecker und RJ45-Anschlussdosen zum Einsatz.",
+            "Die Gebäudeverkabelung wird häufig in einem zentralen Raum zusammengeführt, in dem Patch Panels eingesetzt werden. Auf der Rückseite des Patch Panels werden die Netzwerkkabel einzeln verdrahtet. Auf der Vorderseite können die Ports mit beliebigen Switches verbunden werden, um VLANs oder ein LAN zu konfigurieren.",
+            "WLAN (Wireless Local Area Network) baut Funknetze auf, über die Nachrichten gesendet und empfangen werden. Die Steuerung, wer wann senden darf, erfolgt auf der Sicherungsschicht des OSI-Modells.",
+            "Die Internet Engineering Task Force (IETF) hat mehrere WLAN-Standards definiert, die mit jeder Generation höhere maximale Datenübertragungsraten erlauben. Jeder neue Standard ist abwärtskompatibel, sodass ältere und neuere Geräte parallel betrieben werden können.",
+            "Die wichtigsten WLAN-Standards und ihre maximalen Datenraten sind: 802.11a (bis zu 54 Mbit/s im 5 GHz Band), 802.11b (bis zu 11 Mbit/s im 2,4 GHz Band), 802.11g (bis zu 54 Mbit/s im 2,4 GHz Band), 802.11n (Wi-Fi 4, bis zu 289 Mbit/s im 2,4 GHz Band und bis zu 600 Mbit/s im 5 GHz Band), 802.11ac (Wi-Fi 5, bis zu 6933 Mbit/s theoretischer Datendurchsatz) und 802.11ax (Wi-Fi 6, kommender Standard, bis zu 9600 Mbit/s theoretischer Datendurchsatz).",
+            "Glasfaserkabel (Lichtwellenleiter) werden dort eingesetzt, wo sehr hohe Datenübertragungsraten (10 Gbit/s und mehr) erforderlich sind, beispielsweise in Rechenzentren.",
+            "Lichtwellenleiter-Patchkabel gibt es für verschiedene Fasertypen, die an unterschiedliche Anforderungen angepasst sind.",
+            "Fibre Channel ist ein speziell für Storage Area Networks (SAN) entwickeltes Protokoll, das Glasfaserkabel nutzt, über die der Fibre Channel Protocol Stack läuft."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Übertragungsmedien werden am häufigsten in Unternehmensnetzwerken eingesetzt?",
+              "optionen": [
+                "a) Ethernet-Kabel, WLAN, Glasfaserkabel",
+                "b) Telefonkabel, Satellit, Bluetooth",
+                "c) Koaxialkabel, LTE, Infrarot",
+                "d) USB, HDMI, VGA"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie viele verdrillte Aderpaare hat ein typisches Ethernet-Kabel?",
+              "optionen": [
+                "a) 2",
+                "b) 4",
+                "c) 6",
+                "d) 8"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist der Zweck der Abschirmung bei Ethernet-Kabeln?",
+              "optionen": [
+                "a) Um das Kabel zu stabilisieren",
+                "b) Um elektromagnetisches Übersprechen und Störungen zu verhindern",
+                "c) Um das Kabel zu verlängern",
+                "d) Um den Stecker besser zu fixieren"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher Kabeltyp ist ungeschirmt und wird für Fast- und Gigabit-Ethernet verwendet?",
+              "optionen": [
+                "a) STP",
+                "b) UTP",
+                "c) S/FTP",
+                "d) Koaxial"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Abschirmung wird bei CAT7-Kabeln verwendet?",
+              "optionen": [
+                "a) UTP",
+                "b) STP",
+                "c) S/FTP",
+                "d) Koaxial"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Geräte und Komponenten werden verwendet, um Gebäudeverkabelung zentral zusammenzuführen?",
+              "optionen": [
+                "a) Router",
+                "b) Switches",
+                "c) Patch Panels",
+                "d) Firewalls"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Schicht des OSI-Modells regelt, wer im WLAN wann senden darf?",
+              "optionen": [
+                "a) Bitübertragungsschicht (Layer 1)",
+                "b) Sicherungsschicht (Layer 2)",
+                "c) Vermittlungsschicht (Layer 3)",
+                "d) Anwendungsschicht (Layer 7)"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher WLAN-Standard bietet theoretisch die höchste maximale Datenrate?",
+              "optionen": [
+                "a) 802.11a",
+                "b) 802.11n",
+                "c) 802.11ac",
+                "d) 802.11ax"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Wo werden Glasfaserkabel bevorzugt eingesetzt?",
+              "optionen": [
+                "a) In Wohngebäuden für Internetzugang",
+                "b) In Rechenzentren für sehr hohe Datenraten",
+                "c) Für kabelgebundene Telefonverbindungen",
+                "d) Im Heimnetzwerk als Alternative zu WLAN"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Für welche Netzwerke wurde Fibre Channel speziell entwickelt?",
+              "optionen": [
+                "a) LAN",
+                "b) WLAN",
+                "c) Storage Area Networks (SAN)",
+                "d) Weitverkehrsnetzwerke (WAN)"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Netzwerkkabel, das ständig um sich selbst gewickelt ist?",
+              "optionen": [
+                "a) Kabelsalat",
+                "b) Twisted Pair",
+                "c) Netzwerkwirrwarr",
+                "d) Kabelchaos"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm15": {
+        "9.3.1(2) Sicherungsschicht (OSI Layer 2)": {
+          "lerninhalt": [
+            "Die Sicherungsschicht (OSI Layer 2) sichert die Übertragung von Nachrichten in Netzwerken ab. Sie stellt sicher, dass Daten korrekt und fehlerfrei übermittelt werden.",
+            "Das Verfahren CSMA/CD (Carrier Sense Multiple Access / Collision Detection) regelt, wie Geräte auf einem gemeinsamen Übertragungsmedium senden dürfen. Dabei horcht ein Gerät eine zufällige Zeitspanne auf dem Übertragungsmedium, bevor es sendet. Ist die Leitung frei, startet das Senden.",
+            "Kommt es während des Sendens zu einer Kollision (zwei Geräte senden gleichzeitig), erkennt das Gerät dies und sendet ein sogenanntes Jam-Signal, um die Kollision an alle Teilnehmer zu melden.",
+            "Nach dem Senden wartet das Gerät erneut auf das Übertragungsmedium, bevor es weitere Daten sendet, um Kollisionen zu vermeiden.",
+            "Die Sicherungsschicht sorgt auch für die Rahmenbildung (Framing) und Fehlererkennung, um sicherzustellen, dass fehlerhafte Datenpakete erkannt und ggf. neu übertragen werden.",
+            "Typische Protokolle auf der Sicherungsschicht sind Ethernet und WLAN, die unterschiedliche Methoden zur Medienzugriffssteuerung verwenden.",
+            "WLAN arbeitet mit einem anderen Zugriffsverfahren namens CSMA/CA (Carrier Sense Multiple Access / Collision Avoidance), das versucht Kollisionen vorab zu verhindern.",
+            "Die Sicherungsschicht adressiert Geräte physikalisch über MAC-Adressen, um Kommunikation innerhalb eines Netzwerks zu ermöglichen.",
+            "Durch ihre Aufgaben bildet die Sicherungsschicht eine wichtige Grundlage für zuverlässige Netzwerkkommunikation und dient als Bindeglied zwischen physikalischer Übertragung und der Netzwerkschicht (OSI Layer 3).",
+            "Die Sicherungsschicht wird in zwei Sublayer unterteilt: Logical Link Control (LLC), das die Schnittstelle zur Netzwerkschicht bildet, und Media Access Control (MAC), das den Zugriff auf das Übertragungsmedium steuert."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Aufgabe hat die Sicherungsschicht im OSI-Modell?",
+              "optionen": [
+                "a) Physikalische Übertragung von Daten",
+                "b) Sicherung und fehlerfreie Übertragung von Nachrichten",
+                "c) Steuerung der Anwendungsprogramme",
+                "d) Adressierung auf Netzwerkebene"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet CSMA/CD?",
+              "optionen": [
+                "a) Carrier Sense Multiple Access / Collision Detection",
+                "b) Carrier Signal Multiple Access / Collision Delay",
+                "c) Common System Multiple Access / Collision Detection",
+                "d) Carrier Sense Multiple Access / Collision Delay"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie verhält sich ein Gerät bei CSMA/CD, bevor es sendet?",
+              "optionen": [
+                "a) Es sendet sofort ohne Prüfung",
+                "b) Es horcht eine zufällige Zeitspanne auf das Medium",
+                "c) Es sendet nur wenn es ein Jam-Signal empfängt",
+                "d) Es fordert eine Bestätigung vom Router an"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was passiert bei einer Kollision im CSMA/CD Verfahren?",
+              "optionen": [
+                "a) Das Gerät schaltet sich aus",
+                "b) Das Gerät sendet ein Jam-Signal",
+                "c) Das Gerät wechselt auf WLAN",
+                "d) Das Gerät ignoriert die Kollision"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche zwei Sublayer unterteilt die Sicherungsschicht?",
+              "optionen": [
+                "a) Transport Layer und Network Layer",
+                "b) Logical Link Control (LLC) und Media Access Control (MAC)",
+                "c) Data Link Control und Physical Control",
+                "d) Internet Control und Access Control"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Zugriffsverfahren verwendet WLAN anstelle von CSMA/CD?",
+              "optionen": [
+                "a) CSMA/CA (Collision Avoidance)",
+                "b) CSMA/RT (Request to Send)",
+                "c) Token Ring",
+                "d) CDMA"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie adressiert die Sicherungsschicht Geräte im Netzwerk?",
+              "optionen": [
+                "a) IP-Adressen",
+                "b) MAC-Adressen",
+                "c) DNS-Namen",
+                "d) Portnummern"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche der folgenden Aufgaben gehört NICHT zur Sicherungsschicht?",
+              "optionen": [
+                "a) Fehlererkennung und ggf. -korrektur",
+                "b) Rahmenbildung (Framing)",
+                "c) Vermittlung von Datenpaketen zwischen Netzwerken",
+                "d) Steuerung des Zugriffs auf das Übertragungsmedium"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum ist die Sicherungsschicht für zuverlässige Netzwerkkommunikation wichtig?",
+              "optionen": [
+                "a) Weil sie die physikalische Leitung bereitstellt",
+                "b) Weil sie Datenpakete adressiert und Fehler korrigiert",
+                "c) Weil sie IP-Adressen zuweist",
+                "d) Weil sie die Internetverbindung sichert"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wozu dient das Jam-Signal im CSMA/CD Verfahren?",
+              "optionen": [
+                "a) Um die Übertragung zu beschleunigen",
+                "b) Um eine Kollision allen Teilnehmern mitzuteilen",
+                "c) Um einen Neustart des Netzwerks auszulösen",
+                "d) Um die Übertragung zu beenden"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man ein Netzwerk, das ständig kollidiert und sich nicht einigen kann?",
+              "optionen": [
+                "a) Ein Drama-Netzwerk",
+                "b) Ein Kollision-Kollektiv",
+                "c) Ein CSMA/CD-Klub",
+                "d) Ein Netz voller Zankäpfel"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm16": {
+        "9.3.1(3) Adressierung (OSI Layer 3)": {
+          "lerninhalt": [
+            "Jeder Client im Internet, z.B. PC, Smartphones oder Tablets, besitzt eine IP-Adresse, um eine Anwendung auf einem Server, der ebenfalls eine IP-Adresse hat, aufrufen zu können. Beim Aufruf einer Webseite mit einem Browser wird eine HTTP-Anfrage erstellt, die die Sender-IP-Adresse des Clients, die Empfänger-IP-Adresse des Webservers und den Port, z.B. 443 bei einer dynamischen Webseite, enthält.",
+            "Wichtig für die Adressierung sind die MAC-Adresse der Netzwerkkarten, IPv4- und IPv6-Adressen der Clients und Server sowie die Port-Nummern der Dienste. Die MAC-Adresse ist eine 48-Bit Hardware-Adresse der Netzwerkkarte, geschrieben in Hexadezimalschreibweise, z.B. werEA-B1-FC-03-2D-0C. Sie identifiziert die Netzwerkkarten eindeutig auf Layer 2 (Data Link Schicht).",
+            "IPv4-Adressen bestehen aus 32 Bit, dargestellt in vier 8-Bit Dezimalzahlen, z.B. 192.168.0.97. IPv6-Adressen bestehen aus 128 Bit, dargestellt als acht 16-Bit Hexadezimalzahlen, z.B. 2a02:8070:88a3:9d00:b519:89cb:afe1:1561. Beide Protokolle sind im Internet parallel verfügbar (Dual Stack). Die Umstellung auf IPv6 ist im Gange.",
+            "Port-Nummern sind 16-Bit Zahlen, z.B. 43201, und werden auf Layer 4 (Transportschicht) genutzt, um Anwendungen und Dienste auf einem Rechner zu adressieren. Der Empfänger einer IP-Nachricht leitet die Nachricht anhand des Ports an die registrierte Anwendung weiter.",
+            "MAC-Adressen bestehen aus einem Herstelleranteil (Vendor-ID) und einer fortlaufenden Nummer. IPv4-Adressen gliedern sich in Netzadresse und Hostadresse. In großen IP-Netzen ist der Netzanteil kleiner als der Hostanteil. Die IP-Adresse mit Subnetzmaske kann in Dezimalschreibweise oder CIDR-/Slash-Notation dargestellt werden.",
+            "Beispiel für die Aufteilung: Die IP-Adresse 10.1.1.2 mit der Subnetzmaske 255.255.255.0 hat 24 Netz-Bits und 8 Host-Bits, geschrieben als 10.1.1.2/24. Das Class-A-Netzwerk besitzt 8 Netz-Bits und 24 Host-Bits, was 16.777.216 Adressen ermöglicht. Class-B-Netzwerke besitzen 16 Netz-Bits und 16 Host-Bits mit 65.536 Adressen.",
+            "Zur Berechnung der Netzadresse werden die Bits der IP-Adresse genutzt, bei denen die Subnetzmaske eine '1' hat, wobei die Host-Bits auf Null gesetzt werden. Die Hostadresse besteht aus Bits, bei denen die Subnetzmaske '0' ist.",
+            "IPv6-Adressen haben eine Länge von 128 Bit und sind in ein 64-Bit-Präfix und einen 64-Bit Interface Identifier unterteilt. Führende Nullen können weggelassen werden, zusammenhängende Nullblöcke können durch einen Doppel-Doppelpunkt (::) ersetzt werden, aber nur einmal pro Adresse. IPv4-Adressen können in den letzten zwei Blöcken von IPv6-Adressen eingebettet sein.",
+            "Port-Nummern dienen der Adressierung von Diensten und sind 16 Bit lang. Sowohl Client als auch Server nutzen Ports, um die zuständigen Anwendungen zu bestimmen. Durch Ports können auf einem Server parallel mehrere Anwendungen laufen (z.B. Webserver, Mailserver, Videokonferenzsystem).",
+            "Bekannte Ports: 22 (SSH), 53 (DNS), 67/68 UDP (DHCP), 80/443 (HTTP/HTTPS), 161 UDP (SNMP), 143 (IMAP), 401 (USV), 445 TCP (Windows-Freigaben CIFS/SMB), 546/547 UDP (DHCP für IPv6).",
+            "IP-Subnetting teilt Netze in Teilnetze, um IPv4-Adressen effizienter zu nutzen und die Sicherheit zu erhöhen. Virtuelle LANs (VLANs) ermöglichen es, Hosts logisch zu gruppieren, sodass nur Hosts im gleichen VLAN kommunizieren können. VLANs können mit einem einzigen Adressbereich oder mit eigenen IP-Subnetzen konfiguriert werden.",
+            "Die Anzahl der benötigten Subnetz-Bits hängt von der Größe der VLANs ab. Beispiel: Das Netzwerk 192.168.0.0/24 hat einen Hostbereich von 256 Adressen, davon 254 nutzbar (1 Netzadresse, 1 Broadcast-Adresse). VLANs erhöhen die Sicherheit und das Management von Netzwerken."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Adresse wird verwendet, um eine Netzwerkkarte eindeutig zu identifizieren?",
+              "optionen": [
+                "a) IPv4-Adresse",
+                "b) MAC-Adresse",
+                "c) IPv6-Adresse",
+                "d) Port-Nummer"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie viele Bit hat eine IPv4-Adresse?",
+              "optionen": [
+                "a) 48 Bit",
+                "b) 128 Bit",
+                "c) 32 Bit",
+                "d) 16 Bit"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was beschreibt die CIDR-Notation bei IP-Adressen?",
+              "optionen": [
+                "a) Die Anzahl der Host-Bits",
+                "b) Die Anzahl der Netz-Bits",
+                "c) Die Anzahl der MAC-Bits",
+                "d) Die Anzahl der Ports"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aussage über IPv6-Adressen ist korrekt?",
+              "optionen": [
+                "a) Sie bestehen aus 32 Bit",
+                "b) Ein Block Nullen kann mehrfach durch :: ersetzt werden",
+                "c) IPv4-Adressen können in den letzten Blöcken eingebettet sein",
+                "d) IPv6-Adressen bestehen nur aus Dezimalzahlen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Port-Nummer wird typischerweise für HTTPS verwendet?",
+              "optionen": [
+                "a) 22",
+                "b) 53",
+                "c) 443",
+                "d) 161"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist ein Vorteil von IP-Subnetting?",
+              "optionen": [
+                "a) Es verringert die Anzahl der Netzwerke",
+                "b) Es erhöht die Sicherheit und nutzt Adressen effizienter",
+                "c) Es eliminiert die Notwendigkeit von IP-Adressen",
+                "d) Es ermöglicht höhere Datenübertragungsraten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie viele Bit hat eine Port-Nummer?",
+              "optionen": [
+                "a) 8 Bit",
+                "b) 16 Bit",
+                "c) 32 Bit",
+                "d) 64 Bit"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Schicht im OSI-Modell adressiert die Port-Nummern?",
+              "optionen": [
+                "a) Layer 2 (Data Link)",
+                "b) Layer 3 (Netzwerk)",
+                "c) Layer 4 (Transport)",
+                "d) Layer 7 (Anwendung)"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was passiert bei der Berechnung der Netzadresse mit den Host-Bits?",
+              "optionen": [
+                "a) Sie werden auf 1 gesetzt",
+                "b) Sie werden auf 0 gesetzt",
+                "c) Sie werden ignoriert",
+                "d) Sie werden verdoppelt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie nennt man eine logische Gruppierung von Hosts in einem Netzwerk, die Kommunikation nur innerhalb der Gruppe erlaubt?",
+              "optionen": [
+                "a) VLAN",
+                "b) Subnetzmaske",
+                "c) IP-Adresse",
+                "d) MAC-Adresse"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der nie seine IP-Adresse findet?",
+              "optionen": [
+                "a) IP-Verlierer",
+                "b) Netz-Wanderer",
+                "c) Adress-Sucher",
+                "d) Port-Loser"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm17": {
+        "9.3.1(4) Transport von Nachrichten (OSI Layer 4)": {
+          "lerninhalt": [
+            "Die Aufgabe der Transportschicht-Protokolle UDP und TCP ist der Transport der Anwendungsdaten über die darunterliegende Vermittlungsschicht (IP, IPsec).",
+            "Das Transmission Control Protocol (TCP) übernimmt den Auf- und Abbau von Sitzungen.",
+            "UDP (User Datagram Protocol) arbeitet ohne Auf- und Abbau von Sitzungen.",
+            "TCP zerlegt Dateien oder Datenströme der Anwendungen in einzelne Segmente, verschickt sie, fügt die Segmente in korrekter Reihenfolge wieder zusammen, stellt sie wieder her und übergibt sie an die Anwendungen.",
+            "UDP verschickt die Daten ohne jegliche Kontrolle und ohne Rückmeldung.",
+            "TCP bietet Fehlerbehandlung und Kontrolle, ob Pakete tatsächlich ankommen.",
+            "UDP wird beispielsweise bei Audio- und Videostreaming eingesetzt, da hier eine schnelle Übertragung wichtiger ist als vollständige Fehlerfreiheit.",
+            "TCP wird beispielsweise bei E-Mails und beim Browsen im Internet eingesetzt, da hier eine zuverlässige Übertragung der Daten essenziell ist."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptaufgabe der Transportschicht-Protokolle UDP und TCP?",
+              "optionen": [
+                "a) Verschlüsselung der Daten",
+                "b) Transport der Anwendungsdaten über die Vermittlungsschicht",
+                "c) Verwaltung von IP-Adressen",
+                "d) Aufbau von Netzwerkverbindungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Protokoll übernimmt den Auf- und Abbau von Sitzungen?",
+              "optionen": [
+                "a) UDP",
+                "b) TCP",
+                "c) IP",
+                "d) FTP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie arbeitet UDP bezüglich Sitzungsmanagement?",
+              "optionen": [
+                "a) Mit Auf- und Abbau von Sitzungen",
+                "b) Ohne Auf- und Abbau von Sitzungen",
+                "c) Mit Verschlüsselung der Sitzungen",
+                "d) Nur bei Verbindung mit TCP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aufgabe hat TCP bei der Übertragung von Daten?",
+              "optionen": [
+                "a) Zerlegen von Dateien in Segmente und Wiederzusammenfügen in korrekter Reihenfolge",
+                "b) Verschicken der Daten ohne Kontrolle",
+                "c) Nur Versenden von Datenpaketen",
+                "d) Erstellen von IP-Adressen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie verschickt UDP Daten?",
+              "optionen": [
+                "a) Mit Fehlerkontrolle und Rückmeldung",
+                "b) Ohne jegliche Kontrolle und Rückmeldung",
+                "c) Mit Sitzungsaufbau",
+                "d) Nur über TCP-Verbindungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Bei welchen Anwendungen wird UDP typischerweise eingesetzt?",
+              "optionen": [
+                "a) E-Mail-Versand",
+                "b) Audio- und Videostreaming",
+                "c) Web-Browsing",
+                "d) Dateiübertragungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Eigenschaften machen TCP für das Browsen im Internet geeignet?",
+              "optionen": [
+                "a) Schnelle, unkontrollierte Übertragung",
+                "b) Fehlerbehandlung und Kontrolle, ob Pakete ankommen",
+                "c) Kein Sitzungsmanagement",
+                "d) Verschlüsselung der Daten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet Fehlerbehandlung bei TCP?",
+              "optionen": [
+                "a) Pakete werden ignoriert, wenn sie verloren gehen",
+                "b) Pakete werden überprüft, ob sie ankommen und bei Verlust erneut gesendet",
+                "c) Pakete werden nur einmal gesendet",
+                "d) Pakete werden gelöscht, wenn Fehler auftreten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Schicht liegt direkt unter der Transportschicht, über die TCP und UDP Daten transportieren?",
+              "optionen": [
+                "a) Anwendungsschicht",
+                "b) Vermittlungsschicht (IP, IPsec)",
+                "c) Netzwerkschicht",
+                "d) Physikalische Schicht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum wird UDP für Streaming-Dienste bevorzugt?",
+              "optionen": [
+                "a) Wegen der zuverlässigen Übertragung",
+                "b) Weil Geschwindigkeit wichtiger als Fehlerfreiheit ist",
+                "c) Aufgrund des Sitzungsaufbaus",
+                "d) Weil es Pakete bestätigt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der beim TCP-Protokoll jedes Paket einzeln umarmt?",
+              "optionen": [
+                "a) Paketverliebter",
+                "b) Segmentflüsterer",
+                "c) TCP-Teddy",
+                "d) Datenknuddler"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm18": {
+        "9.3.1(5) Anwendungsschicht (OSI Layer 5-7)": {
+          "lerninhalt": [
+            "Aus der Zeit der Client-Server-Anwendungen, die bis Ende der 1990er-Jahre entwickelt wurden, hatten sich verschiedene Serverarten etabliert, wie Back-up-, Datenbank-, File-/Datei-, Druck- und Mail-Server. Diese Serverarten werden heute nur noch selten vertrieben.",
+            "Seit Ende der 1990er-Jahre werden stattdessen webbasierte Anwendungen entwickelt, die dem Kunden den Zugriff per Browser ermöglichen (auch Mehrschicht-Architekturen genannt). Nicht nur die Anwendung selbst, sondern auch die Administration dieser Anwendungen erfolgt browserbasiert, z.B. per Smartphone.",
+            "Serverarten und ihre Beschreibung:",
+            "Anwendungsserver: Plattformen wie Oracles Java Enterprise Edition (JEE) oder Microsofts .NET ermöglichen eine schnellere Entwicklung von Webanwendungen durch Trennung der Algorithmen in Modell, View und Control. Dieses Modell-View-Control-Design-Pattern erlaubt parallele Entwicklung von Datenbanktabellen (Modell), grafischen Oberflächen (View) und Geschäftslogiken (Control).",
+            "Load Balancer: Server, die eine Skalierung der Serveranwendung ermöglichen. Sie dienen als Einstiegspunkt für Server-Cluster. Ein Browser ruft eine URL auf, die vom Load Balancer an einen Server im Cluster weitergeleitet wird. Alle Antworten und weiteren Anfragen dieses Browsers leitet der Load Balancer an diesen Server weiter.",
+            "Back-up-Server: Standby-Systeme, die bei Ausfall des Hauptsystems einspringen, insbesondere in Mehrschicht-Architekturen.",
+            "Reverse Proxy: Ein Stellvertreter für Anfragen aus dem Internet, der diese an mehrere interne Server verteilt. Beispiel: URLs wie www.meine-domain.de/anwendung1 und www.meine-domain.de/anwendung2 werden intern von verschiedenen Servern bedient, während der Nutzer nur einen einzigen Server sieht.",
+            "Kunden fokussieren sich heute auf Anwendungsfälle, die sie mit Software abdecken möchten, nicht mehr auf Installation, Konfiguration und Wartung.",
+            "Beispiele für Anwendungsfälle:",
+            "CRM (Kundenmanagementsysteme), z.B. SuiteCRM (https://suitecrm.com).",
+            "Zusammenarbeitssysteme, z.B. CryptPad (https://cryptpad.fr) und Nextcloud (https://nextcloud.com).",
+            "Videokonferenz-Lösungen, z.B. Jitsi (https://jitsi.org), Nextcloud Talk (https://apps.nextcloud.com/apps/spreed) und BigBlueButton™ (https://bigbluebutton.org).",
+            "E-Mail-Marketing, das gezielte Analyse von Kampagnen erlaubt, z.B. Mautic (https://www.mautic.org).",
+            "Mein Schulnetz: Zeitgemäße Anwendungen für Schüler und Lehrkräfte auf Proxmox-Infrastruktur. Anwendungen wie OPNsense, Nextcloud (inklusive Chat, Telefonie, Videokonferenzen), Collabora Online Office, Kalender, Kontakte sowie getrennte VLANs für Schüler, Lehrer und Server (https://schulnetzkonzept.de).",
+            "DHCP-Dienst/-Server: Das Dynamic Host Configuration Protocol (DHCP) ermöglicht die automatische Einbindung von Geräten in ein bestehendes Netzwerk. Dabei bezieht der Client automatisch IP-Adresse, Netzmaske, Name-Server und Gateway.",
+            "Ablauf beim DHCP:",
+            "1. Client sendet DHCPDISCOVER als Broadcast an alle DHCP-Server im lokalen Subnetz.",
+            "2. DHCP-Server senden DHCPOFFER mit Netzwerkadresse als Antwort.",
+            "3. Client wählt ein Angebot aus und sendet DHCPREQUEST als Broadcast mit der Server-ID des ausgewählten Servers.",
+            "4. Gewählter Server bestätigt mit DHCPACK die Konfiguration.",
+            "5. Erhält der Client DHCPNAK, startet er die Konfiguration erneut.",
+            "Ohne DHCP müssen IP-Adressen manuell an jedem Client konfiguriert werden.",
+            "Das DHCP ist in RFC2131 der Internet Engineering Task Force (IETF) spezifiziert (https://tools.ietf.org/html/rfc2131).",
+            "DNS und DynDNS:",
+            "Das Domain Name System (DNS) ist ein zentraler Dienst des Internets. Es ermöglicht die Nutzung von Rechnernamen und URLs, die von einem Nameserver (DNS-Dienst bzw. DNS-Server) in IP-Adressen aufgelöst werden.",
+            "Beispiel: Ein Anwender ruft www.westermann.de auf. Das Betriebssystem schickt eine DNS-Anfrage an den DNS-Server (oft der nächste Router). Der Server antwortet mit der IP-Adresse, z.B. 217.13.73.44. Der Client nutzt diese IP, um eine HTTP-Anfrage zu senden.",
+            "DNS ist unverschlüsselt und kann mitgelesen werden. Um DNS-Anfragen abzusichern, werden DNS over TLS, DNS over HTTPS oder DNS over QUIC empfohlen.",
+            "DynDNS: Viele Haushalte erhalten alle 24 Stunden eine neue IPv4-Adresse. Damit interne Server dennoch im Internet erreichbar bleiben, aktualisieren sie ihre IP-Adresse regelmäßig bei einem DynDNS-Server, der die aktuelle IP zurückliefert.",
+            "Dynamic DNS Updates sind in RFC2136 und RFC3007 spezifiziert (https://tools.ietf.org/html/rfc2136).",
+            "Kompetenzcheck:",
+            "Nennen Sie drei wesentliche Unterschiede zwischen IPv4 und IPv6.",
+            "Beschreiben Sie die Vorteile der Absicherung von DNS-Anfragen, z.B. durch DNS over TLS.",
+            "Beschreiben Sie, was netzwerktechnisch passiert, wenn Sie einen PC einschalten, der an einem LAN angeschlossen wird.",
+            "Beschreiben Sie die Unterschiede zwischen DNS und DHCP.",
+            "Ermitteln Sie, welche Protokolle verwendet werden, wenn ein Anwender E-Mails bearbeitet. Welche Port-Nummern nutzen diese Protokolle?"
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Serverarten waren typisch für Client-Server-Anwendungen bis Ende der 1990er-Jahre?",
+              "optionen": [
+                "a) Anwendungs-, Web- und Cloud-Server",
+                "b) Back-up-, Datenbank-, File-/Datei-, Druck- und Mail-Server",
+                "c) Load Balancer und Reverse Proxy",
+                "d) Datenanalyse- und KI-Server"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ermöglicht die Mehrschicht-Architektur bei Webanwendungen?",
+              "optionen": [
+                "a) Zugriff nur über native Apps",
+                "b) Zugriff und Administration per Browser",
+                "c) Nur lokale Verarbeitung von Daten",
+                "d) Nur eine einzelne Serverinstanz"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion hat ein Load Balancer?",
+              "optionen": [
+                "a) Er sichert Daten automatisch",
+                "b) Er verteilt Anfragen auf mehrere Server im Cluster",
+                "c) Er leitet Internetanfragen an einen einzelnen Server weiter",
+                "d) Er überwacht den Datenverkehr auf Viren"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wozu dient ein Reverse Proxy?",
+              "optionen": [
+                "a) Zum Schutz von internen Servern und zur Verteilung eingehender Anfragen auf mehrere Server",
+                "b) Zum Speichern von Back-ups",
+                "c) Zum Balancieren von Lasten in Server-Clustern",
+                "d) Zur Durchführung von Datenbankabfragen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist ein typischer Anwendungsfall für CRM-Software?",
+              "optionen": [
+                "a) Verwaltung von Serverhardware",
+                "b) Kundenmanagement und -pflege",
+                "c) Netzwerküberwachung",
+                "d) Videokonferenzen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie erfolgt die automatische IP-Konfiguration beim DHCP-Protokoll?",
+              "optionen": [
+                "a) Manuelle Eingabe durch den Benutzer",
+                "b) Der Client sendet eine Anfrage (DHCPDISCOVER) und erhält ein Angebot (DHCPOFFER), wählt dieses aus und bestätigt es mit DHCPREQUEST. Der Server bestätigt mit DHCPACK.",
+                "c) Der Server weist feste IPs zu",
+                "d) Es werden zufällig IPs vergeben ohne Protokoll"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche RFC spezifiziert das DHCP-Protokoll?",
+              "optionen": [
+                "a) RFC1034",
+                "b) RFC2131",
+                "c) RFC3007",
+                "d) RFC791"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist die Hauptaufgabe des DNS-Systems?",
+              "optionen": [
+                "a) Vergabe von IP-Adressen",
+                "b) Auflösung von Rechnernamen in IP-Adressen",
+                "c) Verwaltung von E-Mail-Servern",
+                "d) Speicherung von Back-ups"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist es wichtig, DNS-Anfragen abzusichern?",
+              "optionen": [
+                "a) Damit sie schneller verarbeitet werden",
+                "b) Weil DNS-Anfragen unverschlüsselt sind und mitgelesen werden können",
+                "c) Damit mehr Daten übertragen werden können",
+                "d) Um IP-Adressen zu speichern"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Protokolle werden genutzt, wenn ein Anwender E-Mails bearbeitet?",
+              "optionen": [
+                "a) FTP und HTTP",
+                "b) SMTP, IMAP und POP3",
+                "c) DNS und DHCP",
+                "d) TCP und UDP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der ständig sein WLAN verliert?",
+              "optionen": [
+                "a) Offline-Coder",
+                "b) WiFi-Flüsterer",
+                "c) Paket-Verlierer",
+                "d) LAN-Suchender"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm19": {
+        "9.3.2 Netzwerkkomponenten unterscheiden": {
+          "lerninhalt": [
+            "Netzwerkkomponenten unterscheiden sich grundlegend in aktive und passive Komponenten. Aktive Komponenten verfügen über eine Stromversorgung und können Signale verstärken oder weiterleiten, während passive Komponenten keine Energie benötigen und z.B. nur Verbindungen herstellen.",
+            "Alle eingesetzten Netzwerkkomponenten müssen aufeinander abgestimmt sein, damit das Netzwerk zuverlässig funktioniert. Dies betrifft sowohl Hardware als auch die technischen Spezifikationen der Geräte.",
+            "Aktive Komponenten sind z.B. Switches, Router, Access Points oder Firewalls. Sie sorgen für die Weiterleitung und Steuerung von Datenpaketen im Netzwerk.",
+            "Passive Komponenten umfassen Kabel, Stecker, Patchpanels und andere Verbindungselemente. Ihre Qualität und Kompatibilität beeinflussen die Signalübertragung wesentlich.",
+            "Auswahlkriterien für Netzwerkkomponenten sind unter anderem: Kompatibilität, Leistungsfähigkeit, Skalierbarkeit, Sicherheitsanforderungen, Kosten und Umweltbedingungen.",
+            "Technische Anforderungen umfassen Übertragungsraten, Protokollunterstützung, Stromverbrauch, sowie Zuverlässigkeit und Ausfallsicherheit.",
+            "Netzwerkkomponenten werden oft in Schichten nach dem OSI-Modell betrachtet. Aktive Komponenten arbeiten meist auf Layer 2 (Datenlink) und Layer 3 (Netzwerk), passive Komponenten agieren auf Layer 1 (Physikalisch).",
+            "Die Auswahl der richtigen Komponenten beeinflusst die gesamte Netzwerkleistung und Betriebssicherheit. Fehlerhafte oder inkompatible Komponenten können zu Störungen und Ausfällen führen.",
+            "Moderne Netzwerke erfordern oft auch Komponenten mit Funktionen zur Überwachung, Fehlerdiagnose und Management, wie z.B. Managed Switches oder intelligente Access Points.",
+            "Neben technischen Aspekten spielen auch wirtschaftliche Faktoren eine Rolle bei der Auswahl, z.B. Anschaffungskosten, Betriebskosten und Wartungsaufwand."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist der Hauptunterschied zwischen aktiven und passiven Netzwerkkomponenten?",
+              "optionen": [
+                "a) Aktive Komponenten benötigen Strom, passive nicht",
+                "b) Passive Komponenten benötigen Strom, aktive nicht",
+                "c) Aktive Komponenten sind nur Software",
+                "d) Passive Komponenten können Daten verstärken"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche der folgenden Komponenten ist eine aktive Netzwerkkomponente?",
+              "optionen": [
+                "a) Kabel",
+                "b) Router",
+                "c) Stecker",
+                "d) Patchpanel"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum müssen alle Netzwerkkomponenten aufeinander abgestimmt sein?",
+              "optionen": [
+                "a) Damit das Netzwerk zuverlässig und stabil funktioniert",
+                "b) Um die Stromrechnung zu senken",
+                "c) Weil das gesetzlich vorgeschrieben ist",
+                "d) Damit alle Geräte die gleiche Farbe haben"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Schicht des OSI-Modells betrifft hauptsächlich passive Netzwerkkomponenten?",
+              "optionen": [
+                "a) Layer 1 (Physikalisch)",
+                "b) Layer 2 (Datenlink)",
+                "c) Layer 3 (Netzwerk)",
+                "d) Layer 7 (Anwendung)"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Nenne zwei Beispiele für passive Netzwerkkomponenten.",
+              "antwort": "Kabel und Stecker"
+            },
+            {
+              "frage": "Welche Auswahlkriterien sind wichtig bei der Auswahl von Netzwerkkomponenten? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Kompatibilität",
+                "b) Farbe des Gehäuses",
+                "c) Sicherheitsanforderungen",
+                "d) Skalierbarkeit"
+              ],
+              "antwort": ["a", "c", "d"]
+            },
+            {
+              "frage": "Welche Funktion haben aktive Netzwerkkomponenten im Vergleich zu passiven?",
+              "optionen": [
+                "a) Sie verstärken und leiten Signale weiter",
+                "b) Sie verbinden nur Kabel",
+                "c) Sie speichern Daten",
+                "d) Sie erzeugen Strom"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie beeinflussen fehlerhafte oder inkompatible Komponenten das Netzwerk?",
+              "optionen": [
+                "a) Sie führen zu Störungen und Ausfällen",
+                "b) Sie machen das Netzwerk schneller",
+                "c) Sie senken die Kosten",
+                "d) Sie verbessern die Sicherheit"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche zusätzlichen Funktionen können moderne aktive Netzwerkkomponenten haben?",
+              "optionen": [
+                "a) Überwachung, Fehlerdiagnose und Management",
+                "b) Nur Stromversorgung",
+                "c) Farbe wechseln",
+                "d) Daten löschen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum spielen wirtschaftliche Faktoren bei der Auswahl von Netzwerkkomponenten eine Rolle?",
+              "optionen": [
+                "a) Wegen Anschaffungskosten, Betriebskosten und Wartungsaufwand",
+                "b) Weil die Farbe teuer ist",
+                "c) Nur weil der Chef das so will",
+                "d) Sie spielen keine Rolle"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man eine passive Netzwerkkomponente, die sich bei Partys immer gut verkabelt?",
+              "optionen": [
+                "a) Kabelkumpel",
+                "b) Steckerstar",
+                "c) Netzwerkguru",
+                "d) Patchpanels Profi"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm20": {
+        "9.3.2(1) Access Points": {
+          "lerninhalt": [
+            "Access Points, auch Wireless Access Points genannt, stellen Zugriffspunkte für Netzwerkgeräte dar. Über einen Access Point erhalten Smartphones, Laptops, Tablets und weitere Geräte Zugang zu einem Netzwerk. In Heimroutern ist oft ein Access Point integriert.",
+            "Wichtige Konnektivitätsmerkmale bei Access Points sind: WiFi 6 (802.11ax) oder WiFi 5, WLAN-Geschwindigkeiten bis zu 3,6 Gbit/s, Dual-Band WLAN mit 2,4 GHz und 5 GHz, MU-MIMO (Multi-User Multiple Input Multiple Output) in Varianten 4x4, 3x3 oder 2x2, OFDMA (Orthogonal Frequency-Division Multiple Access), Multi-Gigabit Ethernet Ports sowie Bridging-Funktionalität.",
+            "Technische Eigenschaften von Access Points umfassen die Stromversorgung über Power over Ethernet (PoE) oder PoE+, Ports mit Geschwindigkeiten 10/100/1000 BASE-T (RJ45), Einsatzbereiche (Indoor, Outdoor, unterschiedliche Temperaturbereiche), abnehmbare Antennen und verschiedene Gehäusebauformen.",
+            "Beim Management von Access Points gibt es Cloud-Management-Lösungen und automatisierte Betriebsfunktionen, die die Administration erleichtern.",
+            "Zur Auswahl dedizierter Access Points werden folgende technische Anforderungen betrachtet:",
+            "- WiFi 6 und WiFi 5 als WLAN-Standards, die von der WiFi-Alliance spezifiziert werden.",
+            "- WLAN-Geschwindigkeit: Praktisch verfügbar sind bei WiFi 5 bis zu 1733 Mbit/s (Stand 2021).",
+            "- Dual WLAN: Geräte können sowohl im 2,4 GHz als auch im 5 GHz Frequenzband arbeiten.",
+            "- MU-MIMO erhöht Qualität und Datendurchsatz, indem mehrere Clients gleichzeitig bedient werden.",
+            "- OFDMA erlaubt dem Access Point durch bidirektionale Kommunikation, genutzte Kanäle zu messen und die Effizienz zu optimieren.",
+            "- Multi-Gigabit Ethernet Ports ermöglichen mehrere Gigabit-Verbindungen gleichzeitig.",
+            "- Bridging-Funktion: Access Points können als Netzwerkbrücke eingesetzt werden.",
+            "- Stromversorgung erfolgt häufig über PoE, wobei die Leistung der PoE- bzw. PoE+-Ports zu beachten ist, damit diese nicht überlastet werden.",
+            "- Ports mit höheren Durchsatzraten sind generell zu bevorzugen. Die Werte 10/100/1000 stehen für Mbit/s Durchsatz.",
+            "- Einsatzbereiche unterscheiden sich: industrielle Access Points sind für größere Temperaturbereiche geeignet, Outdoor-Geräte sind zudem feuchtigkeitsgeschützt.",
+            "- Abnehmbare Antennen ermöglichen den Austausch gegen andere Antennen je nach Einsatz.",
+            "- Gehäusebauformen variieren je nach Modell und Anforderung."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion eines Access Points in einem Netzwerk?",
+              "optionen": [
+                "a) Er verbindet kabelgebundene Geräte",
+                "b) Er stellt drahtlosen Zugang für Geräte zum Netzwerk bereit",
+                "c) Er speichert Daten",
+                "d) Er überwacht den Internetverkehr"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche WLAN-Standards werden typischerweise bei modernen Access Points unterstützt?",
+              "optionen": [
+                "a) WiFi 3 und WiFi 4",
+                "b) WiFi 5 (802.11ac) und WiFi 6 (802.11ax)",
+                "c) Bluetooth 5.0",
+                "d) LTE"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet Dual WLAN bei Access Points?",
+              "optionen": [
+                "a) Zwei Antennen werden gleichzeitig verwendet",
+                "b) Unterstützung von 2,4 GHz und 5 GHz Frequenzbändern",
+                "c) WLAN und Bluetooth werden gleichzeitig unterstützt",
+                "d) Zwei Netzwerke können erstellt werden"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion hat MU-MIMO bei Access Points?",
+              "optionen": [
+                "a) Es erhöht die Reichweite des WLAN",
+                "b) Es erlaubt einem Access Point, mehrere Clients gleichzeitig mit unterschiedlichen Daten zu versorgen",
+                "c) Es verschlüsselt die Datenübertragung",
+                "d) Es steuert die Stromversorgung der Geräte"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wozu dient OFDMA bei Access Points?",
+              "optionen": [
+                "a) Zur Steuerung der Antennenrichtung",
+                "b) Zur Messung der genutzten Kanäle und Optimierung der Effizienz",
+                "c) Zur Erhöhung der Akkulaufzeit von Endgeräten",
+                "d) Zur Erweiterung des WLAN-Bereichs"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet PoE bei der Stromversorgung von Access Points?",
+              "optionen": [
+                "a) Stromversorgung über USB-Kabel",
+                "b) Stromversorgung über das Ethernet-Kabel",
+                "c) Stromversorgung über eine Batterie",
+                "d) Stromversorgung über WLAN"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum sind Ports mit höheren Durchsatzraten bei Access Points zu bevorzugen?",
+              "optionen": [
+                "a) Sie ermöglichen schnellere Datenübertragung im Netzwerk",
+                "b) Sie sind günstiger in der Anschaffung",
+                "c) Sie benötigen weniger Strom",
+                "d) Sie sind kleiner"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Eigenschaften machen industrielle Access Points besonders?",
+              "optionen": [
+                "a) Sie sind besonders günstig",
+                "b) Sie sind für größere Temperaturbereiche geeignet",
+                "c) Sie haben kein WLAN",
+                "d) Sie können keine Antennen tauschen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ermöglicht eine abnehmbare Antenne bei Access Points?",
+              "optionen": [
+                "a) Austausch gegen andere Antennen für bessere Anpassung an den Einsatzort",
+                "b) Schnellere Datenübertragung",
+                "c) Stromersparnis",
+                "d) Reduzierung der Größe des Geräts"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Management-Möglichkeiten gibt es für Access Points?",
+              "optionen": [
+                "a) Nur manuelle Konfiguration vor Ort",
+                "b) Cloud-Management und automatisierter Betrieb",
+                "c) Nur über eine App am Smartphone",
+                "d) Keine Managementmöglichkeiten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Access Point, der zu viel Energie verbraucht?",
+              "optionen": [
+                "a) Stromfresser",
+                "b) WLAN-Walzer",
+                "c) Daten-Sauger",
+                "d) Netzwerkmagier"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm21": {
+        "9.3.2(2) Firewall": {
+          "lerninhalt": [
+            "Eine Firewall ist eine Software, die in der Lage ist, eingehenden (schadhaften) Netzwerkverkehr zu filtern und zu blockieren, um damit ein ganzes Netzwerk zu schützen wie eine Brandmauer vor Feuer. Firewalls dürfen den Netzwerkverkehr niemals ausbremsen. Hardware-Firewalls werden meist an zentralen Managementstellen eingesetzt, es gibt sie auch als dedizierte Hardware. In der Cloud werden Firewalls virtualisiert betrieben.",
+            "Technische Eigenschaften von Firewalls umfassen Anschlüsse wie SFP, LAN, WIFI, LTE, UMTS; Internet Gateway; Datendurchsatz für Firewall, VPN und HTTP; VPN Gateway; Proxy; Firewall mit URL-/Inhaltsfilter; Bauform; Intrusion Detection & Prevention (Next Generation Firewall, NGFW); Surfschutz; Authentifizierung; Quality of Service; Reporting; rechtliche Eigenschaften wie EU/EAA, NATO Restricted und DSGVO.",
+            "Internet Gateway Firewalls überwachen den gesamten Datenverkehr zwischen Intranet und Internet als Gateway. Ein einfacher Paketfilter filtert ganze UDP/TCP-Nachrichten anhand von Regeln zu IP-Absenderadresse, IP-Zieladresse und Port. Stateful Paket Inspection speichert offene Verbindungen und verwirft unerwünschte Antworten ohne zugehörige Anfrage. Deep Paket Inspection analysiert IP-Header und filtert bei Bedarf tiefergehend.",
+            "Firewalls verfügen oft über VPN-Gateway-Funktionalität, wobei die maximale Anzahl gleichzeitiger VPN-Verbindungen wichtig ist. URL-/Inhaltsfilter blockieren URLs und Inhalte anhand eines Regelwerks.",
+            "Intrusion Detection erkennt mittels Paket Inspection Eindringversuche durch Analyse von Paketabfolgen. Intrusion Prevention (NGFW) kann Eindringversuche durch Deep Packet Inspection verhindern.",
+            "Viren-, Spam- und Eindringversuche erfolgen über diverse Auslöser wie Phishing oder Malware. Firewalls schützen unabhängig vom Auslöser und gewährleisten Schutz über das Netzwerk.",
+            "DDoS-Abwehr erkennt und wehrt typische DDoS-Angriffe ab, z. B. massive unvollständige Nachrichtenpakete.",
+            "Authentifizierung stellt sicher, dass nur autorisierte Personen die Firewall konfigurieren dürfen.",
+            "Quality of Service erlaubt die Priorisierung von IP-Paketen.",
+            "Reporting stellt Berichte für Administratoren bereit.",
+            "Hardware-Firewalls werden entsprechend dem Netzwerk (SFP/LAN/WIFI/LTE/UMTS) ausgewählt.",
+            "Datendurchsatz (Layer 3 Forwarding, Layer 5-7 Forwarding) und maximale Anzahl gleichzeitiger Verbindungen sind entscheidende Kriterien.",
+            "VPN-/HTTP-Proxy-Funktion ermöglicht das Scannen und Filtern von vertraulichem Datenverkehr.",
+            "Bauformen von Firewalls sind beispielsweise für 19-Zoll-Racks oder als Standalone-Geräte erhältlich.",
+            "Für sicherheitsrelevante Bereiche existieren Firewalls mit Zertifikaten wie EU/EAA, NATO Restricted und DSGVO.",
+            "Einfache Firewalls blockieren Pakete von IP-Adressen auf einer Sperrliste (Blacklist) oder akzeptieren nur solche von erlaubten IP-Adressen (Whitelist). Ein Beispiel ist die GNU Uncomplicated Firewall (UFW) für Linux-Desktops.",
+            "Firewalls werden über Regeln konfiguriert. Jede eingehende Nachricht wird gegen die Regel-Liste geprüft.",
+            "Beispiel: Uncomplicated Firewall (UFW) auf Linux-Servern konfiguriert TCP-Dienste auf Ports 22, 5665, 80 und 443 für IPv4 und IPv6. Standardregel: Ankommend verweigern, ausgehend erlauben.",
+            "Aufgrund des offenen Quellcodes und der sensiblen Thematik der Netzwerksicherheit bevorzugen Unternehmen oft Open-Source-Firewalls.",
+            "Bekannte Open-Source-Firewalls:",
+            "- IPFire: Professionelle freie Firewall auf GPLv3-Basis aus Deutschland, mit minimalistischen gehärteten OS, Segmentierung in Subnetze (LAN, DMZ), IDS/IPS-Fähigkeiten.",
+            "- OPNSense®: Open-Source-Firewall auf FreeBSD-Basis aus den Niederlanden, unterstützt VPN, High Availability, IDS/IPS, DNS, DHCP, VLANs.",
+            "- SecurityOnion: Linux-Distribution für Intrusion Detection, Network Security Monitoring, Log Management, als Container verfügbar.",
+            "- Suricata: Threat Detection Engine in Firewalls wie IPFire, OPNSense® und SecurityOnion."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion einer Firewall?",
+              "optionen": [
+                "a) Netzwerkverkehr beschleunigen",
+                "b) Eingehenden (schadhaften) Netzwerkverkehr filtern und blockieren",
+                "c) Hardware steuern",
+                "d) Daten verschlüsseln"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Verbindungstypen können Firewalls unterstützen?",
+              "optionen": [
+                "a) Nur LAN",
+                "b) SFP, LAN, WIFI, LTE, UMTS",
+                "c) Nur WIFI",
+                "d) Nur LTE und UMTS"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet Stateful Packet Inspection bei Firewalls?",
+              "optionen": [
+                "a) Filtert nur IP-Adressen",
+                "b) Speichert offene Verbindungen und verwirft Antworten ohne zugehörige Anfragen",
+                "c) Blockiert alle UDP-Pakete",
+                "d) Analysiert nur HTTP-Anfragen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine Next Generation Firewall (NGFW)?",
+              "optionen": [
+                "a) Eine Firewall ohne Filterregeln",
+                "b) Eine Firewall mit Deep Packet Inspection und Intrusion Prevention",
+                "c) Eine Firewall, die nur Blacklists nutzt",
+                "d) Eine Firewall ohne VPN-Funktion"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist die VPN-Gateway-Funktion einer Firewall wichtig?",
+              "optionen": [
+                "a) Für die maximale Anzahl gleichzeitiger VPN-Verbindungen",
+                "b) Für die Beschleunigung von Internetverbindungen",
+                "c) Für das automatische Backup von Daten",
+                "d) Für den Schutz vor Malware im Browser"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Aufgaben erfüllen URL-/Inhaltsfilter in einer Firewall?",
+              "optionen": [
+                "a) Blockieren von URLs und Inhalten basierend auf Regeln",
+                "b) Erhöhen die Bandbreite",
+                "c) Verschlüsseln den Datenverkehr",
+                "d) Verwalten Benutzerrechte"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Kriterien sind bei der Auswahl einer Hardware-Firewall wichtig?",
+              "optionen": [
+                "a) Bauform, Anschlüsse, Datendurchsatz, maximale Verbindungen",
+                "b) Farbe und Design",
+                "c) Anzahl der LEDs",
+                "d) Verfügbarkeit im Einzelhandel"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche rechtlichen Zertifikate können Firewalls besitzen?",
+              "optionen": [
+                "a) EU/EAA, NATO Restricted, DSGVO",
+                "b) ISO 9001",
+                "c) CE-Kennzeichnung",
+                "d) TÜV Rheinland"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was beschreibt die Konfiguration einer einfachen Firewall wie UFW?",
+              "optionen": [
+                "a) Automatische Updates installieren",
+                "b) Regeln, die eingehende Nachrichten prüfen und entsprechend erlauben oder blockieren",
+                "c) Nur ausgehenden Datenverkehr blockieren",
+                "d) Nur IPv6-Verkehr filtern"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum bevorzugen viele Unternehmen Open-Source-Firewalls?",
+              "optionen": [
+                "a) Wegen des Quellcodes und der Anpassbarkeit",
+                "b) Weil sie teuer sind",
+                "c) Wegen des Designs",
+                "d) Weil sie keine Konfiguration benötigen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Nenne eine bekannte Open-Source-Firewall mit Segmentierung in Subnetze und IDS/IPS-Fähigkeiten.",
+              "optionen": [
+                "a) Windows Firewall",
+                "b) IPFire",
+                "c) Norton Firewall",
+                "d) McAfee Firewall"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Open-Source-Firewall basiert auf FreeBSD und unterstützt High Availability und VLANs?",
+              "optionen": [
+                "a) IPFire",
+                "b) OPNSense®",
+                "c) SecurityOnion",
+                "d) Suricata"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wofür wird Suricata in Firewalls verwendet?",
+              "optionen": [
+                "a) Als Threat Detection Engine",
+                "b) Zum Backup von Daten",
+                "c) Zur Verschlüsselung von Daten",
+                "d) Zur Konfiguration von VPNs"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist ein Vorteil von Cloud-virtualisierten Firewalls gegenüber dedizierten Hardware-Firewalls?",
+              "optionen": [
+                "a) Höhere Flexibilität und Skalierbarkeit",
+                "b) Keine Konfiguration nötig",
+                "c) Automatische Hardware-Updates",
+                "d) Keine Sicherheitsfunktionen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie schützt eine Firewall vor DDoS-Angriffen?",
+              "optionen": [
+                "a) Indem sie massive unvollständige Nachrichtenpakete erkennt und abwehrt",
+                "b) Indem sie alle Verbindungen blockiert",
+                "c) Indem sie den Internetzugang ausschaltet",
+                "d) Indem sie Passwörter ändert"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ermöglicht Quality of Service (QoS) bei einer Firewall?",
+              "optionen": [
+                "a) Priorisierung von IP-Paketen im Netzwerk",
+                "b) Automatische Updates",
+                "c) Datenverschlüsselung",
+                "d) Passwortverwaltung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was bedeutet Reporting in Bezug auf Firewalls?",
+              "optionen": [
+                "a) Bereitstellung von Berichten für Administratoren",
+                "b) Automatische Reparatur von Fehlern",
+                "c) Automatisches Blockieren von Benutzern",
+                "d) Verwaltung von Benutzerkonten"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wer darf die Konfiguration einer Firewall vornehmen?",
+              "optionen": [
+                "a) Nur autorisierte Personen",
+                "b) Jeder Mitarbeiter",
+                "c) Externe Nutzer",
+                "d) Kunden"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie funktionieren Blacklist und Whitelist bei Firewalls?",
+              "optionen": [
+                "a) Blacklist blockiert IPs, Whitelist erlaubt nur bestimmte IPs",
+                "b) Blacklist erlaubt alle IPs, Whitelist blockiert alle IPs",
+                "c) Beide erlauben alle IPs",
+                "d) Beide blockieren alle IPs"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Ports werden im Beispiel der Uncomplicated Firewall (UFW) auf Linux-Servern geöffnet?",
+              "optionen": [
+                "a) 21, 23, 25, 110",
+                "b) 22, 5665, 80, 443",
+                "c) 53, 8080, 3306, 3389",
+                "d) 123, 161, 389, 443"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der ständig seinen WLAN-Zugang verliert?",
+              "optionen": [
+                "a) Offline-Coder",
+                "b) WiFi-Flüsterer",
+                "c) Paket-Verlierer",
+                "d) LAN-Suchender"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm22": {
+        "9.3.2(3) DNS-Filter": {
+          "lerninhalt": [
+            "DNS-Filter sind Softwarelösungen, die Werbung, Tracker und Malware zentral in einem Netzwerk filtern können. Sie schützen die Privatsphäre der Nutzer, indem sie unerwünschte DNS-Anfragen blockieren und so verhindern, dass persönliche Surfgewohnheiten gesammelt und ausgewertet werden.",
+            "Unser Surfverhalten gibt Datensammlern ein sehr genaues Persönlichkeitsprofil preis. DNS-Filter bieten Schutz vor dieser 'Sammelwut', indem sie DNS-Anfragen filtern und dadurch die Privatsphäre schützen.",
+            "Ein DNS-Filter muss 24 Stunden am Tag aktiv sein, da er als DNS-Server im Netzwerk fungiert. Er wird oft auf einer virtuellen Maschine oder einem separaten Rechner betrieben, um durchgehenden Schutz zu gewährleisten.",
+            "DNS-Filter werden logisch vor den eigentlichen DNS-Server geschaltet. Sie nutzen sogenannte 'schwarze Listen' (Blacklists), um zu entscheiden, ob eine DNS-Anfrage weitergeleitet oder blockiert wird. Diese Listen können manuell gepflegt oder von vertrauenswürdigen Anbietern automatisch bezogen werden.",
+            "Professionelle DNS-Filter leiten DNS-Anfragen verschlüsselt weiter, etwa mittels DNS-over-TLS (DoT), DNS-over-HTTPS (DoH), DNSCrypt oder DNS-over-QUIC (DoQ). Dadurch können die Anfragen auf dem Transportweg weder verfolgt noch manipuliert werden.",
+            "Bekannte Open-Source-DNS-Filter sind 'eBlocker', 'Pi-Hole' und 'AdGuard'. Diese bieten einen zentralen Schutz ganzer Netzwerke vor Tracking und Werbung.",
+            "Ein Beispiel für den Einsatz eines DNS-Filters ist ein Pi-Hole-Server, der in einem Netzwerk innerhalb von 24 Stunden z.B. 35137 DNS-Anfragen bearbeitet und davon 2155 Anfragen (6,1%) filtert.",
+            "Die Weboberflächen moderner DNS-Filter bieten detaillierte Statistiken zu DNS-Anfragen und gefilterten Inhalten, was Netzwerkadministratoren hilft, den Schutz zu überwachen und zu optimieren.",
+            "DNS-Filter schützen nicht nur vor Werbung, sondern auch vor Tracker-Aktivitäten und potentieller Malware, was die Sicherheit und Privatsphäre der Netzwerknutzer erhöht.",
+            "Der Einsatz von DNS-Filtern ist besonders wichtig in Umgebungen, in denen viele Geräte und Nutzer auf das Internet zugreifen, um eine zentrale und effektive Filterung zu ermöglichen."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion eines DNS-Filters in einem Netzwerk?",
+              "optionen": [
+                "a) Er erhöht die Internetgeschwindigkeit",
+                "b) Er filtert Werbung, Tracker und Malware",
+                "c) Er ersetzt den Router",
+                "d) Er speichert alle DNS-Anfragen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist der Schutz durch DNS-Filter besonders wichtig für die Privatsphäre?",
+              "optionen": [
+                "a) Weil sie den Internetzugang blockieren",
+                "b) Weil das Surfverhalten ein genaues Persönlichkeitsprofil preisgibt",
+                "c) Weil sie Daten komprimieren",
+                "d) Weil sie Viren entfernen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie lange muss ein DNS-Filter idealerweise im Netzwerk aktiv sein?",
+              "optionen": [
+                "a) Nur während der Arbeitszeit",
+                "b) 24 Stunden am Tag",
+                "c) Nur nachts",
+                "d) Nur bei Bedarf"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wo wird ein DNS-Filter meist betrieben?",
+              "optionen": [
+                "a) Auf dem Smartphone des Nutzers",
+                "b) In einer virtuellen Maschine oder auf einem separaten Rechner",
+                "c) Direkt im Webbrowser",
+                "d) Auf dem Modem"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine 'Blacklist' im Zusammenhang mit DNS-Filtern?",
+              "optionen": [
+                "a) Eine Liste erlaubter Webseiten",
+                "b) Eine Liste von DNS-Anfragen, die blockiert werden sollen",
+                "c) Eine Liste von Nutzern im Netzwerk",
+                "d) Ein Protokoll für Datentransfer"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Technik wird verwendet, um DNS-Anfragen verschlüsselt weiterzuleiten?",
+              "optionen": [
+                "a) HTTP/2",
+                "b) DNS-over-TLS (DoT), DNS-over-HTTPS (DoH), DNSCrypt oder DNS-over-QUIC (DoQ)",
+                "c) FTP",
+                "d) SMTP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Nenne drei bekannte Open-Source-DNS-Filter.",
+              "optionen": [
+                "a) eBlocker, Pi-Hole, AdGuard",
+                "b) Norton, McAfee, Avast",
+                "c) Chrome, Firefox, Edge",
+                "d) Cisco, Juniper, Huawei"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie viele DNS-Anfragen wurden in einem Beispielnetzwerk innerhalb von 24 Stunden bearbeitet?",
+              "optionen": [
+                "a) 2155",
+                "b) 35137",
+                "c) 10000",
+                "d) 500"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welchen Prozentsatz der DNS-Anfragen filterte der Pi-Hole-Server in dem Beispielnetzwerk?",
+              "optionen": [
+                "a) 2,5 %",
+                "b) 6,1 %",
+                "c) 10 %",
+                "d) 0,5 %"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was können Netzwerkadministratoren mit der Weboberfläche eines DNS-Filters überwachen?",
+              "optionen": [
+                "a) Die Anzahl der Internetnutzer",
+                "b) Die Statistiken zu DNS-Anfragen und gefilterten Inhalten",
+                "c) Die E-Mail-Konten der Nutzer",
+                "d) Die Geschwindigkeit der Internetverbindung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen DNS-Filter, der beim Blockieren zu streng ist?",
+              "optionen": [
+                "a) Firewall-Fanatiker",
+                "b) DNS-Diktator",
+                "c) Werbungs-Wächter",
+                "d) Filter-Fürst"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm23": {
+        "9.3.2(4) Switches": {
+          "lerninhalt": [
+            "Switches sind Geräte, die Netzwerksegmente miteinander verbinden.",
+            "Nachrichten werden an den Port weitergeleitet, an dem sich der Empfänger befindet.",
+            "Für Switches werden bei der Auswahl folgende Kriterien berücksichtigt: Managed Switches, Unmanaged Switches, Quality of Service (QoS), Access Control Lists (ACL), 100 GbE/40 GbE/10 GBase-T Ethernet/PoE+/Glasfaser, Anzahl Ports, Bauform, RJ45/SFP+/QSFP+, Leistungsaufnahme, Software Defined Networks (SDN), RDMA over Converged Ethernet (RoCE).",
+            "Managementtechnisch gibt es Managed und Unmanaged Switches. Managed Switches verfügen über eine integrierte Webanwendung und lassen sich über einen Browser konfigurieren. Unmanaged Switches sind fest konfiguriert und Parameter sind nicht anpassbar.",
+            "Mit QoS lässt sich der IP-Traffic per Konfiguration priorisieren.",
+            "Über ACLs können Zugriffsrechte festgelegt werden.",
+            "Je höher die unterstützten Datendurchsatzraten sind, desto höher ist der Preis der Switches. Sehr hohe Datendurchsatzraten werden mit Glasfaser erreicht, kleinere Durchsatzraten sind kostengünstiger.",
+            "Switches können unterschiedliche Ports und Datendurchsatzraten in einem Gerät besitzen.",
+            "Die Anzahl der Ports ist ein wichtiges Kriterium bei der Auswahl.",
+            "In Rechenzentren wird die 19-Zoll-Bauform bevorzugt, mit ein, zwei oder mehreren Höheneinheiten (HE).",
+            "Über die Ports werden Patchkabel (kurze Kabel) angeschlossen.",
+            "Die Leistungsaufnahme wird in Watt pro Port angegeben.",
+            "Managed Switches lassen sich in Software Defined Networks (SDN) konfigurieren und sind somit für virtualisierte Rechenzentren geeignet.",
+            "Das Protokoll RDMA over Converged Ethernet (RoCE) ermöglicht den direkten Speicherzugriff auf Switches über das Netzwerk, was Latenzen reduziert und Datendurchsatzraten erhöht."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion eines Switches?",
+              "optionen": [
+                "a) Verbinden von Netzwerksegmenten",
+                "b) Speichern von Daten",
+                "c) Erzeugen von Strom",
+                "d) Senden von E-Mails"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie werden Nachrichten von einem Switch weitergeleitet?",
+              "optionen": [
+                "a) An alle Ports gleichzeitig",
+                "b) An den Port, an dem sich der Empfänger befindet",
+                "c) An den Port mit der höchsten Leistung",
+                "d) An den letzten aktiven Port"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Switch-Art lässt sich über eine Weboberfläche konfigurieren?",
+              "optionen": [
+                "a) Managed Switches",
+                "b) Unmanaged Switches",
+                "c) Alle Switches",
+                "d) Keine Switches"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ermöglicht Quality of Service (QoS) bei Switches?",
+              "optionen": [
+                "a) Priorisierung des IP-Traffics",
+                "b) Erhöhung der Portanzahl",
+                "c) Reduzierung der Leistungsaufnahme",
+                "d) Automatische Softwareupdates"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Protokolle sind für moderne Switches relevant? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) OpenFlow",
+                "b) HTTP",
+                "c) RDMA over Converged Ethernet (RoCE)",
+                "d) FTP"
+              ],
+              "antwort": ["a", "c"]
+            },
+            {
+              "frage": "Was beschreibt der Begriff Access Control Lists (ACL) bei Switches?",
+              "optionen": [
+                "a) Festlegung von Zugriffsrechten",
+                "b) Steuerung der Leistungsaufnahme",
+                "c) Verwaltung der Anzahl der Ports",
+                "d) Überwachung der Netzwerklatenz"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Bauform wird in Rechenzentren bevorzugt eingesetzt?",
+              "optionen": [
+                "a) 19-Zoll-Bauform",
+                "b) Desktopgehäuse",
+                "c) Mini-ITX",
+                "d) Rackless"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum sind Switches mit sehr hohen Datendurchsatzraten teurer?",
+              "optionen": [
+                "a) Wegen der Glasfasertechnologie",
+                "b) Wegen der Anzahl der LEDs",
+                "c) Wegen der Größe des Gehäuses",
+                "d) Wegen der Farbe"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Ports werden typischerweise an einem Switch für Patchkabel genutzt?",
+              "optionen": [
+                "a) RJ45, SFP+, QSFP+",
+                "b) USB",
+                "c) HDMI",
+                "d) VGA"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was bewirkt das Protokoll RDMA over Converged Ethernet (RoCE)?",
+              "optionen": [
+                "a) Direkten Speicherzugriff auf Switches über das Netzwerk",
+                "b) Automatische IP-Zuweisung",
+                "c) Verschlüsselung von E-Mails",
+                "d) Reduktion der Leistungsaufnahme"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie nennt man einen Switch, der nicht konfigurierbar ist?",
+              "optionen": [
+                "a) Managed Switch",
+                "b) Unmanaged Switch",
+                "c) Smart Switch",
+                "d) Virtual Switch"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum wird die Leistungsaufnahme in Watt pro Port angegeben?",
+              "optionen": [
+                "a) Um den Stromverbrauch genau messen zu können",
+                "b) Um die Größe des Switches zu bestimmen",
+                "c) Um die Anzahl der Ports zu erhöhen",
+                "d) Um die Geschwindigkeit der Datenübertragung zu steigern"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist ein Vorteil von Managed Switches gegenüber Unmanaged Switches?",
+              "optionen": [
+                "a) Konfigurierbarkeit und Management über Webinterface",
+                "b) Günstiger Preis",
+                "c) Kleinere Bauform",
+                "d) Keine Notwendigkeit zur Stromversorgung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Bedeutung hat die Bauform mit Höheneinheiten (HE) in Rechenzentren?",
+              "optionen": [
+                "a) Standardisierte Größe zur Platzierung im 19-Zoll-Rack",
+                "b) Anzahl der LEDs an der Vorderseite",
+                "c) Anzahl der Ports",
+                "d) Farbcode für verschiedene Switches"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Aussage trifft auf Software Defined Networks (SDN) zu?",
+              "optionen": [
+                "a) Switches können programmatisch konfiguriert werden",
+                "b) Switches funktionieren nur offline",
+                "c) SDN ist ein veraltetes Netzwerkprotokoll",
+                "d) SDN erhöht die physische Größe eines Switches"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Switch, der nie die Verbindung verliert?",
+              "optionen": [
+                "a) Verbindungszauberer",
+                "b) Port-Held",
+                "c) Netzwerk-Ninja",
+                "d) Switch-Superheld"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm24": {
+        "9.3.2(5) VolP-Telefonanlage":{
+          "lerninhalt": [
+            "Mit der Umstellung der Telefonie von der Leitungsvermittlung auf das Internet-Protokoll sind VolP-Telefonanlagen erhältlich. Sie können als Software, als virtuelle Maschine und als Hardware-Appliance bezogen werden.",
+            "Auch bei Nutzung analoger oder ISDN-Endgeräte wird in Deutschland das Internet-Protokoll verwendet.",
+            "Für den Verbindungsaufbau kommt das Session Initiation Protocol (SIP) zum Einsatz, für das eigentliche Gespräch das Transport Protocol for Real-Time Applications (RTP), siehe auch RFC3550 der Internet Engineering Task Force (IETF).",
+            "Bei der Umstellung auf eine VolP-Telefonanlage ist darauf zu achten, ob bzw. wie die bereits vorhandenen Endgeräte weiter genutzt werden sollen bzw. können.",
+            "Alternativ oder ergänzend dazu können sogenannte Softphones eingesetzt werden. Diese sind Programme, die auf den Rechnern installiert werden. Die Anwender nutzen dann zum Telefonieren ein Headset, welches am PC angeschlossen ist.",
+            "Unterstützen beide, das anrufende und das angerufene Endgerät, Zusatzfunktionen, z.B. Verschlüsselung und/oder HD-Telefonie (Codec G.722), so können diese genutzt werden.",
+            "Die IP-Telefonie findet grundsätzlich unverschlüsselt statt.",
+            "Unterstützen die Endgeräte keine Verschlüsselung, so kann ein Session Border Controller diese Funktion übernehmen.",
+            "Technische Anforderungen für das Bereitstellen von Netzwerken berücksichtigen auch die Integration von VoIP-Systemen, damit diese stabil, sicher und qualitativ hochwertig betrieben werden können."
+          ],
+          "fragen": [
+            {
+              "frage": "Was bedeutet VoIP-Telefonanlage?",
+              "optionen": [
+                "a) Telefonanlage, die über das Internet-Protokoll betrieben wird",
+                "b) Telefonanlage, die nur analoge Leitungen nutzt",
+                "c) Telefonanlage, die nur über Mobilfunk funktioniert",
+                "d) Telefonanlage, die per Satellit kommuniziert"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "In welchen Formen können VoIP-Telefonanlagen bezogen werden?",
+              "optionen": [
+                "a) Nur als Hardware-Appliance",
+                "b) Nur als Software",
+                "c) Als Software, virtuelle Maschine und Hardware-Appliance",
+                "d) Nur als virtuelle Maschine"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welches Protokoll wird für den Verbindungsaufbau bei VoIP verwendet?",
+              "optionen": [
+                "a) HTTP",
+                "b) FTP",
+                "c) SIP (Session Initiation Protocol)",
+                "d) SMTP"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welches Protokoll transportiert das eigentliche Gespräch in einer VoIP-Telefonie?",
+              "optionen": [
+                "a) RTP (Transport Protocol for Real-Time Applications)",
+                "b) TCP",
+                "c) UDP",
+                "d) ICMP"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist ein Softphone?",
+              "optionen": [
+                "a) Ein spezielles Telefon mit weicher Hülle",
+                "b) Ein Programm auf dem Rechner, mit dem per Headset telefoniert wird",
+                "c) Ein Telefon mit Tastenfeld aus Silikon",
+                "d) Ein Telefon mit integriertem Router"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Vorteile bieten Zusatzfunktionen wie Verschlüsselung und HD-Telefonie (Codec G.722)?",
+              "optionen": [
+                "a) Sie verbessern die Sprachqualität und die Sicherheit",
+                "b) Sie erhöhen die Kosten und Komplexität",
+                "c) Sie verlangsamen die Verbindung",
+                "d) Sie sind nur für Videoanrufe wichtig"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wie läuft die IP-Telefonie grundsätzlich ab, wenn keine Verschlüsselung unterstützt wird?",
+              "optionen": [
+                "a) Immer verschlüsselt",
+                "b) Unverschlüsselt, aber ein Session Border Controller kann Verschlüsselung übernehmen",
+                "c) Nur über VPN",
+                "d) Nur analog"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Bedeutung hat der Session Border Controller in VoIP-Netzwerken?",
+              "optionen": [
+                "a) Er baut Verbindungen auf",
+                "b) Er steuert die Sprachqualität",
+                "c) Er übernimmt Verschlüsselung, wenn Endgeräte das nicht können",
+                "d) Er verwaltet die Telefonbücher"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist bei der Umstellung auf eine VoIP-Telefonanlage besonders zu beachten?",
+              "optionen": [
+                "a) Ob vorhandene Endgeräte weiter genutzt werden können",
+                "b) Wie viele Teilnehmer im Unternehmen arbeiten",
+                "c) Welche Farbe die Telefone haben",
+                "d) Ob alle Nutzer Mobiltelefone besitzen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum sind technische Anforderungen an Netzwerke bei VoIP wichtig?",
+              "optionen": [
+                "a) Damit die VoIP-Systeme stabil, sicher und qualitativ hochwertig arbeiten",
+                "b) Damit die Telefone günstiger sind",
+                "c) Damit WLAN schneller wird",
+                "d) Damit alle Nutzer die gleiche Rufnummer haben"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der ständig seine VoIP-Verbindung verliert?",
+              "optionen": [
+                "a) Der offline-talker",
+                "b) Der SIP-verweigerer",
+                "c) Der Paket-Verlierer",
+                "d) Der Headset-Verwechsler"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm25": {
+        "9.3.2(6) Session Border Controller für VolP": {
+          "lerninhalt": [
+            "Ein Session Border Controller (SBC) ist eine Software oder dedizierte Hardware, die externe VoIP-Netze mit dem internen VoIP-Netz koppelt. Der Begriff 'Border' beschreibt die Abgrenzung zwischen zwei Netzwerkteilen, während 'Controller' die Steuerung der Datenströme beim Übergang zwischen diesen Teilen bedeutet.",
+            "SBCs schützen interne Netze vor Angriffen über das SIP (Session Initiation Protocol) von außen. Sie empfangen Anrufe, analysieren die eingehenden SIP-Pakete und entscheiden, ob und wie Gespräche mit internen Geräten oder Softphones aufgebaut werden sollen. So können SIP-Angriffe zentral abgewehrt werden.",
+            "VoIP-Gespräche können durch SBCs verschlüsselt werden, etwa über TLS oder SRTP, und Protokolle wie SIP oder H.323 können übersetzt werden, um Kompatibilität zu gewährleisten.",
+            "Technische Anforderungen an Session Border Controller umfassen unter anderem die Anzahl der gleichzeitig möglichen Anrufe, da SBCs in Geräteform eine begrenzte Leistung besitzen und nur eine bestimmte Anzahl gleichzeitiger Anrufe verarbeiten können.",
+            "Für die IP-Telefonie existieren viele Protokolle wie SIP, H.323, IAX (Inter Asterisk eXchange) und RTP.",
+            "VoIP-Gespräche können in unterschiedlichen Audio-Qualitäten durchgeführt werden. Beim Verbindungsaufbau wird der Audio-Codec ausgehandelt, z.B. G.711, G.722, G.729 und andere.",
+            "Fax Relay wird durch Unterstützung des T.38-Standards ermöglicht, welcher den Empfang von Fax über IP-Netze erlaubt.",
+            "SIP Intrusion Prevention bedeutet, dass Eindringversuche über SIP erkannt und abgewehrt werden.",
+            "SBCs schützen auch vor DDoS-Angriffen (Distributed Denial of Service) über das Session Initiation Protocol, indem sie solche Angriffe erkennen und abwehren.",
+            "Gespräche werden über das Real-Time Transport Protocol (RTP) geführt, gemäß RFC3550. Wenn die Endgeräte es unterstützen, können Gespräche mittels SRTP oder IPsec verschlüsselt werden, was die Gesprächssicherheit erhöht.",
+            "Eine interne Firewall im SBC leitet SIP-Anfragen weiter und blockiert alle anderen unerwünschten Anfragen."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion eines Session Border Controllers (SBC)?",
+              "optionen": [
+                "a) Verwaltung von WLAN-Verbindungen",
+                "b) Kopplung externer VoIP-Netze mit dem internen VoIP-Netz",
+                "c) Speicherung von VoIP-Gesprächen",
+                "d) Übersetzung von Webseiten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Protokolle können von einem SBC übersetzt werden?",
+              "optionen": [
+                "a) HTTP und FTP",
+                "b) SIP und H.323",
+                "c) SMTP und POP3",
+                "d) DNS und DHCP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie schützt ein SBC ein internes Netzwerk vor Angriffen?",
+              "optionen": [
+                "a) Indem er alle Anrufe automatisch annimmt",
+                "b) Durch Analyse und Entscheidung anhand der SIP-Pakete, ob ein Gespräch aufgebaut wird",
+                "c) Indem er alle Anfragen ungefiltert weiterleitet",
+                "d) Durch Abschalten des Netzwerks"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Audio-Codecs sind typische Beispiele, die bei VoIP-Gesprächen ausgehandelt werden?",
+              "optionen": [
+                "a) MP3, AAC, FLAC",
+                "b) G.711, G.722, G.729",
+                "c) JPEG, PNG, GIF",
+                "d) H.264, VP9, AV1"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion hat die interne Firewall im SBC?",
+              "optionen": [
+                "a) Sie leitet alle Anfragen weiter ohne Filterung",
+                "b) Sie leitet nur SIP-Anfragen weiter und blockiert andere",
+                "c) Sie blockiert SIP-Anfragen",
+                "d) Sie scannt nach Viren"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welchen Standard unterstützt ein SBC, um Fax über IP zu ermöglichen?",
+              "optionen": [
+                "a) SMTP",
+                "b) T.38",
+                "c) FTP",
+                "d) HTTP/2"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Arten von Angriffen erkennt und verhindert ein SBC?",
+              "optionen": [
+                "a) Viren und Trojaner",
+                "b) SIP Intrusion und DDoS-Angriffe",
+                "c) Phishing und Spam",
+                "d) Hardwaredefekte"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie können VoIP-Gespräche gesichert werden, wenn Endgeräte es unterstützen?",
+              "optionen": [
+                "a) Durch SRTP oder IPsec-Verschlüsselung",
+                "b) Durch einfache Passwortabfrage",
+                "c) Durch manuelles Abschalten der Verbindung",
+                "d) Durch Abschaltung des RTP-Protokolls"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Warum ist die Anzahl der gleichzeitig möglichen Anrufe bei einem SBC begrenzt?",
+              "optionen": [
+                "a) Wegen der Softwarebeschränkung des Betriebssystems",
+                "b) Weil Gerätehardware und Leistung limitiert sind",
+                "c) Aufgrund der Netzwerkverbindung zum Internet",
+                "d) Wegen Lizenzbeschränkungen der Protokolle"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet 'Border' im Begriff 'Session Border Controller'?",
+              "optionen": [
+                "a) Die Grenze eines Netzwerksegments, an der der Controller Daten steuert",
+                "b) Ein Firewalltyp",
+                "c) Ein spezieller Audio-Codec",
+                "d) Ein Protokoll zur Anrufverwaltung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der ständig seine VoIP-Verbindung verliert?",
+              "optionen": [
+                "a) SIP-Verweigerer",
+                "b) Paket-Verlierer",
+                "c) Firewall-Flüsterer",
+                "d) Codec-Künstler"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm26": {
+        "9.3.2(7) Repeater": {
+          "lerninhalt": [
+            "Repeater sind Signalverstärker. Sie empfangen ein (schwaches) Signal, bereiten es auf und senden es weiter.",
+            "Repeater werden sowohl bei Kupferkabeln als auch bei Glasfaser und WLAN eingesetzt, um die Reichweite zu erhöhen.",
+            "Mithilfe von WLAN-Repeatern ist es beispielsweise möglich, ein WLAN-Signal über ein großes Firmengelände zu verteilen.",
+            "Repeater können auch genutzt werden, um WLAN-Signale über große Entfernungen von mehreren Kilometern von einem Ort zum anderen zu transportieren.",
+            "Die Funktion eines Repeaters besteht darin, ein empfangenes Signal zu regenerieren, zu verstärken und ohne Qualitätsverlust erneut zu übertragen.",
+            "Repeater sind notwendig, weil Signale bei der Übertragung über Kabel oder Funk durch Dämpfung an Stärke verlieren.",
+            "Im Bereich Kupferkabel werden Repeater eingesetzt, um elektrische Signale bei langen Strecken zu verstärken.",
+            "Bei Glasfaserkabeln kommen optische Repeater zum Einsatz, die Lichtsignale regenerieren und verstärken.",
+            "WLAN-Repeater arbeiten, indem sie das empfangene Funksignal aufnehmen, verstärken und wieder aussenden, um Funklöcher zu vermeiden.",
+            "Repeater tragen zur Erhöhung der Netzstabilität und zur Verbesserung der Abdeckung in großen oder komplexen Netzwerkumgebungen bei."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion eines Repeaters?",
+              "optionen": [
+                "a) Er wandelt digitale Signale in analoge um",
+                "b) Er empfängt, verstärkt und sendet ein Signal weiter",
+                "c) Er speichert Daten temporär",
+                "d) Er filtert unerwünschte Signale"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Bei welchen Übertragungsmedien werden Repeater eingesetzt?",
+              "optionen": [
+                "a) Nur Kupferkabel",
+                "b) Nur WLAN",
+                "c) Kupferkabel, Glasfaser und WLAN",
+                "d) Nur Glasfaser"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum sind Repeater notwendig in Netzwerken?",
+              "optionen": [
+                "a) Um die Übertragungskosten zu senken",
+                "b) Weil Signale bei der Übertragung an Stärke verlieren",
+                "c) Um den Energieverbrauch zu reduzieren",
+                "d) Um Netzwerke zu verschlüsseln"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie funktioniert ein WLAN-Repeater im Firmengelände?",
+              "optionen": [
+                "a) Er erzeugt ein neues Signal unabhängig vom Ursprung",
+                "b) Er nimmt das empfangene Signal auf, verstärkt es und sendet es weiter",
+                "c) Er verbindet Geräte direkt miteinander",
+                "d) Er schaltet WLAN aus, wenn kein Nutzer verbunden ist"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Art von Repeater wird bei Glasfaserkabeln eingesetzt?",
+              "optionen": [
+                "a) Elektrische Repeater",
+                "b) Optische Repeater",
+                "c) Mechanische Repeater",
+                "d) Funk-Repeater"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Vorteile bieten Repeater in großen Netzwerken?",
+              "optionen": [
+                "a) Erhöhung der Signalreichweite und Verbesserung der Netzstabilität",
+                "b) Verringerung des Datenvolumens",
+                "c) Automatische Fehlerkorrektur bei Datenpaketen",
+                "d) Steuerung von Benutzerzugängen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Kann ein Repeater Signale über mehrere Kilometer transportieren?",
+              "optionen": [
+                "a) Nein, Repeater sind nur für kurze Strecken geeignet",
+                "b) Ja, insbesondere WLAN-Repeater können über große Entfernungen Signale transportieren",
+                "c) Nur bei Kupferkabeln",
+                "d) Nur bei Glasfaser"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was passiert mit einem Signal, wenn es nicht durch einen Repeater verstärkt wird?",
+              "optionen": [
+                "a) Es wird schneller übertragen",
+                "b) Es verliert an Stärke und Qualität",
+                "c) Es wird automatisch neu codiert",
+                "d) Es bleibt unverändert"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher der folgenden Punkte trifft nicht auf Repeater zu?",
+              "optionen": [
+                "a) Sie speichern Daten dauerhaft",
+                "b) Sie verstärken Signale",
+                "c) Sie regenerieren empfangene Signale",
+                "d) Sie werden in verschiedenen Übertragungsmedien eingesetzt"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Worauf muss man achten, wenn man Repeater in einem WLAN-Netzwerk einsetzt?",
+              "optionen": [
+                "a) Repeater können Funklöcher vermeiden und die Abdeckung verbessern",
+                "b) Repeater reduzieren die Bandbreite nicht",
+                "c) Repeater erzeugen eigenständige WLAN-Netze",
+                "d) Repeater erhöhen automatisch die Anzahl der verbundenen Geräte"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Entwickler, der sein WLAN ständig verliert?",
+              "optionen": [
+                "a) Offline-Coder",
+                "b) WiFi-Flüsterer",
+                "c) Paket-Verlierer",
+                "d) LAN-Suchender"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm27": {
+        "9.3.2(8) Router": {
+          "lerninhalt": [
+            "Router leiten Datenpakete zwischen unterschiedlichen Netzwerken zum nächsten Router weiter. Sie verbinden Netzwerke und lenken den Datenverkehr mittels einer Routing-Tabelle.",
+            "Beispiel: Beim Aufruf einer Internetseite wird ein Datenpaket mit der Anfrage erzeugt. Dieses Paket wird vom anfragenden PC versendet, von Router zu Router durch das Internet geleitet und bis zum Zielserver transportiert.",
+            "Die Adresse des Zielservers ist im Header der Nachricht angegeben. Der Zielserver nutzt nun die Absenderadresse des Headers als Zieladresse für die Antwort.",
+            "Router identifizieren ihre Ports (nicht zu verwechseln mit der Port-Nummer der IP-Nachrichten), ihre Netze und Broadcast-Domänen (alle Rechner, die bei einem Broadcast in diesem SubRouter Port 2 Netz erreicht werden). Sie speichern alle Geräte, die bei einem Broadcast auf einem Port erreicht werden können.",
+            "Befindet sich die Zieladresse nicht in den eigenen Netzen, so wird die Anfrage an den nächsten Router verschickt.",
+            "Router-Typen:",
+            "Heimrouter: Diese Router verbinden das Heimnetz mit dem Internet. Sie sind oftmals mit vielen weiteren Funktionen ausgestattet, z.B. Firewall, Access Point, Telefonanlage, Media-Server, Switch oder Jugendschutzfilter (siehe auch SoHo-Router).",
+            "Edge-Router: Edge-Router liefern eine deutlich höhere Performance als Heimrouter. Sie verbinden das Firmennetz mit dem Internet oder Partnernetz.",
+            "Core-Router: Core-Router sind höchst performante Router für Internet Service Provider (ISP). Diese Router erreichen ihre Performance u.a. dadurch, dass sie keine anderen Aufgaben übernehmen und per Glasfaser verkabelt sind.",
+            "Virtuelle Router: Virtuelle Router finden in Software Defined WANs Verwendung.",
+            "Der Einsatzbereich legt fest, für welche Netze und welche Performance ein Router ausgelegt sein muss.",
+            "SoHo-Router (Small Office - Homeoffice) sind kleine leistungsfähige All-in-One-Router. Sie verfügen über eine Vielzahl unterschiedlicher Gateways, Serverdienste und Anschlüsse sowie ein oder mehrere WAN-Interfaces/Schnittstellen.",
+            "Technische Anforderungen und Funktionen von SoHo-Routern umfassen unter anderem:",
+            "- WAN-Interface: Viele SoHo-Router besitzen genau ein WAN-Interface, z.B. DSL oder Kabel-TV oder LTE oder Glasfaser. Einige Router bieten mehrere WAN-Interfaces für Ausfallsicherheit.",
+            "- USB-Anschlüsse: Prüfung, ob mittels USB-LTE-Stick ein LTE-WAN nachgerüstet werden kann.",
+            "- DNS-Server: Router nehmen DNS-Anfragen des Netzwerks entgegen. Idealerweise lässt sich die Adresse des DNS-Servers konfigurieren, um z. B. DNS-Filter zu integrieren.",
+            "- DHCP-Server: Ermöglicht dynamische IP-Adressvergabe. Der Adresspool sollte konfigurierbar sein, um statische IP-Adressen vergeben zu können, etwa für Server.",
+            "- Proxy-Server: Zwischenspeicherung statischer Webseiten reduziert Datenverbrauch bei Volumentarifen.",
+            "- WLAN-Access-Point: Gäste-Netz und nächtliche WLAN-Abschaltung sind hilfreich.",
+            "- Kindersicherung und Jugendschutzfilter: Unterstützung von Zeitkontingenten und Filterfunktionen für Familiennutzung.",
+            "- Ethernet-Ports: Ausreichend viele (Gigabit-)Ethernet-Ports vermeiden die Notwendigkeit zusätzlicher Switches.",
+            "- TK-Anlage: Integrierte Telefonanlage und Anschlüsse für Analog- und ISDN-Telefone.",
+            "- NAS-Server: USB-Anschluss (mindestens USB 3.0) für NAS-Funktion zur Sicherung über USB-Laufwerke.",
+            "Router verfügen intern über einen Webserver zur Konfiguration über eine Weboberfläche.",
+            "Open-Source-Alternative: OpenWrt unterstützt viele WLAN-Router und bietet erweiterbare Paketverwaltung.",
+            "Edge- und Core-Router Auswahlkriterien für Unternehmen umfassen:",
+            "- Konnektivität: Anzahl der Ports (10/100/1000/10G/100G/400G), QSFP56/QSFP28/SFP/SFP+/RJ45 Ports.",
+            "- Technische Eigenschaften: CPU, RAM, M.2 Storage-Größe für Logging, Anzahl IPsec-Tunnel, IPsec-Unterstützung, SD-WAN/IPsec-Durchsatz, Software Defined WAN, Dualpower/PoE, Leistungsaufnahme, Anzahl Höheneinheiten.",
+            "- Management: Cloud-Management und Lizenzierung.",
+            "Technische Anforderungen an Router:",
+            "- Anzahl der Ports: Je nach Einsatzbereich (Heim, Edge, Core) von 10 MBit/s bis 400 GBit/s.",
+            "- QSFP56/QSFP28/SFP/SFP+/RJ45-Transceiver unterstützen Small Form-Factor Pluggable Spezifikation für modulare Erweiterung.",
+            "- Maximale Datenraten bei QSFP56 bis 50 GBit/s, bei QSFP28 bis 25 GBit/s.",
+            "- IPsec-Funktion ermöglicht den Einsatz als VPN-Router.",
+            "- Software Defined WAN erlaubt flexible Routing-Regeln durch Konfiguration.",
+            "- CPU/RAM: Mehr Kerne mit hoher Single-Thread-Leistung und viel RAM verbessern Performance.",
+            "- M.2-Storage wird für lokales Logging genutzt.",
+            "- Anzahl IPsec-Tunnel bestimmt, wie viele Standorte angebunden werden können.",
+            "- SD-WAN-IPsec-Durchsatz ist entscheidend für Unternehmensstandorte über IPsec-Tunnel.",
+            "- Dualpower/PoE sorgt für höhere Ausfallsicherheit durch redundante Stromversorgung, z. B. Power over Ethernet.",
+            "Core- und Edge-Router sind für 19-Zoll-Racks ausgelegt mit spezifischer Höheneinheitenanzahl.",
+            "Management Cloud: Hersteller bieten Cloud-Services für zentrale Konfiguration und Überwachung der Netzwerkkomponenten."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist die Hauptfunktion eines Routers?",
+              "optionen": [
+                "a) Speicherung von Daten",
+                "b) Leiten von Datenpaketen zwischen Netzwerken",
+                "c) Herstellung von Internetverbindungen",
+                "d) Druckerverwaltung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher Routertyp ist speziell für kleine Büros und Heimanwender ausgelegt?",
+              "optionen": [
+                "a) Core-Router",
+                "b) Edge-Router",
+                "c) SoHo-Router",
+                "d) Virtueller Router"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Funktion hat ein DHCP-Server in einem Router?",
+              "optionen": [
+                "a) Vergabe dynamischer IP-Adressen",
+                "b) Steuerung von WLAN-Zugang",
+                "c) Zwischenspeicherung von Webseiten",
+                "d) Verwaltung von Telefonanschlüssen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was bedeutet 'Dualpower' bei Routern?",
+              "optionen": [
+                "a) Der Router kann mit zwei Betriebssystemen laufen",
+                "b) Der Router hat zwei Netzwerkschnittstellen",
+                "c) Der Router besitzt zwei Stromversorgungen für höhere Ausfallsicherheit",
+                "d) Der Router kann zwei Internetverbindungen gleichzeitig verwalten"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Aussage zu Core-Routern ist richtig?",
+              "optionen": [
+                "a) Sie sind für Heimnetzwerke optimiert",
+                "b) Sie übernehmen viele Aufgaben neben dem Routing",
+                "c) Sie sind hochperformante Router für Internet Service Provider und meist per Glasfaser verbunden",
+                "d) Sie sind virtuelle Router in Software Defined WANs"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum ist die Anzahl der Ports an einem Router wichtig?",
+              "optionen": [
+                "a) Sie bestimmt, wie viele Geräte im Netzwerk angeschlossen werden können",
+                "b) Sie regelt die Geschwindigkeit der Internetverbindung",
+                "c) Sie zeigt die maximale Anzahl der WLAN-Clients an",
+                "d) Sie definiert die Anzahl der zugelassenen Nutzer"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was ist ein Vorteil von Proxy-Servern in Routern?",
+              "optionen": [
+                "a) Sie schützen vor Viren",
+                "b) Sie erlauben den Zugriff auf gesperrte Webseiten",
+                "c) Sie reduzieren den Datenverbrauch durch Caching statischer Webseiten",
+                "d) Sie erhöhen die WLAN-Reichweite"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was beschreibt die Funktion von QSFP56- und QSFP28-Ports?",
+              "optionen": [
+                "a) Sie sind spezielle USB-Anschlüsse",
+                "b) Sie sind modulare Transceiver-Ports für hohe Datenraten bis zu 50 GBit/s bzw. 25 GBit/s",
+                "c) Sie dienen der Stromversorgung",
+                "d) Sie sind alte Netzwerkanschlüsse"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion erfüllt der M.2-Storage bei Edge- und Core-Routern?",
+              "optionen": [
+                "a) Speicherung von Betriebssystemdaten",
+                "b) Lokales Logging von Netzwerkaktivitäten",
+                "c) Backup von Benutzerdaten",
+                "d) Zwischenspeicherung von Webseiten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Managementmöglichkeit bieten moderne Router-Hersteller an?",
+              "optionen": [
+                "a) Nur lokale Konfiguration per Kabel",
+                "b) Cloud-Management für zentrale Konfiguration und Überwachung",
+                "c) Management ausschließlich per Kommandozeile",
+                "d) Keine Managementoptionen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Router, der sich weigert zu arbeiten?",
+              "optionen": [
+                "a) Router-Sitter",
+                "b) Schlaf-Router",
+                "c) Netz-Nörgler",
+                "d) Packets-Refuser"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm28": {
+        "9.3.2(9) Gateway": {
+          "lerninhalt": [
+            "Gateway ist ein Oberbegriff für Netzwerkkomponenten, die eine Verbindung zwischen zwei Netzen herstellen. Je nach OSI Layer finden sich hier folgende Netzwerkkomponenten: Hub, Bridge, PowerLAN, Layer 3 Gateways, NAT Gateways, TLS Gateway, Gateways.",
+            "Hubs arbeiten auf dem OSI Layer 1 als Verteiler von Netzwerkdaten. Sie empfangen Daten und senden diese an alle Ports weiter, ohne zu filtern oder zu entscheiden.",
+            "Eine Bridge verbindet Netzwerksegmente auf OSI Layer 2. Sie werden eingesetzt, um Netze in mehrere Kollisionsdomänen aufzuteilen. Da alle Netzwerkkarten mit dem CSMA/CD-Verfahren arbeiten, sollte die Kommunikationslast aller Geräte nicht zu hoch sein, da ansonsten einzelne Komponenten beim Senden zu lange warten müssen.",
+            "PowerLAN bzw. Powerline Adapter verwenden die vorhandenen elektrischen 230-V-Leitungen eines Gebäudes zur Datenübertragung. Die Nutzdaten werden über ein Trägersignal aufmoduliert. So lässt sich das Intranet nachträglich in Räume bringen, die nicht mit Netzwerkdosen verkabelt sind. Es werden mindestens zwei Powerline-Adapter benötigt, ein Anfangspunkt und ein Endpunkt.",
+            "Je länger die Stromleitung ist und je mehr Verteiler zwischen Anfangs- und Endpunkt liegen, desto größer ist die Dämpfung. Powerline-Adapter arbeiten auf der OSI-Schicht 1. Bei der Auswahl ist zu berücksichtigen, dass die eingesetzten Adapter möglichst vom gleichen Hersteller sein sollten. Je nach Hersteller können theoretische Übertragungsraten von bis zu 1200 MBit/s erreicht werden.",
+            "Einige Powerline-Adapter sind in der Lage, zusätzlich einen WLAN-Access Point bereitzustellen.",
+            "Layer 3 Gateways werden auch als Router bezeichnet. Sie stellen eine Verbindung zwischen Subnetzen her. LTE-Router stellen ein lokales Netz (WLAN) bereit und verbinden dieses mit dem 4G-LTE-Netz. LTE-Router gibt es u.a. für den mobilen Einsatz.",
+            "NAT Gateways übernehmen die Aufgabe der Network Address Translation bei IPv4-Netzwerken.",
+            "Die Terminierung von TLS-Verbindungen ist ein Beispiel für Layer 4 Gateways. So kann z.B. eine Firewall diese Aufgabe übernehmen.",
+            "Proxy Gateways auf den OSI Layern 5-7 werden als Proxy oder Application Layer Gateway bezeichnet. Sie empfangen Nachrichten als Stellvertreter, analysieren diese und leiten sie ggf. weiter an den eigentlichen Server.",
+            "Bekannte Proxy-Server sind SIP-, FTP-, E-Mail- und HTTP-Proxy. Diese werden als Sicherheitskomponente für Anfragen aus dem Internet in der Demilitarized Zone (DMZ) zwischengeschaltet.",
+            "VPN Gateways erlauben einen sicheren Zugriff auf das Firmennetz. Dazu wird im Firmennetz ein VPN-Server bereitgestellt, z.B. als Teil einer Firewall oder eines Routers oder als Open Source Server, z.B. WireGuard (https://www.wireguard.com)."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist ein Gateway im Netzwerkbereich?",
+              "optionen": [
+                "a) Ein Gerät, das nur WLAN-Signale verstärkt",
+                "b) Eine Netzwerkkomponente, die eine Verbindung zwischen zwei Netzen herstellt",
+                "c) Ein spezieller Netzwerkdrucker",
+                "d) Eine Software zum Überwachen des Netzwerkverkehrs"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Auf welchem OSI Layer arbeitet ein Hub?",
+              "optionen": [
+                "a) Layer 1",
+                "b) Layer 2",
+                "c) Layer 3",
+                "d) Layer 4"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Aufgabe hat eine Bridge im Netzwerk?",
+              "optionen": [
+                "a) Verbindung von Netzwerken auf Layer 3",
+                "b) Verteilung von Datenpaketen an alle Ports",
+                "c) Verbindung von Netzwerksegmenten auf Layer 2 und Aufteilung in Kollisionsdomänen",
+                "d) Umwandlung von IP-Adressen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wie funktioniert PowerLAN zur Datenübertragung?",
+              "optionen": [
+                "a) Überträgt Daten kabellos über Bluetooth",
+                "b) Nutzt vorhandene 230-V-Stromleitungen als Übertragungsweg",
+                "c) Verwendet Glasfaserkabel",
+                "d) Nutzt Satellitensignale"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beeinflusst die Übertragungsqualität bei Powerline-Adaptern negativ?",
+              "optionen": [
+                "a) Je kürzer die Stromleitung ist",
+                "b) Je mehr Verteiler und je länger die Stromleitung ist",
+                "c) Wenn alle Adapter vom gleichen Hersteller sind",
+                "d) Wenn die Adapter WLAN unterstützen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion haben Layer 3 Gateways (Router)?",
+              "optionen": [
+                "a) Sie verstärken WLAN-Signale",
+                "b) Sie verbinden Subnetze miteinander",
+                "c) Sie sind für den Datenverkehr auf Layer 1 zuständig",
+                "d) Sie analysieren und leiten Nachrichten auf Layer 7 weiter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was macht ein NAT Gateway?",
+              "optionen": [
+                "a) Es verschlüsselt alle Daten im Netzwerk",
+                "b) Es übersetzt IP-Adressen in IPv4-Netzen",
+                "c) Es ist ein Proxy-Server für HTTP-Anfragen",
+                "d) Es verbindet WLAN-Access Points"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aufgaben übernimmt eine Firewall als Beispiel für Layer 4 Gateways?",
+              "optionen": [
+                "a) Terminierung von TLS-Verbindungen",
+                "b) Übersetzung von IP-Adressen",
+                "c) Verbindung von Netzwerken auf Layer 2",
+                "d) Datenübertragung über PowerLAN"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wofür werden Proxy Gateways auf den OSI Layern 5-7 verwendet?",
+              "optionen": [
+                "a) Zum Verteilen von Netzwerkdaten auf Layer 1",
+                "b) Als Stellvertreter zum Analysieren und Weiterleiten von Nachrichten",
+                "c) Zum Verbinden von Subnetzen",
+                "d) Zur Übertragung von Daten über Stromleitungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist die Hauptfunktion von VPN Gateways im Firmennetz?",
+              "optionen": [
+                "a) Sie stellen WLAN bereit",
+                "b) Sie erlauben sicheren Zugriff auf das Firmennetz",
+                "c) Sie sind reine Hardwarekomponenten für Datenübertragung",
+                "d) Sie filtern HTTP-Anfragen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Netzwerkadministrator, der nie seinen Schlüssel zum Serverraum findet?",
+              "optionen": [
+                "a) Server-Loser",
+                "b) Key-Loser",
+                "c) Door-Opener",
+                "d) Access-Denied"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
       }
-
-
-
-
     }
   }
 }
+
