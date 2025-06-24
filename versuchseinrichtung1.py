@@ -7,10 +7,10 @@ while True:
         while True:
 
                 lf_names = daten["Lernfelder"]
-                print("Lernfelder: ", lf_names.keys)
-                lernfeld_wahl = input("Wähle ein Lernfeld!\n08 - \n09 - Netzwerke und Dienste bereitstellen\nWelche Zahl darf es sein?\n-> ")
+                #print("Lernfelder: ", lf_names.keys)
+                lernfeld_wahl = input("Wähle ein Lernfeld!\n08 - Daten systemübergreifend bereitstellen\n09 - Netzwerke und Dienste bereitstellen\nWelche Zahl darf es sein?\n-> ")
                 lernfeld = lf_names[f"lernmoduleLF{lernfeld_wahl}"]
-                print("Lernmodule: ", lernfeld)
+                #print("Lernmodule: ", lernfeld)
                 # Thema-Liste über alle Module zusammensetzen
                 thema_list = []
                 thema_modul_map = {}  # Thema -> Modul
