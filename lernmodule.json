@@ -10284,6 +10284,664 @@
             }
           ]
         }
+      },
+      "lm44": {
+        "9.4 Wirtschaftliche und sicherheitsrelevante Anforderungen sowie\nNachhaltigkeit in Netzwerken berücksichtigen  \n9.4.1 Wirtschaftliche Anforderungen berücksichtigen ": {
+          "lerninhalt": [
+            "Sie stellen für eine Präsentation eines Projektes wirtschaftliche Entscheidungen und Anforderungen zusammen. Wirtschaftliche Entscheidungen und Anforderungen sind für viele Gremien und Stakeholder von hoher Bedeutung.",
+            "Mit ihnen sollen der ressourcenschonende Umgang und die Profitabilität des Projektergebnisses verbessert werden.",
+            "Zunächst sollten alle bereits erarbeiteten Kompetenzen vertieft und in Erinnerung gebracht werden (siehe auch Jahrgangsband 1, Lernfeld 2, Kapitel 2.5, 2.7.4, 2.8 und 2.9 sowie Lernfeld 6, Kapitel 6.1.4 bzw. das Arbeitsbuch).",
+            "Eine Make-or-Buy-Entscheidung ist eine Entscheidung über die Eigenfertigung (Make) oder den Fremdbezug (Buy) eines Produkts oder einer Dienstleistung.",
+            "Dabei müssen viele Argumente abgewogen werden, um diese Entscheidung schlüssig treffen und begründen zu können.",
+            "Aufgrund des Fachkräftemangels und der vielen technologischen Entwicklungen sind Unternehmen bei der Beschaffung und Bereitstellung von Netzwerken zunehmend auf externe Unterstützung angewiesen.",
+            "Oft wird dabei auch Outsourcing in Betracht gezogen – also die Auslagerung ganzer IT-Bereiche oder -Dienste.",
+            "Argumente für 'Make' (Eigenfertigung): freie Personalkapazitäten, eigene Machbarkeit gegeben, Know-how und Geheimhaltung intern möglich, Kernkompetenz vorhanden, Lerneffekte möglich.",
+            "Argumente für 'Buy' (Fremdbezug): keine freien Kapazitäten, Know-how nicht vorhanden, schneller verfügbar, Zugang zu externer Expertise, kein direkter Marktzugang für Eigenbeschaffung.",
+            "Entscheidungsfaktoren für Make-or-Buy: strategische Ausrichtung und Stakeholder-Ziele, Zeitrahmen, Herstellung vs. Umstellung, Kostenvergleich, Wirtschaftlichkeit, Liquidität, vorhandene Kompetenzen, Risiken wie Ausfallzeiten oder Lieferantenabhängigkeit.",
+            "Alternativen: vollständiges Outsourcing, Teil-Outsourcing oder gezielte Eigenleistungen in kritischen Bereichen."
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist eine Make-or-Buy-Entscheidung?",
+              "optionen": [
+                "a) Eine Entscheidung über Standortwahl",
+                "b) Eine Entscheidung über Outsourcing ganzer Unternehmen",
+                "c) Eine Entscheidung über Eigenfertigung oder Fremdbezug",
+                "d) Eine Entscheidung zur Finanzierung eines Projekts"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist ein typisches Argument für die Eigenfertigung ('Make')?",
+              "optionen": [
+                "a) Keine Personalkapazitäten",
+                "b) Geheimhaltung von Know-how",
+                "c) Zugang zu externer Expertise",
+                "d) Keine Kernkompetenz vorhanden"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher Punkt spricht gegen den Fremdbezug ('Buy')?",
+              "optionen": [
+                "a) Geringe Innovationskraft",
+                "b) Inhouse-Kompetenzaufbau",
+                "c) Schnelle Verfügbarkeit",
+                "d) Externe Fachkenntnisse"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist wirtschaftliches Denken bei der Netzwerkbereitstellung wichtig?",
+              "optionen": [
+                "a) Um so wenig Technik wie möglich zu nutzen",
+                "b) Um Profitabilität und Ressourcenschonung zu gewährleisten",
+                "c) Um gesetzliche Anforderungen zu erfüllen",
+                "d) Um Mitarbeiter zu entlasten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was gehört NICHT zu den Kriterien einer Make-or-Buy-Entscheidung?",
+              "optionen": [
+                "a) Kostenvergleich",
+                "b) Farbwahl der Geräte",
+                "c) Risikobetrachtung",
+                "d) Zeitrahmen der Umsetzung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt 'Outsourcing' im Kontext von Netzwerkprojekten?",
+              "optionen": [
+                "a) Die interne Schulung von Mitarbeitern",
+                "b) Das Beziehen von Hardware direkt vom Hersteller",
+                "c) Die Auslagerung von IT-Diensten an externe Partner",
+                "d) Die Automatisierung von Einkaufsprozessen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wann ist 'Buy' gegenüber 'Make' typischerweise sinnvoll?",
+              "optionen": [
+                "a) Wenn Inhouse-Kapazitäten überschüssig sind",
+                "b) Wenn keine Fachkräfte zur Verfügung stehen",
+                "c) Wenn keine Geheimhaltung nötig ist",
+                "d) Wenn Innovationskraft intern stark ausgeprägt ist"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Rolle spielen Stakeholder bei der Entscheidung 'Make-or-Buy'?",
+              "optionen": [
+                "a) Sie programmieren das Netzwerk",
+                "b) Sie legen die technischen Standards fest",
+                "c) Sie beeinflussen die strategische Ausrichtung der Entscheidung",
+                "d) Sie erstellen das Budget für neue Monitore"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Risiken werden bei der Make-or-Buy-Entscheidung bewertet?",
+              "optionen": [
+                "a) Wetterrisiken",
+                "b) Betriebsunterbrechung, Lieferantenausfall, Qualitätsmängel",
+                "c) Steuerliche Risiken",
+                "d) Konkurrenz durch eigene Mitarbeiter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Alternative gibt es zur vollständigen Eigenleistung?",
+              "optionen": [
+                "a) Nur Leasingverträge",
+                "b) Vollständiges Outsourcing oder Teil-Outsourcing",
+                "c) Mitarbeiterrotation",
+                "d) Projektverzögerung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie nennt man einen IT-Projektleiter, der nie outsourct?",
+              "optionen": [
+                "a) Selfmade-Man",
+                "b) Kabel-Fetischist",
+                "c) Makeinator",
+                "d) Der Terminator"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm45": {
+        "9.4.1(2) Anschaffungs- und Betriebskosten": {
+          "lerninhalt": [
+            "Viele Beschaffungsprojekte scheitern, weil die Anforderungen unpräzise definiert sind und Kosten falsch oder unzureichend kalkuliert werden.",
+            "Ergänzend zu den Kapiteln 2.7 und 2.8 (Jahrgangsband 1) werden folgende wesentliche Aspekte hervorgehoben:",
+            "Nach dem HGB (§ 255) umfassen die Anschaffungskosten alle Aufwendungen bis zur Betriebsbereitschaft eines Netzwerks – inkl. Nebenkosten wie Installation und Schulung, abzüglich Rabatte oder Skonto.",
+            "Projektleitungen müssen fortlaufend Kostenübersichten erstellen und Kostenkontrollen durchführen, während Genehmigungsgremien Rechenschaft ablegen.",
+            "Betriebliche Kosten bei Lieferung an externe Kunden (Handel): Handlungskosten und Wareneinsatz inklusive Bezugskosten.",
+            "Im Fertigungsbereich: Materialkosten = Materialkosteneinsatz + Materialgemeinkosten; Fertigungskosten = Fertigungslöhne + Fertigungsgemeinkosten; Herstellkosten = Materialkosten + Fertigungskosten; Selbstkosten = Herstellkosten + Verwaltungs‑ und Vertriebsgemeinkosten.",
+            "Gemeinkosten sind nicht direkt zurechenbar und werden mittels Zuschlagssätzen verteilt (vgl. Kapitel 2.8.3).",
+            "Dienstleistungsbereich (z. B. IT‑Projekte): Projektkosten = Einzelkosten + kalkulatorische Einzelkosten + Gemeinkostenaufschlag.",
+            "Cloud‑Kostenmodelle: Pay‑per‑Use/On‑demand (nutzen‑basierte Bezahlung); Reserved (feste Leistung zu Rabatt); Combined (Mix aus beidem); Pay as you grow (gestuftes Modell mit Free‑Tier).",
+            "Cloud‑Modelle eignen sich besonders für Start‑ups, saisonale Unternehmen oder unsicheren Ressourcenbedarf, da sie flexibel, skalierbar und oft kosteneffizient sind."
+          ],
+          "fragen": [
+            {
+              "frage": "Wozu dient die klare Spezifikation von Anforderungen bei Beschaffungsprojekten?",
+              "optionen": [
+                "a) Zur optischen Gestaltung von Handouts",
+                "b) Um Kosten realistisch zu kalkulieren und Teamzufriedenheit zu sichern",
+                "c) Um Genehmigungen zu umgehen",
+                "d) Zur Begrenzung der Projektlaufzeit"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was umfassen laut HGB die Anschaffungskosten (§ 255)?",
+              "optionen": [
+                "a) Nur den Gerätepreis",
+                "b) Preis + Installation + Schulung − Rabatte",
+                "c) Wartungskosten über 5 Jahre",
+                "d) Nur Rabatt und Skonto"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Kosten fallen im Handel unter 'Wareneinsatz'?",
+              "optionen": [
+                "a) Fixkosten der Produktion",
+                "b) Transportkosten plus Teilekosten",
+                "c) Vertriebslöhne",
+                "d) Verwaltungspauschalen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie errechnen sich im Fertigungsbereich die Selbstkosten?",
+              "optionen": [
+                "a) Herstellkosten − Verkaufserlös",
+                "b) Materialkosten + Fertigungskosten + Verwaltungs- und Vertriebsgemeinkosten",
+                "c) Nur Fertigungskosten",
+                "d) Nur Materialkosten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was sind Gemeinkosten?",
+              "optionen": [
+                "a) Direkte Projektkosten",
+                "b) Nicht unmittelbar zurechenbare Kosten, verteilt über Zuschläge",
+                "c) Rabattkosten",
+                "d) Steuerliche Rücklagen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie setzen sich Projektkosten im Dienstleistungsbereich zusammen?",
+              "optionen": [
+                "a) Nur Einzelkosten",
+                "b) Einzelkosten + kalkulatorische Einzelkosten + Gemeinkostenzuschlag",
+                "c) Nur Gemeinkosten",
+                "d) Nur kalkulatorische Kosten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Cloud-Preismodell zahlt nur bei tatsächlicher Nutzung?",
+              "optionen": [
+                "a) Reserved",
+                "b) Pay-as-you-go",
+                "c) Fixed-price",
+                "d) All-inclusive"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Für wen ist 'Reserved' besonders geeignet?",
+              "optionen": [
+                "a) Für gelegentliche Nutzer ohne Planung",
+                "b) Für Firmen mit planbarem Grundbedarf und Rabattoption",
+                "c) Für private Nutzer",
+                "d) Für kostenfreie Testphasen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was kombiniert das Modell 'Combined'?",
+              "optionen": [
+                "a) Nur Reservierung",
+                "b) Nur On‑demand",
+                "c) Reservierung + Pay-per-use",
+                "d) Keine Cloud-Nutzung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum eignet sich 'Pay as you grow' für Start‑ups?",
+              "optionen": [
+                "a) Weil es fix und teuer ist",
+                "b) Weil es flexibel, kostenlos startbar und skalierbar ist",
+                "c) Weil es langfristige Verträge erfordert",
+                "d) Weil es keine Cloud-Nutzung erlaubt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie nennt man einen CFO, der Cloud-Kosten nie prüft?",
+              "optionen": [
+                "a) Cloud-Kapitän",
+                "b) Pay-for-it-all",
+                "c) Bill O’Cloud",
+                "d) Kostenblind"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm46": {
+        "9.4.1(3) Kalkulation, Angebotsvergleiche und Finanzierung": {
+          "lerninhalt": [
+          "Auftraggeber und Auftragnehmer müssen zur Einschätzung der wirtschaftlichen Umsetzung eines Projekts Kosten kalkulieren können. Dazu gehören unter anderem Nutzwertanalysen sowie die Betrachtung möglicher Finanzierungsformen.",
+          "Preise werden durch Angebot und Nachfrage bestimmt – Verkäufer und Käufer treffen individuelle Entscheidungen, zu welchem Preis ein Produkt verkauft bzw. gekauft wird.",
+          "Kalkulationsvorlagen unterstützen die Ermittlung von Selbstkosten und der Preisbestimmung sowie Angebotsvergleiche.",
+          "Bei Handelswaren berücksichtigt die Kalkulation: Rabatte und Skonti der Lieferanten, Bezugskosten (z.B. Transport, Versand) und einen Handlungskostenzuschlag. Beim Verkauf wird zusätzlich ein Gewinnzuschlag kalkuliert.",
+          "Stundensatzberechnung umfasst: Bruttolohn = Nettolohn + Arbeitnehmerbeiträge zur Sozialversicherung + Steuerabzug. Arbeitgeber zahlen zusätzlich Sozialabgaben und Unfallversicherung.",
+          "Selbstkosten setzen sich aus Bruttolohnkosten, Arbeitgeberanteilen und Gemeinkostenaufschlägen zusammen. Der Selbstkostensatz ergibt sich aus: Selbstkosten / verrechenbare Arbeitsstunden. Der Netto-Stundensatz enthält zusätzlich einen Gewinnaufschlag.",
+          "Bei Eigenfertigung werden Gesamtselbstkosten über Material-, Komponenten-, Arbeitskosten und Zusatzkosten berechnet. Alternativ: Fixkosten + variable Kosten inkl. Lizenz-, Energie-, Kommunikationskosten usw.",
+          "Öffentliche Auftraggeber (z.B. Bund, Länder, Gemeinden) schreiben Aufträge nach VOB aus. Nach Eignungsprüfung werden Angebote inhaltlich und wirtschaftlich bewertet – per Vergabeportale oder eVergabe-Systemen.",
+          "Angebotsvergleiche erfolgen quantitativ (Preis, Menge) und qualitativ (Service, Reklamationsverhalten). Nutzwertanalysen gewichten Entscheidungskriterien in tabellarischer Form.",
+          "Ein ASCII-Beispiel einer Nutzwertanalyse:",
+          "| Kriterium                | Gewicht | Anbieter A | Anbieter B |\n|--------------------------|---------|------------|------------|\n| Preis                    | 4       | 40 (160)   | 30 (120)   |\n| Produktqualität          | 4       | 10 (40)    | 10 (40)    |\n| Kompetenz                | 4       | 10 (40)    | 10 (40)    |\n| Verhalten bei Reklamation| 4       | 15 (60)    | 15 (60)    |\n| Service & Support        | 4       | 10 (40)    | 10 (40)    |\n| Bisherige Zusammenarbeit | 4       | 15 (60)    | 15 (60)    |\n| Summe                    |         | 400        | 360        |",
+          "Im öffentlichen Vergabeverfahren müssen Kriterien wie Qualität, Preis, Umweltaspekte, Lebenszykluskosten usw. bereits in der Ausschreibung benannt sein. Ergänzt wird dies durch Amortisationsrechnungen und TCO-Analysen.",
+          "Wirtschaftlichkeit ist dann gegeben, wenn der Ertrag höher als der Aufwand ist – also die Maßnahme rentabel ist."
+        ],
+          "fragen": [
+            {
+              "frage": "Warum ist es wichtig, Kosten zu kalkulieren?",
+              "optionen": ["a) Um Mitarbeiter zu motivieren", "b) Um die wirtschaftliche Umsetzung eines Projekts einzuschätzen", "c) Um mehr Steuern zahlen zu können", "d) Um weniger arbeiten zu müssen"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was berücksichtigt eine Handelskalkulation typischerweise NICHT?",
+              "optionen": ["a) Rabatte", "b) Skonto", "c) Bezugskosten", "d) Wetterdaten"],
+              "antwort": "d"
+            },
+            {
+              "frage": "Wie berechnet sich der Netto-Stundensatz?",
+              "optionen": ["a) Bruttolohn + Umsatzsteuer", "b) Selbstkostensatz + Gewinnaufschlag", "c) Nettolohn - Skonto", "d) Gemeinkostenaufschlag - Fixkosten"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein Zielverkaufspreis?",
+              "optionen": ["a) Der Listenpreis abzüglich Rabatte und Skonto", "b) Der Preis, den der Kunde bezahlen möchte", "c) Der Preis inklusive aller Boni", "d) Der Preis nach Abzug von Steuern"],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Bestandteile fließen in die Gesamtselbstkosten bei Eigenfertigung ein?",
+              "optionen": ["a) Nur Materialkosten", "b) Nur Lohnkosten", "c) Materialkosten + Lohn + Zusatzkosten", "d) Nur Lizenzkosten"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bedeutet VOB im Zusammenhang mit Vergabeverfahren?",
+              "optionen": ["a) Vorläufige Ordnung der Betriebsführung", "b) Vergabe- und Vertragsordnung für Bauleistungen", "c) Vorschrift ohne Bedeutung", "d) Vollständiger Organisationsbereich"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie funktioniert eine Nutzwertanalyse?",
+              "optionen": ["a) Sie sortiert Angebote alphabetisch", "b) Sie gewichtet Entscheidungskriterien zur Bewertung", "c) Sie vergleicht nur die billigsten Angebote", "d) Sie entscheidet nach Bauchgefühl"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was gehört zu den Entscheidungskriterien in einer Nutzwertanalyse? (Mehrere Antworten möglich)",
+              "optionen": ["a) Preis", "b) Service & Support", "c) Anzahl der Parkplätze", "d) Verhalten bei Reklamation"],
+              "antwort": ["a", "b", "d"]
+            },
+            {
+              "frage": "Was ist eine TCO-Analyse?",
+              "optionen": ["a) Total Computer Output", "b) Total Cost of Ownership", "c) Technische Kommunikationsordnung", "d) Tool zur Kundenoptimierung"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt Wirtschaftlichkeit im ökonomischen Sinne?",
+              "optionen": ["a) Aufwand ist höher als Ertrag", "b) Aufwand und Ertrag sind gleich", "c) Ertrag ist höher als Aufwand", "d) Aufwand spielt keine Rolle"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum sollte man einem Entwickler keinen Taschenrechner geben?",
+              "optionen": ["a) Weil er nur mit Kommandozeile rechnet", "b) Weil er sonst alles in Binär ausrechnet", "c) Weil er ihn debuggen will", "d) Weil er dann anfängt, alle Bugs zu zählen"],
+              "antwort": "d"
+            },
+            {
+              "frage": "Welche Kategorie beschreibt deinen aktuellen Wissensstand zur Netzwerktechnik im Betrieb am besten?",
+              "optionen": [
+                "a) Sehr gut bis gut",
+                "b) Befriedigend bis ausreichend",
+                "c) Nicht auf dem neuesten Stand"
+              ],
+              "antwort": null
+            },
+            {
+              "frage": "Welche Argumente sprechen für eine 'Buy'-Entscheidung bei der Ausstattung einer Filiale mit 10 Arbeitsplätzen?",
+              "optionen": [
+                "a) Höhere Flexibilität und direkte Kontrolle über Hardware",
+                "b) Geringerer Schulungsaufwand und schnellerer Rollout",
+                "c) Maßgeschneiderte Anpassung an interne Prozesse",
+                "d) Volle Datenhoheit durch Eigenentwicklung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt den Begriff 'Einzelkosten' am besten?",
+              "optionen": [
+                "a) Kosten, die man nur grob dem Unternehmen zuordnen kann",
+                "b) Kosten, die direkt einem Produkt oder Projekt zugewiesen werden können",
+                "c) Handlungskostenaufschläge in der Preisfindung",
+                "d) Cloud-Mietkosten pro Monat"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aussage beschreibt 'Wareneinsatz' korrekt?",
+              "optionen": [
+                "a) Allgemeine Kosten der Unternehmensleitung",
+                "b) Kosten für eingekaufte und weiterverkaufte Komponenten",
+                "c) Kosten, die für Raum und Energie anfallen",
+                "d) Variable Kosten für Eigenfertigung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Modell beschreibt 'Pay-as-you-use'?",
+              "optionen": [
+                "a) Fester Mietvertrag mit Mindestlaufzeit",
+                "b) Vorab bezahltes Zeitkontingent für Cloudnutzung",
+                "c) Nutzungsabhängige Abrechnung, flexibel skalierbar",
+                "d) Lizenzmodell mit jährlicher Pauschale"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Lieferant bietet Komponenten für 1.800 €, Versand 40 €, 5 % Rabatt, 3 % Skonto, 30 % Handlungskostenaufschlag. Wie hoch sind die Selbstkosten?",
+              "optionen": [
+                "a) 1.774,80 €",
+                "b) 1.841,16 €",
+                "c) 1.916,64 €",
+                "d) 2.080,00 €"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wie hoch ist der Listenverkaufspreis netto bei Komponentenpreis 3.500 €, Transport 40 €, 8 % Rabatt, 2 % Skonto, 40 % Handlungskostenaufschlag, Kundennachlass 5 % Rabatt, 3 % Skonto?",
+              "optionen": [
+                "a) 5.125,00 €",
+                "b) 5.372,27 €",
+                "c) 4.890,00 €",
+                "d) 5.200,00 €"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist die Amortisationszeit bei einer Investition von 34.000 €, Rückflüssen von 1.500 €/Monat, Restwert 3.000 €?",
+              "optionen": [
+                "a) 15 Monate",
+                "b) 20,7 Monate",
+                "c) 2 Jahre",
+                "d) 34 Monate"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aussage zur Finanzierung ist falsch?",
+              "optionen": [
+                "a) Leasing verursacht meist konstante monatliche Belastung",
+                "b) Kauf mit Darlehen reduziert laufende Kosten, erhöht Kapitalbindung",
+                "c) Miete ist langfristig oft günstiger als Leasing",
+                "d) Kauf ist meist am wirtschaftlichsten, wenn Nutzungsdauer hoch ist"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welcher Monat weist die größte Kostenüberschreitung im Projekt auf?",
+              "optionen": [
+                "a) Monat 1: 8.000 € / 12.300 €",
+                "b) Monat 2: 36.000 € / 42.000 €",
+                "c) Monat 3: 18.000 € / 17.000 €",
+                "d) Alle gleich"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was passiert, wenn ein Projektleiter ROI, Skonto und Cloud-Rabatte gleichzeitig im Kopf berechnet?",
+              "optionen": [
+                "a) Er wird Projektmagier.",
+                "b) Excel explodiert.",
+                "c) Das Projekt ist automatisch bestanden.",
+                "d) Er ruft Jilya zur Hilfe. 😏"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm47": {
+        "9.4.2 sicherheitsrelevante Anforderungen berücksichtigen\n(1) Schutzbedarf für Netze analysieren": {
+          "lerninhalt": [
+            "Sie sollen den Schutzbedarf für die Bereitstellung der Unternehmensnetzwerke prüfen. In diesem Kapitel werden die Kompetenzen zu\nIT-Sicherheitsgrundlagen und der Schutzbedarfsanalyse (siehe auch Jahrgangsband 1, Lernfeld 4) im Rahmen der Bereitstellung von\nNetzwerken vertieft und erweitert. Je nach Ausbildungsberuf der IT-Berufe erfolgt eine weitere Kompetenzerweiterung\nim Jahrgangsband 3.",
+            "Jeden Tag werden tausende von Malware-Bedrohungen an Unternehmen und Organisationen gerichtet, die abgewehrt werden müssen. Werden\nBedrohungen nicht abgewehrt, können Unternehmen so stark geschädigt werden, dass Betriebsstillstand und letztendlich sogar \ndie Insolvenz bzw. Unternehmensaufgabe drohen können. Es gibt eine Vielzahl verschiedener Angriffsformen und Schwachstellen,\num über diese die vorgesehene Nutzung bestimmter Dienstleistungen, Funktionen oder Geräte zu stören. Unter dem Oberbegriff\nAngriffsvektoren werden verschiedene Mittel und Wege zusammengefasst, wie ein System kompromittiert werden kann.",
+            "Angriffsvektoren auf Netzwerke: E-Mail-Links, E-Mail-Anhänge, Spam, Trojaner/Malware, Datendiebstahl, Spyware, Netzwerkangriffe,\nSchwachstellenausnutzung, Code-Injection-Angriffe und viele weitere. Beispielhafte Angriffsfolge: \n1. Infektion über E-Mail oder andere Vektoren\n2. Nachladen von Malware (z. B. Emotet)\n3. Ausführen von Schadsoftware\n4. Massenhafte Verbreitung im Netzwerk oder darüber hinaus",
+            "Das Bundesamt für Sicherheit in der Informationstechnik (BSI) hat mit dem IT-Grundschutzkompendium ein wichtiges Basiswerk geschaffen.\nEs unterstützt Unternehmen beim Aufbau eines Informationssicherheitsmanagementsystems (ISMS). In diesem Rahmen erfolgt eine\nGefährdungsbeurteilung mit Einordnung in Grundwerte der IT-Sicherheit (C = Vertraulichkeit, I = Integrität, A = Verfügbarkeit).",
+            "Gefährdungsbeurteilung laut BSI für Netzarchitektur und -design (NET.1.1):\nG 0.9: Ausfall oder Störung von Kommunikationsnetzen\nG 0.11: Ausfall oder Störung von Dienstleistern\nG 0.18: Fehlplanung oder fehlende Anpassung\nG 0.19: Offenlegung schützenswerter Informationen\nG 0.22: Manipulation von Informationen\nG 0.23: Unbefugtes Eindringen in IT-Systeme\nG 0.27: Ressourcenmangel\nG 0.29: Verstoß gegen Gesetze oder Regelungen\nG 0.30: Unberechtigte Nutzung oder Administration\nG 0.39: Schadprogramme\nG 0.40: Verhinderung von Diensten (DoS)\nG 0.43: Einspielen von Nachrichten\nG 0.46: Integritätsverlust",
+            "Weitere Gefährdungen nach BSI:\n- Netzmanagement (NET.1.2): Geräteausfall (G 0.25), Fehlfunktion (G 0.26)\n- WLAN-Betrieb (NET.2.1): Abhören (G 0.15), Diebstahl (G 0.16)\n- Router & Switches (NET.3.1): Spionage, Manipulation, Berechtigungsmissbrauch, Identitätsdiebstahl, Datenverlust\n- Firewall (NET.3.2): Stromausfall (G 0.8), Sabotage (G 0.41)",
+            "Risikoanalyse: Einschätzung von Eintrittswahrscheinlichkeit und Auswirkung für jede Gefährdung. Ziel ist eine fundierte Risikoabschätzung mit Planung entsprechender Maßnahmen.\nBeispielhafte Beurteilung für Server:\n| Gefährdung                    | Eintritt | Auswirkung  | Risiko     |\n|------------------------------|----------|-------------|------------|\n| Stromausfall (G 0.8)         | selten   | begrenzt    | mittel     |\n| Kommunikationsausfall (G 0.9)| häufig   | mittel      | beträchtlich |",
+            "Risikobehandlung umfasst Maßnahmenplanung:\n- Zielobjekte identifizieren\n- Anforderungen ableiten\n- Maßnahmen auswählen\n- Zeitrahmen und Budget festlegen\n- Verantwortlichkeiten zuweisen"
+          ],
+          "fragen": [
+            {
+              "frage": "Warum ist Schutzbedarf bei Netzwerken so wichtig?",
+              "optionen": ["a) Um Papier zu sparen", "b) Um mögliche Betriebsstillstände zu verhindern", "c) Um schnelleres WLAN zu erreichen", "d) Damit das Marketing besser planen kann"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein DoS-Angriff?",
+              "optionen": ["a) Ein neues WLAN-Protokoll", "b) Eine Backup-Methode", "c) Eine Methode zur Verhinderung von Diensten", "d) Ein Werkzeug für Teamarbeit"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche drei Grundwerte der Informationssicherheit nennt das BSI?",
+              "optionen": ["a) Kosten, Nutzen, Vertrauen", "b) Geschwindigkeit, Effizienz, Sparsamkeit", "c) Vertraulichkeit, Integrität, Verfügbarkeit", "d) Strom, Server, Schutz"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was beschreibt der Begriff 'Angriffsvektor'?",
+              "optionen": ["a) Eine Verteidigungsstrategie", "b) Die Richtung einer Firewallregel", "c) Einen möglichen Angriffsweg auf ein System", "d) Den physischen Standort eines Servers"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Institution erstellt das Grundschutzkompendium?",
+              "optionen": ["a) Das BKA", "b) Das Bundesministerium für Verkehr", "c) Das Bundesamt für Sicherheit in der Informationstechnik", "d) Die Bundeswehr"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bedeutet die Kennung G 0.40 in BSI-Dokumenten?",
+              "optionen": ["a) Serverupdate", "b) Verhinderung von Diensten (DoS)", "c) Schutzschaltung", "d) Verschlüsselung"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist Ziel einer Risikoanalyse?",
+              "optionen": ["a) Spaß an Tabellen", "b) Planung der Mitarbeiterschulungen", "c) Einschätzung von Bedrohungen und Maßnahmenplanung", "d) Firewall kaufen"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was zählt zur Risikobehandlung?",
+              "optionen": ["a) Ziele erraten", "b) Maßnahmen zufällig wählen", "c) Zeitrahmen, Budget, Verantwortung definieren", "d) nur hoffen, dass nichts passiert"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Gefährdung kann laut BSI bei WLAN auftreten?",
+              "optionen": ["a) DNS-Auflösung", "b) Geräuschbelästigung", "c) Abhören", "d) Softwarefehler"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wie nennt man einen Hacker, der ständig die Verbindung verliert?",
+              "optionen": ["a) WLAN-Wanderer", "b) Offline-Hero", "c) Paket-Verlierer", "d) Netz-Nomade"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was versteht man unter dem Begriff 'Informationssicherheitsmanagementsystem' (ISMS)?",
+              "optionen": [
+                "a) Ein System zur Datenkompression",
+                "b) Eine Art von Router",
+                "c) Ein strukturiertes System zur Sicherstellung der Informationssicherheit",
+                "d) Ein Programm zum Schreiben von Berichten"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was beschreibt der IT-Grundschutz des BSI?",
+              "optionen": [
+                "a) Eine Firewall",
+                "b) Ein Softwareupdate",
+                "c) Eine Sammlung von Maßnahmen zum Schutz der IT",
+                "d) Ein Netzwerkkabeltyp"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Rolle spielt die Eintrittswahrscheinlichkeit in der Risikoanalyse?",
+              "optionen": [
+                "a) Keine, sie wird ignoriert",
+                "b) Sie entscheidet, ob das Risiko bunt oder grau ist",
+                "c) Sie hilft, die Relevanz einer Bedrohung einzuschätzen",
+                "d) Sie wird zufällig bestimmt"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist ein Beispiel für einen Angriffsvektor?",
+              "optionen": [
+                "a) Verschlüsselung",
+                "b) VPN",
+                "c) E-Mail-Anhang mit Schadsoftware",
+                "d) ein kaputter Bildschirm"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was beschreibt G 0.8 im BSI-Grundschutz?",
+              "optionen": [
+                "a) Integritätsverlust",
+                "b) Stromausfall",
+                "c) WLAN-Probleme",
+                "d) IT-Vertragsbruch"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist Ziel der Risikobehandlung?",
+              "optionen": [
+                "a) Risiken komplett ignorieren",
+                "b) Risiken dokumentieren und geeignete Maßnahmen planen",
+                "c) Risiken schönreden",
+                "d) Risiken verkaufen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Maßnahme ist Teil der Risikobehandlung?",
+              "optionen": [
+                "a) Zielobjekte ignorieren",
+                "b) Verantwortung abschieben",
+                "c) Anforderungen ableiten",
+                "d) Stromverbrauch messen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Aussage trifft auf DoS-Angriffe zu?",
+              "optionen": [
+                "a) Sie verbessern die Verbindung",
+                "b) Sie sichern Daten automatisch",
+                "c) Sie stören Dienste gezielt",
+                "d) Sie schützen Firewalls"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bedeutet Verfügbarkeit in der IT-Sicherheit?",
+              "optionen": [
+                "a) Daten sind öffentlich",
+                "b) Systeme stehen zuverlässig zur Verfügung",
+                "c) Jeder darf auf alles zugreifen",
+                "d) Software wird automatisch installiert"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Gefährdung ist typisch für Router & Switches laut BSI?",
+              "optionen": [
+                "a) Farbveränderung",
+                "b) Identitätsdiebstahl",
+                "c) Statische IP-Vergabe",
+                "d) Softwarelizenzfehler"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine mögliche Folge unzureichender Netzwerksicherheit?",
+              "optionen": [
+                "a) Schnellere Downloads",
+                "b) Höhere Servertemperatur",
+                "c) Betriebsausfall oder sogar Insolvenz",
+                "d) Geringerer Stromverbrauch"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist G 0.22 laut BSI-Katalog?",
+              "optionen": [
+                "a) Fehler bei Zeiterfassung",
+                "b) Manipulation von Informationen",
+                "c) Backup-Ausfall",
+                "d) Passwortänderung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet Integrität im Kontext der IT-Sicherheit?",
+              "optionen": [
+                "a) Daten dürfen gelöscht werden",
+                "b) Daten müssen vollständig und korrekt bleiben",
+                "c) Daten müssen öffentlich sein",
+                "d) Daten müssen verschlüsselt sein"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie kann ein Unternehmen sich gegen G 0.19 (Offenlegung schützenswerter Informationen) schützen?",
+              "optionen": [
+                "a) Durch längere Kabel",
+                "b) Durch Zugriffsrechte und Verschlüsselung",
+                "c) Durch höhere Lüfterleistung",
+                "d) Durch Reboot nach 24h"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist das Ziel einer Gefährdungsbeurteilung?",
+              "optionen": [
+                "a) Nur Risiken beschreiben",
+                "b) Einträge für eine Excel-Liste sammeln",
+                "c) Eintrittswahrscheinlichkeit und Auswirkung analysieren",
+                "d) WLAN-Optimierung"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
       }
 
     }
