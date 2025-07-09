@@ -6737,16 +6737,16 @@
       "lm19": {
         "9.3.2 Netzwerkkomponenten unterscheiden": {
           "lerninhalt": [
-            "Netzwerkkomponenten unterscheiden sich grundlegend in aktive und passive Komponenten. Aktive Komponenten verfügen über eine Stromversorgung und können Signale verstärken oder weiterleiten, während passive Komponenten keine Energie benötigen und z.B. nur Verbindungen herstellen.",
-            "Alle eingesetzten Netzwerkkomponenten müssen aufeinander abgestimmt sein, damit das Netzwerk zuverlässig funktioniert. Dies betrifft sowohl Hardware als auch die technischen Spezifikationen der Geräte.",
-            "Aktive Komponenten sind z.B. Switches, Router, Access Points oder Firewalls. Sie sorgen für die Weiterleitung und Steuerung von Datenpaketen im Netzwerk.",
-            "Passive Komponenten umfassen Kabel, Stecker, Patchpanels und andere Verbindungselemente. Ihre Qualität und Kompatibilität beeinflussen die Signalübertragung wesentlich.",
-            "Auswahlkriterien für Netzwerkkomponenten sind unter anderem: Kompatibilität, Leistungsfähigkeit, Skalierbarkeit, Sicherheitsanforderungen, Kosten und Umweltbedingungen.",
+            "Netzwerkkomponenten unterscheiden sich grundlegend in aktive und passive Komponenten. Aktive Komponenten verfügen über eine\nStromversorgung und können Signale verstärken oder weiterleiten, während passive Komponenten keine Energie benötigen und z.B. nur\nVerbindungen herstellen.",
+            "Alle eingesetzten Netzwerkkomponenten müssen aufeinander abgestimmt sein, damit das Netzwerk zuverlässig funktioniert. Dies\nbetrifft sowohl Hardware als auch die technischen Spezifikationen der Geräte.",
+            "Aktive Komponenten sind z.B. Switches, Router, Access Points oder Firewalls. Sie sorgen für die Weiterleitung und Steuerung\nvon Datenpaketen im Netzwerk.",
+            "Passive Komponenten umfassen Kabel, Stecker, Patchpanels und andere Verbindungselemente. Ihre Qualität und Kompatibilität\nbeeinflussen die Signalübertragung wesentlich.",
+            "Auswahlkriterien für Netzwerkkomponenten sind unter anderem: Kompatibilität, Leistungsfähigkeit, Skalierbarkeit, Sicherheitsanforderungen,\nKosten und Umweltbedingungen.",
             "Technische Anforderungen umfassen Übertragungsraten, Protokollunterstützung, Stromverbrauch, sowie Zuverlässigkeit und Ausfallsicherheit.",
-            "Netzwerkkomponenten werden oft in Schichten nach dem OSI-Modell betrachtet. Aktive Komponenten arbeiten meist auf Layer 2 (Datenlink) und Layer 3 (Netzwerk), passive Komponenten agieren auf Layer 1 (Physikalisch).",
-            "Die Auswahl der richtigen Komponenten beeinflusst die gesamte Netzwerkleistung und Betriebssicherheit. Fehlerhafte oder inkompatible Komponenten können zu Störungen und Ausfällen führen.",
-            "Moderne Netzwerke erfordern oft auch Komponenten mit Funktionen zur Überwachung, Fehlerdiagnose und Management, wie z.B. Managed Switches oder intelligente Access Points.",
-            "Neben technischen Aspekten spielen auch wirtschaftliche Faktoren eine Rolle bei der Auswahl, z.B. Anschaffungskosten, Betriebskosten und Wartungsaufwand."
+            "Netzwerkkomponenten werden oft in Schichten nach dem OSI-Modell betrachtet. Aktive Komponenten arbeiten meist auf Layer 2 (Datenlink)\nund Layer 3 (Netzwerk), passive Komponenten agieren auf Layer 1 (Physikalisch).",
+            "Die Auswahl der richtigen Komponenten beeinflusst die gesamte Netzwerkleistung und Betriebssicherheit. Fehlerhafte oder inkompatible\nKomponenten können zu Störungen und Ausfällen führen.",
+            "Moderne Netzwerke erfordern oft auch Komponenten mit Funktionen zur Überwachung, Fehlerdiagnose und Management, wie z.B. Managed\nSwitches oder intelligente Access Points.",
+            "Neben technischen Aspekten spielen auch wirtschaftliche Faktoren eine Rolle bei der Auswahl, z.B. Anschaffungskosten, Betriebskosten\nund Wartungsaufwand."
           ],
           "fragen": [
             {
@@ -6788,10 +6788,6 @@
                 "d) Layer 7 (Anwendung)"
               ],
               "antwort": "a"
-            },
-            {
-              "frage": "Nenne zwei Beispiele für passive Netzwerkkomponenten.",
-              "antwort": "Kabel und Stecker"
             },
             {
               "frage": "Welche Auswahlkriterien sind wichtig bei der Auswahl von Netzwerkkomponenten? (Mehrere Antworten möglich)",
@@ -6859,10 +6855,10 @@
       "lm20": {
         "9.3.2(1) Access Points": {
           "lerninhalt": [
-            "Access Points, auch Wireless Access Points genannt, stellen Zugriffspunkte für Netzwerkgeräte dar. Über einen Access Point erhalten Smartphones, Laptops, Tablets und weitere Geräte Zugang zu einem Netzwerk. In Heimroutern ist oft ein Access Point integriert.",
-            "Wichtige Konnektivitätsmerkmale bei Access Points sind: WiFi 6 (802.11ax) oder WiFi 5, WLAN-Geschwindigkeiten bis zu 3,6 Gbit/s, Dual-Band WLAN mit 2,4 GHz und 5 GHz, MU-MIMO (Multi-User Multiple Input Multiple Output) in Varianten 4x4, 3x3 oder 2x2, OFDMA (Orthogonal Frequency-Division Multiple Access), Multi-Gigabit Ethernet Ports sowie Bridging-Funktionalität.",
-            "Technische Eigenschaften von Access Points umfassen die Stromversorgung über Power over Ethernet (PoE) oder PoE+, Ports mit Geschwindigkeiten 10/100/1000 BASE-T (RJ45), Einsatzbereiche (Indoor, Outdoor, unterschiedliche Temperaturbereiche), abnehmbare Antennen und verschiedene Gehäusebauformen.",
-            "Beim Management von Access Points gibt es Cloud-Management-Lösungen und automatisierte Betriebsfunktionen, die die Administration erleichtern.",
+            "Access Points, auch Wireless Access Points genannt, stellen Zugriffspunkte für Netzwerkgeräte dar. Über einen Access Point erhalten\nSmartphones, Laptops, Tablets und weitere Geräte Zugang zu einem Netzwerk. In Heimroutern ist oft ein Access Point integriert.",
+            "Wichtige Konnektivitätsmerkmale bei Access Points sind: WiFi 6 (802.11ax) oder WiFi 5, WLAN-Geschwindigkeiten bis zu 3,6 Gbit/s,\nDual-Band WLAN mit 2,4 GHz und 5 GHz, MU-MIMO (Multi-User Multiple Input Multiple Output) in Varianten 4x4, 3x3 oder 2x2, OFDMA\n(Orthogonal Frequency-Division Multiple Access), Multi-Gigabit Ethernet Ports sowie Bridging-Funktionalität.",
+            "Technische Eigenschaften von Access Points umfassen die Stromversorgung über Power over Ethernet (PoE) oder PoE+, Ports mit\nGeschwindigkeiten 10/100/1000 BASE-T (RJ45), Einsatzbereiche (Indoor, Outdoor, unterschiedliche Temperaturbereiche), abnehmbare Antennen\nund verschiedene Gehäusebauformen.",
+            "Beim Management von Access Points gibt es Cloud-Management-Lösungen und automatisierte Betriebsfunktionen, die die Administration\nerleichtern.",
             "Zur Auswahl dedizierter Access Points werden folgende technische Anforderungen betrachtet:",
             "- WiFi 6 und WiFi 5 als WLAN-Standards, die von der WiFi-Alliance spezifiziert werden.",
             "- WLAN-Geschwindigkeit: Praktisch verfügbar sind bei WiFi 5 bis zu 1733 Mbit/s (Stand 2021).",
@@ -6871,9 +6867,9 @@
             "- OFDMA erlaubt dem Access Point durch bidirektionale Kommunikation, genutzte Kanäle zu messen und die Effizienz zu optimieren.",
             "- Multi-Gigabit Ethernet Ports ermöglichen mehrere Gigabit-Verbindungen gleichzeitig.",
             "- Bridging-Funktion: Access Points können als Netzwerkbrücke eingesetzt werden.",
-            "- Stromversorgung erfolgt häufig über PoE, wobei die Leistung der PoE- bzw. PoE+-Ports zu beachten ist, damit diese nicht überlastet werden.",
+            "- Stromversorgung erfolgt häufig über PoE, wobei die Leistung der PoE- bzw. PoE+-Ports zu beachten ist, damit diese nicht überlastet\nwerden.",
             "- Ports mit höheren Durchsatzraten sind generell zu bevorzugen. Die Werte 10/100/1000 stehen für Mbit/s Durchsatz.",
-            "- Einsatzbereiche unterscheiden sich: industrielle Access Points sind für größere Temperaturbereiche geeignet, Outdoor-Geräte sind zudem feuchtigkeitsgeschützt.",
+            "- Einsatzbereiche unterscheiden sich: industrielle Access Points sind für größere Temperaturbereiche geeignet, Outdoor-Geräte sind\nzudem feuchtigkeitsgeschützt.",
             "- Abnehmbare Antennen ermöglichen den Austausch gegen andere Antennen je nach Einsatz.",
             "- Gehäusebauformen variieren je nach Modell und Anforderung."
           ],
@@ -6994,12 +6990,12 @@
       "lm21": {
         "9.3.2(2) Firewall": {
           "lerninhalt": [
-            "Eine Firewall ist eine Software, die in der Lage ist, eingehenden (schadhaften) Netzwerkverkehr zu filtern und zu blockieren, um damit ein ganzes Netzwerk zu schützen wie eine Brandmauer vor Feuer. Firewalls dürfen den Netzwerkverkehr niemals ausbremsen. Hardware-Firewalls werden meist an zentralen Managementstellen eingesetzt, es gibt sie auch als dedizierte Hardware. In der Cloud werden Firewalls virtualisiert betrieben.",
-            "Technische Eigenschaften von Firewalls umfassen Anschlüsse wie SFP, LAN, WIFI, LTE, UMTS; Internet Gateway; Datendurchsatz für Firewall, VPN und HTTP; VPN Gateway; Proxy; Firewall mit URL-/Inhaltsfilter; Bauform; Intrusion Detection & Prevention (Next Generation Firewall, NGFW); Surfschutz; Authentifizierung; Quality of Service; Reporting; rechtliche Eigenschaften wie EU/EAA, NATO Restricted und DSGVO.",
-            "Internet Gateway Firewalls überwachen den gesamten Datenverkehr zwischen Intranet und Internet als Gateway. Ein einfacher Paketfilter filtert ganze UDP/TCP-Nachrichten anhand von Regeln zu IP-Absenderadresse, IP-Zieladresse und Port. Stateful Paket Inspection speichert offene Verbindungen und verwirft unerwünschte Antworten ohne zugehörige Anfrage. Deep Paket Inspection analysiert IP-Header und filtert bei Bedarf tiefergehend.",
-            "Firewalls verfügen oft über VPN-Gateway-Funktionalität, wobei die maximale Anzahl gleichzeitiger VPN-Verbindungen wichtig ist. URL-/Inhaltsfilter blockieren URLs und Inhalte anhand eines Regelwerks.",
-            "Intrusion Detection erkennt mittels Paket Inspection Eindringversuche durch Analyse von Paketabfolgen. Intrusion Prevention (NGFW) kann Eindringversuche durch Deep Packet Inspection verhindern.",
-            "Viren-, Spam- und Eindringversuche erfolgen über diverse Auslöser wie Phishing oder Malware. Firewalls schützen unabhängig vom Auslöser und gewährleisten Schutz über das Netzwerk.",
+            "Eine Firewall ist eine Software, die in der Lage ist, eingehenden (schadhaften) Netzwerkverkehr zu filtern und zu blockieren, um damit\nein ganzes Netzwerk zu schützen wie eine Brandmauer vor Feuer. Firewalls dürfen den Netzwerkverkehr niemals ausbremsen.\nHardware-Firewalls werden meist an zentralen Managementstellen eingesetzt, es gibt sie auch als dedizierte Hardware.\nIn der Cloud werden Firewalls virtualisiert betrieben.",
+            "Technische Eigenschaften von Firewalls umfassen Anschlüsse wie SFP, LAN, WIFI, LTE, UMTS; Internet Gateway; Datendurchsatz für\nFirewall, VPN und HTTP; VPN Gateway; Proxy; Firewall mit URL-/Inhaltsfilter; Bauform; Intrusion Detection & Prevention\n(Next Generation Firewall, NGFW); Surfschutz; Authentifizierung; Quality of Service; Reporting; rechtliche Eigenschaften wie\nEU/EAA, NATO Restricted und DSGVO.",
+            "Internet Gateway Firewalls überwachen den gesamten Datenverkehr zwischen Intranet und Internet als Gateway. Ein einfacher Paketfilter\nfiltert ganze UDP/TCP-Nachrichten anhand von Regeln zu IP-Absenderadresse, IP-Zieladresse und Port. Stateful Paket\nInspection speichert offene Verbindungen und verwirft unerwünschte Antworten ohne zugehörige Anfrage. Deep Paket Inspection\nanalysiert IP-Header und filtert bei Bedarf tiefergehend.",
+            "Firewalls verfügen oft über VPN-Gateway-Funktionalität, wobei die maximale Anzahl gleichzeitiger VPN-Verbindungen wichtig ist.\nURL-/Inhaltsfilter blockieren URLs und Inhalte anhand eines Regelwerks.",
+            "Intrusion Detection erkennt mittels Paket Inspection Eindringversuche durch Analyse von Paketabfolgen. Intrusion Prevention (NGFW)\nkann Eindringversuche durch Deep Packet Inspection verhindern.",
+            "Viren-, Spam- und Eindringversuche erfolgen über diverse Auslöser wie Phishing oder Malware. Firewalls schützen unabhängig vom\nAuslöser und gewährleisten Schutz über das Netzwerk.",
             "DDoS-Abwehr erkennt und wehrt typische DDoS-Angriffe ab, z. B. massive unvollständige Nachrichtenpakete.",
             "Authentifizierung stellt sicher, dass nur autorisierte Personen die Firewall konfigurieren dürfen.",
             "Quality of Service erlaubt die Priorisierung von IP-Paketen.",
@@ -7009,12 +7005,12 @@
             "VPN-/HTTP-Proxy-Funktion ermöglicht das Scannen und Filtern von vertraulichem Datenverkehr.",
             "Bauformen von Firewalls sind beispielsweise für 19-Zoll-Racks oder als Standalone-Geräte erhältlich.",
             "Für sicherheitsrelevante Bereiche existieren Firewalls mit Zertifikaten wie EU/EAA, NATO Restricted und DSGVO.",
-            "Einfache Firewalls blockieren Pakete von IP-Adressen auf einer Sperrliste (Blacklist) oder akzeptieren nur solche von erlaubten IP-Adressen (Whitelist). Ein Beispiel ist die GNU Uncomplicated Firewall (UFW) für Linux-Desktops.",
+            "Einfache Firewalls blockieren Pakete von IP-Adressen auf einer Sperrliste (Blacklist) oder akzeptieren nur solche von erlaubten\nIP-Adressen (Whitelist). Ein Beispiel ist die GNU Uncomplicated Firewall (UFW) für Linux-Desktops.",
             "Firewalls werden über Regeln konfiguriert. Jede eingehende Nachricht wird gegen die Regel-Liste geprüft.",
-            "Beispiel: Uncomplicated Firewall (UFW) auf Linux-Servern konfiguriert TCP-Dienste auf Ports 22, 5665, 80 und 443 für IPv4 und IPv6. Standardregel: Ankommend verweigern, ausgehend erlauben.",
+            "Beispiel: Uncomplicated Firewall (UFW) auf Linux-Servern konfiguriert TCP-Dienste auf Ports 22, 5665, 80 und 443 für IPv4 und IPv6.\nStandardregel: Ankommend verweigern, ausgehend erlauben.",
             "Aufgrund des offenen Quellcodes und der sensiblen Thematik der Netzwerksicherheit bevorzugen Unternehmen oft Open-Source-Firewalls.",
             "Bekannte Open-Source-Firewalls:",
-            "- IPFire: Professionelle freie Firewall auf GPLv3-Basis aus Deutschland, mit minimalistischen gehärteten OS, Segmentierung in Subnetze (LAN, DMZ), IDS/IPS-Fähigkeiten.",
+            "- IPFire: Professionelle freie Firewall auf GPLv3-Basis aus Deutschland, mit minimalistischen gehärteten OS, Segmentierung in Subnetze\n(LAN, DMZ), IDS/IPS-Fähigkeiten.",
             "- OPNSense®: Open-Source-Firewall auf FreeBSD-Basis aus den Niederlanden, unterstützt VPN, High Availability, IDS/IPS, DNS, DHCP, VLANs.",
             "- SecurityOnion: Linux-Distribution für Intrusion Detection, Network Security Monitoring, Log Management, als Container verfügbar.",
             "- Suricata: Threat Detection Engine in Firewalls wie IPFire, OPNSense® und SecurityOnion."
@@ -7236,16 +7232,16 @@
       "lm22": {
         "9.3.2(3) DNS-Filter": {
           "lerninhalt": [
-            "DNS-Filter sind Softwarelösungen, die Werbung, Tracker und Malware zentral in einem Netzwerk filtern können. Sie schützen die Privatsphäre der Nutzer, indem sie unerwünschte DNS-Anfragen blockieren und so verhindern, dass persönliche Surfgewohnheiten gesammelt und ausgewertet werden.",
-            "Unser Surfverhalten gibt Datensammlern ein sehr genaues Persönlichkeitsprofil preis. DNS-Filter bieten Schutz vor dieser 'Sammelwut', indem sie DNS-Anfragen filtern und dadurch die Privatsphäre schützen.",
-            "Ein DNS-Filter muss 24 Stunden am Tag aktiv sein, da er als DNS-Server im Netzwerk fungiert. Er wird oft auf einer virtuellen Maschine oder einem separaten Rechner betrieben, um durchgehenden Schutz zu gewährleisten.",
-            "DNS-Filter werden logisch vor den eigentlichen DNS-Server geschaltet. Sie nutzen sogenannte 'schwarze Listen' (Blacklists), um zu entscheiden, ob eine DNS-Anfrage weitergeleitet oder blockiert wird. Diese Listen können manuell gepflegt oder von vertrauenswürdigen Anbietern automatisch bezogen werden.",
-            "Professionelle DNS-Filter leiten DNS-Anfragen verschlüsselt weiter, etwa mittels DNS-over-TLS (DoT), DNS-over-HTTPS (DoH), DNSCrypt oder DNS-over-QUIC (DoQ). Dadurch können die Anfragen auf dem Transportweg weder verfolgt noch manipuliert werden.",
-            "Bekannte Open-Source-DNS-Filter sind 'eBlocker', 'Pi-Hole' und 'AdGuard'. Diese bieten einen zentralen Schutz ganzer Netzwerke vor Tracking und Werbung.",
-            "Ein Beispiel für den Einsatz eines DNS-Filters ist ein Pi-Hole-Server, der in einem Netzwerk innerhalb von 24 Stunden z.B. 35137 DNS-Anfragen bearbeitet und davon 2155 Anfragen (6,1%) filtert.",
-            "Die Weboberflächen moderner DNS-Filter bieten detaillierte Statistiken zu DNS-Anfragen und gefilterten Inhalten, was Netzwerkadministratoren hilft, den Schutz zu überwachen und zu optimieren.",
-            "DNS-Filter schützen nicht nur vor Werbung, sondern auch vor Tracker-Aktivitäten und potentieller Malware, was die Sicherheit und Privatsphäre der Netzwerknutzer erhöht.",
-            "Der Einsatz von DNS-Filtern ist besonders wichtig in Umgebungen, in denen viele Geräte und Nutzer auf das Internet zugreifen, um eine zentrale und effektive Filterung zu ermöglichen."
+            "DNS-Filter sind Softwarelösungen, die Werbung, Tracker und Malware zentral in einem Netzwerk filtern können. Sie schützen die\nPrivatsphäre der Nutzer, indem sie unerwünschte DNS-Anfragen blockieren und so verhindern, dass persönliche Surfgewohnheiten\ngesammelt und ausgewertet werden.",
+            "Unser Surfverhalten gibt Datensammlern ein sehr genaues Persönlichkeitsprofil preis. DNS-Filter bieten Schutz vor dieser 'Sammelwut',\nindem sie DNS-Anfragen filtern und dadurch die Privatsphäre schützen.",
+            "Ein DNS-Filter muss 24 Stunden am Tag aktiv sein, da er als DNS-Server im Netzwerk fungiert. Er wird oft auf einer virtuellen Maschine\noder einem separaten Rechner betrieben, um durchgehenden Schutz zu gewährleisten.",
+            "DNS-Filter werden logisch vor den eigentlichen DNS-Server geschaltet. Sie nutzen sogenannte 'schwarze Listen' (Blacklists), um zu\nentscheiden, ob eine DNS-Anfrage weitergeleitet oder blockiert wird. Diese Listen können manuell gepflegt oder von\nvertrauenswürdigen Anbietern automatisch bezogen werden.",
+            "Professionelle DNS-Filter leiten DNS-Anfragen verschlüsselt weiter, etwa mittels DNS-over-TLS (DoT), DNS-over-HTTPS (DoH), DNSCrypt\noder DNS-over-QUIC (DoQ). Dadurch können die Anfragen auf dem Transportweg weder verfolgt noch manipuliert werden.",
+            "Bekannte Open-Source-DNS-Filter sind 'eBlocker', 'Pi-Hole' und 'AdGuard'. Diese bieten einen zentralen Schutz ganzer Netzwerke vor\nTracking und Werbung.",
+            "Ein Beispiel für den Einsatz eines DNS-Filters ist ein Pi-Hole-Server, der in einem Netzwerk innerhalb von 24 Stunden z.B. 35137\nDNS-Anfragen bearbeitet und davon 2155 Anfragen (6,1%) filtert.",
+            "Die Weboberflächen moderner DNS-Filter bieten detaillierte Statistiken zu DNS-Anfragen und gefilterten Inhalten, was\nNetzwerkadministratoren hilft, den Schutz zu überwachen und zu optimieren.",
+            "DNS-Filter schützen nicht nur vor Werbung, sondern auch vor Tracker-Aktivitäten und potentieller Malware, was die Sicherheit und\nPrivatsphäre der Netzwerknutzer erhöht.",
+            "Der Einsatz von DNS-Filtern ist besonders wichtig in Umgebungen, in denen viele Geräte und Nutzer auf das Internet zugreifen, um\neine zentrale und effektive Filterung zu ermöglichen."
           ],
           "fragen": [
             {
@@ -7366,11 +7362,11 @@
           "lerninhalt": [
             "Switches sind Geräte, die Netzwerksegmente miteinander verbinden.",
             "Nachrichten werden an den Port weitergeleitet, an dem sich der Empfänger befindet.",
-            "Für Switches werden bei der Auswahl folgende Kriterien berücksichtigt: Managed Switches, Unmanaged Switches, Quality of Service (QoS), Access Control Lists (ACL), 100 GbE/40 GbE/10 GBase-T Ethernet/PoE+/Glasfaser, Anzahl Ports, Bauform, RJ45/SFP+/QSFP+, Leistungsaufnahme, Software Defined Networks (SDN), RDMA over Converged Ethernet (RoCE).",
-            "Managementtechnisch gibt es Managed und Unmanaged Switches. Managed Switches verfügen über eine integrierte Webanwendung und lassen sich über einen Browser konfigurieren. Unmanaged Switches sind fest konfiguriert und Parameter sind nicht anpassbar.",
+            "Für Switches werden bei der Auswahl folgende Kriterien berücksichtigt: Managed Switches, Unmanaged Switches, Quality of Service (QoS),\nAccess Control Lists (ACL), 100 GbE/40 GbE/10 GBase-T Ethernet/PoE+/Glasfaser, Anzahl Ports, Bauform, RJ45/SFP+/QSFP+,\nLeistungsaufnahme, Software Defined Networks (SDN), RDMA over Converged Ethernet (RoCE).",
+            "Managementtechnisch gibt es Managed und Unmanaged Switches. Managed Switches verfügen über eine integrierte Webanwendung und lassen sich\nüber einen Browser konfigurieren. Unmanaged Switches sind fest konfiguriert und Parameter sind nicht anpassbar.",
             "Mit QoS lässt sich der IP-Traffic per Konfiguration priorisieren.",
             "Über ACLs können Zugriffsrechte festgelegt werden.",
-            "Je höher die unterstützten Datendurchsatzraten sind, desto höher ist der Preis der Switches. Sehr hohe Datendurchsatzraten werden mit Glasfaser erreicht, kleinere Durchsatzraten sind kostengünstiger.",
+            "Je höher die unterstützten Datendurchsatzraten sind, desto höher ist der Preis der Switches. Sehr hohe Datendurchsatzraten werden mit\nGlasfaser erreicht, kleinere Durchsatzraten sind kostengünstiger.",
             "Switches können unterschiedliche Ports und Datendurchsatzraten in einem Gerät besitzen.",
             "Die Anzahl der Ports ist ein wichtiges Kriterium bei der Auswahl.",
             "In Rechenzentren wird die 19-Zoll-Bauform bevorzugt, mit ein, zwei oder mehreren Höheneinheiten (HE).",
@@ -7546,15 +7542,15 @@
       "lm24": {
         "9.3.2(5) VolP-Telefonanlage":{
           "lerninhalt": [
-            "Mit der Umstellung der Telefonie von der Leitungsvermittlung auf das Internet-Protokoll sind VolP-Telefonanlagen erhältlich. Sie können als Software, als virtuelle Maschine und als Hardware-Appliance bezogen werden.",
+            "Mit der Umstellung der Telefonie von der Leitungsvermittlung auf das Internet-Protokoll sind VolP-Telefonanlagen erhältlich.\nSie können als Software, als virtuelle Maschine und als Hardware-Appliance bezogen werden.",
             "Auch bei Nutzung analoger oder ISDN-Endgeräte wird in Deutschland das Internet-Protokoll verwendet.",
-            "Für den Verbindungsaufbau kommt das Session Initiation Protocol (SIP) zum Einsatz, für das eigentliche Gespräch das Transport Protocol for Real-Time Applications (RTP), siehe auch RFC3550 der Internet Engineering Task Force (IETF).",
-            "Bei der Umstellung auf eine VolP-Telefonanlage ist darauf zu achten, ob bzw. wie die bereits vorhandenen Endgeräte weiter genutzt werden sollen bzw. können.",
-            "Alternativ oder ergänzend dazu können sogenannte Softphones eingesetzt werden. Diese sind Programme, die auf den Rechnern installiert werden. Die Anwender nutzen dann zum Telefonieren ein Headset, welches am PC angeschlossen ist.",
-            "Unterstützen beide, das anrufende und das angerufene Endgerät, Zusatzfunktionen, z.B. Verschlüsselung und/oder HD-Telefonie (Codec G.722), so können diese genutzt werden.",
+            "Für den Verbindungsaufbau kommt das Session Initiation Protocol (SIP) zum Einsatz, für das eigentliche Gespräch das Transport\nProtocol for Real-Time Applications (RTP), siehe auch RFC3550 der Internet Engineering Task Force (IETF).",
+            "Bei der Umstellung auf eine VolP-Telefonanlage ist darauf zu achten, ob bzw. wie die bereits vorhandenen Endgeräte weiter genutzt\nwerden sollen bzw. können.",
+            "Alternativ oder ergänzend dazu können sogenannte Softphones eingesetzt werden. Diese sind Programme, die auf den Rechnern installiert\nwerden. Die Anwender nutzen dann zum Telefonieren ein Headset, welches am PC angeschlossen ist.",
+            "Unterstützen beide, das anrufende und das angerufene Endgerät, Zusatzfunktionen, z.B. Verschlüsselung und/oder HD-Telefonie\n(Codec G.722), so können diese genutzt werden.",
             "Die IP-Telefonie findet grundsätzlich unverschlüsselt statt.",
             "Unterstützen die Endgeräte keine Verschlüsselung, so kann ein Session Border Controller diese Funktion übernehmen.",
-            "Technische Anforderungen für das Bereitstellen von Netzwerken berücksichtigen auch die Integration von VoIP-Systemen, damit diese stabil, sicher und qualitativ hochwertig betrieben werden können."
+            "Technische Anforderungen für das Bereitstellen von Netzwerken berücksichtigen auch die Integration von VoIP-Systemen, damit diese\nstabil, sicher und qualitativ hochwertig betrieben werden können."
           ],
           "fragen": [
             {
@@ -7673,16 +7669,16 @@
       "lm25": {
         "9.3.2(6) Session Border Controller für VolP": {
           "lerninhalt": [
-            "Ein Session Border Controller (SBC) ist eine Software oder dedizierte Hardware, die externe VoIP-Netze mit dem internen VoIP-Netz koppelt. Der Begriff 'Border' beschreibt die Abgrenzung zwischen zwei Netzwerkteilen, während 'Controller' die Steuerung der Datenströme beim Übergang zwischen diesen Teilen bedeutet.",
-            "SBCs schützen interne Netze vor Angriffen über das SIP (Session Initiation Protocol) von außen. Sie empfangen Anrufe, analysieren die eingehenden SIP-Pakete und entscheiden, ob und wie Gespräche mit internen Geräten oder Softphones aufgebaut werden sollen. So können SIP-Angriffe zentral abgewehrt werden.",
-            "VoIP-Gespräche können durch SBCs verschlüsselt werden, etwa über TLS oder SRTP, und Protokolle wie SIP oder H.323 können übersetzt werden, um Kompatibilität zu gewährleisten.",
-            "Technische Anforderungen an Session Border Controller umfassen unter anderem die Anzahl der gleichzeitig möglichen Anrufe, da SBCs in Geräteform eine begrenzte Leistung besitzen und nur eine bestimmte Anzahl gleichzeitiger Anrufe verarbeiten können.",
+            "Ein Session Border Controller (SBC) ist eine Software oder dedizierte Hardware, die externe VoIP-Netze mit dem internen VoIP-Netz\nkoppelt. Der Begriff 'Border' beschreibt die Abgrenzung zwischen zwei Netzwerkteilen, während 'Controller' die Steuerung der\nDatenströme beim Übergang zwischen diesen Teilen bedeutet.",
+            "SBCs schützen interne Netze vor Angriffen über das SIP (Session Initiation Protocol) von außen. Sie empfangen Anrufe, analysieren\ndie eingehenden SIP-Pakete und entscheiden, ob und wie Gespräche mit internen Geräten oder Softphones aufgebaut werden sollen.\nSo können SIP-Angriffe zentral abgewehrt werden.",
+            "VoIP-Gespräche können durch SBCs verschlüsselt werden, etwa über TLS oder SRTP, und Protokolle wie SIP oder H.323 können übersetzt\nwerden, um Kompatibilität zu gewährleisten.",
+            "Technische Anforderungen an Session Border Controller umfassen unter anderem die Anzahl der gleichzeitig möglichen Anrufe, da SBCs\nin Geräteform eine begrenzte Leistung besitzen und nur eine bestimmte Anzahl gleichzeitiger Anrufe verarbeiten können.",
             "Für die IP-Telefonie existieren viele Protokolle wie SIP, H.323, IAX (Inter Asterisk eXchange) und RTP.",
-            "VoIP-Gespräche können in unterschiedlichen Audio-Qualitäten durchgeführt werden. Beim Verbindungsaufbau wird der Audio-Codec ausgehandelt, z.B. G.711, G.722, G.729 und andere.",
+            "VoIP-Gespräche können in unterschiedlichen Audio-Qualitäten durchgeführt werden. Beim Verbindungsaufbau wird der Audio-Codec\nausgehandelt, z.B. G.711, G.722, G.729 und andere.",
             "Fax Relay wird durch Unterstützung des T.38-Standards ermöglicht, welcher den Empfang von Fax über IP-Netze erlaubt.",
             "SIP Intrusion Prevention bedeutet, dass Eindringversuche über SIP erkannt und abgewehrt werden.",
-            "SBCs schützen auch vor DDoS-Angriffen (Distributed Denial of Service) über das Session Initiation Protocol, indem sie solche Angriffe erkennen und abwehren.",
-            "Gespräche werden über das Real-Time Transport Protocol (RTP) geführt, gemäß RFC3550. Wenn die Endgeräte es unterstützen, können Gespräche mittels SRTP oder IPsec verschlüsselt werden, was die Gesprächssicherheit erhöht.",
+            "SBCs schützen auch vor DDoS-Angriffen (Distributed Denial of Service) über das Session Initiation Protocol, indem sie solche Angriffe\nerkennen und abwehren.",
+            "Gespräche werden über das Real-Time Transport Protocol (RTP) geführt, gemäß RFC3550. Wenn die Endgeräte es unterstützen, können\nGespräche mittels SRTP oder IPsec verschlüsselt werden, was die Gesprächssicherheit erhöht.",
             "Eine interne Firewall im SBC leitet SIP-Anfragen weiter und blockiert alle anderen unerwünschten Anfragen."
           ],
           "fragen": [
@@ -7930,23 +7926,23 @@
       "lm27": {
         "9.3.2(8) Router": {
           "lerninhalt": [
-            "Router leiten Datenpakete zwischen unterschiedlichen Netzwerken zum nächsten Router weiter. Sie verbinden Netzwerke und lenken den Datenverkehr mittels einer Routing-Tabelle.",
-            "Beispiel: Beim Aufruf einer Internetseite wird ein Datenpaket mit der Anfrage erzeugt. Dieses Paket wird vom anfragenden PC versendet, von Router zu Router durch das Internet geleitet und bis zum Zielserver transportiert.",
-            "Die Adresse des Zielservers ist im Header der Nachricht angegeben. Der Zielserver nutzt nun die Absenderadresse des Headers als Zieladresse für die Antwort.",
-            "Router identifizieren ihre Ports (nicht zu verwechseln mit der Port-Nummer der IP-Nachrichten), ihre Netze und Broadcast-Domänen (alle Rechner, die bei einem Broadcast in diesem SubRouter Port 2 Netz erreicht werden). Sie speichern alle Geräte, die bei einem Broadcast auf einem Port erreicht werden können.",
+            "Router leiten Datenpakete zwischen unterschiedlichen Netzwerken zum nächsten Router weiter. Sie verbinden Netzwerke und lenken den\nDatenverkehr mittels einer Routing-Tabelle.",
+            "Beispiel: Beim Aufruf einer Internetseite wird ein Datenpaket mit der Anfrage erzeugt. Dieses Paket wird vom anfragenden PC\nversendet, von Router zu Router durch das Internet geleitet und bis zum Zielserver transportiert.",
+            "Die Adresse des Zielservers ist im Header der Nachricht angegeben. Der Zielserver nutzt nun die Absenderadresse des Headers als\nZieladresse für die Antwort.",
+            "Router identifizieren ihre Ports (nicht zu verwechseln mit der Port-Nummer der IP-Nachrichten), ihre Netze und Broadcast-Domänen\n(alle Rechner, die bei einem Broadcast in diesem SubRouter Port 2 Netz erreicht werden). Sie speichern alle Geräte, die bei einem\nBroadcast auf einem Port erreicht werden können.",
             "Befindet sich die Zieladresse nicht in den eigenen Netzen, so wird die Anfrage an den nächsten Router verschickt.",
             "Router-Typen:",
-            "Heimrouter: Diese Router verbinden das Heimnetz mit dem Internet. Sie sind oftmals mit vielen weiteren Funktionen ausgestattet, z.B. Firewall, Access Point, Telefonanlage, Media-Server, Switch oder Jugendschutzfilter (siehe auch SoHo-Router).",
-            "Edge-Router: Edge-Router liefern eine deutlich höhere Performance als Heimrouter. Sie verbinden das Firmennetz mit dem Internet oder Partnernetz.",
-            "Core-Router: Core-Router sind höchst performante Router für Internet Service Provider (ISP). Diese Router erreichen ihre Performance u.a. dadurch, dass sie keine anderen Aufgaben übernehmen und per Glasfaser verkabelt sind.",
+            "Heimrouter: Diese Router verbinden das Heimnetz mit dem Internet. Sie sind oftmals mit vielen weiteren Funktionen ausgestattet,\nz.B. Firewall, Access Point, Telefonanlage, Media-Server, Switch oder Jugendschutzfilter (siehe auch SoHo-Router).",
+            "Edge-Router: Edge-Router liefern eine deutlich höhere Performance als Heimrouter. Sie verbinden das Firmennetz mit dem Internet\noder Partnernetz.",
+            "Core-Router: Core-Router sind höchst performante Router für Internet Service Provider (ISP). Diese Router erreichen ihre Performance\nu.a. dadurch, dass sie keine anderen Aufgaben übernehmen und per Glasfaser verkabelt sind.",
             "Virtuelle Router: Virtuelle Router finden in Software Defined WANs Verwendung.",
             "Der Einsatzbereich legt fest, für welche Netze und welche Performance ein Router ausgelegt sein muss.",
-            "SoHo-Router (Small Office - Homeoffice) sind kleine leistungsfähige All-in-One-Router. Sie verfügen über eine Vielzahl unterschiedlicher Gateways, Serverdienste und Anschlüsse sowie ein oder mehrere WAN-Interfaces/Schnittstellen.",
+            "SoHo-Router (Small Office - Homeoffice) sind kleine leistungsfähige All-in-One-Router. Sie verfügen über eine Vielzahl\nunterschiedlicher Gateways, Serverdienste und Anschlüsse sowie ein oder mehrere WAN-Interfaces/Schnittstellen.",
             "Technische Anforderungen und Funktionen von SoHo-Routern umfassen unter anderem:",
-            "- WAN-Interface: Viele SoHo-Router besitzen genau ein WAN-Interface, z.B. DSL oder Kabel-TV oder LTE oder Glasfaser. Einige Router bieten mehrere WAN-Interfaces für Ausfallsicherheit.",
+            "- WAN-Interface: Viele SoHo-Router besitzen genau ein WAN-Interface, z.B. DSL oder Kabel-TV oder LTE oder Glasfaser. Einige Router\nbieten mehrere WAN-Interfaces für Ausfallsicherheit.",
             "- USB-Anschlüsse: Prüfung, ob mittels USB-LTE-Stick ein LTE-WAN nachgerüstet werden kann.",
-            "- DNS-Server: Router nehmen DNS-Anfragen des Netzwerks entgegen. Idealerweise lässt sich die Adresse des DNS-Servers konfigurieren, um z. B. DNS-Filter zu integrieren.",
-            "- DHCP-Server: Ermöglicht dynamische IP-Adressvergabe. Der Adresspool sollte konfigurierbar sein, um statische IP-Adressen vergeben zu können, etwa für Server.",
+            "- DNS-Server: Router nehmen DNS-Anfragen des Netzwerks entgegen. Idealerweise lässt sich die Adresse des DNS-Servers konfigurieren,\num z. B. DNS-Filter zu integrieren.",
+            "- DHCP-Server: Ermöglicht dynamische IP-Adressvergabe. Der Adresspool sollte konfigurierbar sein, um statische IP-Adressen vergeben\nzu können, etwa für Server.",
             "- Proxy-Server: Zwischenspeicherung statischer Webseiten reduziert Datenverbrauch bei Volumentarifen.",
             "- WLAN-Access-Point: Gäste-Netz und nächtliche WLAN-Abschaltung sind hilfreich.",
             "- Kindersicherung und Jugendschutzfilter: Unterstützung von Zeitkontingenten und Filterfunktionen für Familiennutzung.",
@@ -7957,7 +7953,7 @@
             "Open-Source-Alternative: OpenWrt unterstützt viele WLAN-Router und bietet erweiterbare Paketverwaltung.",
             "Edge- und Core-Router Auswahlkriterien für Unternehmen umfassen:",
             "- Konnektivität: Anzahl der Ports (10/100/1000/10G/100G/400G), QSFP56/QSFP28/SFP/SFP+/RJ45 Ports.",
-            "- Technische Eigenschaften: CPU, RAM, M.2 Storage-Größe für Logging, Anzahl IPsec-Tunnel, IPsec-Unterstützung, SD-WAN/IPsec-Durchsatz, Software Defined WAN, Dualpower/PoE, Leistungsaufnahme, Anzahl Höheneinheiten.",
+            "- Technische Eigenschaften: CPU, RAM, M.2 Storage-Größe für Logging, Anzahl IPsec-Tunnel, IPsec-Unterstützung, SD-WAN/IPsec-Durchsatz,\nSoftware Defined WAN, Dualpower/PoE, Leistungsaufnahme, Anzahl Höheneinheiten.",
             "- Management: Cloud-Management und Lizenzierung.",
             "Technische Anforderungen an Router:",
             "- Anzahl der Ports: Je nach Einsatzbereich (Heim, Edge, Core) von 10 MBit/s bis 400 GBit/s.",
@@ -8090,18 +8086,18 @@
       "lm28": {
         "9.3.2(9) Gateway": {
           "lerninhalt": [
-            "Gateway ist ein Oberbegriff für Netzwerkkomponenten, die eine Verbindung zwischen zwei Netzen herstellen. Je nach OSI Layer finden sich hier folgende Netzwerkkomponenten: Hub, Bridge, PowerLAN, Layer 3 Gateways, NAT Gateways, TLS Gateway, Gateways.",
-            "Hubs arbeiten auf dem OSI Layer 1 als Verteiler von Netzwerkdaten. Sie empfangen Daten und senden diese an alle Ports weiter, ohne zu filtern oder zu entscheiden.",
-            "Eine Bridge verbindet Netzwerksegmente auf OSI Layer 2. Sie werden eingesetzt, um Netze in mehrere Kollisionsdomänen aufzuteilen. Da alle Netzwerkkarten mit dem CSMA/CD-Verfahren arbeiten, sollte die Kommunikationslast aller Geräte nicht zu hoch sein, da ansonsten einzelne Komponenten beim Senden zu lange warten müssen.",
-            "PowerLAN bzw. Powerline Adapter verwenden die vorhandenen elektrischen 230-V-Leitungen eines Gebäudes zur Datenübertragung. Die Nutzdaten werden über ein Trägersignal aufmoduliert. So lässt sich das Intranet nachträglich in Räume bringen, die nicht mit Netzwerkdosen verkabelt sind. Es werden mindestens zwei Powerline-Adapter benötigt, ein Anfangspunkt und ein Endpunkt.",
-            "Je länger die Stromleitung ist und je mehr Verteiler zwischen Anfangs- und Endpunkt liegen, desto größer ist die Dämpfung. Powerline-Adapter arbeiten auf der OSI-Schicht 1. Bei der Auswahl ist zu berücksichtigen, dass die eingesetzten Adapter möglichst vom gleichen Hersteller sein sollten. Je nach Hersteller können theoretische Übertragungsraten von bis zu 1200 MBit/s erreicht werden.",
+            "Gateway ist ein Oberbegriff für Netzwerkkomponenten, die eine Verbindung zwischen zwei Netzen herstellen. Je nach OSI Layer finden\nsich hier folgende Netzwerkkomponenten: Hub, Bridge, PowerLAN, Layer 3 Gateways, NAT Gateways, TLS Gateway, Gateways.",
+            "Hubs arbeiten auf dem OSI Layer 1 als Verteiler von Netzwerkdaten. Sie empfangen Daten und senden diese an alle Ports weiter, ohne\nzu filtern oder zu entscheiden.",
+            "Eine Bridge verbindet Netzwerksegmente auf OSI Layer 2. Sie werden eingesetzt, um Netze in mehrere Kollisionsdomänen aufzuteilen.\nDa alle Netzwerkkarten mit dem CSMA/CD-Verfahren arbeiten, sollte die Kommunikationslast aller Geräte nicht zu hoch sein,\nda ansonsten einzelne Komponenten beim Senden zu lange warten müssen.",
+            "PowerLAN bzw. Powerline Adapter verwenden die vorhandenen elektrischen 230-V-Leitungen eines Gebäudes zur Datenübertragung.\nDie Nutzdaten werden über ein Trägersignal aufmoduliert. So lässt sich das Intranet nachträglich in Räume bringen, die nicht mit\nNetzwerkdosen verkabelt sind. Es werden mindestens zwei Powerline-Adapter benötigt, ein Anfangspunkt und ein Endpunkt.",
+            "Je länger die Stromleitung ist und je mehr Verteiler zwischen Anfangs- und Endpunkt liegen, desto größer ist die Dämpfung.\nPowerline-Adapter arbeiten auf der OSI-Schicht 1. Bei der Auswahl ist zu berücksichtigen, dass die eingesetzten Adapter möglichst\nvom gleichen Hersteller sein sollten. Je nach Hersteller können theoretische Übertragungsraten von bis zu 1200 MBit/s erreicht werden.",
             "Einige Powerline-Adapter sind in der Lage, zusätzlich einen WLAN-Access Point bereitzustellen.",
-            "Layer 3 Gateways werden auch als Router bezeichnet. Sie stellen eine Verbindung zwischen Subnetzen her. LTE-Router stellen ein lokales Netz (WLAN) bereit und verbinden dieses mit dem 4G-LTE-Netz. LTE-Router gibt es u.a. für den mobilen Einsatz.",
+            "Layer 3 Gateways werden auch als Router bezeichnet. Sie stellen eine Verbindung zwischen Subnetzen her. LTE-Router stellen ein\nlokales Netz (WLAN) bereit und verbinden dieses mit dem 4G-LTE-Netz. LTE-Router gibt es u.a. für den mobilen Einsatz.",
             "NAT Gateways übernehmen die Aufgabe der Network Address Translation bei IPv4-Netzwerken.",
             "Die Terminierung von TLS-Verbindungen ist ein Beispiel für Layer 4 Gateways. So kann z.B. eine Firewall diese Aufgabe übernehmen.",
-            "Proxy Gateways auf den OSI Layern 5-7 werden als Proxy oder Application Layer Gateway bezeichnet. Sie empfangen Nachrichten als Stellvertreter, analysieren diese und leiten sie ggf. weiter an den eigentlichen Server.",
-            "Bekannte Proxy-Server sind SIP-, FTP-, E-Mail- und HTTP-Proxy. Diese werden als Sicherheitskomponente für Anfragen aus dem Internet in der Demilitarized Zone (DMZ) zwischengeschaltet.",
-            "VPN Gateways erlauben einen sicheren Zugriff auf das Firmennetz. Dazu wird im Firmennetz ein VPN-Server bereitgestellt, z.B. als Teil einer Firewall oder eines Routers oder als Open Source Server, z.B. WireGuard (https://www.wireguard.com)."
+            "Proxy Gateways auf den OSI Layern 5-7 werden als Proxy oder Application Layer Gateway bezeichnet. Sie empfangen Nachrichten als\nStellvertreter, analysieren diese und leiten sie ggf. weiter an den eigentlichen Server.",
+            "Bekannte Proxy-Server sind SIP-, FTP-, E-Mail- und HTTP-Proxy. Diese werden als Sicherheitskomponente für Anfragen aus dem Internet\nin der Demilitarized Zone (DMZ) zwischengeschaltet.",
+            "VPN Gateways erlauben einen sicheren Zugriff auf das Firmennetz. Dazu wird im Firmennetz ein VPN-Server bereitgestellt, z.B. als\nTeil einer Firewall oder eines Routers oder als Open Source Server, z.B. WireGuard (https://www.wireguard.com)."
           ],
           "fragen": [
             {
@@ -10941,6 +10937,1089 @@
               "antwort": "c"
             }
           ]
+        }
+      },
+      "lm48": {
+        "9.4.2(2) Netzwerkarchitektur sicher planen": {
+          "lerninhalt": [
+            "Das BSI empfiehlt, eine Sicherheitsleitlinie und ein Sicherheitskonzept zu erstellen – mit Strukturanalyse und Schutzbedarfsfeststellung aller IT‑Systeme, inklusive Netzwerk.",
+            "Vier zentrale Schritte:\n1. Sicherheitsleitlinie mit Geltungsbereich, Strategie, Zielen und Organisationsstruktur\n2. Sicherheitskonzept: technische und organisatorische Maßnahmen\n3. Strukturanalyse: Erfassung von Geschäftsprozessen, Anwendungen, Netzplan, IT‑Systemen und räumlichen Gegebenheiten\n4. Schutzbedarfsfeststellung: Prüfreihenfolge der Zielobjekte (Prozesse, Anwendungen, IT‑Systeme, Netzkomponenten, Räume, Kommunikationsverbindungen, Schichten, Bausteine) und Festlegung/Begründung von Schutzzielen (Verfügbarkeit, Integrität, Vertraulichkeit).",
+            "Netzkomponenten: Router, Firewalls, Switches, TK‑Anlagen. Kommunikationsverbindungen: Internetanschluss, interne Verbindungen.\nSchichten: ISMS, Konzeption, Betrieb, Anwendungen, IT‑Systeme, Netze, Infrastruktur. Bausteine: z. B. SYS.1.1, NET.1.1 usw.",
+            "Das BSI unterscheidet drei Anforderungskategorien: Basisanforderungen (max. Nutzen bei geringem Aufwand), Standardanforderungen, Anforderungen bei erhöhtem Schutzbedarf.",
+            "Zur Planung empfiehlt sich ein Netzplan: Er zeigt alle aktiven und passiven Komponenten sowie Clients und externe Netze – Beispiel: RECPLAST GmbH (Router, Controller, Server, Switches, Desktops, Laptops, Drucker etc.)"
+        ],
+          "fragen": [
+          {
+            "frage": "Was sind die vier Schritte der BSI‑Empfehlung zur Netzwerksicherheit?",
+            "optionen": [
+              "a) Sicherheitsleitlinie, Sicherheitskonzept, Strukturanalyse, Schutzbedarfsfeststellung",
+              "b) Risikoanalyse, Implementierung, Betrieb, Abnahme",
+              "c) Hardwareauswahl, Softwareinstallation, Test, Wartung",
+              "d) Planung, Bestellung, Konfiguration, Monitoring"
+            ],
+            "antwort": "a"
+          },
+          {
+            "frage": "Welche Schutzziele sind im Rahmen der Schutzbedarfsfeststellung relevant?",
+            "optionen": [
+              "a) Kontrolle, Skalierbarkeit, Performance",
+              "b) Verfügbarkeit, Integrität, Vertraulichkeit",
+              "c) Kompatibilität, Dokumentation, Redundanz",
+              "d) Budget, Zeitplan, Personal"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Was zeigt ein Netzplan laut BSI‑Empfehlung?",
+            "optionen": [
+              "a) Nur aktive Komponenten",
+              "b) Nur externe Netze",
+              "c) Alle aktiven und passiven Netzkomponenten, Clients und externe Netze",
+              "d) Nur Software‑Topologien"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Welche Anforderungskategorie ist besonders wichtig bei wenig Aufwand?",
+            "optionen": [
+              "a) Erhöhter Schutzbedarf",
+              "b) Standardanforderungen",
+              "c) Basisanforderungen",
+              "d) Technische Anforderungen"
+            ],
+            "antwort": "c"
+          },
+          {
+            "frage": "Welche Schichten gehören zur Strukturanalyse?",
+            "optionen": [
+              "a) Präsentation, Transport, Anwendung",
+              "b) ISMS, Konzeption, Betrieb, Anwendungen, IT‑Systeme, Netze, Infrastruktur",
+              "c) Hardware, Software, Betriebssystem",
+              "d) Objekt, Klassen, Methoden"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Wozu dient die Schutzbedarfsfeststellung?",
+            "optionen": [
+              "a) Um Zielobjekte zu priorisieren und Schutzziele zu begründen",
+              "b) Um Software zu aktualisieren",
+              "c) Um Monitoring‑Tools auszuwählen",
+              "d) Um Netzwerke zu dokumentieren"
+            ],
+            "antwort": "a"
+          },
+          {
+            "frage": "Wer ist typisch an der Netzwerkplanung beteiligt? (Mehrere Antworten möglich)",
+            "optionen": [
+              "a) IT‑Leitung",
+              "b) Sicherheitsbeauftragte",
+              "c) Externe Berater",
+              "d) Marketing‑Abteilung"
+            ],
+            "antwort": ["a", "b", "c"]
+          },
+          {
+            "frage": "Welche Netzkomponenten gehören zur Planung?",
+            "optionen": [
+              "a) Router, Firewall, Switches, TK‑Anlagen",
+              "b) Tintenpatronen, Monitore, Tastaturen",
+              "c) Nur Firewall und Router",
+              "d) Nur Switches"
+            ],
+            "antwort": "a"
+          },
+          {
+            "frage": "Was umfasst die Strukturanalyse? (Mehrfachantwort)",
+            "optionen": [
+              "a) Erfassung der Geschäftsprozesse",
+              "b) Erhebung eines Netzplans",
+              "c) Auswahl der Server-Hersteller",
+              "d) Erhebung räumlicher Gegebenheiten"
+            ],
+            "antwort": ["a", "b", "d"]
+          },
+          {
+            "frage": "Welche technische Maßnahme würde in Stufe 4 („Besondere Anforderungen“) genannt?",
+            "optionen": [
+              "a) Passwortänderung im Windows",
+              "b) VPN oder E‑Mail‑Verschlüsselung",
+              "c) Papierausdrucke archivieren",
+              "d) WLAN deaktivieren"
+            ],
+            "antwort": "b"
+          },
+          {
+            "frage": "Scherzfrage: Warum hat der Router einen Schutzhelm auf?",
+            "optionen": [
+              "a) Um Netzwerkkabel zu organisieren",
+              "b) Weil er gegen Stromausfall protestiert",
+              "c) Um bei 'Bausteinen' der Struktur zu schützen",
+              "d) Weil Netzwerkplanung gefährlich sein kann"
+            ],
+            "antwort": "d"
+          }
+        ]
+        }
+      },
+      "lm49": {
+        "9.4.2(3) Netzarchitektur und -design, technisch-organisatorische Netzwerkmaßnahmen planen": {
+          "lerninhalt": [
+            "Das Bundesdatenschutzgesetz (BDSG) schreibt vor, technisch‑organisatorische Maßnahmen (TOM) zum Schutz personenbezogener Daten im Sicherheitskonzept explizit festzulegen und ihre Umsetzung sicherzustellen (siehe Jahrgangsband 1, Lernfeld 4.2).",
+            "Die Vielzahl der BSI‑Bausteine im Zusammenhang mit Netzwerken zeigt die Komplexität und die vielen Planungsthemen: Infrastruktur, Sicherheitszonen, P‑A‑P‑Struktur, Patch‑Management, Identitätsmanagement, VPN, DMZ usw.",
+            "Technisch‑organisatorische Maßnahmen laut § 64 BDSG umfassen 1. Zugangskontrolle 2. Datenträgerkontrolle 3. Speicherkontrolle 4. Benutzerkontrolle 5. Zugriffskontrolle 6. Übertragungskontrolle 7. Eingabekontrolle 8. Transportkontrolle 9. Wiederherstellbarkeit 10. Zuverlässigkeit 11. Datenintegrität 12. Auftragskontrolle 13. Verfügbarkeitskontrolle 14. Trennbarkeit – inklusive Schutzmaßnahmen bei VPN, Web, E‑Mail, Endpoint, Mobile Security.",
+            "BSI‑Bausteine “Netze und Kommunikation”:\nNET.1 – Netzarchitektur/Design/Management;\nNET.2 – WLAN;\nNET.3 – Router/Switch/Firewall/VPN;\nNET.4 – TK‑Anlagen, VoIP, Fax.",
+            "Weitere ausgewählte BSI‑Bausteine: ISMS.1 (Sicherheitsmanagement), ORP.4 (Identitäts‑ und Berechtigungsmanagement), CON.1‑3 (Krypto, Datenschutz, Datensicherung), OPS.1.1.2‑.5 (Patch, Malware‑Schutz, Protokollierung), APP.2‑3 (Verzeichnis‑, Web‑, Fileserver), SYS.1 (Server, Virtualisierung, Authentisierung, Updates), SYS.1.5.A (virtuelle Systeme, Netzplanung).",
+            "Das BSI fordert sichere Netzarchitektur mit Sicherheitszonen (segmentierte Zonen mit P‑A‑P‑Struktur – Paketfilter, Application Layer Gateway, Paketfilter), Next‑Gen‑Firewalls bis OSI‑Schicht 7, DMZ, VPN‑Tor, Reverse‑Proxy, Antiviren‑Scanner, regelmäßige Patches und Updates, HTTPS/SSL‑Zertifikate, Identitätsmanagement, E‑Mail‑Security.",
+            "Segmentierung nach Vertrauenszonen reduziert Angriffsflächen: Schutzbedarf orientiert sich am höchsten Bedarf im Segment. VLANs verschiedener Institutionen sollten physisch getrennt sein.",
+            "Antiviren‑Software scannt Dateien/Programme gegen bekannte und unbekannte Malware, meldet verdächtige Aktivitäten. Patches müssen zeitnah eingespielt werden.",
+            "HTTPS‑Zertifikate (SSL/TLS) sorgen für sichere Kommunikation – sichtbar am „https“ und Schloss im Browser; z. B. über Let’s Encrypt.",
+            "VPNs verwenden Tunneling auf unteren OSI‑Schichten, ein Reverse‑Proxy verteilt Anfragen, verwaltet Virenschutz und SSL‑Zertifikate.",
+            "Perimetersicherheit schützt das interne Netz über DMZ, Firewall, VPN gegen Viren, Hacker etc. DMZ hostet öffentlich erreichbare Dienste ohne direkten Zugang zum internen Netz.",
+            "Firewalls sind Gatekeeper, die Datenverkehr anhand definierter Regeln steuern – zwischen Unternehmensnetzwerken und externen, nicht vertrauenswürdigen Netzen (siehe Kapitel 4.3).",
+            "Firewall-Typen und OSI-Schichten:\n• Paketfilter greifen auf OSI-Schicht 3 (IP-Adresse) und Layer 4 (Port) zu.\n• Proxy-Firewall oder Stateful Inspection Firewall analysiert u.U. auch Schicht 7 (Anwendung).\n• Next-Generation Firewall (NGFW) filtert grundsätzlich bis OSI‑Schicht 7.",
+            "Firewall-Arten:\n- Personal‑Firewall (Desktop‑Software)\n- Externe/Netzwerk‑Hardware‑Firewall\n- NGFW mit erweiterten Funktionen",
+            "Next‑Generation Firewall (NGFW):\n- Erkennung und Blockierung komplexer Angriffe (APT)\n- Deep‑Packet‑Inspection, TLS/SSL‑Inspektion, Web‑Filter, QoS, Virenschutz\n- Integration mit Identitätsmanagementsystemen wie LDAP/RADIUS/AD\n- Funktionen nach BSI-Empfehlung (BSI-CS 112)",
+            "Zwei-Firewall-Architektur (für DMZ):\n- Frontend-/Perimeter-Firewall erlaubt Zugriffe nur auf DMZ\n- Backend-Firewall kontrolliert Zugriffe von DMZ ins interne Netz\n- Zwei unterschiedliche Hersteller minimieren gemeinsame Sicherheitslücken",
+            "UTM-Firewalls (Unified Threat Management):\n- Kombinieren NGFW-Funktionen, Anti‑Virus/Spyware/Spam, Content‑Filter, IDS/IPS, NAT, VPN\n- Angeboten als Desktop-, Rackmount- oder Cloud‑Appliances\n- UTM für standardisierte Sicherheit, NGFW für individuelle Policy-Anpassung",
+            "Grundlegende Filtertypen erklärt:\n- Paketfilter: Filtert nach IP/Port; unzulässige Pakete werden DROPPED, REJECTED, FORWARDED oder ALLOWED.\n- Proxy‑Filter: Vermittlung zwischen Client und Zielsystem\n- Content‑Filter: Analysiert Nutzdaten und blockiert nach Regeln (Proxy-basiert)",
+            "„Intrusion Detection Systeme (IDS) und Intrusion Prevention Systeme (IPS) erkennen Einbruchsversuche anhand von Kommunikationsmustern. IDS erkennt Angriffe, IPS blockiert diese.",
+            "Firewall-Regelwerke bestimmen das Verhalten bei Paketen: DROP (verwerfen), REJECT (aktiv ablehnen), ACCEPT/PASS/FORWARD (erlauben).",
+            "Weitere Funktionen umfassen Application-, Web- und Inhaltskontrolle: Content‑, Spam‑ und Antiviren‑Filter, Richtlinienmanagement.",
+            "E-Mail- und Datenschutzkontrollen überwachen den Datenverkehr.",
+            "Web‑Protection erkennt und beseitigt Web-Bedrohungen.",
+            "Advanced Threat Protection identifiziert Bots und komplexe Bedrohungen.",
+            "Deep Packet Inspection (DPI) analysiert sowohl Header als auch Nutzdaten; SSL‑DPI entschlüsselt und verschlüsselt bei Bedarf erneut.",
+            "Zero‑Day‑ und KI‑Schutz sowie Sandbox‑Verfahren nutzen maschinelles Lernen zur schnellen Erkennung.",
+            "Benutzeridentitätsmanagement sorgt dafür, dass nur autorisierte Personen zugreifen; unterstützt Bandbreitenmanagement und Performanceoptimierung.",
+            "Sicherheits-Gateways kombinieren mehrere Filterkomponenten (Paketfilter + Application Level Gateway).",
+            "IPv4-Paketfilter können NAT erledigen, IPv6 übernimmt dies über ALGs; zusätzlich möglich sind PAT und URL-Blockierung.",
+            "E-Mail ist ein häufiger Angriffsvektor – wichtig ist Schutz vor Phishing, Ransomware, BEC.",
+            "Manipulationssichere E-Mail-Archivierung unterstützt Compliance.",
+            "Sichere Protokolle wie POP3S, IMAPS, SMTPS sollten genutzt werden.",
+            "E-Mail-Security-Gateways filtern Angriffe oder verschieben Inhalte in Quarantäne; als Hardware- oder virtuelle Appliance einsetzbar.",
+            "Spamfilter nutzen Black- und Whitelists: Blacklist blockiert unerwünschte Absender, Whitelist lässt nur bekannte zu."
+
+        ],
+          "fragen": [
+            {
+              "frage": "Was schreibt das BDSG in Bezug auf TOM vor?",
+              "optionen": [
+                "a) TOM sind optional im Sicherheitskonzept",
+                "b) TOM müssen explizit festgelegt und umgesetzt werden",
+                "c) TOM gelten nur für öffentliche Behörden",
+                "d) TOM ersetzen Firewalls"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche der folgenden Maßnahmen gehört nicht zu § 64 BDSG?",
+              "optionen": [
+                "a) Zugangskontrolle",
+                "b) Benutzerkontrolle",
+                "c) VPN-Konfiguration",
+                "d) Datenintegrität"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was beschreibt die P‑A‑P‑Struktur?",
+              "optionen": [
+                "a) Physische Zugriffskontrolle",
+                "b) Paketfilter–ALG–Paketfilter zur Segment‑Sicherung",
+                "c) Password–Authentication–Proxy",
+                "d) Patch–Antiviren–Protokollierung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche BSI‑Bausteine decken WLAN ab?",
+              "optionen": [
+                "a) NET.1.1",
+                "b) NET.2.1‑2",
+                "c) SYS.1.5",
+                "d) CON.3"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum sind Sicherheitszonen im Netz wichtig?",
+              "optionen": [
+                "a) Um VLANs physisch zu ersetzen",
+                "b) Um Schutzbedarf einzelner Systeme zu senken",
+                "c) Um Angriffsfläche zu reduzieren und Zugriff zu kontrollieren",
+                "d) Um Drucker schneller zugänglich zu machen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Maßnahme gehört zur Perimetersicherheit?",
+              "optionen": [
+                "a) Datensicherung auf Tape",
+                "b) Next‑Gen‑Firewall mit DMZ‑Architektur",
+                "c) Benutzerkontrolle im Büro",
+                "d) IPv6‑Adoption"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist Aufgabe des Reverse‑Proxy?",
+              "optionen": [
+                "a) Interne Datenbank hosten",
+                "b) SSL‑Zertifikate auslagern und eingehende Anfragen verteilen",
+                "c) Firewall ersetzen",
+                "d) LAN‑Kabel verwalten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Rolle spielt HTTPS im Sicherheitskonzept?",
+              "optionen": [
+                "a) Verschlüsselung für sichere Kommunikation via SSL/TLS",
+                "b) Passwortverwaltung",
+                "c) Datenbankzugriff",
+                "d) VPN‑Alternative"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Funktion hat Segmentierung mit VLANs?",
+              "optionen": [
+                "a) Physische Trennung unterschiedlicher Institutionen zur Sicherheit",
+                "b) Bandbreitenerhöhung",
+                "c) Backup‑Planung",
+                "d) Mail‑Routing"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Komponente sorgt für Echtzeitschutz gegen Schadprogramme?",
+              "optionen": [
+                "a) VPN‑Server",
+                "b) Antiviren‑Software",
+                "c) DHCP‑Server",
+                "d) Switch"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Warum ist der Firewall-Keks so sicher?",
+              "optionen": [
+                "a) Weil er scharf gewürzt ist",
+                "b) Weil er in der DMZ gebacken wurde",
+                "c) Weil er P‑A‑P‑zertifiziert ist",
+                "d) Weil er vor Viren geschützt ist"
+              ],
+              "antwort": "d"
+            },
+             {
+              "frage": "Welche Schichten filtert ein Paketfilter?",
+              "optionen": [
+                "a) OSI Schicht 1–2",
+                "b) OSI Schicht 3–4",
+                "c) OSI Schicht 5–6",
+                "d) OSI Schicht 7"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was unterscheidet eine NGFW von einer Standard-Firewall?",
+              "optionen": [
+                "a) Filtert nur OSI Schicht 3",
+                "b) Bietet Deep Packet Inspection, APT-Schutz, TLS-Inspektion",
+                "c) Nur Paketfilterfunktionen",
+                "d) Läuft nur auf Desktops"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum werden zwei Firewalls empfohlen?",
+              "optionen": [
+                "a) Damit doppelt so viel Traffic geschafft wird",
+                "b) Für DMZ-Struktur mit Frontend- und Backend-Firewall",
+                "c) Damit beide Hersteller zugleich verwendet werden",
+                "d) Um die Kosten zu verdoppeln"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was liefert eine UTM-Appliance typischerweise?",
+              "optionen": [
+                "a) Nur Paketfilter",
+                "b) Antivirus, NAT, VPN, IDS/IPS und Filterfunktionen",
+                "c) Nur einen Proxy",
+                "d) Nur VLAN"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was macht ein Content‑Filter?",
+              "optionen": [
+                "a) Filterung nach IP/Port",
+                "b) Analyse und Blockierung von Nutzdaten",
+                "c) Nur Logging",
+                "d) Nur VPN"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion hat Stateful Inspection?",
+              "optionen": [
+                "a) Nur statische Paketfilterung",
+                "b) Zustandsorientierte Paketprüfung auch mit Verbindungszustand",
+                "c) Nur SSL-Entschlüsselung",
+                "d) Nur QoS"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher Hersteller-Mix wird empfohlen?",
+              "optionen": [
+                "a) Zwei gleiche Firewalls",
+                "b) Zwei unterschiedliche Hersteller zur Risikoreduzierung",
+                "c) Nur Open‑Source Firewalls",
+                "d) Nur Hersteller eines Landes"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Funktion bietet NGFW zusätzlich zur Paketfilterung?",
+              "optionen": [
+                "a) QoS/Bandbreitenmanagement",
+                "b) APT-Schutz",
+                "c) TLS/SSL-Inspektion",
+                "d) Alle genannten"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Warum nutzt man Proxy‑Filter?",
+              "optionen": [
+                "a) Nur zur NAT-Einrichtung",
+                "b) Um Verbindung zu vermitteln und Traffic zu prüfen",
+                "c) Nur für VPN",
+                "d) Nur für VoIP"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wann sollten NGFW-Appliances gewählt werden?",
+              "optionen": [
+                "a) Wenn kundenspezifische Policies und manuelles Reporting benötigt werden",
+                "b) Nur für Privathaushalte",
+                "c) Wenn kein Identitätsmanagement gebraucht wird",
+                "d) Für reine Paketfilterung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Warum ist die Firewall beim Bäcker?",
+              "optionen": [
+                "a) Sie will die Cookies blocken",
+                "b) Sie sucht Brot mit viel Schutz",
+                "c) Sie mag die Kruste",
+                "d) Sie braucht VPN-Passwort"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was unterscheidet ein IDS von einem IPS?",
+              "optionen": ["a) IDS blockiert, IPS nur merkt sich Angriffe", "b) IDS erkennt Angriffe, IPS blockiert aktiv", "c) IDS ist Hardware, IPS ist Software", "d) IDS arbeitet nur offline"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aktionen kann ein Firewall-Regelwerk definieren?",
+              "optionen": ["a) DROP, REJECT, ACCEPT", "b) SCAN, LOG, QUARANTINE", "c) ZIP, UNZIP, PASS", "d) CONNECT, DISCONNECT"],
+              "antwort": "a"
+            },
+            {
+              "frage": "Deep Packet Inspection analysiert …",
+              "optionen": ["a) nur Header-Daten", "b) nur Nutzdaten", "c) Header und Nutzdaten", "d) nur Metadaten"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bedeutet SSL-DPI?",
+              "optionen": ["a) Deep Inspection ohne Verschlüsselung", "b) DPI auch in verschlüsseltem SSL-Datenverkehr", "c) Nur Header‑Filterung", "d) Kein Nachteil"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Technik nutzt KI‑Schutz?",
+              "optionen": ["a) Statistische Logs", "b) Maschinelles Lernen zur Erkennung von Zero‑Day‑Angriffen", "c) Nur Signatur-basierte Filter", "d) Nur SMTP-Kompatibilität"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was kombiniert ein Sicherheits‑Gateway typischerweise?",
+              "optionen": ["a) Nur Paketfilter und VPN", "b) Paketfilter und Application Level Gateway", "c) Nur PAT", "d) Nur URL‑Filter"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Protokolle schützen E-Mail-Übertragungen?",
+              "optionen": ["a) HTTP", "b) FTP", "c) POP3S, IMAPS, SMTPS", "d) UDP"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist eine Blacklist im Spamfilter-Kontext?",
+              "optionen": ["a) Liste erlaubter Absender", "b) Liste unerwünschter Absender", "c) Liste von URLs", "d) Passwörterliste"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aufgabe hat ein Sandbox-Verfahren?",
+              "optionen": ["a) Backup", "b) Test verdächtiger Dateien in isolierter Umgebung", "c) VPN-Verbindung", "d) URL-Monitoring"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Komponente sorgt für identitätsbasierten Zugriff?",
+              "optionen": ["a) Paketfilter", "b) Benutzeridentitätsmanagement", "c) Spamfilter", "d) NAT"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Warum macht das IDS nie Urlaub?",
+              "optionen": ["a) Es will immer jemanden überwachen", "b) Es darf nie offline gehen", "c) Es ist in der Cloud", "d) Es hat Angst vorm Hackerstrand"],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm50": {
+        "9.4.2(4) Cloud-, Filial- und Betriebsanbindungen über Software Defined Networking": {
+          "lerninhalt": [
+            "Software Defined Networking (SDN) ist ein Netzwerkkonzept, das die zentrale, intelligente Verwaltung und Steuerung der einzelnen Hardware-Komponenten mithilfe von Software ermöglicht. Der Einsatz offener Protokolle wie „OpenFlow\" ermöglicht dabei den zentralen Zugriff auf Netzwerkgeräte wie Switches, Router oder Firewalls.",
+            "In komplexen Netzwerken stoßen klassische Netzwerksicherheitsgeräte an Grenzen. SDN-Architekturen – oft in Verbindung mit Cloud-Technologien – bieten hier Vorteile wie höhere Verfügbarkeit, geringere Leitungskosten und bessere Datenvertraulichkeit.",
+            "SDN-Systeme erlauben zentrale Verwaltung wirtschaftlicher und sicherheitsrelevanter Anforderungen, sowie eine lokale Ergänzung durch Regeln an der Edge. Makro- und Mikrosegmentierung ermöglichen die Strukturierung der Sicherheitsinfrastruktur.",
+            "Je nach Anbieter, Betreiber oder Kommunikationsstandard unterscheidet sich die SDN-Umsetzung. Lösungen wie SASE (Secure Access Service Edge) kombinieren Netzwerk- und Sicherheitsfunktionen (z. B. VPN, Paketfilter, Hochsicherheitssegmente, mobile Mitarbeiterintegration) über SD-WAN.",
+            "Zero Trust ist ein IT-Sicherheitsmodell, das Sicherheitsrichtlinien auf Mikroperimeterebene definiert und nicht mehr auf Makroebene. Es setzt auf Next-Generation-Firewalls (NGFW), Netzwerksegmentierung und Zugriffssteuerung auf Basis der Kipling-Methode (Wer, Was, Wann, Wo, Warum, Wie).",
+            "Die Zero-Trust-Architektur wird in fünf Schritten umgesetzt:\n    1. Schutzoberfläche identifizieren\n    2. Transaktionsflüsse analysieren\n    3. Architektur designen\n    4. Richtlinien definieren\n    5. Automatisierung und Überwachung sicherstellen",
+            "SDN trennt Hard- und Software. Die Control Plane gibt Regeln vor, die Data Plane setzt sie um. Der Network Controller verwaltet zentrale Netzwerkkomponenten. Das Netzwerkbetriebssystem verwaltet Steuerinformationen.",
+            "OpenFlow ist ein offenes Protokoll für die Kommunikation zwischen Control und Data Plane (Southbound Interface), während das Northbound Interface zur Orchestrierung und Automatisierung auf Applikationsebene dient.",
+            "Security-Scanner wie OpenVAS identifizieren bekannte Sicherheitslücken. Vulnerability Management ermöglicht kontinuierliche Kontrolle, Eindämmung und Verteidigung gegen Cyberangriffe.",
+            "SASE kombiniert Netzwerk- und Sicherheitsservices (SaaS) in der Cloud. Secure Web Gateways erkennen und blockieren Bedrohungen wie Malware oder Ransomware. SIEM-Systeme analysieren Datenströme, Benutzerverhalten und Log-Events und liefern Reports für Security Operations Center.",
+            "Moderne SIEM-Systeme nutzen Machine Learning, UEBA und SOR zur automatisierten Bedrohungsanalyse und -abwehr.",
+            "Netzwerksegmentierung auf Layer‑7‑Ebene reduziert Angriffsflächen und verbessert Compliance durch Zugriffsbeschränkungen.",
+            "Zur Bereitstellung eines sicheren Netzwerks gehört die Installation eines umfassenden und leicht zu managenden Sicherheitsmanagement‑Systems. Beispiel: Das Sophos Control Center‑Dashboard erlaubt zentrale Verwaltung von Devices und Firewalls, Anzeige des Sicherheitsstatus, Bearbeitung von Alerts, manuelle/automatische Malware‑Bereinigung, Gerätesteuerung, Nutzer‑Benachrichtigungen und Report‑Erstellung.",
+            "Dashboard‑Funktionen umfassen: Performance‑Anzeige (CPU, Bandbreite), Web‑ und Netzwerkaktivität, Firewall‑Status, Traffic‑Insights, Anwendungsschutz (ATP, Zero‑Day‑Erkennung), Nutzer‑ und Geräte‑Übersicht, VPN‑Nutzung, Risky Apps, Web‑Angriffe, Intrusion Alerts sowie automatische Reaktionen auf erkannte Bedrohungen.",
+            "Endpoints sind zentrale Bestandteile des Sicherheitskonzepts. Wichtige Maßnahmen umfassen: sichere Benutzer‑Authentifizierung, Nutzung von Endpoint‑Protection‑Suites, VPN‑Einrichtung, Verschlüsselungstools und Mitarbeiterschulung zur Abwehr von Social‑Engineering.",
+            "Endpoint‑Security‑Maßnahmen im Detail:\n• Multi‑Faktor‑Authentifizierung (MFA) oder Single‑Sign‑On (SSO)\n• Einsatz von IAM mit Biometrie, Token oder Smart‑Cards\n• Zero‑Trust‑Strategie (jeder Zugriff wird überprüft)\n• Leistungsfähige Antiviren‑Software bzw. Endpoint‑Security‑Apps\n• VPN‑Verbindungen (SSL‑VPN, Site‑to‑Site, Client‑to‑Server)\n• Schulungen gegen Social‑Engineering\n• Nutzung von HTTPS‑Websites (Schloss‑Symbol)\n• Verschlüsselung sensibler Dateien und E‑Mails",
+            "Kompetenzcheck‑Aufgaben:\n• Diskussion möglicher Angriffsvektoren (z. B. Malware, Phishing)\n• Risikoanalyse für ein Modellnetzwerk\n• Erstellung eines TOM‑Katalogs (14 Kontrollbereiche)\n• Zuordnung von Sicherheitsbegriffen zu Beschreibungen (z. B. IDS, NGFW, Deep Packet Inspection)",
+            "Begriffszuordnung (Kurzbeschreibungen):\n a) Antiviren‑Scanner = Prüfung übertragenener Dateien auf Malware\n b) Patches = Sicherheitsupdates durch Entwickler\n c) HTTPS = gesichertes Web‑Kommunikationsprotokoll\n d) VPN = verschlüsselter Tunnel für Datenverkehr\n e) NGFW = Next‑Generation Firewall auf OSI 2–7\n f) Perimeterbereich = Grenze zwischen internem und externem Netz\n g) DMZ = separate Sicherheitszone für externe Dienste\n h) IDS = erkennt Angriffe, greift aber nicht aktiv ein\n i) IPS = erkennt Angriffe und blockiert diese automatisch\n j) Paketfilter = filtert Pakete nach IP/Port\n k) Deep Packet Inspection = inspiziert verschlüsselte Inhalte\n l) Whitelist = Liste erlaubter Absender\n m) PAP‑Struktur = Paketfilter – Application Proxy – Paketfilter\n n) SSL/TLS = Verschlüsselungsprotokoll für sichere Kommunikation"
+          ],
+          "fragen": [
+            {
+              "frage": "Was ermöglicht SDN grundsätzlich?",
+              "optionen": ["a) Dezentrale Steuerung", "b) Zentrale Steuerung von Netzwerkhardware per Software", "c) Kein Einsatz von Routern", "d) Tastatursteuerung"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Ebenen unterscheidet man im SDN?",
+              "optionen": ["a) Hardware-/Software-Ebene", "b) Control Plane und Data Plane", "c) Nutz- und Quellcode-Ebene", "d) Edge-/Core-Ebene"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein vorteilhafter Effekt der Trennung von Hard- und Software in SDN?",
+              "optionen": ["a) Geräteherstellerbindung", "b) Höhere Flexibilität und Herstellerunabhängigkeit", "c) Mehr Hardware-Einsatz", "d) Weniger Softwareupdates"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Protokolle nutzen SDN-Systeme?",
+              "optionen": ["a) FTP", "b) OpenFlow", "c) SMTP", "d) SNMP"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet Mikrosegmentierung?",
+              "optionen": ["a) Grobsegmentierung", "b) Lokale Sicherheitszonen auf Mikroebene", "c) VPN-Nutzung", "d) Cloudsegmentierung"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Methode nutzt Zero Trust für Zugriffskontrolle?",
+              "optionen": ["a) ISO/OSI", "b) Kipling-Methode", "c) MAC-Filter", "d) DNS-Filterung"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie viele Schritte umfasst die Zero‑Trust‑Architektur laut Beschreibung?",
+              "optionen": ["a) 3", "b) 4", "c) 5", "d) 6"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wofür dient ein Network Controller im SDN?",
+              "optionen": ["a) Drucken", "b) Zentrale Steuerung von Netzwerkkomponenten", "c) Datenanalyse", "d) Backup"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet SASE?",
+              "optionen": ["a) Secure Access Service Edge", "b) Simple Access Security Enterprise", "c) Secure Automated SDN Edge", "d) Software Access Service Ethernet"],
+              "antwort": "a"
+            },
+            {
+              "frage": "Wofür wird OpenVAS eingesetzt?",
+              "optionen": ["a) Passwortverwaltung", "b) Vulnerability-Scanner", "c) SDN-Orchestrierung", "d) Firewall-Konfiguration"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Warum weigert sich das SDN, ins Freie zu gehen?",
+              "optionen": ["a) Es liebt zentrale Steuerung", "b) Es hat Angst vor Mikrosegmenten", "c) Es will keine Edge kennenlernen", "d) Es arbeitet nur drinnen"],
+              "antwort": "a"
+            },
+             {
+              "frage": "Welche Funktion bietet das Sophos Control Center?",
+              "optionen": ["a) Nur Malware‑Bereinigung", "b) Zentrale Sicherheitsverwaltung und Alerts‑Handling", "c) Backup‑Verwaltung", "d) Netzwerkbandbreiten‑Optimierung"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was gehört nicht zu den Funktionen des Dashboards?",
+              "optionen": ["a) CPU‑Monitoring", "b) VPN‑Übersicht", "c) Musik‑Streaming", "d) Intrusion Alerts"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welches Element ist nicht Teil der Endpoint‑Security?",
+              "optionen": ["a) MFA/SSO", "b) Antiviren‑App", "c) Passwort‑Mappe offline", "d) VPN"],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was beschreibt die Zero‑Trust‑Strategie am besten?",
+              "optionen": ["a) Jeder Zugriff grundsätzlich erlaubt", "b) Jeder Zugriff wird überprüft und autorisiert", "c) Nur Admin darf zugreifen", "d) Keine Authentifizierung nötig"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist HTTPS im Browser wichtig?",
+              "optionen": ["a) Schnellere Ladezeiten", "b) Sichere und verschlüsselte Verbindung zur Webseite", "c) Werbung wird ausgeblendet", "d) Nur interne Seiten geladen"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Kontrollaufgaben umfasst der Kompetenzcheck?",
+              "optionen": ["a) Risikoanalyse", "b) Angriffsvektor-Diskussion", "c) Begriffsdifferenzierung", "d) Alle drei"],
+              "antwort": "d"
+            },
+            {
+              "frage": "Was ist ein Antiviren‑Scanner laut Zuordnung?",
+              "optionen": ["a) IDS", "b) Prüfung übertragener Dateien auf Malware", "c) Deep Packet Inspection", "d) NGFW‑Komponente"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bewirkt ein IPS?",
+              "optionen": ["a) Erkennt Angriffe", "b) Erkennt und blockiert Angriffe", "c) Filtert nur Ports", "d) Schützt vor Social‑Engineering"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Definition passt zur DMZ?",
+              "optionen": ["a) Interner Bereich nur für Datenbanken", "b) Grenzbereich zwischen internem Netz und Internet", "c) WLAN‑Zugangspunkt", "d) Offline‑Backup‑Zone"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aussage beschreibt Deep Packet Inspection am besten?",
+              "optionen": ["a) Filtert nur IP‑Header", "b) Inspiziert verschlüsselte Inhalte in Paketen", "c) Funktioniert nur auf Layer 2", "d) Ersatz für VPN"],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher Faktor ist KEIN Teil der Endpoint‑Security‑Maßnahmen?",
+              "optionen": ["a) Social‑Engineering‑Schulung", "b) VPN", "c) Zero‑Trust‑Strategie", "d) Physische Abschaltung der Firewall"],
+              "antwort": "d"
+            },
+            {
+              "frage": "Wie nennt man einen Admin, der seine VPN‑Verbindung vergisst einzurichten?",
+              "optionen": ["a) Tunnel‑Tollpatsch", "b) VPN‑Vertipper", "c) Klick‑Kapitan", "d) Zero‑Trust‑Verweigerer"],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm51": {
+        "9.4.3 Nachhaltigkeit sicherstellen": {
+          "lerninhalt": [
+            "Viele Milliarden Kilowattstunden Strom benötigen Netzwerke und Services, die heute in der IT genutzt werden. Schätzungsweise 20 bis 50 Millionen Tonnen Elektroschrott werden weltweit jährlich entsorgt. Rechenzentren verursachen über 3 % des globalen Stromverbrauchs und über 2 % der Treibhausgasemissionen.",
+            "Moderne Server mit GPUs (bis zu 400 Watt pro GPU) und CPUs können in einem Rack mit 36 Einheiten bis zu 90.000 Watt Strom benötigen. Diese steigende Leistungsaufnahme führt zu höherer Wärmeentwicklung, die wiederum aufwändige Kühlung erfordert.",
+            "Green-IT ist ein wichtiger Ansatz, um diesen Trend zu stoppen. Es gibt viele Initiativen, die eine Verbesserung der Ökobilanz zum Ziel haben. Unternehmen setzen sich freiwillige Nachhaltigkeitsziele, die oft in Form von Umweltleitbildern oder CSR-Richtlinien kommuniziert werden.",
+            "Die ISO 14001 ist der weltweit anerkannte Standard für Umweltmanagementsysteme. Ergänzt wird sie durch ISO 14004, die als Leitlinie zur Umsetzung dient. Viele Unternehmen lassen sich nach ISO 14001 zertifizieren.",
+            "CO₂-Zertifikate regulieren die Schadstoffemissionen auf Grundlage internationaler Abkommen (Kyoto-Protokoll, Klimakonferenzen). Zertifikate gewähren das Recht, eine bestimmte Menge an Emissionen zu verursachen. Immer mehr Branchen sind gesetzlich verpflichtet, diese zu erwerben.",
+            "Das Umweltleitbild vieler IT-Unternehmen sieht hohe Standards für Nachhaltigkeit vor, insbesondere bei Datacentern. Initiativen wie die 'Climate Neutral Data Centre' wollen bis 2030 klimaneutrale Rechenzentren etablieren.",
+            "Ein Maßnahmenkatalog zur Nachhaltigkeit in IT-Netzwerken umfasst unter anderem: Stromverbrauchsreduzierung durch Virtualisierung, effizientere Stromverteilung, energiesparende Hardware und Software, sowie bessere Kühlung durch Klimaanlagen, Luftführung und Warmwasserkühlung.",
+            "Beispiel zur PUE (Power Usage Effectiveness): Der Wert beschreibt das Verhältnis der Gesamtenergie zum Energieverbrauch der IT-Ausrüstung. Optimal liegt er bei etwa 1,1.",
+            "Hardware-Maßnahmen: Refurbishing, Recycling, effizientere Hardware, Abschaltung ungenutzter Server, Multinode-Server, zentrale Stromversorgung mit Gleichstrom.",
+            "Software-Maßnahmen: Ressourcensparende Programmierung, Reduktion der Datenkommunikation (Edge/Fog-Computing).",
+            "Disaggregation: Aufschlüsselung des Stromverbrauchs einzelner Komponenten erlaubt eine gezielte Steuerung, z.B. zur Verlängerung von Lebenszyklen.",
+            "Kompetenzcheckaufgaben umfassen unter anderem: Argumentation zur Umweltbilanz der IT, Präsentation von Green-IT-Initiativen sowie Optimierung des Energieverbrauchs anhand konkreter Aufgaben im Arbeitsbuch."
+          ],
+          "fragen": [
+            {
+              "frage": "Warum ist der Energieverbrauch in Rechenzentren ein bedeutendes Thema in der IT?",
+              "optionen": [
+                "a) Weil die Hardware billig ist",
+                "b) Wegen der hohen Leistungsaufnahme und Umweltbelastung",
+                "c) Wegen der vielen defekten Lüfter",
+                "d) Weil keine Zertifikate vorhanden sind"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet die Kennzahl PUE im Rechenzentrum?",
+              "optionen": [
+                "a) Power Under Evaluation",
+                "b) Energieeinsparpotenzial einer GPU",
+                "c) Verhältnis Gesamtenergie zu IT-Energieverbrauch",
+                "d) Anzahl der Geräte pro Rack"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Norm ist ein internationaler Standard für Umweltmanagementsysteme?",
+              "optionen": [
+                "a) ISO 9001",
+                "b) ISO 14001",
+                "c) DIN 276",
+                "d) EN 50173"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Initiative verfolgt das Ziel, Rechenzentren bis 2030 klimaneutral zu machen?",
+              "optionen": [
+                "a) Climate Fix IT",
+                "b) Sustainable Datacenter Alliance",
+                "c) Climate Neutral Data Centre",
+                "d) Green Future Now"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Maßnahme trägt NICHT direkt zur Reduktion des Stromverbrauchs in Rechenzentren bei?",
+              "optionen": [
+                "a) Refurbishing alter Hardware",
+                "b) Einsatz stromsparender Geräte",
+                "c) Unsachgemäße Verkabelung",
+                "d) Virtualisierung von Systemen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist ein CO₂-Zertifikat im Umweltrecht?",
+              "optionen": [
+                "a) Eine Empfehlung zum Stromsparen",
+                "b) Eine Energiesparlampe",
+                "c) Ein Recht, Schadstoffe in bestimmter Menge auszustoßen",
+                "d) Ein CO₂-Sensor in Servern"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bedeutet Disaggregation im Kontext der IT-Nachhaltigkeit?",
+              "optionen": [
+                "a) Das Abschalten aller Server nachts",
+                "b) Zerlegung von Verbrauchsdaten einzelner Komponenten",
+                "c) Zusammenlegung von Netzknoten",
+                "d) Ein Netzwerkprotokoll zur Verschlüsselung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Softwaretechnologie kann helfen, Datenkommunikation und Energieverbrauch zu senken?",
+              "optionen": [
+                "a) Blockchain",
+                "b) Edge- und Fog-Computing",
+                "c) VPN",
+                "d) RAID 0"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie kann die Luftführung in Rechenzentren verbessert werden?",
+              "optionen": [
+                "a) Mit Heizstrahlern",
+                "b) Durch chaotisches Kabelmanagement",
+                "c) Durch saubere Verkabelung und Verblendungen in Racks",
+                "d) Mit WLAN-Routern"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist das Ziel der ISO 14004?",
+              "optionen": [
+                "a) Technische Spezifikation von Netzwerkkabeln",
+                "b) Leitlinie zur Umsetzung der ISO 14001",
+                "c) Zertifikat für sichere VPN-Verbindungen",
+                "d) Vorschrift zur Kabeldicke in Serverschränken"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist ein alter Server wie ein alter Rockstar?",
+              "optionen": [
+                "a) Weil er immer laut ist",
+                "b) Weil er oft ohne Publikum arbeitet",
+                "c) Weil er viel Strom braucht, aber kaum noch performt",
+                "d) Weil er eine eigene Bühne (Rack) braucht"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm52": {
+        "9.5 Pflichtenhefte nach Unternehmensanforderungen erstellen\n  9.5.1 Ausschreibungs- und Vergabeplanung": {
+          "lerninhalt": [
+            "Die Kapitel bauen auf Grundlagen auf (ab Kapitel 9.1) und vertiefen Verfahren zur Beschaffung und Bereitstellung von Netzwerktechnik.\nDigitale Beschaffungsplattformen eröffnen Möglichkeiten für eigene Recherchen und zeigen professionelle Beschaffungswege auf.\nPflichtenhefte werden auf Ausschreibungsplattformen als Leistungsbeschreibungen veröffentlicht.\nDiese Plattformen zeigen, wie Unternehmen und öffentliche Einrichtungen kommunizieren.",
+            "Nach Darstellung der Ausschreibungs- und Vergabeplanung mit Kurzvorstellung der Beispielaufträge werden passende funktionale und nicht funktionale Anforderungen behandelt.",
+            "Beschaffungs- und Bereitstellungsprojekte scheitern häufig, wenn Vergaben nicht geregelt sind, wodurch Unstimmigkeiten und Ablaufprobleme zwischen Auftraggebern und Auftragnehmern entstehen.\nDeshalb stellen Auftraggeber möglichst genaue Verfahrensregeln auf.",
+            "Öffentliche Maßnahmenträger unterliegen Gesetzen und Verordnungen für das Vergabeverfahren.\nGroßunternehmen haben vergleichbare Verfahren, auch kleinere Unternehmen übernehmen bewährte Methoden.\nWo große Geldsummen im Spiel sind, gelten strenge Compliance-Regeln zur Verhinderung von Korruption, Kollusion und Vetternwirtschaft.",
+            "Zur Erstellung von Leistungsbeschreibungen werden Leistungswerte (KPIs) über Internetplattformen der Hersteller oder Shops ermittelt und berücksichtigt.\nFür IT-Produkte stehen hunderte Angebote online zur Verfügung, teilweise mit Konfiguratoren nach dem Build-to-Order-Prinzip (BTO) sowie Services für gewerbliche Kunden.",
+            "Einkäufer finden Lieferanten über Lieferantenportale.\nUnabhängige digitale Beschaffungsportale vernetzen Lieferanten und Kunden und vereinfachen Logistik, Bezahlung und Retouren für Standardartikel.",
+            "Internetshops: IT-Komponenten werden direkt über große Portale beschafft (Hersteller oder spezialisierte IT-Anbieter).\nWert gelegt wird auf hochwertige Komponenten, Beratung, Bereitstellung und Wartung.\nDigitale Konfiguratoren ermöglichen maßgeschneiderte Systeme nach dem BTO-Prinzip.",
+            "Lieferantensuchportale: ermöglichen schnelle Auffindbarkeit von Anbietern und das Erstellen qualifizierter Anfragen.",
+            "B2B-Marktplätze: Unabhängige digitale Plattformen, die gewerblichen Handel unterstützen.\nAnbieter können Produkte vergleichend darstellen, Kunden können Suchanfragen stellen, Bedarfskataloge erstellen, Beschaffungsorganisation für Standardartikel optimieren und Retouren- und Bezahlprozesse vereinfachen.",
+            "Beispielhafte Komponentenübersicht in ASCII-Tabelle:\n+-------------------+---------------------------------------------------------------+\n| Komponente        | Beschreibung                                                  |\n+-------------------+---------------------------------------------------------------+\n| Mainboard         | Supermicro X11DPI-N: 2x 1 Gbit LAN, 16 DIMMs, Intel C621      |\n|                   | Chipsatz, 14x SATA-3, SW-RAID Controller                      |\n| Energiebedarf     | Max. 238 W, 814 BTU/h                                         |\n| Konfiguration     | BTO mit Software, Zubehör, Energiebedarf online kalkulierbar  |\n+-------------------+---------------------------------------------------------------+",
+            "Ausschreibungen öffentlicher Auftraggeber werden auf digitalen Vergabeplattformen veröffentlicht. Große Unternehmen betreiben eigene Beschaffungsplattformen, kleinere nutzen zunehmend digitale Netzwerke, um von deren Vorteilen zu profitieren.",
+            "Öffentliche Einrichtungen schreiben Aufträge öffentlich aus und nutzen spezialisierte Plattformen, v. a. für IT‑Systeme, Software, Lizenzen und Netzwerke.",
+            "Die Erfassung ist meist kostenlos für Anbieter; Angebotssuchende zahlen monatliche Gebühren. Registrierte Anbieter erhalten automatisierte Ausschreibungs‑Benachrichtigungen.",
+            "Ausschreibungsportale vermitteln Infrastruktur-, Bau-, Installations‑ und Dienstleistungsaufträge. Hauptsächlich öffentliche Vergaben, teils auch private.",
+            "Ziel der Plattformen ist es, Auftraggeber und Auftragnehmer zusammenzubringen – nicht immer siegt der günstigste Preis, oft spielen Qualität, Liefertermin und Erfahrung eine Rolle.",
+            "Portale bieten Dienste wie Informationsdienste, CRM, Workflow, Glossare und regionale/ thematische Eingrenzung (Beispiele: dtad, dtvp, evergabe, it‑ausschreibung etc.).",
+            "Elektronische Vergabe bietet Vorteile: stets aktuelle Datenbanken, gezieltes Suchen, professionelle Unterstützung, elektronische Kommunikation rund um die Uhr, rechtssichere Vergabe, Plausibilitätsprüfung, digitale Signaturen, reduzierte Versandkosten und strukturierte Angebotsbearbeitung.",
+            "Öffentliche Auftraggeber müssen alle notwendigen Informationen bereitstellen. Vor Veröffentlichung sind Titel, Beschreibung und benötigte Serverart (z. B. VDI, Backup) zu klären.",
+            "Ausschreibungskomponenten umfassen Titel, Lose, Leistungsbeschreibungen, Anlagen (Grundpläne, Fragebogen…), Vergabeunterlagen und rechtliche Angaben zur digitalen Signatur.",
+            "Ein strukturierter Vergabeprozess enthält Module für Erfassung, Leistungsbeschreibung, Angebotsphase bis zur Bestellung. Bei VOL(A)‑Ausschreibungen ist oft keine öffentliche Zuschlagsbekanntgabe. Fristen einzuhalten ist essenziell.",
+            "Ausschreibungs‑Prozess über digitale Plattformen (z. B. evergabe.de) läuft über Module im Vergabemanager: Erstellung Leistungsverzeichnis, interne Vorbereitung, Bekanntmachung, Angebotsabwicklung, Angebotsöffnung, Wertung, Zuschlagserteilung und Bestellabwicklung.",
+            "Kalkulationsblätter werden als Anlagen bereitgestellt oder in Masken der Plattform erfasst; Anbieter geben Preise, Mengen, Rabatte an.",
+            "",
+            "ASCII‑Tabelle (Preisblatt Los 1):",
+            "A | B       | C      | D                              | E    | F     | G    | J",
+            "1 | Stadt Nettesheim",
+            "2 | Ausschreibung Schuldigitalisierung: Server, Software, Unterstützung",
+            "4 | Preisblatt (nur grün ausfüllen!)",
+            "…",
+            "Teillos | Bezeichnung       | Los | Hersteller | Produktbeschreibung                          | Menge | Artikel Nr. | Preis | Einh. | Gesamt",
+            "1       | Server komplett   | 1   |            |                                               |       |             | 0,00€ |       | 0,00€",
+            "2       | Rack komplett     | 1   |            |                                               |       |             | 0,00€ |       | 0,00€",
+            "… bis Position 10 Datenübernahme pauschal",
+            "",
+            "Preisblatt Los 2 & Los 3 analog – z. B. Netzwerkmanagementlaufzeit, Internetfilter, Installation, Schulung.",
+            "",
+            "Stundensatz‑Tabelle (Los 4):",
+            "Bezeichnung           | Los | Menge | Stundensatz netto",
+            "Techniker             | 4   | ?     | …",
+            "System Engineer       | 4   | ?     | …",
+            "Auszubildender        | 4   | ?     | …",
+            "",
+            "Ausschreibungsplattformen ermöglichen strukturierte Erfassung, Ergänzung von Leistungen/Preisen, Upload von Anlagen und Nutzung von Masken für Preisinformation."
+
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist ein Hauptziel digitaler Beschaffungsplattformen für Netzwerktechnik?",
+              "optionen": [
+                "a) Unterhaltung",
+                "b) Online-Werbung",
+                "c) Professionelle Beschaffungswege",
+                "d) Private Nutzung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum werden Pflichtenhefte auf Ausschreibungsplattformen veröffentlicht?",
+              "optionen": [
+                "a) Für das Marketing",
+                "b) Als Leistungsbeschreibung für Aufträge",
+                "c) Zur Personalgewinnung",
+                "d) Zur Datensicherung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was kann passieren, wenn Vergaben nicht geregelt sind?",
+              "optionen": [
+                "a) Es entstehen kreative Lösungen",
+                "b) Unstimmigkeiten und Ablaufprobleme",
+                "c) Mehr Flexibilität",
+                "d) Schnellere Projektabschlüsse"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Regeln gelten für öffentliche Beschaffungsmaßnahmen?",
+              "optionen": [
+                "a) Keine",
+                "b) Nur mündliche Vereinbarungen",
+                "c) Gesetze und Verordnungen",
+                "d) Persönliche Einschätzungen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was sollen Compliance-Regeln verhindern?",
+              "optionen": [
+                "a) Steuerverschwendung",
+                "b) Fehlerhafte Konfigurationen",
+                "c) Korruption und Vetternwirtschaft",
+                "d) Lagerengpässe"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist das BTO-Prinzip?",
+              "optionen": [
+                "a) Buy-to-Operate",
+                "b) Build-to-Order",
+                "c) Bring-the-Options",
+                "d) Base-Technology-Order"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Rolle spielen Lieferantensuchportale?",
+              "optionen": [
+                "a) Produktdesign",
+                "b) Serverüberwachung",
+                "c) Anbieterfindung und Anfrageerstellung",
+                "d) Werbung schalten"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Vorteile bieten B2B-Marktplätze?",
+              "optionen": [
+                "a) Musikstreaming",
+                "b) Austausch privater Nachrichten",
+                "c) Vergleichende Angebotsdarstellung und Prozessvereinfachung",
+                "d) Urlaubsplanung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum nutzen Unternehmen Internetshops zur IT-Beschaffung?",
+              "optionen": [
+                "a) Wegen schöner Produktbilder",
+                "b) Weil dort Snacks verkauft werden",
+                "c) Wegen hochwertiger Systeme und Serviceangebote",
+                "d) Um Kunden zu gewinnen"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was bedeutet 'Kollusion' im Kontext der Beschaffung?",
+              "optionen": [
+                "a) Technische Störung",
+                "b) Netzwerküberlastung",
+                "c) Unerlaubtes Zusammenwirken Beteiligter",
+                "d) Preisnachlass"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Wie nennt man einen Admin, der sich im Beschaffungsportal verirrt hat?",
+              "optionen": [
+                "a) Portal-Wanderer",
+                "b) Vergabe-Verwirrter",
+                "c) BTO-Banause",
+                "d) Lost-In-Procurement"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Wo werden öffentliche IT‑Ausschreibungen typischerweise veröffentlicht?",
+              "optionen": [
+                "a) In Tageszeitungen",
+                "b) Auf digitalen Ausschreibungsplattformen",
+                "c) Auf Social‑Media",
+                "d) In privaten Gruppen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wer von monatlichen Gebühren für Plattformdienste betroffen ist?",
+              "optionen": [
+                "a) Öffentliche Auftraggeber",
+                "b) Angebotssuchende Anbieter",
+                "c) Alle Nutzer",
+                "d) Niemand"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum gewinnt nicht immer der günstigste Anbieter?",
+              "optionen": [
+                "a) Weil Länder es verbieten",
+                "b) Wegen Qualität, Liefertermin oder Erfahrung",
+                "c) Wegen Zufall",
+                "d) Wegen fehlender Angebote"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Dienste bieten Ausschreibungsportale zusätzlich?",
+              "optionen": [
+                "a) Streaming",
+                "b) CRM und Workflow",
+                "c) Spiele",
+                "d) Kochrezepte"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche rechtlich wichtige Funktion bieten solche Plattformen?",
+              "optionen": [
+                "a) Automatische Rechtsberatung",
+                "b) Digitale Signatur",
+                "c) Überwachungskräfte",
+                "d) Wetterbericht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was gehört nicht zur strukturierten Ausschreibungskomponente?",
+              "optionen": [
+                "a) Lose",
+                "b) Leistungsbeschreibung",
+                "c) Finanzierungsfragebogen",
+                "d) Anlagen wie Grundpläne"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist essentiell, um an einer VOL(A)‑Ausschreibung teilnehmen zu können?",
+              "optionen": [
+                "a) Kreative Bewerbung",
+                "b) Einhaltung der Fristen",
+                "c) Öffentlichkeitsarbeit",
+                "d) Bonuszahlung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Plattformkategorie unterstützt speziell IT‑Ausschreibungen?",
+              "optionen": [
+                "a) Lebensmitteldatenbanken",
+                "b) IT‑Marktplätze wie it‑ausschreibung.de",
+                "c) Sportplattformen",
+                "d) Bewertungsportale"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist der erste Schritt in einer Ausschreibung?",
+              "optionen": [
+                "a) Lieferung",
+                "b) Bekanntmachung mit Titel und Kurzerläuterung",
+                "c) Rechnungsstellung",
+                "d) Schulung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Rolle spielt die Plausibilitätsprüfung?",
+              "optionen": [
+                "a) Sie ersetzt Mitarbeiter",
+                "b) Sie verhindert formale Fehler",
+                "c) Sie generiert Angebote",
+                "d) Sie kontrolliert den Wetterbericht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Admin, der die Frist verpasst?",
+              "optionen": [
+                "a) Deadlinedeadline",
+                "b) Fristverlustinator",
+                "c) Vergabeverpenner",
+                "d) Ausschreibungsasphaltierer"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Module enthält der Vergabemanager in der Plattform?",
+              "optionen": [
+                "a) Projektplanung, Umsetzung, Test",
+                "b) Leistungsverzeichnis, Vorbereitung, Bekanntmachung, Angebotsöffnung, Wertung, Zuschlag, Bestellung",
+                "c) Budgetplanung, Einkauf, Lieferung",
+                "d) Schulung, Dokumentation, Abnahme"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie werden Kalkulationsblätter den Anbietern bereitgestellt?",
+              "optionen": [
+                "a) Nur per E‑Mail",
+                "b) Als Anlagen oder in Plattform‑Masken",
+                "c) Nur mündlich",
+                "d) Über Social Media"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was enthält die ASCII‑Tabelle im Modul?",
+              "optionen": [
+                "a) Stundensätze Los 4",
+                "b) Gerätepreise Server und Rack",
+                "c) Nutzungsanleitung Plattform",
+                "d) Risikoanalyse"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wozu dienen Stundensatz‑Tabellen (Los 4)?",
+              "optionen": [
+                "a) Für Budgetplanungen",
+                "b) Für Angebotsvergleiche bei Dienstleistungen",
+                "c) Für Vergabeverfahren",
+                "d) Für Schulungspläne"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum müssen nur grüne Felder ausgefüllt werden?",
+              "optionen": [
+                "a) Sie sind Pflichtfelder",
+                "b) Sie sind optional",
+                "c) Sie sind für interne Zwecke",
+                "d) Sie sind Auswertungsfelder"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Positionen finden sich in Los 1?",
+              "optionen": [
+                "a) Nur Server",
+                "b) Server, Rack, Windows Server, VMware, NAS, USV, Firewall, Antivirus, Installation, Datenübernahme",
+                "c) Nur Software",
+                "d) Nur Schulungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Plattformfunktion erlaubt Rabatte einzutragen?",
+              "optionen": [
+                "a) Angebotsformular",
+                "b) Preisblatt",
+                "c) CRM",
+                "d) Dashboard"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum werden Preisblätter als Anlagen hochgeladen?",
+              "optionen": [
+                "a) Zur Übersichtlichkeit und Vergleichbarkeit",
+                "b) Zur Verschlüsselung",
+                "c) Zur Archivierung",
+                "d) Zur Schulung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Bedeutung hat der Punkt „Bestellabwicklung\"?",
+              "optionen": [
+                "a) Er fasst den Einkauf zusammen",
+                "b) Er beendet den Vergabeprozess mit Bestellung",
+                "c) Er startet den Prozess",
+                "d) Er prüft Rechnungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Anbieter, der im System versehentlich Los 99 auswählt?",
+              "optionen": [
+                "a) Los‑verloren",
+                "b) Los‑verpeilt",
+                "c) Los‑verwirrt",
+                "d) Los‑glücklich"
+              ],
+              "antwort": "b"
+            }  ]
         }
       }
 
