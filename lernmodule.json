@@ -5252,6 +5252,345 @@
               }
           ]
         }
+      },
+      "lm36": {
+        "1.3.4 - Formen der Aufbauorganisation und Unternehmensrechtsformen unterscheiden\n (1) Grundbegriffe der Organisation und Stellenbildung": {
+          "lerninhalt": [
+              "Die betriebliche Organisation wird in zwei grundlegende Bereiche unterteilt: die Aufbauorganisation und die Ablauforganisation. Die Ablauforganisation wird später im Kapitel 1.3.5 und im zweiten Ausbildungsjahr vertieft behandelt.",
+              "Organisation unterscheidet sich von den Begriffen Disposition und Improvisation. Unternehmen müssen ein angemessenes Verhältnis zwischen flexiblen, fallweisen Regelungen und verbindlichen Dauerregelungen finden.",
+              "Eine Überorganisation (zu viele starre Regeln) kann zu Demotivation der Mitarbeitenden und geringerer Innovationsbereitschaft führen. Eine Unterorganisation (zu wenig Struktur) kann hingegen zu schlechten Leistungen und Kundenunzufriedenheit führen.",
+              "",
+              "**Aufbauorganisation:**",
+              "Die Aufbauorganisation beschäftigt sich mit der strukturellen Gliederung des Unternehmens.",
+              "- Sie gliedert den Betrieb in funktionsfähige Einheiten (Abteilungen, Teams, Stellen).",
+              "- Sie überträgt Aufgaben, Kompetenzen (Entscheidungsbefugnisse) und Verantwortung auf die Mitarbeitenden.",
+              "- Sie legt ein System von Informations- und Anweisungswegen fest (wer berichtet an wen, wer erteilt Anweisungen).",
+              "- Sie entwickelt geeignete Führungsformen und -techniken.",
+              "",
+              "**Ablauforganisation:**",
+              "Die Ablauforganisation regelt die konkreten Arbeitsprozesse.",
+              "- Sie regelt den funktionalen Arbeitsablauf (Welche Tätigkeiten werden in welcher Reihenfolge ausgeführt?).",
+              "- Sie regelt den zeitlichen Arbeitsablauf (Wann werden welche Tätigkeiten ausgeführt?).",
+              "- Sie regelt den räumlichen Arbeitsablauf (Wo werden welche Tätigkeiten ausgeführt?).",
+              "- Sie dient dem optimalen Einsatz der vorhandenen Kapazitäten (Mitarbeiter, Maschinen, Betriebsmittel).",
+              "",
+              "**Unterscheidung: Organisation, Disposition, Improvisation:**",
+              "Die folgende Grafik veranschaulicht das Verhältnis:",
+              "[Dauerregelungen (geplant)]",
+              "      |",
+              "      v",
+              "[Organisation]",
+              "      |",
+              "      v",
+              "[Fallweise Regelung im Rahmen einer Dauerregelung (geplant)]",
+              "      |",
+              "      v",
+              "[Disposition] --> Anpassung an plötzlich auftretende, aber vorhersehbare Situationen (nicht im Detail geplant).",
+              "      |",
+              "      v",
+              "[Improvisation] --> Handeln in völlig unvorhergesehenen Situationen (evtl. entsteht daraus neuer Regelungsbedarf für die Zukunft)."
+          ],
+          "fragen": [
+              {
+                  "frage": "In welche beiden Hauptbereiche wird die betriebliche Organisation unterteilt?",
+                  "optionen": [
+                      "a) Personalorganisation und Finanzorganisation",
+                      "b) Aufbauorganisation und Ablauforganisation",
+                      "c) Strategische und operative Organisation",
+                      "d) Interne und externe Organisation"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Welche Aussage beschreibt die Aufbauorganisation?",
+                  "optionen": [
+                      "a) Sie regelt den zeitlichen Ablauf von Produktionsschritten.",
+                      "b) Sie gliedert das Unternehmen in Einheiten, überträgt Aufgaben und legt Kommunikationswege fest.",
+                      "c) Sie optimiert den Einsatz von Maschinen.",
+                      "d) Sie plant die täglichen Arbeitsaufgaben der Mitarbeiter."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Was ist eine mögliche negative Folge einer 'Überorganisation'?",
+                  "optionen": [
+                      "a) Hohe Kundenunzufriedenheit wegen fehlender Struktur",
+                      "b) Demotivation der Mitarbeiter und geringere Innovationsbereitschaft",
+                      "c) Chaotische Arbeitsabläufe",
+                      "d) Zu schnelle Entscheidungsprozesse"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Kompetenzcheck: In der IT-Abteilung von IKU gibt es eine klare Stelle 'Leiter IT-Infrastruktur', der das Team 'Netzwerk' untersteht. Dieser Leiter darf Budgetentscheidungen bis 10.000 € treffen und ist für die Stabilität der Netzwerke verantwortlich. Welcher Bereich der Organisation wird hier primär beschrieben?",
+                  "optionen": [
+                      "a) Die Ablauforganisation",
+                      "b) Die Aufbauorganisation",
+                      "c) Die Improvisation",
+                      "d) Die Disposition"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Was regelt die Ablauforganisation? (Mehrere Antworten möglich)",
+                  "optionen": [
+                      "a) Die räumliche Anordnung von Arbeitsplätzen",
+                      "b) Die zeitliche Reihenfolge von Arbeitsschritten",
+                      "c) Die Gliederung in Abteilungen",
+                      "d) Den funktionalen Arbeitsablauf (Abfolge der Tätigkeiten)"
+                  ],
+                  "antwort": ["a", "b", "d"],
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Wie unterscheiden sich 'Disposition' und 'Improvisation'?",
+                  "optionen": [
+                      "a) Disposition ist Reaktion auf unvorhergesehene Ereignisse, Improvisation auf geplante.",
+                      "b) Disposition ist Anpassung an plötzlich auftretende, aber prinzipiell vorhersehbare Situationen. Improvisation ist Handeln in völlig unvorhergesehenen Situationen.",
+                      "c) Beide Begriffe bedeuten dasselbe.",
+                      "d) Disposition ist langfristig, Improvisation kurzfristig."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Profi"
+              },
+              {
+                  "frage": "Was könnte eine Folge von 'Unterorganisation' sein?",
+                  "optionen": [
+                      "a) Zu viele starre Vorschriften",
+                      "b) Schlechte Leistungen und Kundenunzufriedenheit",
+                      "c) Hohe Mitarbeitermotivation durch viele Freiheiten",
+                      "d) Keine spontanen Entscheidungen möglich"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Was ist das Ziel einer gut gestalteten Ablauforganisation?",
+                  "optionen": [
+                      "a) Die maximale Hierarchiestufen zu schaffen.",
+                      "b) Den optimalen Einsatz vorhandener Kapazitäten (Personal, Betriebsmittel) zu erreichen.",
+                      "c) Die Gehälter festzulegen.",
+                      "d) Die Unternehmensvision zu formulieren."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Profi"
+              },
+              {
+                  "frage": "Welcher Begriff beschreibt die Festlegung von Informations- und Anweisungswegen (wer informiert wen, wer gibt Anweisungen an wen)?",
+                  "optionen": [
+                      "a) Ablauforganisation",
+                      "b) Aufbauorganisation",
+                      "c) Improvisation",
+                      "d) Disposition"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Warum müssen Unternehmen ein 'richtiges Verhältnis' zwischen Dauerregelungen und fallweisen Regelungen finden?",
+                  "optionen": [
+                      "a) Weil es das Gesetz so vorschreibt.",
+                      "b) Um einerseits Struktur und Effizienz zu gewährleisten und andererseits Flexibilität für Unvorhergesehenes zu bewahren.",
+                      "c) Um die Anzahl der Manager zu rechtfertigen.",
+                      "d) Weil Dauerregelungen immer teurer sind."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Profi"
+              },
+              {
+                  "frage": "Wie nennt man einen Organisator, der seinen eigenen Schreibtisch nicht aufräumen kann?",
+                  "optionen": [
+                      "a) Ein Theoretiker",
+                      "b) Ein lebendes Paradoxon",
+                      "c) Ein Experte für dezentrale Strukturen",
+                      "d) Ein Meister der improvisierten Ablage"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Scherzfrage"
+              }
+          ]
+        }
+      },
+      "lm37": {
+        "(2) Aufgabenanalyse und Stellenbildung": {
+          "lerninhalt": [
+              "Aufgrund sich schnell ändernder oder neu entstehender Arbeitsbereiche müssen Geschäfts- und Abteilungsleitungen entscheiden, wie neue Aufgaben bewältigt werden sollen. Möglichkeiten sind: Schaffung einer neuen Stelle, Übertragung als Zusatzaufgabe an bestehende Mitarbeitende oder Outsourcing (Vergabe an externe Unternehmen).",
+              "Fällt die Entscheidung für eine neue Stelle, sollte zunächst ein **Aufgabengliederungsplan** erstellt werden, um den genauen Aufgabenbereich und -umfang zu definieren. Zudem muss geklärt werden, um welche Art von Stelle es sich handelt:",
+              "- **Instanz (leitende Stelle):** Besitzt Anordnungs- und Entscheidungsbefugnisse gegenüber untergeordneten Stellen.",
+              "- **Stabsstelle:** Dient einer Instanz als unterstützende Hilfsstelle ohne eigene Anordnungs- und Entscheidungsbefugnis. Ihre Funktion ist beratend und entscheidungsvorbereitend.",
+              "- **Ausführende Stelle:** Führt Aufgaben aus, besitzt aber keine Leitungs- oder Entscheidungsbefugnisse.",
+              "",
+              "**Beispiel für einen Aufgabengliederungsplan eines IT-Mitarbeiters (Ausschnitt):**",
+              "**Hauptaufgabe: Betreuung der EDV**",
+              "- **Teilaufgabe: Beschaffung**",
+              "  * Einzelaufgabe: Bedarfsanalyse",
+              "  * Einzelaufgabe: Angebote einholen",
+              "  * Einzelaufgabe: Angebote vergleichen",
+              "  * Einzelaufgabe: Bestellung, Abnahme",
+              "- **Teilaufgabe: Installation**",
+              "  * Einzelaufgabe: Anschluss der Anlagen",
+              "  * Einzelaufgabe: Netzwerkerweiterung",
+              "  * Einzelaufgabe: Softwareinstallation",
+              "  * Einzelaufgabe: Kommunikation und Datenaustausch, IT-Sicherheit und Datenschutz sicherstellen",
+              "  * Einzelaufgabe: Mitarbeiter in Handhabung einführen und beraten",
+              "- **Teilaufgabe: Wartung**",
+              "  * Einzelaufgabe: Computersysteme und Computernetz warten und funktionsfähig halten",
+              "  * Einzelaufgabe: Verbrauchsmaterial bereitstellen",
+              "- **Teilaufgabe: Fortbildung und Beratung**",
+              "  * Einzelaufgabe: Eigene Fortbildung",
+              "  * Einzelaufgabe: Beratung und Fortbildung der Mitarbeiterinnen und Mitarbeiter",
+              "",
+              "Viele Unternehmen führen einen **Stellenplan**, in dem alle genehmigten Positionen aufgeführt sind. Für jede Stelle wird eine **Stellenbeschreibung** erstellt, die unabhängig von der besetzenden Person folgende Inhalte festhält:",
+              "- Alle zugeordneten Aufgaben und Zuständigkeiten",
+              "- Die Besoldungseinordnung (Gehaltsgruppe)",
+              "- Erteilte Vollmachten und Befugnisse",
+              "- Vorausgesetzte Kompetenzen (erforderliche Ausbildung, Abschlüsse, praktische Erfahrungen)",
+              "",
+              "**Grundprinzipien der Stellenbildung:**",
+              "- **Arbeitsteilung:** In einer spezialisierten Gesellschaft ist arbeitsteilige Aufgabenerledigung üblich. Es muss geprüft werden, ob Aufgaben durch Outsourcing besser oder kostengünstiger erledigt werden können. Vor- und Nachteile der Arbeitsteilung sind abzuwägen.",
+              "- **Überschaubarkeit:** Die Aufgaben einer Stelle dürfen den Inhaber nicht überfordern (zeitlicher und sachlicher Umfang, Abhängigkeiten zu anderen Stellen).",
+              "- **Angemessenheit:** Die Aufgaben müssen der Leistungsfähigkeit potenzieller Stelleninhaber entsprechen. Gegebenenfalls sind begleitende Qualifizierungsmaßnahmen vorzusehen.",
+              "",
+              "**Genderkonformität:** Stellenausschreibungen müssen nach dem Allgemeinen Gleichbehandlungsgesetz (AGG) geschlechtsneutral formuliert sein oder die Bezeichnungen (m/w/d) für männlich/weiblich/divers bzw. (m/w/i) für intersexuell enthalten.",
+              "",
+              "**Beauftragte im Unternehmen:** Betriebe müssen aufgrund gesetzlicher Vorgaben für bestimmte Themen Beauftragte benennen. Darüber hinaus dienen Beauftragte zur Entlastung von Leitungsstellen. Beispiele sind: Arbeitssicherheitsbeauftragte, Datenschutzbeauftragte, Brandschutzbeauftragte, Qualitätsmanagementbeauftragte, Umweltbeauftragte, Betriebsärzte, Ersthelfer.",
+              "",
+              "**Internationale (amerikanische) Leitungsbezeichnungen:** Besonders in internationalen Unternehmen sind folgende englische Bezeichnungen verbreitet:",
+              "- **CEO (Chief Executive Officer):** Das geschäftsführende Vorstandsmitglied oder der Geschäftsführer (oft der höchste Manager).",
+              "- **CFO (Chief Financial Officer):** Vorstandsmitglied oder Hauptverantwortlicher für Finanzen (Finanzvorstand, Leiter Finanzen).",
+              "- **CTO (Chief Technology Officer):** Vorstandsmitglied oder Hauptverantwortlicher für den technischen Bereich (Technikvorstand, Technischer Leiter).",
+              "- **CIO (Chief Information Officer):** Vorstandsmitglied oder Hauptverantwortlicher für den IT-Bereich (IT-Vorstand, IT-Leiter). In größeren Unternehmen unterstreicht die CIO-Position die strategische Bedeutung der IT.",
+              "- **COO (Chief Operating Officer):** Vorstandsmitglied oder Hauptverantwortlicher für die operativen Geschäftsabläufe.",
+              "- **CDO (Chief Digital Officer):** Position in der obersten Führungsebene, verantwortlich für die Planung und Steuerung der digitalen Transformation des Unternehmens."
+          ],
+          "fragen": [
+              {
+                  "frage": "Welche drei grundsätzlichen Möglichkeiten hat ein Unternehmen, um neue Aufgaben zu bewältigen?",
+                  "optionen": [
+                      "a) Neue Stelle schaffen, Aufgaben ignorieren, Kosten senken",
+                      "b) Neue Stelle schaffen, Zusatzaufgabe an bestehende Mitarbeiter, Outsourcing",
+                      "c) Nur Outsourcing, alles andere ist zu teuer",
+                      "d) Mehr Überstunden anordnen, Stellen streichen, Gehälter kürzen"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Was ist der Zweck eines Aufgabengliederungsplans?",
+                  "optionen": [
+                      "a) Das Gehalt des Stelleninhabers festzulegen.",
+                      "b) Den genauen Aufgabenbereich, die Teilaufgaben und Einzelaufgaben einer neuen oder bestehenden Stelle zu definieren.",
+                      "c) Den Urlaubsanspruch zu regeln.",
+                      "d) Die Bürofläche zu planen."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Was charakterisiert eine 'Stabsstelle'?",
+                  "optionen": [
+                      "a) Sie hat volle Anordnungs- und Entscheidungsbefugnis über andere Abteilungen.",
+                      "b) Sie ist eine unterstützende, beratende Stelle ohne eigene Anordnungsbefugnis.",
+                      "c) Sie führt nur einfache, ausführende Tätigkeiten aus.",
+                      "d) Sie ist immer mit der Personalverwaltung betraut."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Welches Dokument listet unabhängig von der Person alle Aufgaben, Zuständigkeiten und erforderlichen Qualifikationen für eine Position auf?",
+                  "optionen": [
+                      "a) Der Arbeitsvertrag",
+                      "b) Die Stellenbeschreibung",
+                      "c) Der Geschäftsbericht",
+                      "d) Das Organigramm"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Kompetenzcheck: IKU möchte die Einhaltung der DSGVO stärken. Es soll eine Person benannt werden, die die Mitarbeiter berät und die Einhaltung überwacht, aber keine disziplinarische Befugnis über sie hat. Welche Stellenart wäre hierfür am passendsten?",
+                  "optionen": [
+                      "a) Eine Instanz (leitende Stelle)",
+                      "b) Eine Stabsstelle (z.B. als Datenschutzbeauftragte/r)",
+                      "c) Eine ausführende Stelle in der Verwaltung",
+                      "d) Eine externe Outsourcing-Firma"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Welches Prinzip der Stellenbildung verlangt, dass Aufgaben nicht zu umfangreich oder komplex sein dürfen, um den Stelleninhaber nicht zu überfordern?",
+                  "optionen": [
+                      "a) Arbeitsteilung",
+                      "b) Überschaubarkeit",
+                      "c) Angemessenheit",
+                      "d) Genderkonformität"
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Profi"
+              },
+              {
+                  "frage": "Welche amerikanische Bezeichnung entspricht in etwa dem deutschen 'IT-Leiter' oder 'IT-Vorstand', der für die strategische und operative Führung der IT verantwortlich ist?",
+                  "optionen": [
+                      "a) CEO",
+                      "b) CFO",
+                      "c) CIO",
+                      "d) CTO"
+                  ],
+                  "antwort": "c",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Warum müssen Stellenausschreibungen nach dem AGG geschlechtsneutral oder mit (m/w/d) formuliert sein?",
+                  "optionen": [
+                      "a) Weil es modern klingt.",
+                      "b) Um Diskriminierung aufgrund des Geschlechts zu vermeiden und allen Geschlechtern gleiche Chancen zu bieten.",
+                      "c) Weil es die Bewerberzahl reduziert.",
+                      "d) Weil es eine Vorgabe der IT-Branche ist."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Profi"
+              },
+              {
+                  "frage": "Was ist ein typischer Grund, warum Unternehmen gesetzlich vorgeschriebene Beauftragte (z.B. für Arbeitssicherheit, Datenschutz) benennen müssen?",
+                  "optionen": [
+                      "a) Um die Anzahl der Manager zu erhöhen.",
+                      "b) Um spezifische gesetzliche Anforderungen und Verantwortlichkeiten im Unternehmen sicherzustellen und umzusetzen.",
+                      "c) Weil es eine Tradition ist.",
+                      "d) Um das Betriebsklima zu verbessern."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "fortgeschritten"
+              },
+              {
+                  "frage": "Was bedeutet die Abkürzung 'CDO' und welche Verantwortung hat diese Position?",
+                  "optionen": [
+                      "a) Chief Data Officer; verantwortlich für Datenbanken.",
+                      "b) Chief Digital Officer; verantwortlich für die Planung und Steuerung der digitalen Transformation.",
+                      "c) Chief Development Officer; verantwortlich für Softwareentwicklung.",
+                      "d) Chief Design Officer; verantwortlich für das Produktdesign."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Profi"
+              },
+              {
+                  "frage": "Was passiert, wenn der CIO, der CTO und der CDO gleichzeitig in den gleichen Meetingraum gehen?",
+                  "optionen": [
+                      "a) Sie gründen ein neues Tech-Startup.",
+                      "b) Es bricht ein Streit darüber aus, wer die beste Abkürzung hat.",
+                      "c) Das Gebäude wird sofort digital transformiert.",
+                      "d) Der CEO muss entscheiden, wer den größten Bildschirm bekommt."
+                  ],
+                  "antwort": "b",
+                  "schwierigkeit": "Scherzfrage"
+              }
+          ]
+        }
       }
     },
     "lernmoduleLF08": {
