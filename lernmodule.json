@@ -7008,7 +7008,125 @@
             }
           ]
         }
-      }  
+      },
+      "lm50":{
+        "2) Erweiterter Wirtschaftskreislauf":{
+          "lerninhalt": [
+            "Der einfache Wirtschaftskreislauf, der nur Haushalte und Unternehmen umfasst, stellt eine stark vereinfachte Darstellung dar. In der Realität sind die wirtschaftlichen Zusammenhänge deutlich komplexer. Daher wird ein erweiterter Wirtschaftskreislauf betrachtet, der zusätzliche Wirtschaftssubjekte einbezieht: Banken, den Staat und das Ausland.",
+            "Der erweiterte Wirtschaftskreislauf integriert drei weitere wichtige Akteure:\n• Banken: Als Finanzintermediäre zwischen Sparern und Kreditnehmern\n• Staat: Mit Steuereinnahmen, Staatsausgaben und Transferleistungen\n• Ausland: Mit Import- und Exportbeziehungen sowie internationalen Kapitalströmen",
+            "Die Rolle der Banken im erweiterten Wirtschaftskreislauf:\n• Haushalte legen Ersparnisse bei Banken an und erhalten dafür Zinsen\n• Unternehmen und Haushalte nehmen Kredite (Deckungskredite) bei Banken auf\n• Banken vergeben Investitionskredite an Unternehmen\n• Sie ermöglichen den Kauf und Verkauf von Wertpapieren\nDiese Aktivitäten beeinflussen den Geldkreislauf erheblich, da sie Sparen, Investitionen und Verschuldung miteinander verbinden.",
+            "Der Staat als Wirtschaftssubjekt:\n• Einnahmeseite: Der Staat erhebt direkte Steuern (z.B. Grundsteuer, Kfz-Steuer) und indirekte Steuern (z.B. Umsatzsteuer, Lohnsteuer) von Haushalten und Unternehmen (Staatsquote)\n• Ausgabenseite: Der Staat finanziert Staatsausgaben für öffentliche Aufgaben (Bildung, Infrastruktur, Verteidigung)\n• Transferleistungen: Zahlungen an Haushalte wie Kindergeld, Sozialhilfe\n• Subventionen: Zahlungen an Unternehmen zur Investitionsförderung oder Arbeitsplatzschaffung",
+            "Das Ausland im Wirtschaftskreislauf:\n• Exporte: Deutsche Unternehmen erzielen Exporterlöse aus dem Ausland\n• Importe: Haushalte und Unternehmen geben Geld für Importgüter aus\n• Internationale Kapitalströme: Deutsche Haushalte investieren Ersparnisse im Ausland; ausländische Investoren kaufen deutsche Wertpapiere\n• Reiseströme: Tourismus führt zu Geldflüssen zwischen Ländern",
+            "IKU als Unternehmen im erweiterten Wirtschaftskreislauf:\n• Zahlt Steuern an den Staat\n• Erhält möglicherweise Subventionen oder Förderungen\n• Nimmt Kredite bei Banken für Investitionen auf\n• Exportiert IT-Dienstleistungen ins Ausland\n• Importiert Hardware oder Software-Komponenten",
+            "Zusammenhänge im erweiterten Wirtschaftskreislauf (Auszug):\n[ASCII-Darstellung]\nHAUSHALTE → Sparen → BANKEN → Kredite → UNTERNEHMEN\n         → Steuern → STAAT → Subventionen → UNTERNEHMEN\n         → Importausgaben → AUSLAND → Exporterlöse → UNTERNEHMEN",
+            "Besondere Bedeutung in Deutschland:\n• Exportstärke: Deutschland als 'Exportweltmeister' erzielt hohe Exporterlöse\n• Reiseströme: Deutsche als 'Reiseweltmeister' geben viel Geld im Ausland aus\n• Sparverhalten: Deutsche Haushalte verfügen über große Sparvermögen\n• Internationale Verflechtung: Durch Globalisierung und weltweite Bankennetze können Geldtransfers innerhalb von Sekunden erfolgen",
+            "Auswirkungen von internationalen Kapitalströmen:\n• Abfluss von Ersparnissen ins Ausland entzieht zunächst Geld dem deutschen Kreislauf\n• Rückflüsse von Renditen und Zinsen stärken später die Kaufkraft\n• Ausländische Investitionen in Deutschland bringen zusätzliches Kapital\n• Wechselkurse beeinflussen die Wettbewerbsfähigkeit von Exporten und Importen",
+            "Die Erweiterung des Wirtschaftskreislaufs zeigt, wie komplex moderne Volkswirtschaften vernetzt sind. Die zusätzlichen Geldströme zwischen Banken, Staat und Ausland schaffen neue wirtschaftliche Dynamiken und Abhängigkeiten, die im einfachen Modell nicht abgebildet werden."
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Welche drei zusätzlichen Wirtschaftssubjekte werden im erweiterten Wirtschaftskreislauf berücksichtigt?",
+              "optionen": [
+                "a) Nur weitere Unternehmen",
+                "b) Banken, Staat und Ausland",
+                "c) NGOs, Medien und Gewerkschaften",
+                "d) Regionale und lokale Behörden"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Hauptfunktion erfüllen Banken im erweiterten Wirtschaftskreislauf?",
+              "optionen": [
+                "a) Ausschließlich Geld drucken",
+                "b) Als Finanzintermediäre zwischen Sparern und Kreditnehmern",
+                "c) Nur als Steuereinnehmer für den Staat",
+                "d) Ausschließlich als Importeure von Waren"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Einnahmequellen hat der Staat? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Direkte Steuern (z.B. Grundsteuer)",
+                "b) Indirekte Steuern (z.B. Umsatzsteuer)",
+                "c) Nur Gebühren für Dienstleistungen",
+                "d) Ausschließlich Kredite von Banken"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "Was versteht man unter Transferleistungen des Staates?",
+              "optionen": [
+                "a) Direkte Zahlungen an Haushalte wie Kindergeld oder Sozialhilfe",
+                "b) Nur Steuererstattungen",
+                "c) Ausschließlich Gehälter für Beamte",
+                "d) Nur Investitionen in Infrastruktur"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Rolle spielt das Ausland im erweiterten Wirtschaftskreislauf?",
+              "optionen": [
+                "a) Es hat keine Bedeutung für die deutsche Wirtschaft",
+                "b) Es ist Quelle für Exporterlöse und Ziel für Importausgaben",
+                "c) Es beeinflusst nur den Tourismus",
+                "d) Es ist nur für große Konzerne relevant"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum wird Deutschland als 'Exportweltmeister' bezeichnet?",
+              "optionen": [
+                "a) Weil deutsche Unternehmen viele Waren und Dienstleistungen exportieren",
+                "b) Weil Deutschland die meisten Einwohner hat",
+                "c) Weil der deutsche Staat am meisten exportiert",
+                "d) Weil deutsche Banken weltweit aktiv sind"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Auswirkung hat es, wenn deutsche Haushalte Ersparnisse im Ausland investieren?",
+              "optionen": [
+                "a) Das Geld fließt zunächst ab, kann aber später mit Renditen zurückfließen",
+                "b) Es hat keinerlei Auswirkungen auf die deutsche Wirtschaft",
+                "c) Es führt sofort zu höheren Konsumausgaben",
+                "d) Es schwächt dauerhaft den deutschen Geldkreislauf"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Rolle könnte IKU im erweiterten Wirtschaftskreislauf spielen?",
+              "optionen": [
+                "a) Nur als lokaler Dienstleister ohne weitere Verflechtungen",
+                "b) Als Steuerzahler, möglicher Subventionsempfänger und Exporteur von IT-Dienstleistungen",
+                "c) Ausschließlich als Kreditnehmer bei Banken",
+                "d) Nur als Arbeitgeber ohne wirtschaftliche Beziehungen nach außen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ermöglicht weltweite Bankennetze im modernen Wirtschaftskreislauf?",
+              "optionen": [
+                "a) Geldtransfers innerhalb von Sekunden rund um den Globus",
+                "b) Nur lokale Überweisungen",
+                "c) Ausschließlich Bargeldtransporte",
+                "d) Nur innerdeutsche Zahlungen"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Wirtschaftskreislauf, in dem das Geld nur im Ausland verschwindet und nie zurückkommt?",
+              "optionen": [
+                "a) Einbahnstraßen-Ökonomie",
+                "b) Geld-Blackhole",
+                "c) Kapital-Spaghetti",
+                "d) Finanz-Wanderung"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      }
     },
     "lernmoduleLF08": {
       "lm01": {
