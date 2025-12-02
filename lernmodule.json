@@ -5591,7 +5591,1424 @@
               }
           ]
         }
-      }
+      },
+      "lm38":{
+        "(3) Hierarchien und Führungsstile im Unternehmen": {
+          "lerninhalt": [
+            "Unternehmen müssen bei ihrer Organisationsgestaltung die Anzahl der Hierarchieebenen unterhalb der Geschäftsleitung sorgfältig planen. Flachere Hierarchiestrukturen wirken sich positiv auf die Innovationsfähigkeit und Mitarbeitermotivation aus. Sie ermöglichen schnellere Entscheidungsprozesse, direktere Kommunikationswege und fördern die Eigenverantwortung der Beschäftigten.",
+            "In mittleren und großen Unternehmen, auch bei familiengeführten Betrieben, sind rein autoritäre Führungsansätze selten geworden. Ein kooperativer Führungsstil führt zu höherer Mitarbeitermotivation und besseren Arbeitsergebnissen, erfordert jedoch auch mehr Verantwortungsübernahme, Flexibilität und Engagement von den Beschäftigten.",
+            "Die Führung in Unternehmen kann in verschiedene Managementebenen unterteilt werden: Top Management (Geschäftsführung/Vorstand), Middle Management (Abteilungsleiter) und Lower Management (Gruppenleiter). Darunter folgt die Ausführungsebene mit Sachbearbeitern, Facharbeitern und Hilfskräften. Die Stellenpyramide zeigt die Verteilung von Führungs- zu Sachaufgaben auf den verschiedenen Ebenen.",
+            "Statistische Daten zeigen einen klaren Zusammenhang zwischen Hierarchiestruktur und Innovationsleistung: In stark hierarchischen Unternehmen geben nur 33% der Befragten an, innovativ zu sein, während in flachen Hierarchien 61% Innovationen wahrnehmen. In eher hierarchischen Strukturen liegt dieser Wert bei 48%.",
+            "Verschiedene Führungsstile prägen die Unternehmenskultur:\n• Autoritärer Führungsstil: Entscheidungen werden zentral getroffen, Mitarbeiter erhalten klare Weisungen, laufende Kontrolle\n• Kooperativer Führungsstil: Einbindung der Mitarbeiter in Entscheidungen, partnerschaftliche Zusammenarbeit, Ergebnisorientierung\n• Management by Objectives: Gemeinsame Zielvereinbarungen, stärkere Mitarbeiterbeteiligung\n• Management by Delegation (Harzburger Modell): Übertragung von Verantwortung und Kompetenzen",
+            "Moderne Managementansätze charakterisieren sich durch:\n• Flache Hierarchien und Lean Management: Reduzierung von Hierarchiestufen, effizienter Ressourceneinsatz\n• Job-Design-Maßnahmen: Job Enrichment (Aufgabenanreicherung), Job Enlargement (Aufgabenerweiterung), Jobrotation (Stellenwechsel)\n• Gruppen- und Projektarbeit: Förderung der Teamarbeit und Eigenverantwortung in Arbeitsgruppen\n• Integrierte Managementsysteme (IMS): Softwaregestützte Integration verschiedener Managementbereiche wie Qualität, Sicherheit, Umwelt und Datenschutz",
+            "Vergleich verschiedener Managementansätze:\n[ASCII-Darstellung]\nStark hierarchisch    | Eher hierarchisch    | Flache Hierarchie\n-------------------|-------------------|-------------------\n33% innovativ       | 48% innovativ       | 61% innovativ\nstrenge Kontrolle   | gemischte Ansätze  | hohe Eigenverantw.\nlange Entscheidungswege | moderate Geschwindigkeit | schnelle Entscheidungen"
+          ],
+          "fragen": [
+            {
+              "frage": "Welchen Zusammenhang gibt es zwischen Hierarchiestruktur und Innovationsleistung in Unternehmen?",
+              "optionen": [
+                "a) Stärker hierarchische Unternehmen sind innovativer",
+                "b) Flachere Hierarchien korrelieren mit höherer Innovationsleistung",
+                "c) Die Hierarchiestruktur hat keinen Einfluss auf Innovation",
+                "d) Nur mittlere Hierarchieebenen fördern Innovation"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was charakterisiert einen kooperativen Führungsstil im Vergleich zum autoritären Stil?",
+              "optionen": [
+                "a) Strengere Kontrolle und mehr Weisungen",
+                "b) Einbindung der Mitarbeiter in Entscheidungen und Ergebnisorientierung",
+                "c) Höhere Gehälter für Führungskräfte",
+                "d) Längere Arbeitszeiten für alle Beschäftigten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Managementebenen existieren typischerweise in Unternehmen? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Top Management (Geschäftsführung/Vorstand)",
+                "b) Middle Management (Abteilungsleiter)",
+                "c) Customer Management (Kundenbetreuung)",
+                "d) Lower Management (Gruppenleiter)"
+              ],
+              "antwort": ["a", "b", "d"]
+            },
+            {
+              "frage": "Was ist der Hauptvorteil flacher Hierarchien für Entscheidungsprozesse?",
+              "optionen": [
+                "a) Sie ermöglichen längere Beratungsphasen",
+                "b) Sie führen zu schnelleren Entscheidungswegen",
+                "c) Sie reduzieren die Anzahl der Meetings",
+                "d) Sie minimieren die Dokumentationspflicht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aussage zum Harzburger Modell (Management by Delegation) ist korrekt?",
+              "optionen": [
+                "a) Es basiert auf strenger zentraler Kontrolle",
+                "b) Es überträgt Verantwortung und Kompetenzen an Mitarbeiter",
+                "c) Es eliminiert alle Hierarchieebenen",
+                "d) Es fokussiert ausschließlich auf finanzielle Kennzahlen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was versteht man unter einem integrierten Managementsystem (IMS)?",
+              "optionen": [
+                "a) Ein System, das nur das Qualitätsmanagement umfasst",
+                "b) Eine softwaregestützte Integration verschiedener Managementbereiche wie Qualität, Sicherheit und Umwelt",
+                "c) Eine Methode zur Personalreduzierung",
+                "d) Ein ausschließlich manuell geführtes Berichtswesen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Job-Design-Maßnahmen werden im modernen Management zur Steigerung der Arbeitszufriedenheit eingesetzt?",
+              "optionen": [
+                "a) Nur höhere Gehälter",
+                "b) Job Enrichment, Job Enlargement und Jobrotation",
+                "c) Ausschließlich längere Pausenzeiten",
+                "d) Reduzierung der Arbeitszeit ohne Aufgabenänderung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Kompetenzcheck: Was sollte bei der Implementierung eines kooperativen Führungsstils besonders beachtet werden?",
+              "optionen": [
+                "a) Dass Mitarbeiter mehr Verantwortung, Flexibilität und Einsatz zeigen müssen",
+                "b) Dass die Gehälter sofort erhöht werden",
+                "c) Dass alle Entscheidungen weiterhin zentral getroffen werden",
+                "d) Dass die Arbeitszeit verkürzt wird"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welchen prozentualen Anteil an Innovation berichten Unternehmen mit flachen Hierarchien im Vergleich zu stark hierarchischen Unternehmen?",
+              "optionen": [
+                "a) Etwa gleich (ca. 45%)",
+                "b) Deutlich höher (61% vs. 33%)",
+                "c) Deutlich niedriger (25% vs. 55%)",
+                "d) Die Daten zeigen keine signifikanten Unterschiede"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Manager, der ständig zwischen autoritärem und kooperativem Führungsstil wechselt?",
+              "optionen": [
+                "a) Führungs-Akrobat",
+                "b) Stil-Wechsler Pro",
+                "c) Hierarchie-Zickzack",
+                "d) Management-Chamäleon"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm39":{
+        "(4) Leitungssysteme": {
+          "lerninhalt": [
+            "Zur Darstellung der Organisationsstruktur eines Unternehmens werden häufig Organigramme verwendet. Diese grafischen Übersichten zeigen die Hierarchien und Beziehungen zwischen den verschiedenen Unternehmensbereichen. Organigramme können nach verschiedenen Organisationsprinzipien aufgebaut sein, wie z.B. funktional, divisional (Spartenorganisation) oder als Matrixorganisation.",
+            "Untersuchungen belegen, dass der Erfolg eines Unternehmens maßgeblich von seinem Leitungssystem beeinflusst wird. Agile Führungsansätze, die durch Flexibilität, Kreativität, Offenheit, Eigenverantwortung und Transparenz geprägt sind, tragen nachweislich stärker zum Unternehmenserfolg bei als traditionelle, starre Hierarchiemodelle.",
+            "Verschiedene Organisationsformen stehen Unternehmen zur Auswahl:\n• Funktionale Organisation: Die Unternehmenseinheiten werden nach betrieblichen Funktionen gegliedert (z.B. Forschung & Entwicklung, Beschaffung, Fertigung, Absatz, Verwaltung). Koordination und Steuerung erfolgen abteilungsbezogen. Zur Stärkung der Produktverantwortung kann ergänzend ein Produktmanagement eingerichtet werden.\n• Spartenorganisation (divisional): Die Organisation erfolgt nach Geschäftsbereichen oder Produktsparten (z.B. Computertechnik, Netzwerktechnik, Mobilfunktechnik, Services), die über besondere Kompetenzen und eigene Verantwortung verfügen. Innerhalb der Sparten können Profitcenter (eigene Gewinnverantwortung) oder Costcenter (eigene Kostenverantwortung) eingerichtet werden.\n• Matrixorganisation: Diese hybride Form kombiniert funktionale und projektorientierte Strukturen. Mitarbeiter haben dabei zwei Vorgesetzte - einen fachlichen und einen projektbezogenen - was Teamarbeit und fachübergreifende Zusammenarbeit fördert.",
+            "Vier grundlegende Leitungssysteme werden unterschieden:\n[ASCII-Darstellung]\nEinliniensystem        Stabliniensystem         Mehrliniensystem         Matrixorganisation\n---------------        ----------------         -----------------         ------------------\nEine Instanz oben      Linien + Stabsstellen    Mehrere Vorgesetzte       Zwei gleichberechtigte\nKlare Zuständigkeiten  Beratung ohne Weisung    Fachspezialisierung       Führungsinstanzen\nEinfache Struktur      Entlastung der Linie     Flexibler Einsatz         Produkt- & Prozessorient.",
+            "Funktionale Organisation: Die zweite Hierarchiestufe gliedert sich nach betrieblichen Funktionen wie Forschung und Entwicklung, Beschaffung, Fertigung, Absatz und Verwaltung. Koordination, Steuerung und Kontrolle erfolgen abteilungsbezogen. Zur Stärkung der Produktverantwortung kann ergänzend ein Produktmanagement für einzelne Produktbereiche eingerichtet werden.",
+            "Spartenorganisation (divisionale Organisation): Bei dieser Struktur erfolgt die Gliederung nach Geschäftssparten wie Computertechnik, Netzwerktechnik, Mobilfunktechnik und Services. Innerhalb dieser Sparten können Profitcenter (mit eigener Gewinnverantwortung) und Costcenter (mit eigener Kostenverantwortung) eingerichtet werden, um Selbstverantwortung und Ergebnisorientierung zu stärken.",
+            "Leitungssysteme im Detail:\n• Einliniensystem: Jede Stelle hat genau einen direkten Vorgesetzten. Stärken: Klare Zuständigkeiten, einfache Beziehungsstruktur. Schwächen: Lange Informationswege, mögliche Überlastung höherer Instanzen.\n• Stabliniensystem: Ergänzt das Liniensystem durch Stabsstellen ohne Weisungsbefugnis, die Leitungsstellen beratend unterstützen (z.B. Qualitätsmanagement, Rechtsabteilung).\n• Mehrliniensystem: Untergeordnete Stellen können Weisungen von mehreren Vorgesetzten erhalten (auch Funktionsmeistersystem).\n• Matrixorganisation: Als Weiterentwicklung des Mehrliniensystems, bei der jede Stelle von zwei gleichberechtigten Instanzen geführt wird - ideal für projektintensive Bereiche.",
+            "IKU hat nach dem Organigramm einige Stabsstellen eingerichtet. Die Geschäftsleitung von IKU hat sich für eine Kombination aus Stabliniensystem und Matrixorganisation entschieden. In den kundennäheren IT-Solutions-Bereichen wird überwiegend im Projektmanagement gearbeitet, weshalb hier die Matrixorganisation mit ihren unterschiedlichen Kompetenzen und Kundenprojekten am besten geeignet ist.",
+            "Zur Stärkung von Selbstverantwortung und Ergebnisorientierung richten viele Unternehmen spezielle Stellen wie Produktmanager und Account-Manager ein oder bilden organisatorische Einheiten wie Profitcenter und Costcenter. Diese Maßnahmen fördern die Dezentralisierung von Verantwortung und die Fokussierung auf wirtschaftliche Ergebnisse.",
+            "Vergleich der Leitungssysteme nach Stärken und Schwächen:\nEinliniensystem: + Klare Zuständigkeiten, - Lange Informationswege\nStabliniensystem: + Entlastung der Instanzen, - Kompetenzkonflikte möglich\nMehrliniensystem: + Flexibler Einsatz, - Abgrenzungsprobleme\nMatrixorganisation: + Teamarbeit fördernd, - Gleichverteilung der Aufgaben oft nicht gegeben"
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist der Hauptzweck eines Organigramms in einem Unternehmen?",
+              "optionen": [
+                "a) Die finanzielle Leistungsfähigkeit darzustellen",
+                "b) Das Leitungssystem und die Hierarchien grafisch abzubilden",
+                "c) Die Produktpalette zu visualisieren",
+                "d) Die Mitarbeiterzufriedenheit zu messen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Organisationsform gliedert ein Unternehmen primär nach betrieblichen Funktionen wie Forschung, Fertigung und Vertrieb?",
+              "optionen": [
+                "a) Matrixorganisation",
+                "b) Spartenorganisation",
+                "c) Funktionale Organisation",
+                "d) Projektorganisation"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Kompetenzcheck: Welches Leitungssystem eignet sich besonders für kundennahe IT-Bereiche mit viel Projektarbeit?",
+              "optionen": [
+                "a) Einliniensystem",
+                "b) Reine Stabliniensystem",
+                "c) Matrixorganisation",
+                "d) Klassisches Mehrliniensystem"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was unterscheidet ein Profitcenter von einem Costcenter?",
+              "optionen": [
+                "a) Profitcenter haben Gewinnverantwortung, Costcenter Kostenverantwortung",
+                "b) Profitcenter sind immer größer als Costcenter",
+                "c) Costcenter arbeiten nur intern, Profitcenter nur extern",
+                "d) Es gibt keinen wesentlichen Unterschied"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Stärken und Schwächen hat das Einliniensystem? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Klare Zuständigkeiten und einfache Beziehungsstruktur",
+                "b) Sehr schnelle Entscheidungswege",
+                "c) Lange Informations- und Weisungswege",
+                "d) Hohe Flexibilität bei Veränderungen"
+              ],
+              "antwort": ["a", "c"]
+            },
+            {
+              "frage": "Was charakterisiert Stabsstellen in einem Stabliniensystem?",
+              "optionen": [
+                "a) Sie haben volle Weisungsbefugnis gegenüber Linienstellen",
+                "b) Sie dienen zur Entlastung und Beratung von Leitungsstellen ohne Weisungsbefugnis",
+                "c) Sie ersetzen komplett die Linieninstanzen",
+                "d) Sie sind nur für operative Aufgaben zuständig"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum entscheidet sich IKU für eine Kombination aus Stabliniensystem und Matrixorganisation?",
+              "optionen": [
+                "a) Weil es die günstigste Organisationsform ist",
+                "b) Weil Stabsstellen die Instanzen entlasten und die Matrixorganisation für projektintensive IT-Bereiche optimal ist",
+                "c) Weil alle anderen Systeme gesetzlich verboten sind",
+                "d) Weil diese Kombination die wenigsten Mitarbeiter benötigt"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Schwäche ist typisch für die Matrixorganisation?",
+              "optionen": [
+                "a) Zu langsame Entscheidungsprozesse durch nur eine Instanz",
+                "b) Mangelnde Fachspezialisierung",
+                "c) Streitigkeiten in den Zuständigkeiten und ungleich verteilte Arbeitsbelastung",
+                "d) Zu hohe Kosten für die Einrichtung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Maßnahmen ergreifen Unternehmen zur Stärkung von Selbstverantwortung und Ergebnisorientierung? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Einrichtung von Produktmanager- und Account-Manager-Stellen",
+                "b) Bildung von Profitcentern und Costcentern",
+                "c) Abschaffung aller Führungspositionen",
+                "d) Zentralisierung aller Entscheidungen"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Manager, der in der Matrixorganisation ständig zwischen zwei Vorgesetzten hin- und hergerissen ist?",
+              "optionen": [
+                "a) Organisations-Zirkusartist",
+                "b) Matrix-Marionette",
+                "c) Doppelpass-Führungskraft",
+                "d) Hierarchie-Akrobat"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm40":{
+        "(5) Firma, Prokura und Handlungsvollmachten": {
+          "lerninhalt": [
+            "Jedes Unternehmen muss seine rechtlichen Rahmenbedingungen definieren. Mit dem Begriff 'Firma' wird der offizielle Name eines Unternehmens bezeichnet, unter dem es seine Geschäfte betreibt. Nur Unternehmen, die im Handelsregister eingetragen sind, können eine solche Firma führen. Die Wahl der Rechtsform legt die rechtlichen Pflichten und Rechte der Inhaber oder Gesellschafter fest.",
+            "Unternehmen, die eine bestimmte Größe überschreiten (vgl. § 141 Abgabenordnung), müssen steuerlich eine doppelte Buchführung führen. Wenn sie einen kaufmännisch organisierten Betrieb haben, müssen sie sich zudem in das Handelsregister eintragen lassen. Dadurch erlangen sie automatisch die Kaufmannseigenschaft und unterliegen neben dem Bürgerlichen Gesetzbuch (BGB) auch dem Handelsgesetzbuch (HGB).",
+            "Das Handelsregister beim Amtsgericht dient als wichtige Informationsquelle für die Wirtschaft. Es macht die wesentlichen Rechtsverhältnisse von eingetragenen Kaufleuten und Gesellschaften öffentlich zugänglich. Durch die Eintragung erlangt die Firma Kaufmannseigenschaft und muss das HGB beachten.",
+            "Funktionen des Handelsregisters:\n• Publikationsfunktion: Jeder kann zu Informationszwecken Einsicht nehmen. Veröffentlichungen erfolgen im Bundesanzeiger und Tageszeitungen.\n• Schutzfunktion: Schutz von Kunden und Lieferanten durch Bekanntmachung der Geschäftsverhältnisse.\nDas Handelsregister gliedert sich in:\nAbteilung A: Für Einzelkaufleute und Personengesellschaften (OHG, KG)\nAbteilung B: Für Kapitalgesellschaften (GmbH, AG)",
+            "Die Firma eines Unternehmens ist der Name, unter dem Geschäfte betrieben und Unterschriften geleistet werden. Nur Kaufleute dürfen eine Firma führen. Kleingewerbetreibende ohne Handelsregistereintrag verwenden lediglich eine Geschäftsbezeichnung oder treten mit Vor- und Nachnamen auf.",
+            "Arten von Firmen:\n• Personenfirma: Name des Inhabers (z.B. Müller IT-Service e.Kfm.)\n• Sachfirma: Bezieht sich auf den Unternehmensgegenstand (z.B. IT-Solutions GmbH)\n• Fantasiefirma: Frei gewählter Name (z.B. Sysygy e.Kfm.)",
+            "Grundsätze der Firmenführung:\n• Firmenausschließlichkeit: Namen müssen unterscheidbar sein und regionale Konflikte vermeiden\n• Firmenwahrheit: Irreführung über geschäftliche Verhältnisse ist verboten\n• Firmenbeständigkeit: Schutz der Firma auch bei Inhaberwechsel",
+            "Vollmachten im Unternehmen:\n[ASCII-Darstellung]\nProkura                     | Handlungsvollmachten\n---------------------------|-----------------------\nUmfang: Alle gewöhnlichen  | Artvollmacht: Bestimmte Art\nGeschäfte & Rechtshandlungen| Einzelvollmacht: Einzelnes\nZeichnung: 'ppa.' oder 'i.V.'| Geschäft\nEintragung: Im Handelsregister| 'i.A.' im Auftrag\nErteilung: Nur durch Kaufmann| Formlos, keine Eintragung",
+            "IKU, als im Handelsregister eingetragenes Unternehmen, kann Handlungsvollmachten und Prokura nach HGB vergeben. Mitarbeiter kennzeichnen ihre Vollmachten durch Zusätze bei ihrer Unterschrift. Prokura wird nur durch Veröffentlichung und Eintragung im Handelsregister erteilt, Handlungsvollmachten können auch mündlich oder durch Duldung erteilt werden.",
+            "Vollmachten-Hierarchie:\n• Prokuristen können alle gewöhnlichen Geschäfte tätigen (mit Einschränkungen)\n• Inhaber allgemeiner Handlungsvollmacht können bestimmte Geschäftsarten ausführen\n• Inhaber von Einzelvollmachten sind auf konkrete Aufträge beschränkt\nHöhere Vollmachten können niedrigere erteilen, z.B. kann ein Prokurist einer Handlungsvollmacht erteilen.",
+            "Unterschiedliche Zeichnungsvermerke:\n• Prokura: 'ppa.' oder 'i.V.' (in Vollmacht)\n• Allgemeine Handlungsvollmacht: 'i.V.'\n• Einzelvollmacht: 'i.A.' (im Auftrag)\nAuszubildende erhalten typischerweise Einzelvollmachten durch konkrete Aufträge.",
+            "Begrenzungen von Vollmachten:\n• Prokuristen dürfen keine Bilanz/Steuererklärung unterschreiben, keine Gesellschafter aufnehmen\n• Handlungsvollmachten können Grundstücksgeschäfte nicht durchführen\n• Einschränkungen im Innenverhältnis sind möglich, schützen aber Dritte nur bei Kenntnis\nVollmachten können jederzeit widerrufen werden, auch wenn sie im Arbeitsvertrag vereinbart wurden."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche Voraussetzung muss ein Unternehmen erfüllen, um eine Firma führen zu dürfen?",
+              "optionen": [
+                "a) Mindestens 10 Mitarbeiter beschäftigen",
+                "b) Im Handelsregister eingetragen sein",
+                "c) Eine bestimmte Umsatzgrenze überschreiten",
+                "d) Mindestens 5 Jahre bestehen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Kompetenzcheck: Welche Konsequenz hat die Eintragung ins Handelsregister für ein Unternehmen?",
+              "optionen": [
+                "a) Es muss nur noch das BGB beachten",
+                "b) Es erlangt Kaufmannseigenschaft und muss das HGB einhalten",
+                "c) Es ist von Steuern befreit",
+                "d) Es darf keine Kredite mehr aufnehmen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche zwei Hauptfunktionen hat das Handelsregister? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Steuererhebung",
+                "b) Publikationsfunktion (öffentliche Information)",
+                "c) Werbefunktion für Unternehmen",
+                "d) Schutzfunktion für Geschäftspartner"
+              ],
+              "antwort": ["b", "d"]
+            },
+            {
+              "frage": "Was unterscheidet eine 'Sachfirma' von einer 'Personenfirma'?",
+              "optionen": [
+                "a) Sachfirma bezieht sich auf den Unternehmensgegenstand, Personenfirma auf den Inhaber",
+                "b) Sachfirma ist nur für Kapitalgesellschaften erlaubt",
+                "c) Personenfirma ist immer teurer einzutragen",
+                "d) Es gibt keinen rechtlichen Unterschied"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welcher Grundsatz verbietet es, durch den Firmennamen über geschäftliche Verhältnisse zu täuschen?",
+              "optionen": [
+                "a) Firmenausschließlichkeit",
+                "b) Firmenbeständigkeit",
+                "c) Firmenwahrheit",
+                "d) Firmeneinfachheit"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was kennzeichnet eine Prokura im Vergleich zu einer Handlungsvollmacht?",
+              "optionen": [
+                "a) Prokura muss im Handelsregister eingetragen werden",
+                "b) Prokura ist auf einzelne Geschäfte beschränkt",
+                "c) Prokura wird nur mündlich erteilt",
+                "d) Prokura gilt nur intern"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Mit welchem Zusatz zeichnet typischerweise ein Inhaber einer Einzelvollmacht?",
+              "optionen": [
+                "a) ppa. oder i.V.",
+                "b) i.V. (in Vollmacht)",
+                "c) i.A. (im Auftrag)",
+                "d) o.V. (ohne Vollmacht)"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Rechtsgeschäfte dürfen Prokuristen NICHT durchführen? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Bilanz unterschreiben",
+                "b) Einkäufe tätigen",
+                "c) Prokura an andere erteilen",
+                "d) Grundstücke verkaufen"
+              ],
+              "antwort": ["a", "c"]
+            },
+            {
+              "frage": "Warum kann IKU Handlungsvollmachten und Prokura erteilen?",
+              "optionen": [
+                "a) Weil es ein international tätiges Unternehmen ist",
+                "b) Weil es im Handelsregister eingetragen ist und damit Kaufmannseigenschaft hat",
+                "c) Weil es mehr als 100 Mitarbeiter beschäftigt",
+                "d) Weil es eine spezielle Genehmigung beantragt hat"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Azubi, der denkt, sein 'i.A.'-Zusatz stehe für 'ich alles'?",
+              "optionen": [
+                "a) Vollmachts-Phantom",
+                "b) Unterschriften-Champion",
+                "c) Prokura-Praktikant",
+                "d) Geschäftszeichen-Genie"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm41":{
+        "(6) Rechtsformen": {
+          "lerninhalt": [
+            "Alle im Handelsregister eingetragenen Unternehmen müssen eine bestimmte Rechtsform wählen. Diese Entscheidung hängt von verschiedenen Kriterien ab, darunter die Art der Unternehmensbeteiligung, Haftungsregelungen, Leitungsstrukturen und anderen rechtlichen Rahmenbedingungen.",
+            "Entscheidungskriterien für die Wahl der Rechtsform:\n1. Rechtsgestaltung und Haftungsumfang\n2. Leitungsbefugnisse (Vertretung nach außen, Geschäftsführung, Mitbestimmungsrechte)\n3. Gewinn- und Verlustbeteiligung sowie Entnahmerechte\n4. Kapitalbedarf und Finanzierungsmöglichkeiten mit Eigen- und Fremdkapital\n5. Flexibilität bei Änderungen der Beteiligungsverhältnisse sowie beim Eintritt und Ausscheiden von Gesellschaftern\n6. Steuerliche Belastungen\n7. Gesetzliche Vorschriften zu Umfang, Inhalt, Prüfung und Offenlegung des Jahresabschlusses\n8. Kosten der Rechtsform (Gründungs- und Kapitalerhöhungskosten, besondere Aufwendungen für Rechnungslegung)\n9. Regelungen zum Verkauf des Unternehmens oder zur Nachfolge",
+            "Übersicht über Rechtsformen:\n[ASCII-Darstellung]\nEinzelunternehmen          Personengesellschaften           Kapitalgesellschaften\n-----------------          ----------------------           ---------------------\n• e.K., e.Kffr., e.Kfm.    • OHG, KG, GmbH & Co. KG        • GmbH, UG\n• Selbst Rechts- &         • GbR, Partnergesellschaft      • AG\n  Steuersubjekt            • Jeder haftet persönlich       • Juristische Person\n• Haftung mit gesam-       • Gewinnverteilung nach         • Haftung beschränkt auf\n  tem Privatvermögen         Vertrag oder Köpfen             Gesellschaftsvermögen\n• Einkommensteuer          • Einkommensteuer je Person     • Körperschaftsteuer",
+            "Steuerliche Unterschiede:\n• Einzelunternehmen und Personengesellschaften: Die Gesellschafter sind selbst Rechts- und Steuersubjekte, Gewinne werden mit Einkommensteuer besteuert (§§ 15 und 18 EStG).\n• Kapitalgesellschaften: Die Gesellschaft ist als juristische Person selbst rechtsfähig und Steuersubjekt, Gewinne unterliegen der Körperschaftsteuer (§ 1 KStG).",
+            "Die meisten Kleinstunternehmen sind nicht im Handelsregister eingetragen und unterliegen nur dem BGB und Steuergesetzen. Die häufigste Rechtsform im Handelsregister ist die GmbH, da sie bekannt, einfach zu gründen, die Haftung beschränkt und die Geschäftsführung auch extern besetzbar ist.",
+            "Besondere Rechtsformen für spezielle Bedürfnisse:\n• UG (haftungsbeschränkt, 'Mini-GmbH'): Geringe Gründungskosten (ab 1€ Stammkapital), Haftungsbeschränkung, besonders beliebt bei Start-ups\n• Stille Gesellschaft: Beteiligung ohne öffentliche Bekanntgabe, beschränkte Haftung auf Einlage, keine Geschäftsführungsbefugnis\n• AG: Ermöglicht einfache Beteiligung externer und interner Kapitalgeber (Aktionäre), Mitarbeitermotivation durch Aktienoptionsprogramme",
+            "Vergleich wichtiger Rechtsformen:\nEinzelunternehmen: Ein Inhaber, keine Kapitaluntergrenze, persönlich unbeschränkte Haftung, einfache Gründung (ca. 30€), alleinige Geschäftsführung\nGbR: Mindestens zwei Gesellschafter, keine Kapitaluntergrenze, persönlich unbeschränkte Haftung, unkomplizierte Gründung (ca. 30€ je Gesellschafter), alle Gesellschafter geschäftsführend\nOHG: Mindestens zwei Gesellschafter, keine Kapitaluntergrenze, persönlich unbeschränkte Haftung, Gründungskosten ca. 500€, alle Gesellschafter geschäftsführend",
+            "Weitere Rechtsformen im Detail:\nKG: Mindestens ein Vollhafter (Komplementär) und ein Teilhafter (Kommanditist), keine Kapitaluntergrenze, Vollhafter haftet persönlich unbeschränkt, Kommanditist beschränkt auf Einlage, Gründungskosten ca. 500€\nGmbH: Mindestens ein Gesellschafter, 25.000€ Stammkapital (mind. 50% sofort), Haftung beschränkt auf Gesellschaftsvermögen, Geschäftsführer bestellt, Gründungskosten ca. 1.250€\nAG: Mindestens ein Aktionär, 50.000€ Grundkapital, Haftung beschränkt auf Gesellschaftsvermögen, Vorstand und Aufsichtsrat als Organe, Gründungskosten ca. 1.500€",
+            "Besonderheiten der UG (haftungsbeschränkt):\n• Entstanden durch das Gesetz zur Modernisierung des GmbH-Rechts (MoMiG)\n• Stammkapital ab 1€ möglich (keine Sacheinlagen)\n• Verpflichtung zur Rücklagenbildung: 25% des Jahresgewinns, bis 25.000€ Stammkapital erreicht\n• Firmenzusatz 'Unternehmergesellschaft (haftungsbeschränkt)' oder 'UG (haftungsbeschränkt)'\n• Erhöhte Insolvenzgefahr bei geringem Stammkapital durch Unterkapitalisierung",
+            "IKU, wie viele wachsende IT-Unternehmen, könnte verschiedene Rechtsformen in Betracht ziehen:\n• Für Start-ups: UG (haftungsbeschränkt) wegen geringer Gründungskosten\n• Für etablierte Unternehmen: GmbH wegen bekannter Rechtsform und Haftungsbeschränkung\n• Für kapitalintensive Wachstumsunternehmen: AG zur einfachen Kapitalbeschaffung\nIn der Praxis werden häufig Kombinationen wie die GmbH & Co. KG gewählt, um Haftungsbeschränkung mit steuerlichen Vorteilen zu verbinden."
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Was ist ein entscheidender steuerlicher Unterschied zwischen Personengesellschaften und Kapitalgesellschaften?",
+              "optionen": [
+                "a) Personengesellschaften zahlen Körperschaftsteuer, Kapitalgesellschaften Einkommensteuer",
+                "b) Personengesellschaften sind Einkommensteuersubjekte, Kapitalgesellschaften Körperschaftsteuersubjekte",
+                "c) Nur Kapitalgesellschaften müssen Steuern zahlen",
+                "d) Es gibt keinen steuerlichen Unterschied"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Mindestkapital ist für die Gründung einer GmbH erforderlich?",
+              "optionen": [
+                "a) Kein Mindestkapital",
+                "b) 1.000€",
+                "c) 25.000€",
+                "d) 50.000€"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was charakterisiert eine UG (haftungsbeschränkt) im Vergleich zur GmbH?",
+              "optionen": [
+                "a) Höheres Mindestkapital",
+                "b) Geringere Gründungskosten und Stammkapital ab 1€ möglich",
+                "c) Unbeschränkte persönliche Haftung der Gesellschafter",
+                "d) Keine Rücklagenbildungspflicht"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Rechtsformen gehören zu den Personengesellschaften? (Mehrfachauswahl)",
+              "optionen": [
+                "a) GmbH",
+                "b) OHG",
+                "c) KG",
+                "d) AG"
+              ],
+              "antwort": ["b", "c"]
+            },
+            {
+              "frage": "Warum ist die GmbH die häufigste Rechtsform im Handelsregister?",
+              "optionen": [
+                "a) Weil sie die teuerste Gründungsform ist",
+                "b) Weil sie bekannt ist, einfach zu gründen und die Haftung beschränkt",
+                "c) Weil sie keine Geschäftsführung benötigt",
+                "d) Weil sie nur für IT-Unternehmen geeignet ist"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Vorteile bietet die Stille Gesellschaft?",
+              "optionen": [
+                "a) Öffentliche Bekanntgabe der Beteiligung",
+                "b) Volle Geschäftsführungsbefugnis",
+                "c) Beteiligung ohne öffentliche Bekanntgabe und beschränkte Haftung auf die Einlage",
+                "d) Unbeschränkte persönliche Haftung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Besonderheit gilt für die Haftung bei einer KG?",
+              "optionen": [
+                "a) Alle Gesellschafter haften unbeschränkt",
+                "b) Nur der Komplementär haftet unbeschränkt, der Kommanditist beschränkt auf seine Einlage",
+                "c) Nur die Gesellschaft haftet mit ihrem Vermögen",
+                "d) Es gibt keine Haftung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Rücklagenverpflichtung hat eine UG (haftungsbeschränkt)?",
+              "optionen": [
+                "a) Keine Rücklagenverpflichtung",
+                "b) 10% des Jahresgewinns bis 10.000€ Stammkapital",
+                "c) 25% des Jahresgewinns bis 25.000€ Stammkapital erreicht sind",
+                "d) 50% des Jahresgewinns dauerhaft"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum wählen stark wachsende IT-Unternehmen wie IKU oft die Rechtsform AG?",
+              "optionen": [
+                "a) Weil sie keine Aktionäre haben wollen",
+                "b) Weil sie möglichst einfach externe und interne Kapitalgeber beteiligen und Mitarbeiter motivieren können",
+                "c) Weil sie unbeschränkt persönlich haften wollen",
+                "d) Weil die Gründungskosten am niedrigsten sind"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Unternehmer, der mit 1€ Stammkapital gründet und denkt, er sei jetzt Milliardär?",
+              "optionen": [
+                "a) Euro-Dreamer",
+                "b) UG-Überschätzer",
+                "c) Mini-Mogul",
+                "d) Kapital-Illusionist"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm42":{
+        "1.3.5 - Wertschöpfungs- und Geschäftsprozesse unterscheiden\n Wertschöpfungsketten in klassischen Branchen": {
+          "lerninhalt": [
+            "Unternehmen müssen zwischen Wertschöpfungs- und Geschäftsprozessen unterscheiden können. Die Wertschöpfung stellt den Mehrwert dar, den ein Unternehmen durch seine Tätigkeit erwirtschaftet.",
+            "Berechnung der Wertschöpfung:\nWertschöpfung = Umsatzerlöse - Vorleistungen - Abschreibungen\n• Umsatzerlöse: Netto-Erlöse ohne Umsatzsteuer (derzeit meist 19%)\n• Vorleistungen: Eingekaufte Waren, Dienstleistungen und Materialien für den Betrieb (ohne Löhne, Gehälter, Zinsen, Steuern)\n• Abschreibungen: Wertminderungen an Anlage- und Umlaufvermögen (Gebäude, Maschinen, Fahrzeuge etc.)",
+            "Die Wertschöpfung wird unter verschiedenen Stakeholdern verteilt:\n[ASCII-Darstellung]\nWertschöpfungsverteilung:\nMitarbeiter    | Fremdkapitalgeber | Staat         | Eigenkapitalgeber\n---------------|-------------------|---------------|------------------\nLöhne/Gehälter | Zinsen & Tilgungen| Steuern       | Gewinne\nSoziale Abgaben| Darlehensrückzahl.| Körperschafts-| Investitionen für\nLeistungsprämien|                   | steuer        | Innovationen",
+            "Beispiel IKU: In einer Betriebsversammlung wurde eine Wertschöpfungsplanung für das vierte Jahr präsentiert:\n• Angestrebte Umsatzerlöse: 8 Mio.€ (netto)\n• Geplante Wertschöpfung: > 4 Mio.€\n• Verteilung: Kapitaldienste, Steuern, Gehälter und Boni an Mitarbeiter",
+            "Wertschöpfungsketten variieren je nach Branche:\n• Industriebetriebe: Beschaffung → Herstellung → Verkauf\n• Handelsbetriebe: Beschaffung → Lagerung → Verkauf\n• Dienstleistungsbetriebe: Verkauf → Dienstleistungserbringung\nVerwaltende Tätigkeiten außerhalb dieser Ketten (Personal, Rechnungswesen, IT) zählen nicht zur Wertschöpfungskette.",
+            "Wichtige Kennzahlen zur Bewertung der Wertschöpfung:\n• Wertschöpfung pro Mitarbeiter = Wertschöpfung / Anzahl Mitarbeiter (M)\n• Wertschöpfungstiefe = Wertschöpfung / Gesamtleistung (Output)\nBeispiel: Bei 600.000€ Wertschöpfung und 6 Mitarbeitern beträgt W/M = 100.000€",
+            "Digitale Transformation verändert Wertschöpfungsprozesse:\n• Digitalisierung: Umwandlung analoger Prozesse in digitale\n• Digitale Transformation: Veränderte Wertschöpfungsprozesse durch digitale Technologien\n• Digitale Disruption: Komplette Neugestaltung von Geschäftsmodellen durch digitale Lösungen",
+            "Klassische Wertschöpfungsketten werden durch digitale Elemente ergänzt:\nIndustrie: E-Procurement → Smart Factory (IoT) → E-Shop/Social Commerce → Social Service\nHandel: E-Procurement → E-Logistics → E-Shop/Social Commerce → Social Service\nDienstleistung: Social Media Marketing → E-Procurement → E-Services → Social Service",
+            "Digitale Plattformen verändern Wertschöpfungsketten als Kooperationspartner. Unternehmen können eigene Plattformen entwickeln oder externe Plattformen einbinden, was sowohl positive als auch negative Auswirkungen auf die Wertschöpfung haben kann.",
+            "Arten digitaler Plattformen und ihre Erlösmodelle:\n• Informationsplattformen: Datennutzung, Premiumangebote (E-Learning, Webinare)\n• Social-Media-Plattformen: Datennutzung, Werbeeinnahmen\n• Marktplätze (B2C, B2B, B2A): Vermittlerprovisionen, Mitgliedschaften\n• Cloud-Providing: Nutzungsabhängige Gebühren (IaaS, PaaS, SaaS)\n• Internetshops: Datennutzung, Direktverkäufe",
+            "Beispiele für Wertschöpfungsberechnungen in verschiedenen Branchen:\nIndustriebetrieb: 4,7 Mio.€ Umsatz + 300.000€ Lagererhöhung - 0,4 Mio.€ Abschreibungen - 1,6 Mio.€ Vorleistungen = 3,0 Mio.€ Wertschöpfung\nHandelsbetrieb: 3,1 Mio.€ Umsatz - 100.000€ Lagerminderung - 0,2 Mio.€ Abschreibungen - 1,2 Mio.€ Vorleistungen = 1,6 Mio.€ Wertschöpfung\nDienstleistungsbetrieb: 1,6 Mio.€ Umsatz - 0,1 Mio.€ Abschreibungen - 0,4 Mio.€ Vorleistungen = 1,1 Mio.€ Wertschöpfung",
+            "Positive und negative Wertschöpfungsfaktoren:\nPositive: Be-/Verarbeitung, Qualitätssteigerung, besseres Marketing, effizientere Prozesse, Kundenbindung\nNegative: Schlechtes Produktangebot, Preisverfall ohne Mengenausgleich, Wertminderungen, Reklamationen, Leerlauf"
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Wie wird die betriebswirtschaftliche Wertschöpfung berechnet?",
+              "optionen": [
+                "a) Umsatzerlöse + Vorleistungen - Abschreibungen",
+                "b) Umsatzerlöse - Vorleistungen - Abschreibungen",
+                "c) Umsatzerlöse - Personalaufwendungen - Abschreibungen",
+                "d) Umsatzerlöse + Lagerveränderungen + Abschreibungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Stakeholder profitieren von der Wertschöpfung eines Unternehmens? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Nur die Eigentümer",
+                "b) Mitarbeiter (Löhne/Gehälter)",
+                "c) Fremdkapitalgeber (Zinsen)",
+                "d) Staat (Steuern)"
+              ],
+              "antwort": ["b", "c", "d"]
+            },
+            {
+              "frage": "Was versteht man unter 'Wertschöpfungstiefe'?",
+              "optionen": [
+                "a) Die absolute Höhe der Wertschöpfung in Euro",
+                "b) Der Anteil der Wertschöpfung an der Gesamtleistung (Output)",
+                "c) Die Anzahl der Wertschöpfungsstufen in der Produktion",
+                "d) Die Tiefe der Kundenbindung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie unterscheiden sich Digitalisierung, digitale Transformation und digitale Disruption?",
+              "optionen": [
+                "a) Es sind Synonyme für denselben Prozess",
+                "b) Digitalisierung betrifft nur Technik, Transformation nur Organisation, Disruption nur Märkte",
+                "c) Digitalisierung umwandelt analoge Prozesse, Transformation verändert Wertschöpfungsprozesse, Disruption schafft komplett neue Geschäftsmodelle",
+                "d) Digitalisierung ist für kleine Unternehmen, Transformation für mittlere, Disruption für große"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Wertschöpfungskette ist typisch für einen Handelsbetrieb?",
+              "optionen": [
+                "a) Beschaffung → Herstellung → Verkauf",
+                "b) Beschaffung → Lagerung → Verkauf",
+                "c) Verkauf → Dienstleistung → Nachbetreuung",
+                "d) Entwicklung → Produktion → Marketing"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was sind typische Vorleistungen in der Wertschöpfungsrechnung?",
+              "optionen": [
+                "a) Löhne und Gehälter der Mitarbeiter",
+                "b) Eingekaufte Waren, Materialien und Dienstleistungen für den Betrieb",
+                "c) Gezahlte Steuern an den Staat",
+                "d) Ausgeschüttete Gewinne an Eigentümer"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum plant IKU für das vierte Jahr eine Wertschöpfung von über 4 Mio.€?",
+              "optionen": [
+                "a) Um Steuern zu vermeiden",
+                "b) Um Kapitaldienste, Steuern und gute Gehälter sowie Boni zahlen zu können",
+                "c) Um neue Maschinen ohne Finanzierung zu kaufen",
+                "d) Um die Konkurrenz zu überbieten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Kennzahl misst die Produktivität der Mitarbeiter in Bezug auf die Wertschöpfung?",
+              "optionen": [
+                "a) Umsatz pro Mitarbeiter",
+                "b) Wertschöpfung pro Mitarbeiter",
+                "c) Gewinn pro Mitarbeiter",
+                "d) Kosten pro Mitarbeiter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie verändern digitale Plattformen traditionelle Wertschöpfungsketten?",
+              "optionen": [
+                "a) Sie machen Wertschöpfungsketten überflüssig",
+                "b) Sie werden als Kooperationspartner eingebunden und beeinflussen die Wertschöpfung positiv oder negativ",
+                "c) Sie ersetzen komplett die menschliche Arbeit",
+                "d) Sie verringern immer die Wertschöpfung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Controller, der bei der Wertschöpfungsberechnung immer die Abschreibungen 'vergisst'?",
+              "optionen": [
+                "a) Wert-Schöpfer",
+                "b) Abschreibungs-Amnesiker",
+                "c) Bilanz-Zauberer",
+                "d) Zahlen-Jongleur"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm43":{
+        "(2) Digitale Plattform Ökosysteme": {
+          "lerninhalt": [
+            "Die Entwicklung digitaler Plattform-Ökosysteme wurde zunächst von Technologieführern wie Google, Amazon, Facebook und Apple vorangetrieben. Inzwischen haben zahlreiche Unternehmen in verschiedenen Branchen eigene digitale Ökosysteme etabliert oder befinden sich im Aufbau solcher Systeme.",
+            "Unternehmen schließen sich zunehmend zusammen, um in Kooperation digitale Ökosysteme aufzubauen. Dabei können viele Partner ihre jeweiligen Stärken einbringen und gemeinsam ein innovatives Ökosystem betreiben. Erfolgskritische Faktoren sind dabei die Partnerauswahl, der kontinuierliche Kundendialog und eine hohe Entwicklungsgeschwindigkeit.",
+            "Digitale Ökosysteme können in zwei Haupttypen unterteilt werden:\n• Geschlossene Systeme (Walled Garden): Wie bei Großkonzernen wie Apple, mit streng kontrollierten Zugängen\n• Offene Plattformen: Mit API-Schnittstellen (Application Programming Interface), SDKs (Software Development Kits) und Cloud-Technologien, die externe Entwickler einbinden",
+            "Der Begriff 'Ökosystem' stammt ursprünglich aus der Biologie und beschreibt eine Gemeinschaft von Organismen verschiedener Arten, die in einem Lebensraum miteinander verflochten sind. Übertragen auf die digitale Wirtschaft bezeichnet ein Ökosystem eine vernetzte Gemeinschaft von Unternehmen, Plattformen und Dienstleistungen.",
+            "Ziel digitaler Ökosysteme ist es, möglichst viele potenzielle Kunden mit einem umfassenden Angebot an Dienstleistungen an sich zu binden, um eine marktbeherrschende Stellung und Wettbewerbsvorteile zu erlangen. Unternehmen können durch solche Ökosysteme schnell marktführende Positionen erreichen.",
+            "Vorteile und Nachteile digitaler Ökosysteme:\n[ASCII-Darstellung]\nVORTEILE                      | NACHTEILE\n------------------------------|--------------------------\n• Wettbewerbsvorteile        | • Hohe Entwicklungskosten\n• Hohe Marktanteile          | • Langer Zeitaufwand\n• Starke Kundenbindung       | • Hohes Risiko\n• Gesteigerte Erlöse         | • Lange Vorlaufzeiten",
+            "Wettbewerbspolitische Aspekte: Behörden und politische Entscheidungsträger müssen darauf achten, dass keine marktbeherrschenden Ökosysteme entstehen, die anderen Wettbewerb unterdrücken könnten. Dies ist besonders bei großen Technologiekonzernen relevant.",
+            "Beispiele für digitale Plattform-Ökosysteme großer Unternehmen:\n• Google: Google Cloud, Assistant, Nest, Chrome, YouTube, Maps, AdWords, Verily (Health)\n• Amazon: AWS, Alexa, Fire/Echo, Prime, Music, Shopping, Pay, Maps\n• Facebook/Meta: WhatsApp, Instagram, Oculus, Workplace, Messenger, Business Ads\n• Apple: iOS, Siri, iPhone/Watch, iMessage, iTunes, CarPlay, Pay, Health Kit",
+            "Branchenübergreifende digitale Ökosysteme umfassen typischerweise:\n• IT-Infrastruktur und Cloud-Services\n• Künstliche Intelligenz und Sprachassistenten\n• Hardware-Geräte und IoT-Devices\n• Kommunikations- und Messaging-Dienste\n• Digitale Medien und Entertainment\n• E-Commerce und Retail-Lösungen\n• Finanztechnologie und Zahlungssysteme\n• Navigations- und Location-Services\n• Werbe- und Marketing-Plattformen\n• Gesundheitswesen und Telemedizin",
+            "IKU könnte als mittelständisches IT-Unternehmen verschiedene Strategien für digitale Ökosysteme verfolgen:\n• Als Partner in bestehenden Ökosystemen agieren\n• Spezialisierte Nischen-Ökosysteme aufbauen\n• Kooperationen mit anderen Unternehmen für gemeinsame Ökosysteme eingehen\n• Offene APIs für externe Entwickler bereitstellen",
+            "Entscheidende Erfolgsfaktoren für digitale Ökosysteme:\n1. Technologische Offenheit oder Geschlossenheit entsprechend der Geschäftsstrategie\n2. Skalierbare Architekturen für Wachstum\n3. Attraktive Anreizsysteme für Partner\n4. Datensouveränität und Sicherheitskonzepte\n5. Agile Entwicklungskulturen für schnelle Anpassungen"
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Was ist der Hauptunterschied zwischen einem 'Walled Garden' und einer offenen Plattform in digitalen Ökosystemen?",
+              "optionen": [
+                "a) Walled Gardens sind kostenlos, offene Plattformen kostenpflichtig",
+                "b) Walled Gardens haben streng kontrollierte Zugänge, offene Plattformen nutzen APIs für externe Einbindung",
+                "c) Walled Gardens sind nur für Privatpersonen, offene Plattformen nur für Unternehmen",
+                "d) Es gibt keinen relevanten Unterschied"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Unternehmen waren Pioniere bei der Entwicklung digitaler Plattform-Ökosysteme? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Microsoft und IBM",
+                "b) Google und Amazon",
+                "c) Facebook (Meta) und Apple",
+                "d) SAP und Oracle"
+              ],
+              "antwort": ["b", "c"]
+            },
+            {
+              "frage": "Warum schließen sich Unternehmen zusammen, um digitale Ökosysteme aufzubauen?",
+              "optionen": [
+                "a) Um Steuern zu sparen",
+                "b) Um ihre jeweiligen Stärken einzubringen und gemeinsam innovative Systeme zu betreiben",
+                "c) Um Mitarbeiter zu tauschen",
+                "d) Um Büroflächen zu teilen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Hauptziel verfolgen Konzerne mit ihren digitalen Ökosystemen?",
+              "optionen": [
+                "a) Möglichst viele Kunden mit Dienstleistungen zu binden und Wettbewerbsvorteile zu erlangen",
+                "b) Ihre Technologien zu verschenken",
+                "c) Die Konkurrenz zu sponsern",
+                "d) Steuerliche Vorteile zu maximieren"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche drei Faktoren sind für den Erfolg digitaler Ökosysteme besonders wichtig?",
+              "optionen": [
+                "a) Firmenfarbe, Logo-Design, Büroausstattung",
+                "b) Partnerauswahl, Kundendialog, Entwicklungsgeschwindigkeit",
+                "c) Aktienkurs, Dividenden, Bilanzsumme",
+                "d) Mitarbeiteranzahl, Umsatz, Gewinn"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine wichtige wettbewerbspolitische Herausforderung bei digitalen Ökosystemen?",
+              "optionen": [
+                "a) Dass zu viele unterschiedliche Systeme entstehen",
+                "b) Dass marktbeherrschende Ökosysteme anderen Wettbewerb unterdrücken könnten",
+                "c) Dass sie zu günstig für Verbraucher sind",
+                "d) Dass sie zu wenig Innovation bringen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher Bereich gehört typischerweise NICHT zu einem digitalen Plattform-Ökosystem?",
+              "optionen": [
+                "a) Cloud-Services und IT-Infrastruktur",
+                "b) Künstliche Intelligenz und Sprachassistenten",
+                "c) Traditionelle Buchhaltung mit Papierbelegen",
+                "d) E-Commerce und Zahlungssysteme"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Strategie könnte IKU als mittelständisches IT-Unternehmen für digitale Ökosysteme verfolgen?",
+              "optionen": [
+                "a) Sofort ein eigenes globales Ökosystem wie Google aufbauen",
+                "b) Als Partner in bestehenden Ökosystemen agieren oder spezialisierte Nischen-Ökosysteme entwickeln",
+                "c) Digitale Ökosysteme komplett ignorieren",
+                "d) Nur Hardware ohne Software anbieten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche technologischen Komponenten ermöglichen offene digitale Ökosysteme?",
+              "optionen": [
+                "a) Geschlossene Proprietäre Systeme",
+                "b) APIs (Application Programming Interfaces) und SDKs (Software Development Kits)",
+                "c) Nur physische Produkte ohne Software",
+                "d) Ausschließlich lokale Installationen ohne Netzwerk"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man ein digitales Ökosystem, in dem alle Apps ständig abstürzen?",
+              "optionen": [
+                "a) Bug-Garten",
+                "b) Digitaler Zirkus",
+                "c) System-Crash-Party",
+                "d) Error-Ökosystem"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm44":{
+        "3) Geschäftsprozesse im Betrieb": {
+          "lerninhalt": [
+            "In Unternehmen existieren komplexe Systeme von Leistungs-, Geld- und Informationsflüssen. Diese können anhand eines vereinfachten Schaubilds für IKU dargestellt werden, das die Interaktion zwischen verschiedenen Akteuren zeigt: Lieferanten, Werkstatt, Rechnungswesen/Controlling, Geschäftsbank, Staat und Kunden.",
+            "Das Schaubild verdeutlicht, dass zahlreiche Einzelprozesse im Unternehmen stattfinden müssen, um Produkte zu beschaffen, zu verkaufen und an Kunden auszuliefern. Viele dieser Prozesse können heute digital ausgeführt werden. Neben den wertschöpfungsintensiven Kernprozessen sind unterstützende Supportprozesse erforderlich.",
+            "Geschäftsprozesse können auf verschiedenen Detaillierungsebenen betrachtet werden:\n• Geschäftsprozesse: Umfassende Prozessketten\n• Sub- und Unterprozesse: Detaillierte Teilprozesse\n• Workflows: Automatisierte Arbeitsabläufe auf der untersten Ebene",
+            "Definition Geschäftsprozess: Eine zeitliche und sachlogische Abfolge von Unternehmensaktivitäten, die festgelegte Unternehmensziele verfolgen und auf Unternehmensressourcen (Organisationseinheiten, Betriebsmittel, Daten) zurückgreifen. Ein Geschäftsprozess kann aus vielen Subprozessen bestehen.",
+            "Beispiel für einen Geschäftsprozess mit Subprozessen (Einkauf von Zubehörteilen):\n[ASCII-Darstellung]\n1. Angebotsanfrage → 2. Angebotsvergleich → 3. Bestelldurchführung → 4. Warenannahme\nJeder dieser Schritte stellt einen Subprozess dar, der Teil des übergeordneten Geschäftsprozesses 'Einkauf' ist.",
+            "Drei Hauptarten von Prozessen im Unternehmen:\n1. Kernprozesse (Wertschöpfungsprozesse): Kundennah, besonders wertschöpfungsintensiv, zeigen Kernkompetenzen des Unternehmens\n2. Supportprozesse: Nicht direkt wertschöpfend, aber notwendig zur Umsetzung der Kernprozesse\n3. Workflows: Automatisierte Teilprozesse, die rechnergestützt ablaufen",
+            "Beispiele für Kernprozesse bei einem IT-Unternehmen wie IKU:\n• Aufbau komplexer IT-Systeme\n• Entwicklung von E-Business-Anwendungen\n• Serviceleistungen im IT-Bereich\n• Auftragsabwicklung\n• Lieferlogistik",
+            "Beispiele für Supportprozesse:\n• Buchhaltung und Finanzwesen\n• Lohn- und Gehaltsabrechnung\n• Controlling und Berichtswesen\n• Personalverwaltung\n• IT-Infrastrukturmanagement",
+            "Workflows sind automatisierte Arbeitsabläufe, die durch Workflowmanagementsysteme gesteuert werden. Diese Systeme ermöglichen eine weitgehend automatisierte Ausführung von Teilprozessen, was Effizienz und Konsistenz erhöht.",
+            "IKU als Beispielunternehmen zeigt typische Flussbeziehungen:\n• Leistungsfluss: Lieferanten → Werkstatt → Kunden\n• Geldfluss: Kunden → Unternehmen → Lieferanten, Bank, Staat\n• Informationsfluss: Zwischen allen Beteiligten für Koordination und Steuerung",
+            "Alle Stakeholder - Lieferanten, Banken, Staat und insbesondere Kunden - haben ein Interesse an einer guten Wertschöpfung des Unternehmens, da diese die Grundlage für Zahlungsfähigkeit, Steuereinnahmen und Qualitätsleistungen bildet."
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Was definiert einen Geschäftsprozess in einem Unternehmen?",
+              "optionen": [
+                "a) Eine zufällige Abfolge von Aktivitäten ohne Ziel",
+                "b) Eine zeitliche und sachlogische Abfolge von Aktivitäten, die Unternehmensziele verfolgen und auf Ressourcen zurückgreifen",
+                "c) Nur die Tätigkeiten der Geschäftsleitung",
+                "d) Ausschließlich digitale Arbeitsabläufe"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche drei Arten von Prozessen werden im Unternehmen unterschieden?",
+              "optionen": [
+                "a) Haupt-, Neben- und Zusatzprozesse",
+                "b) Kernprozesse, Supportprozesse und Workflows",
+                "c) Finanz-, Personal- und Produktionsprozesse",
+                "d) Strategische, operative und administrative Prozesse"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Eigenschaften kennzeichnen Kernprozesse (Wertschöpfungsprozesse)? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Sie sind kundennah",
+                "b) Sie sind besonders wertschöpfungsintensiv",
+                "c) Sie zeigen die Kernkompetenzen des Unternehmens",
+                "d) Sie sind vollständig automatisierbar"
+              ],
+              "antwort": ["a", "b", "c"]
+            },
+            {
+              "frage": "Was sind typische Beispiele für Supportprozesse?",
+              "optionen": [
+                "a) Produktentwicklung und Marketing",
+                "b) Buchhaltung, Lohnabrechnung und Controlling",
+                "c) Direkter Kundenservice und Verkauf",
+                "d) Forschung und Entwicklung neuer Produkte"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wie werden automatisierte Arbeitsabläufe auf der untersten Detaillierungsebene bezeichnet?",
+              "optionen": [
+                "a) Geschäftsprozesse",
+                "b) Subprozesse",
+                "c) Workflows",
+                "d) Managementprozesse"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welches Beispiel veranschaulicht einen Geschäftsprozess mit seinen Subprozessen?",
+              "optionen": [
+                "a) Nur die Rechnungsstellung",
+                "b) Einkauf von Zubehörteilen mit Angebotsanfrage, -vergleich, Bestellung und Warenannahme",
+                "c) Einzelne Telefonate mit Kunden",
+                "d) Tägliche Team-Meetings"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum haben verschiedene Stakeholder ein Interesse an der Wertschöpfung von Unternehmen wie IKU?",
+              "optionen": [
+                "a) Weil sie alle Aktionäre sind",
+                "b) Weil die Wertschöpfung Grundlage für Zahlungsfähigkeit, Steuereinnahmen und Qualitätsleistungen ist",
+                "c) Weil sie die Produkte kostenlos erhalten",
+                "d) Weil sie die Geschäftsleitung beraten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was steuert und automatisiert Workflows in Unternehmen?",
+              "optionen": [
+                "a) Einzelne Mitarbeiter nach Gefühl",
+                "b) Workflowmanagementsysteme",
+                "c) Zufallsgeneratoren",
+                "d) Handgeschriebene Checklisten"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Flussarten werden im Unternehmensmodell von IKU dargestellt?",
+              "optionen": [
+                "a) Nur Geldfluss",
+                "b) Leistungs-, Geld- und Informationsflüsse",
+                "c) Nur Materialfluss",
+                "d) Wasserkreislauf und Stromfluss"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Geschäftsprozess, der immer im Kreis läuft und nie fertig wird?",
+              "optionen": [
+                "a) Prozess-Karussell",
+                "b) Endlos-Workflow",
+                "c) Bürokratie-Rundlauf",
+                "d) Papierkorb-Prozess"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      },
+      "lm45":{
+        "4) Integrierte Anwendungssysteme im Betrieb":{
+          "lerninhalt": [
+            "Entlang der gesamten Wertschöpfungskette werden heute integrierte Softwaresysteme angeboten, die Unternehmen bei der Verwaltung und Analyse von Informationen und Dokumenten unterstützen. Diese Systeme werden unternehmensweit und häufig auch übergreifend zwischen verschiedenen Organisationen eingesetzt.",
+            "Verschiedene Arten von Management-Softwaresystemen unterstützen unterschiedliche Unternehmensbereiche:\n[ASCII-Darstellung]\nBeschaffung & Lieferanten | Produktion & Logistik | Kunden & Marketing\n----------------------|---------------------|------------------\nE-Procurement        | PPS                 | CRM\nSRM                  | SCM                 | SMM\n                     |                     |\nUnternehmensressourcen| Dokumente & Infos   | Prozesse & Analyse\n----------------------|---------------------|------------------\nERP                  | DMS                 | BPM\n                     | EIM                 | BI\n                     |                     | CPM",
+            "Beschaffungs- und Lieferantenbezogene Systeme:\n• E-Procurement (Elektronische Beschaffung): Einkauf und Beschaffung von Gütern über das Internet und spezielle Beschaffungsplattformen\n• SRM (Supplier Relationship Management): Management von Lieferantenbeziehungen\n• SCM (Supply Chain Management): Verwaltung integrierter Logistikketten über den gesamten Wertschöpfungsprozess – von der Rohstoffgewinnung über Veredelungsstufen bis zum Endverbraucher",
+            "Produktions- und kundenorientierte Systeme:\n• PPS (Produktionsplanungs- und -steuerungssystem): Unterstützt die Planung und Steuerung von Produktionsprozessen\n• CRM (Customer Relationship Management): Systematische Ausrichtung des Unternehmens auf Kunden und Gestaltung von Kundenbeziehungsprozessen\n• SMM (Social Media Marketing): Online-Marketing über soziale Medien zur Steigerung von Kundenbindung und Absatz, ergänzend zur klassischen Werbung",
+            "Unternehmensweite Ressourcen- und Informationssysteme:\n• ERP (Enterprise Resource Planning): System zur Verwaltung aller Unternehmensressourcen wie Lagerhaltung, Auftragsbearbeitung, Gehaltsabrechnung und Rechnungswesen\n• DMS (Dokumentenmanagement-System): Datenbankgestützte Verwaltung elektronischer Dokumente\n• EIM (Enterprise Information Management): Ganzheitliche und strukturierte Verwaltung und Organisation von Informationen im Unternehmen, besonders relevant für Big-Data und Analysen",
+            "Prozess- und entscheidungsunterstützende Systeme:\n• BPM (Business Process Management): Steuerung und Optimierung von Geschäftsprozessen\n• BI (Business Intelligence): Nutzung entscheidungsrelevanter Unternehmensdaten für automatisierte Reports an Entscheidungsträger (z.B. für Einkaufsentscheidungen)\n• CPM (Collaborative Project Management): Methode zur Planung, Koordination, Steuerung und Kontrolle verteilter und komplexer Projekte",
+            "Weitere wichtige Konzepte im Zusammenhang mit diesen Systemen:\n• Data Mining: Extraktion von Wissen aus großen Datenmengen\n• Data Warehouse: Zentrale Datenlagerung für Analysezwecke\n• Big Data: Verarbeitung und Analyse extrem großer und komplexer Datenmengen",
+            "IKU als modernes IT-Unternehmen könnte verschiedene dieser integrierten Systeme einsetzen:\n• Für interne Abläufe: ERP, DMS, BPM\n• Für Kundenbeziehungen: CRM, SMM\n• Für Analyse und Entscheidungen: BI, EIM\n• Für Projekte: CPM",
+            "Vorteile integrierter Unternehmenssoftware:\n• Ganzheitliche Sicht auf Unternehmensprozesse\n• Verbesserte Datenkonsistenz und -qualität\n• Effizientere Abläufe durch Automatisierung\n• Bessere Entscheidungsgrundlagen durch zentrale Informationen\n• Skalierbarkeit für Unternehmenswachstum",
+            "Herausforderungen bei der Einführung integrierter Systeme:\n• Hohe Implementierungskosten und -aufwände\n• Notwendigkeit von Anpassungen an unternehmensspezifische Prozesse\n• Schulungsbedarf für Mitarbeiter\n• Integration mit bestehenden Systemen\n• Datenmigration und -bereinigung"
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Welches System dient zur Verwaltung integrierter Logistikketten über den gesamten Wertschöpfungsprozess?",
+              "optionen": [
+                "a) CRM (Customer Relationship Management)",
+                "b) SCM (Supply Chain Management)",
+                "c) ERP (Enterprise Resource Planning)",
+                "d) BPM (Business Process Management)"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche drei Hauptkategorien von integrierten Softwaresystemen werden unterschieden?",
+              "optionen": [
+                "a) Nur Buchhaltungssysteme",
+                "b) Beschaffung/Lieferanten, Produktion/Kunden, Ressourcen/Prozesse",
+                "c) Ausschließlich Social Media Tools",
+                "d) Nur Hardware-Management-Systeme"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist der Hauptzweck eines CRM-Systems?",
+              "optionen": [
+                "a) Produktionsplanung und -steuerung",
+                "b) Ausrichtung des Unternehmens auf Kunden und Gestaltung von Kundenbeziehungsprozessen",
+                "c) Verwaltung von Unternehmensdokumenten",
+                "d) Gehaltsabrechnung und Personalverwaltung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Systeme gehören zur Kategorie 'Unternehmensressourcen und Information'? (Mehrfachauswahl)",
+              "optionen": [
+                "a) ERP (Enterprise Resource Planning)",
+                "b) DMS (Dokumentenmanagement-System)",
+                "c) SCM (Supply Chain Management)",
+                "d) EIM (Enterprise Information Management)"
+              ],
+              "antwort": ["a", "b", "d"]
+            },
+            {
+              "frage": "Was versteht man unter E-Procurement?",
+              "optionen": [
+                "a) Elektronische Gehaltsabrechnung",
+                "b) Elektronische Beschaffung von Gütern über das Internet",
+                "c) Elektronische Kundenkommunikation",
+                "d) Elektronische Produktionssteuerung"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Wofür steht die Abkürzung BI im Kontext integrierter Unternehmenssoftware?",
+              "optionen": [
+                "a) Business Intelligence (Nutzung entscheidungsrelevanter Daten für automatisierte Reports)",
+                "b) Basic Infrastructure (Grundlegende Infrastruktur)",
+                "c) Binary Information (Binäre Informationen)",
+                "d) Budget Integration (Budgetintegration)"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welches System könnte IKU besonders für die Verwaltung von Projekten einsetzen?",
+              "optionen": [
+                "a) PPS (Produktionsplanungs- und -steuerungssystem)",
+                "b) CPM (Collaborative Project Management)",
+                "c) SMM (Social Media Marketing)",
+                "d) SRM (Supplier Relationship Management)"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein typisches Merkmal von ERP-Systemen?",
+              "optionen": [
+                "a) Sie verwalten ausschließlich Social-Media-Aktivitäten",
+                "b) Sie steuern nur einzelne Abteilungen isoliert",
+                "c) Sie verwalten Unternehmensressourcen wie Lagerhaltung, Auftragsbearbeitung und Finanzwesen ganzheitlich",
+                "d) Sie sind nur für kleine Unternehmen geeignet"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Herausforderungen können bei der Einführung integrierter Unternehmenssoftware auftreten?",
+              "optionen": [
+                "a) Nur technische Probleme mit der Hardware",
+                "b) Hohe Implementierungskosten, Anpassungsbedarf, Schulungsaufwand und Integrationsherausforderungen",
+                "c) Ausschließlich positive Effekte ohne Nachteile",
+                "d) Nur ästhetische Aspekte der Benutzeroberfläche"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man ein ERP-System, das ständig abstürzt und alle Daten verwirrt?",
+              "optionen": [
+                "a) Enterprise-Ressourcen-Pannen-System",
+                "b) Buchhaltungs-Bot",
+                "c) Daten-Durcheinander-Produzent",
+                "d) Unternehmens-Chaos-Manager"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm46":{
+        "1.3.6 - Betriebliche Produktionsfaktoren, Güterarten und Organisationsmittel unterscheiden\n (1) Betriebliche Produktionsfaktoren":{
+          "lerninhalt": [
+            "Unter Produktionsfaktoren (auch Inputfaktoren genannt) versteht man alle materiellen und immateriellen Mittel und Leistungen, die an der Bereitstellung von Gütern und Dienstleistungen mitwirken. Dabei wird zwischen einer volkswirtschaftlichen und betriebswirtschaftlichen Betrachtung unterschieden.",
+            "Der Wirtschaftswissenschaftler Erich Gutenberg (1897-1984) definierte drei betriebswirtschaftliche Elementarfaktoren:\n• Werkstoffe: Alle Güter, die zur Erstellung eines Produktes notwendig sind (Rohstoffe, Hilfsstoffe, Betriebsstoffe, Fertigteile)\n• Betriebsmittel: Technische Ausstattungen wie Betriebsgebäude, Maschinen und Anlagen\n• Ausführende Arbeit: Menschliche Arbeitsleistung, die nicht für leitende, planende, organisierende oder kontrollierende Tätigkeiten verwendet wird",
+            "Gutenbergs Modell ergänzte diese Elementarfaktoren durch den dispositiven Faktor (Geschäftsleitung), der sie zu einer produktiven Einheit verbindet. Die Geschäftsleitung hat die Aufgabe, durch Leitung, Planung, Organisation und Kontrolle die optimale Kombination der Elementarfaktoren in Art, Güte und Menge zu erreichen sowie deren rechtzeitige Bereitstellung am richtigen Ort sicherzustellen.",
+            "Gutenberg entwickelte sein Modell ursprünglich für Produktionsbetriebe und bezog weder Handelsbetriebe noch Betriebe der Informationswirtschaft explizit ein. Für Handelsbetriebe würden beispielsweise zusätzliche Faktoren wie der Faktor Zeit (Lieferzeit) berücksichtigt werden müssen.",
+            "Mit der Entwicklung der Informationswirtschaft in den letzten Jahrzehnten hat sich ein zusätzlicher Produktionsfaktor etabliert:\n• Information (auch als Wissen oder Rechte bezeichnet): Dieser immaterielle Faktor sollte bei der Faktorkombination explizit berücksichtigt werden",
+            "IKU als modernes IT-Unternehmen muss Produktionsfaktoren spezifisch betrachten:\n• Werkstoffe: Hardware-Komponenten, Verbrauchsmaterialien\n• Betriebsmittel: Server, Netzwerkinfrastruktur, Büroausstattung\n• Ausführende Arbeit: Programmierer, Systemadministratoren, Techniker\n• Information: Software-Code, Dokumentation, Patente, Know-how\n• Dispositiver Faktor: Geschäftsführung und Projektleitung",
+            "Bei der Festlegung von Input und Output orientieren sich Unternehmen an drei ökonomischen Prinzipien:\n[ASCII-Darstellung]\nPRINZIP         | ZIELSETZUNG                 | BEISPIEL\n----------------|-----------------------------|----------------------------------\nMaximumprinzip  | Mit gegebenen Mitteln       | Mit 50€ Taschengeld möglichst\n                | maximalen Erfolg erzielen   | lange auskommen\n----------------|-----------------------------|----------------------------------\nMinimumprinzip  | Einen festgelegten Erfolg   | Eine Werbemitteilung mit\n                | mit minimalen Mitteln       | minimalen Mitteln kommunizieren\n                | erreichen                   |\n----------------|-----------------------------|----------------------------------\nOptimumprinzip  | Optimale Kombination finden,| Angebot mit bestem Verhältnis\n(Extremumprinzip)| wenn Ergebnis und Einsatz   | von Output zu Input wählen\n                | variabel sind               | (z.B. Terabyte pro Kosten)",
+            "Das Optimumprinzip (auch Extremumprinzip genannt) kommt besonders zum Tragen, wenn sowohl das Ergebnis als auch der Einsatz variabel sind. In diesem Fall ist die optimale Kombination zu bestimmen, beispielsweise bei der Auswahl zwischen verschiedenen Angeboten: Hier ist das Angebot mit dem günstigsten Verhältnis von Output zu Input zu wählen (z.B. Speicherkapazität in Terabyte pro Kosten).",
+            "Die optimale Kombination der Produktionsfaktoren ist entscheidend für die Wettbewerbsfähigkeit eines Unternehmens. Dabei müssen sowohl quantitative Aspekte (Mengen) als auch qualitative Aspekte (Güte) berücksichtigt werden.",
+            "In modernen IT-Unternehmen wie IKU gewinnt der Faktor Information zunehmend an Bedeutung:\n• Informationen als Rohstoff für Softwareentwicklung\n• Wissen der Mitarbeiter als wettbewerbskritisches Asset\n• Rechte an Softwarelizenzen und Patenten\n• Daten als Grundlage für datengetriebene Geschäftsmodelle"
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Welche drei Elementarfaktoren definierte Erich Gutenberg in seinem betriebswirtschaftlichen Produktionsfaktorenmodell?",
+              "optionen": [
+                "a) Kapital, Arbeit, Boden",
+                "b) Werkstoffe, Betriebsmittel, ausführende Arbeit",
+                "c) Information, Zeit, Qualität",
+                "d) Rohstoffe, Maschinen, Management"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist der dispositive Faktor im Produktionsfaktorenmodell?",
+              "optionen": [
+                "a) Die technische Ausstattung des Unternehmens",
+                "b) Die Geschäftsleitung, die die Elementarfaktoren zu einer produktiven Einheit verbindet",
+                "c) Die Rohstoffe und Materialien für die Produktion",
+                "d) Die ausführende Arbeit der Mitarbeiter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welcher zusätzliche Produktionsfaktor hat sich mit der Entwicklung der Informationswirtschaft etabliert?",
+              "optionen": [
+                "a) Energie",
+                "b) Information (Wissen, Rechte)",
+                "c) Transportkapazität",
+                "d) Finanzmittel"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Aufgaben hat die Geschäftsleitung als dispositiver Faktor? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Leitung und Planung",
+                "b) Organisation und Kontrolle",
+                "c) Direkte Produktionsarbeit",
+                "d) Optimale Kombination der Elementarfaktoren"
+              ],
+              "antwort": ["a", "b", "d"]
+            },
+            {
+              "frage": "Welches ökonomische Prinzip verfolgt das Ziel, mit gegebenen Mitteln einen maximalen Erfolg zu erzielen?",
+              "optionen": [
+                "a) Minimumprinzip",
+                "b) Maximumprinzip",
+                "c) Optimumprinzip",
+                "d) Gleichgewichtsprinzip"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum war Gutenbergs ursprüngliches Modell für Handelsbetriebe unvollständig?",
+              "optionen": [
+                "a) Weil es zu viele Faktoren enthielt",
+                "b) Weil es zusätzliche Faktoren wie den Faktor Zeit nicht berücksichtigte",
+                "c) Weil es nur für Industrieunternehmen gedacht war",
+                "d) Weil es den Faktor Information überbetonte"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches ökonomische Prinzip wird angewendet, wenn sowohl Ergebnis als auch Einsatz variabel sind und die optimale Kombination gefunden werden soll?",
+              "optionen": [
+                "a) Maximumprinzip",
+                "b) Minimumprinzip",
+                "c) Optimumprinzip (Extremumprinzip)",
+                "d) Minimalprinzip"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche konkreten Beispiele für Produktionsfaktoren könnte IKU als IT-Unternehmen haben?",
+              "optionen": [
+                "a) Werkstoffe: Hardware-Komponenten; Betriebsmittel: Server; Information: Software-Code",
+                "b) Nur finanzielle Mittel und Bürogebäude",
+                "c) Ausschließlich Mitarbeiter ohne technische Ausstattung",
+                "d) Nur Rohstoffe wie Metalle und Kunststoffe"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was veranschaulicht das Beispiel 'Mit 50€ Taschengeld möglichst lange auskommen'?",
+              "optionen": [
+                "a) Das Maximumprinzip",
+                "b) Das Minimumprinzip",
+                "c) Das Optimumprinzip",
+                "d) Das Sparprinzip"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Betriebswirt, der ständig die Produktionsfaktoren verwechselt?",
+              "optionen": [
+                "a) Faktoren-Vertauscher",
+                "b) Input-Output-Chaot",
+                "c) Gutenbergs Erbe",
+                "d) Wirtschafts-Wirrkopf"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
+      },
+      "lm47":{
+        "2) Güterarten":{
+          "lerninhalt": [
+            "Unternehmen produzieren oder bieten Güter an, für die Wirtschaftssubjekte (private und öffentliche Haushalte sowie privatwirtschaftliche und öffentliche Unternehmen) bereit sind, ausreichend Geld auszugeben. Güter sind Mittel zur Bedürfnisbefriedigung und lassen sich nach verschiedenen Kriterien klassifizieren.",
+            "Nach der Beschaffenheit werden unterschieden:\n• Materielle Güter: Physisch greifbare Objekte wie Gebäude, Autos, Computer, Schokolade\n• Immaterielle Güter: Nicht-physische Leistungen wie Dienstleistungen, Informationen, Rechte",
+            "Nach Ort und Zweck der Nutzung:\n• Konsumgüter: Direkt zur Bedürfnisbefriedigung der Endverbraucher\n  - Verbrauchsgüter: Werden bei der Nutzung verbraucht (Druckerpapier, Strom, Telefondienste)\n  - Gebrauchsgüter: Können mehrmals genutzt werden (Maschinen, Regale, Werkzeuge, Autos, Bücher)\n• Investitionsgüter: Werden zur Herstellung anderer Güter eingesetzt\n  - Betriebsmittel: Langfristige Anlagen (Gebäude, Maschinen, Werkzeuge, Testgeräte)\n  - Werkstoffe: Materialien für die Produktion (Rohstoffe, Hilfsstoffe, Betriebsstoffe)\n  - Erzeugnisse/Waren: Hergestellte Produkte und Handelswaren",
+            "Nach der Beziehung zwischen Gütern:\n• Komplementäre Güter: Ergänzen sich gegenseitig (Drucker und Toner)\n• Substitutive Güter: Können sich gegenseitig ersetzen (Tintenstrahldrucker durch Laserdrucker, Auto durch Bahn)\n• Unverbundene Güter: Stehen in keiner direkten Beziehung (Lebensmittel und PC, Blumen und Zigaretten)",
+            "Nach der Verfügbarkeit und Zugänglichkeit:\n• Freie Güter: Stehen praktisch unbegrenzt zur Verfügung (Atemluft, Naturerlebnisse, Sonnenschein)\n• Wirtschaftliche Güter: Sind knapp und erfordern Aufwand (Sauerstoff in Flaschen, Musik-Streaming, Sonnenbank, Buch)\n• Private Güter: Können einzelnen Personen zugeordnet werden (Kinovorstellung, Computer, Pauschalreise)\n• Öffentliche Güter: Stehen allen zur Verfügung, können gemeinsam genutzt werden, niemand ist ausgeschlossen (Stadtfest, Parkanlage, Leuchtturm, Ratssitzung)",
+            "Aus der Perspektive des Unternehmenseinkaufs und der Leistungserstellung können Güter wie folgt unterschieden werden:\n[ASCII-Darstellung]\nGÜTERART           | BEISPIEL & ERLÄUTERUNG\n-------------------|--------------------------------------------------\nRohstoffe          | Hauptbestandteile (z.B. Eisen für Gehäuse)\nHilfsstoffe        | Nebenbestandteile (Farbe, Klebstoff, Heftklammern)\nBetriebsstoffe     | Nicht direkt zuzuordnen (Schmieröle, Brennstoffe)\nEinbaubauteile     | Komponenten für die Produktherstellung\nHandelswaren       | Güter zum Weiterverkauf an Endverbraucher\nDienstleistungen   | Fremdleistungen für die Leistungserstellung\nLizenzen & Rechte  | Markenrechte, Softwarenutzungsrechte, Patente",
+            "Detaillierte Beschreibung der Güter aus Unternehmenssicht:\n• Rohstoffe: Hauptbestandteile eines Erzeugnisses (z.B. Eisen für ein Gehäuse)\n• Hilfsstoffe: Nebenbestandteile eines Erzeugnisses (z.B. Farbe, Klebstoff, Heftklammern)\n• Betriebsstoffe: Nicht direkt einem Erzeugnis zuzurechnen (z.B. Schmieröle, Brennstoffe)\n• Einbaubauteile: Komponenten, die für die Herstellung eines Produktes verwendet werden\n• Handelswaren: Güter, die an den Endverbraucher weiterverkauft werden\n• Dienstleistungen: Fremdleistungen, die zur Leistungserstellung notwendig sind\n• Lizenzen und Rechte: Markenrechte, Softwarenutzungsrechte, Patente und Urheberrechte, die bei der Leistungserstellung zu berücksichtigen sind",
+            "Für IKU als IT-Unternehmen sind besonders relevant:\n• Immaterielle Güter: Software, Dienstleistungen, Know-how\n• Investitionsgüter: Server, Netzwerkinfrastruktur als Betriebsmittel\n• Lizenzen und Rechte: Softwarelizenzen, Patente, Urheberrechte\n• Dienstleistungen: Externe Beratung, Wartungsdienste",
+            "Besondere Bedeutung für IT-Unternehmen:\n• Öffentliche Güter: Open-Source-Software, öffentliche APIs\n• Private Güter: Proprietäre Softwarelösungen\n• Substitutive Güter: Verschiedene Technologielösungen, die sich ersetzen können\n• Komplementäre Güter: Hardware und passende Software, Cloud-Dienste und Anwendungen"
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Was sind Güter im wirtschaftlichen Sinne?",
+              "optionen": [
+                "a) Ausschließlich physische Produkte",
+                "b) Mittel zur Bedürfnisbefriedigung, für die Wirtschaftssubjekte Geld ausgeben",
+                "c) Nur kostenlose Naturprodukte",
+                "d) Nur staatlich bereitgestellte Dienstleistungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was unterscheidet materielle von immateriellen Gütern?",
+              "optionen": [
+                "a) Materielle Güter sind physisch greifbar, immaterielle Güter sind nicht-physische Leistungen",
+                "b) Materielle Güter sind immer teurer",
+                "c) Immaterielle Güter können nicht verkauft werden",
+                "d) Es gibt keinen wesentlichen Unterschied"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Unterteilung von Konsumgütern gibt es? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Verbrauchsgüter (werden bei Nutzung verbraucht)",
+                "b) Gebrauchsgüter (können mehrmals genutzt werden)",
+                "c) Investitionsgüter (für Produktion anderer Güter)",
+                "d) Öffentliche Güter (stehen allen zur Verfügung)"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "Was charakterisiert öffentliche Güter?",
+              "optionen": [
+                "a) Sie stehen allen zur Verfügung, können gemeinsam genutzt werden und niemand ist ausgeschlossen",
+                "b) Sie sind immer kostenlos",
+                "c) Sie werden nur vom Staat produziert",
+                "d) Sie sind immer physische Objekte"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Güterbeziehung besteht zwischen Drucker und Toner?",
+              "optionen": [
+                "a) Substitutive Güter (können sich ersetzen)",
+                "b) Komplementäre Güter (ergänzen sich gegenseitig)",
+                "c) Unverbundene Güter (keine Beziehung)",
+                "d) Identische Güter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was sind typische Beispiele für Betriebsstoffe aus Unternehmenssicht?",
+              "optionen": [
+                "a) Hauptbestandteile eines Produkts wie Eisen für Gehäuse",
+                "b) Nebenbestandteile wie Farbe und Klebstoff",
+                "c) Nicht direkt zuzuordnende Materialien wie Schmieröle und Brennstoffe",
+                "d) Komponenten für die Produktherstellung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Güterart ist für IKU als IT-Unternehmen besonders relevant?",
+              "optionen": [
+                "a) Nur Rohstoffe wie Metalle",
+                "b) Immaterielle Güter wie Software, Dienstleistungen und Know-how",
+                "c) Ausschließlich landwirtschaftliche Produkte",
+                "d) Nur öffentliche Güter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was versteht man unter substitutiven Gütern?",
+              "optionen": [
+                "a) Güter, die sich gegenseitig ergänzen",
+                "b) Güter, die sich gegenseitig ersetzen können",
+                "c) Güter ohne wirtschaftliche Beziehung",
+                "d) Güter, die nur gemeinsam gekauft werden können"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Güterarten werden im Unternehmenseinkauf unterschieden? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Rohstoffe und Hilfsstoffe",
+                "b) Betriebsstoffe und Einbaubauteile",
+                "c) Handelswaren und Dienstleistungen",
+                "d) Nur fertige Produkte"
+              ],
+              "antwort": ["a", "b", "c"]
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man ein Gut, das alle haben wollen, bis sie es besitzen?",
+              "optionen": [
+                "a) Traum-Gut",
+                "b) Begehrens-Ware",
+                "c) Vorfreude-Artikel",
+                "d) Wunsch-Produkt"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm48":{
+        "3) Organisationsmittel":{
+          "lerninhalt": [
+            "Organisationsmittel umfassen in der Aufbau- und Ablauforganisation sowohl Arbeitsmittel als auch formale Gestaltungsmittel. Im Zuge der Digitalisierung unterliegen diese Mittel erheblichen Veränderungen und Weiterentwicklungen.",
+            "Klassische Organisationsmittel können in zwei Hauptkategorien unterteilt werden:\n• Arbeitsmittel: Physische Geräte und Materialien für die tägliche Arbeit\n• Gestaltungsmittel: Formale Dokumente und Strukturen zur Organisation von Prozessen und Verantwortlichkeiten",
+            "Klassische Arbeitsmittel im traditionellen Büro:\n• Computer und Büromaschinen\n• Maschinen, technische Anlagen und Werkzeuge\n• Büromaterial wie Ordner, Hefter, Register, Mappen\nDiese physischen Mittel bilden die Grundlage für die Ausführung von Arbeitsaufgaben.",
+            "Klassische Gestaltungsmittel für formale Organisation:\n• Arbeitsanweisungen und Verfahrensvorschriften\n• Formular- und Vordruckwesen\n• Kontenplan und Kontenrahmen für die Buchhaltung\n• Organigramme zur Darstellung der Unternehmensstruktur\n• Stellenbeschreibungen und Stellenpläne\n• Tagesordnungen für Besprechungen und Verhandlungen\nDiese Mittel definieren Regeln, Prozesse und Verantwortlichkeiten im Unternehmen.",
+            "Digitale Organisationsmittel im papierlosen Büro:\n• Arbeitsmittel: Computer und vernetzte Peripheriegeräte mit Kommunikationsschnittstellen, Office-Software, Organisationssoftware, Dokumenten- und Informationsmanagementsysteme\n• Gestaltungsmittel: Alle klassischen Gestaltungsmittel stehen digital zur Verfügung (Organisationspläne, Ordner, Verzeichnisse, Formulare als elektronische Versionen)",
+            "Vorteile und Besonderheiten digitaler Organisationsmittel:\n• Gestaltungsmittel können kommuniziert, initiiert, gemeinsam bearbeitet und abgestimmt werden\n• Kollaboration wird ermöglicht und erleichtert\n• Kontinuierlicher Verbesserungsprozess (KVP), Innovations- und Projektmanagement können ganzheitlich integriert werden\n• Informationen sind schneller verfügbar und besser durchsuchbar",
+            "Vergleich klassischer und digitaler Organisationsmittel:\n[ASCII-Darstellung]\nKLASSISCHES BÜRO              | DIGITALES/PAPIERLOSES BÜRO\n------------------------------|------------------------------\nPhysische Ordner & Mappen     | Digitale Dokumentensysteme\nPapierformulare               | Elektronische Formulare\nPhysische Organigramme        | Interaktive Organigramme\nManuelle Arbeitsanweisungen   | Digitale Prozessdokumentation\nIsolierte Computer            | Vernetzte Systeme & Cloud",
+            "IKU als modernes IT-Unternehmen setzt vermutlich stark auf digitale Organisationsmittel:\n• Cloud-basierte Kollaborationstools\n• Digitale Dokumentenmanagementsysteme (DMS)\n• Elektronische Workflow-Systeme\n• Integrierte Projektmanagement-Software\n• Digitale Stellenbeschreibungen und Prozessdokumentationen",
+            "Die Digitalisierung von Organisationsmitteln bringt wesentliche Vorteile:\n• Höhere Effizienz durch schnellere Informationsverfügbarkeit\n• Bessere Zusammenarbeit durch kollaborative Tools\n• Einfachere Aktualisierung und Versionierung von Dokumenten\n• Reduzierung physischer Lagerkosten\n• Umweltvorteile durch weniger Papierverbrauch",
+            "Herausforderungen bei der Einführung digitaler Organisationsmittel:\n• Veränderungsmanagement und Akzeptanz bei Mitarbeitern\n• Schulungsbedarf für neue Systeme\n• Sicherheitsaspekte und Datenschutz\n• Integration verschiedener Systeme\n• Langfristige Archivierung digitaler Dokumente"
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Was versteht man unter Organisationsmitteln in Unternehmen?",
+              "optionen": [
+                "a) Nur die physischen Büroeinrichtungen",
+                "b) Arbeitsmittel und formale Gestaltungsmittel für Aufbau- und Ablauforganisation",
+                "c) Ausschließlich Computer und Technik",
+                "d) Nur die Mitarbeiter eines Unternehmens"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche zwei Hauptkategorien von Organisationsmitteln werden unterschieden?",
+              "optionen": [
+                "a) Materielle und immaterielle Mittel",
+                "b) Arbeitsmittel und Gestaltungsmittel",
+                "c) Technische und administrative Mittel",
+                "d) Interne und externe Mittel"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was sind typische klassische Arbeitsmittel? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Computer und Büromaschinen",
+                "b) Ordner, Hefter und Register",
+                "c) Digitale Dokumentensysteme",
+                "d) Organigramme und Stellenbeschreibungen"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "Welche Beispiele für klassische Gestaltungsmittel gibt es?",
+              "optionen": [
+                "a) Physische Ordner und Mappen",
+                "b) Arbeitsanweisungen, Organigramme, Stellenbeschreibungen",
+                "c) Nur Computer und Drucker",
+                "d) Ausschließlich Büromaterial"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was charakterisiert digitale Organisationsmittel im papierlosen Büro?",
+              "optionen": [
+                "a) Sie existieren nur als physische Dokumente",
+                "b) Sie stehen elektronisch zur Verfügung und ermöglichen Kollaboration",
+                "c) Sie sind teurer in der Anschaffung",
+                "d) Sie ersetzen komplett menschliche Arbeitskraft"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Vorteile bieten digitale Gestaltungsmittel?",
+              "optionen": [
+                "a) Sie können nur von einer Person bearbeitet werden",
+                "b) Sie können kommuniziert, gemeinsam bearbeitet und abgestimmt werden",
+                "c) Sie sind unveränderlich nach der Erstellung",
+                "d) Sie benötigen mehr physischen Speicherplatz"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches moderne IT-Unternehmen wie IKU setzt vermutlich besonders auf welche Art von Organisationsmitteln?",
+              "optionen": [
+                "a) Ausschließlich klassische Papierdokumente",
+                "b) Hauptsächlich digitale und kollaborative Organisationsmittel",
+                "c) Nur manuelle Arbeitsanweisungen",
+                "d) Keine strukturierten Organisationsmittel"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bedeutet KVP im Zusammenhang mit digitalen Organisationsmitteln?",
+              "optionen": [
+                "a) Kontinuierlicher Verbesserungsprozess, der durch digitale Mittel besser integriert werden kann",
+                "b) Komplexe Verwaltungsprozesse",
+                "c) Kurzfristige Vertragsprojekte",
+                "d) Keine besondere Bedeutung"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche Herausforderungen können bei der Einführung digitaler Organisationsmittel auftreten? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Veränderungsmanagement und Mitarbeiterakzeptanz",
+                "b) Schulungsbedarf für neue Systeme",
+                "c) Sicherheitsaspekte und Datenschutz",
+                "d) Nur positive Effekte ohne Herausforderungen"
+              ],
+              "antwort": ["a", "b", "c"]
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Mitarbeiter, der trotz digitaler Systeme immer noch alles ausdruckt und in Ordnern ablegt?",
+              "optionen": [
+                "a) Papier-Dinosaurier",
+                "b) Ordner-Fetischist",
+                "c) Drucker-Junkie",
+                "d) Analog-Apostel"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm49":{
+        "1.4 - Das Marktumfeld des Ausbildungsbetriebs beschreiben\n 1.4.1 Wirtschaftskreisläufe beschreiben\n  (1) Einfacher Wirtschaftskreislauf":{
+          "lerninhalt": [
+            "Um das Marktumfeld und die Marktsituationen des Ausbildungsbetriebs sowie der umgebenden Unternehmen (Kunden, Lieferanten) zu analysieren, ist es hilfreich, zunächst verschiedene Wirtschaftskreisläufe modellhaft zu betrachten. Diese Modelle helfen dabei, die wirtschaftlichen Zusammenhänge und Austauschbeziehungen in einer Volkswirtschaft zu verstehen.",
+            "Der einfache Wirtschaftskreislauf stellt die grundlegenden Austauschbeziehungen zwischen zwei Hauptakteuren dar: den privaten Haushalten (Endverbrauchern) und den Unternehmen. In diesem vereinfachten Modell gibt es keinen Staat, keine Banken und keinen Außenhandel.",
+            "Im einfachen Wirtschaftskreislauf bieten die Haushalte den Unternehmen volkswirtschaftliche Faktorleistungen an:\n• Arbeit: Durch ihre Bereitschaft, gegen Entgelt zu arbeiten\n• Kapital: In Form von Geld für Investitionen\n• Boden: Beispielsweise durch die Bereitstellung von Grundstücken und Immobilien",
+            "Als Gegenleistung für diese Faktorleistungen erhalten die Haushalte Einkommen von den Unternehmen in verschiedenen Formen:\n• Löhne und Gehälter für geleistete Arbeit\n• Zinsen für bereitgestelltes Kapital\n• Mieten und Pachten für überlassenen Boden und Immobilien",
+            "Mit diesen Einkommen kaufen die Haushalte Konsumgüter, die von den Unternehmen produziert werden. Diese Konsumausgaben fließen als Umsatzerlöse zurück zu den Unternehmen und bilden die Grundlage für deren Produktionstätigkeit.",
+            "Zusammenhang der Ströme im einfachen Wirtschaftkreislauf:\n[ASCII-Darstellung]\nHAUSHALTE                       UNTERNEHMEN\n---------                       -----------\nFaktorleistungen      →        Konsumgüter\n(Arbeit, Kapital, Boden)       (Produkte, Dienstleistungen)\n                                 ↓\nEinkommen            ←        Konsumausgaben\n(Löhne, Gehälter, Zinsen)      (Umsatzerlöse)",
+            "Der Kreislauf vollzieht sich in zwei gegenläufigen Strömen:\n1. Realstrom (Faktorleistungen und Güter): Haushalte stellen Arbeit, Kapital und Boden zur Verfügung → Unternehmen produzieren Konsumgüter\n2. Geldstrom (Einkommen und Ausgaben): Unternehmen zahlen Einkommen an Haushalte → Haushalte zahlen Konsumausgaben an Unternehmen",
+            "IKU als Unternehmen ist Teil dieses Wirtschaftskreislaufs:\n• Als Anbieter von IT-Dienstleistungen und -Produkten (Konsum- und Investitionsgüter)\n• Als Nachfrager nach Faktorleistungen (Arbeit von IT-Fachkräften, Kapital für Investitionen)\n• Als Einkommenszahler an Mitarbeiter (Löhne/Gehälter) und Kapitalgeber (Zinsen)",
+            "Dieses einfache Modell bildet die Grundlage für komplexere Wirtschaftskreisläufe, die später um weitere Akteure erweitert werden können:\n• Staat mit Steuern und Transferzahlungen\n• Banken mit Krediten und Spareinlagen\n• Ausland mit Importen und Exporten"
+          ],
+          "fragen": [
+            {
+              "frage": "Kompetenzcheck: Welche beiden Hauptakteure werden im einfachen Wirtschaftskreislauf betrachtet?",
+              "optionen": [
+                "a) Staat und Unternehmen",
+                "b) Private Haushalte und Unternehmen",
+                "c) Banken und Versicherungen",
+                "d) Inland und Ausland"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche drei volkswirtschaftlichen Faktorleistungen stellen Haushalte den Unternehmen zur Verfügung?",
+              "optionen": [
+                "a) Arbeit, Kapital, Boden",
+                "b) Rohstoffe, Energie, Technologie",
+                "c) Management, Marketing, Vertrieb",
+                "d) Steuern, Abgaben, Gebühren"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Was erhalten Haushalte als Gegenleistung für ihre Faktorleistungen?",
+              "optionen": [
+                "a) Konsumgüter direkt von anderen Haushalten",
+                "b) Einkommen in Form von Löhnen, Gehältern und Zinsen",
+                "c) Steuererstattungen vom Staat",
+                "d) Importwaren aus dem Ausland"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche beiden gegenläufigen Ströme charakterisieren den Wirtschaftskreislauf? (Mehrfachauswahl)",
+              "optionen": [
+                "a) Realstrom (Faktorleistungen und Güter)",
+                "b) Geldstrom (Einkommen und Ausgaben)",
+                "c) Informationsstrom (Daten und Kommunikation)",
+                "d) Warenstrom (Importe und Exporte)"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "Wofür verwenden Haushalte ihre Einkommen im einfachen Wirtschaftskreislauf?",
+              "optionen": [
+                "a) Ausschließlich für Spar- und Anlagezwecke",
+                "b) Für Konsumausgaben, um Güter von Unternehmen zu kaufen",
+                "c) Nur für Miet- und Energiekosten",
+                "d) Vorwiegend für Steuerzahlungen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Rolle spielt IKU im Wirtschaftskreislauf?",
+              "optionen": [
+                "a) Nur als Konsument von Gütern",
+                "b) Als Anbieter von IT-Dienstleistungen und Nachfrager nach Faktorleistungen",
+                "c) Ausschließlich als Einkommensempfänger",
+                "d) Nur als Kapitalgeber für andere Unternehmen"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum wird der Wirtschaftskreislauf als 'Kreislauf' bezeichnet?",
+              "optionen": [
+                "a) Weil die Geld- und Güterströme zyklisch zwischen den Akteuren fließen",
+                "b) Weil sich Unternehmen im Kreis drehen",
+                "c) Weil Haushalte ihre Entscheidungen immer wieder ändern",
+                "d) Weil die Wirtschaft sich ständig im Kreis bewegt"
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Welche zusätzlichen Akteure werden in erweiterten Wirtschaftskreislaufmodellen berücksichtigt?",
+              "optionen": [
+                "a) Nur weitere Unternehmen",
+                "b) Staat, Banken und Ausland",
+                "c) Ausschließlich nichtkommerzielle Organisationen",
+                "d) Nur internationale Konzerne"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was passiert, wenn Haushalte einen Teil ihres Einkommens nicht für Konsum ausgeben?",
+              "optionen": [
+                "a) Dann bricht der einfache Wirtschaftskreislauf zusammen",
+                "b) Das wird im einfachen Modell nicht berücksichtigt, erst in erweiterten Modellen",
+                "c) Unternehmen müssen dann weniger produzieren",
+                "d) Der Staat springt ein und kauft die Güter"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Scherzfrage: Wie nennt man einen Wirtschaftskreislauf, bei dem das Geld nur im Kreis läuft und nie ankommt?",
+              "optionen": [
+                "a) Geld-Karussell",
+                "b) Zahlungs-Drehtür",
+                "c) Finanz-Fahrrad",
+                "d) Cash-Carousel"
+              ],
+              "antwort": "a"
+            }
+          ]
+        }
+      }  
     },
     "lernmoduleLF08": {
       "lm01": {
