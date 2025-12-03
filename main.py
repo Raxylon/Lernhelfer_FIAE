@@ -40,7 +40,7 @@ while True:
                         print("\n📘 Lerninhalt:")
                         for absatz in thema["lerninhalt"]:
                             print("-", absatz)
-                            input("enter...")
+                            input("❗❗❗enter...")
                     elif auswahl == "2":
                         punkte = 0
                         gesamt = len(fragen)
