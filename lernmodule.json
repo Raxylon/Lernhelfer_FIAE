@@ -10193,6 +10193,728 @@
             }
           ]
         }
+      },
+      "lm11":{
+        "2.2.2 Marktgängige IT-Systeme vorstellen":{
+          "lerninhalt": [
+            "IT-Systeme für Endverbraucher und Standardsysteme werden heute überwiegend über Discount-Fachmärkte und Internetportale vertrieben. Für den klassischen Fachhandel sind die Handelsspannen (Differenz zwischen Einstandspreis und Verkaufspreis) so gering, dass sich diese oft auf die Bewerbung bei Geschäfts- und Profikunden konzentrieren müssen.",
+            "Auch Behörden und Organisationen beziehen ihre IT-Ausstattung typischerweise von Fachhändlern, IT-Systemhäusern sowie auf diese Zielgruppen spezialisierten Internetanbietern.",
+            "Aufgrund der Vielfalt möglicher IT-Dienstleistungen haben Anbieter häufig unterschiedliche Schwerpunkte im beratungsintensiven IT-Systemgeschäft gesetzt. Für Kunden oder Auftraggeber ist es daher eine Herausforderung, den kompetentesten Anbieter mit dem besten Preis-Leistungs-Verhältnis zu finden.",
+            "Für spezielle IT-Anwendungen und größere IT-Systeme müssen die Geräte entsprechend den Anforderungen des Auftraggebers speziell konfiguriert werden. Hierfür sind in der Regel gute Kenntnisse über das Umfeld und die Arbeitsgebiete des Auftraggebers notwendig.",
+            "Definition: Konfiguration bezeichnet die Zusammenstellung, Einstellung und Abstimmung von Komponenten, Geräten und Programmen in Bezug auf die geplanten Anwendungen. Man unterscheidet dabei zwischen der Ist-Konfiguration (Feststellung des aktuellen Zustands) und der Soll-Konfiguration (Beschreibung des gewünschten Zustands gemäß der Zielsetzung des Auftraggebers).",
+            "Das Angebot an IT-Systemen und Komponenten (Hardware und Software) ist sehr groß. Daher werden große Spezialmessen veranstaltet, um Fachbesucher zu erreichen. Spezielle Vergleichsportale im Internet informieren über das vielfältige Angebot. Es wird geschätzt, dass weit über 10.000 unterschiedliche Anwenderprogramme auf dem IT-Markt verfügbar sind.",
+            "Datenverarbeitung dient der Verarbeitung erfasster oder gespeicherter Daten. Sie folgt dem E-V-A-Prinzip (Eingabe - Verarbeitung - Ausgabe). Diesem Prinzip folgend lassen sich die Komponenten eines IT-Systems zuordnen.",
+            "Die Verarbeitung übernimmt die Zentraleinheit (CPU) mit ihren Prozessoren, internen Arbeitsspeichern (RAM) sowie Steuer- und Kommunikationseinheiten.",
+            "Eine Betriebssoftware, das Betriebssystem, steuert die Verarbeitung und Bereitstellung der Daten – sowohl intern im System als auch extern gegenüber anderen Systemen.",
+            "Geräte zur Eingabe, Ausgabe und externen Speicherung werden unter dem Sammelbegriff Peripheriegeräte zusammengefasst (da sie sich 'in der Peripherie', also in der Umgebung des Zentralsystems, befinden).",
+            "EINGABEGERÄTE (Beispiele): Tastaturen, Mäuse, Touchpads, Scanner, Webcams, Mikrofone, Joysticks, Grafiktabletts, Presenter (Präsentationsfernbedienungen).",
+            "AUSGABEGERÄTE (Beispiele): Monitore, Displays, Drucker, Lautsprecher, Kopfhörer, Plotter.",
+            "EXTERNE SPEICHERGERÄTE: Diese dienen der längerfristigen Speicherung von Daten (z.B. Festplatten, SSDs, USB-Sticks, optische Medien, NAS). Da von ihnen gelesen und auf sie geschrieben wird, fungieren sie sowohl als Eingabe- als auch als Ausgabeeinheiten.",
+            "SONSTIGE PERIPHERIE: Dockingstationen (zur Anbindung von Laptops an weitere Geräte)."
+          ],
+          "fragen": [
+            {
+              "frage": "Über welche Vertriebskanäle werden IT-Standardsysteme für Endverbraucher laut IKU heute überwiegend angeboten?",
+              "optionen": [
+                "a) Exklusiv über Hersteller-Repräsentanzen",
+                "b) Über Discount-Fachmärkte und Internetportale",
+                "c) Ausschließlich im klassischen Fachhandel vor Ort",
+                "d) Im Direktvertrieb durch Hausbesuche"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum konzentriert sich der klassische IT-Fachhandel laut IKU häufig auf Geschäfts- und Profikunden?",
+              "optionen": [
+                "a) Weil Privatkunden zu anspruchsvoll sind.",
+                "b) Weil die Handelsspannen (Differenz zwischen Einstands- und Verkaufspreis) zu gering sind, um mit dem Massenmarkt zu konkurrieren.",
+                "c) Weil es gesetzliche Vorgaben für den Verkauf an Privatpersonen gibt.",
+                "d) Weil Hersteller den Direktvertrieb verbieten."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was bezeichnet der Begriff 'Konfiguration' im IT-Kontext?",
+              "optionen": [
+                "a) Den Prozess der Software-Installation.",
+                "b) Die Zusammenstellung, Einstellung und Abstimmung von Komponenten, Geräten und Programmen in Bezug auf die Anwendungen.",
+                "c) Den physischen Zusammenbau eines Rechners aus Einzelteilen.",
+                "d) Die Fehlersuche in einem Netzwerk."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was beschreibt eine 'Soll-Konfiguration'?",
+              "optionen": [
+                "a) Den technischen Aufbau eines defekten Systems.",
+                "b) Die Dokumentation eines Standard-PCs vom Hersteller.",
+                "c) Den gewünschten Zielzustand eines Systems gemäß der Vorgaben und Zielsetzung des Auftraggebers.",
+                "d) Eine Konfiguration, die nicht funktioniert."
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welchem grundlegenden Prinzip folgt die Datenverarbeitung in einem IT-System?",
+              "optionen": [
+                "a) S-V-A-Prinzip (Speichern - Verarbeiten - Abrufen)",
+                "b) E-V-A-Prinzip (Eingabe - Verarbeitung - Ausgabe)",
+                "c) P-O-P-Prinzip (Programm - Operation - Prozess)",
+                "d) K-V-K-Prinzip (Kommando - Verarbeitung - Kontrolle)"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Komponente übernimmt im E-V-A-Prinzip die eigentliche 'Verarbeitung'?",
+              "optionen": [
+                "a) Die Peripheriegeräte",
+                "b) Der Monitor",
+                "c) Die Zentraleinheit (CPU) mit ihren Prozessoren und Arbeitsspeichern",
+                "d) Die externe Festplatte"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Unter welchem Sammelbegriff werden Geräte zur Eingabe, Ausgabe und externen Speicherung zusammengefasst?",
+              "optionen": [
+                "a) Kernkomponenten",
+                "b) Bus-Systeme",
+                "c) Peripheriegeräte",
+                "d) Schnittstellen-Controller"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum werden externe Speichergeräte wie Festplatten im E-V-A-Schema sowohl als Eingabe- als auch als Ausgabeeinheit betrachtet?",
+              "optionen": [
+                "a) Weil sie ein eigenes Betriebssystem haben.",
+                "b) Weil sie Strom verbrauchen und Daten abgeben.",
+                "c) Weil von ihnen gelesen (Eingabe) und auf sie geschrieben (Ausgabe) wird.",
+                "d) Weil sie oft bunt beleuchtet sind."
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Aufgabe hat die Betriebssoftware (Betriebssystem) in einem IT-System?",
+              "optionen": [
+                "a) Sie verarbeitet spezifische Anwenderdaten wie Texte oder Tabellen.",
+                "b) Sie steuert die Verarbeitung und Bereitstellung der Daten, sowohl intern als auch extern.",
+                "c) Sie dient ausschließlich der grafischen Benutzeroberfläche.",
+                "d) Sie ist nur für die Verwaltung der Peripheriegeräte zuständig."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine zentrale Herausforderung für einen Auftraggeber bei der Beschaffung von speziellen IT-Systemen oder größeren Lösungen? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Den kompetentesten Anbieter zu finden.",
+                "b) Das beste Preis-Leistungs-Verhältnis zu identifizieren.",
+                "c) Den günstigsten Anbieter ohne Rücksicht auf Service zu wählen.",
+                "d) Einen Anbieter zu finden, der tiefe Kenntnisse des eigenen Arbeitsumfeldes mitbringt."
+              ],
+              "antwort": ["a", "b", "d"]
+            },
+            {
+              "frage": "Wie nennt man eine Festplatte, die schlecht über ihre Leistung lügt?",
+              "optionen": [
+                "a) Langsam-Spinne",
+                "b) Flunkerknete",
+                "c) Mega-Byte-Betrüger",
+                "d) Festplatte mit 'kreativer' Kapazitätsangabe"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm12":{
+        "(1) Bauformen und Spezifikationen von Arbeitsplatzcomputern":{
+          "lerninhalt": [
+            "Aufgrund der unterschiedlichen Anforderungen der Anwender an ihre Arbeitsplätze haben sich zahlreiche Bauformen für Computer entwickelt. Hersteller passen ihre Produkte laufend dem Marktbedarf an. Je nach Einsatzbereich sind verschiedene Bauformen gefragt und müssen von Fachberatern zielgenau ausgewählt und konfiguriert werden.",
+            "Übersicht gängiger Bauformen für Arbeitsplatzcomputer und Smart Devices:",
+            "- Stand-Alone-PCs (Autonome Arbeitsplatzrechner): Verfügen über eine eigene CPU und können Anwenderprogramme selbstständig ausführen. Ihre Leistungsfähigkeit variiert stark. Zu ihnen gehören:",
+            "  * Tower-PC (in den Größen Mini-Tower, Mid-Tower, Big-Tower)",
+            "  * Desktop-PC (flache Bauform)",
+            "  * All-in-One-PC (Gehäuse und Monitor in einem)",
+            "  * Mini-PC (sehr kompakte Bauform)",
+            "  * Stick-PC (computergroßer USB-Stick)",
+            "- Notebooks / Laptops: Mobile, integrierte Systeme.",
+            "- Convertibles / 2-in-1-Geräte: Kombination aus Laptop und Tablet, oft mit umklappbarem oder abnehmbarem Display.",
+            "- Thin Clients und Zero Clients: Besondere Bauformen, die für den Betrieb in einem Server-Netzwerk konzipiert sind.",
+            "- Smart Devices: Dazu gehören Tablets, Smartphones und eingebettete Systeme (Smart Home, Smart Factory).",
+            "Die Notwendigkeit einer Serververnetzung variiert: Während Stand-Alone-PCs und mobile Geräte auch ohne Netzwerk funktionieren können, ist für Thin/Zero Clients ein Server zwingend erforderlich. Für die volle Funktionalität aller Geräte ist ein Kommunikationsnetz sinnvoll oder notwendig.",
+            "Vergleich leistungsorientierter PC-Kategorien:",
+            "- Desktop-PC / Laptops (Standard):",
+            "  * CPU: Normal bis schnell",
+            "  * Arbeitsspeicher (RAM): 4 bis 8 GB",
+            "  * Grafik: Onboard-Grafik (preiswert, Standardleistung)",
+            "  * Einsatz: Office-Anwendungen, Geschäftsprogramme",
+            "  * Lizenzkosten: Standard",
+            "- Workstation (Leistungsrechner):",
+            "  * CPU: Viele Kerne, hoch getaktet",
+            "  * Arbeitsspeicher (RAM): Groß, üblicherweise > 8 GB",
+            "  * Grafik: Zertifizierte, leistungsstarke Grafikkarte",
+            "  * Einsatz: Multimedia/Design, Bildbearbeitung, CAD, Videobearbeitung, Gaming",
+            "  * Lizenzkosten: Oft höher aufgrund spezieller Software",
+            "Stick-PCs bieten mit einem portablen Betriebssystem und portablen Apps flexible, temporäre Rechnerleistung. Mini-PCs können in der Regel an Datennetze angeschlossen und wie normale Netzwerkrechner eingesetzt werden.",
+            "Thin Clients und Zero Clients benötigen für ihren Betrieb einen Server, von dem sie Anwendungen und Daten bereitgestellt bekommen. Dieser Ansatz erlaubt den Einsatz sehr einfacher Hardware oder sogar die Nachnutzung von Altgeräten.",
+            "- Thin Clients verfügen über eingeschränkte lokale Speichermöglichkeiten. Dies zwingt Anwender, Daten zentral auf Servern abzulegen. Vorteile sind verbesserter Datenschutz, höhere Datensicherheit, bessere Systemzuverlässigkeit und niedrigere Wartungskosten.",
+            "- Zero Clients sind eine besonders schlanke Variante. Sie sind vollständig von einem Server abhängig und besitzen keinen lokalen Anwenderspeicher.",
+            "Nachteil beider Client-Arten: Anwendungen sind offline (ohne Netzanbindung) nicht verfügbar. Zudem können Latenzzeiten (Verzögerungen) durch Netzbelastungen auftreten.",
+            "Smart Devices (digitale, vernetzte Einheiten) wie Smartphones, Tablets oder eingebaute Kleinstcomputer in Maschinen (Smart Factory) interagieren vernetzt mit Computersystemen und unterstützen die Arbeit an digitalen Arbeitsplätzen. Arbeitsplatzsysteme unterscheiden sich hauptsächlich in der Leistungsfähigkeit der Zentraleinheit (CPU) und der Art der angeschlossenen Peripheriegeräte.",
+            "Bei der Auswahl von IT-Hardware sind vielfältige Kriterien und Spezifikationen zu prüfen. Diese lassen sich in quantitative und qualitative Größen einteilen:",
+            "- Quantitative Größen (messbar, objektiv): Volumen, Kapazität, Gewicht, Ressourcensparsamkeit, Energieeffizienz, Geräuschentwicklung (dB), Temperatur/Wärmeentwicklung, Geschwindigkeit/Performance, Stabilität.",
+            "- Qualitative Größen (schwer messbar, subjektiv): Passende Formate, Formfaktor, Kompatibilität, Erweiterbarkeit, Design, Ergebnisqualität (z.B. Druckqualität), Robustheit, Latenzzeit.",
+            "Zur Bewertung dienen Vergleiche wie Testergebnisse, Benchmark-Ergebnisse (Vergleich mit gleichwertigen Produkten), Stresstests, Lasttests, Worst-Case-Tests und Ranglisten.",
+            "Für die Anwenderzufriedenheit ist neben der richtigen Hardware auch die Wahl der passenden Anwenderprogramme (Software) entscheidend. Bei einem Markt mit mehreren zehntausend verschiedenen Softwareangeboten ist eine gezielte Recherche und ein eingegrenzter Vergleich unerlässlich, um zeitnah eine Entscheidung treffen zu können."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche zwei Hauptkategorien von PCs werden im IKU-Material im Hinblick auf ihre Leistungsfähigkeit unterschieden?",
+              "optionen": [
+                "a) Server und Clients",
+                "b) Desktop-PC/Laptops und Workstations",
+                "c) Thin Clients und Zero Clients",
+                "d) Tower-PCs und All-in-One-PCs"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Merkmal ist laut IKU der primäre Unterschied zwischen einem Thin Client und einem Zero Client?",
+              "optionen": [
+                "a) Der Zero Client hat eine bessere Grafikkarte.",
+                "b) Der Thin Client ist teurer.",
+                "c) Der Zero Client ist vollständig von einem Server abhängig und besitzt keinen lokalen Anwenderspeicher.",
+                "d) Der Thin Client kann keine Apps ausführen."
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche der folgenden Aussagen zu Stand-Alone-PCs ist FALSCH?",
+              "optionen": [
+                "a) Sie haben eine eigene CPU.",
+                "b) Sie können Anwenderprogramme selbstständig ausführen.",
+                "c) Für ihren Betrieb ist zwingend eine ständige Verbindung zu einem Server notwendig.",
+                "d) Ihre Leistungsfähigkeit variiert je nach Ausstattung."
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Vorteile ergeben sich laut IKU aus dem Einsatz von Thin Clients in einem Netzwerk? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Niedrigere Wartungskosten",
+                "b) Bessere Datensicherheit und Systemzuverlässigkeit durch zentrale Datenhaltung",
+                "c) Höhere Offline-Verfügbarkeit der Anwendungen",
+                "d) Unabhängigkeit von der Netzwerklast"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "In welche beiden Oberkategorien werden Hardware-Bewertungskriterien im IKU-Material eingeteilt?",
+              "optionen": [
+                "a) Preisliche und qualitative Kriterien",
+                "b) Interne und externe Kriterien",
+                "c) Quantitative und qualitative Größen",
+                "d) Technische und optische Kriterien"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welches der folgenden Kriterien ist ein Beispiel für eine QUANTITATIVE Hardware-Spezifikation?",
+              "optionen": [
+                "a) Design",
+                "b) Kompatibilität",
+                "c) Geräuschentwicklung (in dB)",
+                "d) Robustheit"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was ist ein charakteristischer NACHTEIL sowohl von Thin Clients als auch von Zero Clients?",
+              "optionen": [
+                "a) Sie sind sehr teuer in der Anschaffung.",
+                "b) Anwendungen sind offline (ohne Netzanbindung) nicht verfügbar.",
+                "c) Sie bieten keine Möglichkeit der zentralen Verwaltung.",
+                "d) Sie haben eine zu hohe lokale Rechenleistung."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche Art von Tests dient laut IKU dem Vergleich der Leistungsfähigkeit von Hardware mit gleichwertigen Produkten?",
+              "optionen": [
+                "a) Stresstests",
+                "b) Benchmark-Tests",
+                "c) Worst-Case-Tests",
+                "d) Kompatibilitätstests"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was versteht man unter 'Smart Devices' im Kontext digitaler Arbeitsplätze?",
+              "optionen": [
+                "a) Ausschließlich Smartphones und Tablets",
+                "b) Nur Geräte mit Touchscreen",
+                "c) Digitale, vernetzte Einheiten, die auch eingebaute Kleinstcomputer in Maschinen umfassen können",
+                "d) Geräte, die ausschließlich für private Zwecke genutzt werden"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Warum ist die Auswahl geeigneter Anwendersoftware laut IKU eine besondere Herausforderung?",
+              "optionen": [
+                "a) Weil es gesetzlich nur wenige zugelassene Programme gibt.",
+                "b) Weil der Markt mit mehreren zehntausend verschiedenen Angeboten sehr unübersichtlich ist.",
+                "c) Weil alle Programme dieselben Funktionen bieten.",
+                "d) Weil Software immer an spezifische Hardware gebunden ist."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was sagt ein Thin Client zu einem Zero Client?",
+              "optionen": [
+                "a) 'Du bist ja noch dünnhäutiger als ich!'",
+                "b) 'Ich habe wenigstens noch ein bisschen lokalen Speicher.'",
+                "c) 'Ohne Server sind wir beide nur hübsche Briefbeschwerer.'",
+                "d) 'Lass uns einen Server klauen und selbstständig werden!'"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm13":{
+        "(2) Übersicht marktgängiger IT-Systeme":{
+          "lerninhalt": [
+            "Die folgende Tabelle bietet einen ersten Überblick über marktgängige IT-Systeme, IT-Komponenten und deren Unterscheidungsmerkmale. In den nachfolgenden Kapiteln werden einzelne Komponenten wie Hauptplatine, Prozessor, Festplatte, Monitor, Tastatur, Drucker und Scanner detaillierter behandelt.",
+            "KRITERIUM: Konfiguration. Unterscheidung: Standardsysteme (für den gewöhnlichen Gebrauch mit Standardkonfiguration) und speziell konfigurierte Systeme (für einen speziellen oder besonderen Gebrauch erstellt und eingestellt).",
+            "KRITERIUM: Aufgaben. Unterscheidung: Desktopsysteme, Laptops und Notebooks als Standardsysteme; leistungsstarke Workstations; Server (Dienstleistungssysteme in der Vernetzung); Embedded Systems (in Maschinen und Anlagen eingebettete IT-Systeme) und IoT (Internet of Things).",
+            "KRITERIUM: Einsatz privat. Einsatzzwecke: Office-Anwendungen, IT-Kommunikation, Hobbybereiche (z.B. elektronische Spiele, Vereinsanwendungen), Smart-Home-Anwendungen.",
+            "KRITERIUM: Einsatz in Unternehmen. Einsatzzwecke: Office und Management, sowie Einsatz nach Unternehmensbereichen: Forschung und Entwicklung, Beschaffung, Produktion, Handel und Vertrieb, Lagerhaltung und Logistik, Service, Personalwesen/Human Resources, Schulung/Training, Dienstleistung, Verwaltung, allgemeine Infrastruktur, Gebäudemanagement und IT.",
+            "KRITERIUM: Bestandteile des IT-Systems. Diese umfassen:",
+            "  * Hardware: Zentraleinheit, Speichereinheiten, Kommunikationseinheiten, Peripherieeinheiten.",
+            "  * Firmware: BIOS (fest eingebaut), Systemsoftware, Utilities, Programmiersprachen.",
+            "  * Software: Standardsoftware, Anwendungssoftware und Apps, Branchensoftware, Individualsoftware.",
+            "KRITERIUM: Funktionen. Typische Systemarten sind: Betriebssysteme, Anwendungssysteme, Informationssysteme, Kommunikationssysteme, Verwaltungssysteme, Steuerungssysteme, Datenverwaltungssysteme, Sicherheitssysteme und weitere.",
+            "KRITERIUM: Konfiguration. Unterscheidung: Standardsysteme (für gewöhnlichen Gebrauch) und speziell konfigurierte Systeme.",
+            "KRITERIUM: Größe. Unterscheidung nach Systemgröße: Mikrocomputersysteme, Großrechner bzw. Mainframe-Computer, Hochleistungssysteme (Supercomputer).",
+            "KRITERIUM: Vernetzung. Unterscheidung: Einfache Systeme, Einplatzsysteme (eventuell über WLAN oder Bluetooth vernetzt), vernetzte Systeme und Mehrplatzsysteme verkabelt im LAN (Local Area Network), online über WLAN.",
+            "KRITERIUM: Ausdehnung des Netzwerkes.",
+            "Ein großes Computernetzwerk über Länder und Kontinente wird als Wide Area Network (WAN) bezeichnet. Ein Netzwerk über Städte und Regionen heißt Metropolitan Area Network (MAN). Eine Vernetzung von IT-Systemen, die auf einen lokalen Bereich vor Ort (Betrieb, Behörde, Einrichtung, Haushalt) beschränkt ist, wird als Local Area Network (LAN) bezeichnet.",
+            "Ein LAN kann bis zu 1.000 angeschlossene Systeme umfassen und kann sowohl kabelbasiert als auch kabellos realisiert werden. Ein WLAN (Wireless Local Area Network) ist ein Funknetzwerk nach dem IEEE-802.11x-Standard, das einfachen Netzzugang für mobile Endgeräte wie Notebooks, Tablets oder Smartphones ermöglicht und im Ausland oft als Wi-Fi (Wireless Fidelity) bezeichnet wird[citation:6].",
+            "KRITERIUM: Nach Nutzungs-/Lizenzmodell allgemein. Unterscheidung:",
+            "  * On-Premises (On-Prem): Installation, Lizenzierung, Anwendung und Management des Rechenzentrums (Servers) oder Computers vor Ort.",
+            "  * Cloud: Vernetzung mit Rechenzentren und Diensten über das Internet. Installation, Lizenzierung und Management erfolgen über ferne Dienstleister (Cloudanbieter).",
+            "KRITERIUM: Softwarelizenzen. Unterscheidung verschiedener Lizenzmodelle:",
+            "  * Proprietäre Software: Kommerzielle Software, deren Nutzungslizenz individuell erworben werden muss. Änderung und Weiterverbreitung sind verboten. Oft existieren ergänzende Versionen wie Freeware, Shareware oder Demoversionen zu Werbezwecken.",
+            "  * Freeware: Häufig kommerzielle Software, deren Weiterverbreitung erlaubt, deren Veränderung (da Quellcode nicht verfügbar) aber verboten ist. Enthält oft eingeschränkte Funktionen.",
+            "  * Shareware: In der Regel kommerzielle Software, die zur Weiterverbreitung erlaubt ist, jedoch häufig mit der Bedingung verknüpft wird, sich bei längerfristiger Benutzung zu registrieren und Lizenzgebühren zu entrichten. Quellcode ist nicht verfügbar.",
+            "  * Open-Source-Software: Software mit offenem Quellcode, der verändert, genutzt und weitergegeben werden kann. Geld wird vor allem mit Beratung, Support und ergänzender Programmierung verdient. Entwickler arbeiten oft freiwillig in einer Community mit.",
+            "  * Public-Domain-Software: Urheberrechtsfreie oder gemeinfreie Software, die ohne Restriktionen genutzt werden darf. Der Quellcode ist eventuell nicht verfügbar.",
+            "KRITERIUM: Spezielle Systeme. Beispiele: Cloudsysteme, KI-Systeme (künstliche Intelligenz bzw. AI), Big-Data-Systeme, ERP-Systeme, Datenbanksysteme, Datenschutz- und IT-Sicherheitssysteme, Hochverfügbarkeitssysteme, Lernsysteme, Datensicherungssysteme und andere.",
+            "KRITERIUM: Infos. Quellen für weitere Informationen:",
+            "  * Vergleichsportale (z.B., www.capterra.com.de, www.it-bestenliste.de)",
+            "  * IT-Anbieter, wie Systemhäuser oder große Anbieter (z.B., Dell, HP, Lenovo)",
+            "  * Fachportale (z.B., www.administrator.de, www.fachinformatiker.de, www.golem.de, www.ip-insider.de, www.bigdata-insider.de, www.bitkom.de)",
+            "  * Fachverlage mit Praxistipps (z.B., www.fachzeitungen.de)"
+          ],
+          "fragen": [
+            {
+              "frage": "Was ist der Hauptunterschied zwischen einem 'Standardsystem' und einem 'speziell konfigurierten System'?",
+              "optionen": [
+                "a) Der Preis",
+                "b) Die Farbe des Gehäuses",
+                "c) Ein Standardsystem ist für den gewöhnlichen Gebrauch, ein speziell konfiguriertes für besondere Anforderungen",
+                "d) Der Hersteller"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "In welche drei Hauptkategorien werden die 'Bestandteile eines IT-Systems' unterteilt?",
+              "optionen": [
+                "a) Einheit, Vielfalt, Komplexität",
+                "b) Hardware, Firmware, Software",
+                "c) Eingabe, Verarbeitung, Ausgabe",
+                "d) Kauf, Miete, Leasing"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches der folgenden Netzwerke hat die größte geografische Ausdehnung?",
+              "optionen": [
+                "a) Personal Area Network (PAN)",
+                "b) Local Area Network (LAN)",
+                "c) Metropolitan Area Network (MAN)",
+                "d) Wide Area Network (WAN)"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Welches Lizenzmodell zeichnet sich durch einen offenen Quellcode aus, der verändert und weitergegeben werden darf?",
+              "optionen": [
+                "a) Proprietäre Software",
+                "b) Freeware",
+                "c) Shareware",
+                "d) Open-Source-Software"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Welche Art von IT-System wird direkt in Maschinen oder Anlagen eingebettet?",
+              "optionen": [
+                "a) Desktop-System",
+                "b) Workstation",
+                "c) Server",
+                "d) Embedded System"
+              ],
+              "antwort": "d"
+            },
+            {
+              "frage": "Was wird typischerweise unter dem Begriff 'Firmware' verstanden? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Das BIOS, das fest in der Hardware eingebaut ist",
+                "b) Eine Standard-Office-Anwendung wie eine Textverarbeitung",
+                "c) Systemnahe Software und Utilities",
+                "d) Eine individualisierte Branchenlösung"
+              ],
+              "antwort": ["a", "c"]
+            },
+            {
+              "frage": "Ein Unternehmen hostet seine Server und Anwendungen im eigenen Rechenzentrum. Welches Nutzungsmodell nach IKU liegt hier vor?",
+              "optionen": [
+                "a) Cloud",
+                "b) Hybrid",
+                "c) On-Premises (On-Prem)",
+                "d) Serverless"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche Aussage zu Wireless Local Area Networks (WLAN) ist nach IKU korrekt?",
+              "optionen": [
+                "a) Sie basieren auf dem Ethernet-Standard IEEE 802.3.",
+                "b) Sie werden im Ausland auch als Wi-Fi (Wireless Fidelity) bezeichnet[citation:6].",
+                "c) Sie sind grundsätzlich schneller und sicherer als kabelgebundene LANs.",
+                "d) Sie können keine mobilen Endgeräte wie Smartphones anbinden."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Zu welchem der aufgeführten Kriterien für IT-Systeme gehören 'ERP-Systeme' und 'Datenbanksysteme'?",
+              "optionen": [
+                "a) Konfiguration",
+                "b) Spezielle Systeme",
+                "c) Einsatz privat",
+                "d) Bestandteile des IT-Systems"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Ein 'KI-System' fällt laut IKU-Übersicht in die Kategorie der 'Speziellen Systeme'. Wofür steht die Abkürzung 'KI' in diesem Zusammenhang?",
+              "optionen": [
+                "a) Kundenintegration",
+                "b) Künstliche Intelligenz",
+                "c) Komplexe Infrastruktur",
+                "d) Kern-IT"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was antwortet ein IT-System, wenn man es fragt, ob es etwas mit Cloud am Hut hat?",
+              "optionen": [
+                "a) 'Nur mein Wolkenspeicher ist voll.'",
+                "b) 'Ich steh' eher auf Festplattenromantik.'",
+                "c) 'Mein Lebenssinn ist On-Premises.'",
+                "d) 'Ich bin in einer festen Beziehung... mit meinem Server-Schrank.'"
+              ],
+              "antwort": "d"
+            }
+          ]
+        }
+      },
+      "lm14":{
+        "(3) Fachportale und Recherchen":{
+          "lerninhalt": [
+            "Wie bereits in den vorherigen Kapiteln betont wurde, ist es wichtig, sich mittels Recherchen auf den neuesten Stand der Technik und des Wissens zu bringen. Für Fachinformatiker ist die regelmäßige Nutzung aktueller Fachportale und Recherchequellen eine zentrale berufliche Kompetenz.",
+            "Aktuell geeignete Fachportale für die Themen Computer, IT-Systemtechnik und verwandte Gebiete sind im Internet vielfältig verfügbar. Beispiele für solche Portale sind unter anderem: www.golem.de/ticker, www.beliebte-foren.de, www.userbenchmark.com oder www.channelpartner.de. Diese Liste ist nicht abschließend und dient als Ausgangspunkt für eigene Recherchen.",
+            "Die nachfolgende Tabelle fasst eine strukturierte Auswahl an Informationsquellen und Werkzeugen für die IT-Praxis zusammen. Der Stand der aufgeführten Beispiele ist der 31.03.2020, was die fortwährende Notwendigkeit unterstreicht, die Aktualität der Quellen eigenständig zu überprüfen.",
+            "KATEGORIE: Information und Recherche. Diese umfasst Fachportale, Blogs, Zeitschriften, Testberichte, Foren, Verbände und IT-Werbung. Beispiele: www.beliebte-foren.de, www.bitkom.org, www.bitmi.de, www.channelpartner.de, www.cio.de, www.computerbase.de, www.drwindows.de, www.expertentesten.de, www.fachinformatiker.de, www.fachzeitschriften.de, www.golem.de, www.giga.de, www.hardwareluxx.de, www.hardwarevergleich24.de, www.heise.de, www.informatikerboard.de, www.it-business.de, www.it-zoom.de, www.itwissen.info, www.pc-erfahrung.de, www.pcgameshardware.de, www.softguide.de, www.softwarecheck.de, www.tecchannel.de, www.tweakpc.de.",
+            "KATEGORIE: Hardware-Test-Diagnosetools. Diese umfassen Diagnoseprogramme sowie Check- und Monitoringsysteme zum Testen von Hardware-Komponenten. Beispiele für zu testende Parameter sind: CPU-Leistung, Energieverbrauch, Temperaturen und Systemstabilität.",
+            "Konkrete Beispiele für solche Diagnose- und Monitoring-Tools sind unter anderem: hwinfo, pc-wizard, speccy. Eine Informationsquelle für solche Tools ist beispielsweise die Website www.wintotal.de. Diese Tools sind entscheidend für die Fehleranalyse, Leistungsbewertung und Wartung von IT-Systemen.",
+            "Für die fortlaufende berufliche Entwicklung ist es unerlässlich, die genannten Quellen und Tools nicht nur zu kennen, sondern auch kritisch zu bewerten und ihren effektiven Einsatz in der täglichen Praxis zu üben."
+          ],
+          "fragen": [
+            {
+              "frage": "Welche der folgenden Aussagen beschreibt am besten den Zweck der im IKU-Material genannten 'Fachportale' und 'Hardware-Test-Diagnosetools'?",
+              "optionen": [
+                "a) Sie dienen primär der Unterhaltung in der Freizeit.",
+                "b) Sie sind notwendig, um sich auf den neuesten Stand der Technik zu bringen und IT-Systeme zu analysieren.",
+                "c) Sie ersetzen die praktische Ausbildung vollständig.",
+                "d) Sie werden ausschließlich von Software-Entwicklern genutzt."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine zentrale berufliche Anforderung an Fachinformatiker, die im ersten Satz des IKU-Textes betont wird?",
+              "optionen": [
+                "a) Die Programmierung eigener Betriebssysteme.",
+                "b) Die regelmäßige Aktualisierung des Wissensstands durch Recherchen.",
+                "c) Der Verkauf von IT-Hardware.",
+                "d) Die Teilnahme an allen verfügbaren Online-Foren."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches der folgenden Werkzeuge würde am ehesten zur Kategorie 'Hardware-Test-Diagnosetools' gehören?",
+              "optionen": [
+                "a) Ein Textverarbeitungsprogramm wie Microsoft Word",
+                "b) Ein Programm zur Messung der CPU-Temperatur und -Auslastung (z.B. HWInfo)",
+                "c) Ein Webbrowser wie Google Chrome",
+                "d) Ein E-Mail-Client wie Microsoft Outlook"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Warum ist der im Text genannte Stand (31.03.2020) für die Liste der Informationsquellen besonders wichtig zu beachten?",
+              "optionen": [
+                "a) Weil alle danach erstellten Websites unzuverlässig sind.",
+                "b) Weil sich die Internet-Adressen (URLs) von Websites nie ändern.",
+                "c) Weil er die Notwendigkeit unterstreicht, die Aktualität und Verfügbarkeit von Quellen eigenständig zu überprüfen.",
+                "d) Weil nur Quellen von vor diesem Datum vertrauenswürdig sind."
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Welche der folgenden Aussagen zu den genannten Informationsquellen ist nach IKU-Angaben RICHTIG? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Die Liste der genannten Fachportale ist abschließend und vollständig.",
+                "b) Die Liste dient als Ausgangspunkt für eigene Recherchen.",
+                "c) Portale wie `www.heise.de` oder `www.golem.de` sind Beispiele für Fachportale.",
+                "d) Fachportale sind die einzige zulässige Informationsquelle für IT-Berufe."
+              ],
+              "antwort": ["b", "c"]
+            },
+            {
+              "frage": "Ein Auszubildender soll die Leistung und Stabilität eines neu zusammengebauten Servers überprüfen. Welche Art von aus dem IKU bekannten Werkzeugen sollte er primär einsetzen?",
+              "optionen": [
+                "a) Projektmanagement-Software",
+                "b) Hardware-Test-Diagnosetools",
+                "c) E-Commerce-Plattformen",
+                "d) Soziale Medien"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein typischer Anwendungsfall für Diagnosetools wie 'HWInfo' oder 'Speccy' in der IT-Systembetreuung?",
+              "optionen": [
+                "a) Die Erstellung von Angebotsdokumenten für Kunden.",
+                "b) Die Identifizierung überhitzter Komponenten oder die Überprüfung der installierten RAM-Kapazität.",
+                "c) Die Programmierung einer neuen Datenbank.",
+                "d) Die Verwaltung von Benutzerpasswörtern im Active Directory."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Zu welcher der beiden im IKU definierten Hauptkategorien (`Information und Recherche` oder `Hardware-Test-Diagnosetools`) gehört die Quelle `www.itwissen.info`?",
+              "optionen": [
+                "a) Hardware-Test-Diagnosetools",
+                "b) Information und Recherche",
+                "c) Weder noch",
+                "d) Beide Kategorien"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist ein wesentlicher Unterschied zwischen einem Fachportal (z.B. heise.de) und einem Hardware-Diagnosetool (z.B. HWInfo) in ihrer primären Funktion?",
+              "optionen": [
+                "a) Das Fachportal dient der Informationsbeschaffung und dem Wissenserwerb, das Diagnosetool der direkten Analyse und Überprüfung eines konkreten Systems.",
+                "b) Das Diagnosetool ist teurer in der Anschaffung.",
+                "c) Das Fachportal kann nur auf einem Windows-PC genutzt werden.",
+                "d) Es gibt keinen wesentlichen funktionalen Unterschied."
+              ],
+              "antwort": "a"
+            },
+            {
+              "frage": "Kompetenzcheck: Ein Kunde berichtet von sporadischen Systemabstürzen seines Arbeitsplatzrechners. Nennen Sie ausgehend von den IKU-Inhalten mindestens zwei konkrete Maßnahmen oder Werkzeugtypen, mit denen Sie als Fachinformatiker systematisch die Ursache eingrenzen würden.",
+              "optionen": [
+                "a) Den Rechner sofort neu aufsetzen, um Zeit zu sparen.",
+                "b) Den Kunden bitten, die Abstürze zu ignorieren.",
+                "c) Die Nutzung von Hardware-Diagnosetools zur Überwachung der CPU-Temperatur und zur Überprüfung des Arbeitsspeichers (RAM) auf Fehler.",
+                "d) Die Recherche in Fachforen oder Wissensdatenbanken nach bekannten Problemen mit der verwendeten Hardware-Komponenten oder Treibern."
+              ],
+              "antwort": ["c", "d"]
+            },
+            {
+              "frage": "Was sagt ein IT-System, wenn es seine Diagnosetools nicht finden kann?",
+              "optionen": [
+                "a) 'Ich fühle mich heute einfach nicht durchschaut.'",
+                "b) 'Ich habe mein Logbuch verlegt!'",
+                "c) 'Ohne meine Tools bin ich nur ein rätselhafter Kasten.'",
+                "d) 'Da liegt wohl ein Fehler in der Matrix vor.'"
+              ],
+              "antwort": "c"
+            }
+          ]
+        }
+      },
+      "lm15":{
+        "2.2.3 Das Leistungsportfolio im IT-Bereich präsentieren":{
+          "lerninhalt": [
+            "Ein Systemhaus ist ein Unternehmen, dessen Leistungsportfolio ausschließlich aus IT-Produkten und IT-Dienstleistungen besteht. In Unternehmen mit eigener IT-Abteilung fungieren die IT-Mitarbeiter als interne Dienstleister für die anderen Abteilungen. Die Mitarbeiter dieser Fachabteilungen sind somit die internen Kunden der IT.",
+            "Viele Anforderungen an IT-Mitarbeiter, ob im externen Systemhaus oder in der internen IT-Abteilung, sind daher ähnlich zu betrachten: Beide müssen kundenorientiert, lösungsorientiert und serviceorientiert arbeiten.",
+            "Das Leistungsportfolio eines typischen Systemhauses (hier am Beispiel IKU) umfasst verschiedene Fachbereiche, die viele Fachbegriffe enthalten. Diese Begriffe müssen zunächst verstanden oder recherchiert werden. Sie werden jedoch im beruflichen Alltag schnell geläufig.",
+            "Das Portfolio lässt sich in folgende Hauptkategorien und Dienstleistungen gliedern:",
+            "1. IT-Service:",
+            "   • IT-Service vor Ort in Unternehmen",
+            "   • IT-Betreuung für Unternehmen (Betreuung und Wartung)",
+            "   • IT-Management (umfassende Steuerung der IT-Infrastruktur)",
+            "   • IT-Outsourcing (Auslagerung von IT-Aufgaben an externe Dienstleister)",
+            "   • IT-Vertrieb & IT-Beschaffung",
+            "   • Help-Desk und IT-Support (1st/2nd Level Support)",
+            "2. Cloud-Hosting:",
+            "   • Cloud-Migration als Service (Unterstützung beim Umzug in die Cloud)",
+            "   • Businesshosting/Serverhosting",
+            "   • Managed-Hosting (verwaltetes Hosting)",
+            "   • Office-Lösungen für Unternehmen (z.B. Microsoft 365)",
+            "   • Hosting für Unternehmen",
+            "   • Hosted-Infrastrukturen (z.B. virtuelle Server, Storage)",
+            "   • Rechenzentrum Server Housing & Colocation (Unterbringung von Kundenservern)",
+            "   • Cloud-Backup-Speicher für Ihr Unternehmen",
+            "3. IT-Solutions und Expertise:",
+            "   • Business-IT-Solutions (branchenspezifische Lösungen)",
+            "   • Public-IT-Solutions (Lösungen für den öffentlichen Sektor)",
+            "   • Industrial-4.0-IT-Solution (Smart Factory / Industrie 4.0)",
+            "   • Digital Workplace-Solution (Moderne, digitale Arbeitsplatzumgebungen)",
+            "4. Server und Storage:",
+            "   • Optimierte Serversysteme und IT-Konzepte",
+            "   • Virtualisierte Server und Storage (Konsolidierung von Ressourcen)",
+            "   • Virtual Desktop Infrastructure (VDI) (Bereitstellung virtueller Desktops)",
+            "   • Hyperkonvergente Serversysteme (HCIS - integrierte Rechen-, Storage- und Netzwerkressourcen)",
+            "5. IT-Infrastrukturen:",
+            "   • Server- und Storage-Systeme",
+            "   • Standortvernetzung (VPN - Virtuelle Private Netzwerke)",
+            "   • Telefonanlagen & IP-Telefonie (Voice over IP)",
+            "   • Virtualisierung (von Servern, Desktops, Anwendungen)",
+            "6. IT-Beratung:",
+            "   • IT-Beratung Mittelstand",
+            "   • IT-Security Beratung und Management",
+            "   • IT-Innovationsberatung",
+            "   • DevOps-Solutions (Kultur, Praktiken und Tools für schnellere Softwareentwicklung und -auslieferung)",
+            "   • Communication & Collaboration Solutions (z.B. Unified Communications)",
+            "   • Financial Solutions (IT-Lösungen für Finanzabteilungen)",
+            "   • Remarketing-Solutions (Aufbereitung und Wiedervermarktung gebrauchter IT-Hardware)"
+          ],
+          "fragen": [
+            {
+              "frage": "Wie werden die Mitarbeiter anderer Abteilungen in einem Unternehmen aus Sicht der internen IT-Abteilung bezeichnet?",
+              "optionen": [
+                "a) Externe Dienstleister",
+                "b) Interne Kunden",
+                "c) IT-Partner",
+                "d) Anforderungssteller"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche grundlegende Gemeinsamkeit besteht laut IKU zwischen der Arbeit in einem externen Systemhaus und in einer internen IT-Abteilung?",
+              "optionen": [
+                "a) Sie verwenden identische Hardware.",
+                "b) Die Anforderungen an die Mitarbeiter sind in Bezug auf Kunden- und Serviceorientierung ähnlich.",
+                "c) Sie bieten ausschließlich Cloud-Dienstleistungen an.",
+                "d) Sie haben die gleiche Anzahl an Mitarbeitern."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Zu welcher Hauptkategorie des Systemhaus-Portfolios gehören Dienstleistungen wie 'Help-Desk und IT-Support' oder 'IT-Betreuung für Unternehmen'?",
+              "optionen": [
+                "a) Cloud-Hosting",
+                "b) IT-Solutions und Expertise",
+                "c) IT-Service",
+                "d) IT-Beratung"
+              ],
+              "antwort": "c"
+            },
+            {
+              "frage": "Was versteht man unter 'IT-Outsourcing', einem Service aus der Kategorie IT-Service?",
+              "optionen": [
+                "a) Der Verkauf von IT-Altgeräten.",
+                "b) Die Auslagerung von IT-Aufgaben oder -Prozessen an einen externen Dienstleister.",
+                "c) Die Beschaffung neuer Hardware aus dem Ausland.",
+                "d) Die Schulung von Mitarbeitern außerhalb des Unternehmens."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welche der folgenden Dienstleistungen fällt in die Kategorie 'Cloud-Hosting'?",
+              "optionen": [
+                "a) IT-Innovationsberatung",
+                "b) Server Housing & Colocation",
+                "c) Virtual Desktop Infrastructure (VDI)",
+                "d) Remarketing-Solutions"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Die Abkürzung 'VDI' steht im Portfolio für 'Virtual Desktop Infrastructure'. Was ist das Hauptziel dieser Technologie?",
+              "optionen": [
+                "a) Die physische Vernetzung von Druckern.",
+                "b) Die Bereitstellung und zentrale Verwaltung virtueller Desktop-Umgebungen für Benutzer.",
+                "c) Die Entwicklung von Computerspielen.",
+                "d) Die Absicherung von Gebäuden gegen Einbruch."
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Welches Schlagwort aus dem Portfolio beschreibt IT-Lösungen für die vernetzte, intelligente Fabrik der Zukunft?",
+              "optionen": [
+                "a) Digital Workplace",
+                "b) Industrial-4.0-IT-Solution (Smart Factory)",
+                "c) Business-IT-Solutions",
+                "d) DevOps-Solutions"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was ist eine typische Dienstleistung aus der Kategorie 'IT-Infrastrukturen'? (Mehrere Antworten möglich)",
+              "optionen": [
+                "a) Standortvernetzung (VPN)",
+                "b) IP-Telefonie",
+                "c) IT-Security Beratung",
+                "d) Cloud-Backup-Speicher"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "Kompetenzcheck: Ein mittelständisches Unternehmen möchte seine gesamte Server-Infrastruktur nicht mehr selbst betreiben, sondern an einen spezialisierten Dienstleister auslagern. Welche zwei Dienstleistungsbereiche aus dem IKU-Portfolio sind für dieses Vorhaben besonders relevant?",
+              "optionen": [
+                "a) IT-Service (speziell IT-Outsourcing)",
+                "b) Cloud-Hosting (speziell Managed-Hosting oder Server Housing)",
+                "c) IT-Beratung (speziell Financial Solutions)",
+                "d) Remarketing-Solutions"
+              ],
+              "antwort": ["a", "b"]
+            },
+            {
+              "frage": "Welcher Fachbegriff beschreibt integrierte Systeme, die Rechenleistung, Speicher und Netzwerk in einer einzigen, softwaredefinierten Einheit bündeln?",
+              "optionen": [
+                "a) Virtualisierte Server",
+                "b) Hyperkonvergente Serversysteme (HCIS)",
+                "c) Hosted-Infrastrukturen",
+                "d) Optimierte Serversysteme"
+              ],
+              "antwort": "b"
+            },
+            {
+              "frage": "Was antwortet ein Systemhaus, wenn es gefragt wird, ob es auch etwas anderes als IT macht?",
+              "optionen": [
+                "a) 'Kaffee kochen können wir auch ganz gut.'",
+                "b) 'Unser Portfolio ist bitweise vollständig.'",
+                "c) 'Wir denken nur in Nullen und Einsen.'",
+                "d) 'Dafür haben wir outsourct.'"
+              ],
+              "antwort": "b"
+            }
+          ]
+        }
       }   
 
     },
