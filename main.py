@@ -57,18 +57,18 @@ JSON_PATH = BASE_DIR / "lernmodule.json"
 
 def lade_lernmodule(json_path: Path) -> dict:
     try:
-        with json_path.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError as e:
-        raise FileNotFoundError(f"Die Datei {json_path} wurde nicht gefunden.") from e
-    except JSONDecodeError as e:
-        raise ValueError(f"Die Datei {json_path} enthält ungültiges JSON.") from e
+        with json_path.open("r", encoding="utf-8") as f:    #öffnet die JSON-Datei im Lesemodus mit UTF-8 Encoding, damit wir die Lernmodule-Daten laden können. Wenn die Datei nicht gefunden wird, wird eine FileNotFoundError mit einer benutzerfreundlichen Fehlermeldung ausgelöst. Wenn die Datei ungültiges JSON enthält, wird eine ValueError mit einer benutzerfreundlichen Fehlermeldung ausgelöst.
+            return json.load(f)                             #lädt die JSON-Daten aus der Datei und gibt sie als dict zurück, damit wir sie in der App verwenden können. Wenn die Datei ungültiges JSON enthält, wird eine JSONDecodeError ausgelöst, die wir abfangen und in eine ValueError mit einer benutzerfreundlichen Fehlermeldung umwandeln.
+    except FileNotFoundError as e:                          #wenn die Datei nicht gefunden wird, z.B. weil sie fehlt oder der Pfad falsch ist, fangen wir die FileNotFoundError ab und werfen eine neue FileNotFoundError mit einer benutzerfreundlichen Fehlermeldung, damit der Nutzer weiß, dass die Datei fehlt und die App nicht gestartet werden kann.
+        raise FileNotFoundError(f"Die Datei {json_path} wurde nicht gefunden.") from e  #wir verwenden "from e", damit die ursprüngliche Fehlermeldung (z.B. "No such file or directory") in der neuen Fehlermeldung enthalten ist, damit der Nutzer mehr Informationen über den Fehler bekommt.
+    except JSONDecodeError as e:                                                        #wenn die Datei ungültiges JSON enthält, z.B. weil sie beschädigt ist oder nicht richtig formatiert ist, fangen wir die JSONDecodeError ab und werfen eine neue ValueError mit einer benutzerfreundlichen Fehlermeldung, damit der Nutzer weiß, dass die Datei ungültiges JSON enthält und die App nicht gestartet werden kann.
+        raise ValueError(f"Die Datei {json_path} enthält ungültiges JSON.") from e      #wir verwenden "from e", damit die ursprüngliche Fehlermeldung (z.B. "Expecting value") in der neuen Fehlermeldung enthalten ist, damit der Nutzer mehr Informationen über den Fehler bekommt.
     
-daten = lade_lernmodule(JSON_PATH)
+daten = lade_lernmodule(JSON_PATH)                          #lädt die Lernmodule-Daten aus der JSON-Datei, damit wir sie in der App verwenden können. Wenn die Datei fehlt oder ungültiges JSON enthält, wird eine Fehlermeldung angezeigt und die App wird nicht gestartet.
 
-def clean_titel(titel_roh: str) -> str:
+def clean_titel(titel_roh: str) -> str:                     
     # entfernt führende Nummern wie "1 - " oder "8.1 - " oder "9.0.0 - "
-    return re.sub(r"^\s*\d+(?:\.\d+)*\s*-\s*", "", titel_roh).strip()
+    return re.sub(r"^\s*\d+(?:\.\d+)*\s*-\s*", "", titel_roh).strip()   
 
 #------------------------------------------------------------------------------------------------
 
@@ -171,74 +171,74 @@ class LernApp:
 
     # -------------------- View 2: Module (lmXX) --------------------
     def _zeige_module(self) -> None:
-        self._clear(self.frame_module)
-        self._show_only(self.frame_module)
+        self._clear(self.frame_module)  #leert den Module-Frame, damit wir ihn neu befüllen können, falls wir von einer anderen Ansicht zurückkommen
+        self._show_only(self.frame_module)  #zeigt nur den Module-Frame an, damit er sichtbar ist und die anderen Frames versteckt sind
 
         ttk.Label(
             self.frame_module,
             text=f"Lernfeld {self.current_lf_code} - {self.current_lf_titel}",
             font=("Segoe UI", 12, "bold")
-        ).pack(anchor="w", pady=(0, 10))
+        ).pack(anchor="w", pady=(0, 10))    #Überschrift für die Module-Ansicht, zeigt den Code und Titel des aktuell ausgewählten Lernfelds an, z.B. "Lernfeld 01 - Grundlagen der Elektrotechnik"
 
-        sf = ScrollableFrame(self.frame_module)
-        sf.pack(fill="both", expand=True)
+        sf = ScrollableFrame(self.frame_module) #erstellt einen ScrollableFrame, damit wir eine scrollbare Liste von Modulen haben, falls es viele gibt
+        sf.pack(fill="both", expand=True)       #lässt den ScrollableFrame das gesamte Frame ausfüllen und mit ihm wachsen
 
-        module_info = ermittle_module_fuer_lernfeld(self.daten, self.current_lf_code or "00", skip_lm01=True)
+        module_info = ermittle_module_fuer_lernfeld(self.daten, self.current_lf_code or "00", skip_lm01=True)   #ermittelt die Module-Informationen für das aktuell ausgewählte Lernfeld als Liste von (lm_key, titel), z.B. [("lm02", "Grundlagen der Elektrizität"), ("lm03", "Elektrische Größen und Einheiten"), ...]. skip_lm01=True, weil lm01 das Thema/Überschrift des Lernfeldes ist und nicht wirklich ein Modul.
 
-        if not module_info:
-            ttk.Label(sf.inner, text="Keine Module (lmXX) gefunden.").pack(anchor="w", pady=(0, 10))
+        if not module_info:                         #wenn keine Module gefunden wurden, z.B. weil das Lernfeld leer ist oder nur lm01 enthält, zeigen wir eine Info anstatt Buttons an
+            ttk.Label(sf.inner, text="Keine Module (lmXX) gefunden.").pack(anchor="w", pady=(0, 10))    #zeigt eine Info an, dass keine Module gefunden wurden, damit der Nutzer weiß, dass es hier nichts zu lernen oder testen gibt
         else:
-            for lm_key, lm_titel in module_info:
+            for lm_key, lm_titel in module_info:    #   geht alle Module durch, z.B. lm_key = "lm02", lm_titel = "Grundlagen der Elektrizität"
                 ttk.Button(
                     sf.inner,
                     text=f"{lm_key} - {lm_titel}",
                     command=lambda k=lm_key, t=lm_titel: self._on_modul_click(k, t)
-                ).pack(fill="x", pady=4)
+                ).pack(fill="x", pady=4)                #erstellt für jedes Modul einen Button mit dem Text "lm_key - lm_titel", z.B. "lm02 - Grundlagen der Elektrizität". Beim Klick auf den Button wird die Funktion _on_modul_click mit den entsprechenden lm_key und lm_titel als Argumente aufgerufen, damit wir die Aktionen-Ansicht für dieses Modul anzeigen können.
 
-        ttk.Button(self.frame_module, text="Zurück", command=self._zeige_lernfelder).pack(anchor="w", pady=(12, 0))
+        ttk.Button(self.frame_module, text="Zurück", command=self._zeige_lernfelder).pack(anchor="w", pady=(12, 0))   #erstellt einen Zurück-Button, der den Nutzer zurück zur Lernfelder-Ansicht bringt, damit er ein anderes Lernfeld auswählen kann
 
-    def _on_modul_click(self, lm_key: str, lm_titel: str) -> None:
-        self.current_lm_key = lm_key
-        self.current_lm_titel = lm_titel
-        self._zeige_actions()
+    def _on_modul_click(self, lm_key: str, lm_titel: str) -> None:  #wenn ein Modul-Button geklickt wird, speichern wir den lm_key und lm_titel des ausgewählten Moduls, damit wir sie in der Aktionen-Ansicht anzeigen können, und zeigen dann die Aktionen-Ansicht an
+        self.current_lm_key = lm_key                                #speichert den lm_key des aktuell ausgewählten Moduls, z.B. "lm02", damit wir ihn in der Aktionen-Ansicht anzeigen können
+        self.current_lm_titel = lm_titel                            #speichert den lm_titel des aktuell ausgewählten Moduls, z.B. "Grundlagen der Elektrizität", damit wir ihn in der Aktionen-Ansicht anzeigen können
+        self._zeige_actions()                                       #zeigt die Aktionen-Ansicht an, damit der Nutzer die Optionen Lernen/Test/Zurück für das ausgewählte Modul sieht und auswählen kann
 
     # -------------------- View 3: Aktionen (Lernen/Test/Zurück) --------------------
-    def _zeige_actions(self) -> None:
-        self._clear(self.frame_actions)
-        self._show_only(self.frame_actions)
+    def _zeige_actions(self) -> None:                       #zeigt die Aktionen-Ansicht an, in der die Optionen Lernen/Test/Zurück für das aktuell ausgewählte Modul angezeigt werden. Beim Klick auf Lernen oder Test wird eine Info-Box angezeigt (später: Lernmodus/Testmodus starten). Beim Klick auf Zurück wird die Module-Ansicht für das aktuelle Lernfeld angezeigt.
+        self._clear(self.frame_actions)                     #leert den Aktionen-Frame, damit wir ihn neu befüllen können, falls wir von einer anderen Ansicht zurückkommen
+        self._show_only(self.frame_actions)                 #zeigt nur den Aktionen-Frame an, damit er sichtbar ist und die anderen Frames versteckt sind
 
         ttk.Label(
             self.frame_actions,
             text=f"{self.current_lf_code} - {self.current_lf_titel}\n{self.current_lm_key} - {self.current_lm_titel}",
             font=("Segoe UI", 12, "bold")
-        ).pack(anchor="w", pady=(0, 12))
+        ).pack(anchor="w", pady=(0, 12))    #Überschrift für die Aktionen-Ansicht, zeigt den Code und Titel des aktuell ausgewählten Lernfelds und Moduls an, z.B. "01 - Grundlagen der Elektrotechnik\nlm02 - Grundlagen der Elektrizität"
 
-        btn_row = ttk.Frame(self.frame_actions)
-        btn_row.pack(anchor="w", fill="x")
+        btn_row = ttk.Frame(self.frame_actions) #erstellt einen Frame für die Buttons, damit wir sie in einer Zeile anordnen können, damit die Aktionen-Buttons Lernen/Test/Zurück nebeneinander statt untereinander angezeigt werden
+        btn_row.pack(anchor="w", fill="x")      #lässt den Button-Row-Frame die gesamte Breite ausfüllen, damit die Buttons sich gleichmäßig verteilen können
 
-        ttk.Button(btn_row, text="Lernen", command=self._start_lernen).pack(side="left", padx=(0, 8))
-        ttk.Button(btn_row, text="Test", command=self._start_test).pack(side="left", padx=(0, 8))
-        ttk.Button(btn_row, text="Zurück", command=self._zeige_module).pack(side="left")
+        ttk.Button(btn_row, text="Lernen", command=self._start_lernen).pack(side="left", padx=(0, 8))   #erstellt einen Lernen-Button, der die Funktion _start_lernen aufruft, wenn er geklickt wird, damit wir später den Lernmodus für das ausgewählte Modul starten können. Der Button wird links im Button-Row-Frame angeordnet und bekommt einen kleinen Abstand nach rechts (8 Pixel), damit er nicht direkt am nächsten Button klebt.
+        ttk.Button(btn_row, text="Test", command=self._start_test).pack(side="left", padx=(0, 8))       #erstellt einen Test-Button, der die Funktion _start_test aufruft, wenn er geklickt wird, damit wir später den Testmodus für das ausgewählte Modul starten können. Der Button wird links im Button-Row-Frame angeordnet und bekommt einen kleinen Abstand nach rechts (8 Pixel), damit er nicht direkt am nächsten Button klebt.
+        ttk.Button(btn_row, text="Zurück", command=self._zeige_module).pack(side="left")                #erstellt einen Zurück-Button, der die Funktion _zeige_module aufruft, wenn er geklickt wird, damit der Nutzer zurück zur Module-Ansicht für das aktuelle Lernfeld kommt. Der Button wird links im Button-Row-Frame angeordnet und bekommt keinen Abstand nach rechts, damit er direkt am nächsten Button klebt.
 
     def _start_lernen(self) -> None:
         # Hier später: Modul laden + Lernmodus starten
-        messagebox.showinfo("Lernen", f"Starte Lernen: {self.current_lm_key} - {self.current_lm_titel}")
+        messagebox.showinfo("Lernen", f"Starte Lernen: {self.current_lm_key} - {self.current_lm_titel}")    #zeigt eine Info-Box an, dass der Lernmodus für das aktuell ausgewählte Modul gestartet wird, damit der Nutzer eine Rückmeldung bekommt, dass seine Aktion erkannt wurde. Später soll hier der eigentliche Lernmodus gestartet werden, z.B. indem ein neues Fenster mit den Lerninhalten geöffnet wird.
 
     def _start_test(self) -> None:
         # Hier später: Testmodus starten
-        messagebox.showinfo("Test", f"Starte Test: {self.current_lm_key} - {self.current_lm_titel}")
+        messagebox.showinfo("Test", f"Starte Test: {self.current_lm_key} - {self.current_lm_titel}")        #zeigt eine Info-Box an, dass der Testmodus für das aktuell ausgewählte Modul gestartet wird, damit der Nutzer eine Rückmeldung bekommt, dass seine Aktion erkannt wurde. Später soll hier der eigentliche Testmodus gestartet werden, z.B. indem ein neues Fenster mit den Testfragen geöffnet wird.
 
 
 # ==============================================================================
 def main():
-    daten = lade_lernmodule(JSON_PATH)
+    daten = lade_lernmodule(JSON_PATH)      #lädt die Lernmodule-Daten aus der JSON-Datei, damit wir sie in der App verwenden können. Wenn die Datei fehlt oder ungültiges JSON enthält, wird eine Fehlermeldung angezeigt und die App wird nicht gestartet.
 
-    root = tk.Tk()
-    root.title("Lernfelder / Module")
+    root = tk.Tk()                          #erstellt das Hauptfenster der App, damit wir eine grafische Benutzeroberfläche haben, in der wir die Lernfelder, Module und Aktionen anzeigen können. Das Fenster wird später mit einem Titel versehen und die LernApp wird darin gestartet.
+    root.title("Lernfelder / Module")       #setzt den Titel des Hauptfensters auf "Lernfelder / Module", damit der Nutzer sofort weiß, worum es in der App geht, wenn er sie öffnet.
 
-    app = LernApp(root, daten)
+    app = LernApp(root, daten)              #erstellt eine Instanz der LernApp-Klasse und übergibt ihr das Hauptfenster und die geladenen Daten, damit die App initialisiert wird und die Lernfelder-Ansicht direkt angezeigt wird, wenn die App startet.
 
-    root.mainloop()
+    root.mainloop()                         #startet die Haupt-Event-Schleife der App, damit das Fenster angezeigt wird und auf Benutzerinteraktionen reagiert. Die App bleibt so lange geöffnet, bis der Nutzer das Fenster schließt.
 
 
 if __name__ == "__main__":
