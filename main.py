@@ -7,6 +7,7 @@ from tkinter import messagebox, ttk
 
 BASE_DIR = Path(__file__).resolve().parent
 JSON_PATH = BASE_DIR / "lernmodule.json"
+
 #==================================================================================================
 
 def lade_lernmodule(json_path: Path) -> dict:
@@ -19,6 +20,8 @@ def lade_lernmodule(json_path: Path) -> dict:
         raise ValueError(f"Die Datei {json_path} enthält ungültiges JSON.") from e
     
 daten = lade_lernmodule(JSON_PATH)
+
+#------------------------------------------------------------------------------------------------
 
 def ermittle_lernfelder(daten: dict) -> list[tuple[str, str]]:
     """Ermittelt die Lernfelder aus den geladenen Daten."""
@@ -33,3 +36,5 @@ def ermittle_lernfelder(daten: dict) -> list[tuple[str, str]]:
         ergebnis.append((lf_code, titel))
     ergebnis.sort(key=lambda x: x[0])  # Sortiert die Lernfelder nach der ID
     return ergebnis
+
+#------------------------------------------------------------------------------------------------
