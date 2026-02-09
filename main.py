@@ -80,34 +80,34 @@ def ermittle_lernfelder(daten: dict) -> list[tuple[str, str]]:  #erwartet dict, 
     for lf_key, lf_dict in lernfelder.items():                  #z.B. lf_key = "lernmoduleLF01", lf_dict = { "lm01": { "1 - Titel": {...} } }
         lf_code = lf_key.removeprefix("lernmoduleLF")  # z.B. "01"
         lm01 = lf_dict.get("lm01", {})                          #holt das dict unter "lm01", z.B. { "1 - Titel": {...} }
-        titel_roh = next(iter(lm01.keys()), f"Lernfeld {lf_code}")
-        titel = clean_titel(titel_roh)
-        ergebnis.append((lf_code, titel))
+        titel_roh = next(iter(lm01.keys()), f"Lernfeld {lf_code}") #holt den ersten Schlüssel aus lm01, z.B. "1 - Titel", oder falls lm01 leer ist, einen Fallback wie "Lernfeld 01"
+        titel = clean_titel(titel_roh)                          #bereinigt den Titel, z.B. "1 - Titel" -> "Titel"
+        ergebnis.append((lf_code, titel))                       #fügt das (code, titel) Paar zur Ergebnisliste hinzu
 
-    ergebnis.sort(key=lambda x: int(x[0]))
-    return ergebnis
+    ergebnis.sort(key=lambda x: int(x[0]))                      #sortiert die Ergebnisliste nach dem numerischen Wert des Codes, z.B. "01" -> 1, "02" -> 2
+    return ergebnis                                             #gibt die sortierte Liste von (code, titel) zurück, z.B. [("01", "Titel1"), ("02", "Titel2"), ...]
 
 #------------------------------------------------------------------------------------------------
-def ermittle_module_fuer_lernfeld(daten: dict, lf_code: str, skip_lm01: bool = True) -> list[tuple[str, str]]:
+def ermittle_module_fuer_lernfeld(daten: dict, lf_code: str, skip_lm01: bool = True) -> list[tuple[str, str]]: #erwartet dict, lf_code wie "01", gibt Liste von (lm_key, titel) zurück
     """
     Gibt Module eines Lernfelds als (lm_key, titel) zurück, z.B. ("lm02", "Grundlagen ...").
     skip_lm01=True, weil lm01 bei dir das Thema/Überschrift des Lernfeldes ist.
     """
-    lf_key = f"lernmoduleLF{lf_code}"
-    lf_dict = daten.get("Lernfelder", {}).get(lf_key, {})
+    lf_key = f"lernmoduleLF{lf_code}"                           #z.B. "lernmoduleLF01"
+    lf_dict = daten.get("Lernfelder", {}).get(lf_key, {})       #holt das dict für das Lernfeld, z.B. { "lm01": { "1 - Titel": {...} }, "lm02": { "1 - Titel": {...} }, ... }
 
-    module: list[tuple[str, str]] = []
-    for key, mod_dict in lf_dict.items():
-        if not key.startswith("lm"):
+    module: list[tuple[str, str]] = []                          #hier sammeln wir die (lm_key, titel) Paare der Module
+    for key, mod_dict in lf_dict.items():                       #z.B. key = "lm01", mod_dict = { "1 - Titel": {...} }
+        if not key.startswith("lm"):                            #nur Schlüssel betrachten, die mit "lm" beginnen, z.B. "lm01", "lm02", ... Alle anderen ignorieren (falls es welche gibt)
             continue
-        if skip_lm01 and key == "lm01":
+        if skip_lm01 and key == "lm01":                         #lm01 überspringen, weil es das Thema/Überschrift des Lernfeldes ist und nicht wirklich ein Modul,
             continue
 
-        titel_roh = next(iter((mod_dict or {}).keys()), key.upper())
-        titel = clean_titel(titel_roh)
-        module.append((key, titel))
+        titel_roh = next(iter((mod_dict or {}).keys()), key.upper())#holt den ersten Schlüssel aus mod_dict, z.B. "1 - Titel", oder falls mod_dict leer oder None ist, einen Fallback wie "LM02" (key.upper())
+        titel = clean_titel(titel_roh)                          #bereinigt den Titel, z.B. "1 - Titel" -> "Titel"
+        module.append((key, titel))                             #fügt das (lm_key, titel) Paar zur Module-Liste hinzu, z.B. ("lm02", "Grundlagen ...")
 
-    module.sort(key=lambda x: int(x[0][2:]))  # "lm02" -> 2
+    module.sort(key=lambda x: int(x[0][2:]))  # "lm02" -> 2     #sortiert die Module-Liste nach der numerischen Zahl im lm_key, z.B. "lm02" -> 2, "lm10" -> 10
     return module
 
 #------------------------------------------------------------------------------------------------
@@ -117,51 +117,51 @@ def ermittle_module_fuer_lernfeld(daten: dict, lf_code: str, skip_lm01: bool = T
 
 class LernApp:
     def __init__(self, root: tk.Tk, daten: dict):
-        self.root = root
-        self.daten = daten
+        self.root = root                                        #speichert die Referenz auf das Hauptfenster
+        self.daten = daten                                      #speichert die geladenen Daten aus der JSON-Datei                
 
-        self.current_lf_code: str | None = None
-        self.current_lf_titel: str | None = None
-        self.current_lm_key: str | None = None
-        self.current_lm_titel: str | None = None
+        self.current_lf_code: str | None = None #speichert den aktuell ausgewählten Lernfeld-Code, z.B. "01"
+        self.current_lf_titel: str | None = None    #speichert den Titel des aktuell ausgewählten Lernfelds, z.B. "Grundlagen der Elektrotechnik"
+        self.current_lm_key: str | None = None  #speichert den aktuell ausgewählten Modul-Key, z.B. "lm02"
+        self.current_lm_titel: str | None = None    #speichert den Titel des aktuell ausgewählten Moduls, z.B. "Grundlagen der Elektrizität"
 
-        self.container = ttk.Frame(root, padding=10)
-        self.container.pack(fill="both", expand=True)
+        self.container = ttk.Frame(root, padding=10)    #Haupt-Container, in dem die verschiedenen Frames (Ansichten) angezeigt werden. Alle Frames werden hier hineingepackt, aber immer nur eines wird sichtbar sein.
+        self.container.pack(fill="both", expand=True)   #Container füllt das Fenster und wächst mit ihm mit
 
         # Frames (Ansichten)
-        self.frame_lernfelder = ttk.Frame(self.container)
-        self.frame_module = ttk.Frame(self.container)
-        self.frame_actions = ttk.Frame(self.container)
+        self.frame_lernfelder = ttk.Frame(self.container)   #Frame für die Anzeige der Lernfelder
+        self.frame_module = ttk.Frame(self.container)       #Frame für die Anzeige der Module eines Lernfelds
+        self.frame_actions = ttk.Frame(self.container)      #Frame für die Anzeige der Aktionen (Lernen/Test/Zurück) eines Moduls
 
-        self._zeige_lernfelder()
+        self._zeige_lernfelder()                            #zeigt direkt die Lernfelder-Ansicht an, wenn die App startet
 
-    def _clear(self, frame: ttk.Frame) -> None:
-        for w in frame.winfo_children():
-            w.destroy()
+    def _clear(self, frame: ttk.Frame) -> None:             #entfernt alle Widgets aus einem Frame, damit wir ihn neu befüllen können
+        for w in frame.winfo_children():                    #geht alle direkten Kind-Widgets des Frames durch
+            w.destroy()                                     #zerstört jedes Widget, damit der Frame leer ist
 
-    def _show_only(self, frame: ttk.Frame) -> None:
-        for f in (self.frame_lernfelder, self.frame_module, self.frame_actions):
-            f.pack_forget()
-        frame.pack(fill="both", expand=True)
+    def _show_only(self, frame: ttk.Frame) -> None:         #zeigt nur den angegebenen Frame an und versteckt die anderen Frames, damit wir zwischen den Ansichten wechseln können
+        for f in (self.frame_lernfelder, self.frame_module, self.frame_actions):    #geht alle Frames durch
+            f.pack_forget()                                                         #versteckt jedes Frame, damit nur das gewünschte Frame sichtbar ist
+        frame.pack(fill="both", expand=True)                        #zeigt das angegebene Frame an, damit es sichtbar ist
 
     # -------------------- View 1: Lernfelder --------------------
 
-    def _zeige_lernfelder(self) -> None:
-        self._clear(self.frame_lernfelder)
-        self._show_only(self.frame_lernfelder)
+    def _zeige_lernfelder(self) -> None:                    #zeigt die Lernfelder-Ansicht an, in der alle Lernfelder als Buttons aufgelistet werden. Beim Klick auf ein Lernfeld wird die Module-Ansicht für dieses Lernfeld angezeigt.
+        self._clear(self.frame_lernfelder)                  #leert den Lernfelder-Frame, damit wir ihn neu befüllen können, falls wir von einer anderen Ansicht zurückkommen
+        self._show_only(self.frame_lernfelder)              #zeigt nur den Lernfelder-Frame an, damit er sichtbar ist und die anderen Frames versteckt sind
 
-        ttk.Label(self.frame_lernfelder, text="Lernfelder", font=("Segoe UI", 14, "bold")).pack(anchor="w", pady=(0, 10))
+        ttk.Label(self.frame_lernfelder, text="Lernfelder", font=("Segoe UI", 14, "bold")).pack(anchor="w", pady=(0, 10))   #Überschrift für die Lernfelder-Ansicht
 
-        sf = ScrollableFrame(self.frame_lernfelder)
-        sf.pack(fill="both", expand=True)
+        sf = ScrollableFrame(self.frame_lernfelder) #erstellt einen ScrollableFrame, damit wir eine scrollbare Liste von Lernfeldern haben, falls es viele gibt
+        sf.pack(fill="both", expand=True)           #lässt den ScrollableFrame das gesamte Frame ausfüllen und mit ihm wachsen
 
-        lernfelder_info = ermittle_lernfelder(self.daten)
-        for code, titel in lernfelder_info:
-            ttk.Button(
+        lernfelder_info = ermittle_lernfelder(self.daten)   #ermittelt die Lernfelder-Informationen als Liste von (code, titel), z.B. [("01", "Grundlagen der Elektrotechnik"), ("02", "Elektrische Energieverteilung"), ...]
+        for code, titel in lernfelder_info:                 #   geht alle Lernfelder durch, z.B. code = "01", titel = "Grundlagen der Elektrotechnik"
+            ttk.Button(                                     
                 sf.inner,
                 text=f"{code} - {titel}",
                 command=lambda c=code, t=titel: self._on_lernfeld_click(c, t)
-            ).pack(fill="x", pady=4)
+            ).pack(fill="x", pady=4)    #erstellt für jedes Lernfeld einen Button mit dem Text "code - titel", z.B. "01 - Grundlagen der Elektrotechnik". Beim Klick auf den Button wird die Funktion _on_lernfeld_click mit den entsprechenden code und titel als Argumente aufgerufen, damit wir die Module-Ansicht für dieses Lernfeld anzeigen können.
 
     def _on_lernfeld_click(self, code: str, titel: str) -> None:
         self.current_lf_code = code
